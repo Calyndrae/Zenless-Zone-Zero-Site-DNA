@@ -1,5 +1,5 @@
 {
- "at": "2026-10-04T01:51:51.370Z",
+ "at": "2026-10-04T02:58:18.680Z",
  "results": [
   {
    "name": "shell untouched: the original scripts and the mirror adapter are the only head scripts in the served file",
@@ -16,7 +16,7 @@
    "name": "news template rendered the handbook record",
    "ok": true,
    "detail": {
-    "ms": 6637
+    "ms": 6618
    }
   },
   {
@@ -25,7 +25,13 @@
    "detail": {
     "chapters": 41,
     "found": 42,
-    "missing": []
+    "missing": [
+     "scope",
+     "routes",
+     "structure",
+     "scaling",
+     "layers"
+    ]
    }
   },
   {
@@ -129,12 +135,40 @@
    "name": "the links to the mirror routes are in the handbook",
    "ok": true,
    "detail": {
-    "links": 540,
+    "links": 533,
     "sample": [
      "/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.pdf",
      "/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.md",
-     "#scope"
+     "#ch-scope"
     ]
+   }
+  },
+  {
+   "name": "the footer SDK renders the HoYoverse footer into the site footer (one #footer target, none captured by the article)",
+   "ok": true,
+   "detail": {
+    "targets": 1,
+    "inSiteFooter": true,
+    "crmInSiteFooter": true
+   }
+  },
+  {
+   "name": "client navigation to the home page: the handbook stylesheets are switched off, the home is full width, the footer is complete",
+   "ok": true,
+   "detail": {
+    "path": "/zh-cn/main",
+    "homeWidth": 1440,
+    "activeExtra": 0,
+    "hyFooter": true
+   }
+  },
+  {
+   "name": "back to the handbook: the stylesheets are switched on again and the specimens are styled",
+   "ok": true,
+   "detail": {
+    "path": "/zh-cn/news/7013/",
+    "activeExtra": 38,
+    "navHeight": 65
    }
   },
   {

@@ -1,10 +1,10 @@
 {
- "at": "2026-10-04T00:17:27.329Z",
+ "at": "2026-10-04T02:59:07.857Z",
  "results": [
   {
    "name": "home: loader finished from the archive",
    "ok": true,
-   "detail": "5464 ms"
+   "detail": "5368 ms"
   },
   {
    "name": "home: header, six sections and footer rendered",
