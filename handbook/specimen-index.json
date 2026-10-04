@@ -1,0 +1,282 @@
+[
+ {
+  "key": "header:header inner wrapper (nav + tools) — the bar itself is position:fixed, so its inner wrapper is embedded",
+  "id": "specimen-header-header-inner-wrapper-nav-tools-the-bar-itself-is-position-fixed-so-its-inner-wrapper-is-embedded",
+  "chapter": "header",
+  "label": "header inner wrapper (nav + tools) — the bar itself is position:fixed, so its inner wrapper is embedded",
+  "rootClass": "header-wrapper",
+  "staged": false
+ },
+ {
+  "key": "home-kv:home-kv (hero composition)",
+  "id": "specimen-home-kv-home-kv-hero-composition",
+  "chapter": "home-kv",
+  "label": "home-kv (hero composition)",
+  "rootClass": "home-kv",
+  "staged": false
+ },
+ {
+  "key": "home-character:home-character nav strip (one item)",
+  "id": "specimen-home-character-home-character-nav-strip-one-item",
+  "chapter": "home-character",
+  "label": "home-character nav strip (one item)",
+  "rootClass": "home-character__nav-item",
+  "staged": false
+ },
+ {
+  "key": "home-character:home-character active list item",
+  "id": "specimen-home-character-home-character-active-list-item",
+  "chapter": "home-character",
+  "label": "home-character active list item",
+  "rootClass": "home-character__list-item",
+  "staged": false
+ },
+ {
+  "key": "home-video:home-video summary block",
+  "id": "specimen-home-video-home-video-summary-block",
+  "chapter": "home-video",
+  "label": "home-video summary block",
+  "rootClass": "home-video__summary",
+  "staged": false
+ },
+ {
+  "key": "home-video:home-video nav thumbnail",
+  "id": "specimen-home-video-home-video-nav-thumbnail",
+  "chapter": "home-video",
+  "label": "home-video nav thumbnail",
+  "rootClass": "home-video__nav-item",
+  "staged": false
+ },
+ {
+  "key": "home-news:home-news banner (one slide)",
+  "id": "specimen-home-news-home-news-banner-one-slide",
+  "chapter": "home-news",
+  "label": "home-news banner (one slide)",
+  "rootClass": "home-news__banner-img",
+  "staged": false
+ },
+ {
+  "key": "home-world:home-world banner (one slide)",
+  "id": "specimen-home-world-home-world-banner-one-slide",
+  "chapter": "home-world",
+  "label": "home-world banner (one slide)",
+  "rootClass": "home-world__banner-img",
+  "staged": false
+ },
+ {
+  "key": "home-feature:section concept title",
+  "id": "specimen-home-feature-section-concept-title",
+  "chapter": "home-feature",
+  "label": "section concept title",
+  "rootClass": "section__concept-title",
+  "staged": false
+ },
+ {
+  "key": "footer:footer social bar",
+  "id": "specimen-footer-footer-social-bar",
+  "chapter": "footer",
+  "label": "footer social bar",
+  "rootClass": "footer__socialbar",
+  "staged": false
+ },
+ {
+  "key": "footer:back-to-top strip (footer__wrap)",
+  "id": "specimen-footer-back-to-top-strip-footer-wrap",
+  "chapter": "footer",
+  "label": "back-to-top strip (footer__wrap)",
+  "rootClass": "footer__wrap",
+  "staged": false
+ },
+ {
+  "key": "footer:subscription widget (footer-crm, CRM SDK)",
+  "id": "specimen-footer-subscription-widget-footer-crm-crm-sdk",
+  "chapter": "footer",
+  "label": "subscription widget (footer-crm, CRM SDK)",
+  "rootClass": "footer-crm",
+  "staged": false
+ },
+ {
+  "key": "footer:HoYoverse footer (hy-footer, footer SDK)",
+  "id": "specimen-footer-hoyoverse-footer-hy-footer-footer-sdk",
+  "chapter": "footer",
+  "label": "HoYoverse footer (hy-footer, footer SDK)",
+  "rootClass": "hy-footer-1DmxLu",
+  "staged": false
+ },
+ {
+  "key": "character:character info panel (active slide)",
+  "id": "specimen-character-character-info-panel-active-slide",
+  "chapter": "character",
+  "label": "character info panel (active slide)",
+  "rootClass": "character-info",
+  "staged": true
+ },
+ {
+  "key": "character:voice player",
+  "id": "specimen-character-voice-player",
+  "chapter": "character",
+  "label": "voice player",
+  "rootClass": "character-voice-player",
+  "staged": false
+ },
+ {
+  "key": "character:faction rail item",
+  "id": "specimen-character-faction-rail-item",
+  "chapter": "character",
+  "label": "faction rail item",
+  "rootClass": "side-camp-item",
+  "staged": false
+ },
+ {
+  "key": "video:video tab row",
+  "id": "specimen-video-video-tab-row",
+  "chapter": "video",
+  "label": "video tab row",
+  "rootClass": "video-tab",
+  "staged": false
+ },
+ {
+  "key": "video:video list item",
+  "id": "specimen-video-video-list-item",
+  "chapter": "video",
+  "label": "video list item",
+  "rootClass": "video-list__item",
+  "staged": false
+ },
+ {
+  "key": "video:pager",
+  "id": "specimen-video-pager",
+  "chapter": "video",
+  "label": "pager",
+  "rootClass": "mihoyo-pager-rich",
+  "staged": false
+ },
+ {
+  "key": "news:news tab row",
+  "id": "specimen-news-news-tab-row",
+  "chapter": "news",
+  "label": "news tab row",
+  "rootClass": "news-tab",
+  "staged": false
+ },
+ {
+  "key": "news:news list item",
+  "id": "specimen-news-news-list-item",
+  "chapter": "news",
+  "label": "news list item",
+  "rootClass": "news-list__item",
+  "staged": false
+ },
+ {
+  "key": "news:news tag",
+  "id": "specimen-news-news-tag",
+  "chapter": "news",
+  "label": "news tag",
+  "rootClass": "news-tag",
+  "staged": false
+ },
+ {
+  "key": "article:back button",
+  "id": "specimen-article-back-button",
+  "chapter": "article",
+  "label": "back button",
+  "rootClass": "news-detail-back",
+  "staged": true
+ },
+ {
+  "key": "article:article info bar",
+  "id": "specimen-article-article-info-bar",
+  "chapter": "article",
+  "label": "article info bar",
+  "rootClass": "news-detail__info",
+  "staged": false
+ },
+ {
+  "key": "world:world slide (active)",
+  "id": "specimen-world-world-slide-active",
+  "chapter": "world",
+  "label": "world slide (active)",
+  "rootClass": "world__slide-container",
+  "staged": false
+ },
+ {
+  "key": "world:world entry page container",
+  "id": "specimen-world-world-entry-page-container",
+  "chapter": "world",
+  "label": "world entry page container",
+  "rootClass": "world-detail-container",
+  "staged": false
+ },
+ {
+  "key": "mobile-shell:m-header (bar with logo, download, music and menu button)",
+  "id": "specimen-mobile-shell-m-header-bar-with-logo-download-music-and-menu-button",
+  "chapter": "mobile-shell",
+  "label": "m-header (bar with logo, download, music and menu button)",
+  "rootClass": "m-header-wrap",
+  "staged": false
+ },
+ {
+  "key": "mobile-shell:m-header menu panel",
+  "id": "specimen-mobile-shell-m-header-menu-panel",
+  "chapter": "mobile-shell",
+  "label": "m-header menu panel",
+  "rootClass": "m-header__menu",
+  "staged": false
+ },
+ {
+  "key": "mobile-home:m-home-kv",
+  "id": "specimen-mobile-home-m-home-kv",
+  "chapter": "mobile-home",
+  "label": "m-home-kv",
+  "rootClass": "m-home-kv",
+  "staged": false
+ },
+ {
+  "key": "mobile-home:m-home-character active item",
+  "id": "specimen-mobile-home-m-home-character-active-item",
+  "chapter": "mobile-home",
+  "label": "m-home-character active item",
+  "rootClass": "m-home-character__list-item",
+  "staged": false
+ },
+ {
+  "key": "mobile-home:m-section-nav",
+  "id": "specimen-mobile-home-m-section-nav",
+  "chapter": "mobile-home",
+  "label": "m-section-nav",
+  "rootClass": "character-page-tab__m",
+  "staged": true
+ },
+ {
+  "key": "mobile-pages:phone character block",
+  "id": "specimen-mobile-pages-phone-character-block",
+  "chapter": "mobile-pages",
+  "label": "phone character block",
+  "rootClass": "character-block",
+  "staged": true
+ },
+ {
+  "key": "mobile-pages:phone news list item",
+  "id": "specimen-mobile-pages-phone-news-list-item",
+  "chapter": "mobile-pages",
+  "label": "phone news list item",
+  "rootClass": "m-news-list__item",
+  "staged": false
+ },
+ {
+  "key": "mobile-pages:phone article container",
+  "id": "specimen-mobile-pages-phone-article-container",
+  "chapter": "mobile-pages",
+  "label": "phone article container",
+  "rootClass": "m-news-detail-container",
+  "staged": false
+ },
+ {
+  "key": "mobile-pages:phone world slide",
+  "id": "specimen-mobile-pages-phone-world-slide",
+  "chapter": "mobile-pages",
+  "label": "phone world slide",
+  "rootClass": "m-world__slide",
+  "staged": false
+ }
+]

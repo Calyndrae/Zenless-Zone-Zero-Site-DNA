@@ -15,7 +15,7 @@ export const chapters = [
     out.push(shot(K, 'phone home at 390 × 844'));
     out.push(shotIf('capture/interactions/mobile-menu.png', 'phone menu open'));
     out.push(spec(K, 'm-header (bar with logo, download, music and menu button)', 'm-header-wrap', 'The menu panel is a sibling in the DOM, shown by the menu button.'));
-    out.push(spec(K, 'm-header menu panel', 'm-header__menu', 'Full-screen menu with the route links.'));
+    out.push(spec(K, 'm-header menu panel', 'm-header__menu', 'Full-screen menu with the route links; the capture has it closed (inline display: none), the phone interactions chapter shows it open.'));
     out.push(cssBlock(rulesFor('m-header'), { max: 60 }));
     out.push(excerpt('349', 'muteBgm', 20));
     out.push(rule('Serve phones a separate route tree with its own components and stylesheets chosen by user agent, not a responsive reflow; keep the same data, store and API.'));

@@ -9,7 +9,7 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
-import { root, data, p, h, br, a, link, esc } from './handbook/lib.mjs';
+import { root, data, p, h, br, a, link, esc, setChapter, specimenIndex } from './handbook/lib.mjs';
 import { rewriteShell } from './build-mirror.mjs';
 const TITLE = 'Zenless Zone Zero website DNA — technical handbook (single page)';
 const chapters = []; for (const f of ['a', 'b', 'c', 'd', 'e', 'f']) { const file = join(root, 'tools/handbook/chapters-' + f + '.mjs'); if (existsSync(file)) chapters.push(...(await import('./handbook/chapters-' + f + '.mjs')).chapters); }
@@ -21,13 +21,14 @@ body += p('<strong>Downloadable editions:</strong> ' + a('PDF (printed handbook 
 body += h('CONTENTS', 'contents');
 body += chapters.map((c, i) => link(`${String(i + 1).padStart(2, '0')} / ${c.title}`, '#' + c.slug)).join('');
 const rendered = {}; const used = new Set();
-const render = (c, arg) => { try { return c.html(arg); } catch (e) { console.error('chapter', c.slug, e); return p('<strong>BUILD ERROR in chapter ' + esc(c.slug) + ':</strong> ' + esc(String(e.stack || e).slice(0, 400))); } };
+const render = (c, arg) => { setChapter(c.slug); try { return c.html(arg); } catch (e) { console.error('chapter', c.slug, e); return p('<strong>BUILD ERROR in chapter ' + esc(c.slug) + ':</strong> ' + esc(String(e.stack || e).slice(0, 400))); } };
 for (const c of chapters) if (!c.late) { rendered[c.slug] = render(c); for (const m of rendered[c.slug].matchAll(/class="([^"]*)"/g)) for (const cls of m[1].split(/\s+/)) { const block = cls.split('__')[0].replace(/--.*$/, ''); if (block && data.cssComponents[block]) used.add(block + '\u0000' + c.slug); } }
 const coverage = {}; for (const u of used) { const [comp, slug] = u.split('\u0000'); (coverage[comp] = coverage[comp] || []).push(slug); }
 const coverageDoc = { components: Object.keys(data.cssComponents).sort(), embedded: coverage, chapters: chapters.map(c => c.slug) };
 for (const c of chapters) if (c.late) rendered[c.slug] = render(c, coverageDoc);
 chapters.forEach((c, i) => { body += br() + h(`${String(i + 1).padStart(2, '0')} // ${c.title.toUpperCase()}`, c.slug) + rendered[c.slug] + link('↑ Back to contents', '#contents'); });
 writeFileSync(join(root, 'handbook/coverage.json'), JSON.stringify(coverageDoc, null, 1));
+writeFileSync(join(root, 'handbook/specimen-index.json'), JSON.stringify(specimenIndex, null, 1));
 const CONTENT = body;
 // --- the CMS record (what the site's own news-detail page will render)
 const apiIndex = JSON.parse(readFileSync(join(root, 'archive/api/index.json'), 'utf8'));

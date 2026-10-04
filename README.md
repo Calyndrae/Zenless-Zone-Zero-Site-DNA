@@ -62,12 +62,13 @@ The whole repository is the Pages site: `index.html` redirects to the handbook; 
 | `archive-originals.mjs [--budget-mb=450] [--pages=3]` | Downloads every depth-1 file, every content-API answer (lists, records, trees), the record media within the budget → `_nuxt/`, `archive/` |
 | `build-mirror.mjs` | Builds the mirror pages, `404.html`, `mirror/adapter.js` and the rewritten copies |
 | `build-handbook.mjs` (+ `handbook/chapters-*.mjs`, `handbook/lib.mjs`) | Builds the handbook record and the handbook shells on top of the mirror |
+| `measure-specimens.mjs` (`--fit`) | Measures every specimen of the built handbook in headless Chromium and writes `handbook/specimen-geometry.json` (window and offset for components the site positions absolutely or fixed); `--fit` rebuilds and re-measures until stable |
 | `build-doc.mjs` + `build-pdf.py` | Builds the printed edition (ReportLab, template geometry, three passes for verified page numbers, index, appendices) and the Markdown twin from the same chapters |
 | `verify.mjs`, `verify-mirror.mjs` | Headless verification of the handbook page and of the mirror on a plain static server |
 | `serve.mjs [port] [--host=0.0.0.0] [--allow=ip,ip]` | Local server (static files, directory index, 404.html fallback); optional LAN binding with a client-address allow list |
 | `write-docs.mjs` | Regenerates `CHUNK_MAP.md`, `COVERAGE.md`, `source/MODULE-MAP.md`, `analysis/DNA.md` |
 
-Rebuild everything from `tools/`: `node capture.mjs && node split-modules.mjs && node extract-css.mjs && node write-routes.mjs && node analyze-css.mjs && node css-components.mjs && node name-modules.mjs && node rename.mjs && node stage2.mjs && node beautify.mjs && node assets-index.mjs && node analyze-hover.mjs && node analyze-motion.mjs && node extract-components.mjs && node css-digest.mjs && node capture-interactions.mjs && node archive-originals.mjs && node build-mirror.mjs && node build-handbook.mjs && node verify-mirror.mjs && node verify.mjs && node build-doc.mjs && node write-docs.mjs`.
+Rebuild everything from `tools/`: `node capture.mjs && node split-modules.mjs && node extract-css.mjs && node write-routes.mjs && node analyze-css.mjs && node css-components.mjs && node name-modules.mjs && node rename.mjs && node stage2.mjs && node beautify.mjs && node assets-index.mjs && node analyze-hover.mjs && node analyze-motion.mjs && node extract-components.mjs && node css-digest.mjs && node capture-interactions.mjs && node archive-originals.mjs && node build-mirror.mjs && node build-handbook.mjs && node measure-specimens.mjs --fit && node verify-mirror.mjs && node verify.mjs && node build-doc.mjs && node write-docs.mjs`.
 
 ## Scope and limits
 
