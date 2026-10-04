@@ -1,0 +1,89 @@
+{
+ "component": "video",
+ "files": [
+  "1403.css"
+ ],
+ "classes": {
+  "video": "video"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".video",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin-top": "1rem",
+    "min-height": "100%",
+    "background": "url(/_nuxt/img/inner-top.224793e.png) no-repeat 0 -1rem/10.3rem auto",
+    "font-size": "0",
+    "overflow": "hidden"
+   },
+   "source": "/_nuxt/53d09dd.js #1403"
+  },
+  {
+   "selector": ".video .section__foot",
+   "media": [],
+   "declarations": {
+    "right": "-6.4rem",
+    "z-index": "-1"
+   },
+   "source": "/_nuxt/53d09dd.js #1403"
+  }
+ ],
+ "markup": "<section class=\"section section-video\"><div data-v-42ef7462=\"\" class=\"m-home-video\"><div data-v-42ef7462=\"\" class=\"m-section-nav font-num lg right\"><!----> <div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">影像资料\n</div> <div class=\"m-section-nav-en\">Video\n</div> <div class=\"m-section-nav-num\">03</div></div></div> <div data-v-42ef7462=\"\" class=\"m-home-video__banner\"><div data-v-42ef7462=\"\" class=\"swiper-container m-home-video__banner-list swiper-container-initialized swiper-container-horizontal swiper-container-ios\"> <div class=\"swiper-wrapper\" style=\"transform: translate3d(0px, 0px, 0px);\"><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide swiper-slide-active\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166539/8c54b33e11ced21e02e287fd613ac0ad_1768910775112389711.png\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide swiper-slide-next\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166499/889ae94d7390e04731843abffdceb2c7_2952697980857585486.png\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165988/ad152f6129dea180586aa889d62d4d7b_4247920906021777325.jpg\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165971/b919c91a9380adc85cf0fae5b6c76232_4223363178352705446.jpg\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165918/a1368cc758278c8ee8e50124e8fdb739_70223094452232321.png\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165752/a78735cb0ada756c173c1931db76ef11_1096891562939569551.png\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165725/6ed5fe07764b09c58ea1b8461973f4d1_9148148048953684717.png\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165492/1688c96579d9c2fccc798555cfd772a1_2369621170064064152.png\" alt=\"\" class=\"m-home-video__cover\"></div><div data-v-42ef7462=\"\" class=\"m-home-video__banner-item swiper-slide\" style=\"width: 363px;\"><img data-v-42ef7462=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165421/d64f034055ce317215263f4eec54c3b5_7242543046301738479.png\" alt=\"\" class=\"m-home-video__cover\"></div></div>    <span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div> <div data-v-42ef7462=\"\" class=\"m-home-video__action\"><img data-v-42ef7462=\"\" src=\"data:image/png;base64,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\n<!-- … truncated, 22212 chars total -->",
+ "markupPage": "m_zh-cn_main",
+ "markupClass": "video",
+ "appearsOn": [
+  "zh-cn_video"
+ ],
+ "computed": {
+  "video": {
+   "page": "zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 56.25,
+    "width": 1440,
+    "height": 1551.9375,
+    "top": 56.25,
+    "right": 1440,
+    "bottom": 1608.1875,
+    "left": 0
+   },
+   "text": "影像资料\n Video\n 03 Video\n        \n            最新\n           \n            版本PV\n     ",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "1551.94px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/inner-top.224793e.png\")",
+   "background-size": "579.375px",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "56.25px 0px 0px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   "0"
+  ],
+  "zIndex": [
+   "-1"
+  ],
+  "transitions": []
+ }
+}

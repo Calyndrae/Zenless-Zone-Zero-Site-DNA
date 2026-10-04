@@ -1,0 +1,72 @@
+{
+ "component": "character-info-word",
+ "files": [
+  "1330.css"
+ ],
+ "classes": {
+  "character-info-word": "character-info-word"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".character-info-word",
+   "media": [],
+   "declarations": {
+    "height": ".95rem",
+    "font-size": ".28rem",
+    "line-height": ".3rem"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  }
+ ],
+ "markup": "<div class=\"character-info-word\">「治安局秩序督察，赛维里安·洛威尔。不必寒暄了，现在情况如何？」</div>",
+ "markupPage": "zh-cn_character",
+ "markupClass": "character-info-word",
+ "appearsOn": [
+  "zh-cn_character"
+ ],
+ "computed": {
+  "character-info-word": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 675,
+    "y": 339.75,
+    "width": 562.5,
+    "height": 53.4375,
+    "top": 339.75,
+    "right": 1237.5,
+    "bottom": 393.1875,
+    "left": 675
+   },
+   "text": "「治安局秩序督察，赛维里安·洛威尔。不必寒暄了，现在情况如何？」",
+   "display": "block",
+   "width": "562.5px",
+   "height": "53.4375px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "15.75px",
+   "font-weight": "400",
+   "line-height": "16.875px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   ".28rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

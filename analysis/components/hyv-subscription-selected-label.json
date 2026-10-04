@@ -1,0 +1,52 @@
+{
+ "component": "hyv-subscription-selected-label",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-subscription-selected-label": "hyv-subscription-selected-label"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-selected-label",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-ms-flex": "0 0 100%",
+    "flex": "0 0 100%",
+    "font-weight": "500",
+    "margin-bottom": ".5em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-selected-label",
+   "media": [],
+   "declarations": {
+    "color": "var(--brand-button-outlined-enabled-element)",
+    "font-size": ".16em",
+    "font-weight": "400",
+    "line-height": "1.25em",
+    "padding-right": ".5625em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   ".16em"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

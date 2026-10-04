@@ -1,0 +1,101 @@
+{
+ "component": "header-wrapper",
+ "files": [
+  "673.css"
+ ],
+ "classes": {
+  "header-wrapper": "header-wrapper"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".header-wrapper",
+   "media": [],
+   "declarations": {
+    "width": "19.2rem",
+    "height": "100%",
+    "padding": "0 .56rem",
+    "margin": "0 auto",
+    "display": "flex",
+    "justify-content": "space-between",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header-wrapper img",
+   "media": [],
+   "declarations": {
+    "width": "100%"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  }
+ ],
+ "markup": "<div class=\"header-wrapper\"><div class=\"header-wrapper-lt\"><div class=\"header__logo lg\"><img src=\"/_nuxt/img/logo.1e072ee.png\" alt=\"miHoYo\" class=\"logo-big\" style=\"display: none;\"> <img src=\"https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2022/05/12/3328244ee4c186f6277acaa1a5ee0255_714129345908257824.png\" alt=\"miHoYo\" class=\"logo-sm\"></div> <div class=\"header__navbar-links\"><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>首页</span></div> <!----></nav><nav class=\"header__navbar-link header__navbar-link--active\"><div class=\"nav-content\"><span>角色介绍</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>影像资料\n</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>新闻资讯</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>设定档案</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content nav-content-more\"><span>更多</span></div> <div class=\"nav-content-sub\"><div class=\"nav-content-sub-item nav-content-sub-item-link\"><a href=\"https://zenless.hoyoverse.com/redemption\" target=\"_blank\">兑换码</a> <!----></div><div class=\"nav-content-sub-item nav-content-sub-item-link\"><a href=\"https://zenless.hoyoverse.com/payment?utm_source=zzzofficialweb&amp;utm_medium=nav\" target=\"_blank\">充值</a> <!----></div><div class=\"nav-content-sub-item nav-content-sub-item-link\"><a href=\"https://act.hoyolab.com/zzz/event/e20240601-guide-c0k2vt/index.html?game_biz=nap_global&amp;hyl_presentation_style=fullscreen&amp;hyl_auth_required=true&amp;hyl_hide_status_bar=true&amp;utm_source=napofficialweb&amp;utm_medium=nav&amp;utm_campaign=guide\" target=\"_blank\">攻略</a> <!----></div></div></nav></div></div> <div class=\"header__navbar\"><div class=\"header__navbar-btns\"><nav class=\"header__navbar-link\"><div class=\"nav-content nav-content-download\"><span>立即下载</span></div> <!----></nav> <div class=\"m-audio-player header__bgm\"><img src=\"data:image/png;base64,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\" alt=\"\" class=\"m-audio-player__icon\" style=\"display: none;\"> <img src=\"\" alt=\"\" class=\"m-audio-player__icon m-audio-player__icon--hover\" style=\"display: none;\"> <img src=\n<!-- … truncated, 29743 chars total -->",
+ "markupPage": "zh-cn_character",
+ "markupClass": "header-wrapper",
+ "appearsOn": [
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "header-wrapper": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 180,
+    "y": 0,
+    "width": 1080,
+    "height": 56.25,
+    "top": 0,
+    "right": 1260,
+    "bottom": 56.25,
+    "left": 180
+   },
+   "text": "首页 角色介绍 影像资料\n 新闻资讯 设定档案 更多 兑换码 充值 攻略  立即下载      关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nT",
+   "display": "flex",
+   "width": "1080px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "0px 31.5px",
+   "margin": "0px 180px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "space-between",
+   "align-items": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

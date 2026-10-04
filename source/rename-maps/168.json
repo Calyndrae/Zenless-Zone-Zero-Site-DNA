@@ -1,0 +1,17 @@
+{
+  "summary": "The `NoSsr` functional Vue component (from the vue-NoSsr package used by Nuxt). Until its parent is mounted it renders either a placeholder element (tag from the `placeholderTag` prop, default `div`, with class `.no-ssr-placeholder`, content from the `placeholder` prop or the `placeholder` slot) or empty comment nodes; it registers a one-time `hook:mounted` listener on the parent that calls `$forceUpdate()`, after which the default slot content is rendered client-side.",
+  "exports": {
+    "module.exports": "the NoSsr functional component options"
+  },
+  "renames": {
+    "r_1": "NoSsr",
+    "e_2": "h",
+    "t_3": "context",
+    "n_4": "parent",
+    "r_5": "slots",
+    "o_6": "props",
+    "c_7": "resolvedSlots",
+    "l_8": "defaultSlot",
+    "f_9": "placeholderSlot"
+  }
+}

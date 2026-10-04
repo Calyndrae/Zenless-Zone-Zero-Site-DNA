@@ -1,0 +1,23 @@
+{
+  "summary": "Nuxt page component for the desktop news-article route `lang-news-id` (`scrollToTop`). `validate` only accepts numeric `params.id`; `asyncData` loads the article via the news API (module 1124) `getDetail` with `iInfoId: params.id`, `iChanId: CHANNEL_ID_CONFIG.NEWS.ALL` (app bundle, module 28) and `sLangKey: store.state.lang`, redirecting to `lang-news` on error, and exposes it as `newsContent`; `head()` uses its title plus i18n `seoTitlePrefix`. It renders `news-detail` with a `nuxt-link` back button to `lang-news` (`news-detail-back back-btn`, `backArrow`/`backText` i18n `textBack`/`backSubtext`) that tracks `news_back` with the article id via `$trackButton`, then the `news-detail__title`, a `news-detail__info` breadcrumb (i18n `gameName` > `news-tag` for `sChanId[0]`) with `dateFormat`, the HTML `sContent` in `news-detail__content`, and a `backTop` (module 347, theme `reverse`) in `backContainer`.",
+  "exports": {
+    "default": "the `lang-news-id` desktop news-detail page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "o_1": "appConfig",
+    "h_2": "newsDetailPageOptions",
+    "f_3": "componentNormalizer",
+    "t_4": "nuxtContext",
+    "e_5": "asyncDataGenerator",
+    "n_6": "params",
+    "r_7": "redirect",
+    "l_8": "store",
+    "d_9": "newsId",
+    "h_10": "newsContent",
+    "e_11": "context",
+    "t_12": "validateContext",
+    "e_13": "routeParams",
+    "t_14": "vm",
+    "e_15": "h"
+  }
+}

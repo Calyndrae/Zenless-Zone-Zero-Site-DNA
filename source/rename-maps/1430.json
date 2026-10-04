@@ -1,0 +1,18 @@
+{
+  "summary": "Nuxt page component for the mobile route `m-lang-company-fund` (layout `empty`), the company fund-settlement notice page. In `asyncData` it calls the CMS content API (module 1118) `getJpFund`, which fetches `/getContent` for info id `INFO_ID_CONFIG.FUND` in channel `CHANNEL_ID_CONFIG.PROTOCOL.JP_FUND`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `m-lang-main`, otherwise it exposes `title` and `content` (from `sTitle`/`sContent`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows the `protocol` text component (m-protocol, module 1141) with `title`/`content` inside `client-only`.",
+  "exports": {
+    "default": "the `m-lang-company-fund` mobile company fund-settlement notice page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "r_1": "cmsApi",
+    "c_2": "pageOptions",
+    "t_3": "nuxtContext",
+    "e_4": "asyncDataGenerator",
+    "o_5": "redirect",
+    "n_6": "store",
+    "c_7": "protocolEntry",
+    "e_8": "context",
+    "e_10": "h",
+    "t_9": "vm"
+  }
+}

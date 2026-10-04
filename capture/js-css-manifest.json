@@ -1,0 +1,1629 @@
+{
+ "js": [
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/0065aaf.js",
+   "path": "capture/js/0065aaf.js",
+   "bytes": 11223,
+   "sha256": "4be2df6616d7b7ef8543a0f935879e3eb70fee618a64f7f36cf534dad0cf6593",
+   "chunkId": 17,
+   "kind": "route chunk",
+   "routes": [
+    "lang-company-terms3"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/01cc6f8.js",
+   "path": "capture/js/01cc6f8.js",
+   "bytes": 9807,
+   "sha256": "9dd7932736c120223c6dd68fb8c8ad47a966cd406b2d140bdd0de0563d31e6ea",
+   "chunkId": 36,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-company-terms3"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/08021c5.js",
+   "path": "capture/js/08021c5.js",
+   "bytes": 21471,
+   "sha256": "8ed28f96f2d0dfd54153723d07fc700c30f5617d129ee3c4af8b19624cfc06ea",
+   "chunkId": 44,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-world-id"
+   ],
+   "pages": [
+    "m_zh-cn_world_102370"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/0d508be.js",
+   "path": "capture/js/0d508be.js",
+   "bytes": 10281,
+   "sha256": "50b7f7e424987a137bd2d2c03f6dff9d673eb3ff85c1510297545fa51d61877b",
+   "chunkId": 21,
+   "kind": "route chunk",
+   "routes": [
+    "lang-news-id"
+   ],
+   "pages": [
+    "zh-cn_news",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/0eb4cff.js",
+   "path": "capture/js/0eb4cff.js",
+   "bytes": 330,
+   "sha256": "e59d17fcd739ce1daa29586e7460e1451288362b2671bcff43b07ece83268d65",
+   "chunkId": 38,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/0ef825c.js",
+   "path": "capture/js/0ef825c.js",
+   "bytes": 235,
+   "sha256": "d6952b9b6b08e553e52344984f94dbbf26b0b825c41a076558b8eda52c0296f6",
+   "chunkId": 46,
+   "kind": "route chunk",
+   "routes": [
+    "m"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/1e69d9d.js",
+   "path": "capture/js/1e69d9d.js",
+   "bytes": 46123,
+   "sha256": "4394b2883842ef5b3a48b2bdcc4c2f4d8f88c74bec6e0f084c0af5f829a57151",
+   "chunkId": 26,
+   "kind": "route chunk",
+   "routes": [
+    "lang-world"
+   ],
+   "pages": [
+    "zh-cn_world",
+    "zh-cn_world_102370",
+    "zh-cn_world_102257",
+    "zh-cn_world_102173"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/2e4935f.js",
+   "path": "capture/js/2e4935f.js",
+   "bytes": 404428,
+   "sha256": "d734836bbb75c38617faca6e419fe6abccf20163fa171ff3366d11f75c557624",
+   "chunkId": "entry",
+   "kind": "entry bundle",
+   "routes": [],
+   "pages": [
+    "zh-cn_main",
+    "zh-cn_character",
+    "zh-cn_video",
+    "zh-cn_news",
+    "zh-cn_world",
+    "zh-cn_company_privacy",
+    "zh-cn_company_terms",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475",
+    "zh-cn_world_102370",
+    "zh-cn_world_102257",
+    "zh-cn_world_102173",
+    "m_zh-cn_main",
+    "m_zh-cn_character",
+    "m_zh-cn_video",
+    "m_zh-cn_news",
+    "m_zh-cn_world",
+    "m_zh-cn_company_privacy",
+    "m_zh-cn_company_terms",
+    "m_zh-cn_news_166535",
+    "m_zh-cn_world_102370"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/39a3684.js",
+   "path": "capture/js/39a3684.js",
+   "bytes": 10166,
+   "sha256": "ad2c5b99ca05e7466be48d09f9859f33f7c8eda08f41fa3a3543401b0fba5da6",
+   "chunkId": 40,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-news-id"
+   ],
+   "pages": [
+    "m_zh-cn_news",
+    "m_zh-cn_news_166535"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/3b23566.js",
+   "path": "capture/js/3b23566.js",
+   "bytes": 131893,
+   "sha256": "303ec6b0a34358844d02e199429d87a9ec515ab4b58a02c856518440f350e742",
+   "chunkId": 20,
+   "kind": "route chunk",
+   "routes": [
+    "lang-main"
+   ],
+   "pages": [
+    "zh-cn_main"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/3f59e77.js",
+   "path": "capture/js/3f59e77.js",
+   "bytes": 59692,
+   "sha256": "4cb6bc8d855348011c6a7496261626347b59d1b5ea9cdfa273de7c1a8e2c305c",
+   "chunkId": 10,
+   "kind": "route chunk",
+   "routes": [
+    "lang-character"
+   ],
+   "pages": [
+    "zh-cn_character"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/44468dc.js",
+   "path": "capture/js/44468dc.js",
+   "bytes": 37037,
+   "sha256": "08961c354fba97d6a9a085f9c0fd57affadae28d8bcf883c3493c7c99c0c4c64",
+   "chunkId": 18,
+   "kind": "route chunk",
+   "routes": [
+    "lang-feature"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/466de49.js",
+   "path": "capture/js/466de49.js",
+   "bytes": 344,
+   "sha256": "85ca7fa5dbe4fbce48892d51e907102006748728cd06741881000c678967b259",
+   "chunkId": 28,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-character-detail"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/47029f5.js",
+   "path": "capture/js/47029f5.js",
+   "bytes": 8697,
+   "sha256": "df3c376d0d0121b808c1dc226799f306064a5231da67452e7e314cd520cbed33",
+   "chunkId": 32,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-company-fund"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/528dc6e.js",
+   "path": "capture/js/528dc6e.js",
+   "bytes": 9808,
+   "sha256": "c862386454e461eb751cb7c5e637fcbca59711e404592710a0d493144b2b21bd",
+   "chunkId": 33,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-company-privacy"
+   ],
+   "pages": [
+    "m_zh-cn_company_privacy"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/53d09dd.js",
+   "path": "capture/js/53d09dd.js",
+   "bytes": 54807,
+   "sha256": "e0f180e3c7ee6c7ed57255fbaa316d405fb017af3988e64ac3f50a868ba483fc",
+   "chunkId": 24,
+   "kind": "route chunk",
+   "routes": [
+    "lang-video"
+   ],
+   "pages": [
+    "zh-cn_main",
+    "zh-cn_video"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/564bae5.js",
+   "path": "capture/js/564bae5.js",
+   "bytes": 35261,
+   "sha256": "ec376ab9f1117c860190700ad0e3db1d2b9dc137ede948438315395996dd248a",
+   "chunkId": 29,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-character"
+   ],
+   "pages": [
+    "m_zh-cn_character"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/5804396.js",
+   "path": "capture/js/5804396.js",
+   "bytes": 10113,
+   "sha256": "90ba34ffeb229bc0aad131ae996471d061925c5b19a4ddeb251547362553fb6d",
+   "chunkId": 13,
+   "kind": "route chunk",
+   "routes": [
+    "lang-company-fund"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/5e4f8d9.js",
+   "path": "capture/js/5e4f8d9.js",
+   "bytes": 11223,
+   "sha256": "2c06ea92795d0eb5f39024a8d755b028b74d921ff7b39c51a4ba5e14e1172206",
+   "chunkId": 16,
+   "kind": "route chunk",
+   "routes": [
+    "lang-company-terms2"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/6850d84.js",
+   "path": "capture/js/6850d84.js",
+   "bytes": 371,
+   "sha256": "288afebb0d69d75382035c69af41d9d2c09e850452625b8b2d0372007b782c83",
+   "chunkId": 47,
+   "kind": "route chunk",
+   "routes": [
+    "video"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/6a183b1.js",
+   "path": "capture/js/6a183b1.js",
+   "bytes": 235,
+   "sha256": "eb9fc2838d44a56e5f6cb0bf0ca788a91e97086be8c10536d2648f143515dbe1",
+   "chunkId": 27,
+   "kind": "route chunk",
+   "routes": [
+    "index"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/6b7076d.js",
+   "path": "capture/js/6b7076d.js",
+   "bytes": 9807,
+   "sha256": "b8ca892c7d2fc6c877e8a6303580263013c9cea8251db26cf3c8696815938dac",
+   "chunkId": 35,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-company-terms2"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/74d90aa.js",
+   "path": "capture/js/74d90aa.js",
+   "bytes": 328,
+   "sha256": "7dc289cf919b61f3b7465a6eec368ded6f9d0ccaaf5ab4ed4e91b0e849ac24a1",
+   "chunkId": 19,
+   "kind": "route chunk",
+   "routes": [
+    "lang"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/75ab81f.js",
+   "path": "capture/js/75ab81f.js",
+   "bytes": 6297,
+   "sha256": "5b7672bdb707e741c7ce9ca9d6d9cc353d8865abb9e4461f757809567b28c36a",
+   "chunkId": 42,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-news-public"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/7ff8829.js",
+   "path": "capture/js/7ff8829.js",
+   "bytes": 35874,
+   "sha256": "894bd7720c05b599050af42dd247c9c7279ee11d8f1d29cca269ee465075bb8e",
+   "chunkId": 3,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-main",
+    "lang-main"
+   ],
+   "pages": [
+    "zh-cn_main",
+    "m_zh-cn_main"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/84ad6ad.js",
+   "path": "capture/js/84ad6ad.js",
+   "bytes": 6578,
+   "sha256": "8e06e01898ae4f87982c424b0248fc72262cf761dc9600b396f462e478bc8174",
+   "chunkId": 23,
+   "kind": "route chunk",
+   "routes": [
+    "lang-news-public"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/8c4c131.js",
+   "path": "capture/js/8c4c131.js",
+   "bytes": 261367,
+   "sha256": "b6c8a0bfd9237df0c3b0d5edeb7eef690ca38883ecdbb7f70d9a30058fa7a1b1",
+   "chunkId": "entry",
+   "kind": "entry bundle",
+   "routes": [],
+   "pages": [
+    "zh-cn_main",
+    "zh-cn_character",
+    "zh-cn_video",
+    "zh-cn_news",
+    "zh-cn_world",
+    "zh-cn_company_privacy",
+    "zh-cn_company_terms",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475",
+    "zh-cn_world_102370",
+    "zh-cn_world_102257",
+    "zh-cn_world_102173",
+    "m_zh-cn_main",
+    "m_zh-cn_character",
+    "m_zh-cn_video",
+    "m_zh-cn_news",
+    "m_zh-cn_world",
+    "m_zh-cn_company_privacy",
+    "m_zh-cn_company_terms",
+    "m_zh-cn_news_166535",
+    "m_zh-cn_world_102370"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/8c53a05.js",
+   "path": "capture/js/8c53a05.js",
+   "bytes": 43367,
+   "sha256": "8ed343822da0830b686c4b9bd9b949c4311c243d17fa214ffe310330e4e5b663",
+   "chunkId": 25,
+   "kind": "route chunk",
+   "routes": [
+    "lang-world-id"
+   ],
+   "pages": [
+    "zh-cn_world_102370",
+    "zh-cn_world_102257",
+    "zh-cn_world_102173"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/8d80f48.js",
+   "path": "capture/js/8d80f48.js",
+   "bytes": 47670,
+   "sha256": "40e229a6c98d2dd5a094a12a6faa04a03e8eb3abf7de07f11fdc2dc6057e4d40",
+   "chunkId": 50,
+   "kind": "route chunk",
+   "routes": [
+    "lang-main"
+   ],
+   "pages": [
+    "zh-cn_main"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/9221d05.js",
+   "path": "capture/js/9221d05.js",
+   "bytes": 10114,
+   "sha256": "0cad09b56cd2561751a0cfb5e299c50c86a236a128eeb42bb49d37f04545041a",
+   "chunkId": 11,
+   "kind": "route chunk",
+   "routes": [
+    "lang-company-about"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/a9873dc.js",
+   "path": "capture/js/a9873dc.js",
+   "bytes": 124922,
+   "sha256": "c190e18ab44b29190e506922b6e3c7f33558b91ae4c07ce571bf3f50b1b32c42",
+   "chunkId": 39,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-main"
+   ],
+   "pages": [
+    "m_zh-cn_main"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/aa05f4a.js",
+   "path": "capture/js/aa05f4a.js",
+   "bytes": 8698,
+   "sha256": "f16853c506887aa4dc64879974fc7214d26de0f2be18d6cfd37ffc4a2f8f0afd",
+   "chunkId": 30,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-company-about"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/b262029.js",
+   "path": "capture/js/b262029.js",
+   "bytes": 19768,
+   "sha256": "e49bee44d7aae4fc3e96caf3714c1b1169f047773c23438175ea4824f1824166",
+   "chunkId": 45,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-world"
+   ],
+   "pages": [
+    "m_zh-cn_world"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/b3681da.js",
+   "path": "capture/js/b3681da.js",
+   "bytes": 339,
+   "sha256": "50de20fd742e1fcb8ee78681d2c1653ab29e022aa2bb98ff1b2e4f11f23376f8",
+   "chunkId": 9,
+   "kind": "route chunk",
+   "routes": [
+    "lang-character-detail"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/b5b7858.js",
+   "path": "capture/js/b5b7858.js",
+   "bytes": 27764,
+   "sha256": "f579efe974006881c89015ed5e68bc4c83f4edef75b261330968f75cccf262b4",
+   "chunkId": 2,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-character",
+    "m-lang-feature",
+    "m-lang-main",
+    "m-lang-news",
+    "m-lang-video",
+    "m-lang-world",
+    "m-lang-news-cate-cate",
+    "m-lang-world-id"
+   ],
+   "pages": [
+    "m_zh-cn_main",
+    "m_zh-cn_character",
+    "m_zh-cn_video",
+    "m_zh-cn_news",
+    "m_zh-cn_world",
+    "m_zh-cn_news_166535",
+    "m_zh-cn_world_102370"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/b74c7e3.js",
+   "path": "capture/js/b74c7e3.js",
+   "bytes": 9121,
+   "sha256": "21d49e4a6bdf7af8113ede8604475011cf209e51587c8303d0df7b8a7fd2b272",
+   "chunkId": 1,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-main",
+    "m-lang-news",
+    "m-lang-video",
+    "m-lang-news-public",
+    "m-lang-news-cate-cate",
+    "m-lang-news-id",
+    "lang-main",
+    "lang-news",
+    "lang-video",
+    "lang-news-public",
+    "lang-news-cate-cate",
+    "lang-news-id"
+   ],
+   "pages": [
+    "zh-cn_main",
+    "zh-cn_video",
+    "zh-cn_news",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475",
+    "m_zh-cn_main",
+    "m_zh-cn_video",
+    "m_zh-cn_news",
+    "m_zh-cn_news_166535"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/b83911d.js",
+   "path": "capture/js/b83911d.js",
+   "bytes": 2940,
+   "sha256": "911f486c3477cbcc9db8562b5fce968e914b720f6b6cd3e19dfe6f8680c059de",
+   "chunkId": "entry",
+   "kind": "webpack runtime",
+   "routes": [],
+   "pages": [
+    "zh-cn_main",
+    "zh-cn_character",
+    "zh-cn_video",
+    "zh-cn_news",
+    "zh-cn_world",
+    "zh-cn_company_privacy",
+    "zh-cn_company_terms",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475",
+    "zh-cn_world_102370",
+    "zh-cn_world_102257",
+    "zh-cn_world_102173",
+    "m_zh-cn_main",
+    "m_zh-cn_character",
+    "m_zh-cn_video",
+    "m_zh-cn_news",
+    "m_zh-cn_world",
+    "m_zh-cn_company_privacy",
+    "m_zh-cn_company_terms",
+    "m_zh-cn_news_166535",
+    "m_zh-cn_world_102370"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/ba4082a.js",
+   "path": "capture/js/ba4082a.js",
+   "bytes": 54968,
+   "sha256": "31788fc904f6915ad9c44eb6cae9323f7a3610f5bf1d5b6e9b3dbdd9961e9af3",
+   "chunkId": 4,
+   "kind": "route chunk",
+   "routes": [
+    "lang-news",
+    "lang-news-cate-cate"
+   ],
+   "pages": [
+    "zh-cn_news",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/be1f69b.js",
+   "path": "capture/js/be1f69b.js",
+   "bytes": 3591240,
+   "sha256": "dfd044ab8205f351d0dbafa879bb69c47fd595226abfca71c9afdb0f8adc0675",
+   "chunkId": "entry",
+   "kind": "entry bundle",
+   "routes": [],
+   "pages": [
+    "zh-cn_main",
+    "zh-cn_character",
+    "zh-cn_video",
+    "zh-cn_news",
+    "zh-cn_world",
+    "zh-cn_company_privacy",
+    "zh-cn_company_terms",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475",
+    "zh-cn_world_102370",
+    "zh-cn_world_102257",
+    "zh-cn_world_102173",
+    "m_zh-cn_main",
+    "m_zh-cn_character",
+    "m_zh-cn_video",
+    "m_zh-cn_news",
+    "m_zh-cn_world",
+    "m_zh-cn_company_privacy",
+    "m_zh-cn_company_terms",
+    "m_zh-cn_news_166535",
+    "m_zh-cn_world_102370"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/c36764e.js",
+   "path": "capture/js/c36764e.js",
+   "bytes": 11221,
+   "sha256": "e371fecd99323f918bfd344b1f43a7d5e929ea92063dffd0a1b5c614dc1c606f",
+   "chunkId": 15,
+   "kind": "route chunk",
+   "routes": [
+    "lang-company-terms"
+   ],
+   "pages": [
+    "zh-cn_company_terms"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/ce90c7a.js",
+   "path": "capture/js/ce90c7a.js",
+   "bytes": 11224,
+   "sha256": "e7b6d2af6fa5fb02642e07f18ddeed7168d678bd1f671cd3d2e0e319e54fd6e2",
+   "chunkId": 14,
+   "kind": "route chunk",
+   "routes": [
+    "lang-company-privacy"
+   ],
+   "pages": [
+    "zh-cn_company_privacy"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/ded62d7.js",
+   "path": "capture/js/ded62d7.js",
+   "bytes": 20551,
+   "sha256": "e5aadf6c98d41809b2ac969ff48ed2e347e44c0f414a73325dadea9f8e9eeafe",
+   "chunkId": 37,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-feature"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/df9cade.js",
+   "path": "capture/js/df9cade.js",
+   "bytes": 33379,
+   "sha256": "f443c5a5549fc902d1a088cda5c19df2120b586bf28b3a760bbda1f9f9b44116",
+   "chunkId": 6,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-character",
+    "lang-character"
+   ],
+   "pages": [
+    "zh-cn_character",
+    "m_zh-cn_character"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/e14cdf3.js",
+   "path": "capture/js/e14cdf3.js",
+   "bytes": 224,
+   "sha256": "f228c3f908878774d8e2147080b177ee442b717cedbd6e1b25d123d31ab1159e",
+   "chunkId": 22,
+   "kind": "route chunk",
+   "routes": [
+    "lang-news-cate-cate"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/e502f5f.js",
+   "path": "capture/js/e502f5f.js",
+   "bytes": 9805,
+   "sha256": "3b0c52274d9d31668f5287922e6ebe9120cee5c4331b8f24e10c55b324ad7cd3",
+   "chunkId": 34,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-company-terms"
+   ],
+   "pages": [
+    "m_zh-cn_company_terms"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/f28487d.js",
+   "path": "capture/js/f28487d.js",
+   "bytes": 10116,
+   "sha256": "301a361dcc0560f649a919244046b67fdd18b702168e68da6efa280de6c3134c",
+   "chunkId": 12,
+   "kind": "route chunk",
+   "routes": [
+    "lang-company-archive"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/f5b0acd.js",
+   "path": "capture/js/f5b0acd.js",
+   "bytes": 8700,
+   "sha256": "24632d9a8d11c4687d4b20b101b7bded46b148cae96b9b56c93f70dad2713664",
+   "chunkId": 31,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-company-archive"
+   ],
+   "pages": []
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/f87ccae.js",
+   "path": "capture/js/f87ccae.js",
+   "bytes": 22373,
+   "sha256": "4f9a4e387423e5d5f7c93ad6ad3c7af29b3b4417c38e09521d9879e0dd967f82",
+   "chunkId": 5,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-news",
+    "m-lang-news-cate-cate"
+   ],
+   "pages": [
+    "m_zh-cn_news",
+    "m_zh-cn_news_166535"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/fcdddd8.js",
+   "path": "capture/js/fcdddd8.js",
+   "bytes": 32073,
+   "sha256": "5e8304463d8dc203f494eb827e3ba4b33820a0c5e924704a682d2e76296d996b",
+   "chunkId": 43,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-video"
+   ],
+   "pages": [
+    "m_zh-cn_main",
+    "m_zh-cn_video"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/fd57a96.js",
+   "path": "capture/js/fd57a96.js",
+   "bytes": 15521,
+   "sha256": "bb4d2f4593f4e402aab9b36e3de5f126e54de81e35859e088829d5f73641a5bb",
+   "chunkId": 0,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-character",
+    "m-lang-feature",
+    "m-lang-main",
+    "m-lang-news",
+    "m-lang-video",
+    "m-lang-world",
+    "m-lang-company-about",
+    "m-lang-company-archive",
+    "m-lang-company-fund",
+    "m-lang-company-privacy",
+    "m-lang-company-terms",
+    "m-lang-company-terms2",
+    "m-lang-company-terms3",
+    "m-lang-news-public",
+    "m-lang-news-cate-cate",
+    "m-lang-news-id",
+    "m-lang-world-id",
+    "lang-character",
+    "lang-feature",
+    "lang-main",
+    "lang-news",
+    "lang-video",
+    "lang-world",
+    "lang-company-about",
+    "lang-company-archive",
+    "lang-company-fund",
+    "lang-company-privacy",
+    "lang-company-terms",
+    "lang-company-terms2",
+    "lang-company-terms3",
+    "lang-news-public",
+    "lang-news-cate-cate",
+    "lang-news-id",
+    "lang-world-id"
+   ],
+   "pages": [
+    "zh-cn_main",
+    "zh-cn_character",
+    "zh-cn_video",
+    "zh-cn_news",
+    "zh-cn_world",
+    "zh-cn_company_privacy",
+    "zh-cn_company_terms",
+    "zh-cn_news_166535",
+    "zh-cn_news_166498",
+    "zh-cn_news_166497",
+    "zh-cn_news_166496",
+    "zh-cn_news_166476",
+    "zh-cn_news_166475",
+    "zh-cn_world_102370",
+    "zh-cn_world_102257",
+    "zh-cn_world_102173",
+    "m_zh-cn_main",
+    "m_zh-cn_character",
+    "m_zh-cn_video",
+    "m_zh-cn_news",
+    "m_zh-cn_world",
+    "m_zh-cn_company_privacy",
+    "m_zh-cn_company_terms",
+    "m_zh-cn_news_166535",
+    "m_zh-cn_world_102370"
+   ]
+  },
+  {
+   "url": "https://zenless.hoyoverse.com/_nuxt/fd66585.js",
+   "path": "capture/js/fd66585.js",
+   "bytes": 224,
+   "sha256": "724f5608354c09c0a6976598c35161129116649c83eab2839a94ebdb05110070",
+   "chunkId": 41,
+   "kind": "route chunk",
+   "routes": [
+    "m-lang-news-cate-cate"
+   ],
+   "pages": []
+  }
+ ],
+ "css": [
+  {
+   "path": "capture/css/154.css",
+   "moduleId": 154,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 1095,
+   "rules": 12,
+   "firstSelector": "._2KIYvRS5",
+   "sha256": "46a9eea9e59acaf409bc42b24c8906382a06f3b3e1e72e3069d6b8d38c397ec1"
+  },
+  {
+   "path": "capture/css/202.css",
+   "moduleId": 202,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 8668,
+   "rules": 111,
+   "firstSelector": "html",
+   "sha256": "5d11197068f720abe8330ee6875dd5f10b00e5515b68ac47e917c014b75d67ef"
+  },
+  {
+   "path": "capture/css/334.css",
+   "moduleId": 334,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 567,
+   "rules": 9,
+   "firstSelector": ".mihoyo-share-tips-wrap",
+   "sha256": "ec6bcefef717d2c591f9fa2876b2e58078a2e8388aafab4a328a333c7fc0210a"
+  },
+  {
+   "path": "capture/css/527.css",
+   "moduleId": 527,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 2761,
+   "rules": 20,
+   "firstSelector": ".mhy-bridge-message-box-mask",
+   "sha256": "fc28257541dbe814f421e0d8cab13372b1cba91f6abd63f469c603f45b54d322"
+  },
+  {
+   "path": "capture/css/660.css",
+   "moduleId": 660,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 745,
+   "rules": 13,
+   "firstSelector": ".error",
+   "sha256": "b0de2e7411b6a82c97869629fafed3b4c8a4f1198623be350265cb896ea0433e"
+  },
+  {
+   "path": "capture/css/662.css",
+   "moduleId": 662,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 322,
+   "rules": 3,
+   "firstSelector": ".nuxt-progress",
+   "sha256": "e7710dd5f5c33916c128ae2ff0d38f777d11d6c4c1cb17ebba150c31d489d450"
+  },
+  {
+   "path": "capture/css/664.css",
+   "moduleId": 664,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 7489,
+   "rules": 56,
+   "firstSelector": ".page-enter-active",
+   "sha256": "9e15d916ed15599f19b34ca4904d7b44bbf07b0184f88f19e1035168796ba88b"
+  },
+  {
+   "path": "capture/css/668.css",
+   "moduleId": 668,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 1262,
+   "rules": 13,
+   "firstSelector": ".loading[data-v-4ed1ddcf]",
+   "sha256": "ceffbf3af7dbccd1275315f119739136a036a8c718d330aa56c791ad365ef607"
+  },
+  {
+   "path": "capture/css/670.css",
+   "moduleId": 670,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 3482,
+   "rules": 12,
+   "firstSelector": ".share",
+   "sha256": "24d9dfbb38896c96d3c4c8396473c0936d65f18af22e57b10b2761b8ddb4047d"
+  },
+  {
+   "path": "capture/css/673.css",
+   "moduleId": 673,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 9152,
+   "rules": 56,
+   "firstSelector": ".header",
+   "sha256": "19859d5259022630cc0724509a43f5a96348c4439d35aa0fe92da8859fb9ef7b"
+  },
+  {
+   "path": "capture/css/675.css",
+   "moduleId": 675,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 47333,
+   "rules": 8,
+   "firstSelector": ".backTop",
+   "sha256": "63c4ef2377d1b892a942a37d15d5970d61da121c9de1eaba95082510c8025d08"
+  },
+  {
+   "path": "capture/css/681.css",
+   "moduleId": 681,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 1326,
+   "rules": 14,
+   "firstSelector": ".footer[data-v-2b67f5b0]",
+   "sha256": "290b7dcd20fae469cded06b43e21fb9d70cacceeb2e8cf0a6026886621fe375f"
+  },
+  {
+   "path": "capture/css/683.css",
+   "moduleId": 683,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 4845,
+   "rules": 15,
+   "firstSelector": ".footer-crm",
+   "sha256": "13ff34a3f3cb64acb0a0e6e0b9625c4001bea3d478cc2cbb4dd3ee3ace8e5584"
+  },
+  {
+   "path": "capture/css/685.css",
+   "moduleId": 685,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 55882,
+   "rules": 102,
+   "firstSelector": "@font-face",
+   "sha256": "24a9cfd4f86252073a555bcacc10b85444a240108e976cc8ed72277c9d839311"
+  },
+  {
+   "path": "capture/css/693.css",
+   "moduleId": 693,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 24,
+   "rules": 1,
+   "firstSelector": "body",
+   "sha256": "5dbaf0a4ff0f8ac8c1b67550eee84390b089604ffaf71183e417636c7e183ac5"
+  },
+  {
+   "path": "capture/css/695.css",
+   "moduleId": 695,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 39460,
+   "rules": 61,
+   "firstSelector": ".m-header",
+   "sha256": "7ac08ef5f1715f6f8039953e0654296915ba3d19e10861ded27261a40cb77649"
+  },
+  {
+   "path": "capture/css/703.css",
+   "moduleId": 703,
+   "chunks": [
+    "8c4c131"
+   ],
+   "bytes": 49791,
+   "rules": 107,
+   "firstSelector": "@font-face",
+   "sha256": "245d8626dbe07462ddc5d272bcb2e1b3063050973d559efaaaed7da3b7ee9b69"
+  },
+  {
+   "path": "capture/css/899.css",
+   "moduleId": 899,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 22282,
+   "rules": 99,
+   "firstSelector": ".swiper-container",
+   "sha256": "78dee00fa911cf37974bcedcc9c54694edec99703da3ec9e37404391355a39cd"
+  },
+  {
+   "path": "capture/css/1024.css",
+   "moduleId": 1024,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 13955,
+   "rules": 58,
+   "firstSelector": ".textLayer",
+   "sha256": "49659b8249ad9d7d4fc9789ae7e315d0e67e39c7259972ff169636e651a1bdd8"
+  },
+  {
+   "path": "capture/css/1054.css",
+   "moduleId": 1054,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 37347,
+   "rules": 361,
+   "firstSelector": ".hyv-subscription-detail .hyv-subscription-survey-tip",
+   "sha256": "f188d06d3105111009dc4c8493bda0cc1983486fb2b4a07d0c9eca47103cc947"
+  },
+  {
+   "path": "capture/css/1056.css",
+   "moduleId": 1056,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 25361,
+   "rules": 18,
+   "firstSelector": ":root,:root[theme-mode=light]",
+   "sha256": "e5663fbf9a9cde1c75c646606bf1fe975668d819feffc38835aeed27d06dfbe8"
+  },
+  {
+   "path": "capture/css/1058.css",
+   "moduleId": 1058,
+   "chunks": [
+    "be1f69b"
+   ],
+   "bytes": 3584,
+   "rules": 18,
+   "firstSelector": "[mi18n-lang=zh-cn]",
+   "sha256": "65477813f497d1e0a1c50b908804e7bec12bc176d2814887b22732e521eaede9"
+  },
+  {
+   "path": "capture/css/1130.css",
+   "moduleId": 1130,
+   "chunks": [
+    "0065aaf",
+    "01cc6f8",
+    "528dc6e",
+    "5e4f8d9",
+    "6b7076d",
+    "c36764e",
+    "ce90c7a",
+    "e502f5f"
+   ],
+   "bytes": 160,
+   "rules": 3,
+   "firstSelector": ".protocol-pdf",
+   "sha256": "35d522b5a28262a173b7c1c999d2c5a23c205dd2870e7e235f0c1067cb52e649"
+  },
+  {
+   "path": "capture/css/1133.css",
+   "moduleId": 1133,
+   "chunks": [
+    "01cc6f8",
+    "47029f5",
+    "528dc6e",
+    "6b7076d",
+    "aa05f4a",
+    "e502f5f",
+    "f5b0acd"
+   ],
+   "bytes": 1780,
+   "rules": 20,
+   "firstSelector": ".m-web-protocol",
+   "sha256": "a38a74b37c231ed9a8f2bfe92a39fe577ede4bb69321f8f2b2662197dcc4e94b"
+  },
+  {
+   "path": "capture/css/1135.css",
+   "moduleId": 1135,
+   "chunks": [
+    "1e69d9d",
+    "3b23566",
+    "3f59e77",
+    "44468dc",
+    "53d09dd",
+    "8c53a05",
+    "ba4082a"
+   ],
+   "bytes": 14390,
+   "rules": 19,
+   "firstSelector": ".section-nav",
+   "sha256": "3a43d6fd42ee604c260f18f6771c212b59979b3eab4aebd2b6fe02fc38af6f2c"
+  },
+  {
+   "path": "capture/css/1140.css",
+   "moduleId": 1140,
+   "chunks": [
+    "0065aaf",
+    "5804396",
+    "5e4f8d9",
+    "9221d05",
+    "c36764e",
+    "ce90c7a",
+    "f28487d"
+   ],
+   "bytes": 3083,
+   "rules": 34,
+   "firstSelector": ".web-protocol",
+   "sha256": "1918f7a7f54962891b53a7c9cc086e02bd3593170a57f0bf0d20737217a1e4b9"
+  },
+  {
+   "path": "capture/css/1160.css",
+   "moduleId": 1160,
+   "chunks": [
+    "0d508be",
+    "39a3684",
+    "ba4082a",
+    "f87ccae"
+   ],
+   "bytes": 1020,
+   "rules": 3,
+   "firstSelector": ".news-tag",
+   "sha256": "d629143b202968a0e8b6884fcbab514aae26b05ffb098a170812fe5ccac0104c"
+  },
+  {
+   "path": "capture/css/1168.css",
+   "moduleId": 1168,
+   "chunks": [
+    "53d09dd",
+    "7ff8829",
+    "fcdddd8"
+   ],
+   "bytes": 560,
+   "rules": 7,
+   "firstSelector": ".video-container[data-v-949ad85e]",
+   "sha256": "3bc3fa6dd75a13e810eb1db16c5dc4c3418d751c97579af25f052c9c6045509f"
+  },
+  {
+   "path": "capture/css/1170.css",
+   "moduleId": 1170,
+   "chunks": [
+    "53d09dd",
+    "ba4082a",
+    "fcdddd8"
+   ],
+   "bytes": 8845,
+   "rules": 15,
+   "firstSelector": ".mihoyo-pager-rich",
+   "sha256": "34350bd46bc3bf30634b5f41e56732c77109ab33d225f1e5424c7c268a9febed"
+  },
+  {
+   "path": "capture/css/1235.css",
+   "moduleId": 1235,
+   "chunks": [
+    "b5b7858"
+   ],
+   "bytes": 25824,
+   "rules": 22,
+   "firstSelector": ".m-section-nav",
+   "sha256": "8415b1a55e6c1ef533a2817d424d0b12eca934a7d0803cf62f25babc767ad3da"
+  },
+  {
+   "path": "capture/css/1247.css",
+   "moduleId": 1247,
+   "chunks": [
+    "fd57a96"
+   ],
+   "bytes": 2646,
+   "rules": 8,
+   "firstSelector": ".user-model-loading",
+   "sha256": "3bdf76d4aef95044b3fd62fc55b879a1623bee1a8dc5238a13a7cdcd5cf74758"
+  },
+  {
+   "path": "capture/css/1250.css",
+   "moduleId": 1250,
+   "chunks": [
+    "564bae5"
+   ],
+   "bytes": 20996,
+   "rules": 71,
+   "firstSelector": ".character",
+   "sha256": "48a2d8189314e44eae7e16dfef4b35662242df49f8059dac7d85d5932042122b"
+  },
+  {
+   "path": "capture/css/1261.css",
+   "moduleId": 1261,
+   "chunks": [
+    "ded62d7"
+   ],
+   "bytes": 14795,
+   "rules": 19,
+   "firstSelector": ".m-feature",
+   "sha256": "8bdd703d0b5e4654a90f9de6191f8114be1b85bf4be2dafdc97e8c7614761521"
+  },
+  {
+   "path": "capture/css/1280.css",
+   "moduleId": 1280,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 2355,
+   "rules": 16,
+   "firstSelector": ".m-home-kv img",
+   "sha256": "f2e5f80825416c06d761bc594cb063fa3ef7ef4799ce21fd84e6ff53eb1c324e"
+  },
+  {
+   "path": "capture/css/1287.css",
+   "moduleId": 1287,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 13130,
+   "rules": 23,
+   "firstSelector": ".m-home-video[data-v-42ef7462]",
+   "sha256": "e5a4981c2cb9bdee2fbf55fcb8a4924b756dd662b28efc77b52f58997d2bc358"
+  },
+  {
+   "path": "capture/css/1293.css",
+   "moduleId": 1293,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 24470,
+   "rules": 40,
+   "firstSelector": ".m-home-character[data-v-4cbeaaa9]",
+   "sha256": "77c1897125ea667c1f6bcd75f1b7c6ed5352c71204f01672c7e1b353563c2b99"
+  },
+  {
+   "path": "capture/css/1297.css",
+   "moduleId": 1297,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 6580,
+   "rules": 17,
+   "firstSelector": ".m-home-news[data-v-4271f3ad]",
+   "sha256": "1bc54e0f1c61a2c8ed98225db20227630b0e3312a0271fe19d3d60f4c29f4744"
+  },
+  {
+   "path": "capture/css/1299.css",
+   "moduleId": 1299,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 19192,
+   "rules": 20,
+   "firstSelector": ".m-home-feature[data-v-5959da90]",
+   "sha256": "269a130b3e97462ce2866354615e9ba123fc34f0ace9bbc65e8b0b47f67a6793"
+  },
+  {
+   "path": "capture/css/1304.css",
+   "moduleId": 1304,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 9782,
+   "rules": 19,
+   "firstSelector": ".m-home-world[data-v-c09ee0ae]",
+   "sha256": "144cebfbefd93bf7920b66da4ee5bee42ec62c260b5a38601046a218d8afeffc"
+  },
+  {
+   "path": "capture/css/1307.css",
+   "moduleId": 1307,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 2721,
+   "rules": 7,
+   "firstSelector": ".m-preregister-container",
+   "sha256": "f1bd749bfd76017fcf0e0fb720d819f62879daca56b8d97d63457547c6f92443"
+  },
+  {
+   "path": "capture/css/1310.css",
+   "moduleId": 1310,
+   "chunks": [
+    "a9873dc"
+   ],
+   "bytes": 522,
+   "rules": 9,
+   "firstSelector": ".home",
+   "sha256": "d4fccaf0c1138827ad3cd20cd9c53e877454a59cd542b25f2e5262e95a5c5efa"
+  },
+  {
+   "path": "capture/css/1312.css",
+   "moduleId": 1312,
+   "chunks": [
+    "f87ccae"
+   ],
+   "bytes": 9326,
+   "rules": 33,
+   "firstSelector": ".m-news",
+   "sha256": "1c454cbf189e36f489d677df893816a2e72aab5efe9ccf1e2629ac6c47422445"
+  },
+  {
+   "path": "capture/css/1315.css",
+   "moduleId": 1315,
+   "chunks": [
+    "fcdddd8"
+   ],
+   "bytes": 7951,
+   "rules": 26,
+   "firstSelector": ".m-video",
+   "sha256": "665207322d711b31642bbc36c7238d0b5b8abd30fc9ba3ee7641c06709b7176c"
+  },
+  {
+   "path": "capture/css/1319.css",
+   "moduleId": 1319,
+   "chunks": [
+    "b262029"
+   ],
+   "bytes": 12587,
+   "rules": 39,
+   "firstSelector": "@keyframes slideToTop",
+   "sha256": "c711e12d23a53185e48eef8ed957557635631ead73aedd2e0009059ecb21f3f1"
+  },
+  {
+   "path": "capture/css/1321.css",
+   "moduleId": 1321,
+   "chunks": [
+    "75ab81f"
+   ],
+   "bytes": 871,
+   "rules": 9,
+   "firstSelector": ".m-news-detail",
+   "sha256": "88d9b093fea1145176ea291996242153b8fa5b603e5049f4c65434744deeca5f"
+  },
+  {
+   "path": "capture/css/1323.css",
+   "moduleId": 1323,
+   "chunks": [
+    "39a3684"
+   ],
+   "bytes": 2011,
+   "rules": 22,
+   "firstSelector": ".m-news-detail",
+   "sha256": "1eda951fb5ff27adde582a7e2ab92b3b110bc72d23c88d1ba69f5bb49cfb57df"
+  },
+  {
+   "path": "capture/css/1325.css",
+   "moduleId": 1325,
+   "chunks": [
+    "08021c5"
+   ],
+   "bytes": 16239,
+   "rules": 22,
+   "firstSelector": ".m-world-detail",
+   "sha256": "59d7b7a7547062cf8d3f16ee2165edc3d81453e89340e5b022037c18e92c84c9"
+  },
+  {
+   "path": "capture/css/1330.css",
+   "moduleId": 1330,
+   "chunks": [
+    "3f59e77"
+   ],
+   "bytes": 24763,
+   "rules": 82,
+   "firstSelector": ".character",
+   "sha256": "ade3c86bc81db38807436dbc8c7d00ec989d991e20d72ada7d5b9ab820788d03"
+  },
+  {
+   "path": "capture/css/1339.css",
+   "moduleId": 1339,
+   "chunks": [
+    "44468dc"
+   ],
+   "bytes": 14734,
+   "rules": 19,
+   "firstSelector": ".feature",
+   "sha256": "3d90df0e0b42f9cce4c4f29f305f091e5afe891ae00cd452334f0c46153f3ae2"
+  },
+  {
+   "path": "capture/css/1346.css",
+   "moduleId": 1346,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 4467,
+   "rules": 10,
+   "firstSelector": ".sidebar",
+   "sha256": "33afea523e0cfa805afe989e09eadb4c3a787f5792c2dbde2264e105daf76343"
+  },
+  {
+   "path": "capture/css/1354.css",
+   "moduleId": 1354,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 5104,
+   "rules": 9,
+   "firstSelector": ".cloud-download-dialog[data-v-138999ba]",
+   "sha256": "823200f8ef7204a8603a3de5635f6ac7d6753c848c81944f074d99136c30c5b7"
+  },
+  {
+   "path": "capture/css/1358.css",
+   "moduleId": 1358,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 13369,
+   "rules": 34,
+   "firstSelector": ".home-kv",
+   "sha256": "b4b7c92aa79decc9974586063138014610c80fe957bb6d5be52e30018fcbc903"
+  },
+  {
+   "path": "capture/css/1363.css",
+   "moduleId": 1363,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 11573,
+   "rules": 41,
+   "firstSelector": ".home-character[data-v-c6f7f9a8]",
+   "sha256": "913bc9f8fcef2014539cde7cd70e077cf43946b42e975da376e5f43fe614f1ab"
+  },
+  {
+   "path": "capture/css/1368.css",
+   "moduleId": 1368,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 6092,
+   "rules": 18,
+   "firstSelector": ".home-news[data-v-68b07d09]",
+   "sha256": "28423fe6efb8f86e437614ecc199595885d1525682e9e60c141de5b1e831e8fc"
+  },
+  {
+   "path": "capture/css/1370.css",
+   "moduleId": 1370,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 3577,
+   "rules": 18,
+   "firstSelector": ".home-feature[data-v-26432ee0]",
+   "sha256": "6f27cdffd4c773a4cd1abd1a85632315d710aa03cbd89806ab12b06f9a30aa00"
+  },
+  {
+   "path": "capture/css/1374.css",
+   "moduleId": 1374,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 10215,
+   "rules": 25,
+   "firstSelector": ".home-world[data-v-53daaf10]",
+   "sha256": "1a6c9d7ffc98c3657d54f67035e0a5d63c1730308ae97e8970c4e93514decd24"
+  },
+  {
+   "path": "capture/css/1385.css",
+   "moduleId": 1385,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 15685,
+   "rules": 33,
+   "firstSelector": ".home-video[data-v-95fb0980]",
+   "sha256": "52afaf693fdac1e82bd4b542f1ca867f21a9f4a7136714225e93021de743abca"
+  },
+  {
+   "path": "capture/css/1393.css",
+   "moduleId": 1393,
+   "chunks": [
+    "3b23566"
+   ],
+   "bytes": 1426,
+   "rules": 20,
+   "firstSelector": ".home",
+   "sha256": "24e8ca688c5b618d4765bcddc751078c22ffe6aac6d926c818e14df0c3c1135e"
+  },
+  {
+   "path": "capture/css/1396.css",
+   "moduleId": 1396,
+   "chunks": [
+    "ba4082a"
+   ],
+   "bytes": 12357,
+   "rules": 38,
+   "firstSelector": ".news",
+   "sha256": "f073e5f618f4eb10c12b2ccab9d07883305791505fdc69096b5a4975c6dbca35"
+  },
+  {
+   "path": "capture/css/1400.css",
+   "moduleId": 1400,
+   "chunks": [
+    "53d09dd"
+   ],
+   "bytes": 661,
+   "rules": 2,
+   "firstSelector": ".video-tag",
+   "sha256": "e3d88e90805d8b83084057fe3267349c1a952167fbf46322b9cc4b485edb9504"
+  },
+  {
+   "path": "capture/css/1403.css",
+   "moduleId": 1403,
+   "chunks": [
+    "53d09dd"
+   ],
+   "bytes": 11775,
+   "rules": 37,
+   "firstSelector": ".video",
+   "sha256": "2a567a6faed3e248a4c7e86dec1d8f1c3c34c1cc1468122b1d92058e9461cc08"
+  },
+  {
+   "path": "capture/css/1406.css",
+   "moduleId": 1406,
+   "chunks": [
+    "1e69d9d"
+   ],
+   "bytes": 22376,
+   "rules": 51,
+   "firstSelector": "@keyframes slideToTop",
+   "sha256": "e782244577a781054faacefa69221537e9e80391bd501cd9c9809cb591dbbed5"
+  },
+  {
+   "path": "capture/css/1409.css",
+   "moduleId": 1409,
+   "chunks": [
+    "84ad6ad"
+   ],
+   "bytes": 881,
+   "rules": 10,
+   "firstSelector": ".gacha-detail",
+   "sha256": "bccf7d2ff4285a6d002c08d825fb95345fcc281357ccb05361ce9f990db3c5f9"
+  },
+  {
+   "path": "capture/css/1411.css",
+   "moduleId": 1411,
+   "chunks": [
+    "0d508be"
+   ],
+   "bytes": 1900,
+   "rules": 22,
+   "firstSelector": ".news-detail",
+   "sha256": "0fba7bbfa29e2a4c0074eb393672f96f0532f922ba9fe536964764df361d59a3"
+  },
+  {
+   "path": "capture/css/1413.css",
+   "moduleId": 1413,
+   "chunks": [
+    "8c53a05"
+   ],
+   "bytes": 20756,
+   "rules": 23,
+   "firstSelector": ".world-detail",
+   "sha256": "ce0f9d02cc3aacd41b70919471423706062ddb94cc1c0439d022f2e0198cbd02"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "summary": "Protocol PDF viewer Vue component (unnamed, layout \"empty\"). Props isMob (Boolean) and pdfUrl (String), both required. On mobile it renders div.protocol-pdf.mob containing a <pdf-viewer> with src pdfUrl and text/annotation layers enabled; on desktop it renders div.protocol-pdf with an <iframe> pointing at pdfUrl. Normalised with the vue-loader componentNormalizer (module 36); styles from module 1129.",
+  "exports": {
+    "a": "protocol PDF viewer Vue component (pdf-viewer on mobile, iframe on desktop)"
+  },
+  "renames": {
+    "n_1": "protocolPdfOptions",
+    "r_2": "componentNormalizer",
+    "t_3": "vm",
+    "e_4": "h"
+  }
+}

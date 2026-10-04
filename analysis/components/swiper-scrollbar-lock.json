@@ -1,0 +1,34 @@
+{
+ "component": "swiper-scrollbar-lock",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-scrollbar-lock": "swiper-scrollbar-lock"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".swiper-scrollbar-lock",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

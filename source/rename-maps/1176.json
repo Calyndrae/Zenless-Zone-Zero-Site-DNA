@@ -1,0 +1,28 @@
+{
+  "summary": "User-model in-memory key/value store. It initialises GLB.miHoYoUserModelMemoryCache = {} (GLB from userModelUtils, module 1166) and exports a Store class whose constructor(name = \"defaultData\") binds this.data to the named bucket in that global cache (creating it if missing), with get(key) and set(key, data). The default export is a Store instance on the \"defaultData\" bucket. Uses Babel createClass/classCallCheck helpers; no DOM or Vue.",
+  "exports": {
+    "Store": "Store class (named bucket in window.miHoYoUserModelMemoryCache) with get(key)/set(key, data)",
+    "default": "default Store instance (\"defaultData\" bucket)"
+  },
+  "renames": {
+    "n_1": "createClass",
+    "d_2": "classCallCheck",
+    "l_3": "DEFAULT_STORE_NAME",
+    "c_4": "Store",
+    "f_5": "defaultStore",
+    "e_6": "defineProperties",
+    "e_7": "target",
+    "t_8": "props",
+    "i_9": "index",
+    "o_10": "descriptor",
+    "t_11": "Constructor",
+    "o_12": "protoProps",
+    "n_13": "staticProps",
+    "e_14": "instance",
+    "t_15": "ClassConstructor",
+    "e_16": "StoreClass",
+    "t_17": "storeName",
+    "e_18": "getKey",
+    "e_19": "setKey"
+  }
+}

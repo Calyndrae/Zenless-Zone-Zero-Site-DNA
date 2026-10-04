@@ -1,0 +1,3 @@
+// module 974 from be1f69b.js
+// deps: 22, 90, 231, 232, 100, 474, 304, 153, 499, 196
+const module_974 = function(e,t,n){"use strict";var r=n(22),o=n(90),c=n(231),l=n(232),f=n(100),d=n(474),h=n(304),m=n(153),v=n(499),y=n(196)("splice"),w=Math.max,_=Math.min;r({target:"Array",proto:!0,forced:!y},{splice:function(e,t){var n,r,y,k,x,S,A=o(this),C=f(A),E=c(e,C),O=arguments.length;for(0===O?n=r=0:1===O?(n=0,r=C-E):(n=O-2,r=_(w(l(t),0),C-E)),d(C+n-r),y=h(A,r),k=0;k<r;k++)(x=E+k)in A&&m(y,k,A[x]);if(y.length=r,n<r){for(k=E;k<C-r;k++)S=k+n,(x=k+r)in A?A[S]=A[x]:v(A,S);for(k=C;k>C-r+n;k--)v(A,k-1)}else if(n>r)for(k=C-r;k>E;k--)S=k+n-1,(x=k+r-1)in A?A[S]=A[x]:v(A,S);for(k=0;k<n;k++)A[k+E]=arguments[k+2];return A.length=C-r+n,y}})};

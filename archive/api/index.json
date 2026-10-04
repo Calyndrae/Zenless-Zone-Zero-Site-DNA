@@ -1,0 +1,1202 @@
+[
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=285&iPageSize=1&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=285&iPage=1&iPageSize=1&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/7907b5f91e326342.json",
+  "bytes": 727,
+  "sha256": "c4c86985af91461f50c7c5e947cc4ce4b8ccb2b9d1df87903ee717c098cf5f81",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=7&iPage=1&iChanId=288&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPage=1&iPageSize=7&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/b47fa622eacafb78.json",
+  "bytes": 22359,
+  "sha256": "f66af6580c5f63675fc40c13aafe391ca8865699d58220859f235705c0f1f0b3",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=10&iPage=1&sLangKey=zh-cn&iChanId=290",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=290&iPage=1&iPageSize=10&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/4207a797554a3dcd.json",
+  "bytes": 11073,
+  "sha256": "106d453bf3a38e1082d4808a19394a0b9cd21a63801cc3e1ed812b4f4be84a75",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=289&iPageSize=10&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=289&iPage=1&iPageSize=10&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/5f16ef551eab1f5d.json",
+  "bytes": 3235,
+  "sha256": "462b79cdda42c72cf63756602b065637753b26c756c075fc48731ae377ac4a29",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=200&iPage=1&iChanId=287&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=287&iPage=1&iPageSize=200&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/30dc931c1f44a86e.json",
+  "bytes": 306202,
+  "sha256": "1bd41c31e15f35c6251b68a7f3da3b21aaaf172484e6f125c0f216c53ba10c00",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=9&iPage=1&iChanId=1332&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1332&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/4da383fe8d5c5560.json",
+  "bytes": 6862,
+  "sha256": "4b4aea38061026d5c6c9be9a6e36cd239a45df64815a9fcfec45f9ea513777cd",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getChildTree?iChanId=1332&iPageSize=10&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getChildTree?iChanId=1332&iPageSize=10&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e0b61c554745221a.json",
+  "bytes": 540,
+  "sha256": "25924e8c601db3d8e84e85ebda7102c3b574af2ca0c6bf0024415c9b42789888",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=286&iPageSize=50&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=286&iPage=1&iPageSize=50&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/0e96d6cd87679607.json",
+  "bytes": 29523,
+  "sha256": "59542468a66074f2b2d3518930b02ff5cc3c87abe6b56a60c3b7a7a0604487ef",
+  "source": "page"
+ },
+ {
+  "url": "https://sdk-os-static.hoyoverse.com/combo/box/api/config/porte-fe-os/config?type=common",
+  "key": "sdk-os-static.hoyoverse.com/combo/box/api/config/porte-fe-os/config?type=common",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/59ddf51289f2fb29.json",
+  "bytes": 166,
+  "sha256": "e4032b30b2b976faea962b39c3c19ea9366290f4fce04eafc831ab76c65922a3",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=6&iPage=1&iChanId=1332&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1332&iPage=1&iPageSize=6&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/93435bd2fbe96059.json",
+  "bytes": 4628,
+  "sha256": "998d975b583e452719f88af3295d5b4e605c04097e62b511d92e073cf1f6a2ae",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getChildTree?iChanId=288&iPageSize=10&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getChildTree?iChanId=288&iPageSize=10&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/80ca6e93c5ef14b4.json",
+  "bytes": 359,
+  "sha256": "7e8f36eba7879c424de9ccd827cdc5e5b40f1f7bfa5bafd203fc5cb8424609b8",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=9&iPage=1&iChanId=288&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/b719c1432a669905.json",
+  "bytes": 26482,
+  "sha256": "0c4bc86790c99c010061e60342ff6f1be080432fcf643acf7bc181c93730e8f0",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=1&iPage=1&isPreview=0&iChanId=294&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=294&iPage=1&iPageSize=1&isPreview=0&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/88c74ea4e09dbf33.json",
+  "bytes": 134881,
+  "sha256": "9b5fd6524a9c42f2c318899a5769fe9b23ea2b894f2bc8bcac2e7ab51d6cee2e",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=1&iPage=1&isPreview=0&iChanId=293&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=293&iPage=1&iPageSize=1&isPreview=0&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/d61bb8ef89156875.json",
+  "bytes": 119734,
+  "sha256": "aa28ba7af1da875b8000902ee50cb3b8fff9f3e0346c8f787dc95d494e62b48b",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166535&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166535&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/ba5239f875f53465.json",
+  "bytes": 4554,
+  "sha256": "369b368fa61a9c419bd7f4c459fe36d7d4ffd14ab60fb576bfedccb396080698",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166498&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166498&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/b4d0043f7fec89b0.json",
+  "bytes": 6214,
+  "sha256": "b51bf5bba8ed6a39101dcc49a1de0effc4afa969102a9b611669b9fe24467dd2",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166497&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166497&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/fcc706f06194668b.json",
+  "bytes": 5839,
+  "sha256": "55111433df6751ae59c47501419bd188204207677acad6f75b4f120d949bb671",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166496&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166496&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/403fcd417f4c2a38.json",
+  "bytes": 5968,
+  "sha256": "8f7ccf0c39bc6baeb0a6d70db73eae09bbca6c74273c96741f916c25cd82c1f2",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166476&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166476&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/1aea1925d13160f1.json",
+  "bytes": 12652,
+  "sha256": "a802711a007cfddcc3b40498b334afaca721e5826e2c5d9c0fa0d00dfc3f09e3",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166475&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166475&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/9b9bdee8af02c292.json",
+  "bytes": 14508,
+  "sha256": "a0a50404db60a040a0278df120e54ac419f55eb24c2e59d3c14f60adfd56b65e",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=290&iAround=1&sLangKey=zh-cn&iInfoId=102370",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=290&iInfoId=102370&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/9c96b628f90236fa.json",
+  "bytes": 7583,
+  "sha256": "04c9262005f14040169c32842fd7313d2257e357c17f7995a24f47b43aa8b1e6",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=290&iAround=1&sLangKey=zh-cn&iInfoId=102257",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=290&iInfoId=102257&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/9cdf1bd7b0722283.json",
+  "bytes": 11090,
+  "sha256": "43bacff93deb7422922460359091e3e781e9d59d50000ab9fa40f69435f5c2fb",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=290&iAround=1&sLangKey=zh-cn&iInfoId=102173",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=290&iInfoId=102173&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/85566fdbd62ae7c0.json",
+  "bytes": 6787,
+  "sha256": "8a037abe3a316725f8f00663811f5c53f22166454a2e487a49f333305705de07",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=8&iPage=1&iChanId=1332&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1332&iPage=1&iPageSize=8&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/59784517f572da89.json",
+  "bytes": 6128,
+  "sha256": "45de463fe8a4264c31ec1de79c4bf0d3b49c43d7af432dcbace08d6480bcd450",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iPageSize=10&iPage=1&iChanId=288&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPage=1&iPageSize=10&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/aaa7ee9fc5f64802.json",
+  "bytes": 28332,
+  "sha256": "4033648b8748efb34f0fa760d6890261fc64ab3c5163551029a92b43bd3a4044",
+  "source": "page"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=292&iPageSize=50&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=292&iPage=1&iPageSize=50&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/f0ab30c59921c9dc.json",
+  "bytes": 5522,
+  "sha256": "da01c134ce3288be158692f740c4ce423e874943a4d8af1ac7896b39da03e036",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPageSize=9&iPage=2&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPage=2&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/05ff93a2474676e3.json",
+  "bytes": 22269,
+  "sha256": "773536945c2603f671d57e4e594dbc12c09be5e143f668b0a2262bfcb6db6799",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPageSize=9&iPage=3&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=288&iPage=3&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/1e6955e60b1a2d87.json",
+  "bytes": 66076,
+  "sha256": "b6472b6491009e063330902433de75fe2b80b871a8450fb1185cdbc621da989d",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=295&iPageSize=9&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=295&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/23d59281fc20c9d4.json",
+  "bytes": 18334,
+  "sha256": "8df92c331b35cb61a8fa3fd367903e4372096f6fc24b0f4f414984b0a7b9f850",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=295&iPageSize=9&iPage=2&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=295&iPage=2&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/7b3d6432ab8e6bce.json",
+  "bytes": 22109,
+  "sha256": "b53ebb55663948751f65fa5ae6b8108370c0a811f9ccf51914c19a4ad7109e83",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=295&iPageSize=9&iPage=3&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=295&iPage=3&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/c89e03c9fa900fea.json",
+  "bytes": 20187,
+  "sha256": "e1d840a8e421930136eeec19f650b5a02df6c33a1032693b9e9cdb0396d8b56d",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=296&iPageSize=9&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=296&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/c3e391ee95125599.json",
+  "bytes": 73801,
+  "sha256": "b2b251d0a767922bfa2c51bf071d92d60be3a179523dfeac26ab5626c0892eef",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=296&iPageSize=9&iPage=2&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=296&iPage=2&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/5573e6ae1a419949.json",
+  "bytes": 34296,
+  "sha256": "4fad4abd4c7e2847280a5c5367b139fcc8e141394b28c4a4bef1c6b8652d7974",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=296&iPageSize=9&iPage=3&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=296&iPage=3&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/0d003b939a13e6d5.json",
+  "bytes": 40938,
+  "sha256": "ca26496a106dbb519e9a56a656ffbb87029e2d82a7e14570f917ad203b310823",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=297&iPageSize=9&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=297&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/06ef3fdd44bd92b4.json",
+  "bytes": 32565,
+  "sha256": "8bac87659fc6227db8ea8bfae2900792347240b81b008703a23a91d37bdebd8c",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=297&iPageSize=9&iPage=2&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=297&iPage=2&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/c66a8ee098c89412.json",
+  "bytes": 40619,
+  "sha256": "95b67853ac50f191a5fa78df657572066f6f6620dc4f9767c66edf411fd2a099",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=297&iPageSize=9&iPage=3&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=297&iPage=3&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/2019f19358b27f0e.json",
+  "bytes": 37553,
+  "sha256": "a9197622bc613c1197a377a8f3acc350f404a853d12e64568dac0e2c4b252919",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1332&iPageSize=9&iPage=2&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1332&iPage=2&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/ac9fc2e9645d24a2.json",
+  "bytes": 6959,
+  "sha256": "afeff84a635cc7a28f284b9428a976385dd2c82384b642c33e6ca2fb39c84ed6",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1332&iPageSize=9&iPage=3&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1332&iPage=3&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/db1d7ace71eb8f0a.json",
+  "bytes": 7008,
+  "sha256": "8b066ca721382bbea86651ab0a2ca9e7e63544da1f0f97f667683cc74ee616c8",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1338&iPageSize=9&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1338&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e79a094ce39d6448.json",
+  "bytes": 7052,
+  "sha256": "4114b58c927167aa7204312412be8e0696c30e51751bcddbc7ee9ef7488fbf0c",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1338&iPageSize=9&iPage=2&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1338&iPage=2&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e807f8dd69146ce8.json",
+  "bytes": 3895,
+  "sha256": "4474f72928aadf7cdefd65a8f3c930ce8cc06d935d0ae27f472de64f596a683a",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1339&iPageSize=9&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1339&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/6bcc6c332c0502ce.json",
+  "bytes": 4483,
+  "sha256": "bf65a95f503910a3a103177503f682bf57ba26c98298a7c37015b105812c887d",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1340&iPageSize=9&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1340&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/ef349d8f0bc03a16.json",
+  "bytes": 6172,
+  "sha256": "32a22decd069635faebef5c6f95d1a630a998d585aadc280437417220668f1e2",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1340&iPageSize=9&iPage=2&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1340&iPage=2&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/fb711a3da34366b6.json",
+  "bytes": 651,
+  "sha256": "e3ed5087ee2fc3cc526f80a5b6c535ce5616503f33eaaf324d91a8275b7684d3",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1341&iPageSize=9&iPage=1&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContentList?iChanId=1341&iPage=1&iPageSize=9&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/03c355314dfec3fd.json",
+  "bytes": 4894,
+  "sha256": "d51b1b8cd652f90a53d41dfd04004c3c572245af9ac61c00df6f91c12a97e9d8",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=129500&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=129500&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/8bb72d55aec81970.json",
+  "bytes": 51664,
+  "sha256": "0564469c4c453b2ae4047ec4b29b06a335a021368727d19f7013c6fa81edb059",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=129566&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=129566&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/b0232365986bf833.json",
+  "bytes": 7553,
+  "sha256": "b30a8ce4d72571078563767eeaaa7ea89cd7e5b6c4176ee191c25bccdc0d8bb9",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=129624&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=129624&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/8f80c40886a1d231.json",
+  "bytes": 8141,
+  "sha256": "eeb3d5dc14241ccf6ca67c59b822f70b895e1bee25b5f65e35284003540b1d2c",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=154476&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=154476&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/1ebb43bb97a65a48.json",
+  "bytes": 7603,
+  "sha256": "a6e4faa44ed6e35b3fa406b54a6513f423907de629001297f974df459fe87035",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=154677&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=154677&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e7289396ee6178bd.json",
+  "bytes": 44609,
+  "sha256": "02c3ee296e4d202f1b02e28e522183b798cd00d8d798d0138767073008ecb237",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=155536&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=155536&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/81c733c1de4118cf.json",
+  "bytes": 38671,
+  "sha256": "f0ffa91a5f5119d19ade69920ae4addcc8114d91c602d5adf98c135608378c20",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=156058&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=156058&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/7a7ece43d4270ee0.json",
+  "bytes": 7088,
+  "sha256": "3114e05ccc801c72dc2560902dda37cbca25a0a94adf2e8d0fda13f7c4eba407",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=156708&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=156708&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/14485c587c66ff10.json",
+  "bytes": 96239,
+  "sha256": "7c8386121e8f4545172d1522f2b7d902d2d00a19987b3ca624ed171e125110fe",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=156773&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=156773&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/5f3c2507569d2590.json",
+  "bytes": 13426,
+  "sha256": "db7939e6998cb508e8753f931f5f57dff1f9057bf5aebd8fb31d33312dee0149",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=156898&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=156898&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/1f7098912d8655a4.json",
+  "bytes": 10855,
+  "sha256": "09e6755e2b161fd2fea199d83a617e2df7d2e3da1d357b5bfa3a06affef18c8d",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=157292&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=157292&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/050fd13a2fbcb732.json",
+  "bytes": 9980,
+  "sha256": "6847df0cd62a18df45eb7f9cd67502404b63d6aa5eb941d02c905e9cc7c96a46",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=157476&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=157476&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/4722573b2b440250.json",
+  "bytes": 9460,
+  "sha256": "7fd21e42893db2ea335bc236067dcca2ca01d43b9cd183f7e63590e09f5a84e1",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=157702&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=157702&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/6eb59b092cea1f8b.json",
+  "bytes": 46935,
+  "sha256": "57b62c857bab52bfa1316053fe03741b617a0bb09e0924b5cdb4c2692d7a1369",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=160686&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=160686&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/0eeeb40ffc84ccbf.json",
+  "bytes": 10351,
+  "sha256": "8b0e8ce4a7f6c52ce46ea4d27286b4164f20614fd008630d89cf0393d346d721",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=161561&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=161561&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/0c3856d72837cd2e.json",
+  "bytes": 9154,
+  "sha256": "1191b388c11e1db6d1b2e53d0739770fa79560a20fbc0a66e8f5cf00ae96cf5c",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=161611&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=161611&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/0d4e6413db1cb85c.json",
+  "bytes": 6793,
+  "sha256": "14105ceb8842128f5ec72418aba884501867b59e6f362a7c8d65781ce7992391",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=161668&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=161668&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/d445a6d05eb117aa.json",
+  "bytes": 10248,
+  "sha256": "10418e31a7bc10b680be1501324a94515889d99ca9a26076eea013a3d13809aa",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=161756&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=161756&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/da71e2efcdfe2bdc.json",
+  "bytes": 9440,
+  "sha256": "38c30dbe92b19ba1e05573bebc4ce367222bf16cede85be8bac960991dd5def0",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=162564&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=162564&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/bd36c6a9df47c521.json",
+  "bytes": 10227,
+  "sha256": "cad98890b65822d3dd21bacc0cfe7b13756f351906833db7c47ce1c6b96d5464",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=164634&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=164634&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/843aea52db99325f.json",
+  "bytes": 8653,
+  "sha256": "ed863e6d0c46d6a0068a9b8aaef575eedb6a3c57fa99b3d5dfc6c9ec81689675",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=164731&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=164731&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/7e66a6a0e20526ca.json",
+  "bytes": 10822,
+  "sha256": "de78778a8d1a492f0a0ddc715a7e34071fd785c44dfff9624924263669d871eb",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=164998&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=164998&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/729239f3a5cd2291.json",
+  "bytes": 10741,
+  "sha256": "21dfcbeea9a46a6c3b0c1f71b32a17fd932c1b487364682472e7b950252b8768",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165172&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165172&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/4e2cae31e910ef30.json",
+  "bytes": 8134,
+  "sha256": "c92d9aea80c2bd23c7fefff937669fc46beffda55ca1fbb6228b8475e4d9f712",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165241&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165241&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/9eca151ec48809f6.json",
+  "bytes": 9925,
+  "sha256": "a8bf02f879d1d09bb9d30799220a7585a0d602b214c2ebc817f7a2f474f6b140",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165407&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165407&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/f17abd23ae1791df.json",
+  "bytes": 9287,
+  "sha256": "4937c5650c1b0d3f49d35a34ee6902b93b0ce29f79dfef40a886581f25abedd5",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165408&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165408&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/96ebb1f7e2252e45.json",
+  "bytes": 60645,
+  "sha256": "1b0d8f62b9a4787fa1ac974381783648b31f90cb8c16837df62f64bf008793b8",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165409&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165409&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/a48cfd35a3f6ffb4.json",
+  "bytes": 16654,
+  "sha256": "d78bd0d1ce279d55b76a84c7e2e4508d09fb36b438425c09631fbb5f1076c4ac",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165513&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165513&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/6594d2e9a14d74fa.json",
+  "bytes": 8676,
+  "sha256": "fdd57594000b40517c502db387a2da310e6ccbc00f2c33ceaf1692c98b3a12db",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165611&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165611&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e7190346f4c86713.json",
+  "bytes": 8947,
+  "sha256": "649ace75a76e280a98662a45fb33b1d497b470d4a3af6cf0233a8eccdbcae7f9",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165737&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165737&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/b4ebe65df91eed22.json",
+  "bytes": 16170,
+  "sha256": "3e70371537d3f2eda8767c846d864c438da0899be9b101384b5a160c4f3d8a2f",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165738&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165738&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/097773ef570be20a.json",
+  "bytes": 16647,
+  "sha256": "29c33ef6b06ee1ab651808d9f524ae38c972183f72b17cec40868dc35c598f74",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165740&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165740&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/554b2f029f364790.json",
+  "bytes": 6200,
+  "sha256": "59603be91630aa8cee32ece4c8d05a306a1e2546b2b59dd699b06ad3815a62f0",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165741&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165741&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/35d7383608815db1.json",
+  "bytes": 6435,
+  "sha256": "3e267f7cb11943052db6212ef3acb720fabaf7d4288360b79cbb2100ecff2d29",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165829&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165829&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/8ed716d679bd30f0.json",
+  "bytes": 7929,
+  "sha256": "0ecde437cce32726648caedc62a93451450c958857a84c693d4e45d951a2478e",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165881&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165881&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/03759a9a1e53acc4.json",
+  "bytes": 10921,
+  "sha256": "730baec4cb8b3c094fb8b168bd02378e06372c537fda8b11e81ffe13cfa4a1ca",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165915&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165915&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/8c0588cb98609247.json",
+  "bytes": 12111,
+  "sha256": "d302649d83ee80a0f4eae04d54211ee6909335a026d4c63523523ca5ea34ef47",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165917&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165917&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/6b6d47cb81fd70d7.json",
+  "bytes": 7283,
+  "sha256": "2b803e1e8933f91a727d5c8d13fe42359f7e56f181a80a7e14dd7211c73945c4",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165920&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165920&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/c0c0e9b4a0a09721.json",
+  "bytes": 6031,
+  "sha256": "e1e4a581ed0881d4508d359db48cc17219397f95b536ebdc5dc84435c968fd22",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165921&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165921&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/dee00a1715b4446e.json",
+  "bytes": 5713,
+  "sha256": "e1cf8d946fac29f8e59c8bd0291fe5dcb933359c28962764c681cb72336fc52a",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165922&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165922&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/87570548c2936d50.json",
+  "bytes": 6118,
+  "sha256": "d83cd40a70f2ba366efdc5d77345cc6071ddfe24e18016fdfdea9e2b9bb4933e",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165923&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165923&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/a09d3e73818c6184.json",
+  "bytes": 5727,
+  "sha256": "16e150e47de1dd4c24fe96bfcf41ee80d01fb726a812014987cbcac6e397035d",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165958&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165958&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/20d1a60097d458b3.json",
+  "bytes": 5942,
+  "sha256": "309f2affeaee30e583fee9ac48870cfd6aa0f08a14fe86da93de833590a60135",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165967&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165967&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/aaca7ab594256866.json",
+  "bytes": 7904,
+  "sha256": "502fcff5add3359fc5ae39db0ec3a17967e50193b403f3d54552917a25863d27",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165968&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165968&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/5be2dd83c7374b8b.json",
+  "bytes": 8524,
+  "sha256": "c9a3bfc9e57682d8d29664a21833928d8deac8f254282f69b3f6463c8a9dd564",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165976&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165976&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/698cb0214cb25be0.json",
+  "bytes": 8541,
+  "sha256": "cb731fcbf843f721bef66bd91e255988ea9bf05bd94a1bccf11380d231eb61a1",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165977&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165977&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/99462bb266037506.json",
+  "bytes": 15044,
+  "sha256": "bd75365974f31c181ef0fa9d6e71fc4b77c778e73cee864447635e4767691c29",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165978&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165978&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/d9b58f1270e05d94.json",
+  "bytes": 18858,
+  "sha256": "d2ca911360071af15ca0f5bc74f20bfb0fbb71decc30a8799738c9148ef45149",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165979&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165979&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/914a4192f18e70e3.json",
+  "bytes": 19250,
+  "sha256": "79e8afeb9515ca5c05b660702d12b27a10fe3b013382842a83e5b64c1c04dd01",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165980&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165980&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/50cf0786f655f59e.json",
+  "bytes": 12943,
+  "sha256": "120141f33b2fc8b9cacd2e87bb0bef3d8824f37a81add34088f38b5fd919b6fb",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165981&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165981&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/44947d76b3861070.json",
+  "bytes": 7185,
+  "sha256": "a25d62ec76eb238cdc4bff355a5f1c95b39fcdcf6b36abcf9db3ef46ceced34d",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165994&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165994&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/5594eb0b684089c8.json",
+  "bytes": 52643,
+  "sha256": "9d3da37418ecdd1a6c0f6e9f39e83e0fe2ba3332433d4369fd97f2885ef19949",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165995&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165995&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/5f36f9f197f72ad4.json",
+  "bytes": 8928,
+  "sha256": "62514691e018ec5e61c2d731422f59134247f426a473edd5d3e0e24eab9bc645",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165996&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165996&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/1d9e8b6cbad6c99a.json",
+  "bytes": 8598,
+  "sha256": "942a31f535a515f58d203460758c53246e856aaa76540c2c7d20f137eb088b62",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165997&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165997&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/5abf98be5ea5fb9b.json",
+  "bytes": 7537,
+  "sha256": "6cea869e7442a6e6ff846304291744f295a93fd2c3c65d849e742590387ed06d",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165998&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165998&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/4432ffb6c15e80d0.json",
+  "bytes": 6574,
+  "sha256": "f768648eb9e87cd98199ab3395a2cfe4bb162ce2d5ce3ad42b909878c7e0ec38",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=165999&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=165999&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e19cda8c8790af35.json",
+  "bytes": 6989,
+  "sha256": "397885310e65cd36ea974532ac6a6f8d4e5cfaea7a1f8c050e531d2c7d1288ff",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166000&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166000&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/88f5c120d58b63c3.json",
+  "bytes": 51158,
+  "sha256": "59e674743b21d861fbc4387dc77c1e8c00c835d965fae47ddf505f684b79fdc9",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166021&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166021&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/7e854355d3aabf97.json",
+  "bytes": 7798,
+  "sha256": "f318e38e931c906108b12a221cd23f0d75ade412c5fabce1dd17b96b07382378",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166023&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166023&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/80d99d5f11e41ba8.json",
+  "bytes": 52549,
+  "sha256": "0b85c2f4eb79a069e6c60aab063f8dbf2668669b064671b10d140beef0a46eb8",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166024&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166024&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e79f13681db5061d.json",
+  "bytes": 8223,
+  "sha256": "9fbd4807bf076fef17f0c2518e3da46c3723c8b756417d0c60698c0d0e036076",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166025&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166025&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/d4a62587c8b990f9.json",
+  "bytes": 8419,
+  "sha256": "571bb08bab1a934c2016274b2ebd522058b01a5f52e9b1ff7f0f021e086d33b7",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166042&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166042&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/9b99f1c45b92bda2.json",
+  "bytes": 6700,
+  "sha256": "95beb6823ac80811f2e6d28fc71202a1dc85fae43ae5c2a0ff5a05739f445db3",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166053&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166053&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/6eba5bdb6d9d6643.json",
+  "bytes": 5666,
+  "sha256": "6e74e740d23108e652cbbd5fe8f86ab460ab87226b0a12e012b05b95fd68f15e",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166054&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166054&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/f32a4728051e1a68.json",
+  "bytes": 7615,
+  "sha256": "65199e4c2cb137c47697e1d64393d5f180f44b89ef5e82dce5d42c737cb6f351",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166073&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166073&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/ae73b47a88eb757e.json",
+  "bytes": 10721,
+  "sha256": "ee98bcfe66079c473d4e5f91dd6909e94a2fd127918aede64c261dfcfdebf035",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166122&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166122&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/7b97aba363b9829e.json",
+  "bytes": 10433,
+  "sha256": "8b697df20abd4e3b68c9927c68a23c511a75505d0b5ef48b449c6511937c32b1",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166190&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166190&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/e38930990715ba38.json",
+  "bytes": 9408,
+  "sha256": "e9156842e23b08c5708c0e92a488066c247746db15269716126b1fd91edbb477",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166191&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166191&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/bc1424959c079218.json",
+  "bytes": 6537,
+  "sha256": "af5a35b44d4d745f8df9a1d087f7dc651e4d661e022312ca557fca3ef290c9e9",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166192&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166192&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/2d42e48bd56ad089.json",
+  "bytes": 6585,
+  "sha256": "15f8e3fa6e04c1ce7812d7ff409ee8fe114df00865ce5ab56b707f727aa49e03",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166193&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166193&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/2c3d3036446ed6f5.json",
+  "bytes": 5485,
+  "sha256": "4a555ef91407394dd4cdd217ec04ca61df635bb24efc7763b4154f9a2a35b9ba",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166194&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166194&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/6d3fb00d07dfc8e2.json",
+  "bytes": 5173,
+  "sha256": "0f66847d3e1d3b00b530bb279c722d55a1003a5bcbcb0044986606251f102bba",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166449&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166449&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/250fc2d60d4e7e4d.json",
+  "bytes": 5727,
+  "sha256": "86a005d8e0a44230386474b9b1149e1f81abe7eb2ec42dc26b9319f49a28a4f8",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166450&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166450&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/a748c9320452c5ac.json",
+  "bytes": 6047,
+  "sha256": "98267d4306db30f867f5815acef3f5966ba53dab3c7b618224d8f34f559dd840",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166451&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166451&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/d955637837e4f1be.json",
+  "bytes": 7778,
+  "sha256": "d7c7372b0698bc16ba7fbfff3ac33c9bcad140254d63ca68384faad23cf699cf",
+  "source": "direct"
+ },
+ {
+  "url": "https://sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iChanId=288&iAround=1&iInfoId=166474&sLangKey=zh-cn",
+  "key": "sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7/getContent?iAround=1&iChanId=288&iInfoId=166474&sLangKey=zh-cn",
+  "status": 200,
+  "type": "application/json",
+  "file": "archive/api/eb68427670c54906.json",
+  "bytes": 13932,
+  "sha256": "05a375f4bfd16357c4f27438778c78210fc42c68604db1510b8357c68fc4b5cf",
+  "source": "direct"
+ }
+]

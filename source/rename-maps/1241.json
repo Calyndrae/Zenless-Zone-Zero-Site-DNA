@@ -1,0 +1,24 @@
+{
+  "summary": "User-model in-flight request de-duplication (\"request merge\"). Keeps a Store named \"requestQueue\" (module 1176) keyed by URL key; merge(urlKey) returns false on SSR or when this is the first request (marking it isRequesting with a timestamp), otherwise returns a Promise that subscribes to the user-model event bus (module 1242) and resolves/rejects with rsp.data when the original request completes. complete(urlKey, isSuccess, data) emits the event and clears the queue entry; remove(urlKey) clears it. All steps are logged through userModelUtils.log.",
+  "exports": {
+    "default": "request-merge facade { merge(urlKey) -> false|Promise, complete(urlKey, isSuccess, data), remove(urlKey) }"
+  },
+  "renames": {
+    "n_1": "eventBusModule",
+    "l_2": "eventBus",
+    "f_3": "requestQueueStore",
+    "m_4": "getQueueEntry",
+    "e_5": "queueKey",
+    "e_6": "urlKey",
+    "t_7": "queueEntry",
+    "t_8": "resolve",
+    "o_9": "reject",
+    "n_10": "mergeEvent",
+    "e_11": "startUrlKey",
+    "e_12": "completeUrlKey",
+    "t_13": "isSuccess",
+    "e_14": "emitUrlKey",
+    "t_15": "succeeded",
+    "e_16": "removeUrlKey"
+  }
+}

@@ -1,0 +1,50 @@
+{
+ "component": "hyv-subscription-survey-tip",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-subscription-survey-tip": "hyv-subscription-survey-tip"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".hyv-subscription-survey-tip",
+   "media": [],
+   "declarations": {
+    "color": "var(--global-text-tertiary)",
+    "font-size": ".14em",
+    "line-height": "1.2em",
+    "margin-bottom": "1em",
+    "margin-top": "3px",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-survey-tip span",
+   "media": [],
+   "declarations": {
+    "color": "var(--brand-color-enabled)",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   ".14em"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,7 @@
+{
+  "summary": "Static HTML template string for the user-model loading overlay: a div #miHoYoUserModelLoading.user-model-loading containing .user-model-loading__bg, .user-model-loading__toast with .user-model-loading__icon and #miHoYoUserModelLoadingText.user-model-loading_text (default text \"数据加载中\"). Injected into document.body by module 1245. No logic.",
+  "exports": {
+    "module.exports": "HTML string for the #miHoYoUserModelLoading overlay markup"
+  },
+  "renames": {}
+}

@@ -1,0 +1,26 @@
+{
+  "summary": "Nuxt axios plugin. It stores the Nuxt context in `memoryCache` under `nuxtContext`, merges `{ baseURL: apiBase, withCredentials: true }` into `$axios.defaults` with lodash `merge`, and registers `$axios` hooks: `onRequest` logs the request, `onResponse` handles `retcode` values (-100 toast + redirect to `/login`, -200 to `/initPersonInfo`, -300 to `/bindMobile`, 1001 router back), and `onError` shows a `$toast` for network errors or `code___message`.",
+  "exports": {
+    "a": "the Nuxt axios plugin function (context)"
+  },
+  "renames": {
+    "A_1": "onRequest",
+    "m_2": "onResponse",
+    "d_3": "onError",
+    "c_4": "axiosDefaults",
+    "h_5": "setupAxios",
+    "t_6": "requestConfig",
+    "e_7": "axios",
+    "t_8": "response",
+    "e_9": "responseData",
+    "n_10": "redirect",
+    "o_11": "router",
+    "t_12": "error",
+    "t_13": "context",
+    "e_14": "axiosInstance",
+    "e_15": "request",
+    "e_16": "axiosResponse",
+    "e_17": "axiosError",
+    "t_18": "nuxtContext"
+  }
+}

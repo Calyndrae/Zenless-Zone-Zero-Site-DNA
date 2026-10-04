@@ -1,0 +1,51 @@
+{
+ "component": "cloud-download-dialog-title",
+ "files": [
+  "1354.css"
+ ],
+ "classes": {
+  "cloud-download-dialog-title": "cloud-download-dialog-title"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".cloud-download-dialog-title[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "color": "#141314",
+    "font-size": ".42rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "height": "1rem"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  },
+  {
+   "selector": "[mi18n-lang=ja-jp] .cloud-download-dialog-title[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "letter-spacing": "-0.03rem"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#141314"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".42rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

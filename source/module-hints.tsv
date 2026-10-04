@@ -1,0 +1,1460 @@
+chunk	id	bytes	kind	component	exports	css	libs	deps	strings
+0065aaf	1449	967	js	lang-main		lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+01cc6f8	1434	938	js	m-lang-main		m-lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+08021c5	1325	2923	css					9	.m-world-detail{position:relative;min-height:100vh;margin-top:1.1rem;background:url( | ) no-repeat 0 0/4rem auto,url(
+08021c5	1437	2777	vue	show		m-world-detail nav-num section__foot m-world-detail-container	swiper 4;regenerator runtime	6	m/default | auto | .swiper-pagination | seoTitlePrefix | return | pageTab
+08021c5	1326	653	asset					0	
+08021c5	1213	236	js				esm interop	2	string | 84ebe4d8
+08021c5	1324	37	js					1	
+0d508be	1451	2301	vue	lang-news		lang-news news-detail nuxt-link news-detail-wrapper	vue-router;regenerator runtime	8	seoTitlePrefix | return | news_back | news-detail-back back-btn | backArrow | backText
+0d508be	1411	1967	css					3	
+0d508be	1232	236	js				esm interop	2	string
+0d508be	1410	37	js					1	
+0eb4cff	1422	263	js	home-page		home-page m-lang-main		1	
+0ef825c	1453	168	js					1	
+1e69d9d	1407	8477	asset				APM / analytics	0	
+1e69d9d	1406	5130	css				swiper 4;HoYoverse mi18n (i18n loader)	9	) no-repeat 0 -1rem/10.3rem 11.6rem,url( | ) no-repeat center center/cover;background-attachment:fixed;overflow:hidden}.world-container{background:url(
+1e69d9d	1441	4855	vue	world		swiper-slide-active en-us lang-main lang-world-id	vue-router;vuex;swiper 4;regenerator runtime	9	world | auto | .swiper-button-next | .swiper-button-prev | translateX( | ) scale(
+1e69d9d	1230	236	js				esm interop	2	string
+1e69d9d	1405	37	js					1	
+2e4935f	1	77632	vue	keep-alive		data-server-rendered test-passive keep-alive out-in	vue 2 runtime;Google Analytics;inline svg;esm interop	2	EffectScope | computed | customRef | default | defineAsyncComponent | defineComponent
+2e4935f	1012	72925	vue	keep-alive		test-passive keep-alive data-server-rendered out-in	vue 2 runtime;Google Analytics;inline svg;esm interop	2	string | number | symbol | boolean | function | object
+2e4935f	325	29511	js			router-link-active router-link-exact-active aria-current	vue 2 runtime;vue-router;Google Analytics;query-string;pdf.js viewer;esm interop	0	object | object | object | object | RouterView | default
+2e4935f	1112	28398	js			content-length content-type if-modified-since if-unmodified-since	axios;Google Analytics	5	default | Axios | AxiosError | CanceledError | isCancel | CancelToken
+2e4935f	1113	28224	js			content-length content-type if-modified-since if-unmodified-since	axios;Google Analytics	5	default | Axios | AxiosError | CanceledError | isCancel | CancelToken
+2e4935f	523	15493	js			data-vue-meta data-vue-meta-server-rendered amp-boilerplate data-server-rendered	vue-router	2	function | symbol | function | symbol | undefined | string
+2e4935f	198	12559	js				vuex;APM / analytics	1	undefined | object | object | function | undefined | vuex:init
+2e4935f	115	10740	js			not-basic invalid-input		27	Cannot call a class as a function | value | undefined | @@iterator | string | Object
+2e4935f	98	6524	js				regenerator runtime;Google Analytics	0	function | @@iterator | @@asyncIterator | @@toStringTag | Generator is already running | throw
+2e4935f	948	6276	js				regenerator runtime;Google Analytics	0	function | @@iterator | @@asyncIterator | @@toStringTag | object | suspendedStart
+2e4935f	3	5617	js				Google Analytics	4	undefined | ArrayBuffer | string | function | number | object
+2e4935f	4	5617	js				Google Analytics	4	undefined | ArrayBuffer | string | function | number | object
+2e4935f	635	3390	js			symbol-registry op-symbols	Google Analytics	31	_hidden | toPrimitive | symbols | function | symbol | symbol
+2e4935f	84	3384	js			symbol-registry op-symbols	Google Analytics	31	_hidden | toPrimitive | symbols | function | symbol | symbol
+2e4935f	571	3192	js					22	Promise | process | species | function | Chrome/66 | function
+2e4935f	603	3192	js					22	Promise | process | species | function | Chrome/66 | function
+2e4935f	439	2299	js			content-type	axios	10	abort | Content-Type | Basic  | getAllResponseHeaders | text | json
+2e4935f	73	2131	js					1	[object ArrayBuffer] | object | [object Object] | [object Function] | object | function
+2e4935f	132	1994	js					4	target must be an object | undefined | visitor must be a function | Blob is not supported. Use a Buffer instead. | function | object
+2e4935f	133	1994	js					4	target must be an object | undefined | visitor must be a function | Blob is not supported. Use a Buffer instead. | function | object
+2e4935f	204	1788	js					9	split | abbc | test
+2e4935f	649	1713	js					2	[object process] | onreadystatechange | script | script | setImmediate$ | string
+2e4935f	120	1704	js					0	setTimeout has not been defined | clearTimeout has not been defined | function | function | browser | process.binding is not supported
+2e4935f	298	1659	js				axios	6	Content-Type | application/x-www-form-urlencoded | Content-Type | Content-Type | undefined | [object process]
+2e4935f	1003	1621	js					0	function | undefined | number | undefined
+2e4935f	1036	1621	js					0	function | undefined | number | undefined
+2e4935f	706	1604	js				axios	6	string | function | delete | head | options | post
+2e4935f	40	1449	js					0	undefined | number | undefined
+2e4935f	1011	1449	js					0	undefined | number | undefined
+2e4935f	138	1392	js					7	replace | function
+2e4935f	26	1235	js				axios	1	AxiosError | ERR_BAD_OPTION_VALUE | ERR_BAD_OPTION | ECONNABORTED | ETIMEDOUT | ERR_NETWORK
+2e4935f	27	1235	js				axios	1	AxiosError | ERR_BAD_OPTION_VALUE | ERR_BAD_OPTION | ECONNABORTED | ETIMEDOUT | ERR_NETWORK
+2e4935f	556	1132	js					13	Number | trim | string
+2e4935f	442	1098	js				axios	1	
+2e4935f	223	1067	js					2	undefined | undefined | undefined
+2e4935f	221	989	js					7	species | split | replace | split
+2e4935f	368	971	js					6	onreadystatechange | function | process | function | message | script
+2e4935f	392	971	js					6	onreadystatechange | function | process | function | message | script
+2e4935f	719	939	js					1	function | executor must be a function.
+2e4935f	718	892	js					1	object | boolean | number | function | string | symbol
+2e4935f	383	866	js					9	iterator | next | keys | values |  Iterator | @@iterator
+2e4935f	367	865	js					9	iterator | next | keys | values |  Iterator | @@iterator
+2e4935f	137	815	js				Google Analytics	7	iterator | toStringTag
+2e4935f	36	805	js					0	function | data-v- | undefined
+2e4935f	87	777	js					5	function | function
+2e4935f	708	745	js					5	canceled | delete | head | post | patch | common
+2e4935f	575	688	js					3	process
+2e4935f	607	688	js					3	process
+2e4935f	717	663	js					1	href | href
+2e4935f	402	632	js					11	match | RegExp | RegExp
+2e4935f	436	623	js					1	
+2e4935f	386	621	js				Google Analytics	5	toStringTag
+2e4935f	712	592	js					1	expires= | path= | domain= | secure
+2e4935f	636	565	js					5	meta | symbol | string
+2e4935f	716	564	js			content-length content-type if-modified-since if-unmodified-since		1	authorization | etag | expires | from | host | location
+2e4935f	563	562	js					5	meta | symbol | string
+2e4935f	615	541	js					9	Array | function
+2e4935f	157	540	js					9	Array | function
+2e4935f	296	529	js					1	
+2e4935f	288	506	js					6	IE_PROTO | iframe | none | javascript: | <script>document.F=Object</script>
+2e4935f	273	505	js					6	IE_PROTO | iframe | none | javascript: | <script>document.F=Object</script>
+2e4935f	47	499	js					5	function
+2e4935f	594	495	js					7	abcdefghijklmnopqrst
+2e4935f	224	493	js					5	match
+2e4935f	580	493	js					7	abcdefghijklmnopqrst
+2e4935f	71	487	js					3	undefined | @@iterator
+2e4935f	437	460	js				axios	0	
+2e4935f	95	454	js					6	toString | function | name | name | function
+2e4935f	605	440	js					6	function |  is not iterable!
+2e4935f	573	438	js					6	function |  is not iterable!
+2e4935f	346	432	js					5	
+2e4935f	705	428	js				axios	11	
+2e4935f	353	408	js					4	search
+2e4935f	707	408	js					1	
+2e4935f	652	400	js					4	: can't set as prototype! | __proto__ | __proto__
+2e4935f	205	383	js					1	string | Object | Arguments
+2e4935f	32	379	js					0	next | throw
+2e4935f	207	376	js					6	toString | flags
+2e4935f	155	373	js					6	Array | Array | String
+2e4935f	220	373	js					1	function | object | RegExp exec method returned something other than an Object or null | RegExp | RegExp#exec called on incompatible receiver
+2e4935f	366	352	js					5	Array | keys | values | values | keys | values
+2e4935f	600	352	js					5	Array | keys | values | values | keys | values
+2e4935f	956	352	js					4	String
+2e4935f	723	351	js					4	String
+2e4935f	574	341	js					0	
+2e4935f	606	341	js					0	
+2e4935f	947	336	js				regenerator runtime	1	return this | regeneratorRuntime
+2e4935f	407	333	js					3	&quot; | String
+2e4935f	284	331	js					1	function | function | function | Can't convert object to primitive value
+2e4935f	209	330	js					1	function | function | function | Can't convert object to primitive value
+2e4935f	214	328	js				Google Analytics	2	toStringTag | Arguments | Undefined | Null | string | Object
+2e4935f	387	328	js				Google Analytics	2	toStringTag | Arguments | Undefined | Null | string | Object
+2e4935f	581	319	js					5	Promise | function
+2e4935f	611	318	js					5	Promise | function
+2e4935f	656	305	js					4	endsWith | String
+2e4935f	315	301	js					0	loaded
+2e4935f	365	299	js					1	iterator
+2e4935f	395	299	js					1	iterator
+2e4935f	374	296	js					2	
+2e4935f	596	296	js					2	
+2e4935f	102	293	js					0	function | symbol | function | symbol
+2e4935f	140	291	js					1	
+2e4935f	184	291	js					1	
+2e4935f	171	287	js					4	startsWith | String
+2e4935f	567	285	js					2	object | [object Window]
+2e4935f	639	285	js					2	object | [object Window]
+2e4935f	108	280	js					4	Accessors not supported! | value
+2e4935f	86	278	js					4	Accessors not supported! | value
+2e4935f	570	262	js					3	IE_PROTO | function
+2e4935f	599	262	js					3	IE_PROTO | function
+2e4935f	210	259	js				core-js polyfills	3	__core-js_shared__ | versions | pure | global | © 2020 Denis Pushkarev (zloirock.ru)
+2e4935f	281	258	js				core-js polyfills	3	__core-js_shared__ | versions | pure | global | © 2020 Denis Pushkarev (zloirock.ru)
+2e4935f	289	254	js					1	Bad Promise constructor
+2e4935f	369	254	js					1	Bad Promise constructor
+2e4935f	588	249	js					3	
+2e4935f	359	248	js					3	
+2e4935f	136	242	js					2	String
+2e4935f	287	242	js					2	String
+2e4935f	106	239	js					5	Object
+2e4935f	253	237	js					0	
+2e4935f	583	229	js					3	species | function
+2e4935f	358	226	js					4	IE_PROTO
+2e4935f	376	226	js					4	IE_PROTO
+2e4935f	400	226	js					7	
+2e4935f	178	225	js					7	
+2e4935f	610	217	js					5	species | function
+2e4935f	655	214	js					2	Count can't be negative
+2e4935f	650	208	js					4	
+2e4935f	711	206	js					1	Request failed with status code 
+2e4935f	569	196	js					5	iterator |  Iterator
+2e4935f	597	196	js					5	iterator |  Iterator
+2e4935f	529	195	js				esm interop	0	
+2e4935f	222	194	js					1	
+2e4935f	65	193	js					2	name
+2e4935f	955	193	js					3	
+2e4935f	119	188	js					3	includes | String
+2e4935f	57	186	js					0	undefined | undefined | return this | number
+2e4935f	69	186	js					0	undefined | undefined | return this | number
+2e4935f	206	184	js					1	Invalid Date | toString
+2e4935f	56	183	js					0	
+2e4935f	294	181	js					5	
+2e4935f	564	181	js					5	
+2e4935f	225	180	js					0	Cancel
+2e4935f	371	178	js					4	species
+2e4935f	350	177	js					0	undefined | @@iterator
+2e4935f	77	176	js				Google Analytics	3	toStringTag | [object z] | toString | [object 
+2e4935f	403	175	js					2	function
+2e4935f	598	175	js					4	
+2e4935f	566	172	js					4	
+2e4935f	565	170	js					3	
+2e4935f	637	170	js					3	
+2e4935f	265	169	js					0	
+2e4935f	118	168	js					3	Array | includes
+2e4935f	435	168	js					0	
+2e4935f	48	166	js					3	function | Symbol.
+2e4935f	78	166	js					3	function | Symbol.
+2e4935f	373	164	js					4	Object
+2e4935f	378	164	js					4	Object
+2e4935f	612	164	js					3	Promise
+2e4935f	394	159	js					3	
+2e4935f	710	159	js					1	
+2e4935f	370	157	js					3	
+2e4935f	709	156	js					2	
+2e4935f	364	155	js					4	iterator | @@iterator
+2e4935f	390	154	js					4	iterator | @@iterator
+2e4935f	144	153	js					3	
+2e4935f	122	151	js					3	
+2e4935f	219	151	js				Google Analytics	3	toStringTag
+2e4935f	391	151	js					3	species
+2e4935f	212	150	js				Google Analytics	3	toStringTag
+2e4935f	274	150	js					3	species
+2e4935f	388	150	js					1	
+2e4935f	361	149	js					1	
+2e4935f	275	147	js					2	String# |  doesn't accept regex!
+2e4935f	277	147	js					1	match
+2e4935f	585	147	js					4	
+2e4935f	67	146	js					3	Array
+2e4935f	42	144	js					0	return this | object
+2e4935f	156	140	js					3	Array
+2e4935f	372	139	js					1	
+2e4935f	270	138	js					1	String
+2e4935f	377	138	js					1	String
+2e4935f	379	138	js					3	
+2e4935f	572	138	js					0	: incorrect invocation!
+2e4935f	604	138	js					0	: incorrect invocation!
+2e4935f	356	136	js					3	
+2e4935f	276	135	js					3	match | RegExp
+2e4935f	362	133	js					2	iterator
+2e4935f	389	133	js					2	iterator
+2e4935f	272	131	js					0	constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf
+2e4935f	282	131	js					0	constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf
+2e4935f	105	128	js					3	getOwnPropertyDescriptor
+2e4935f	616	128	js					2	
+2e4935f	644	128	js					3	getOwnPropertyDescriptor
+2e4935f	173	127	js					0	Symbol(
+2e4935f	216	127	js					0	Symbol(
+2e4935f	283	127	js					2	
+2e4935f	363	127	js					2	
+2e4935f	177	126	js					2	length | prototype
+2e4935f	255	126	js					0	
+2e4935f	258	126	js					0	
+2e4935f	268	126	js					2	
+2e4935f	399	126	js					2	length | prototype
+2e4935f	345	122	js					2	unscopables
+2e4935f	109	118	js					1	
+2e4935f	440	118	js					1	
+2e4935f	72	117	js					1	
+2e4935f	211	111	js					0	function |  is not a function!
+2e4935f	217	111	js					0	function |  is not a function!
+2e4935f	715	111	js					0	
+2e4935f	126	110	js					1	 is not an object!
+2e4935f	609	110	js					1	
+2e4935f	66	109	js					1	 is not an object!
+2e4935f	172	109	js					0	
+2e4935f	185	109	js					0	
+2e4935f	352	109	js					1	
+2e4935f	589	109	js					1	
+2e4935f	208	107	js					1	link | href
+2e4935f	252	106	js					0	
+2e4935f	438	106	js					0	
+2e4935f	590	106	js					2	
+2e4935f	643	106	js					2	
+2e4935f	721	106	js				axios	1	
+2e4935f	648	105	js					2	RegExp
+2e4935f	297	104	js					1	
+2e4935f	653	103	js					3	flags
+2e4935f	85	102	js					3	keys
+2e4935f	295	102	js					1	
+2e4935f	587	102	js					3	keys
+2e4935f	99	101	js					1	
+2e4935f	125	101	js					0	Can't call method on  
+2e4935f	215	101	js					0	Can't call method on  
+2e4935f	278	101	js					1	
+2e4935f	713	101	js					2	
+2e4935f	175	100	js					0	
+2e4935f	279	100	js					0	
+2e4935f	714	96	js					0	
+2e4935f	720	95	js					0	
+2e4935f	271	94	js					2	keys
+2e4935f	280	94	js					2	keys
+2e4935f	578	93	js					1	
+2e4935f	94	92	js					0	object | function
+2e4935f	145	92	js					0	object | function
+2e4935f	401	92	js					2	Object
+2e4935f	954	91	js					2	Number
+2e4935f	651	90	js					0	
+2e4935f	141	88	js					2	
+2e4935f	181	88	js					2	
+2e4935f	646	88	js					2	
+2e4935f	360	87	js					1	Array
+2e4935f	393	87	js					0	
+2e4935f	576	87	js					0	
+2e4935f	638	87	js					1	Array
+2e4935f	124	84	js					0	
+2e4935f	182	84	js					0	
+2e4935f	123	82	js					0	
+2e4935f	142	82	js					0	
+2e4935f	591	82	js					3	Object
+2e4935f	595	82	js					7	
+2e4935f	562	80	js			native-function-to-string		1	
+2e4935f	62	79	js					0	number
+2e4935f	121	79	js					0	number
+2e4935f	441	79	js					0	
+2e4935f	107	76	js					2	
+2e4935f	143	76	js					2	
+2e4935f	582	74	js					1	
+2e4935f	509	73	js					0	
+2e4935f	724	73	js					0	
+2e4935f	68	72	js					0	
+2e4935f	139	72	js					1	
+2e4935f	146	72	js					0	
+2e4935f	180	72	js					1	
+2e4935f	269	68	js					1	
+2e4935f	385	68	js					1	
+2e4935f	577	67	js					1	
+2e4935f	608	67	js					1	
+2e4935f	634	67	js					5	
+2e4935f	568	64	js					0	
+2e4935f	579	64	js					2	Object
+2e4935f	593	64	js					2	Object
+2e4935f	602	64	js					0	
+2e4935f	632	61	js					3	iterator
+2e4935f	647	60	js					2	Object
+2e4935f	654	60	js					2	String
+2e4935f	614	57	js					3	
+2e4935f	953	55	js					2	
+2e4935f	1005	55	js					0	
+2e4935f	592	53	js					2	
+2e4935f	586	51	js					2	
+2e4935f	213	47	js					0	
+2e4935f	285	47	js					0	
+2e4935f	443	43	js					0	
+2e4935f	176	42	js					0	
+2e4935f	218	42	js					0	
+2e4935f	640	40	js					1	asyncIterator
+2e4935f	256	38	js					0	
+2e4935f	259	38	js					0	
+2e4935f	601	37	js					0	
+2e4935f	641	37	js					1	observable
+2e4935f	60	34	js					1	
+2e4935f	114	33	js					1	
+2e4935f	384	33	js					1	
+2e4935f	174	27	js					0	
+2e4935f	179	27	js					0	
+2e4935f	183	27	js					0	
+2e4935f	186	27	js					0	
+2e4935f	293	26	js					1	
+2e4935f	357	26	js					1	
+2e4935f	382	15	js					0	
+39a3684	1436	2142	vue	m-lang-news		m-lang-news m-news-detail m-news-detail-container m-news-detail__article	vue-router;regenerator runtime	7	m/default | seoTitlePrefix | return | news_back | article | breadcrumb
+39a3684	1323	2073	css					1	
+39a3684	1212	236	js				esm interop	2	string | 12afbb50
+39a3684	1322	37	js					1	
+3b23566	1418	41323	vue	sidebar		sidebar__nav sidebar__nav-prev sidebar__nav-next sidebar__scroll	vue-router;vuex;swiper 4;gsap / TweenMax;regenerator runtime;HoYoverse mi18n (i18n loader);HoYoverse footer / media icons;HoYoverse download layout	61	fill fill-black fill-black-character | sidebar | translateY(- | rem) | resize | resize
+3b23566	1363	6451	css				swiper 4;HoYoverse mi18n (i18n loader)	6	
+3b23566	1359	5793	asset					0	
+3b23566	1350	5181	asset					0	
+3b23566	1351	4993	asset					0	
+3b23566	1349	4877	asset					0	
+3b23566	1385	4333	css				swiper 4	9	);mask-image:url(
+3b23566	1358	4002	css				HoYoverse mi18n (i18n loader);HoYoverse download layout	4	) no-repeat center/100% 100%;cursor:pointer;transition-delay:80ms}.home-kv__play:hover{background-image:url(
+3b23566	1356	3825	asset					0	
+3b23566	1387	3805	asset					0	
+3b23566	1360	3749	asset					0	
+3b23566	1374	3424	css				HoYoverse mi18n (i18n loader)	7	) 0 0/100% 100%;transform:translateY(-50%)}
+3b23566	1347	2693	asset					0	
+3b23566	1370	2540	css				HoYoverse mi18n (i18n loader)	5	
+3b23566	1368	2229	css					4	)}.home-news .more[data-v-68b07d09]{position:absolute;bottom:-0.24rem;right:0;z-index:3}
+3b23566	1377	2169	asset					0	
+3b23566	1391	2089	asset				APM / analytics	0	
+3b23566	1388	1825	asset				APM / analytics	0	
+3b23566	1393	1489	css					3	
+3b23566	1354	1387	css				HoYoverse mi18n (i18n loader);HoYoverse download layout	4	
+3b23566	1346	1156	css					4	) 0 0/100% 100%;cursor:pointer}.sidebar__nav-prev.disable,.sidebar__nav-next.disable{background-image:url(
+3b23566	1390	897	asset					0	
+3b23566	1348	793	asset					0	
+3b23566	1389	725	asset					0	
+3b23566	1217	236	js				esm interop	2	string
+3b23566	1218	236	js				esm interop	2	string
+3b23566	1219	236	js				esm interop	2	string
+3b23566	1220	236	js				esm interop	2	string | 09fdedea
+3b23566	1221	236	js				esm interop	2	string
+3b23566	1222	236	js				esm interop	2	string
+3b23566	1223	236	js				esm interop	2	string
+3b23566	1225	236	js				esm interop	2	string
+3b23566	1226	236	js				esm interop	2	string
+3b23566	1344	73	asset					0	img/home-page-full-screen-bg.96cb2a8.png
+3b23566	1355	66	asset					0	img/cloud_download_bg.5f3945d.png
+3b23566	1343	65	asset					0	img/fill-black-right.c6c1db1.png
+3b23566	1364	63	asset					0	img/chara-panel-bg.86c2c99.png
+3b23566	1386	62	asset					0	img/fill-video-bg.4f4b8d0.png
+3b23566	1394	62	asset					0	img/fill-film-bar.0db1011.png
+3b23566	1216	61	asset					0	img/fill-film-bg.bbdc31c.png
+3b23566	1366	61	asset					0	img/news-page-bg.2b65d54.png
+3b23566	1376	61	asset					0	img/concept-icon.02e8c67.png
+3b23566	1361	60	asset					0	img/chara-empty.ecbe4d7.png
+3b23566	1365	60	asset					0	img/chara-panel.20d68d6.png
+3b23566	1375	60	asset					0	img/concept-nav.7bc3606.png
+3b23566	1341	58	asset					0	img/fill-text.b4d7ce4.png
+3b23566	1342	57	asset					0	img/fill-bar.3e3b1a7.png
+3b23566	1340	56	asset					0	img/fill-bg.c5ecc5f.png
+3b23566	1371	54	asset					0	img/panel.66cafff.png
+3b23566	1372	52	asset					0	img/bar.9dcf6df.png
+3b23566	1345	37	js					1	
+3b23566	1353	37	js					1	
+3b23566	1357	37	js					1	
+3b23566	1362	37	js					1	
+3b23566	1367	37	js					1	
+3b23566	1369	37	js					1	
+3b23566	1373	37	js					1	
+3b23566	1384	37	js					1	
+3b23566	1392	37	js					1	
+3f59e77	1439	17965	vue	character		en-us nav-num client-only cha-swiper	vue-router;vuex;swiper 4;gsap / TweenMax;regenerator runtime;vuescroll	29	character | seoTitlePrefix | description | description | og:description | og:description
+3f59e77	1330	11607	css				swiper 4;HoYoverse mi18n (i18n loader)	12	);-webkit-mask-image:url( | );background-size:100% 100%}.character .pagination-dot-container .pagination-dot-item-active{background-image:url(
+3f59e77	1333	2353	asset					0	
+3f59e77	1332	1789	asset					0	
+3f59e77	1331	1529	asset					0	
+3f59e77	1214	236	js				esm interop	2	string
+3f59e77	1328	235	js					3	
+3f59e77	1327	73	js					3	Array | fill
+3f59e77	1335	73	asset					0	img/camp-selection-header-pc.f0127ef.png
+3f59e77	1334	69	asset					0	img/camp-selection-bg-pc.2bc3641.png
+3f59e77	1336	62	asset					0	img/camp-block-pc.a3cdf91.png
+3f59e77	1337	61	asset					0	img/side-camp-bg.3a50dfc.png
+3f59e77	1329	37	js					1	
+44468dc	1440	2947	vue	feature		lang-main nav-num section-wrap feature-container	swiper 4;regenerator runtime	7	feature | auto | .swiper-pagination | .swiper-button-next | .swiper-button-prev | nav4
+44468dc	1339	2029	css					7	.feature{position:relative;margin-top:1rem;background:url(
+44468dc	1215	236	js				esm interop	2	string
+44468dc	1338	37	js					1	
+466de49	1427	277	js	m-character-detail		m-character-detail m-lang-character		1	
+47029f5	1430	828	js	m-lang-main		m-lang-main client-only	regenerator runtime	5	empty | seoTitlePrefix | return | protocol
+528dc6e	1431	939	js	m-lang-main		m-lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+53d09dd	1420	6679	vue	video-tag		video-tag video-tag__text lang-video swiper-pagination-index	vue-router;vuex;swiper 4;regenerator runtime	23	setVideoCates | setVideoMainChanName | default | seoTitlePrefix | navVideo | auto
+53d09dd	1403	4378	css				HoYoverse mi18n (i18n loader)	6	.video{position:relative;margin-top:1rem;min-height:100%;background:url(
+53d09dd	1404	3573	asset					0	
+53d09dd	1401	513	asset					0	
+53d09dd	1400	274	css					3	.video-tag{min-width:.44rem;padding:.02rem .1rem;background:url( | ) center center/100% 100%}.video-tag__text{color:#d8fa00;font-size:.12rem;text-align:center;w
+53d09dd	1228	236	js				esm interop	2	string | 7fe00ffd
+53d09dd	1229	236	js				esm interop	2	string
+53d09dd	1399	37	js					1	
+53d09dd	1402	37	js					1	
+564bae5	1423	13749	vue	m-cha		m-cha nav-num character-block character-swiper	vue-router;vuex;swiper 4;gsap / TweenMax;regenerator runtime;vuescroll	25	m/default | seoTitlePrefix | description | description | og:description | og:description
+564bae5	1250	10063	css				swiper 4;HoYoverse mi18n (i18n loader)	14	.character{position:relative;overflow:hidden;margin-top:1rem;background-image:url( | );background-size:100% 100%}.character .switch-button{width:.55rem;height:1
+564bae5	1180	2573	asset				APM / analytics	0	
+564bae5	1253	1801	asset					0	
+564bae5	1259	1053	asset					0	
+564bae5	1255	573	asset					0	
+564bae5	1189	236	js				esm interop	2	string
+564bae5	1257	72	asset					0	img/camp-selection-header-m.0e6a56c.png
+564bae5	1181	68	asset					0	img/chara-pagination-bg.1452db0.png
+564bae5	1179	66	asset					0	img/camp-icon-unknown.d7d4775.png
+564bae5	1251	63	asset					0	img/character-bg-m.c254895.jpg
+564bae5	1254	63	asset					0	img/camp-texture-m.36115d3.png
+564bae5	1258	63	asset					0	img/camp-item-bg-m.baa0d5e.png
+564bae5	1252	61	asset					0	img/m-chara-mist.1bb4584.png
+564bae5	1256	58	asset					0	img/camp-mist.80b3f9e.png
+564bae5	1249	37	js					1	
+5804396	1445	857	js	lang-main		lang-main client-only	regenerator runtime	5	empty | seoTitlePrefix | return | protocol
+5e4f8d9	1448	967	js	lang-main		lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+6850d84	1421	304	js	video-page		video-page lang-video		1	
+6a183b1	1455	168	js					1	
+6b7076d	1433	938	js	m-lang-main		m-lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+74d90aa	1438	261	js	home-page		home-page lang-main		1	
+75ab81f	1435	2197	vue	m-lang-news		m-lang-news m-news-detail m-news-detail-container m-news-detail__article	vue-router;vuex;regenerator runtime	6	m/default | ?lang= | return | news_back | addEventListener | removeEventListener
+75ab81f	1321	933	css					1	
+75ab81f	1211	236	js				esm interop	2	string
+75ab81f	1320	37	js					1	
+7ff8829	1205	5777	asset				APM / analytics;Google Analytics	0	
+7ff8829	1154	4433	js			chara-color chara-name chara-name-home chara-name-home-m		5	string | -lang | -name | -lang | -audio | /getContentList
+7ff8829	1195	3361	asset					0	
+7ff8829	1199	2933	asset					0	
+7ff8829	1177	2337	asset				APM / analytics	0	
+7ff8829	1178	1153	asset					0	
+7ff8829	1204	59	asset					0	img/concept-tv.8242ab6.png
+7ff8829	1202	54	asset					0	img/empty.a348832.jpg
+84ad6ad	1450	2401	vue	lang-news		lang-news gacha-detail nuxt-link gacha-detail-wrapper	vuex;regenerator runtime	7	?lang= | return | news_back | addEventListener | removeEventListener | message
+84ad6ad	1409	948	css					3	
+84ad6ad	1231	236	js				esm interop	2	string
+84ad6ad	1408	37	js					1	
+8c4c131	703	38070	css				vuescroll;HoYoverse mi18n (i18n loader);HoYoverse CRM subscription	14	@font-face{font-family:"Impact";src:url( | );font-weight:normal}@font-face{font-family:"Mont-Heavy";src:url( | ),url( | );font-weight:normal}@font-face{font-fam
+8c4c131	685	33729	css				vuescroll;HoYoverse mi18n (i18n loader);HoYoverse cookie tips;HoYoverse CRM subscription;HoYoverse download layout;toast	18	#icomoon | @font-face{font-family:"Impact";src:url( | );font-weight:normal}@font-face{font-family:"inpin hongmengti";src:url( | ),url( | )}@font-face{font-famil
+8c4c131	696	12473	asset					0	
+8c4c131	558	11598	asset					0	
+8c4c131	676	8097	asset					0	
+8c4c131	679	7961	asset					0	
+8c4c131	689	7913	asset					0	
+8c4c131	677	7665	asset					0	
+8c4c131	678	7537	asset					0	
+8c4c131	349	7403	vue	m-header-bar		m-header-bar en-us m-lang-main m-header	vue-router;vuex;HoYoverse mi18n (i18n loader)	14	mobile | muteBgm | $route.name | Button | Click | download
+8c4c131	348	7162	vue	header-bar		header-bar lang-main header-wrapper header-wrapper-lt	vue-router;vuex;regenerator runtime;HoYoverse mi18n (i18n loader)	19	setUserInfo | nap_global | Button | Click | to_download | download
+8c4c131	695	6370	css					11	
+8c4c131	698	5825	asset					0	
+8c4c131	673	5494	css				HoYoverse mi18n (i18n loader)	5	
+8c4c131	410	5381	asset					0	
+8c4c131	683	4909	css				HoYoverse CRM subscription	1	
+8c4c131	700	4609	asset					0	
+8c4c131	664	4290	css				HoYoverse CRM subscription	5	
+8c4c131	409	3885	asset					0	
+8c4c131	686	3661	asset					0	
+8c4c131	688	3521	asset					0	
+8c4c131	687	3420	asset					0	
+8c4c131	697	3133	asset					0	
+8c4c131	699	2865	asset					0	
+8c4c131	203	2670	vue	footer-bar		footer-bar footer__wrap lang-main m-lang-main	vue-router;vuex;HoYoverse footer / media icons	13	right | shareQQZone | shareQQ | shareWeibo | link | facebook
+8c4c131	704	2531	js			en-us	HoYoverse mi18n (i18n loader)	7	state | getters | mutations | actions | index | index
+8c4c131	671	2377	asset					0	
+8c4c131	551	2184	vue	description		v-show header-bar footer-bar	vue-router;vuex	9	portrait | landscapeTip | seoTitle | description | description | seoDesc
+8c4c131	417	2077	asset					0	
+8c4c131	665	1837	asset					0	
+8c4c131	251	1780	js	base		code-500	vuex;regenerator runtime;HoYoverse mi18n (i18n loader)	4	base | setUserInfo | setBaseInfo | welcomeTitle | welcomeTextDetail | welcomeBtnDetail
+8c4c131	326	1770	js					5	mobile | android | chrome | landscape | __nuxt | visible
+8c4c131	134	1761	vue	show		m-lang-main lang-main error__404 error__text	vue-router	5	errorLayout | error | error404 | error404Sub | show | $route.name !== 'm-lang-main' && $route.name !== 'lang-main'
+8c4c131	549	1622	vue	description		v-show header-bar footer-bar	vuex	6	seoTitle | description | description | seoDesc | Keywords | Keywords
+8c4c131	584	1601	js				vuex	14	setLang | development | test | nap_global | morax
+8c4c131	666	1521	asset					0	
+8c4c131	340	1478	js			accept-language no-cache en-us	vuex;regenerator runtime;HoYoverse mi18n (i18n loader)	11	mi18nLang | development | test | nap_global | morax | setLang
+8c4c131	250	1473	vue			loading__field loading__anim	vuex	2	setLoading | hidden | loaded | auto | loading | video
+8c4c131	681	1390	css				HoYoverse footer / media icons	1	
+8c4c131	668	1326	css					1	
+8c4c131	411	1313	asset					0	
+8c4c131	262	1273	vue	header-social		header-social share__info share__icon client-only	vuex;HoYoverse footer / media icons	4	Media_Share | Media_Sub_Follow | link | shareCopyText | copySuccess | Media_Sub_Share
+8c4c131	28	1269	js					0	environment | i18nEnv | isSea | apiBase | normalBase | accountMangementUrl
+8c4c131	670	1230	css				HoYoverse footer / media icons	3	
+8c4c131	412	1209	asset					0	
+8c4c131	343	1179	js					23	meAudio | share | CrmSub | hoyolab | nap_global | account
+8c4c131	49	1145	js			de-de en-us es-es fr-fr	HoYoverse mi18n (i18n loader)	0	main | nav1 | firstpage | character | nav2 | character
+8c4c131	330	1090	js				vuex;regenerator runtime	5	production | x-rpc-e_client_ip | /event/event_fe_info/ip_location?game_biz=nap_global&ip_location_type=1&ip_config_key=ftc_country_code | return | setIsEnIp
+8c4c131	327	1045	js					3	G-8BR44XDKVQ | event | deviceType | updateUid | trackEvent | trackEvent
+8c4c131	415	1009	asset					0	
+8c4c131	347	930	vue	back-top		back-top		2	light | scroll | scroll | html,body | back_to_top | button
+8c4c131	331	908	js				axios	8	test | prerelease
+8c4c131	83	850	js			m-lang	HoYoverse mi18n (i18n loader)	8	[object RegExp] | mi18nLang | catchSpider
+8c4c131	500	829	js					0	setLocalStorageCache | getLocalStorageCache | removeLocalStorageCache | getLocalStorageInfo | memoryCache
+8c4c131	660	809	css					1	
+8c4c131	344	807	js					9	webpush | webpush
+8c4c131	416	793	asset				Google Analytics	0	
+8c4c131	341	790	js					3	/login | /initPersonInfo | /bindMobile | Network Error | nuxtContext
+8c4c131	675	644	css					6	)}.backTop.light:hover{background-image:url( | )}.backTop.dark{width:1.12rem;height:1.4rem;background-image:url( | )}.backTop.dark:hover{background-image:url( |
+8c4c131	404	235	js				esm interop	2	string
+8c4c131	406	235	js				esm interop	2	string
+8c4c131	413	235	js				esm interop	2	string | f4fbfe22
+8c4c131	414	235	js				esm interop	2	string
+8c4c131	418	235	js				esm interop	2	string
+8c4c131	419	235	js				esm interop	2	string
+8c4c131	420	235	js				esm interop	2	string
+8c4c131	421	235	js				esm interop	2	string | 41edecd8
+8c4c131	432	235	js				esm interop	2	string | fda7c4d0
+8c4c131	433	235	js				esm interop	2	string
+8c4c131	434	235	js				esm interop	2	string
+8c4c131	663	235	js				esm interop	2	string
+8c4c131	550	208	vue					2	root | nuxt
+8c4c131	553	174	js					1	nuxt
+8c4c131	329	92	js					1	landscapeTip
+8c4c131	342	91	js					2	
+8c4c131	693	88	css					1	body{margin:0;padding:0}
+8c4c131	690	77	asset					0	fonts/TTHovesProCompactBold-Bd.99bc171.woff2
+8c4c131	691	76	asset					0	fonts/TTHovesProCompactBold-Bd.932128b.woff
+8c4c131	425	69	asset					0	fonts/hongmengti_light.a935fd0.woff2
+8c4c131	429	69	asset					0	fonts/RoGSanSrfStdN-Bd.12dec18.woff2
+8c4c131	426	68	asset					0	fonts/hongmengti_light.ac888b8.woff
+8c4c131	430	68	asset					0	fonts/RoGSanSrfStdN-Bd.b888fe1.woff
+8c4c131	431	68	asset					0	fonts/CloudChaoCuHeiGBT.93efe2b.otf
+8c4c131	423	63	asset					0	fonts/hongmengti.7e79f4e.woff2
+8c4c131	424	62	asset					0	fonts/hongmengti.4285934.woff
+8c4c131	559	62	asset					0	fonts/Mont-Heavy.88bdd4a.woff
+8c4c131	428	59	asset					0	fonts/SCDream9.3761969.otf
+8c4c131	557	59	asset					0	img/inner-foot.ebee1c3.png
+8c4c131	657	58	asset					0	img/error-404.afeccea.png
+8c4c131	658	58	asset					0	img/error-500.f8bc7de.png
+8c4c131	422	57	asset					0	fonts/Impact.2f7e286.TTF
+8c4c131	427	57	asset					0	fonts/Impact.2f7e286.TTF
+8c4c131	701	54	asset					0	img/phone.260e509.png
+8c4c131	408	53	asset					0	img/logo.1e072ee.png
+8c4c131	659	36	js					1	
+8c4c131	667	36	js					1	
+8c4c131	669	36	js					1	
+8c4c131	672	36	js					1	
+8c4c131	674	36	js					1	
+8c4c131	680	36	js					1	
+8c4c131	682	36	js					1	
+8c4c131	684	36	js					1	
+8c4c131	692	36	js					1	
+8c4c131	694	36	js					1	
+8c4c131	702	36	js					1	
+8c4c131	560	33	js					1	
+8c4c131	628	15	js					0	
+8c4c131	1006	15	js					0	
+8c4c131	1007	15	js					0	
+8c4c131	1016	15	js					0	
+8c4c131	1017	15	js					0	
+8c4c131	1018	15	js					0	
+8c4c131	1019	15	js					0	
+8c53a05	1414	5493	asset					0	
+8c53a05	1452	3920	vue	lang-world		world-detail world-detail-container nav-num section-wrap	swiper 4;regenerator runtime	6	auto | .swiper-pagination | .swiper-button-next | .swiper-button-prev | seoTitlePrefix | return
+8c53a05	1413	2604	css					9	.world-detail{position:relative;margin-top:1rem;min-height:calc(100vh - 1rem);background:url( | ) no-repeat center center/cover;background-attachment:fixed;over
+8c53a05	1233	236	js				esm interop	2	string
+8c53a05	1412	37	js					1	
+8d80f48	1417	20183	js			missing-app-config-values not-registered installation-not-found request-failed	HoYoverse CRM subscription	4	@firebase/installations | FIS_v2 | Missing App configuration value: "{$valueName}" | Firebase Installation is not registered. | Firebase Installation not found.
+8d80f48	1175	10670	js			fire-core fire-core-compat fire-analytics fire-analytics-compat		3	DEBUG | VERBOSE | INFO | WARN | ERROR | SILENT
+8d80f48	1165	6051	js			validate-browser-context-for-indexeddb-analytics-module		2	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 | function | encodeByteArray takes an array as a parameter | DecodeBase64StringError | base64Deco
+8d80f48	1185	4581	js					1	LAZY | [DEFAULT] | EAGER | [DEFAULT] | INTERNAL | _delete
+8d80f48	1186	3214	js					0	done | objectStoreNames | store | done | store | objectStoreNames
+8d80f48	1224	1015	js					3	function | Expected a function | maxWait | trailing
+8d80f48	1380	379	js					3	number | function | string
+8d80f48	1378	264	js					2	function | Expected a function | leading | trailing
+8d80f48	1352	118	js					1	firebase
+8d80f48	1383	117	js					2	symbol | [object Symbol]
+8d80f48	1381	105	js					1	
+8d80f48	1382	103	js					0	
+8d80f48	1379	71	js					1	
+9221d05	1443	858	js	lang-main		lang-main client-only	regenerator runtime	5	empty | seoTitlePrefix | return | protocol
+a9873dc	1419	26541	vue	m-lang-video		fill-black-bar m-home-kv__slogan m-home-kv m-home-kv-wrap	vue-router;vuex;swiper 4;gsap / TweenMax;regenerator runtime	55	fill fill-bg | fill fill-black-right | fill fill-black | fill fill-black-right | fill fill-black | muteBgm
+a9873dc	1294	12637	asset					0	
+a9873dc	1285	12073	asset				APM / analytics	0	
+a9873dc	1300	11029	asset					0	
+a9873dc	1295	10185	asset					0	
+a9873dc	1278	7877	asset				APM / analytics	0	
+a9873dc	1293	6785	css				swiper 4;HoYoverse mi18n (i18n loader)	5	
+a9873dc	1283	6057	asset				APM / analytics	0	
+a9873dc	1287	3888	css					6	);mask-image:url(
+a9873dc	1299	3401	css				HoYoverse mi18n (i18n loader)	6	
+a9873dc	1304	3002	css				HoYoverse mi18n (i18n loader)	6	) 0 0/100% 100%;transform:translateY(-50%)}
+a9873dc	1297	2715	css					4	
+a9873dc	1289	2521	asset					0	
+a9873dc	1302	1997	asset					0	
+a9873dc	1288	1981	asset					0	
+a9873dc	1301	1885	asset					0	
+a9873dc	1308	1621	asset					0	
+a9873dc	1280	1506	css					4	
+a9873dc	1307	1226	css					3	
+a9873dc	1282	965	asset					0	
+a9873dc	1290	725	asset					0	
+a9873dc	1310	586	css					1	
+a9873dc	1196	236	js				esm interop	2	string | 1211afe9
+a9873dc	1197	236	js				esm interop	2	string
+a9873dc	1198	236	js				esm interop	2	string
+a9873dc	1200	236	js				esm interop	2	string | 71f04ffc
+a9873dc	1201	236	js				esm interop	2	string
+a9873dc	1203	236	js				esm interop	2	string | aca9e6e4
+a9873dc	1206	236	js				esm interop	2	string
+a9873dc	1207	236	js				esm interop	2	string
+a9873dc	1263	75	asset					0	img/home-page-full-screen-bg-m.4fb2e5a.png
+a9873dc	1284	69	asset					0	img/video-bottom-film-bg.25679c3.png
+a9873dc	1192	67	asset					0	img/fill-black-right-m.3d2c3f0.png
+a9873dc	1264	67	asset					0	img/fill-black-short-m.5a311b4.png
+a9873dc	1291	62	asset					0	img/chara-empty-m.aa077ba.png
+a9873dc	1305	62	asset					0	img/concept-nav-m.4af3094.png
+a9873dc	1191	59	asset					0	img/fill-bar-m.b04684a.png
+a9873dc	1262	58	asset					0	img/fill-bg-m.7d30c6d.png
+a9873dc	1281	58	asset					0	img/age-modal.495c9ad.png
+a9873dc	1279	37	js					1	
+a9873dc	1286	37	js					1	
+a9873dc	1292	37	js					1	
+a9873dc	1296	37	js					1	
+a9873dc	1298	37	js					1	
+a9873dc	1303	37	js					1	
+a9873dc	1306	37	js					1	
+a9873dc	1309	37	js					1	
+aa05f4a	1428	829	js	m-lang-main		m-lang-main client-only	regenerator runtime	5	empty | seoTitlePrefix | return | protocol
+b262029	1426	4553	vue	m-world		m-world swiper-slide-active en-us m-lang-main	vue-router;vuex;swiper 4;regenerator runtime	9	m/default | auto | .swiper-button-next | .swiper-button-prev | translateX( | ) scale(
+b262029	1319	3794	css				swiper 4;HoYoverse mi18n (i18n loader)	8	) no-repeat 0 0/4rem auto,url(
+b262029	1152	1632	js			world-name world-name-en world-slide world-banner		4	string | /getContentList | /getContent
+b262029	1210	236	js				esm interop	2	string
+b262029	1184	60	asset					0	img/cover-inner.53b0865.png
+b262029	1183	59	asset					0	img/tape-cover.dd98789.png
+b262029	1162	51	asset					0	img/bg.076f772.jpg
+b262029	1318	37	js					1	
+b3681da	1442	273	js	character-detail		character-detail lang-character		1	
+b5b7858	1236	8601	asset					0	
+b5b7858	1238	7589	asset					0	
+b5b7858	1237	6897	asset				APM / analytics	0	
+b5b7858	1235	2961	css				HoYoverse mi18n (i18n loader)	5	
+b5b7858	1149	1341	vue	page-tab		page-tab en-us id-id has-theme	vuex;HoYoverse mi18n (i18n loader)	5	m-section-nav font-num | path | pageNavChara | show | !hideEnLabel | Label
+b5b7858	1188	236	js				esm interop	2	string
+b5b7858	1234	37	js					1	
+b74c7e3	1158	2511	js					2	string
+b74c7e3	1151	2213	js					6	YYYY-MM-DDTHH:mm:ss.SSSZ | Invalid Date
+b74c7e3	1276	1075	js					1	January | February | March | April | June | July
+b74c7e3	1275	1017	js					0	less than a second | less than {{count}} seconds | 1 second | {{count}} seconds | half a minute | less than a minute
+b74c7e3	1277	347	js					0	DDDD | YYYY | GGGG
+b74c7e3	1194	293	js					2	
+b74c7e3	1268	184	js					1	
+b74c7e3	1271	180	js					1	
+b74c7e3	1270	146	js					3	
+b74c7e3	1273	145	js					1	 is not an instance of Date
+b74c7e3	1267	142	js					1	
+b74c7e3	1272	141	js					2	
+b74c7e3	1266	136	js					0	
+b74c7e3	1265	103	js					3	
+b74c7e3	1269	93	js					1	
+b74c7e3	1274	83	js					2	
+b74c7e3	1182	82	js					1	
+b74c7e3	1193	62	js					0	
+ba4082a	1138	12657	asset				APM / analytics	0	
+ba4082a	1416	6441	vue	news		swiper-pagination-index news-container nav-num news-slider	vue-router;vuex;swiper 4	23	news | auto | .swiper-pagination | <span class=" |  swiper-pagination-index- | "></span>
+ba4082a	1396	4684	css				HoYoverse mi18n (i18n loader)	7	.news{position:relative;margin-top:1rem;min-height:100%;background:url(
+ba4082a	1398	2405	asset					0	
+ba4082a	1135	1840	css				HoYoverse mi18n (i18n loader)	5	
+ba4082a	1397	1493	asset					0	
+ba4082a	1126	1309	vue	page-tab		page-tab en-us id-id section-nav	vuex;HoYoverse mi18n (i18n loader)	5	path | pageNavChara | show | !hideEnLabel | Label
+ba4082a	1122	236	js				esm interop	2	string
+ba4082a	1227	236	js				esm interop	2	string | 73aefb4c
+ba4082a	1136	60	asset					0	img/inner-title.3d621d1.png
+ba4082a	1148	58	asset					0	img/inner-top.224793e.png
+ba4082a	1137	55	asset					0	img/bg-nav.daea1f6.png
+ba4082a	1134	37	js					1	
+ba4082a	1395	37	js					1	
+be1f69b	512	773142	js			native-function-to-string symbol-registry op-symbols source-over	core-js polyfills;regenerator runtime;pdf.js;Google Analytics;esm interop	177	undefined | Module | __esModule | object | default | string
+be1f69b	537	435710	vue	van-fade		test-passive van-fade click-overlay van-overflow-hidden	vue 2 runtime;axios;lodash;core-js polyfills;vant (mobile ui);HoYoverse mi18n (i18n loader);HoYoverse CRM subscription;Google Analytics;toast;inline svg;esm interop	6	__esModule | object | default | function | @@iterator | @@asyncIterator
+be1f69b	260	337719	js			native-function-to-string symbol-registry op-symbols source-over	vuex;core-js polyfills;regenerator runtime;pdf.js;Google Analytics;inline svg;esm interop	154	undefined | Module | __esModule | object | default | string
+be1f69b	1000	130434	js	device		margin-right margin-left margin-top margin-bottom	vue-router;swiper 4;moment;pdf.js viewer	0	undefined | undefined | string | tbody | <tbody | table
+be1f69b	552	108430	vue	ani-err-cover		en-us zh-cn zh-tw ko-kr	vue 2 runtime;HoYoverse mi18n (i18n loader);HoYoverse account SDK;Google Analytics;toast;inline svg	43	function | @@iterator | @@asyncIterator | @@toStringTag | _invoke | normal
+be1f69b	528	105700	vue	append-to-element		en-us ja-jp ko-kr ru-ru	vue 2 runtime;HoYoverse mi18n (i18n loader);Google Analytics	48	#FFFFFF | 0 .02em .16em 0 rgba(0, 0, 0, 0.2) | #FFFFFF | 0 .02em .16em 0 rgba(0, 0, 0, 0.2) | shareQQZone | shareQQ
+be1f69b	199	104341	js	hashchange		en-us data-l10n-id data-l10n-args data-page-number	vue-router;vuex;regenerator runtime;pdf.js;Google Analytics;query-string;pdf.js viewer;esm interop	21	undefined | Module | __esModule | object | default | string
+be1f69b	116	98329	vue	video		nuxt-link-active nuxt-link-exact-active m-lang m-lang-character	vue 2 runtime;vue-router;vuex;gsap / TweenMax;axios;regenerator runtime;HoYoverse mi18n (i18n loader);HoYoverse account SDK;HoYoverse download layout;inline svg	51	scrollRestoration | manual | beforeunload | auto | load | manual
+be1f69b	103	89633	js			en-us zh-cn zh-tw zh-hk	vant (mobile ui);HoYoverse mi18n (i18n loader);Google Analytics;esm interop	11	undefined | undefined | Module | __esModule | object | default
+be1f69b	554	82408	vue	media-icon		zh-cn zh-tw zh-hk zh-mo	vue 2 runtime;HoYoverse mi18n (i18n loader);HoYoverse footer / media icons;Google Analytics;inline svg	38	_cache_by_ | mobile | mihoyobbs | mihoyocghk4e | mihoyocg | micromessenger
+be1f69b	322	74459	js	wrapper			lodash;core-js polyfills;Google Analytics	2	Expected a function | __lodash_hash_undefined__ | __lodash_placeholder__ | bind | bindKey | curry
+be1f69b	154	60654	css	show		overflow-x overflow-y need-scroll-all need-scroll-x	vue 2 runtime;regenerator runtime;Google Analytics;esm interop	27	undefined | Module | __esModule | object | default | string
+be1f69b	539	59889	js			native-string-replace data-cmp-ab	core-js polyfills;Google Analytics;esm interop	4	__esModule | object | default | function | @@iterator | @@asyncIterator
+be1f69b	542	54930	js			border-style	core-js polyfills;Google Analytics;esm interop	37	undefined | undefined | Module | __esModule | object | default
+be1f69b	202	49337	css	show		account-popup game-role-selector-sea-popup game-role-selector-sea-wrapper game-role-selector-sea__container	vant (mobile ui);HoYoverse mi18n (i18n loader);HoYoverse account SDK;Google Analytics;esm interop	26	undefined | Module | __esModule | object | default | string
+be1f69b	1116	45914	vue	cookie-tips		zh-cn zh-tw zh-hk zh-mo	vue 2 runtime;HoYoverse mi18n (i18n loader);HoYoverse cookie tips;Google Analytics	35	MiHoYoCookieTips | default | showTips | function | @@iterator | @@asyncIterator
+be1f69b	1115	41963	vue			zh-cn zh-tw zh-hk zh-mo	vue 2 runtime;HoYoverse mi18n (i18n loader);Google Analytics;toast	38	Toast | default | function | @@iterator | @@asyncIterator | @@toStringTag
+be1f69b	526	39855	asset				Google Analytics;esm interop	10	undefined | undefined | Module | __esModule | object | default
+be1f69b	1114	37916	js			inline-block border-box pin-spacer scroller-start	gsap / TweenMax;moment	0	value | ScrollTrigger | default | undefined | scrollLeft | scrollTop
+be1f69b	1054	37425	css				vant (mobile ui);HoYoverse footer / media icons;HoYoverse CRM subscription;toast	1	
+be1f69b	1001	35651	js					1	canplaythrough | undefined | suspended | undefined | canplay | undefined
+be1f69b	24	35523	js			x-oss-process zh-cn zh-tw en-us	HoYoverse mi18n (i18n loader);HoYoverse bridge;Google Analytics	33	ENVIRONMENT_BASE | HOST_ORIGIN_MAP | IOS_VERSION | IS_BBS | IS_CGHK4E | IS_CG_LINE
+be1f69b	545	29903	vue			zh-cn zh-tw en-us id-id	vue 2 runtime;HoYoverse mi18n (i18n loader);Google Analytics	26	Are you sure you want to visit this link? | You are about to visit a third-party service, all risks and responsibilities will be borne by the third party. | Can
+be1f69b	527	26297	css	mhy-bridge-message-box		mhy-bridge-message-box mhy-bridge-message-box-mask mhy-bridge-message-box-content confirm-item	vue 2 runtime;HoYoverse bridge;Google Analytics;toast;esm interop	13	undefined | undefined | Module | __esModule | object | default
+be1f69b	555	25494	vue	hover-btn		zh-cn zh-tw zh-hk zh-mo	vue 2 runtime;HoYoverse mi18n (i18n loader);HoYoverse footer / media icons;Google Analytics	33	function | @@iterator | @@asyncIterator | @@toStringTag | _invoke | normal
+be1f69b	1056	25425	css					1	
+be1f69b	531	25028	js			x-rpc-language x-oss-content-type x-oss-object-acl	Google Analytics;esm interop	6	undefined | undefined | Module | __esModule | object | default
+be1f69b	334	24713	css			mihoyo-share-tips-wrap	Google Analytics;esm interop	11	undefined | undefined | Module | __esModule | object | default
+be1f69b	899	22981	css				swiper 4	1	
+be1f69b	170	22438	vue			en-us zh-cn zh-tw ko-kr	vue 2 runtime;HoYoverse mi18n (i18n loader);Google Analytics;toast	27	function | @@iterator | @@asyncIterator | @@toStringTag | _invoke | normal
+be1f69b	61	21021	js			zh-cn zh-tw zh-hk zh-mo	HoYoverse mi18n (i18n loader);Google Analytics	33	function | @@iterator | @@asyncIterator | @@toStringTag | _invoke | normal
+be1f69b	244	19729	js			utf-8 ucs-2 utf-16le		4	Invalid typed array length | number | string | If encoding is specified then the first argument must be a string | number | "value" argument must not be a numbe
+be1f69b	897	19323	js				core-js polyfills;Google Analytics;esm interop	2	undefined | undefined | Module | __esModule | object | default
+be1f69b	1045	16453	js			zh-cn zh-tw zh-hk zh-mo	HoYoverse mi18n (i18n loader);Google Analytics;esm interop	8	function | symbol | function | symbol | undefined | undefined
+be1f69b	534	15450	vue			me-toast me-toast__loading pc__2k me-toast-content	vue 2 runtime;toast;esm interop	23	object | default | Toast | enter | toast_ | leave
+be1f69b	338	15244	js		default	user-agent accept-language	query-string	3	undefined | function | symbol | function | symbol | value
+be1f69b	299	12629	js		default	user-agent accept-language	query-string	3	undefined | value | desktop | tablet | mobile | mobile
+be1f69b	875	12558	js					21	Invalid scheme | Invalid host | Invalid port | number | object | file
+be1f69b	561	12017	js				regenerator runtime	27	undefined | @@iterator | string | Object | Arguments | number
+be1f69b	354	12002	vue	show		m-audio-player v-show m-audio-player__icon	vue 2 runtime;esm interop	24	object | default | webkit | hidden | hidden | Hidden
+be1f69b	540	11996	vue	pdf-viewer		pdf-viewer me-pdf-viewer	vue 2 runtime;pdf.js;Google Analytics	14	function | @@iterator | @@asyncIterator | @@toStringTag | _invoke | normal
+be1f69b	328	10591	js			user-agent accept-language	Google Analytics;query-string;esm interop	4	undefined | undefined | Module | __esModule | object | default
+be1f69b	333	10591	js			user-agent accept-language	Google Analytics;query-string;esm interop	4	undefined | undefined | Module | __esModule | object | default
+be1f69b	335	10591	js			user-agent accept-language	Google Analytics;query-string;esm interop	4	undefined | undefined | Module | __esModule | object | default
+be1f69b	336	10591	js			user-agent accept-language	Google Analytics;query-string;esm interop	4	undefined | undefined | Module | __esModule | object | default
+be1f69b	339	10591	js			user-agent accept-language	Google Analytics;query-string;esm interop	4	undefined | undefined | Module | __esModule | object | default
+be1f69b	1004	10409	js					5	input is invalid type | object | object | object | object | undefined
+be1f69b	13	10358	js			nuxt-reload	regenerator runtime	29	undefined | @@iterator | string | Object | Arguments | number
+be1f69b	1038	10010	js			content-type utf-8 same-origin no-store		1	undefined | undefined | URLSearchParams | Symbol | iterator | FileReader
+be1f69b	1024	9844	css				pdf.js	4	) 9 9 repeat;
+       -o-border-image: url( | ) 9 9 repeat;
+          border-image: url(
+be1f69b	1039	8969	js				vant (mobile ui);esm interop	6	default | attrs | props | domProps | class | style
+be1f69b	945	8927	js			fetch-stream xhr-blob fetch-blob	Google Analytics;esm interop	22	undefined | undefined | Module | __esModule | object | default
+be1f69b	627	8893	js				Google Analytics	1	function | size | function | function | size | function
+be1f69b	966	8877	js		default		esm interop	6	textarea | absolute | right | left | readonly | copy
+be1f69b	944	8163	js					0	hello | undefined
+be1f69b	290	7852	js					3	"use strict"; return ( | ).constructor; | callee | undefined | %AggregateError% | undefined
+be1f69b	1020	7496	js					3	javascript: | javascript: | http: | https: | ftp: | gopher:
+be1f69b	975	6598	js				Google Analytics;esm interop	10	function | @@iterator | @@asyncIterator | @@toStringTag | suspendedStart | executing
+be1f69b	316	5728	js				Google Analytics;esm interop	5	undefined | undefined | Module | __esModule | object | default
+be1f69b	617	5728	js				Google Analytics;esm interop	5	undefined | undefined | Module | __esModule | object | default
+be1f69b	536	5620	vue	swiper-slide		swiper-slide swiper-wrapper swiper-container parallax-bg	vue 2 runtime;swiper 4;esm interop	9	object | function | function | undefined | __esModule | __esModule
+be1f69b	263	4793	js				esm interop	2	__esModule | mihoyo | production | 缺少miHoYoGameJSSDK | _blank | toolbar=0,status=0,width=650,height=450
+be1f69b	496	4570	js	entries		content-type	query-string	27	iterator | URLSearchParams | URLSearchParamsIterator | fetch | Request | Headers
+be1f69b	525	4504	js			set-cookie	esm interop	0	function | symbol | function | symbol | object | undefined
+be1f69b	1037	4294	js				axios	2	defaults | interceptors | post | postForm | function | symbol
+be1f69b	619	4277	js			utf-8 iso-8859-1		3	comma | Cyclic object value | function | comma | string | number
+be1f69b	629	3967	js			utf-8 iso-8859-1		1	string | __proto__ | function | Decoder has to be a function. | The charset option must be either utf-8, iso-8859-1, or undefined | boolean
+be1f69b	1035	3776	js					2	Inject | InjectReactive | Provide | ProvideReactive | Model | Prop
+be1f69b	82	3721	js					1	createDecorator | mixins | function | symbol | function | symbol
+be1f69b	722	3522	js			scroll-snap-type	gsap / TweenMax	0	ScrollToPlugin | default | undefined | string | function | Width
+be1f69b	1058	3516	css				HoYoverse mi18n (i18n loader)	1	
+be1f69b	1026	3445	asset					0	
+be1f69b	104	3205	js					1	isBBS | isCGAppGame | isCGAppHome | isCGWebGame | isCGWebHome | isNormalAppGame
+be1f69b	1044	3058	vue	show		account-popup-round account-popup-fade v-show account-popup--overlay	vue 2 runtime;HoYoverse account SDK	0	boolean | function | undefined | AccountPopup | center | center
+be1f69b	755	2796	js					23	Promise | unhandledrejection | Promise-chain cycle | Event | Unhandled promise rejection | unhandledRejection
+be1f69b	264	2789	js				vue-router	12	undefined | @@iterator | string | Object | Arguments | number
+be1f69b	783	2764	js			op-symbols		36	hidden | Symbol | symbols | Symbol is not a constructor | toString | withoutSetter
+be1f69b	398	2698	js			iso-8859-1		1	object | symbol | string | object | [object RegExp] | object
+be1f69b	1002	2687	js			xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx	Google Analytics;esm interop	2	undefined | undefined | Module | __esModule | object | default
+be1f69b	1021	2669	js			not-basic invalid-input		2	object | Overflow: input needs wider integers to process | Illegal input >= 0x80 (not a basic code point) | Invalid input | overflow | overflow
+be1f69b	530	2618	js					1	object | Deprecated: Expected third argument to be a object | blob | could not download file | HEAD | click
+be1f69b	55	2532	js			data-vue-ssr-id		0	default | undefined | undefined | head | undefined | style
+be1f69b	965	1998	js					11	size |  Iterator | keys | values | entries | values
+be1f69b	254	1874	js			click-outside		0	__v-click-outside | undefined | undefined | ontouchstart | touchstart | click
+be1f69b	1043	1822	js					1	supportEnvionment | hoyoverse.com | hoyoverse | mihoyo.com | mihoyo | hoyolab.com
+be1f69b	548	1772	js				regenerator runtime	5	number | $fetchState | created | beforeMount
+be1f69b	532	1710	js				Google Analytics;esm interop	2	undefined | undefined | Module | __esModule | object | default
+be1f69b	535	1639	js			mhy-copy-input	Google Analytics;esm interop	0	undefined | undefined | Module | __esModule | object | default
+be1f69b	524	1635	js					0	object | [object RegExp] | [object Date] | function | react.element | function
+be1f69b	1008	1429	js					0	undefined | ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ | Invalid string. Length must be a multiple of 4
+be1f69b	878	1392	js					1	Overflow: input needs wider integers to process
+be1f69b	630	1187	js					0	number | statusCode must be a number but was  | headers cannot be null | object | headers must be an object but was  | This request to 
+be1f69b	620	1133	js					3	%TypeError% | %WeakMap% | %Map% | WeakMap.prototype.get | WeakMap.prototype.set | WeakMap.prototype.has
+be1f69b	397	1108	js			content-type	esm interop	2	string | The method must be a string. | object | string | The URL/path must be a string. | object
+be1f69b	464	1076	js					12	onreadystatechange | file: | message | script | script
+be1f69b	893	1057	js					14	sort | DGBEFHACIJK | Array
+be1f69b	311	1032	js					14	iterator | keys | values | entries |  Iterator | @@iterator
+be1f69b	961	985	js					14	Weak | clear | delete | forEach | keys | values
+be1f69b	54	952	js					0	function | sourceMappingURL=data:application/json;charset=utf-8;base64, | /*# sourceURL= | @media  | string |  and 
+be1f69b	482	928	js					12	JSON | stringify | Symbol | [null] | "\udf06\ud834" | "\udead"
+be1f69b	522	928	js					0	include
+be1f69b	1009	884	js					0	
+be1f69b	22	881	js					10	sham | Prototype
+be1f69b	622	867	js					0	function | function | symbol | test | string | [object Symbol]
+be1f69b	726	822	js					0	string | boolean | true | false | number | object
+be1f69b	510	799	js					11	meta | Object | symbol | string
+be1f69b	150	794	js					7	IE_PROTO | <script> | script> | htmlfile | undefined | iframe
+be1f69b	130	750	js					9	Object already initialized | state | Incompatible receiver,  |  required
+be1f69b	757	739	js					8	queueMicrotask
+be1f69b	129	726	js					10	normal |  is not iterable | throw | object
+be1f69b	623	713	js					0	Function.prototype.bind called on incompatible  | [object Function] | function | binder | return function ( | ){ return binder.apply(this,arguments); }
+be1f69b	494	665	js					9	abcdefghijklmnopqrst
+be1f69b	75	631	js					5	enumerable | configurable | writable | function | prototype | value
+be1f69b	725	627	js					0	string | number | [object Array]
+be1f69b	974	625	js					10	splice | Array
+be1f69b	745	623	js				Google Analytics	14	toStringTag | Error | message | stack | errors | AggregateError
+be1f69b	493	592	js			xn--e1aybc		3	iterator | http://a | http://a/c%20d?a=1&c=3 | https://a@b | http://тест | http://a#б
+be1f69b	473	589	js					12	isConcatSpreadable | concat | Array
+be1f69b	151	586	js					8	Array Iterator | Array | keys | values | values | keys
+be1f69b	201	581	js					1	createApp | Vue2
+be1f69b	112	579	js					6	
+be1f69b	943	563	js			testing-sg-public-api pre-sg-public-api sg-public-api	esm interop	0	__esModule | https://www.facebook.com/sharer.php?u= | https://twitter.com/intent/tweet?url= | fb-messenger://share/?app_id=521270401588372&link= | whatsapp://se
+be1f69b	626	556	js					2	%Function.prototype.apply% | %Function.prototype.call% | %Reflect.apply% | %Object.getOwnPropertyDescriptor% | %Object.defineProperty% | %Math.max%
+be1f69b	195	541	js					9	species | Promise
+be1f69b	768	538	js					9	Promise | Promise | Promise | finally
+be1f69b	233	526	js					6	Reflect | construct | AsyncFunction | GeneratorFunction | AsyncGeneratorFunction
+be1f69b	769	526	js					0	
+be1f69b	779	515	js					11	slice | species | Array
+be1f69b	495	511	js					10	
+be1f69b	324	505	js			client-only-placeholder		0	ClientOnly | hook:mounted
+be1f69b	168	495	js			no-ssr-placeholder		0	NoSsr | hook:mounted
+be1f69b	1110	495	js					6	
+be1f69b	470	487	js					7	No one promise resolved | Promise | AggregateError
+be1f69b	469	473	js					6	Promise | fulfilled | rejected
+be1f69b	904	459	js					6	return new C(
+be1f69b	1025	437	asset					0	
+be1f69b	498	434	js					1	
+be1f69b	1052	434	js					9	startsWith | String | startsWith
+be1f69b	662	405	css					1	
+be1f69b	949	398	js				esm interop	1	next | throw | next
+be1f69b	507	397	js				esm interop	3	string | Object | Arguments
+be1f69b	8	394	js				esm interop	1	next | throw
+be1f69b	763	386	js					7	Promise
+be1f69b	1059	384	js					6	
+be1f69b	1014	381	js				esm interop	2	@@iterator
+be1f69b	461	370	js					7	iterator | next
+be1f69b	1064	369	js					4	
+be1f69b	847	365	js					4	Reduce of empty array with no initial value
+be1f69b	467	361	js					1	iterator
+be1f69b	9	360	js				esm interop	2	function | symbol | function | symbol
+be1f69b	471	358	js					4	
+be1f69b	538	355	js			theme-mode	esm interop	0	dark | light | brand | __esModule
+be1f69b	730	351	js					6	toPrimitive | default | Can't convert object to primitive value | number
+be1f69b	951	341	js				esm interop	1	value
+be1f69b	149	337	js				Google Analytics	4	toStringTag | Arguments | Undefined | Null | string | Object
+be1f69b	533	337	js					0	
+be1f69b	167	331	js					4	String Iterator | String
+be1f69b	189	329	js				core-js polyfills	2	versions | pure | global | © 2014-2022 Denis Pushkarev (zloirock.ru) | https://github.com/zloirock/core-js/blob/v3.23.3/LICENSE | https://github.com/zloirock/co
+be1f69b	135	327	js				esm interop	3	
+be1f69b	472	325	js					6	
+be1f69b	97	324	js				esm interop	1	value | prototype
+be1f69b	731	321	js					3	string | string | Can't convert object to primitive value
+be1f69b	236	311	js					3	__proto__ | __proto__
+be1f69b	764	306	js					7	Promise | Promise | catch
+be1f69b	765	301	js					7	Promise
+be1f69b	34	294	js					1	object | object | object | object | return this
+be1f69b	784	291	js			string-to-symbol-registry symbol-to-string-registry		6	Symbol | Symbol
+be1f69b	234	288	js					5	IE_PROTO
+be1f69b	117	282	js				esm interop	0	string
+be1f69b	761	281	js					0	
+be1f69b	1060	278	js					5	
+be1f69b	1062	278	js					5	
+be1f69b	1076	278	js					5	
+be1f69b	618	275	js				esm interop	1	
+be1f69b	729	275	js					4	indexOf | Array
+be1f69b	303	274	js					3	
+be1f69b	479	269	js					4	object | Window
+be1f69b	842	266	js					6	
+be1f69b	38	265	js					6	string | Symbol.
+be1f69b	1101	263	js					1	
+be1f69b	450	261	js					4	
+be1f69b	970	259	js					3	findIndex | Array
+be1f69b	796	258	js					6	Object
+be1f69b	447	257	js					2	
+be1f69b	131	254	js					1	Bad Promise constructor
+be1f69b	160	254	js					2	
+be1f69b	1034	254	js					5	
+be1f69b	851	250	js					4	Array | includes
+be1f69b	1015	249	js				esm interop	0	
+be1f69b	853	246	js					6	String | includes
+be1f69b	912	245	js				esm interop	2	
+be1f69b	941	244	js				esm interop	0	
+be1f69b	920	239	js					3	find | Array
+be1f69b	1066	239	js				Google Analytics	1	
+be1f69b	785	238	js			symbol-to-string-registry		6	Symbol |  is not a symbol
+be1f69b	1023	236	js				esm interop	2	string | 564fee23
+be1f69b	1053	236	js				esm interop	2	string
+be1f69b	1055	236	js				esm interop	2	string | b70dfcc8
+be1f69b	1057	236	js				esm interop	2	string
+be1f69b	405	235	js				esm interop	2	string
+be1f69b	846	235	js					5	Array | reduce
+be1f69b	898	235	js				esm interop	2	string | cb46bfd2
+be1f69b	456	234	js					5	
+be1f69b	460	233	js					5	 Iterator
+be1f69b	292	230	js					0	RFC1738 | RFC3986
+be1f69b	147	229	js					8	
+be1f69b	451	229	js					2	name | something | name
+be1f69b	1022	227	js					0	string | object
+be1f69b	621	225	js					1	undefined | function | function | symbol | symbol
+be1f69b	999	222	js					3	Array
+be1f69b	459	221	js					3	return | throw | throw
+be1f69b	748	220	js					1	zxcasd | string
+be1f69b	1098	218	js					2	callee | callee
+be1f69b	849	216	js					3	string
+be1f69b	738	215	js					4	species
+be1f69b	767	215	js					6	Promise | Promise
+be1f69b	1073	213	js				lodash	1	__lodash_hash_undefined__
+be1f69b	113	212	js				Google Analytics	6	toStringTag | toString
+be1f69b	513	205	js					3	
+be1f69b	1102	204	js					0	
+be1f69b	480	203	js					4	Symbol | toPrimitive
+be1f69b	514	202	js					2	[object Function] | [object GeneratorFunction] | [object AsyncFunction] | [object Proxy]
+be1f69b	312	201	js					3	
+be1f69b	488	201	js					5	
+be1f69b	196	200	js					3	species
+be1f69b	1095	199	js					2	
+be1f69b	159	198	js					2	
+be1f69b	309	198	js					6	
+be1f69b	793	196	js					5	Object
+be1f69b	870	195	js					3	Promise
+be1f69b	942	195	js				esm interop	0	__esModule
+be1f69b	786	193	js					5	Object
+be1f69b	805	193	js					21	
+be1f69b	21	190	js				esm interop	1	
+be1f69b	766	190	js					4	Promise
+be1f69b	1107	190	js					0	
+be1f69b	74	189	js					3	
+be1f69b	310	189	js					5	 is not iterable
+be1f69b	790	189	js					3	Array | filter
+be1f69b	29	188	js					1	
+be1f69b	355	188	js				Google Analytics	3	[object Undefined] | [object Null]
+be1f69b	747	188	js					4	
+be1f69b	1078	188	js					1	
+be1f69b	462	186	js					4	species
+be1f69b	1030	186	js					3	Array | every
+be1f69b	962	184	js					4	ArrayBuffer
+be1f69b	625	183	js					2	String.prototype.indexOf | function | .prototype.
+be1f69b	737	183	js					3	Array | some
+be1f69b	934	183	js				esm interop	3	@@iterator
+be1f69b	227	182	js					3	String
+be1f69b	505	181	js				esm interop	0	
+be1f69b	511	180	js				regenerator runtime	1	object | regeneratorRuntime = r
+be1f69b	884	180	js					3	Array
+be1f69b	963	179	js					1	function
+be1f69b	226	176	js					0	
+be1f69b	229	176	js					4	symbol | Symbol
+be1f69b	152	174	js				Google Analytics	7	toStringTag
+be1f69b	188	174	js					1	object
+be1f69b	862	173	js					5	Object
+be1f69b	92	169	js				esm interop	0	Cannot call a class as a function
+be1f69b	257	169	js				esm interop	4	
+be1f69b	889	169	js					3	
+be1f69b	1075	168	js				lodash	1	__lodash_hash_undefined__
+be1f69b	455	167	js					5	Reflect | ownKeys
+be1f69b	1048	167	js					3	Object
+be1f69b	858	162	js					2	forEach
+be1f69b	1050	161	js					2	string
+be1f69b	64	160	js				esm interop	4	
+be1f69b	448	160	js					2	prototype
+be1f69b	1104	160	js					3	toString
+be1f69b	751	158	js					2	stack | stack
+be1f69b	306	157	js					3	
+be1f69b	468	157	js					3	
+be1f69b	110	156	js					3	
+be1f69b	111	155	js					3	
+be1f69b	746	154	js					1	object | Can't set  |  as a prototype
+be1f69b	91	153	js					1	Symbol | Cannot convert a Symbol value to a string
+be1f69b	743	153	js					3	
+be1f69b	792	153	js					2	
+be1f69b	446	152	js					3	
+be1f69b	732	151	js					1	
+be1f69b	463	150	js					3	species
+be1f69b	1070	150	js					0	
+be1f69b	1074	150	js					1	
+be1f69b	454	149	js					1	
+be1f69b	1082	149	js					1	
+be1f69b	740	148	js					2	string
+be1f69b	950	148	js				esm interop	0	Cannot call a class as a function
+be1f69b	43	147	js					4	
+be1f69b	153	147	js					3	
+be1f69b	499	147	js					1	Cannot delete property 
+be1f69b	1068	147	js					1	Symbol(src)_1.
+be1f69b	487	146	js					1	match
+be1f69b	162	145	js					1	
+be1f69b	192	143	js					4	iterator | @@iterator
+be1f69b	800	143	js					2	
+be1f69b	781	142	js					4	Object
+be1f69b	247	141	js					1	string | string | hash
+be1f69b	742	141	js					3	String | trim
+be1f69b	187	140	js					1	function | prototype
+be1f69b	547	140	js					4	
+be1f69b	799	140	js					3	Object
+be1f69b	230	139	js					1	Symbol(
+be1f69b	1088	139	js					1	
+be1f69b	486	138	js					1	The method doesn't accept regular expressions
+be1f69b	968	138	js					2	
+be1f69b	1061	138	js					3	
+be1f69b	1097	138	js					3	
+be1f69b	458	137	js					2	iterator
+be1f69b	798	137	js					2	
+be1f69b	960	136	js					2	
+be1f69b	801	135	js					3	Object
+be1f69b	854	135	js					3	match | RegExp
+be1f69b	1085	135	js					0	string | number | symbol | boolean | __proto__
+be1f69b	266	134	js					1	object | return this
+be1f69b	308	134	js					0	constructor | hasOwnProperty | isPrototypeOf | propertyIsEnumerable | toLocaleString | toString
+be1f69b	727	134	js					2	
+be1f69b	997	134	js					2	
+be1f69b	930	133	js				esm interop	2	
+be1f69b	775	132	js					2	
+be1f69b	788	132	js					2	
+be1f69b	844	132	js					2	
+be1f69b	972	132	js					2	
+be1f69b	901	131	js					2	
+be1f69b	1028	131	js					2	
+be1f69b	302	130	js					2	
+be1f69b	777	130	js					2	
+be1f69b	466	128	js					3	
+be1f69b	735	128	js					2	
+be1f69b	756	128	js					2	 is not a constructor
+be1f69b	891	128	js					2	
+be1f69b	918	128	js					2	
+be1f69b	760	127	js					1	
+be1f69b	237	126	js					2	length | prototype
+be1f69b	474	126	js					0	Maximum allowed index exceeded
+be1f69b	882	126	js					2	
+be1f69b	1106	126	js					1	defineProperty
+be1f69b	877	125	js					2	throw
+be1f69b	45	124	js					1	
+be1f69b	88	124	js					2	 is not a function
+be1f69b	546	124	js					4	
+be1f69b	79	123	js					1	 is not an object
+be1f69b	497	122	js					1	
+be1f69b	772	121	js					3	
+be1f69b	1013	121	js				esm interop	1	
+be1f69b	1092	121	js					0	
+be1f69b	922	119	js					3	Array
+be1f69b	773	118	js					3	
+be1f69b	51	117	js					1	
+be1f69b	319	117	js					0	
+be1f69b	52	116	js					2	
+be1f69b	193	116	js					1	Incorrect invocation
+be1f69b	753	116	js					2	[object 
+be1f69b	1080	116	js					1	
+be1f69b	231	114	js					1	
+be1f69b	246	113	js					1	
+be1f69b	516	113	js					0	
+be1f69b	964	113	js					1	
+be1f69b	323	112	js					1	
+be1f69b	857	112	js					2	Array
+be1f69b	744	110	js					9	
+be1f69b	1033	110	js					2	Object
+be1f69b	1042	110	js					2	Object
+be1f69b	1065	110	js					1	object
+be1f69b	127	109	js					0	
+be1f69b	317	109	js					2	
+be1f69b	158	108	js					0	Can't call method on 
+be1f69b	1091	107	js					3	
+be1f69b	624	106	js					1	
+be1f69b	733	106	js					0	
+be1f69b	1072	106	js					0	
+be1f69b	1010	104	js					0	[object Array]
+be1f69b	1084	104	js					1	
+be1f69b	165	103	js					0	
+be1f69b	242	103	js					0	Not enough arguments
+be1f69b	903	103	js					2	Function
+be1f69b	1094	103	js					0	
+be1f69b	148	102	js					1	
+be1f69b	320	102	js					3	
+be1f69b	749	102	js					2	cause | cause
+be1f69b	1096	102	js					0	
+be1f69b	449	101	js					1	
+be1f69b	1099	101	js					2	[object Arguments]
+be1f69b	228	100	js					2	string
+be1f69b	750	100	js					1	
+be1f69b	101	99	js					1	
+be1f69b	235	98	js					2	keys
+be1f69b	519	98	js					3	
+be1f69b	752	98	js					3	
+be1f69b	1089	98	js				lodash	0	__lodash_hash_undefined__
+be1f69b	351	97	js					0	object | function
+be1f69b	515	97	js					1	
+be1f69b	803	97	js					9	
+be1f69b	1108	97	js					2	
+be1f69b	1109	97	js					0	number
+be1f69b	758	94	js					2	
+be1f69b	161	91	js					0	Object
+be1f69b	300	91	js					1	
+be1f69b	58	90	js					1	object
+be1f69b	1063	90	js					1	
+be1f69b	445	89	js					1	symbol
+be1f69b	191	88	js					2	
+be1f69b	301	88	js				core-js polyfills	2	__core-js_shared__
+be1f69b	305	88	js				Google Analytics	1	toStringTag | [object z]
+be1f69b	841	88	js					2	
+be1f69b	859	88	js					2	
+be1f69b	163	87	js					1	Array
+be1f69b	232	87	js					1	
+be1f69b	795	86	js					2	
+be1f69b	817	86	js				Google Analytics	3	toStringTag | Symbol | Symbol
+be1f69b	1067	86	js					0	
+be1f69b	465	84	js					1	
+be1f69b	835	83	js					5	iterator
+be1f69b	304	82	js					1	
+be1f69b	782	82	js					2	
+be1f69b	887	82	js					1	Number
+be1f69b	53	81	js					1	Prototype
+be1f69b	321	81	js					2	
+be1f69b	1071	81	js					0	
+be1f69b	1081	81	js					1	
+be1f69b	521	80	js					2	
+be1f69b	896	80	js					1	
+be1f69b	1047	80	js					3	
+be1f69b	291	79	js					1	
+be1f69b	958	78	js					5	
+be1f69b	860	77	js					3	Object
+be1f69b	90	76	js					1	
+be1f69b	96	76	js					2	
+be1f69b	1086	76	js					1	
+be1f69b	1087	76	js					1	
+be1f69b	861	75	js					2	
+be1f69b	863	75	js					2	
+be1f69b	894	75	js					1	
+be1f69b	541	74	js				pdf.js	1	undefined
+be1f69b	864	73	js					2	Object
+be1f69b	876	73	js					1	
+be1f69b	30	72	js					0	
+be1f69b	267	72	js					0	object
+be1f69b	307	72	js					0	
+be1f69b	481	72	js					1	
+be1f69b	100	71	js					1	
+be1f69b	241	71	js					2	process
+be1f69b	762	71	js					0	object | object
+be1f69b	873	71	js					4	
+be1f69b	921	71	js					3	
+be1f69b	457	70	js					1	document | documentElement
+be1f69b	128	69	js					1	navigator | userAgent
+be1f69b	517	69	js					0	
+be1f69b	866	69	js					5	
+be1f69b	1032	69	js					2	
+be1f69b	1051	69	js					2	String
+be1f69b	1111	69	js					1	
+be1f69b	759	68	js					1	
+be1f69b	1041	68	js					2	
+be1f69b	928	67	js					2	
+be1f69b	852	66	js					2	String
+be1f69b	886	66	js					2	
+be1f69b	969	66	js					2	Array
+be1f69b	780	65	js					2	
+be1f69b	850	65	js					2	Array
+be1f69b	929	65	js					2	Array
+be1f69b	1077	65	js					0	
+be1f69b	1090	65	js					0	
+be1f69b	1105	65	js					0	
+be1f69b	39	64	js					0	function
+be1f69b	728	64	js					2	Array
+be1f69b	770	64	js					2	
+be1f69b	840	64	js					2	
+be1f69b	856	64	js					2	Array
+be1f69b	902	64	js					2	Function
+be1f69b	998	64	js					2	Array
+be1f69b	1079	64	js					0	
+be1f69b	776	63	js					2	Array
+be1f69b	789	63	js					2	Array
+be1f69b	845	63	js					2	Array
+be1f69b	973	63	js					2	Array
+be1f69b	1029	63	js					2	Array
+be1f69b	1069	63	js				core-js polyfills	1	__core-js_shared__
+be1f69b	741	62	js					2	String
+be1f69b	778	62	js					2	Array
+be1f69b	895	62	js					1	
+be1f69b	396	61	js					0	
+be1f69b	736	61	js					2	Array
+be1f69b	892	61	js					2	Array
+be1f69b	919	61	js					2	Array
+be1f69b	883	60	js					2	Array
+be1f69b	41	58	js					1	
+be1f69b	245	58	js					1	create
+be1f69b	754	58	js					6	
+be1f69b	816	58	js					2	toPrimitive
+be1f69b	286	57	js				esm interop	1	
+be1f69b	375	57	js				esm interop	1	
+be1f69b	380	57	js				esm interop	1	
+be1f69b	381	57	js				esm interop	1	
+be1f69b	613	57	js				esm interop	1	
+be1f69b	631	57	js				esm interop	1	
+be1f69b	633	57	js				esm interop	1	
+be1f69b	642	57	js				esm interop	1	
+be1f69b	645	57	js				esm interop	1	
+be1f69b	952	57	js				esm interop	1	
+be1f69b	518	55	js					0	
+be1f69b	927	55	js					3	
+be1f69b	1083	55	js					2	
+be1f69b	1103	55	js					2	
+be1f69b	819	53	js					2	JSON
+be1f69b	478	51	js					5	
+be1f69b	194	50	js					1	
+be1f69b	1046	49	js					2	
+be1f69b	1093	49	js					0	
+be1f69b	166	48	js					1	
+be1f69b	318	48	js					1	
+be1f69b	452	48	js					2	
+be1f69b	484	48	js					2	
+be1f69b	834	48	js					2	
+be1f69b	926	48	js					2	
+be1f69b	957	48	js					2	
+be1f69b	238	47	js					0	
+be1f69b	520	46	js					0	
+be1f69b	1100	46	js					0	
+be1f69b	809	44	js					1	isConcatSpreadable
+be1f69b	1027	42	js					1	
+be1f69b	1031	42	js					1	
+be1f69b	1040	42	js					1	
+be1f69b	1049	42	js					1	
+be1f69b	444	41	js					1	
+be1f69b	475	41	js					1	
+be1f69b	476	41	js					1	
+be1f69b	477	41	js					1	
+be1f69b	483	41	js					1	
+be1f69b	489	41	js					1	
+be1f69b	490	41	js					1	
+be1f69b	491	41	js					1	
+be1f69b	502	41	js					1	
+be1f69b	503	41	js					1	
+be1f69b	734	41	js					1	
+be1f69b	739	41	js					1	
+be1f69b	774	41	js					1	
+be1f69b	787	41	js					1	
+be1f69b	791	41	js					1	
+be1f69b	794	41	js					1	
+be1f69b	797	41	js					1	
+be1f69b	804	41	js					1	
+be1f69b	832	41	js					1	
+be1f69b	833	41	js					1	
+be1f69b	837	41	js					1	
+be1f69b	838	41	js					1	
+be1f69b	839	41	js					1	
+be1f69b	843	41	js					1	
+be1f69b	848	41	js					1	
+be1f69b	855	41	js					1	
+be1f69b	867	41	js					1	
+be1f69b	872	41	js					1	
+be1f69b	881	41	js					1	
+be1f69b	885	41	js					1	
+be1f69b	888	41	js					1	
+be1f69b	890	41	js					1	
+be1f69b	900	41	js					1	
+be1f69b	907	41	js					1	
+be1f69b	908	41	js					1	
+be1f69b	910	41	js					1	
+be1f69b	911	41	js					1	
+be1f69b	915	41	js					1	
+be1f69b	916	41	js					1	
+be1f69b	917	41	js					1	
+be1f69b	924	41	js					1	
+be1f69b	925	41	js					1	
+be1f69b	932	41	js					1	
+be1f69b	933	41	js					1	
+be1f69b	936	41	js					1	
+be1f69b	937	41	js					1	
+be1f69b	939	41	js					1	
+be1f69b	940	41	js					1	
+be1f69b	967	41	js					1	
+be1f69b	971	41	js					1	
+be1f69b	978	41	js					1	
+be1f69b	979	41	js					1	
+be1f69b	982	41	js					1	
+be1f69b	983	41	js					1	
+be1f69b	986	41	js					1	
+be1f69b	987	41	js					1	
+be1f69b	990	41	js					1	
+be1f69b	991	41	js					1	
+be1f69b	994	41	js					1	
+be1f69b	995	41	js					1	
+be1f69b	996	41	js					1	
+be1f69b	806	39	js					1	asyncIterator
+be1f69b	822	38	js					1	asyncDispose
+be1f69b	828	38	js					1	patternMatch
+be1f69b	239	37	js					0	
+be1f69b	808	37	js					1	hasInstance
+be1f69b	818	37	js					1	unscopables
+be1f69b	825	37	js					1	metadataKey
+be1f69b	661	36	js					1	
+be1f69b	826	36	js					1	observable
+be1f69b	829	36	js					1	replaceAll
+be1f69b	200	34	js					1	
+be1f69b	261	34	js					1	
+be1f69b	313	34	js					1	
+be1f69b	337	34	js					1	
+be1f69b	485	34	js					1	iterator
+be1f69b	543	34	js					1	
+be1f69b	544	34	js					1	
+be1f69b	811	34	js					1	matchAll
+be1f69b	827	34	js					1	metadata
+be1f69b	0	33	js					1	
+be1f69b	2	33	js					1	
+be1f69b	5	33	js					1	
+be1f69b	6	33	js					1	
+be1f69b	7	33	js					1	
+be1f69b	10	33	js					1	
+be1f69b	11	33	js					1	
+be1f69b	12	33	js					1	
+be1f69b	14	33	js					1	
+be1f69b	15	33	js					1	
+be1f69b	16	33	js					1	
+be1f69b	17	33	js					1	
+be1f69b	18	33	js					1	
+be1f69b	19	33	js					1	
+be1f69b	20	33	js					1	
+be1f69b	23	33	js					1	
+be1f69b	25	33	js					1	
+be1f69b	31	33	js					1	
+be1f69b	33	33	js					1	
+be1f69b	35	33	js					1	
+be1f69b	44	33	js					1	
+be1f69b	46	33	js					1	
+be1f69b	50	33	js					1	
+be1f69b	59	33	js					1	
+be1f69b	63	33	js					1	
+be1f69b	70	33	js					1	
+be1f69b	76	33	js					1	
+be1f69b	80	33	js					1	
+be1f69b	81	33	js					1	
+be1f69b	93	33	js					1	
+be1f69b	169	33	js					1	
+be1f69b	197	33	js					1	
+be1f69b	243	33	js					1	
+be1f69b	248	33	js					1	
+be1f69b	249	33	js					1	
+be1f69b	314	33	js					1	
+be1f69b	332	33	js					1	
+be1f69b	492	33	js					1	
+be1f69b	501	33	js					1	
+be1f69b	504	33	js					1	
+be1f69b	506	33	js					1	
+be1f69b	508	33	js					1	
+be1f69b	802	33	js					1	
+be1f69b	812	33	js					1	replace
+be1f69b	814	33	js					1	species
+be1f69b	823	33	js					1	dispose
+be1f69b	824	33	js					1	matcher
+be1f69b	830	33	js					1	
+be1f69b	831	33	js					1	
+be1f69b	836	33	js					1	
+be1f69b	865	33	js					1	
+be1f69b	905	33	js					1	
+be1f69b	906	33	js					1	
+be1f69b	909	33	js					1	
+be1f69b	913	33	js					1	
+be1f69b	914	33	js					1	
+be1f69b	923	33	js					1	
+be1f69b	931	33	js					1	
+be1f69b	935	33	js					1	
+be1f69b	938	33	js					1	
+be1f69b	946	33	js					1	
+be1f69b	976	33	js					1	
+be1f69b	977	33	js					1	
+be1f69b	980	33	js					1	
+be1f69b	981	33	js					1	
+be1f69b	984	33	js					1	
+be1f69b	985	33	js					1	
+be1f69b	988	33	js					1	
+be1f69b	989	33	js					1	
+be1f69b	992	33	js					1	
+be1f69b	993	33	js					1	
+be1f69b	813	32	js					1	search
+be1f69b	810	31	js					1	match
+be1f69b	815	31	js					1	split
+be1f69b	771	30	js					2	
+be1f69b	37	27	js					0	
+be1f69b	89	27	js					0	
+be1f69b	164	27	js					0	
+be1f69b	190	27	js					0	
+be1f69b	453	23	js					1	
+be1f69b	868	23	js					1	
+be1f69b	869	23	js					1	
+be1f69b	871	23	js					1	
+be1f69b	874	23	js					1	
+be1f69b	880	23	js					1	
+be1f69b	959	23	js					1	
+be1f69b	240	15	js					0	
+be1f69b	807	15	js					0	
+be1f69b	820	15	js					0	
+be1f69b	821	15	js					0	
+be1f69b	879	15	js					0	
+c36764e	1447	965	js	lang-main		lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+ce90c7a	1446	968	js	lang-main		lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+ded62d7	1145	8865	asset					0	
+ded62d7	1424	2636	vue	m-feature		m-feature m-lang-main nav-num section-wrap	swiper 4;regenerator runtime	7	m/default | auto | .swiper-pagination | .swiper-button-next | .swiper-button-prev | nav4
+ded62d7	1164	2406	js			home-kv home-kv-m home-youtobe social-name		3	/getContentList | string | /getContentList | string | /getContentList | string
+ded62d7	1261	2088	css					7	.m-feature{position:relative;margin-top:1.1rem;min-height:100%;background:url(
+ded62d7	1190	236	js				esm interop	2	string
+ded62d7	1146	64	asset					0	img/inner-foot-dark.fb81e4b.png
+ded62d7	1260	37	js					1	
+df9cade	1187	33083	js	bar		vuescroll-hide-ios-bar z-index user-select border-radius	vue 2 runtime;vuescroll	1	default | function | symbol | function | symbol | Cannot call a class as a function
+e14cdf3	1456	157	js					2	
+e502f5f	1432	936	js	m-lang-main		m-lang-main client-only protocol-pdf is-mob	regenerator runtime	6	empty | seoTitlePrefix | return | protocol
+e502f5f	1131	479	vue			pdf-viewer text-layer annotation-layer protocol-pdf		2	empty | protocol-pdf mob | iframe
+e502f5f	1119	236	js				esm interop	2	string
+e502f5f	1130	224	css					1	
+e502f5f	1129	37	js					1	
+f28487d	1140	3136	css					4	
+f28487d	1142	1088	vue	protocol		page-protocol header-bar web-protocol web-protocol-container		5	protocol | span | breadcrumb | gameName | backContainer | backTop
+f28487d	1444	860	js	lang-main		lang-main client-only	regenerator runtime	5	empty | seoTitlePrefix | return | protocol
+f28487d	1123	236	js				esm interop	2	string
+f28487d	1125	58	asset					0	img/inner-top.5496864.png
+f28487d	1139	37	js					1	
+f5b0acd	1118	4596	js					9	development | test | prerelease | string | /getContentList | /getContentList
+f5b0acd	1133	1842	css					1	
+f5b0acd	1141	1059	vue	m-protocol		m-protocol page-protocol header-bar m-web-protocol	vue-router	4	span | breadcrumb | gameName
+f5b0acd	1429	831	js	m-lang-main		m-lang-main client-only	regenerator runtime	5	empty | seoTitlePrefix | return | protocol
+f5b0acd	1121	236	js				esm interop	2	string
+f5b0acd	1132	37	js					1	
+f87ccae	1415	6186	vue	m-news		m-news nav-num m-news-slider m-news-slider__title	vue-router;vuex;swiper 4;regenerator runtime	18	m/default | loadMore | nav3 | seoTitlePrefix | $route.query.category | setNewsCates
+f87ccae	1312	4239	css					6	.m-news{position:relative;margin-top:1.1rem;min-height:100%;background:url(
+f87ccae	1124	2801	js			news-self-path news-banner		7	dateFormat | string | /getContentList | /getContent | /getChildTree
+f87ccae	1128	2385	asset					0	
+f87ccae	1127	1653	asset					0	
+f87ccae	1313	1257	asset					0	
+f87ccae	1163	1113	vue	news-tag		news-tag	vuex;regenerator runtime	7	#BFDB5A | setNewsCates
+f87ccae	1160	629	css					3	) right center/auto 100%}.news-tag.mobile::after{background-repeat:no-repeat}
+f87ccae	1161	517	asset					0	
+f87ccae	1147	236	js				esm interop	2	string
+f87ccae	1208	236	js				esm interop	2	string
+f87ccae	1159	37	js					1	
+f87ccae	1311	37	js					1	
+fcdddd8	1425	4914	vue	m-lang-video		m-lang-video m-video nav-num m-video-slider	vue-router;vuex	17	m/default | seoTitlePrefix | navVideo | $route.query.category | cate | catesRes
+fcdddd8	1174	4553	vue	mi-ho-yo-pager-rich		mi-ho-yo-pager-rich mihoyo-pager-rich mihoyo-pager-rich__pages v-show	vue-router	3	event | params | need a route name when choose params mode in pager component | query | params | show
+fcdddd8	1315	3038	css					5	.m-video{position:relative;margin-top:1.1rem;min-height:100%;background:url(
+fcdddd8	1153	2968	js			video-cover video-inner-cover video-url video-youtube		8	string | YYYY-MM-DD | MM/DD/YYYY | /getContentList | /getChildTree
+fcdddd8	1171	2801	asset					0	
+fcdddd8	1172	2745	asset					0	
+fcdddd8	1316	2537	asset					0	
+fcdddd8	1317	2537	asset					0	
+fcdddd8	1170	1601	css					5	);margin-left:.24rem}.mihoyo-pager-rich__current{width:.64rem;background:#fff;color:#000;background:rgba(0,0,0,0) url(
+fcdddd8	1173	977	asset					0	
+fcdddd8	1157	857	vue	video-dialog		video-dialog video-container webkit-playsinline x5-playsinline		2	video | video | controls | autoplay | allow | portraint
+fcdddd8	1168	624	css					1	
+fcdddd8	1150	381	js					3	
+fcdddd8	1155	236	js				esm interop	2	string | 2accd326
+fcdddd8	1156	236	js				esm interop	2	string
+fcdddd8	1209	236	js				esm interop	2	string
+fcdddd8	1143	224	js					3	findIndex | Array
+fcdddd8	1120	216	js					3	find | Array
+fcdddd8	1144	60	asset					0	img/inner-top-m.329e7ed.png
+fcdddd8	1167	37	js					1	
+fcdddd8	1169	37	js					1	
+fcdddd8	1314	37	js					1	
+fd57a96	1117	6437	js				esm interop	16	__esModule | function | symbol | function | symbol | POST
+fd57a96	1247	2710	css					1	
+fd57a96	1241	998	js				esm interop	4	__esModule | requestQueue | request merge start,urlKey & request | request merge success | request merge event bind  | request merge resolve
+fd57a96	1244	943	js				esm interop	1	__esModule | error | warning | success
+fd57a96	1176	877	js				esm interop	1	__esModule | value | Cannot call a class as a function | defaultData
+fd57a96	1166	721	js				esm interop	3	__esModule | undefined | undefined | undefined | debug=
+fd57a96	1245	557	js				esm interop	3	__esModule | miHoYoUserModelLoading | miHoYoUserModelLoadingText | miHoYoUserModelLoading | block | miHoYoUserModelLoading
+fd57a96	1242	494	js				esm interop	1	__esModule | eventHandlers
+fd57a96	1239	370	js				esm interop	0	function | symbol | function | symbol
+fd57a96	1240	359	js				esm interop	3	__esModule | responseData | response cache get | response cache set
+fd57a96	1248	332	js					0	
+fd57a96	1243	277	js				esm interop	0	__esModule | miHoYodownloadIFrame | iframe
+fd57a96	1246	236	js				esm interop	2	string
+fd66585	1454	157	js					2	

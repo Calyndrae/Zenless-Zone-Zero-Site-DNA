@@ -1,0 +1,74 @@
+{
+ "component": "world-detail-container",
+ "files": [
+  "1413.css"
+ ],
+ "classes": {
+  "world-detail-container": "world-detail-container"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".world-detail-container",
+   "media": [],
+   "declarations": {
+    "background": "url(/_nuxt/img/inner-top.224793e.png) no-repeat 0 -1rem/10.3rem 11.6rem",
+    "overflow": "hidden"
+   },
+   "source": "/_nuxt/8c53a05.js #1413"
+  }
+ ],
+ "markup": "<div class=\"m-world-detail-container\"><div class=\"m-world-detail__title\"><div class=\"m-world-detail__title-inner\">back<br>ground</div></div> <div class=\"m-world-detail__banner\"><div class=\"swiper-container m-world-detail__banner-list swiper-container-initialized swiper-container-horizontal swiper-container-autoheight swiper-container-ios\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(-0.1955px, 0px, 0px); height: 264px;\"><div class=\"m-world-detail__banner-item swiper-slide swiper-slide-active\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102370/d939babbf873b4881cdeac7f71901d83_4506111104540170839.png\" alt=\"\"></div></div>    <span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div> <div class=\"m-world-detail__banner-pagination\" style=\"display: none;\"><div slot=\"pagination\" class=\"swiper-pagination swiper-pagination-clickable swiper-pagination-bullets\"><span class=\"swiper-pagination-bullet swiper-pagination-bullet-active\" tabindex=\"0\" role=\"button\" aria-label=\"Go to slide 1\"></span></div></div></div> <div class=\"m-world-detail__name\">\n      邦布\n    </div> <div class=\"m-world-detail__content\"><p style=\"white-space: pre-wrap;\"><strong>小小的身体，大大的用处</strong></p><p style=\"white-space: pre-wrap;\">当你走在街头，看到一个发出“嗯嗯呢呢”声音的小小身影，请不要被吓到。这是新艾利都特有的风光之一，小型智能设备——邦布。邦布只有成人膝盖那么高，但他们却是新艾利都城市运转不可或缺的得力助手。经过多年的生产研发，如今邦布的综合应用场景非常广泛，很多工厂也会提供定制服务，以便不同人群使用特定功能的邦布。</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\"><strong>邦布可以用来做什么？</strong></p><p style=\"white-space: pre-wrap;\">邦布最初诞生的目的是帮助新艾利都居民进行空洞灾害的避难行动，当新艾利都生活区域内出现空洞灾害时，每一台邦布都会第一时间从公用网络上接受到灾情信息与避难指引，他们会帮助自己身边的人群规避灾害。</p><p style=\"white-space: pre-wrap;\">现如今，因更成熟的技术和多样的需求，邦布已经从单纯的避灾用小型辅助智能机械变为了更为综合泛用的智能个体，甚至有专业版的邦布会与调查员一起深入空洞中进行各项作业。</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\"><strong>==邦布的自我使用介绍==</strong></p><p style=\"white-space: pre-wrap;\">1.嗯呢呢嗯，嗯嗯呢！</p><p style=\"white-space: pre-wrap;\">（使用前请认真阅读附带的使用说明书。）</p><p style=\"white-space: pre-wrap;\">2.&nbsp;嗯嗯呢嗯呢呢嗯，呢呢嗯嗯嗯！呢嗯！</p><p style=\"white-space: pre-wrap;\">（请在正规渠道购买我们，切勿私自购买非法改装的邦布！我们无法保证此类邦布的安全性！）</p><p style=\"white-space: pre-wrap;\">3.呢嗯呢呢嗯、嗯呢呢嗯嗯、呢嗯嗯嗯、嗯嗯呢嗯呢！</p><p style=\"white-space: pre-wrap;\">（如果我们突然开始发出难听的噪音、行动迟缓、表情闪烁，请立即找到充电桩并为邦布充电。）</p><p style=\"white-space: pre-wrap;\">4.嗯嗯呢嗯，呃嗯呃呢嗯，呢呢嗯嗯嗯，呃嗯呢嗯呢呢！</p><p style=\"white-space: pre-wrap;\">（当你在街头遇到独行的我们，请不要试图拐回家，偷窃邦布是违法的！）</p><p style=\"white-space: pre-wrap;\">5.嗯嗯呢嗯！❥(^_-)</p><p style=\"white-space: pre-wrap;\">（精准翻译失败，可能表达：可爱、掰掰、就是这样、说完了）</p></div> <a href=\"/m/zh-cn/world\" class=\"m-world-detail__foot nuxt-link-active\"><div class=\"m-world-detail__back\">关闭</div></a></div>",
+ "markupPage": "m_zh-cn_world_102370",
+ "markupClass": "world-detail-container",
+ "appearsOn": [
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "world-detail-container": {
+   "page": "zh-cn_world_102173",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 56.25,
+    "width": 1440,
+    "height": 762.75,
+    "top": 56.25,
+    "right": 1440,
+    "bottom": 819,
+    "left": 0
+   },
+   "text": "设定档案 background 05           \n              新艾利都入住指南 | 空洞生存篇\n             让我们重新认",
+   "display": "block",
+   "width": "1440px",
+   "height": "762.75px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/inner-top.224793e.png\")",
+   "background-size": "579.375px 652.5px",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

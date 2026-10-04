@@ -1,0 +1,3 @@
+// module 436 from 2e4935f.js
+// deps: 73
+const module_436 = function(t,e,n){"use strict";var r=n(73);function o(t){return encodeURIComponent(t).replace(/%3A/gi,":").replace(/%24/g,"$").replace(/%2C/gi,",").replace(/%20/g,"+").replace(/%5B/gi,"[").replace(/%5D/gi,"]")}t.exports=function(t,e,n){if(!e)return t;var c;if(n)c=n(e);else if(r.isURLSearchParams(e))c=e.toString();else{var f=[];r.forEach(e,(function(t,e){null!=t&&(r.isArray(t)?e+="[]":t=[t],r.forEach(t,(function(t){r.isDate(t)?t=t.toISOString():r.isObject(t)&&(t=JSON.stringify(t)),f.push(o(e)+"="+o(t))})))})),c=f.join("&")}if(c){var l=t.indexOf("#");-1!==l&&(t=t.slice(0,l)),t+=(-1===t.indexOf("?")?"?":"&")+c}return t}};

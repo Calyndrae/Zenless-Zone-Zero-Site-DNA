@@ -1,0 +1,105 @@
+{
+ "component": "is-active",
+ "files": [
+  "1385.css"
+ ],
+ "classes": {
+  "is-active": "is-active"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": ".is-active[data-v-95fb0980]",
+   "media": [],
+   "declarations": {
+    "width": "2.68rem",
+    "height": "1.5rem",
+    "transition": "all .3s ease-in-out"
+   },
+   "source": "/_nuxt/3b23566.js #1385"
+  },
+  {
+   "selector": ".is-active[data-v-95fb0980]::after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "background-size": "100% 100%",
+    "background-repeat": "no-repeat",
+    "z-index": "2",
+    "height": "100%",
+    "background-image": "url(data:image/png;base64,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)"
+   },
+   "source": "/_nuxt/3b23566.js #1385"
+  },
+  {
+   "selector": ".is-active>.home-video__nav-mask[data-v-95fb0980]",
+   "media": [],
+   "declarations": {
+    "opacity": "0"
+   },
+   "source": "/_nuxt/3b23566.js #1385"
+  }
+ ],
+ "markup": "<div data-v-95fb0980=\"\" class=\"home-video__nav-item is-active\"><img data-v-95fb0980=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166539/8c54b33e11ced21e02e287fd613ac0ad_1768910775112389711.png\" alt=\"\"> <div data-v-95fb0980=\"\" class=\"home-video__nav-mask\"></div></div>",
+ "markupPage": "zh-cn_main",
+ "markupClass": "is-active",
+ "appearsOn": [
+  "zh-cn_main"
+ ],
+ "computed": {
+  "is-active": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 412.875,
+    "y": 2104.59375,
+    "width": 150.75,
+    "height": 84.375,
+    "top": 2104.59375,
+    "right": 563.625,
+    "bottom": 2188.96875,
+    "left": 412.875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "150.75px",
+   "height": "84.375px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "0.3s ease-in-out",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "7.875px",
+   "margin": "0px 11.25px 0px 0px",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": [
+   "all .3s ease-in-out"
+  ]
+ }
+}

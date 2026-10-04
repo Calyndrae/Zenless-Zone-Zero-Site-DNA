@@ -1,0 +1,71 @@
+{
+ "component": "video-wrap",
+ "files": [
+  "1403.css"
+ ],
+ "classes": {
+  "video-wrap": "video-wrap"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".video-wrap",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "12.9rem",
+    "margin-top": "1.45rem",
+    "margin-left": "6.4rem"
+   },
+   "source": "/_nuxt/53d09dd.js #1403"
+  }
+ ],
+ "markup": "<div class=\"video-wrap\"><div class=\"video-tab\"><a href=\"/zh-cn/video\" aria-current=\"page\" class=\"video-tab__item nuxt-link-exact-active nuxt-link-active video-tab__item--active\"><div class=\"video-tab__label\">\n            最新\n          </div> <div class=\"video-tab__label-active\"></div></a><a href=\"/zh-cn/video?category=1341\" class=\"video-tab__item\"><div class=\"video-tab__label\">\n            版本PV\n          </div> <div class=\"video-tab__label-active\"></div></a><a href=\"/zh-cn/video?category=1340\" class=\"video-tab__item\"><div class=\"video-tab__label\">\n            角色EP&amp;MV\n          </div> <div class=\"video-tab__label-active\"></div></a><a href=\"/zh-cn/video?category=1339\" class=\"video-tab__item\"><div class=\"video-tab__label\">\n            角色PV\n          </div> <div class=\"video-tab__label-active\"></div></a><a href=\"/zh-cn/video?category=1338\" class=\"video-tab__item\"><div class=\"video-tab__label\">\n            角色展示\n          </div> <div class=\"video-tab__label-active\"></div></a></div> <div class=\"video-list\"><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166539/ba7dd4b5af3e11a52a7a85c38f49dca7_985536253469226449.jpg\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-09-29</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      角色PV\n    </div></div></div> <div class=\"video-list__item-title\">\n              《绝区零》洛克茜角色PV | 发条骑士\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166499/d0a4d1097203860cbce0e413d2c82987_2965556366067039114.jpg\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-09-25</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      角色展示\n    </div></div></div> <div class=\"video-list__item-title\">\n              《绝区零》洛克茜角色展示 | 神秘负棺人\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165988/de160cbb364d48be78e1ba0e5ec72331_2337052276222437059.jpg\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-09-06</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      角色EP&amp;MV\n    </div></div></div> <div class=\"video-list__item-title\">\n              《绝区零》克拉蕾EP | Link up\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165971/c19f115b68f4b4435e5bd545afc3c8ff_6487691747577217347.jpg\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-09-04</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      角色展示\n    </div></div></div> <div class=\"video-list__item-title\">\n              《绝区零》克拉蕾角色展示 | 不想培训，但攻略已写好\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165918/1c90e47f176efe238567fbe37cead8a6_761750977942799091.jpg\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-08-28</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      版本PV\n    </div></div></div> <div class=\"video-list__item-title\">\n              《绝区零》3.2版本PV | 她与她的隐秘往事\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165752/da786247269263f059bb7e73d75d72b1_8901277569211929442.jpg\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-08-17</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      角色PV\n    </div></div></div> <div class=\"video-list__item-title\">\n              《绝区零》希格莉德角色PV | 小马希莉\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165725/9b5f3686d2b8fe79661aa3aef914bbfb_1516760697106813336.png\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-08-14</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      角色展示\n    </div></div></div> <div class=\"video-list__item-title\">\n              《绝区零》希格莉德角色展示 | 好马识途\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165492/d1ff1de7c8eb0245cf3a75d73517ed03_5805757503427289912.png\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-08-02</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      最新\n    </div></div></div> <div class=\"video-list__item-title\">\n              决战时刻 | 翼刃出鞘\n            </div></div></div><div class=\"video-list__item\"><div class=\"video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165421/6ccb921f78cc06c3b22f31231e48485e_3717514385417911385.jpg\" alt=\"cover\"></div> <div class=\"video-list__item-content\"><div class=\"video-list__item-date\"><div class=\"font-num\">2026-07-29</div> <div class=\"video-tag\"><div class=\"video-tag__text\">\n      最新\n    </div></div></div> <div class=\"video-list__item-title\">\n              ZTALK | 蕾米埃尔设计幕后\n            </div></div></div></div> <div class=\"mihoyo-pager-rich video-pager\"><div class=\"mihoyo-pager-rich__pages\"><a class=\"mihoyo-pager-rich__prev\">&gt;</a> <a class=\"mihoyo-pager-rich__button mihoyo-pager-rich__current\">1</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">2</a><a class=\"mihoyo-pager-rich__button\">3</a><a class=\"mihoyo-pager-rich__button\">4</a> <strong class=\n<!-- … truncated, 6178 chars total -->",
+ "markupPage": "zh-cn_video",
+ "markupClass": "video-wrap",
+ "appearsOn": [
+  "zh-cn_video"
+ ],
+ "computed": {
+  "video-wrap": {
+   "page": "zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 613.6875,
+    "width": 725.625,
+    "height": 904.5,
+    "top": 613.6875,
+    "right": 1085.625,
+    "bottom": 1518.1875,
+    "left": 360
+   },
+   "text": "最新\n           \n            版本PV\n           \n            角色EP&MV\n           \n    ",
+   "position": "relative",
+   "display": "block",
+   "width": "725.625px",
+   "height": "904.5px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "81.5625px 0px 0px 360px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "component": "hyv-crm",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-crm": "hyv-crm"
+ },
+ "ruleCount": 10,
+ "rules": [
+  {
+   "selector": ".hyv-crm,.hyv-subscription",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm .van-overlay,.hyv-subscription .van-overlay",
+   "media": [],
+   "declarations": {
+    "background": "rgba(0,0,0,.5)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm .van-popup,.hyv-subscription .van-popup",
+   "media": [],
+   "declarations": {
+    "background": "var(--global-surface-1) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm a,.hyv-subscription a",
+   "media": [],
+   "declarations": {
+    "cursor": "pointer",
+    "outline": "0",
+    "padding": "0",
+    "-webkit-text-decoration": "none",
+    "text-decoration": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm .van-popup,.hyv-subscription .van-popup",
+   "media": [],
+   "declarations": {
+    "background-color": "initial",
+    "border-radius": ".28em",
+    "font-size": "100px",
+    "-webkit-user-select": "none",
+    "-moz-user-select": "none",
+    "-ms-user-select": "none",
+    "user-select": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-crm .van-popup,[hyv-device^=mobile] .hyv-subscription .van-popup",
+   "media": [],
+   "declarations": {
+    "border-bottom-left-radius": "0",
+    "border-bottom-right-radius": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-crm .van-popup,[hyv-device^=mobile] .hyv-subscription .van-popup",
+   "media": [
+    "@media screen and (orientation:landscape)"
+   ],
+   "declarations": {
+    "border-radius": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm .hyv-form,.hyv-subscription .hyv-form",
+   "media": [],
+   "declarations": {
+    "color": "var(--global-text-body)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm .hyv-form-item-input__extra,.hyv-subscription .hyv-form-item-input__extra",
+   "media": [],
+   "declarations": {
+    "color": "var(--brand-color-error)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm .hyv-checkbox__inner,.hyv-subscription .hyv-checkbox__inner",
+   "media": [],
+   "declarations": {
+    "-ms-flex-negative": "0",
+    "-ms-flex-item-align": "start",
+    "align-self": "flex-start",
+    "cursor": "pointer",
+    "flex-shrink": "0",
+    "margin-top": ".1em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": "<div data-v-2b67f5b0=\"\" class=\"hyv-crm\"><div class=\"hyv-crm-flat\"><div class=\"hyv-form-container\"><form class=\"hyv-form\"><div class=\"hyv-subscription-title\">订阅消息</div><div class=\"hyv-subscription-desc\">订阅Type II独家推送，可以获得活动通知、最新PV、版本壁纸、表情包等不定期推送！</div><div class=\"hyv-form-item__item hyv-form-item-item__email\"><div class=\"hyv-form-item__controls\"><div class=\"hyv-form-item__controls-content\"><div class=\"hyv-input hyv-input-normal\"><div class=\"hyv-input__wrapper\"><div><label class=\"hyv-input__label\">电子邮箱</label><input type=\"text\" class=\"hyv-input__inner\"></div><div name=\"suffix\" class=\"hyv-input__suffix\"></div></div><div class=\"hyv-input__helper-text\"></div></div></div></div></div><div class=\"hyv-form-item__item hyv-form-item-item__agree\"><div class=\"hyv-form-item__controls\"><div class=\"hyv-form-item__controls-content\"><div class=\"hyv-checkbox hyv-checkbox-small\"><label class=\"hyv-checkbox__container\"><input type=\"checkbox\" class=\"hyv-checkbox__input\"><span class=\"hyv-checkbox__inner hyv-checkbox__inner-unchecked\"></span><div class=\"hyv-subscription-agree\">已同意收集并使用个人数据接收活动邀请及其他游戏信息。 <a class=\"\" target=\"__blank\" href=\"https://zenless.hoyoverse.com/zh-cn/company/privacy\">阅读详情&gt;&gt;</a></div></label></div></div></div></div><button class=\"hyv-button hyv-button-size-l hyv-button-filled\" style=\"width: 100%; display: flex; margin-top: 0.16em;\"><span class=\"hyv-button__text\">现在订阅</span></button></form></div></div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "hyv-crm",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_company_privacy",
+  "m_zh-cn_company_terms",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_news_166535",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370",
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "hyv-crm": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "订阅消息订阅Type II独家推送，可以获得活动通知、最新PV、版本壁纸、表情包等不定期推送！电子邮箱已同意收集并使用个人数据接收活动邀请及其他游戏信息。 阅读",
+   "position": "relative",
+   "display": "block",
+   "width": "100%",
+   "font-family": "Inter, \"Microsoft YaHei\", sans-serif",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,.5)"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "100px"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

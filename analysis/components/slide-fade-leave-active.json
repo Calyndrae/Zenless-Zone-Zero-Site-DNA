@@ -1,0 +1,36 @@
+{
+ "component": "slide-fade-leave-active",
+ "files": [
+  "1406.css"
+ ],
+ "classes": {
+  "slide-fade-leave-active": "slide-fade-leave-active"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".slide-fade-leave-active",
+   "media": [],
+   "declarations": {
+    "transition": "all .8s cubic-bezier(1, 0.5, 0.8, 1)"
+   },
+   "source": "/_nuxt/1e69d9d.js #1406"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "all .8s cubic-bezier(1, 0.5, 0.8, 1)"
+  ]
+ }
+}

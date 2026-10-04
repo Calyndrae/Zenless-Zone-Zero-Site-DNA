@@ -1,0 +1,3 @@
+// module 195 from be1f69b.js
+// deps: 34, 166, 39, 447, 306, 38, 762, 89, 160
+const module_195 = function(e,t,n){var r=n(34),o=n(166),c=n(39),l=n(447),f=n(306),d=n(38),h=n(762),m=n(89),v=n(160),y=o&&o.prototype,w=d("species"),_=!1,k=c(r.PromiseRejectionEvent),x=l("Promise",(function(){var e=f(o),t=e!==String(o);if(!t&&66===v)return!0;if(m&&(!y.catch||!y.finally))return!0;if(v>=51&&/native code/.test(e))return!1;var n=new o((function(e){e(1)})),r=function(e){e((function(){}),(function(){}))};return(n.constructor={})[w]=r,!(_=n.then((function(){}))instanceof r)||!t&&h&&!k}));e.exports={CONSTRUCTOR:x,REJECTION_EVENT:k,SUBCLASSING:_}};

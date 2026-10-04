@@ -1,0 +1,490 @@
+{
+ "component": "hyv-checkbox",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-checkbox": "hyv-checkbox",
+  "hyv-checkbox__input": "hyv-checkbox__input",
+  "hyv-checkbox__label": "hyv-checkbox__label",
+  "hyv-checkbox__container": "hyv-checkbox__container",
+  "hyv-checkbox__icon": "hyv-checkbox__icon",
+  "hyv-checkbox__inner": "hyv-checkbox__inner",
+  "hyv-checkbox__inner-unchecked": "hyv-checkbox__inner-unchecked",
+  "hyv-checkbox__inner-unchecked__disable": "hyv-checkbox__inner-unchecked__disable",
+  "hyv-checkbox__inner-checked": "hyv-checkbox__inner-checked",
+  "hyv-checkbox__inner-checked__disable": "hyv-checkbox__inner-checked__disable",
+  "hyv-checkbox__inner-checked-alt": "hyv-checkbox__inner-checked-alt",
+  "hyv-checkbox__inner-checked-alt__disable": "hyv-checkbox__inner-checked-alt__disable",
+  "hyv-checkbox__inner-indeterminate": "hyv-checkbox__inner-indeterminate",
+  "hyv-checkbox__inner-indeterminate__disable": "hyv-checkbox__inner-indeterminate__disable"
+ },
+ "ruleCount": 29,
+ "rules": [
+  {
+   "selector": ".hyv-checkbox",
+   "media": [],
+   "declarations": {
+    "font-family": "\"system-ui\",-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans Simplified Chinese,Arial,\"sans-serif\"",
+    "font-weight": "400"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__input",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__label",
+   "media": [],
+   "declarations": {
+    "color": "var(--global-color-grey-7)",
+    "-webkit-user-select": "none",
+    "-moz-user-select": "none",
+    "-ms-user-select": "none",
+    "user-select": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__container",
+   "media": [],
+   "declarations": {
+    "-webkit-box-pack": "center",
+    "-ms-flex-pack": "center",
+    "-webkit-box-align": "center",
+    "-ms-flex-align": "center",
+    "align-items": "center",
+    "display": "flex",
+    "justify-content": "center"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__icon",
+   "media": [],
+   "declarations": {
+    "fill": "var(--global-color-basic-white)",
+    "color": "var(--global-color-basic-white)",
+    "padding": ".1em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner",
+   "media": [],
+   "declarations": {
+    "border-style": "solid",
+    "border-width": ".1em",
+    "display": "inline-block",
+    "margin-right": ".5em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-unchecked",
+   "media": [],
+   "declarations": {
+    "background-color": "transparent",
+    "border-color": "var(--global-color-grey-4)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-unchecked__disable",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--global-color-grey-2) !important",
+    "border-color": "var(--global-color-grey-4) !important",
+    "color": "var(--global-color-grey-2) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-unchecked__disable svg",
+   "media": [],
+   "declarations": {
+    "fill": "var(--global-color-grey-4) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-unchecked:hover",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--brand-color-hover)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-unchecked:active",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--brand-color-pressed)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--brand-color-enabled)",
+    "border-color": "var(--brand-color-enabled)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked__disable",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--global-color-grey-2) !important",
+    "border-color": "var(--global-color-grey-2) !important",
+    "color": "var(--global-color-grey-2) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked__disable svg",
+   "media": [],
+   "declarations": {
+    "fill": "var(--global-color-grey-4) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked:hover",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--brand-color-hover)",
+    "border-color": "var(--brand-color-hover)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked:active",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--brand-color-pressed)",
+    "border-color": "var(--brand-color-pressed)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--global-color-grey-3)",
+    "color": "var(--brand-color-enabled)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt svg",
+   "media": [],
+   "declarations": {
+    "fill": "var(--brand-color-enabled)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt__disable",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--global-color-grey-2) !important",
+    "border-color": "var(--global-color-grey-4) !important",
+    "color": "var(--global-color-grey-2) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt__disable svg",
+   "media": [],
+   "declarations": {
+    "fill": "var(--global-color-grey-4) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt:hover",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--brand-color-hover)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt:hover svg",
+   "media": [],
+   "declarations": {
+    "fill": "var(--brand-color-enabled)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt:active",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--brand-color-pressed)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-checked-alt:active svg",
+   "media": [],
+   "declarations": {
+    "fill": "var(--brand-color-enabled)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-indeterminate",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--brand-color-enabled)",
+    "border-color": "var(--brand-color-enabled)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-indeterminate__disable",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--global-color-grey-2) !important",
+    "border-color": "var(--global-color-grey-2) !important",
+    "color": "var(--global-color-grey-2) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-indeterminate__disable svg",
+   "media": [],
+   "declarations": {
+    "fill": "var(--global-color-grey-4) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-indeterminate:hover",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--brand-color-hover)",
+    "border-color": "var(--brand-color-hover)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-checkbox__inner-indeterminate:active",
+   "media": [],
+   "declarations": {
+    "background-color": "var(--brand-color-pressed)",
+    "border-color": "var(--brand-color-pressed)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": "<div class=\"hyv-checkbox hyv-checkbox-small\"><label class=\"hyv-checkbox__container\"><input type=\"checkbox\" class=\"hyv-checkbox__input\"><span class=\"hyv-checkbox__inner hyv-checkbox__inner-unchecked\"></span><div class=\"hyv-subscription-agree\">已同意收集并使用个人数据接收活动邀请及其他游戏信息。 <a class=\"\" target=\"__blank\" href=\"https://zenless.hoyoverse.com/zh-cn/company/privacy\">阅读详情&gt;&gt;</a></div></label></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "hyv-checkbox",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_company_privacy",
+  "m_zh-cn_company_terms",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_news_166535",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370",
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "hyv-checkbox": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "已同意收集并使用个人数据接收活动邀请及其他游戏信息。 阅读详情>>",
+   "display": "block",
+   "font-family": "\"system-ui\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans Simplified Chinese\", Arial, \"sans-serif\"",
+   "font-size": "12px",
+   "font-weight": "400",
+   "line-height": "12px",
+   "color": "rgb(60, 63, 68)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(60, 63, 68)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "hyv-checkbox__container": {
+   "page": "m_zh-cn_character",
+   "tag": "LABEL",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "已同意收集并使用个人数据接收活动邀请及其他游戏信息。 阅读详情>>",
+   "display": "flex",
+   "font-family": "\"system-ui\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans Simplified Chinese\", Arial, \"sans-serif\"",
+   "font-size": "12px",
+   "font-weight": "400",
+   "line-height": "12px",
+   "color": "rgb(204, 208, 210)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(204, 208, 210)",
+   "cursor": "default",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center",
+   "align-items": "center"
+  },
+  "hyv-checkbox__inner": {
+   "page": "m_zh-cn_character",
+   "tag": "SPAN",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "display": "block",
+   "width": "12px",
+   "height": "12px",
+   "font-family": "\"system-ui\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans Simplified Chinese\", Arial, \"sans-serif\"",
+   "font-size": "12px",
+   "font-weight": "400",
+   "line-height": "12px",
+   "color": "rgb(204, 208, 210)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "1px solid rgb(79, 81, 89)",
+   "border-radius": "4.8px",
+   "margin": "3px 6px 0px 0px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "hyv-checkbox__inner-unchecked": {
+   "page": "m_zh-cn_character",
+   "tag": "SPAN",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "display": "block",
+   "width": "12px",
+   "height": "12px",
+   "font-family": "\"system-ui\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans Simplified Chinese\", Arial, \"sans-serif\"",
+   "font-size": "12px",
+   "font-weight": "400",
+   "line-height": "12px",
+   "color": "rgb(204, 208, 210)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "1px solid rgb(79, 81, 89)",
+   "border-radius": "4.8px",
+   "margin": "3px 6px 0px 0px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "hyv-checkbox__input": {
+   "page": "m_zh-cn_character",
+   "tag": "INPUT",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "font-family": "\"system-ui\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans Simplified Chinese\", Arial, \"sans-serif\"",
+   "font-size": "12px",
+   "font-weight": "400",
+   "line-height": "12px",
+   "color": "rgb(204, 208, 210)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(204, 208, 210)",
+   "cursor": "default",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [
+   "\"system-ui\",-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans Simplified Chinese,Arial,\"sans-serif\""
+  ],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

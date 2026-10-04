@@ -1,0 +1,85 @@
+{
+ "component": "cloud-download-dialog-content",
+ "files": [
+  "1354.css"
+ ],
+ "classes": {
+  "cloud-download-dialog-content": "cloud-download-dialog-content"
+ },
+ "ruleCount": 5,
+ "rules": [
+  {
+   "selector": ".cloud-download-dialog-content[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "margin-top": ".5rem",
+    "padding": "0 .61rem",
+    "display": "flex",
+    "justify-content": "space-between"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  },
+  {
+   "selector": ".cloud-download-dialog-content .cloud-download-qrcode img[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "width": "2.45rem",
+    "height": "2.45rem"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  },
+  {
+   "selector": ".cloud-download-dialog-content .cloud-download-qrcode span[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "color": "#fff",
+    "font-size": ".28rem",
+    "text-align": "center",
+    "margin-top": ".1rem"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  },
+  {
+   "selector": ".cloud-download-dialog-content .cloud-download-btn-container[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "width": "3.49rem",
+    "height": "2.47rem",
+    "display": "flex",
+    "flex-direction": "column",
+    "justify-content": "space-between"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  },
+  {
+   "selector": ".cloud-download-dialog-content .cloud-download-btn-container .cloud-download-btn[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "height": "1.08rem",
+    "cursor": "pointer",
+    "background-size": "100% 100%"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".28rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

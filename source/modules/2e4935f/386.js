@@ -1,0 +1,3 @@
+// module 386 from 2e4935f.js
+// deps: 600, 69, 144, 186, 78
+const module_386 = function(t,e,n){n(600);for(var r=n(69),o=n(144),c=n(186),f=n(78)("toStringTag"),l="CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,MediaList,MimeTypeArray,NamedNodeMap,NodeList,PaintRequestList,Plugin,PluginArray,SVGLengthList,SVGNumberList,SVGPathSegList,SVGPointList,SVGStringList,SVGTransformList,SourceBufferList,StyleSheetList,TextTrackCueList,TextTrackList,TouchList".split(","),i=0;i<l.length;i++){var d=l[i],h=r[d],v=h&&h.prototype;v&&!v[f]&&o(v,f,d),c[d]=c.Array}};

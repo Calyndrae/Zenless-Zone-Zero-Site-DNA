@@ -1,0 +1,3 @@
+// module 1168 from fcdddd8.js
+// deps: 54
+const module_1168 = function(e,t,r){var o=r(54)(!1);o.push([e.i,".video-container[data-v-949ad85e]{overflow:hidden;display:flex;justify-content:center;align-items:center;width:12.8rem}.video-container .video[data-v-949ad85e]{background:#000;pointer-events:auto;flex:0 0 auto;width:100%;height:auto;object-fit:contain}.video-container .video.show[data-v-949ad85e]{transform:none}.video-container .video-frame[data-v-949ad85e]{height:7.2rem}.video-container.mob[data-v-949ad85e]{width:100%}.video-container.mob .video-frame[data-v-949ad85e]{height:4rem;width:7.4rem}.video-container.pc video[data-v-949ad85e]{aspect-ratio:16/9}",""]),e.exports=o};

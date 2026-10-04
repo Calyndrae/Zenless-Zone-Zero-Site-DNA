@@ -1,0 +1,70 @@
+{
+ "component": "hyv-button-outlined",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-button-outlined": "hyv-button-outlined",
+  "hyv-button-outlined__disable": "hyv-button-outlined__disable"
+ },
+ "ruleCount": 5,
+ "rules": [
+  {
+   "selector": ".hyv-button-outlined .hyv-loading__gradient-conic",
+   "media": [],
+   "declarations": {
+    "background": "conic-gradient(from 90deg at 50% 50%,hsla(0,0%,100%,0) 0deg,var(--brand-button-outlined-enabled-element) 1turn)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-outlined:hover .hyv-loading__gradient-conic",
+   "media": [],
+   "declarations": {
+    "background": "conic-gradient(from 90deg at 50% 50%,hsla(0,0%,100%,0) 0deg,var(--brand-button-outlined-hover-element) 1turn)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-outlined",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--brand-button-outlined-enabled-border)",
+    "color": "var(--brand-button-outlined-enabled-element)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-outlined__disable",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--brand-button-outlined-disabled-border) !important",
+    "color": "var(--brand-button-outlined-disabled-element) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-outlined:hover",
+   "media": [],
+   "declarations": {
+    "border-color": "var(--brand-button-outlined-hover-border)",
+    "color": "var(--brand-button-outlined-hover-element)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "component": "news-wrap",
+ "files": [
+  "1396.css"
+ ],
+ "classes": {
+  "news-wrap": "news-wrap"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".news-wrap",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "12.8rem",
+    "margin-top": "1.45rem",
+    "margin-left": "6.4rem"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  }
+ ],
+ "markup": "<div data-v-68b07d09=\"\" class=\"home-news-wrap\"><div data-v-68b07d09=\"\" class=\"section-nav lg\"><!----> <div class=\"section-nav-inner\"><div class=\"section-nav-label\" style=\"transform: translate(-140%, 0%);\">新闻资讯</div> <div class=\"section-nav-en\" style=\"transform: translate(-140%, 0%);\">News &amp; Info</div> <div class=\"section-nav-num\" style=\"transform: translate(-140%, 0%);\">04</div></div></div> <img data-v-68b07d09=\"\" src=\"/_nuxt/img/news-page-bg.2b65d54.png\" alt=\"news-page-bg\" class=\"home-news__page-bg\"> <div data-v-68b07d09=\"\" class=\"home-news-container\" style=\"transform: translate(0%, 40%);\"><div data-v-68b07d09=\"\" class=\"home-news__banner\"><div data-v-68b07d09=\"\" class=\"swiper-container home-news__banner-list swiper-container-initialized swiper-container-horizontal\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(-3172.5px, 0px, 0px);\"><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166535\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_2628406247496769925.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"1\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166498\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166498/801579a8589b04bef42c4d475bc6ba81_9070677666140127897.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"2\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166497\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166497/721f26d02e752b034fa4c0375060333d_6904896181431312895.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"3\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166496\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166496/6e21865917d0d671b4821d0be5ba6c10_7627518777412622827.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"4\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166476\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166476/3cb9766cf1ffc6f694c9257033575df5_4878917223056569186.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-prev\" data-swiper-slide-index=\"5\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166475\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/5e5c5daefb39338f4a40d31a3b4a9ccf_7857193178439832577.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-active\" data-swiper-slide-index=\"0\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166535\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_2628406247496769925.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-next\" data-swiper-slide-index=\"1\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166498\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166498/801579a8589b04bef42c4d475bc6ba81_9070677666140127897.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide\" data-swiper-slide-index=\"2\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166497\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166497/721f26d02e752b034fa4c0375060333d_6904896181431312895.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide\" data-swiper-slide-index=\"3\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166496\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166496/6e21865917d0d671b4821d0be5ba6c10_7627518777412622827.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide\" data-swiper-slide-index=\"4\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166476\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166476/3cb9766cf1ffc6f694c9257033575df5_4878917223056569186.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate-prev\" data-swiper-slide-index=\"5\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166475\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/5e5c5daefb39338f4a40d31a3b4a9ccf_7857193178439832577.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166535\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_2628406247496769925.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"1\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166498\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166498/801579a8589b04bef42c4d475bc6ba81_907067\n<!-- … truncated, 9095 chars total -->",
+ "markupPage": "zh-cn_main",
+ "markupClass": "news-wrap",
+ "appearsOn": [
+  "zh-cn_news"
+ ],
+ "computed": {
+  "news-wrap": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 599.640625,
+    "width": 720,
+    "height": 976.359375,
+    "top": 599.640625,
+    "right": 1080,
+    "bottom": 1576,
+    "left": 360
+   },
+   "text": "最新\n           \n            新闻\n           \n            公告\n           \n           ",
+   "position": "relative",
+   "display": "block",
+   "width": "720px",
+   "height": "976.359px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "81.5625px 0px 0px 360px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

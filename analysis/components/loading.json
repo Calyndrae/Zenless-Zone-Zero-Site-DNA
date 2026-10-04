@@ -1,0 +1,287 @@
+{
+ "component": "loading",
+ "files": [
+  "668.css"
+ ],
+ "classes": {
+  "loading": "loading",
+  "loading__anim": "loading__anim",
+  "loading__field": "loading__field",
+  "loading__progress": "loading__progress"
+ },
+ "ruleCount": 8,
+ "rules": [
+  {
+   "selector": ".loading[data-v-4ed1ddcf]",
+   "media": [],
+   "declarations": {
+    "position": "fixed",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%",
+    "background-color": "#fff",
+    "z-index": "997"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  },
+  {
+   "selector": ".loading__anim[data-v-4ed1ddcf]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "16.875px",
+    "bottom": "28.125px",
+    "width": "298.125px",
+    "height": "84.375px",
+    "background": "url(\"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png\")",
+    "background-size": "100% 3000%",
+    "background-position": "0 0",
+    "animation": "loadingLoop-4ed1ddcf .5s steps(30) infinite forwards"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  },
+  {
+   "selector": ".loading__anim[data-v-4ed1ddcf]",
+   "media": [
+    "@media (max-width: 374px)"
+   ],
+   "declarations": {
+    "width": "265px",
+    "height": "75px",
+    "right": "15px",
+    "bottom": "25px"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  },
+  {
+   "selector": ".loading__anim[data-v-4ed1ddcf]",
+   "media": [
+    "@media (max-width: 300px)"
+   ],
+   "declarations": {
+    "width": "198px",
+    "height": "56px",
+    "right": "11.2px",
+    "bottom": "18.6px"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  },
+  {
+   "selector": ".loading__field[data-v-4ed1ddcf]",
+   "media": [],
+   "declarations": {
+    "width": "0",
+    "height": "0",
+    "overflow": "hidden",
+    "visibility": "hidden"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  },
+  {
+   "selector": ".loading__progress[data-v-4ed1ddcf]",
+   "media": [],
+   "declarations": {
+    "width": "35vh",
+    "height": "35vh",
+    "position": "absolute",
+    "left": "50%",
+    "top": "50%",
+    "transform": "translate(-50%, -50%)"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  },
+  {
+   "selector": ".loading__progress span[data-v-4ed1ddcf]",
+   "media": [],
+   "declarations": {
+    "line-height": "35vh",
+    "font-size": "6vh",
+    "text-align": "center",
+    "display": "block"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  },
+  {
+   "selector": ".loading__progress div[data-v-4ed1ddcf]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "2px",
+    "height": "1vh",
+    "left": "50%",
+    "top": "0",
+    "margin-left": "-1px",
+    "background": "#414141",
+    "transform-origin": "0 17.5vh",
+    "opacity": ".3"
+   },
+   "source": "/_nuxt/8c4c131.js #668"
+  }
+ ],
+ "markup": "<div data-v-4ed1ddcf=\"\" class=\"loading\" style=\"display: none;\"><div data-v-4ed1ddcf=\"\" class=\"loading__field\"></div> <div data-v-4ed1ddcf=\"\" class=\"loading__anim\"></div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "loading",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_news_166535",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370",
+  "zh-cn_character",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "loading": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "fixed",
+   "width": "100%",
+   "height": "100%",
+   "z-index": "997",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 255, 255)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "loading__anim": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "298.125px",
+   "height": "84.375px",
+   "right": "16.875px",
+   "bottom": "28.125px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png\")",
+   "background-size": "100% 3000%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "0.5s steps(30) 0s infinite normal forwards running loadingLoop-4ed1ddcf",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "loading__field": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "display": "block",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "loadingLoop-4ed1ddcf",
+   "file": "668.css",
+   "source": "/_nuxt/8c4c131.js #668",
+   "css": "@keyframes loadingLoop-4ed1ddcf{0%{background-position:0 0}100%{background-position:0 -3000%}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "background-position": "0 0"
+     }
+    },
+    {
+     "at": "100%",
+     "declarations": {
+      "background-position": "0 -3000%"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "#fff",
+   "#414141"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "6vh"
+  ],
+  "zIndex": [
+   "997"
+  ],
+  "transitions": [
+   "loadingLoop-4ed1ddcf .5s steps(30) infinite forwards"
+  ]
+ }
+}

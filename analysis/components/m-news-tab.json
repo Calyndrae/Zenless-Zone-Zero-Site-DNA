@@ -1,0 +1,284 @@
+{
+ "component": "m-news-tab",
+ "files": [
+  "703.css",
+  "1312.css"
+ ],
+ "classes": {
+  "m-news-tab__label": "m-news-tab__label",
+  "m-news-tab": "m-news-tab",
+  "m-news-tab__item": "m-news-tab__item",
+  "m-news-tab__item--active": "m-news-tab__item--active",
+  "m-news-tab__thumb": "m-news-tab__thumb"
+ },
+ "ruleCount": 5,
+ "rules": [
+  {
+   "selector": "html[lang|=de-de] body .m-news-tab__label",
+   "media": [],
+   "declarations": {
+    "font-weight": "400"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": ".m-news-tab",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".4rem",
+    "top": "-1rem",
+    "display": "flex",
+    "flex-direction": "row",
+    "align-items": "center",
+    "width": "6.72rem",
+    "height": ".54rem",
+    "padding": "0 .2rem",
+    "background-color": "#222122",
+    "border-radius": ".32rem",
+    "border": ".01rem solid #353335"
+   },
+   "source": "/_nuxt/f87ccae.js #1312"
+  },
+  {
+   "selector": ".m-news-tab__item",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "z-index": "2",
+    "width": "1.58rem",
+    "font-size": ".22rem",
+    "font-weight": "800",
+    "text-align": "center",
+    "color": "#fff",
+    "white-space": "nowrap",
+    "cursor": "pointer",
+    "flex-shrink": "0"
+   },
+   "source": "/_nuxt/f87ccae.js #1312"
+  },
+  {
+   "selector": ".m-news-tab__item--active",
+   "media": [],
+   "declarations": {
+    "color": "#333"
+   },
+   "source": "/_nuxt/f87ccae.js #1312"
+  },
+  {
+   "selector": ".m-news-tab__thumb",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "width": "1.7rem",
+    "height": ".44rem",
+    "background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAsCAYAAAD1nyNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADO0lEQVR4nO3dvYscdRgH8M9e8JQURu0kkXRBPE/8A5QoYgwGI+IroqKtBt+IiIWFFikOTBOChU0StQha+IJwqBBJCKKFYqFRGxFDRJAYMeArGYvfHsSc2Zff/mbmbuf5dHe78zxTfJmdeea3s72qqqwA63EvbsJ8/++ZVvcotOkE3sYuHIdey0HdhBdxtwhmWO4UbsfhtoLaw7N4AbNt7EBYNX7BXBtBncVr0lE0hFHsaTqoa/AG7miyaVj1jjcd1L14tMmGYTo0eQHznAhpyPNHU0fUB/BqE43CVDrURFBvxnu4oO5GYWptr/uj/1q8KUIa8r2Cd+s8om7Ex7i8rgZh6i3iNvxTV1Avw1FcWUfx0AmfYTNOU89V/0XSfdoIacj1HW7VDynlg7pGuut0XeG6oTt+xlb8dPY/Swd1N+4sXDN0x+/Yjm/PfaFkUJ/B4wXrhW45g/ukC/BlSgX1fiwUqhW6aQfeOd+LJYJ6I/YVqBO6axdeHvSGScdT1+AILp6kSOi0/XgEA4M4SVCvkM4n1ucWCJ33vjTQ/2vYG3ODeok00L8qZ+MQ8Lk00P9tlDfnnKNeKJ30RkhDru+xzYghZfyg9qTletePuV0IS05KA/0fx9lo3KDuFt91CvmWBvpfj7vhOEF9Ck+O2yCEvjPSAvqjORuPejF1Dw7mNAihb4f0nbksowR1Mz4Qi59DvgXpOQ7ZhgV1TjpUr5ukSei01/GgIQP9YQYFdYM00N8wSYPQaR9KY6ihA/1hzhfUddKt0flJG4TO+kI6bfy1RLH/u+qfxVsipCHfD9IK/SIhZXlQeziAG0o1CJ1zShronyhZ9NygLkjPKQ0hx5/SQP+r0oXPDuoT2Fm6QeiMpYH+kTqKLwX1Lun2aAi5npYeNlKLXlVVm6QlV2vrahKm3ktq/jSewfMipCHfQemLnbXqVVV1EpfW3ShMpY9wiwID/WF61Qr5WZSw6nyKLQrOSgeZkRayhjCOwxoMKSmoi001C1Nhr/TM28ZCSvron5OenBY/oxMGOYbHcKiN5jP4Eg/j7zZ2IKx4n+AhXK2lkPLf1VPz0qhqi1h/2lWnpQUlx6Tz0EV80+oe9f0LD+677vb27W0AAAAASUVORK5CYII=) no-repeat 0 0/100% 100%"
+   },
+   "source": "/_nuxt/f87ccae.js #1312"
+  }
+ ],
+ "markup": "<div class=\"m-news-tab\"><div class=\"m-news-tab__thumb\" style=\"left: 0.12rem;\"></div> <a href=\"/m/zh-cn/news\" aria-current=\"page\" class=\"m-news-tab__item nuxt-link-exact-active nuxt-link-active m-news-tab__item--active\"><div class=\"m-news-tab__label\">\n            最新\n          </div></a><a href=\"/m/zh-cn/news?category=295\" class=\"m-news-tab__item\"><div class=\"m-news-tab__label\">\n            新闻\n          </div></a><a href=\"/m/zh-cn/news?category=296\" class=\"m-news-tab__item\"><div class=\"m-news-tab__label\">\n            公告\n          </div></a><a href=\"/m/zh-cn/news?category=297\" class=\"m-news-tab__item\"><div class=\"m-news-tab__label\">\n            活动\n          </div></a></div>",
+ "markupPage": "m_zh-cn_news",
+ "markupClass": "m-news-tab",
+ "appearsOn": [
+  "m_zh-cn_news"
+ ],
+ "computed": {
+  "m-news-tab": {
+   "page": "m_zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 234.578125,
+    "width": 349.4375,
+    "height": 28.078125,
+    "top": 234.578125,
+    "right": 370.234375,
+    "bottom": 262.65625,
+    "left": 20.796875
+   },
+   "text": "最新\n          \n            新闻\n          \n            公告\n          \n            活动",
+   "position": "absolute",
+   "display": "flex",
+   "width": "349.438px",
+   "height": "28.0781px",
+   "top": "-52px",
+   "left": "20.8px",
+   "right": "19.7656px",
+   "bottom": "3653.14px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(34, 33, 34)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "1px solid rgb(53, 51, 53)",
+   "border-radius": "16.64px",
+   "padding": "0px 10.4px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  },
+  "m-news-tab__item": {
+   "page": "m_zh-cn_news",
+   "tag": "A",
+   "rect": {
+    "x": 32.1875,
+    "y": 242.890625,
+    "width": 82.15625,
+    "height": 11.4375,
+    "top": 242.890625,
+    "right": 114.34375,
+    "bottom": 254.328125,
+    "left": 32.1875
+   },
+   "text": "最新",
+   "position": "relative",
+   "display": "block",
+   "width": "82.1562px",
+   "height": "11.4375px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.44px",
+   "font-weight": "800",
+   "line-height": "11.44px",
+   "color": "rgb(51, 51, 51)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(51, 51, 51)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "m-news-tab__item--active": {
+   "page": "m_zh-cn_news",
+   "tag": "A",
+   "rect": {
+    "x": 32.1875,
+    "y": 242.890625,
+    "width": 82.15625,
+    "height": 11.4375,
+    "top": 242.890625,
+    "right": 114.34375,
+    "bottom": 254.328125,
+    "left": 32.1875
+   },
+   "text": "最新",
+   "position": "relative",
+   "display": "block",
+   "width": "82.1562px",
+   "height": "11.4375px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.44px",
+   "font-weight": "800",
+   "line-height": "11.44px",
+   "color": "rgb(51, 51, 51)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(51, 51, 51)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "m-news-tab__label": {
+   "page": "m_zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 32.1875,
+    "y": 242.890625,
+    "width": 82.15625,
+    "height": 11.4375,
+    "top": 242.890625,
+    "right": 114.34375,
+    "bottom": 254.328125,
+    "left": 32.1875
+   },
+   "text": "最新",
+   "display": "block",
+   "width": "82.1562px",
+   "height": "11.4375px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.44px",
+   "font-weight": "800",
+   "line-height": "11.44px",
+   "color": "rgb(51, 51, 51)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(51, 51, 51)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "m-news-tab__thumb": {
+   "page": "m_zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 28.03125,
+    "y": 237.171875,
+    "width": 88.390625,
+    "height": 22.875,
+    "top": 237.171875,
+    "right": 116.421875,
+    "bottom": 260.046875,
+    "left": 28.03125
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "88.3906px",
+   "height": "22.875px",
+   "top": "1.59375px",
+   "left": "6.24px",
+   "right": "252.812px",
+   "bottom": "1.60938px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAsCAYAAAD1nyNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADO0lEQVR4nO3dvYscdRgH8M9e8JQURu0kkXRBPE/8A5QoYgwGI+IroqKtBt+IiIWFFikOTBOChU0StQha+IJwqBBJCKKFYqFRGxFDRJAYMeArGYvfHsSc2Zff/mbmbuf5dHe78zxTfJmdeea3s72qqqwA63EvbsJ8/++ZVvcotOkE3sYuHIdey0HdhBdxtwhmWO4UbsfhtoLaw7N4AbNt7EBYNX7BXBtBncVr0lE0hFHsaTqoa/AG7miyaVj1jjcd1L14tMmGYTo0eQHznAhpyPNHU0fUB/BqE43CVDrURFBvxnu4oO5GYWptr/uj/1q8KUIa8r2Cd+s8om7Ex7i8rgZh6i3iNvxTV1Avw1FcWUfx0AmfYTNOU89V/0XSfdoIacj1HW7VDynlg7pGuut0XeG6oTt+xlb8dPY/Swd1N+4sXDN0x+/Yjm/PfaFkUJ/B4wXrhW45g/ukC/BlSgX1fiwUqhW6aQfeOd+LJYJ6I/YVqBO6axdeHvSGScdT1+AILp6kSOi0/XgEA4M4SVCvkM4n1ucWCJ33vjTQ/2vYG3ODeok00L8qZ+MQ8Lk00P9tlDfnnKNeKJ30RkhDru+xzYghZfyg9qTletePuV0IS05KA/0fx9lo3KDuFt91CvmWBvpfj7vhOEF9Ck+O2yCEvjPSAvqjORuPejF1Dw7mNAihb4f0nbksowR1Mz4Qi59DvgXpOQ7ZhgV1TjpUr5ukSei01/GgIQP9YQYFdYM00N8wSYPQaR9KY6ihA/1hzhfUddKt0flJG4TO+kI6bfy1RLH/u+qfxVsipCHfD9IK/SIhZXlQeziAG0o1CJ1zShronyhZ9NygLkjPKQ0hx5/SQP+r0oXPDuoT2Fm6QeiMpYH+kTqKLwX1Lun2aAi5npYeNlKLXlVVm6QlV2vrahKm3ktq/jSewfMipCHfQemLnbXqVVV1EpfW3ShMpY9wiwID/WF61Qr5WZSw6nyKLQrOSgeZkRayhjCOwxoMKSmoi001C1Nhr/TM28ZCSvron5OenBY/oxMGOYbHcKiN5jP4Eg/j7zZ2IKx4n+AhXK2lkPLf1VPz0qhqi1h/2lWnpQUlx6Tz0EV80+oe9f0LD+677vb27W0AAAAASUVORK5CYII=\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#222122",
+   "#353335",
+   "#fff",
+   "#333"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".22rem"
+  ],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": []
+ }
+}

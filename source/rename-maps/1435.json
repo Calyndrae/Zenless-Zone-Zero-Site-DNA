@@ -1,0 +1,26 @@
+{
+  "summary": "Nuxt page component for the mobile route `m-lang-news-public` (layout `m/default`), the gacha/public-notice article that embeds an external page. `asyncData` fetches the article via the news API (module 1124) `getDetail` with `iInfoId: GACHA_ID`, `iChanId: CHANNEL_ID_CONFIG.NEWS.ALL` and `sLangKey: store.state.lang` (both from the app bundle, module 28), redirecting to `m-lang-news` if the request throws, and exposes it as `newsContent` (its title is also the `head()` title). The render shows `m-news-detail` (class `fromGame` when `$route.query.nolandscape` and `fromGame` are set) with an `m-news-detail__article` title and a client-only `iframe` pointing at `gachaUrl?lang=<store.state.lang>`, whose height tracks `frameHeight` (+50px) updated from `window` `message` events of type `sendHeight` (listener added on mount, removed before destroy). A `nuxt-link` footer (`m-news-detail__foot`, i18n `textBack`) returns to `m-lang-news` and tracks `news_back` via `$trackButton`.",
+  "exports": {
+    "default": "the `m-lang-news-public` mobile gacha-notice (iframe) news page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "o_1": "appConfig",
+    "c_2": "newsPublicPageOptions",
+    "d_3": "componentOptions",
+    "f_4": "componentNormalizer",
+    "t_5": "nuxtContext",
+    "e_6": "asyncDataGenerator",
+    "n_7": "redirect",
+    "r_8": "store",
+    "c_9": "newsContent",
+    "e_10": "context",
+    "t_11": "shouldListen",
+    "e_12": "listenerMethod",
+    "t_13": "messageEvent",
+    "e_14": "messagePayload",
+    "n_15": "messageType",
+    "t_16": "vm",
+    "e_17": "h",
+    "e_18": "clickEvent"
+  }
+}

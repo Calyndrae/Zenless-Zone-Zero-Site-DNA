@@ -1,0 +1,89 @@
+{
+ "component": "world-detail-inner",
+ "files": [
+  "1413.css"
+ ],
+ "classes": {
+  "world-detail-inner": "world-detail-inner"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".world-detail-inner",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "z-index": "2",
+    "width": "12.8rem",
+    "margin": "1.6rem auto 0",
+    "padding-top": "1.08rem",
+    "padding-bottom": "1.42rem"
+   },
+   "source": "/_nuxt/8c53a05.js #1413"
+  },
+  {
+   "selector": ".world-detail-inner p:nth-of-type(1)",
+   "media": [],
+   "declarations": {
+    "margin-top": "0"
+   },
+   "source": "/_nuxt/8c53a05.js #1413"
+  }
+ ],
+ "markup": "<div class=\"world-detail-inner\"><a href=\"/zh-cn/world\" class=\"nuxt-link-active\"><div class=\"world-detail__back\"></div></a> <div class=\"world-detail__article\"><div class=\"world-detail__banner\"><div class=\"swiper-container world-detail__banner-list swiper-container-initialized swiper-container-horizontal swiper-container-autoheight\"> <div class=\"swiper-wrapper\" style=\"height: 320px; transform: translate3d(0px, 0px, 0px);\"><div class=\"world-detail__banner-item swiper-slide swiper-slide-active\"><img src=\"https://webstatic.hoyoverse.com/upload/op-public/2022/05/18/5b8e5572917028de17b25e205e0ed682_6152042526272336891.png\" alt=\"\"></div></div>    <span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div> <div class=\"world-detail__banner-pagination\" style=\"display: none;\"><div slot=\"pagination\" class=\"swiper-pagination swiper-pagination-clickable swiper-pagination-bullets\"><span class=\"swiper-pagination-bullet swiper-pagination-bullet-active\" tabindex=\"0\" role=\"button\" aria-label=\"Go to slide 1\"></span></div></div> <div class=\"world-detail__banner-navigation\" style=\"display: none;\"><div slot=\"button-prev\" class=\"swiper-button-prev swiper-button-disabled\" tabindex=\"0\" role=\"button\" aria-label=\"Previous slide\" aria-disabled=\"true\"></div> <div slot=\"button-next\" class=\"swiper-button-next swiper-button-disabled\" tabindex=\"0\" role=\"button\" aria-label=\"Next slide\" aria-disabled=\"true\"></div></div></div> <div class=\"world-detail__title\">\n              新艾利都入住指南 | 空洞生存篇\n            </div> <div class=\"world-detail__content\"><div class=\"world-detail__content-inner\"><p style=\"white-space: pre-wrap;\">让我们重新认识空洞<br>空洞是毁灭世界的灾难，是一种凭空出现、吞噬一切的异常球体空间，其内部时空环境因未知效应的影响变得紊乱无序，还会产生被称为“以骸”的危险异形生物。普通人迷失在空洞里不仅要面对恐怖异形的袭击，自身也会有发生侵蚀变异的危险。<br>但是！请广大市民们不用担心，新艾利都已经完全掌握了管控空洞灾害的技术！甚至还拥有从空洞中采掘贵重的以太资源的能力！新艾利都就是空洞灾害时代的奇迹，是大家唯一的选择！</p><p style=\"white-space: pre-wrap;\"><br>空洞危险吗？<br>好问题。这取决于提问的人是谁。<br>你是空洞调查协会的成员？哈哈，“办公室”怎么会有危险呢！<br>你是盗洞客？空洞（×），聚宝盆（√）！<br>你是以骸？哇哦……欢迎回家！<br>你是普通平民？请参考下文信息。</p><p style=\"white-space: pre-wrap;\"><br>空洞里有什么？<br>一、攻击一切外来活物的异形怪物。<br>二、像空气一样无处不在的未知物质，具有超高资源潜力但也伴随着神秘侵蚀性。<br>三、被上一条物质附着侵蚀，正在慢慢变异且逐渐丧失意志的倒霉蛋。<br>四、无法无天的歹徒。是的，空洞里也有暴徒强盗。真是无可救药。<br>五、无惧空洞危险的狂人们。比如盗洞客、绳匠或者单纯的疯子。真是无药可救。<br>六、官方机构的工作人员，唯一指定救星。</p><p style=\"white-space: pre-wrap;\"><br>==空洞自救贴士==<br>1.不要乱跑。请记住，空洞内的空间是无序且紊乱的。<br>2.找一个安全的角落，等待救援人员到场。<br>3.如果被以骸、侵蚀体或其它危险因素发现，不得不逃跑时，请往呼吸起来感觉更轻松、清新的方向逃跑。<br>4.请相信空洞调查协会官方认可的调查员，不要与“绳匠”或“盗洞客”为伍。</p></div></div></div> <div class=\"world-detail__more close\"><div class=\"more-btn\">\n              查看更多\n            </div></div></div>",
+ "markupPage": "zh-cn_world_102173",
+ "markupClass": "world-detail-inner",
+ "appearsOn": [
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "world-detail-inner": {
+   "page": "zh-cn_world_102173",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 146.25,
+    "width": 720,
+    "height": 672.75,
+    "top": 146.25,
+    "right": 1080,
+    "bottom": 819,
+    "left": 360
+   },
+   "text": "新艾利都入住指南 | 空洞生存篇\n             让我们重新认识空洞空洞是毁灭世界的灾难，是一种凭空出现、吞噬一切的异常球体空间，其内部时空环境因未知",
+   "position": "relative",
+   "display": "block",
+   "width": "720px",
+   "height": "672.75px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "60.75px 0px 79.875px",
+   "margin": "90px 360px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": []
+ }
+}

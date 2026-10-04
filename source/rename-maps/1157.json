@@ -1,0 +1,12 @@
+{
+  "summary": "video-dialog Vue component (scoped, data-v-949ad85e). Props src and iframeSrc; data isMobile from $isMob. It renders div.video-container with mob/pc classes containing either a <video class=\"video\"> (controls, autoplay, inline-playback and x5 player attributes, preload auto) when src is set, or an <iframe class=\"video video-frame\"> (1280x720, allowfullscreen) pointing at iframeSrc. Normalised with componentNormalizer (module 36); styles from module 1167.",
+  "exports": {
+    "a": "video-dialog Vue component (HTML5 video or embedded iframe player)"
+  },
+  "renames": {
+    "o_1": "videoDialogOptions",
+    "n_2": "componentNormalizer",
+    "e_3": "vm",
+    "t_4": "h"
+  }
+}

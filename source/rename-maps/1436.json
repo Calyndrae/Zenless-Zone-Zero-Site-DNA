@@ -1,0 +1,24 @@
+{
+  "summary": "Nuxt page component for the mobile news-article route `m-lang-news-id` (layout `m/default`). `validate` only accepts numeric `params.id`; `asyncData` loads the article via the news API (module 1124) `getDetail` with `iInfoId: params.id`, `iChanId: CHANNEL_ID_CONFIG.NEWS.ALL` (app bundle, module 28) and `sLangKey: store.state.lang`, redirecting to `m-lang-news` on error, and exposes it as `newsContent`; `head()` uses its title plus i18n `seoTitlePrefix`. The render shows `m-news-detail` (class `fromGame` when `$route.query.nolandscape` and `fromGame` are set) with the `m-news-detail__title`, an `m-news-detail__info` breadcrumb (i18n `gameName` > `news-tag` for `sChanId[0]`) and `dateFormat`, the HTML `sContent` in `m-news-detail__content`, and a `nuxt-link` footer back to `m-lang-news` (i18n `textBack`) that tracks `news_back` with the article id via `$trackButton`.",
+  "exports": {
+    "default": "the `m-lang-news-id` mobile news-detail page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "o_1": "appConfig",
+    "c_2": "newsDetailPageOptions",
+    "d_3": "componentNormalizer",
+    "t_4": "nuxtContext",
+    "e_5": "asyncDataGenerator",
+    "n_6": "params",
+    "r_7": "redirect",
+    "c_8": "store",
+    "d_9": "newsId",
+    "m_10": "newsContent",
+    "e_11": "context",
+    "t_12": "validateContext",
+    "e_13": "routeParams",
+    "t_14": "vm",
+    "e_15": "h",
+    "e_16": "clickEvent"
+  }
+}

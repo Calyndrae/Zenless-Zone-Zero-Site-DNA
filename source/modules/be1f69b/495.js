@@ -1,0 +1,3 @@
+// module 495 from be1f69b.js
+// deps: 110, 51, 90, 877, 458, 233, 100, 153, 310, 192
+const module_495 = function(e,t,n){"use strict";var r=n(110),o=n(51),c=n(90),l=n(877),f=n(458),d=n(233),h=n(100),m=n(153),v=n(310),y=n(192),w=Array;e.exports=function(e){var t=c(e),n=d(this),_=arguments.length,k=_>1?arguments[1]:void 0,x=void 0!==k;x&&(k=r(k,_>2?arguments[2]:void 0));var S,A,C,E,O,T,P=y(t),I=0;if(!P||this===w&&f(P))for(S=h(t),A=n?new this(S):w(S);S>I;I++)T=x?k(t[I],I):t[I],m(A,I,T);else for(O=(E=v(t,P)).next,A=n?new this:[];!(C=o(O,E)).done;I++)T=x?l(E,k,[C.value,I],!0):C.value,m(A,I,T);return A.length=I,A}};

@@ -1,0 +1,15 @@
+{
+  "summary": "Desktop Nuxt layout component. It registers `headerBar`, `footerBar` and `loading`, renders `.root` containing the `loading` screen (shown while `$store.state.isLoading`), `header-bar`, the `<nuxt>` page outlet and `footer-bar`, and sets page `head()` metadata (title, html `lang` from `$store.state.lang`, description/Keywords/og:*/twitter:* meta from the `seoTitle`, `seoDesc`, `seoKeywords`, `ogImage` i18n words). On mount it adds a jQuery `mousewheel` handler on `body` that scrolls manually for IE10/IE11/Edge 12.",
+  "exports": {
+    "a": "the desktop layout Vue component (normalized component exports)"
+  },
+  "renames": {
+    "A_1": "layoutOptions",
+    "m_2": "componentNormalizer",
+    "t_3": "wheelEvent",
+    "e_4": "wheelDelta",
+    "n_5": "pageYOffset",
+    "t_6": "vm",
+    "e_7": "h"
+  }
+}

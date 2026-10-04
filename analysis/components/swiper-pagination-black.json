@@ -1,0 +1,36 @@
+{
+ "component": "swiper-pagination-black",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-pagination-black": "swiper-pagination-black"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".swiper-pagination-black .swiper-pagination-bullet-active",
+   "media": [],
+   "declarations": {
+    "background": "#000000"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000000"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

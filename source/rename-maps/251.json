@@ -1,0 +1,20 @@
+{
+  "summary": "Renderless `base` Vue mixin component shared by page components. It exposes computed accessors over the Vuex store (`baseConfig`, `lang`, `mi18n`, `userInfo` with the `setUserInfo` mutation, `baseInfo` with the `setBaseInfo` mutation) and the build `environment` from the env config module, and methods: `getWelcomeText` (picks welcome survey/submit/detail i18n texts from `baseInfo.survey_flag`/`reserve_flag`), an async `logout` (calls `$accountRoleUtil.logout()`, clears userInfo, tracks `SDK_Logout` via `$trackEvent`, reloads the page), `onLogin` (stores user info and enables `canClick`) and `handleError` (toasts the API `message` or the `code-500` i18n text via `$mtoast`).",
+  "exports": {
+    "a": "the base mixin Vue component (normalized component exports, no render function)"
+  },
+  "renames": {
+    "l_1": "envConfig",
+    "r_2": "baseOptions",
+    "t_3": "userInfoValue",
+    "t_4": "baseInfoValue",
+    "t_5": "self",
+    "e_6": "logoutGenerator",
+    "e_7": "context",
+    "t_8": "loginPayload",
+    "e_9": "isLogin",
+    "n_10": "loggedInUserInfo",
+    "t_11": "error",
+    "e_12": "message"
+  }
+}

@@ -1,0 +1,96 @@
+{
+ "component": "mihoyo-share-tips",
+ "files": [
+  "334.css"
+ ],
+ "classes": {
+  "mihoyo-share-tips": "mihoyo-share-tips"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".mihoyo-share-tips",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "bottom": "0",
+    "right": "0",
+    "background-color": "rgba(0,0,0,.65)",
+    "-webkit-animation": "mihoyo-share-tips__mask-in 200ms ease",
+    "animation": "mihoyo-share-tips__mask-in 200ms ease"
+   },
+   "source": "/_nuxt/be1f69b.js #334"
+  },
+  {
+   "selector": ".mihoyo-share-tips img",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "30px",
+    "top": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #334"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "mihoyo-share-tips__mask-in",
+   "file": "334.css",
+   "source": "/_nuxt/be1f69b.js #334",
+   "css": "@-webkit-keyframes mihoyo-share-tips__mask-in{from{background-color:rgba(0,0,0,0)}to{background-color:rgba(0,0,0,.65)}}",
+   "steps": [
+    {
+     "at": "from",
+     "declarations": {
+      "background-color": "rgba(0,0,0,0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "background-color": "rgba(0,0,0,.65)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "mihoyo-share-tips__mask-in",
+   "file": "334.css",
+   "source": "/_nuxt/be1f69b.js #334",
+   "css": "@keyframes mihoyo-share-tips__mask-in{from{background-color:rgba(0,0,0,0)}to{background-color:rgba(0,0,0,.65)}}",
+   "steps": [
+    {
+     "at": "from",
+     "declarations": {
+      "background-color": "rgba(0,0,0,0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "background-color": "rgba(0,0,0,.65)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,.65)"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "mihoyo-share-tips__mask-in 200ms ease"
+  ]
+ }
+}

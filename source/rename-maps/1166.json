@@ -1,0 +1,23 @@
+{
+  "summary": "User-model utility module. Exports GLB (window, or the global object from module 42 outside the browser), isSSR (no window or document), encode (strips URL punctuation such as http, :, ., /, ?, &, =, #, , to build cache keys), toUrlWithParams(url, params) which appends key=value pairs with ? or &, log which forwards to console.log only in the browser when the page URL contains \"debug=\", and getTimestamp returning the current Unix time in seconds.",
+  "exports": {
+    "GLB": "global object (window in the browser)",
+    "isSSR": "true when window/document are unavailable",
+    "encode": "encode(url) -> cache-key string with URL punctuation removed",
+    "toUrlWithParams": "toUrlWithParams(url, params) -> url with query string",
+    "log": "debug logger enabled by ?debug= in the URL",
+    "getTimestamp": "current time in seconds (ceil)"
+  },
+  "renames": {
+    "e_1": "globalObject",
+    "n_2": "isSSR",
+    "e_3": "url",
+    "e_4": "baseUrl",
+    "t_5": "params",
+    "o_6": "pairs",
+    "n_7": "paramKeys",
+    "i_8": "index",
+    "r_9": "keyCount",
+    "e_10": "consoleRef"
+  }
+}

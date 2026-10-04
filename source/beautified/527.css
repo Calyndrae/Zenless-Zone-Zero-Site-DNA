@@ -1,0 +1,107 @@
+.mhy-bridge-message-box-mask {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-animation: messageBoxMaskIn 200ms ease;
+  animation: messageBoxMaskIn 200ms ease;
+  opacity: 1;
+  -webkit-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  z-index: 999;
+  font-size: 3.73333vmin;
+}
+.mhy-bridge-message-box-mask .mhy-bridge-message-box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 66.66667vmin;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 2.13333vmin;
+  background-color: #fff;
+  -webkit-animation: messageBoxScaleIn 200ms ease;
+  animation: messageBoxScaleIn 200ms ease;
+}
+.mhy-bridge-message-box-mask .mhy-bridge-message-box header {
+  font-size: 4.26667vmin;
+  line-height: 12vmin;
+  border-bottom: 1px solid #f0f0f0;
+}
+.mhy-bridge-message-box-mask .mhy-bridge-message-box .mhy-bridge-message-box-content {
+  padding: 4.26667vmin 8.53333vmin;
+  font-size: 3.73333vmin;
+  line-height: 1.5;
+  word-break: break-all;
+}
+.mhy-bridge-message-box-mask .mhy-bridge-message-box footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #f0f0f0;
+  line-height: 12vmin;
+  color: #6cf;
+  font-size: 3.73333vmin;
+}
+.mhy-bridge-message-box-mask .mhy-bridge-message-box footer .confirm-item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-right: 1px solid #f0f0f0;
+  cursor: pointer;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.mhy-bridge-message-box-mask .mhy-bridge-message-box footer .confirm-item:last-child {
+  border-right: 0;
+}
+.mhy-bridge-message-box-mask.message-box-close {
+  opacity: 0;
+}
+
+@-webkit-keyframes messageBoxScaleIn {
+  from {
+    -webkit-transform: translateY(-50%) scale(0.3);
+    transform: translateY(-50%) scale(0.3);
+  }
+  to {
+    -webkit-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+@keyframes messageBoxScaleIn {
+  from {
+    -webkit-transform: translateY(-50%) scale(0.3);
+    transform: translateY(-50%) scale(0.3);
+  }
+  to {
+    -webkit-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+@-webkit-keyframes messageBoxMaskIn {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes messageBoxMaskIn {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

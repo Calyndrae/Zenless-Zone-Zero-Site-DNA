@@ -1,0 +1,3 @@
+// module 779 from be1f69b.js
+// deps: 22, 163, 233, 58, 231, 100, 96, 153, 38, 196, 194
+const module_779 = function(e,t,n){"use strict";var r=n(22),o=n(163),c=n(233),l=n(58),f=n(231),d=n(100),h=n(96),m=n(153),v=n(38),y=n(196),w=n(194),_=y("slice"),k=v("species"),x=Array,S=Math.max;r({target:"Array",proto:!0,forced:!_},{slice:function(e,t){var n,r,v,y=h(this),_=d(y),A=f(e,_),C=f(void 0===t?_:t,_);if(o(y)&&(n=y.constructor,(c(n)&&(n===x||o(n.prototype))||l(n)&&null===(n=n[k]))&&(n=void 0),n===x||void 0===n))return w(y,A,C);for(r=new(void 0===n?x:n)(S(C-A,0)),v=0;A<C;A++,v++)A in y&&m(r,v,y[A]);return r.length=v,r}})};

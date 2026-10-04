@@ -1,0 +1,133 @@
+{
+ "component": "m-video-slider",
+ "files": [
+  "1315.css"
+ ],
+ "classes": {
+  "m-video-slider": "m-video-slider",
+  "m-video-slider__title": "m-video-slider__title"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".m-video-slider",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "column",
+    "justify-content": "flex-start",
+    "align-items": "flex-end"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-slider__title",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "4rem",
+    "margin-top": ".7rem",
+    "margin-right": ".4rem",
+    "font-size": "1.4rem",
+    "color": "#dfdfdf",
+    "line-height": ".84",
+    "font-family": "\"Impact\",sans-serif",
+    "font-style": "italic",
+    "text-transform": "uppercase",
+    "text-align": "right"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  }
+ ],
+ "markup": "<div class=\"m-video-slider\"><div class=\"m-video-slider__title font-num\">Video\n</div></div>",
+ "markupPage": "m_zh-cn_video",
+ "markupClass": "m-video-slider",
+ "appearsOn": [
+  "m_zh-cn_video"
+ ],
+ "computed": {
+  "m-video-slider": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 57.1875,
+    "width": 390,
+    "height": 0,
+    "top": 57.1875,
+    "right": 390,
+    "bottom": 57.1875,
+    "left": 0
+   },
+   "text": "Video",
+   "display": "flex",
+   "width": "390px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "flex-start",
+   "align-items": "flex-end"
+  },
+  "m-video-slider__title": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 161.203125,
+    "y": 93.578125,
+    "width": 208,
+    "height": 61.140625,
+    "top": 93.578125,
+    "right": 369.203125,
+    "bottom": 154.71875,
+    "left": 161.203125
+   },
+   "text": "Video",
+   "position": "absolute",
+   "display": "block",
+   "width": "208px",
+   "height": "61.1406px",
+   "left": "161.203px",
+   "bottom": "1068.64px",
+   "font-family": "Impact, sans-serif",
+   "font-size": "72.8px",
+   "font-weight": "400",
+   "line-height": "61.152px",
+   "text-transform": "uppercase",
+   "color": "rgb(223, 223, 223)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(223, 223, 223)",
+   "margin": "36.4px 20.8px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#dfdfdf"
+  ],
+  "fonts": [
+   "\"Impact\",sans-serif"
+  ],
+  "fontSizes": [
+   "1.4rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

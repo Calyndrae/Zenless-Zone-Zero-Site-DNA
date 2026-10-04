@@ -1,0 +1,3 @@
+// module 712 from 2e4935f.js
+// deps: 73
+const module_712 = function(t,e,n){"use strict";var r=n(73);t.exports=r.isStandardBrowserEnv()?{write:function(t,e,n,path,o,c){var f=[];f.push(t+"="+encodeURIComponent(e)),r.isNumber(n)&&f.push("expires="+new Date(n).toGMTString()),r.isString(path)&&f.push("path="+path),r.isString(o)&&f.push("domain="+o),!0===c&&f.push("secure"),document.cookie=f.join("; ")},read:function(t){var e=document.cookie.match(new RegExp("(^|;\\s*)("+t+")=([^;]*)"));return e?decodeURIComponent(e[3]):null},remove:function(t){this.write(t,"",Date.now()-864e5)}}:{write:function(){},read:function(){return null},remove:function(){}}};

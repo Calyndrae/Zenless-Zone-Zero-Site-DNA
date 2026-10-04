@@ -1,0 +1,92 @@
+{
+ "component": "swiper-pagination-progressbar",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-pagination-progressbar": "swiper-pagination-progressbar"
+ },
+ "ruleCount": 6,
+ "rules": [
+  {
+   "selector": ".swiper-pagination-progressbar",
+   "media": [],
+   "declarations": {
+    "background": "rgba(0, 0, 0, 0.25)",
+    "position": "absolute"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-progressbar .swiper-pagination-progressbar-fill",
+   "media": [],
+   "declarations": {
+    "background": "#007aff",
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%",
+    "-webkit-transform": "scale(0)",
+    "-ms-transform": "scale(0)",
+    "transform": "scale(0)",
+    "-webkit-transform-origin": "left top",
+    "-ms-transform-origin": "left top",
+    "transform-origin": "left top"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-progressbar.swiper-pagination-white",
+   "media": [],
+   "declarations": {
+    "background": "rgba(255, 255, 255, 0.25)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-progressbar.swiper-pagination-white .swiper-pagination-progressbar-fill",
+   "media": [],
+   "declarations": {
+    "background": "#ffffff"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-progressbar.swiper-pagination-black",
+   "media": [],
+   "declarations": {
+    "background": "rgba(0, 0, 0, 0.25)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-progressbar.swiper-pagination-black .swiper-pagination-progressbar-fill",
+   "media": [],
+   "declarations": {
+    "background": "#000000"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0, 0, 0, 0.25)",
+   "#007aff",
+   "rgba(255, 255, 255, 0.25)",
+   "#ffffff",
+   "#000000"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

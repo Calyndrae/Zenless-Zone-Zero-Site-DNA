@@ -1,0 +1,174 @@
+{
+ "component": "hyv-button",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-button": "hyv-button",
+  "hyv-button__text": "hyv-button__text"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".hyv-button",
+   "media": [],
+   "declarations": {
+    "-webkit-box-align": "center",
+    "-ms-flex-align": "center",
+    "-webkit-box-pack": "center",
+    "-ms-flex-pack": "center",
+    "align-items": "center",
+    "background-color": "transparent",
+    "border": "1px solid transparent",
+    "-webkit-box-sizing": "border-box",
+    "box-sizing": "border-box",
+    "color": "var(--global-color-basic-white)",
+    "cursor": "pointer",
+    "display": "flex",
+    "font-family": "\"system-ui\",-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans Simplified Chinese,Arial,\"sans-serif\"",
+    "justify-content": "center",
+    "list-style": "none",
+    "margin": "0",
+    "outline": "none",
+    "overflow": "hidden",
+    "padding": "0",
+    "position": "relative",
+    "-webkit-text-decoration": "none",
+    "text-decoration": "none",
+    "-ms-touch-action": "manipulation",
+    "touch-action": "manipulation",
+    "-webkit-transition": "all .2s linear",
+    "transition": "all .2s linear",
+    "vertical-align": "middle",
+    "white-space": "nowrap",
+    "z-index": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button__text",
+   "media": [],
+   "declarations": {
+    "line-height": "1"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": "<button class=\"hyv-button hyv-button-size-l hyv-button-filled\" style=\"width: 100%; display: flex; margin-top: 0.16em;\"><span class=\"hyv-button__text\">现在订阅</span></button>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "hyv-button",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_company_privacy",
+  "m_zh-cn_company_terms",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_news_166535",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370",
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "hyv-button": {
+   "page": "m_zh-cn_character",
+   "tag": "BUTTON",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "现在订阅",
+   "position": "relative",
+   "display": "flex",
+   "width": "100%",
+   "height": "48px",
+   "z-index": "0",
+   "font-family": "\"system-ui\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans Simplified Chinese\", Arial, \"sans-serif\"",
+   "font-size": "16px",
+   "font-weight": "400",
+   "line-height": "48px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(198, 232, 0)",
+   "opacity": "1",
+   "transition": "0.2s linear",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "1px solid rgb(198, 232, 0)",
+   "border-radius": "24px",
+   "padding": "14px 16px",
+   "margin": "2.56px 0px 0px",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center",
+   "align-items": "center"
+  },
+  "hyv-button__text": {
+   "page": "m_zh-cn_character",
+   "tag": "SPAN",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "现在订阅",
+   "display": "block",
+   "font-family": "\"system-ui\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Noto Sans Simplified Chinese\", Arial, \"sans-serif\"",
+   "font-size": "16px",
+   "font-weight": "400",
+   "line-height": "16px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [
+   "\"system-ui\",-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans Simplified Chinese,Arial,\"sans-serif\""
+  ],
+  "fontSizes": [],
+  "zIndex": [
+   "0"
+  ],
+  "transitions": [
+   "all .2s linear"
+  ]
+ }
+}

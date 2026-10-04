@@ -1,0 +1,80 @@
+{
+ "component": "character-camp-mist",
+ "files": [
+  "1250.css"
+ ],
+ "classes": {
+  "character-camp-mist": "character-camp-mist"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".character-camp-mist",
+   "media": [],
+   "declarations": {
+    "width": "3.9rem",
+    "height": "4.36rem",
+    "position": "absolute",
+    "top": "-1.1rem",
+    "right": "0",
+    "background-image": "url(/_nuxt/img/camp-mist.80b3f9e.png)",
+    "background-size": "100% 100%"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [
+  "m_zh-cn_character"
+ ],
+ "computed": {
+  "character-camp-mist": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 187.203125,
+    "y": -5.1875,
+    "width": 202.796875,
+    "height": 226.71875,
+    "top": -5.1875,
+    "right": 390,
+    "bottom": 221.53125,
+    "left": 187.203125
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "202.797px",
+   "height": "226.719px",
+   "top": "-57.2px",
+   "left": "187.203px",
+   "bottom": "714.953px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/camp-mist.80b3f9e.png\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

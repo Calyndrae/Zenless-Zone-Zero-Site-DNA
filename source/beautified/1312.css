@@ -1,0 +1,246 @@
+.m-news {
+  position: relative;
+  margin-top: 1.1rem;
+  min-height: 100%;
+  background: url(/_nuxt/img/inner-top-m.329e7ed.png) no-repeat 0 0/4rem auto;
+  overflow: hidden;
+}
+.m-news img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.m-news-container {
+  padding-bottom: 0.98rem;
+}
+.m-news-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.m-news-slider__title {
+  width: 4rem;
+  margin-top: 0.7rem;
+  margin-right: 0.4rem;
+  font-size: 1.4rem;
+  color: #dfdfdf;
+  line-height: 0.84;
+  font-family: "Impact", sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: right;
+}
+.m-news-slider__swiper {
+  margin-top: 0.4rem;
+  display: none;
+}
+.m-news-slider__item {
+  height: 5rem;
+}
+.m-news-slider__item-img {
+  position: relative;
+  display: block;
+  width: 6.7rem;
+  height: 5rem;
+  margin: 0 0.4rem;
+  border-bottom-left-radius: 0.55rem;
+  border-top-right-radius: 0.55rem;
+  overflow: hidden;
+}
+.m-news-slider__pagination {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 0.22rem;
+  padding: 0 0.4rem;
+  margin-top: 0.4rem;
+}
+.m-news-slider__pagination .swiper-pagination {
+  top: 0;
+  line-height: 0.2rem;
+  text-align: left;
+}
+.m-news-slider__pagination .swiper-pagination .swiper-pagination-bullet {
+  display: inline-block;
+  border-radius: 0;
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-left: 0;
+  margin-right: 0.22rem;
+  background-color: rgba(0, 0, 0, 0);
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAABGxJREFUWEetl1toI2UYhp9M0iYt2m63Se2RZFmEbrYergQPVyKiN4qiIojLgt4pKyzrEcEzeCEKeuMJFxFEQVBkEb3SCwVBRRSkG9pkxWzrdm3TND0l7aaR9+9MmUwmnYn4wVBo/v9/v/P3fhGCJQoMAYeB64FrgQxwEEgAq8BFYAb42f6KQCno6cg+B/TbIHADcB9wI9AH9ADdgJSSNIBLQA3YAP4BvgY+BaaBtXYY7cC7gGuAR4FbgSSg/4UVKTEHfAycBv6ylWy67wcuy+4AngKytpVhQb3nFJLvgJeBX4C6+4AXvBd4wAY+BOwXlrAKKSQ/AU8CPwA7zkX343LrPcArgID/T5HFPwIngF+dEDjg+nsd8C5wVZDFUcsiGosRiUTY2dmhXq+bvwEiD3wOnATO66wDfgXwBnAvEPN7RECJRIJkKkVfXx/d3Up4aDQa1KpVSqWS+ba3t/fTYRl4EXgH2BS4wO4C3gKkRIvEYjGGR0YYSqWIWJaxGH0NVZldb40GW1tbnC8WWV4Whq/owm/A/UBO4GPAm8CdrtrduyngdDrNwcFBY+V+7o1Gd0v/XKHA0uKiaQA+smJb/7bAbwHeB9Leg7JwfGKC4eFhAyrwIJECOjuTy1FZVaW1iJLjW+AhgT8PPAYc8B7r7e1lcnISy34wCNj5XQqsr6+TO3vWJKOPqP0eF/gXwG1A3HsoncmQTCZDWey+a1mWuTM7M8PKirzcIkvASwL/HZjylpe0Pzo1ZbI6RBk1va5w6bu4sECxWPRTXvE4LfB5YMSrWzyRIJvN4sQwrMvdri+Xy+RnZ/2U31TNC1wu0Hhskp6eHo5ks8iFnVquh6S0XC7X+9zXBDwjcAV/3AuuhiLLO002t+XLpRKFQqGd5Z8JXNNGBMFyKyDNZbmU6NRyxVsem5ub4+/5eb+YV4D3BK6hrxEqVtIk7hrvJObylrI9Nz3N2povl1gEnhX448DTwEBL0sXjxvqurq529dqik6xWVywtLZHP59t57RzwoMBFjz60OVrLY6mhIQ5lMqZVtmkYe3cELEWr1appMJubSuoWUdc5AzwicJHDV20SsTuqXKIHR0ZHGRvTCGDPEnerdepaeVKr1Ux5rfq3Vj0hYili8ZHAlWg3Ax8AE36q6vGBgQHGxseJx3cboZlstjiKVCoVM9U2NkThfEUO/B44BvzpvKB4vwA8bLNT35tyaX9/v5nnUkIZfaleN318pVw2oAGhuQA8AXwCbLuZzBF7yIsqN5WdXyi8loeYeEoAMdnnAGV7E0F03P86cDRIgU5KT1YCXwGngFnnrpeditVowonqatg4i0GHWE3Hq8A3qmvgDzd/96PGUuAm4Bl7PbrsPyIrubS9iDS+BuS9i0M7Xq4QiD4ft1elUSCsEmIqGuI5tVDgSyfGLbkTYNXlwJXA3cDt9uh1djV5SMoLTLRY7lWNaT8ToPY1Da2tdhhhNxJRLDFbJeLVtle0RGrRUBYv2JaKmSqhtLX6tje3Iv8C8ltv3flgqjoAAAAASUVORK5CYII=)
+    no-repeat center center/100% 100%;
+  opacity: 1;
+  vertical-align: bottom;
+}
+.m-news-slider__pagination .swiper-pagination .swiper-pagination-bullet-active {
+  background-image: url(data:image/png;base64,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);
+}
+.m-news-main {
+  position: relative;
+  margin: 1.36rem auto 0;
+  padding: 0 0.4rem;
+}
+.m-news-tab {
+  position: absolute;
+  left: 0.4rem;
+  top: -1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 6.72rem;
+  height: 0.54rem;
+  padding: 0 0.2rem;
+  background-color: #222122;
+  border-radius: 0.32rem;
+  border: 0.01rem solid #353335;
+}
+.m-news-tab__item {
+  position: relative;
+  z-index: 2;
+  width: 1.58rem;
+  font-size: 0.22rem;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  white-space: nowrap;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.m-news-tab__item--active {
+  color: #333;
+}
+.m-news-tab__thumb {
+  position: absolute;
+  left: 0;
+  width: 1.7rem;
+  height: 0.44rem;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAsCAYAAAD1nyNHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADO0lEQVR4nO3dvYscdRgH8M9e8JQURu0kkXRBPE/8A5QoYgwGI+IroqKtBt+IiIWFFikOTBOChU0StQha+IJwqBBJCKKFYqFRGxFDRJAYMeArGYvfHsSc2Zff/mbmbuf5dHe78zxTfJmdeea3s72qqqwA63EvbsJ8/++ZVvcotOkE3sYuHIdey0HdhBdxtwhmWO4UbsfhtoLaw7N4AbNt7EBYNX7BXBtBncVr0lE0hFHsaTqoa/AG7miyaVj1jjcd1L14tMmGYTo0eQHznAhpyPNHU0fUB/BqE43CVDrURFBvxnu4oO5GYWptr/uj/1q8KUIa8r2Cd+s8om7Ex7i8rgZh6i3iNvxTV1Avw1FcWUfx0AmfYTNOU89V/0XSfdoIacj1HW7VDynlg7pGuut0XeG6oTt+xlb8dPY/Swd1N+4sXDN0x+/Yjm/PfaFkUJ/B4wXrhW45g/ukC/BlSgX1fiwUqhW6aQfeOd+LJYJ6I/YVqBO6axdeHvSGScdT1+AILp6kSOi0/XgEA4M4SVCvkM4n1ucWCJ33vjTQ/2vYG3ODeok00L8qZ+MQ8Lk00P9tlDfnnKNeKJ30RkhDru+xzYghZfyg9qTletePuV0IS05KA/0fx9lo3KDuFt91CvmWBvpfj7vhOEF9Ck+O2yCEvjPSAvqjORuPejF1Dw7mNAihb4f0nbksowR1Mz4Qi59DvgXpOQ7ZhgV1TjpUr5ukSei01/GgIQP9YQYFdYM00N8wSYPQaR9KY6ihA/1hzhfUddKt0flJG4TO+kI6bfy1RLH/u+qfxVsipCHfD9IK/SIhZXlQeziAG0o1CJ1zShronyhZ9NygLkjPKQ0hx5/SQP+r0oXPDuoT2Fm6QeiMpYH+kTqKLwX1Lun2aAi5npYeNlKLXlVVm6QlV2vrahKm3ktq/jSewfMipCHfQemLnbXqVVV1EpfW3ShMpY9wiwID/WF61Qr5WZSw6nyKLQrOSgeZkRayhjCOwxoMKSmoi001C1Nhr/TM28ZCSvron5OenBY/oxMGOYbHcKiN5jP4Eg/j7zZ2IKx4n+AhXK2lkPLf1VPz0qhqi1h/2lWnpQUlx6Tz0EV80+oe9f0LD+677vb27W0AAAAASUVORK5CYII=)
+    no-repeat 0 0/100% 100%;
+}
+.m-news-list {
+  width: 6.7rem;
+  margin: 0.9rem auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.m-news-list__item {
+  width: 100%;
+  margin-bottom: 0.9rem;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.m-news-list__item:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.m-news-list__item-banner {
+  overflow: hidden;
+  width: 100%;
+  height: 3.74rem;
+  flex-shrink: 0;
+  border-top-right-radius: 0.55rem;
+  border-bottom-left-radius: 0.55rem;
+}
+.m-news-list__item-content {
+  margin-top: 0.58rem;
+}
+.m-news-list__item-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.28rem;
+  color: #000;
+}
+.m-news-list__item-date > div {
+  margin-right: 0.2rem;
+}
+.m-news-list__item-title {
+  margin-top: 0.4rem;
+  width: 100%;
+  font-size: 0.32rem;
+  font-weight: 800;
+  color: #222122;
+}
+.m-news-list__item-desc {
+  margin-top: 0.16rem;
+  width: 100%;
+  font-size: 0.24rem;
+  color: #7a7a7a;
+  overflow: hidden;
+  height: 0.6rem;
+  line-height: 0.32rem;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.m-news-list__item:hover::before {
+  transform: scaleX(1);
+}
+.m-news-foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.4rem;
+  text-align: center;
+}
+.m-news .load-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 2.42rem;
+  height: 0.82rem;
+  padding: 0 0.14rem;
+  background: #000;
+  border: 0.08rem solid #767678;
+  border-radius: 0.42rem;
+  font-size: 0.28rem;
+  font-weight: 500;
+  color: #fff;
+}
+.m-news .load-more::after {
+  margin-left: 0.26rem;
+  font-size: 0.18rem;
+  font-family: "icomoon", sans-serif !important;
+  content: "";
+  color: #d6d6d6;
+  transform: rotate(90deg);
+}
+.m-news .back-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 2.42rem;
+  height: 0.82rem;
+  padding: 0 0.14rem;
+  background: #000;
+  border: 0.08rem solid #767678;
+  border-radius: 0.42rem;
+  font-size: 0.28rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 0.4rem;
+  font-size: 0.22rem;
+}
+.m-news .back-top::after {
+  margin-left: 0.26rem;
+  font-size: 0.18rem;
+  font-family: "icomoon", sans-serif !important;
+  content: "";
+  color: #d6d6d6;
+  transform: rotate(-90deg);
+}
+.m-news .no-more {
+  font-size: 0.28rem;
+  font-weight: 500;
+  color: #b0b0b0;
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "User-model event bus. Exports a singleton object whose handlers map is a Store named \"eventHandlers\" (module 1176). on(type, handler) appends a handler to the list for that type; emit(event) calls every handler registered for event.type and then clears that list (one-shot semantics); remove(type, handler) splices a single handler out of the list. No DOM or Vue involvement.",
+  "exports": {
+    "default": "event bus singleton { handlers, on(type, handler), emit(event), remove(type, handler) }"
+  },
+  "renames": {
+    "n_1": "eventBus",
+    "e_2": "eventType",
+    "t_3": "handler",
+    "e_4": "event",
+    "t_5": "handlerList",
+    "i_6": "index",
+    "e_7": "removeEventType",
+    "t_8": "handlerToRemove",
+    "o_9": "registeredHandlers",
+    "i_10": "removeIndex"
+  }
+}

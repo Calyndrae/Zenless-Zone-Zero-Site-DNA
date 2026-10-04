@@ -1,0 +1,111 @@
+{
+ "component": "m-section-nav-label",
+ "files": [
+  "685.css",
+  "703.css",
+  "1235.css"
+ ],
+ "classes": {
+  "m-section-nav-label": "m-section-nav-label"
+ },
+ "ruleCount": 5,
+ "rules": [
+  {
+   "selector": "html[lang|=es-es] body .m-section-nav-label",
+   "media": [],
+   "declarations": {
+    "font-size": ".3rem"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=ja-jp] body .m-section-nav-label",
+   "media": [],
+   "declarations": {
+    "padding-left": ".02rem",
+    "font-size": ".3rem"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=es-es] body .m-section-nav-label",
+   "media": [],
+   "declarations": {
+    "font-size": ".3rem"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=id-id] body .m-section-nav-label,html[lang|=ru-ru] body .m-section-nav-label,html[lang|=pt-pt] body .m-section-nav-label,html[lang|=fr-fr] body .m-section-nav-label",
+   "media": [],
+   "declarations": {
+    "font-size": ".3rem"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": ".m-section-nav-label",
+   "media": [],
+   "declarations": {
+    "font-size": ".34rem"
+   },
+   "source": "/_nuxt/b5b7858.js #1235"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370"
+ ],
+ "computed": {
+  "m-section-nav-label": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 5.1875,
+    "y": 83.703125,
+    "width": 100.890625,
+    "height": 17.6875,
+    "top": 83.703125,
+    "right": 106.078125,
+    "bottom": 101.390625,
+    "left": 5.1875
+   },
+   "text": "角色介绍",
+   "display": "block",
+   "width": "100.891px",
+   "height": "17.6875px",
+   "font-family": "Impact",
+   "font-size": "17.68px",
+   "font-weight": "400",
+   "line-height": "17.68px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   ".3rem",
+   ".34rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

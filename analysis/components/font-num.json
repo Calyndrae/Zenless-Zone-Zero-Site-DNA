@@ -1,0 +1,83 @@
+{
+ "component": "font-num",
+ "files": [
+  "685.css"
+ ],
+ "classes": {
+  "font-num": "font-num"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".font-num",
+   "media": [],
+   "declarations": {
+    "font-family": "\"Impact\""
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  }
+ ],
+ "markup": "<div class=\"m-section-nav font-num has-theme\"><svg viewBox=\"0 0 406.62 624\" class=\"m-section-nav-bg\"><path fill=\"#1566b8\" d=\"m0,624V0h293.77c17.87,0,35.57,4.1,51.37,12.45,5.05,2.67,10.21,5.89,15.31,9.77,33.66,25.63,50.77,69.34,45.11,110.33-3.58,25.95-15.47,44.85-23.33,55.22L0,624Z\"></path></svg> <div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">角色介绍</div> <div class=\"m-section-nav-en\">Characters</div> <div class=\"m-section-nav-num\">02</div></div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "font-num",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370",
+  "zh-cn_main",
+  "zh-cn_video"
+ ],
+ "computed": {
+  "font-num": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 76.953125,
+    "width": 106.078125,
+    "height": 163.265625,
+    "top": 76.953125,
+    "right": 106.078125,
+    "bottom": 240.21875,
+    "left": 0
+   },
+   "text": "角色介绍 Characters 02",
+   "position": "absolute",
+   "display": "block",
+   "width": "106.078px",
+   "height": "163.266px",
+   "top": "24.96px",
+   "right": "283.922px",
+   "bottom": "696.266px",
+   "z-index": "1",
+   "font-family": "Impact",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "padding": "6.76px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [
+   "\"Impact\""
+  ],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "component": "header-wrapper-lt",
+ "files": [
+  "673.css"
+ ],
+ "classes": {
+  "header-wrapper-lt": "header-wrapper-lt"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".header-wrapper-lt",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  }
+ ],
+ "markup": "<div class=\"header-wrapper-lt\"><div class=\"header__logo lg\"><img src=\"/_nuxt/img/logo.1e072ee.png\" alt=\"miHoYo\" class=\"logo-big\" style=\"display: none;\"> <img src=\"https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2022/05/12/3328244ee4c186f6277acaa1a5ee0255_714129345908257824.png\" alt=\"miHoYo\" class=\"logo-sm\"></div> <div class=\"header__navbar-links\"><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>首页</span></div> <!----></nav><nav class=\"header__navbar-link header__navbar-link--active\"><div class=\"nav-content\"><span>角色介绍</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>影像资料\n</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>新闻资讯</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content\"><span>设定档案</span></div> <!----></nav><nav class=\"header__navbar-link\"><div class=\"nav-content nav-content-more\"><span>更多</span></div> <div class=\"nav-content-sub\"><div class=\"nav-content-sub-item nav-content-sub-item-link\"><a href=\"https://zenless.hoyoverse.com/redemption\" target=\"_blank\">兑换码</a> <!----></div><div class=\"nav-content-sub-item nav-content-sub-item-link\"><a href=\"https://zenless.hoyoverse.com/payment?utm_source=zzzofficialweb&amp;utm_medium=nav\" target=\"_blank\">充值</a> <!----></div><div class=\"nav-content-sub-item nav-content-sub-item-link\"><a href=\"https://act.hoyolab.com/zzz/event/e20240601-guide-c0k2vt/index.html?game_biz=nap_global&amp;hyl_presentation_style=fullscreen&amp;hyl_auth_required=true&amp;hyl_hide_status_bar=true&amp;utm_source=napofficialweb&amp;utm_medium=nav&amp;utm_campaign=guide\" target=\"_blank\">攻略</a> <!----></div></div></nav></div></div>",
+ "markupPage": "zh-cn_character",
+ "markupClass": "header-wrapper-lt",
+ "appearsOn": [
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "header-wrapper-lt": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 211.5,
+    "y": 0,
+    "width": 660.375,
+    "height": 56.25,
+    "top": 0,
+    "right": 871.875,
+    "bottom": 56.25,
+    "left": 211.5
+   },
+   "text": "首页 角色介绍 影像资料\n 新闻资讯 设定档案 更多 兑换码 充值 攻略",
+   "display": "flex",
+   "width": "660.375px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

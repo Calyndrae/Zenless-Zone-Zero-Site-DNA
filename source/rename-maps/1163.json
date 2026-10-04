@@ -1,0 +1,19 @@
+{
+  "summary": "news-tag Vue component. Props channel (Number|String) and mob; computed newsCates from the store getter newsCates, currentChannel (the cate whose iChanId equals channel) and a fixed color \"#BFDB5A\". On created, if no categories are cached it runs getCates, an async (asyncToGenerator, module 32 + regeneratorRuntime) call to the news API getCates (module 1124) with sLangKey from store state.lang, committing arrList[0].children via the \"setNewsCates\" mutation. It renders div.news-tag (mobile class when mob) showing the current channel's sChanName. Normalised with componentNormalizer (module 36); styles from module 1159.",
+  "exports": {
+    "a": "news-tag Vue component (news category label)"
+  },
+  "renames": {
+    "o_1": "newsApi",
+    "c_2": "newsTagOptions",
+    "l_3": "componentNormalizer",
+    "e_4": "self",
+    "t_5": "cate",
+    "e_6": "vm",
+    "t_7": "getCatesGenerator",
+    "n_8": "catesRes",
+    "r_9": "childCates",
+    "t_10": "context",
+    "e_11": "renderVm"
+  }
+}

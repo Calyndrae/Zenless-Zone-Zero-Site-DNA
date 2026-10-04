@@ -1,0 +1,8 @@
+{
+  "summary": "Constants module for the share/social SDK. It exports URLS, a map of social share endpoints (Facebook sharer, Twitter intent, Messenger with app_id 521270401588372, WhatsApp, LINE, Naver Cafe, Reddit, VK), and apiPre, the per-environment public API host prefix (testing-sg-public-api / pre-sg-public-api / sg-public-api). No suffixed bindings to rename.",
+  "exports": {
+    "URLS": "social share URL prefixes keyed by platform (FACEBOOK, TWITTER, MESSAGER, WHATSAPP, LINE, CAFE, REDDIT, VK)",
+    "apiPre": "sg public API host prefix per environment (test / prerelease / production)"
+  },
+  "renames": {}
+}

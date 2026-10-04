@@ -1,0 +1,77 @@
+{
+ "component": "m-video-foot",
+ "files": [
+  "1315.css"
+ ],
+ "classes": {
+  "m-video-foot": "m-video-foot"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".m-video-foot",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "column",
+    "justify-content": "center",
+    "align-items": "center",
+    "width": "6.7rem",
+    "margin": "1.15rem auto 0",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  }
+ ],
+ "markup": "<div class=\"m-video-foot\"><div class=\"back-top font-hongmeng\">\n          回到顶部\n        </div></div>",
+ "markupPage": "m_zh-cn_video",
+ "markupClass": "m-video-foot",
+ "appearsOn": [
+  "m_zh-cn_video"
+ ],
+ "computed": {
+  "m-video-foot": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 1129.78125,
+    "width": 348.390625,
+    "height": 42.625,
+    "top": 1129.78125,
+    "right": 369.1875,
+    "bottom": 1172.40625,
+    "left": 20.796875
+   },
+   "text": "回到顶部",
+   "display": "flex",
+   "width": "348.391px",
+   "height": "42.625px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "59.8px 0.015625px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center",
+   "align-items": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,3 @@
+// module 233 from be1f69b.js
+// deps: 29, 30, 39, 149, 74, 306
+const module_233 = function(e,t,n){var r=n(29),o=n(30),c=n(39),l=n(149),f=n(74),d=n(306),h=function(){},m=[],v=f("Reflect","construct"),y=/^\s*(?:class|function)\b/,w=r(y.exec),_=!y.exec(h),k=function(e){if(!c(e))return!1;try{return v(h,m,e),!0}catch(e){return!1}},x=function(e){if(!c(e))return!1;switch(l(e)){case"AsyncFunction":case"GeneratorFunction":case"AsyncGeneratorFunction":return!1}try{return _||!!w(y,d(e))}catch(e){return!0}};x.sham=!0,e.exports=!v||o((function(){var e;return k(k.call)||!k(Object)||!k((function(){e=!0}))||e}))?x:k};

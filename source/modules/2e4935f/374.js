@@ -1,0 +1,3 @@
+// module 374 from 2e4935f.js
+// deps: 175, 125
+const module_374 = function(t,e,n){var r=n(175),o=n(125);t.exports=function(t){return function(e,n){var a,b,s=String(o(e)),i=r(n),c=s.length;return i<0||i>=c?t?"":void 0:(a=s.charCodeAt(i))<55296||a>56319||i+1===c||(b=s.charCodeAt(i+1))<56320||b>57343?t?s.charAt(i):a:t?s.slice(i,i+2):b-56320+(a-55296<<10)+65536}}};

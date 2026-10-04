@@ -1,0 +1,45 @@
+{
+ "component": "namefade-leave-to",
+ "files": [
+  "664.css",
+  "1293.css"
+ ],
+ "classes": {
+  "namefade-leave-to": "namefade-leave-to"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".namefade-leave-to",
+   "media": [],
+   "declarations": {
+    "opacity": "0",
+    "transform": "translate3d(-110%, 0, 0)"
+   },
+   "source": "/_nuxt/8c4c131.js #664"
+  },
+  {
+   "selector": ".namefade-leave-to[data-v-4cbeaaa9]",
+   "media": [],
+   "declarations": {
+    "opacity": "0",
+    "transform": "translate3d(-110%, 0, 0)"
+   },
+   "source": "/_nuxt/a9873dc.js #1293"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

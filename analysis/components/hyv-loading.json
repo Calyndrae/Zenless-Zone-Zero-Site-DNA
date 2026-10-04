@@ -1,0 +1,42 @@
+{
+ "component": "hyv-loading",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-loading__gradient-conic": "hyv-loading__gradient-conic"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".hyv-loading__gradient-conic",
+   "media": [],
+   "declarations": {
+    "background": "conic-gradient(from 90deg at 50% 50%,hsla(0,0%,100%,0) 0deg,var(--brand-button-filled-enabled-element) 1turn)",
+    "border-radius": "50%",
+    "color": "#fff",
+    "height": "100%",
+    "-webkit-mask": "radial-gradient(transparent calc(50% - .5px),#fff 50%)",
+    "mask": "radial-gradient(transparent calc(50% - .5px),#fff 50%)",
+    "width": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

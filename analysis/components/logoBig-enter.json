@@ -1,0 +1,45 @@
+{
+ "component": "logoBig-enter",
+ "files": [
+  "673.css",
+  "695.css"
+ ],
+ "classes": {
+  "logoBig-enter": "logoBig-enter"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".logoBig-enter,.logoBig-leave-to",
+   "media": [],
+   "declarations": {
+    "opacity": "0",
+    "transform": "scale(0.28)"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".logoBig-enter,.logoBig-leave-to",
+   "media": [],
+   "declarations": {
+    "opacity": "0",
+    "transform": "scale(0.28)"
+   },
+   "source": "/_nuxt/8c4c131.js #695"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

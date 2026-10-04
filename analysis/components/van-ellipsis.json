@@ -1,0 +1,37 @@
+{
+ "component": "van-ellipsis",
+ "files": [
+  "202.css"
+ ],
+ "classes": {
+  "van-ellipsis": "van-ellipsis"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".van-ellipsis",
+   "media": [],
+   "declarations": {
+    "overflow": "hidden",
+    "white-space": "nowrap",
+    "-o-text-overflow": "ellipsis",
+    "text-overflow": "ellipsis"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

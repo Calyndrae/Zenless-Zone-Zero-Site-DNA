@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* stylelint-disable */
+[mi18n-lang=zh-cn] {
+  font-family: "Helvetica neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Arial", "sans-serif" !important;
+  --mi18n-font-css: "Helvetica neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei",
+    "Arial", "sans-serif";
+}
+[mi18n-lang=zh-cn] body {
+  font-family: "Helvetica neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Arial", "sans-serif" !important;
+}
+
+[mi18n-lang=zh-tw] {
+  font-family: "Helvetica neue", "PingFang TC", "Hiragino Sans TC", "Microsoft JhengHei UI", "Microsoft JhengHei", "Arial", "sans-serif" !important;
+  --mi18n-font-css: "Helvetica neue", "PingFang TC", "Hiragino Sans TC", "Microsoft JhengHei UI", "Microsoft JhengHei",
+    "Arial", "sans-serif";
+}
+[mi18n-lang=zh-tw] body {
+  font-family: "Helvetica neue", "PingFang TC", "Hiragino Sans TC", "Microsoft JhengHei UI", "Microsoft JhengHei", "Arial", "sans-serif" !important;
+}
+
+[mi18n-lang=ko-kr] {
+  font-family: "nanum gothic", "나눔 고딕", "Malgun Gothic", "맑은 고딕", "돋움", sans-serif !important;
+  --mi18n-font-css: "nanum gothic", "나눔 고딕", "Malgun Gothic", "맑은 고딕", "돋움", sans-serif;
+}
+[mi18n-lang=ko-kr] body {
+  font-family: "nanum gothic", "나눔 고딕", "Malgun Gothic", "맑은 고딕", "돋움", sans-serif !important;
+}
+
+[mi18n-lang=en-us],
+[mi18n-lang=id-id],
+[mi18n-lang=fr-fr],
+[mi18n-lang=vi-vn],
+[mi18n-lang=pt-pt],
+[mi18n-lang=tr-tr],
+[mi18n-lang=it-it] {
+  font-family: Tahoma, Helvetica, Arial, sans-serif !important;
+  --mi18n-font-css: meSubFont, Tahoma, Helvetica, Arial, sans-serif;
+}
+[mi18n-lang=en-us] body,
+[mi18n-lang=id-id] body,
+[mi18n-lang=fr-fr] body,
+[mi18n-lang=vi-vn] body,
+[mi18n-lang=pt-pt] body,
+[mi18n-lang=tr-tr] body,
+[mi18n-lang=it-it] body {
+  font-family: Tahoma, Helvetica, Arial, sans-serif !important;
+}
+
+[mi18n-lang=es-es] {
+  font-family: Helvetica, Arial, sans-serif !important;
+  --mi18n-font-css: meSubFont, Helvetica, Arial, sans-serif;
+}
+[mi18n-lang=es-es] body {
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+[mi18n-lang=th-th] {
+  font-family: kanit, Tahoma, Helvetica, Arial, Geneva, sans-serif !important;
+  --mi18n-font-css: kanit, Tahoma, Helvetica, Arial, Geneva, sans-serif;
+}
+[mi18n-lang=th-th] body {
+  font-family: kanit, Tahoma, Helvetica, Arial, Geneva, sans-serif !important;
+}
+
+[mi18n-lang=ru-ru] {
+  font-family: "Adelle Cyrillic", "Dctz38", Arial, Helvetica, sans-serif !important;
+  --mi18n-font-css: "Adelle Cyrillic", "Dctz38", Arial, Helvetica, sans-serif;
+}
+[mi18n-lang=ru-ru] body {
+  font-family: "Adelle Cyrillic", "Dctz38", Arial, Helvetica, sans-serif !important;
+}
+
+[mi18n-lang=ja-jp] {
+  font-family: "游ゴシック体", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS Pgothic", sans-serif !important;
+  --mi18n-font-css: "游ゴシック体", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+    Osaka, "ＭＳ Ｐゴシック", "MS Pgothic", sans-serif;
+}
+[mi18n-lang=ja-jp] body {
+  font-family: "游ゴシック体", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS Pgothic", sans-serif !important;
+}
+
+[mi18n-lang=de-de] {
+  font-family: "Calibri", "Arial" !important;
+  --mi18n-font-css: "Calibri", "Arial";
+}
+[mi18n-lang=de-de] body {
+  font-family: "Calibri", "Arial" !important;
+}

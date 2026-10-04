@@ -1,0 +1,14 @@
+{
+  "summary": "Nuxt plugin that installs the site's global Vue extensions exactly once (guarded by a module-level flag). It sets `Vue.prototype.$isBBS`, `$isSea` and `$isMob`, calls `setBrandTheme('nap', false)`, registers the `meAudio`, `share` and `CrmSub` components, `Vue.use`s a series of UI/utility plugins (toast, copy-input, Swiper, `window.MeSeaDownload`, a plugin given `{ lang: store.state.lang }`, a deep-link plugin with `schemaName: 'hoyolab'`), installs the account SDK plugin with `{ lang, isSea: true, gameBiz: 'nap_global', environment, appId: accountSdkAppId, useType: 'account' }` using the language resolved from `params.lang`, shows the cookie-tips banner outside BBS (`source: '262'`, storage key `napCookieTips`), and installs an ad-tracking plugin with Google Ads `AW-10901298873`, Facebook, pixel and Twitter ids.",
+  "exports": {
+    "a": "the Nuxt plugin function (context) that installs global components/plugins"
+  },
+  "renames": {
+    "U_1": "localeHelpers",
+    "S_2": "isInstalled",
+    "t_3": "context",
+    "t_4": "VueCtor",
+    "e_5": "nuxtContext",
+    "n_6": "lang"
+  }
+}

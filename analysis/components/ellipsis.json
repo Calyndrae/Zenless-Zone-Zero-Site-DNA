@@ -1,0 +1,78 @@
+{
+ "component": "ellipsis",
+ "files": [
+  "664.css"
+ ],
+ "classes": {
+  "ellipsis": "ellipsis"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".ellipsis",
+   "media": [],
+   "declarations": {
+    "overflow": "hidden",
+    "white-space": "nowrap",
+    "text-overflow": "ellipsis"
+   },
+   "source": "/_nuxt/8c4c131.js #664"
+  }
+ ],
+ "markup": "<div data-v-5959da90=\"\" class=\"m-home-feature__info-title ellipsis\">双重身份，别样生活</div>",
+ "markupPage": "m_zh-cn_main",
+ "markupClass": "ellipsis",
+ "appearsOn": [
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "zh-cn_main"
+ ],
+ "computed": {
+  "ellipsis": {
+   "page": "m_zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 218.609375,
+    "y": 1631.15625,
+    "width": 171.390625,
+    "height": 35.359375,
+    "top": 1631.15625,
+    "right": 390,
+    "bottom": 1666.515625,
+    "left": 218.609375
+   },
+   "text": "双重身份，别样生活",
+   "position": "relative",
+   "display": "flex",
+   "width": "171.391px",
+   "height": "35.3594px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "14.56px",
+   "font-weight": "400",
+   "line-height": "13px",
+   "color": "rgba(216, 250, 0, 0.9)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgba(216, 250, 0, 0.9)",
+   "padding": "0px 10.4px 0px 26px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "flex-end",
+   "align-items": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

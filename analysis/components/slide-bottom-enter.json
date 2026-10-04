@@ -1,0 +1,35 @@
+{
+ "component": "slide-bottom-enter",
+ "files": [
+  "664.css"
+ ],
+ "classes": {
+  "slide-bottom-enter": "slide-bottom-enter"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".slide-bottom-enter,.slide-bottom-leave-to",
+   "media": [],
+   "declarations": {
+    "transform": "translateY(100%)",
+    "opacity": "0"
+   },
+   "source": "/_nuxt/8c4c131.js #664"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

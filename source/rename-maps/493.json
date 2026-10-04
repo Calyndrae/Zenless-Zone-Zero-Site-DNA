@@ -1,0 +1,14 @@
+{
+  "summary": "core-js internal feature-detection module (`native-url`): it exports a boolean that is true when the native `URL`/`URLSearchParams` implementation is correct, checking pathname encoding, `searchParams` iteration/deletion and `sort`, `href`, URLSearchParams string conversion and copy construction, the iterator symbol, `username` parsing, punycode host conversion (`xn--e1aybc` for `http://тест`), hash encoding and an undefined base argument (with an extra `toJSON` check in pure mode).",
+  "exports": {
+    "module.exports": "boolean — whether native URL / URLSearchParams can be used"
+  },
+  "renames": {
+    "l_1": "ITERATOR",
+    "e_2": "url",
+    "t_3": "searchParams",
+    "n_4": "result",
+    "e_5": "value",
+    "r_6": "key"
+  }
+}

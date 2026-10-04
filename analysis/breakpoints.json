@@ -1,0 +1,38 @@
+{
+ "mediaQueries": [
+  [
+   "@media screen and (orientation:landscape)",
+   6
+  ],
+  [
+   "@media (max-width: 1024px)",
+   4
+  ],
+  [
+   "@media (max-width: 374px)",
+   1
+  ],
+  [
+   "@media (max-width: 300px)",
+   1
+  ]
+ ],
+ "conditions": [
+  [
+   "(orientation:landscape)",
+   6
+  ],
+  [
+   "(max-width: 1024px)",
+   4
+  ],
+  [
+   "(max-width: 374px)",
+   1
+  ],
+  [
+   "(max-width: 300px)",
+   1
+  ]
+ ]
+}

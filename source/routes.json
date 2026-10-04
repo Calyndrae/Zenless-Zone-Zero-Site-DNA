@@ -1,0 +1,616 @@
+[
+ {
+  "path": "/m",
+  "name": "m",
+  "module": 1453,
+  "chunkIds": [
+   46
+  ],
+  "chunks": [
+   "0ef825c"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/video",
+  "name": "video",
+  "module": 1421,
+  "chunkIds": [
+   47
+  ],
+  "chunks": [
+   "6850d84"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang",
+  "name": "m-lang",
+  "module": 1422,
+  "chunkIds": [
+   38
+  ],
+  "chunks": [
+   "0eb4cff"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/character",
+  "name": "m-lang-character",
+  "module": 1423,
+  "chunkIds": [
+   0,
+   6,
+   2,
+   29
+  ],
+  "chunks": [
+   "fd57a96",
+   "df9cade",
+   "b5b7858",
+   "564bae5"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/feature",
+  "name": "m-lang-feature",
+  "module": 1424,
+  "chunkIds": [
+   0,
+   2,
+   37
+  ],
+  "chunks": [
+   "fd57a96",
+   "b5b7858",
+   "ded62d7"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/main",
+  "name": "m-lang-main",
+  "module": 1419,
+  "chunkIds": [
+   0,
+   1,
+   2,
+   3,
+   39
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "b5b7858",
+   "7ff8829",
+   "a9873dc"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/news",
+  "name": "m-lang-news",
+  "module": 1415,
+  "chunkIds": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "b5b7858",
+   "f87ccae"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/video",
+  "name": "m-lang-video",
+  "module": 1425,
+  "chunkIds": [
+   0,
+   1,
+   2,
+   43
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "b5b7858",
+   "fcdddd8"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/world",
+  "name": "m-lang-world",
+  "module": 1426,
+  "chunkIds": [
+   0,
+   2,
+   45
+  ],
+  "chunks": [
+   "fd57a96",
+   "b5b7858",
+   "b262029"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/character/detail",
+  "name": "m-lang-character-detail",
+  "module": 1427,
+  "chunkIds": [
+   28
+  ],
+  "chunks": [
+   "466de49"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/company/about",
+  "name": "m-lang-company-about",
+  "module": 1428,
+  "chunkIds": [
+   0,
+   30
+  ],
+  "chunks": [
+   "fd57a96",
+   "aa05f4a"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/company/archive",
+  "name": "m-lang-company-archive",
+  "module": 1429,
+  "chunkIds": [
+   0,
+   31
+  ],
+  "chunks": [
+   "fd57a96",
+   "f5b0acd"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/company/fund",
+  "name": "m-lang-company-fund",
+  "module": 1430,
+  "chunkIds": [
+   0,
+   32
+  ],
+  "chunks": [
+   "fd57a96",
+   "47029f5"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/company/privacy",
+  "name": "m-lang-company-privacy",
+  "module": 1431,
+  "chunkIds": [
+   0,
+   33
+  ],
+  "chunks": [
+   "fd57a96",
+   "528dc6e"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/company/terms",
+  "name": "m-lang-company-terms",
+  "module": 1432,
+  "chunkIds": [
+   0,
+   34
+  ],
+  "chunks": [
+   "fd57a96",
+   "e502f5f"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/company/terms2",
+  "name": "m-lang-company-terms2",
+  "module": 1433,
+  "chunkIds": [
+   0,
+   35
+  ],
+  "chunks": [
+   "fd57a96",
+   "6b7076d"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/company/terms3",
+  "name": "m-lang-company-terms3",
+  "module": 1434,
+  "chunkIds": [
+   0,
+   36
+  ],
+  "chunks": [
+   "fd57a96",
+   "01cc6f8"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/news/public",
+  "name": "m-lang-news-public",
+  "module": 1435,
+  "chunkIds": [
+   0,
+   1,
+   42
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "75ab81f"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/news/cate/:cate?",
+  "name": "m-lang-news-cate-cate",
+  "module": 1454,
+  "chunkIds": [
+   0,
+   1,
+   2,
+   5,
+   41
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "b5b7858",
+   "f87ccae",
+   "fd66585"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/news/:id",
+  "name": "m-lang-news-id",
+  "module": 1436,
+  "chunkIds": [
+   0,
+   1,
+   40
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "39a3684"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/m/:lang/world/:id",
+  "name": "m-lang-world-id",
+  "module": 1437,
+  "chunkIds": [
+   0,
+   2,
+   44
+  ],
+  "chunks": [
+   "fd57a96",
+   "b5b7858",
+   "08021c5"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/",
+  "name": "index",
+  "module": 1455,
+  "chunkIds": [
+   27
+  ],
+  "chunks": [
+   "6a183b1"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang",
+  "name": "lang",
+  "module": 1438,
+  "chunkIds": [
+   19
+  ],
+  "chunks": [
+   "74d90aa"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/character",
+  "name": "lang-character",
+  "module": 1439,
+  "chunkIds": [
+   0,
+   6,
+   10
+  ],
+  "chunks": [
+   "fd57a96",
+   "df9cade",
+   "3f59e77"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/feature",
+  "name": "lang-feature",
+  "module": 1440,
+  "chunkIds": [
+   0,
+   18
+  ],
+  "chunks": [
+   "fd57a96",
+   "44468dc"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/main",
+  "name": "lang-main",
+  "module": 1418,
+  "chunkIds": [
+   0,
+   1,
+   50,
+   3,
+   20
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "8d80f48",
+   "7ff8829",
+   "3b23566"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/news",
+  "name": "lang-news",
+  "module": 1416,
+  "chunkIds": [
+   0,
+   1,
+   4
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "ba4082a"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/video",
+  "name": "lang-video",
+  "module": 1420,
+  "chunkIds": [
+   0,
+   1,
+   24
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "53d09dd"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/world",
+  "name": "lang-world",
+  "module": 1441,
+  "chunkIds": [
+   0,
+   26
+  ],
+  "chunks": [
+   "fd57a96",
+   "1e69d9d"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/character/detail",
+  "name": "lang-character-detail",
+  "module": 1442,
+  "chunkIds": [
+   9
+  ],
+  "chunks": [
+   "b3681da"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/company/about",
+  "name": "lang-company-about",
+  "module": 1443,
+  "chunkIds": [
+   0,
+   11
+  ],
+  "chunks": [
+   "fd57a96",
+   "9221d05"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/company/archive",
+  "name": "lang-company-archive",
+  "module": 1444,
+  "chunkIds": [
+   0,
+   12
+  ],
+  "chunks": [
+   "fd57a96",
+   "f28487d"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/company/fund",
+  "name": "lang-company-fund",
+  "module": 1445,
+  "chunkIds": [
+   0,
+   13
+  ],
+  "chunks": [
+   "fd57a96",
+   "5804396"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/company/privacy",
+  "name": "lang-company-privacy",
+  "module": 1446,
+  "chunkIds": [
+   0,
+   14
+  ],
+  "chunks": [
+   "fd57a96",
+   "ce90c7a"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/company/terms",
+  "name": "lang-company-terms",
+  "module": 1447,
+  "chunkIds": [
+   0,
+   15
+  ],
+  "chunks": [
+   "fd57a96",
+   "c36764e"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/company/terms2",
+  "name": "lang-company-terms2",
+  "module": 1448,
+  "chunkIds": [
+   0,
+   16
+  ],
+  "chunks": [
+   "fd57a96",
+   "5e4f8d9"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/company/terms3",
+  "name": "lang-company-terms3",
+  "module": 1449,
+  "chunkIds": [
+   0,
+   17
+  ],
+  "chunks": [
+   "fd57a96",
+   "0065aaf"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/news/public",
+  "name": "lang-news-public",
+  "module": 1450,
+  "chunkIds": [
+   0,
+   1,
+   23
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "84ad6ad"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/news/cate/:cate?",
+  "name": "lang-news-cate-cate",
+  "module": 1456,
+  "chunkIds": [
+   0,
+   1,
+   4,
+   22
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "ba4082a",
+   "e14cdf3"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/news/:id",
+  "name": "lang-news-id",
+  "module": 1451,
+  "chunkIds": [
+   0,
+   1,
+   21
+  ],
+  "chunks": [
+   "fd57a96",
+   "b74c7e3",
+   "0d508be"
+  ],
+  "extra": ""
+ },
+ {
+  "path": "/:lang/world/:id",
+  "name": "lang-world-id",
+  "module": 1452,
+  "chunkIds": [
+   0,
+   25
+  ],
+  "chunks": [
+   "fd57a96",
+   "8c53a05"
+  ],
+  "extra": ""
+ }
+]

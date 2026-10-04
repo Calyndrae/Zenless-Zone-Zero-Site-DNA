@@ -1,0 +1,95 @@
+{
+ "component": "swiper-container-3d",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-container-3d": "swiper-container-3d"
+ },
+ "ruleCount": 7,
+ "rules": [
+  {
+   "selector": ".swiper-container-3d",
+   "media": [],
+   "declarations": {
+    "-webkit-perspective": "1200px",
+    "perspective": "1200px"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-3d .swiper-wrapper,\n.swiper-container-3d .swiper-slide,\n.swiper-container-3d .swiper-slide-shadow-left,\n.swiper-container-3d .swiper-slide-shadow-right,\n.swiper-container-3d .swiper-slide-shadow-top,\n.swiper-container-3d .swiper-slide-shadow-bottom,\n.swiper-container-3d .swiper-cube-shadow",
+   "media": [],
+   "declarations": {
+    "-webkit-transform-style": "preserve-3d",
+    "transform-style": "preserve-3d"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-3d .swiper-slide-shadow-left,\n.swiper-container-3d .swiper-slide-shadow-right,\n.swiper-container-3d .swiper-slide-shadow-top,\n.swiper-container-3d .swiper-slide-shadow-bottom",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%",
+    "pointer-events": "none",
+    "z-index": "10"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-3d .swiper-slide-shadow-left",
+   "media": [],
+   "declarations": {
+    "background-image": "linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-3d .swiper-slide-shadow-right",
+   "media": [],
+   "declarations": {
+    "background-image": "linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-3d .swiper-slide-shadow-top",
+   "media": [],
+   "declarations": {
+    "background-image": "linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-3d .swiper-slide-shadow-bottom",
+   "media": [],
+   "declarations": {
+    "background-image": "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0))"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0, 0, 0, 0.5)",
+   "rgba(0, 0, 0, 0)"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "10"
+  ],
+  "transitions": []
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "summary": "Axios setup module with no exports: it registers a global axios request interceptor that, when the build environment is `test` or `prerelease`, adds `isPreview: 1` to the request params and then copies the params into a new object (Babel `objectSpread2` helper using `ownKeys` and `defineProperty`).",
+  "exports": {},
+  "renames": {
+    "m_1": "ownKeys",
+    "d_2": "isPreviewEnv",
+    "t_3": "enumerableOnly",
+    "e_4": "keys",
+    "n_5": "symbols",
+    "t_6": "symbol",
+    "t_7": "requestConfig",
+    "e_8": "rawParams",
+    "n_9": "params",
+    "t_10": "target",
+    "i_11": "i",
+    "e_12": "key",
+    "e_13": "propKey"
+  }
+}

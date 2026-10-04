@@ -1,0 +1,515 @@
+{
+ "component": "web-protocol",
+ "files": [
+  "1140.css"
+ ],
+ "classes": {
+  "web-protocol": "web-protocol",
+  "web-protocol__article": "web-protocol__article",
+  "web-protocol__title": "web-protocol__title",
+  "web-protocol__info": "web-protocol__info",
+  "web-protocol__content": "web-protocol__content"
+ },
+ "ruleCount": 30,
+ "rules": [
+  {
+   "selector": ".web-protocol",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "min-height": "100%"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol .backContainer",
+   "media": [],
+   "declarations": {
+    "position": "sticky",
+    "right": "1.5rem",
+    "bottom": "0",
+    "z-index": "90",
+    "width": "100%",
+    "height": "1.8rem"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol .backContainer .backTop",
+   "media": [],
+   "declarations": {
+    "left": "auto",
+    "right": "1.5rem",
+    "background-position": "bottom center"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__article",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "12.8rem",
+    "margin": "0 auto"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__title",
+   "media": [],
+   "declarations": {
+    "font-size": ".8rem",
+    "font-weight": "800",
+    "color": "#222122",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__info",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "space-between",
+    "align-items": "center",
+    "height": ".64rem",
+    "padding": "0 .54rem",
+    "margin": ".9rem 0",
+    "font-size": ".24rem",
+    "line-height": "1",
+    "color": "#fff",
+    "background-color": "#222122",
+    "border-radius": ".32rem"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__info .breadcrumb",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__info .news-tag",
+   "media": [],
+   "declarations": {
+    "font-size": ".24rem",
+    "color": "#fff"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content",
+   "media": [],
+   "declarations": {
+    "font-size": ".2rem",
+    "padding-bottom": "1.3rem",
+    "color": "#222122",
+    "line-height": "1.5"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content .table-wrapper",
+   "media": [],
+   "declarations": {
+    "overflow": "auto"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content img,.web-protocol__content video",
+   "media": [],
+   "declarations": {
+    "max-width": "100% !important",
+    "height": "auto !important"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content img",
+   "media": [],
+   "declarations": {
+    "display": "inline-block"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content table",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "min-width": "auto !important"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content table,.web-protocol__content td",
+   "media": [],
+   "declarations": {
+    "border-collapse": "collapse",
+    "border": "solid 1px #c2c2c2"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content td",
+   "media": [],
+   "declarations": {
+    "padding-left": "10px"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content td p",
+   "media": [],
+   "declarations": {
+    "text-align": "inherit",
+    "max-width": "90%"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content td a",
+   "media": [],
+   "declarations": {
+    "white-space": "nowrap"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol__content a",
+   "media": [],
+   "declarations": {
+    "max-width": "100%",
+    "word-break": "break-word"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob",
+   "media": [],
+   "declarations": {
+    "margin-top": "1.1rem",
+    "min-height": "100%"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob::before",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob::after",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol-container",
+   "media": [],
+   "declarations": {
+    "padding": ".9rem .4rem",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol__article",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "text-align": "left",
+    "width": "100%"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol__title",
+   "media": [],
+   "declarations": {
+    "font-size": ".42rem"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol__info",
+   "media": [],
+   "declarations": {
+    "padding": "0 .24rem",
+    "margin": ".9rem 0",
+    "font-size": ".24rem"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol__info .breadcrumb",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol__info .news-tag",
+   "media": [],
+   "declarations": {
+    "font-size": ".24rem"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol__content",
+   "media": [],
+   "declarations": {
+    "font-size": ".26rem"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol-back",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center",
+    "min-width": "2.42rem",
+    "height": ".82rem",
+    "padding": "0 .14rem",
+    "background": "#000",
+    "border": ".08rem solid #767678",
+    "border-radius": ".42rem",
+    "font-size": ".28rem",
+    "font-weight": "500",
+    "color": "#fff"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  },
+  {
+   "selector": ".web-protocol.mob .web-protocol-back::after",
+   "media": [],
+   "declarations": {
+    "margin-left": ".26rem",
+    "font-size": ".18rem",
+    "font-family": "\"icomoon\",sans-serif !important",
+    "content": "\"\"",
+    "color": "#d6d6d6",
+    "transform": "rotate(-180deg)"
+   },
+   "source": "/_nuxt/0065aaf.js /_nuxt/5804396.js /_nuxt/5e4f8d9.js /_nuxt/9221d05.js /_nuxt/c36764e.js /_nuxt/ce90c7a.js /_nuxt/f28487d.js #1140"
+  }
+ ],
+ "markup": "<div class=\"m-web-protocol\"><div class=\"m-web-protocol-container\"><div class=\"m-web-protocol__article\"><div class=\"m-web-protocol__title\">\n          隐私政策\n        </div> <div class=\"m-web-protocol__info\"><span class=\"breadcrumb\">\n            绝区零 &gt; 隐私政策\n          </span></div> <div class=\"m-web-protocol__content\"><p style=\"white-space: pre-wrap; text-align: justify;\"><strong><span style=\"color:rgba(24,26,35,1)\">版本日期：2026年8月24日</span></strong></p><p style=\"white-space: pre-wrap; text-align: justify;\"><em>注意：我们可能将本隐私政策翻译成其他语言。如果英文版本与其他语言版本之间存在差异，在遵守适用法律法规的前提下，应以英文版本为准。</em></p><p style=\"white-space: pre-wrap; text-align: justify;\">欢迎来到HoYoverse！</p><p style=\"white-space: pre-wrap; text-align: justify;\">HoYoverse总部位于新加坡，由Cognosphere Pte. Ltd.（以下简称“我们”、“我们的”或“我们公司”）运营，我们在全球范围内发布和分发服务。我们高度重视用户（“您”或“用户”）的隐私。本隐私政策详述我们通过服务可能收集、使用和共享信息的不同方式。如有任何疑问，请通过以下“联系我们”所述方式与我们联系。</p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: justify;\"></p><p style=\"white-space: pre-wrap; text-align: justify;\"><strong><u>我们的服务范围</u></strong></p><p style=\"white-space: pre-wrap; text-align: justify;\">“我们的服务”统指直接链接到本隐私政策的产品或服务。包括但不限于：</p><p style=\"white-space: pre-wrap; text-align: justify;\">·    游戏产品，如《原神》《崩坏：星穹铁道》《绝区零》《崩坏3》《未定事件簿》；</p><p style=\"white-space: pre-wrap; text-align: justify;\">·    非游戏产品，如HoYoverse账号、HoYoPlay、HoYoLab和HoYoCreator；官方社区、论坛、客服平台；</p><p style=\"white-space: pre-wrap; text-align: justify;\">·    任何发布本隐私政策的赛事、活动及其他项目  </p><p style=\"white-space: pre-wrap; text-align: justify;\">请完整阅读本隐私政策。在使用服务前，请审阅适用于该服务的其他协议，并确认已理解且同意其内容。</p><p style=\"white-space: pre-wrap; text-align: justify;\">通过访问网站或使用服务，即视为您已阅读、理解并接受本隐私政策。若不同意本隐私政策中的任何条款，您可以立即停止使用我们的服务。</p><p style=\"white-space: pre-wrap; text-align: justify;\">本隐私政策向您告知以下内容：</p><p style=\"white-space: pre-wrap; text-align: justify;\">1.收集和处理的数据类型</p><p style=\"white-space: pre-wrap; text-align: justify;\">2.数据收集和处理的目的</p><p style=\"white-space: pre-wrap; text-align: justify;\">3.数据收集和处理的法律依据</p><p style=\"white-space: pre-wrap; text-align: justify;\">4.广告及用户选择权</p><p style=\"white-space: pre-wrap; text-align: justify;\">5.Cookie及类似技术</p><p style=\"white-space: pre-wrap; text-align: justify;\">6.信息共享</p><p style=\"white-space: pre-wrap; text-align: justify;\">7.数据保留</p><p style=\"white-space: pre-wrap; text-align: justify;\">8.您的权利和选择</p><p style=\"white-space: pre-wrap; text-align: justify;\">9.数据安全保障</p><p style=\"white-space: pre-wrap; text-align: justify;\">10.儿童保护</p><p style=\"white-space: pre-wrap; text-align: justify;\">11.隐私政策变更</p><p style=\"white-space: pre-wrap; text-align: justify;\">12.联系我们</p><p style=\"white-space: pre-wrap; text-align: justify;\">13.补充条款——特定司法管辖区</p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: justify;\"></p><p style=\"white-space: pre-wrap; text-align: justify;\"><strong>1 收集和处理的数据类型</strong></p><p style=\"white-space: pre-wrap; text-align: justify;\">“个人数据”指可识别的自然人身份的信息，例如姓名、电子邮件地址、联系地址、邮政编码、定位数据、职称、职业、个人兴趣等。</p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: justify;\"></p><p style=\"white-space: pre-wrap; text-align: justify;\"><strong>A. 直接收集或通过第三方获取的数据</strong></p><p style=\"white-space: pre-wrap; text-align: justify;\">i.  <strong>联系信息和标识符/账户注册信息。</strong>创建账户时收集用户名、电子邮件地址、手机号码、密码、验证码和Open ID/Union ID，用于账号管理、游戏登录及本隐私政策第2条和第13条中所述目的。</p><p style=\"white-space: pre-wrap; text-align: justify;\">ii.  <strong>服务账户信息。</strong>我们也可能收集与我们服务相关的账户信息，例如您的昵称、头像、性别、用户名、账户ID和账户等级。</p><p style=\"white-space: pre-wrap; text-align: justify;\">iii.  <strong>出生日期。</strong>在适用情况下，您可能需要提供您的出生日期用于年龄验证或筛选目的，以及/或者您在申请生日礼物或我们服务中提供的其他福利时提供您的生日。您可以在您的用户资料中选择向我们提供您的生日。</p><p style=\"white-space: pre-wrap; text-align: justify;\">iv.  <strong>关联的社交媒体账户信息（第三方）。</strong>如果您选择通过您的社交媒体账户登录我们的服务，我们可能从第三方社交媒体提供商（例如Facebook、X、Google Play、Game Center）接收您的社交媒体账户信息（包括您的用户名或昵称）。从第三方社交媒体提供商获得的此类信息将添加到您的账户信息中。</p><p style=\"white-space: pre-wrap; text-align: justify;\">v.  <strong>个人资料信息。</strong>您可以在我们的服务中设置个人资料，用户可设置昵称、签名、上传头像、社交媒体账号、粉丝数、作品链接、点赞数、Discord用户名、创作者类型、游戏角色ID以及其他取决于我们服务设置的信息。</p><p style=\"white-space: pre-wrap; text-align: justify;\">vi.  <strong>游戏数据。</strong>我们处理有关游戏内服务和功能的信息，包括游戏状态、进度和使用统计数据，用于提供反馈和信息，以及本隐私政策第2条和第13条所述目的。</p><p style=\"white-space: pre-wrap; text-align: justify;\">vii.  <strong>聊天数据。</strong>如果您使用某些服务中提供的聊天功能（例如游戏内聊天），我们可能处理通信记录，并在某些服务中应用加密技术——在部分服务中采用端到端加密以保护您的数据。</p><p style=\"white-space: pre-wrap; text-align: justify;\">viii.  <strong>社区论坛信息。</strong>我们将收集您在使用由我们或第三方平台（如Discord）托管的社区论坛服务时提供的内容、沟通和其他信息。包括您创建或共享的内容和/或与他人沟通的内容，包括您提供的内容中包含的或与之相关的（例如元数据）信息，例如文件创建日期。它还包括您通过我们提供的功能（例如拍照功能、照片上传功能、内容上传功能）看到或使用的内容。收集的信息可能包括您选择的兴趣标签和偏好语言。</p><p style=\"white-space: pre-wrap; text-align: justify;\">ix.  <strong>用户生成内容。</strong>我们处理所有用户生成的内容，包括您在我们服务上发布的信息、您提供给我们的所有反馈、您在我们任何内容或服务中发布、评论或关注的信息。</p><p style=\"white-space: pre-wrap; text-align: justify;\">x.  <strong>用户服务信息。</strong>当您寻求我们的技术和/或客户服务支持和/或行使您作为数据主体的任何合法权利时，我们可能收集您与我们支持团队沟通时提供的信息。</p><p style=\"white-space: pre-wrap; text-align: justify;\">xi.  <strong>调查信息。</strong>如果您参与我们的调查，我们收集您的调查回复。</p><p style=\"white-space: pre-wrap; text-align: justify;\">xii.  <strong>活动参与信息。</strong>如果您同意参与我们组织的任何活动（例如比赛或抽奖活动），我们可能收集您的参与信息，包括您的姓名、UID、电子邮件地址、手机号码、昵称、国家/地区。如果您赢得任何奖品，您可能还需要提供您的邮寄地址或某些税务信息（例如社安全号码等），用于我们向您发送奖品。您的活动参与信息可能添加到您的帐户中。</p><p style=\"white-space: pre-wrap; text-align: justify;\">xiii.  <strong>IP地址和设备数据。</strong>我们可能收集平台及设备信息，例如平台类型（iOS/安卓）、设备名称/型号和您的IP地址。</p><p style=\"white-space: pre-wrap; text-align: justify;\">xiv.  <strong>广告信息。</strong>我们可能收集广告标识符（包括 Google 广告 ID、IDFA）、设备标识符（包括 IDFV、OAID、Android ID）和其他选定的设备信息，并将这些信息与您的个人资料一起存储，以投放可能与您的兴趣相关的广告，并追踪广告效果。此外，在采取适当的技术安全措施（例如加密和哈希）对您的电子邮件地址进行去标识化或匿名化处理后（包括在您通过社交媒体帐户登录时从第三方社交媒体提供商处收集的电子邮件地址），我们可能使用您的去标识化或匿名化电子邮件地址来追踪广告效果。</p><p style=\"white-space: pre-wrap; text-align: justify;\">xv.  <strong>支付数据。</strong>若您使用帐户进行购买，我们可能需要收集您的支付数据和交易历史，用于维护您的交易历史记录并处理您的购买和相关活动，这可能包括您的姓名、银行/借记/信用卡号码、有效期、账单地址（国家、城市、邮政编码、地址）、CVV、交易日期、交易订单号、货币、费用、支付渠道和购买的产品等数据。</p><p style=\"white-space: pre-wrap; text-align: justify;\">xvi.  <strong>PayPal账户。</strong>若服务支持，我们存储您的Pa",
+ "markupPage": "m_zh-cn_company_privacy",
+ "markupClass": "web-protocol",
+ "appearsOn": [
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms"
+ ],
+ "computed": {
+  "web-protocol": {
+   "page": "zh-cn_company_privacy",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 15361.125,
+    "top": 0,
+    "right": 1440,
+    "bottom": 15361.125,
+    "left": 0
+   },
+   "text": "隐私政策\n         \n            绝区零 > 隐私政策\n           版本日期：2026年8月24日注意：我们可能将本隐私政策翻译成",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "15361.1px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "web-protocol__article": {
+   "page": "zh-cn_company_privacy",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 202.5,
+    "width": 720,
+    "height": 14967.375,
+    "top": 202.5,
+    "right": 1080,
+    "bottom": 15169.875,
+    "left": 360
+   },
+   "text": "隐私政策\n         \n            绝区零 > 隐私政策\n           版本日期：2026年8月24日注意：我们可能将本隐私政策翻译成",
+   "position": "relative",
+   "display": "block",
+   "width": "720px",
+   "height": "14967.4px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 360px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "web-protocol__content": {
+   "page": "zh-cn_company_privacy",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 384.75,
+    "width": 720,
+    "height": 14785.125,
+    "top": 384.75,
+    "right": 1080,
+    "bottom": 15169.875,
+    "left": 360
+   },
+   "text": "版本日期：2026年8月24日注意：我们可能将本隐私政策翻译成其他语言。如果英文版本与其他语言版本之间存在差异，在遵守适用法律法规的前提下，应以英文版本为准。欢",
+   "display": "block",
+   "width": "720px",
+   "height": "14785.1px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.25px",
+   "font-weight": "400",
+   "line-height": "16.875px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "padding": "0px 0px 73.125px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "web-protocol__info": {
+   "page": "zh-cn_company_privacy",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 298.125,
+    "width": 720,
+    "height": 36,
+    "top": 298.125,
+    "right": 1080,
+    "bottom": 334.125,
+    "left": 360
+   },
+   "text": "绝区零 > 隐私政策",
+   "display": "flex",
+   "width": "720px",
+   "height": "36px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "13.5px",
+   "font-weight": "400",
+   "line-height": "13.5px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(34, 33, 34)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "border-radius": "18px",
+   "padding": "0px 30.375px",
+   "margin": "50.625px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "space-between",
+   "align-items": "center"
+  },
+  "web-protocol__title": {
+   "page": "zh-cn_company_privacy",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 202.5,
+    "width": 720,
+    "height": 45,
+    "top": 202.5,
+    "right": 1080,
+    "bottom": 247.5,
+    "left": 360
+   },
+   "text": "隐私政策",
+   "display": "block",
+   "width": "720px",
+   "height": "45px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "45px",
+   "font-weight": "800",
+   "line-height": "45px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#222122",
+   "#fff",
+   "#c2c2c2",
+   "#000",
+   "#767678",
+   "#d6d6d6"
+  ],
+  "fonts": [
+   "\"icomoon\",sans-serif !important"
+  ],
+  "fontSizes": [
+   ".8rem",
+   ".24rem",
+   ".2rem",
+   ".42rem",
+   ".26rem",
+   ".28rem",
+   ".18rem"
+  ],
+  "zIndex": [
+   "90"
+  ],
+  "transitions": []
+ }
+}

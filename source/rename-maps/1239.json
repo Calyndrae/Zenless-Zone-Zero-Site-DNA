@@ -1,0 +1,12 @@
+{
+  "summary": "Babel runtime helper typeof (@babel/runtime/helpers/typeof, CommonJS build). On first call it replaces module.exports with a native typeof function when Symbol.iterator is a real symbol, or a fallback that reports \"symbol\" for polyfilled Symbol instances, and sets __esModule/default on the exports.",
+  "exports": {
+    "module.exports": "_typeof(value) Babel helper (also exposed as default)"
+  },
+  "renames": {
+    "o_1": "_typeof",
+    "t_2": "value",
+    "e_3": "nativeValue",
+    "e_4": "polyfillValue"
+  }
+}

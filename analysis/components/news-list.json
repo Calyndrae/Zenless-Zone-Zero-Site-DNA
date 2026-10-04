@@ -1,0 +1,447 @@
+{
+ "component": "news-list",
+ "files": [
+  "1396.css"
+ ],
+ "classes": {
+  "news-list": "news-list",
+  "news-list__item": "news-list__item",
+  "news-list__item-banner": "news-list__item-banner",
+  "news-list__item-content": "news-list__item-content",
+  "news-list__item-date": "news-list__item-date",
+  "news-list__item-title": "news-list__item-title",
+  "news-list__item-desc": "news-list__item-desc"
+ },
+ "ruleCount": 12,
+ "rules": [
+  {
+   "selector": ".news-list",
+   "media": [],
+   "declarations": {
+    "margin": "1.1rem auto .2rem",
+    "display": "flex",
+    "flex-direction": "row",
+    "flex-wrap": "wrap",
+    "justify-content": "center"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item",
+   "media": [],
+   "declarations": {
+    "width": "3.96rem",
+    "margin-right": ".46rem",
+    "margin-bottom": ".84rem",
+    "transition": "transform 500ms,opacity 500ms,color 500ms"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item:nth-child(3n+3),.news-list__item:last-child",
+   "media": [],
+   "declarations": {
+    "margin-right": "0"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-banner",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "center",
+    "overflow": "hidden",
+    "width": "100%",
+    "height": "2.2rem",
+    "flex-shrink": "0",
+    "border-top-right-radius": ".35rem",
+    "border-bottom-left-radius": ".35rem",
+    "cursor": "pointer",
+    "transform": "scale(1)"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-banner:hover img",
+   "media": [],
+   "declarations": {
+    "transform": "scale(1.15)"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-banner img",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "cover",
+    "object-position": "center center",
+    "transition": "transform 300ms"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-content",
+   "media": [],
+   "declarations": {
+    "margin-top": ".34rem"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-size": ".2rem",
+    "color": "#000",
+    "display": "flex",
+    "flex-direction": "row",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-date>div",
+   "media": [],
+   "declarations": {
+    "margin-right": ".2rem"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-title",
+   "media": [],
+   "declarations": {
+    "margin-top": ".34rem",
+    "width": "100%",
+    "font-size": ".22rem",
+    "line-height": "1.3",
+    "font-weight": "800",
+    "color": "#222122",
+    "overflow": "hidden",
+    "white-space": "nowrap",
+    "text-overflow": "ellipsis",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item-desc",
+   "media": [],
+   "declarations": {
+    "margin-top": ".16rem",
+    "width": "100%",
+    "font-size": ".16rem",
+    "color": "#7a7a7a",
+    "overflow": "hidden",
+    "text-overflow": "ellipsis",
+    "height": ".54rem",
+    "white-space": "break-spaces",
+    "line-height": ".26rem",
+    "display": "-webkit-box",
+    "-webkit-box-orient": "vertical",
+    "-webkit-line-clamp": "2",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-list__item:hover::before",
+   "media": [],
+   "declarations": {
+    "transform": "scaleX(1)"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  }
+ ],
+ "markup": "<div class=\"m-news-list\"><a href=\"/m/zh-cn/news/166535\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_2628406247496769925.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/10/01</div> <div class=\"news-tag mobile\">\n  新闻\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              《绝区零》2026年10月月历壁纸\n            </div> <div class=\"m-news-list__item-desc ellipsis\">亲爱的绳匠，欢迎下载&amp;使用10月月历壁纸~</div></div></a><a href=\"/m/zh-cn/news/166498\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166498/801579a8589b04bef42c4d475bc6ba81_9070677666140127897.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/10/01</div> <div class=\"news-tag mobile\">\n  公告\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              「跛脚乌鸦奇探录」活动说明\n            </div> <div class=\"m-news-list__item-desc ellipsis\">「跛脚乌鸦奇探录」活动说明</div></div></a><a href=\"/m/zh-cn/news/166497\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166497/721f26d02e752b034fa4c0375060333d_6904896181431312895.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/30</div> <div class=\"news-tag mobile\">\n  新闻\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              她与她的隐秘往事丨3.2版本内容一览（下期）\n            </div> <div class=\"m-news-list__item-desc ellipsis\">绳匠们好，3.2版本现已开启！S级代理人[洛克茜(风·击破)]、[普罗米娅(冰·异常)]与S级音擎[绯月银棺(击破)]、[朔月裁霜(异常)]加入限时频段~ </div></div></a><a href=\"/m/zh-cn/news/166496\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166496/6e21865917d0d671b4821d0be5ba6c10_7627518777412622827.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/29</div> <div class=\"news-tag mobile\">\n  新闻\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              生日快乐南宫羽丨绝无仅有的大奖\n            </div> <div class=\"m-news-list__item-desc ellipsis\">「欢迎光临『盒』玩具店，我是今日店长南宫羽，有什么问题都可以找我哦~」</div></div></a><a href=\"/m/zh-cn/news/166476\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166476/3cb9766cf1ffc6f694c9257033575df5_4878917223056569186.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/28</div> <div class=\"news-tag mobile\">\n  公告\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              「锵锵！球仔成长日记」活动说明\n            </div> <div class=\"m-news-list__item-desc ellipsis\">「锵锵！球仔成长日记」活动说明</div></div></a><a href=\"/m/zh-cn/news/166475\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/5e5c5daefb39338f4a40d31a3b4a9ccf_7857193178439832577.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/28</div> <div class=\"news-tag mobile\">\n  公告\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              3.2版本限时频段（下期）\n            </div> <div class=\"m-news-list__item-desc ellipsis\">3.2版本限时频段（下期）</div></div></a><a href=\"/m/zh-cn/news/166474\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166474/94a8b21ac95365618e5113bee72be78f_6196668736871295541.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/27</div> <div class=\"news-tag mobile\">\n  新闻\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              代理人机制介绍丨洛克茜篇\n            </div> <div class=\"m-news-list__item-desc ellipsis\">资料库中已收录代理人「洛克茜」的战斗相关信息，重点内容解析完毕，请查收。</div></div></a><a href=\"/m/zh-cn/news/166451\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166451/b261b703d4029c81ac10c5915eac1a58_8124598418017673992.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/26</div> <div class=\"news-tag mobile\">\n  新闻\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              代理人未归档影像丨洛克茜篇\n            </div> <div class=\"m-news-list__item-desc ellipsis\">「来得正好，翘班的理由找到了。」</div></div></a><a href=\"/m/zh-cn/news/166450\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166450/b81c09c8eb50b9b60865e10ad0c5244e_3806073254808076687.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/25</div> <div class=\"news-tag mobile\">\n  新闻\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              丽都有丽事丨真·不可售影像 \n            </div> <div class=\"m-news-list__item-desc ellipsis\">关于家主大人执意留下的这帧「纪念影像」，首席助手在归档栏里写道：</div></div></a><a href=\"/m/zh-cn/news/166449\" class=\"m-news-list__item\"><div class=\"m-news-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166449/f97f32078e4deab625421895c2d406a2_4127820911485543707.jpg\" alt=\"banner\"></div> <div class=\"m-news-list__item-content\"><div class=\"m-news-list__item-date\"><div>2026/09/25</div> <div class=\"news-tag mobile\">\n  新闻\n</div></div> <div class=\"m-news-list__item-title ellipsis\">\n              盈月辉光丨弗林特工坊\n            </div> <div class=\"m-news-list__item-desc ellipsis\">「小姐。辉金活性在满月之日达到峰值。持续约六小时，已经记录下来了。」</div></div></a></div>",
+ "markupPage": "m_zh-cn_news",
+ "markupClass": "news-list",
+ "appearsOn": [
+  "zh-cn_news"
+ ],
+ "computed": {
+  "news-list": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 697.515625,
+    "width": 720,
+    "height": 837.984375,
+    "top": 697.515625,
+    "right": 1080,
+    "bottom": 1535.5,
+    "left": 360
+   },
+   "text": "2026/10/01 \n  新闻\n \n                《绝区零》2026年10月月历壁纸\n               亲爱的绳匠，欢迎下载&使",
+   "display": "flex",
+   "width": "720px",
+   "height": "837.984px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "61.875px 0px 11.25px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center"
+  },
+  "news-list__item": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 697.515625,
+    "width": 222.75,
+    "height": 232.078125,
+    "top": 697.515625,
+    "right": 582.75,
+    "bottom": 929.59375,
+    "left": 360
+   },
+   "text": "2026/10/01 \n  新闻\n \n                《绝区零》2026年10月月历壁纸\n               亲爱的绳匠，欢迎下载&使",
+   "display": "block",
+   "width": "222.75px",
+   "height": "232.078px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "transform 0.5s, opacity 0.5s, color 0.5s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 25.875px 47.25px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "news-list__item-banner": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 697.515625,
+    "width": 222.75,
+    "height": 123.75,
+    "top": 697.515625,
+    "right": 582.75,
+    "bottom": 821.265625,
+    "left": 360
+   },
+   "text": "",
+   "display": "flex",
+   "width": "222.75px",
+   "height": "123.75px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 238)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 238)",
+   "border-radius": "0px 19.6875px",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto",
+   "justify-content": "center"
+  },
+  "news-list__item-content": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 840.390625,
+    "width": 222.75,
+    "height": 89.203125,
+    "top": 840.390625,
+    "right": 582.75,
+    "bottom": 929.59375,
+    "left": 360
+   },
+   "text": "2026/10/01 \n  新闻\n \n                《绝区零》2026年10月月历壁纸\n               亲爱的绳匠，欢迎下载&使",
+   "display": "block",
+   "width": "222.75px",
+   "height": "89.2031px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "19.125px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "news-list__item-date": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 840.390625,
+    "width": 222.75,
+    "height": 14.625,
+    "top": 840.390625,
+    "right": 582.75,
+    "bottom": 855.015625,
+    "left": 360
+   },
+   "text": "2026/10/01 \n  新闻",
+   "display": "flex",
+   "width": "222.75px",
+   "height": "14.625px",
+   "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.25px",
+   "font-weight": "400",
+   "line-height": "11.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  },
+  "news-list__item-desc": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 899.21875,
+    "width": 222.75,
+    "height": 30.375,
+    "top": 899.21875,
+    "right": 582.75,
+    "bottom": 929.59375,
+    "left": 360
+   },
+   "text": "亲爱的绳匠，欢迎下载&使用10月月历壁纸~",
+   "display": "flow-root",
+   "width": "222.75px",
+   "height": "30.375px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "14.625px",
+   "color": "rgb(122, 122, 122)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(122, 122, 122)",
+   "margin": "9px 0px 0px",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "news-list__item-title": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 874.140625,
+    "width": 222.75,
+    "height": 16.078125,
+    "top": 874.140625,
+    "right": 582.75,
+    "bottom": 890.21875,
+    "left": 360
+   },
+   "text": "《绝区零》2026年10月月历壁纸",
+   "display": "block",
+   "width": "222.75px",
+   "height": "16.0781px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "12.375px",
+   "font-weight": "800",
+   "line-height": "16.0875px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "margin": "19.125px 0px 0px",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [
+  {
+   "page": "zh-cn_news",
+   "cls": "news-list__item-banner",
+   "diff": {
+    "IMG#1#0": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1.15, 0, 0, 1.15, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news",
+   "cls": "news-list__item",
+   "diff": {
+    "IMG#3#0": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1.15, 0, 0, 1.15, 0, 0)"
+     }
+    }
+   },
+   "transition": "transform 0.5s, opacity 0.5s, color 0.5s"
+  }
+ ],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000",
+   "#222122",
+   "#7a7a7a"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".2rem",
+   ".22rem",
+   ".16rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "transform 500ms,opacity 500ms,color 500ms",
+   "transform 300ms"
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "summary": "Vue component `back-top`, a scroll-to-top button. It renders a `button.backTop` with the `backTop--show` modifier and the `theme` prop (default `light`) as classes; it listens to window `scroll` (bound on mount, removed before destroy) and shows itself once the scroll offset exceeds half the viewport height, and on click animates `html,body` to `scrollTop: 0` with jQuery and tracks `back_to_top` via `$trackButton`.",
+  "exports": {
+    "a": "the back-top Vue component (normalized component exports)"
+  },
+  "renames": {
+    "o_1": "backTopOptions",
+    "l_2": "componentNormalizer",
+    "t_3": "scrollTop",
+    "e_4": "viewportHeight",
+    "t_5": "vm"
+  }
+}

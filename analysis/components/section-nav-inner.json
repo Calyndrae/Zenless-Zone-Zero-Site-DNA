@@ -1,0 +1,89 @@
+{
+ "component": "section-nav-inner",
+ "files": [
+  "1135.css"
+ ],
+ "classes": {
+  "section-nav-inner": "section-nav-inner"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".section-nav-inner",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "0",
+    "z-index": "2",
+    "width": "3.02rem",
+    "padding-left": ".2rem",
+    "text-align": "left",
+    "pointer-events": "auto"
+   },
+   "source": "/_nuxt/1e69d9d.js /_nuxt/3b23566.js /_nuxt/3f59e77.js /_nuxt/44468dc.js /_nuxt/53d09dd.js /_nuxt/8c53a05.js /_nuxt/ba4082a.js #1135"
+  }
+ ],
+ "markup": "<div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">角色介绍</div> <div class=\"m-section-nav-en\">Characters</div> <div class=\"m-section-nav-num\">02</div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "section-nav-inner",
+ "appearsOn": [
+  "zh-cn_character",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "section-nav-inner": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": -0.5625,
+    "y": 163.125,
+    "width": 169.875,
+    "height": 115.875,
+    "top": 163.125,
+    "right": 169.3125,
+    "bottom": 279,
+    "left": -0.5625
+   },
+   "text": "角色介绍 Characters 02",
+   "position": "absolute",
+   "display": "block",
+   "width": "169.875px",
+   "height": "115.875px",
+   "top": "16.875px",
+   "left": "387.562px",
+   "bottom": "265.5px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "padding": "0px 0px 0px 11.25px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": []
+ }
+}

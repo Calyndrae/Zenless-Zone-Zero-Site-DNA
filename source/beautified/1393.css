@@ -1,0 +1,99 @@
+.home {
+  position: relative;
+  overflow: hidden;
+}
+.home .section-wrap {
+  width: 19.2rem;
+  margin: 0 auto;
+}
+.home .section-index {
+  width: 19.2rem;
+  margin: 0 auto;
+}
+.home .section-character {
+  width: 19.2rem;
+  padding-top: 1.4rem;
+}
+.home .section-character .fill-black {
+  top: -3.3rem;
+}
+.home .section-character .fill-black-right {
+  top: -4.86rem;
+}
+.home .section-video .fill-black-right {
+  top: 8rem;
+  right: 0;
+}
+.home .section-video .fill-film-bar {
+  width: 20.92rem;
+  height: 0.67rem;
+  background-image: url(/_nuxt/img/fill-film-bar.0db1011.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+  margin-left: -3.2rem;
+}
+.home .section-video .fill-black-bar-video {
+  position: absolute;
+  top: 8.58rem;
+  left: 8.46rem;
+  width: 13.51rem;
+  z-index: -1;
+}
+.home section {
+  position: relative;
+}
+.home .fill {
+  pointer-events: none;
+}
+.home .fill img {
+  width: 100%;
+}
+.home .fill-text {
+  position: absolute;
+  top: 0.1rem;
+  right: -1.65rem;
+  width: 1.65rem;
+}
+.home .fill-bg {
+  position: absolute;
+  top: 2.32rem;
+  left: -3.22rem;
+  width: 14.42rem;
+}
+.home .fill-black {
+  position: absolute;
+  top: 0;
+  left: -3.22rem;
+  width: 25.62rem;
+}
+.home .fill-black-right {
+  position: absolute;
+  top: -4.7rem;
+  right: -3.2rem;
+  width: 9.48rem;
+  z-index: 1;
+}
+.home .fill-black-right-feature {
+  z-index: -1;
+}
+.home .fill-black-right .fill-black-bar {
+  position: absolute;
+  top: -1.1rem;
+  left: -2.8rem;
+  width: 12.4rem;
+}
+.home .section-feature .fill-black-bar {
+  left: unset;
+  top: -1.76rem;
+  right: 0.93rem;
+  width: 12.4rem;
+}
+.home .fill-black-bar-feature {
+  position: absolute;
+  top: -0.48rem;
+  left: 7.5rem;
+  width: 13.51rem;
+  z-index: -1;
+}

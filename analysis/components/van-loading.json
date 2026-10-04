@@ -1,0 +1,453 @@
+{
+ "component": "van-loading",
+ "files": [
+  "202.css"
+ ],
+ "classes": {
+  "van-loading": "van-loading",
+  "van-loading__spinner": "van-loading__spinner",
+  "van-loading__spinner--spinner": "van-loading__spinner--spinner",
+  "van-loading__spinner--circular": "van-loading__spinner--circular",
+  "van-loading__circular": "van-loading__circular",
+  "van-loading__text": "van-loading__text",
+  "van-loading--vertical": "van-loading--vertical"
+ },
+ "ruleCount": 24,
+ "rules": [
+  {
+   "selector": ".van-loading",
+   "media": [],
+   "declarations": {
+    "color": "#c8c9cc",
+    "font-size": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading,.van-loading__spinner",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "vertical-align": "middle"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "width": "30px",
+    "max-width": "100%",
+    "height": "30px",
+    "max-height": "100%",
+    "-webkit-animation": "van-rotate .8s linear infinite",
+    "animation": "van-rotate .8s linear infinite"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner",
+   "media": [],
+   "declarations": {
+    "-webkit-animation-timing-function": "steps(12)",
+    "animation-timing-function": "steps(12)"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:before",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "width": "2px",
+    "height": "25%",
+    "margin": "0 auto",
+    "background-color": "currentColor",
+    "border-radius": "40%",
+    "content": "\" \""
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--circular",
+   "media": [],
+   "declarations": {
+    "-webkit-animation-duration": "2s",
+    "animation-duration": "2s"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__circular",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__circular circle",
+   "media": [],
+   "declarations": {
+    "-webkit-animation": "van-circular 1.5s ease-in-out infinite",
+    "animation": "van-circular 1.5s ease-in-out infinite",
+    "stroke": "currentColor",
+    "stroke-width": "3",
+    "stroke-linecap": "round"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__text",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "margin-left": "8px",
+    "color": "#969799",
+    "font-size": "14px",
+    "vertical-align": "middle"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading--vertical",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "-webkit-box-orient": "vertical",
+    "-webkit-box-direction": "normal",
+    "-ms-flex-direction": "column",
+    "flex-direction": "column",
+    "-webkit-box-align": "center",
+    "-ms-flex-align": "center",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading--vertical .van-loading__text",
+   "media": [],
+   "declarations": {
+    "margin": "8px 0 0"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:first-of-type",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(30deg)",
+    "-ms-transform": "rotate(30deg)",
+    "transform": "rotate(30deg)",
+    "opacity": "1"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(2)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(60deg)",
+    "-ms-transform": "rotate(60deg)",
+    "transform": "rotate(60deg)",
+    "opacity": ".9375"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(3)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(90deg)",
+    "-ms-transform": "rotate(90deg)",
+    "transform": "rotate(90deg)",
+    "opacity": ".875"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(4)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(120deg)",
+    "-ms-transform": "rotate(120deg)",
+    "transform": "rotate(120deg)",
+    "opacity": ".8125"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(5)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(150deg)",
+    "-ms-transform": "rotate(150deg)",
+    "transform": "rotate(150deg)",
+    "opacity": ".75"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(6)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(180deg)",
+    "-ms-transform": "rotate(180deg)",
+    "transform": "rotate(180deg)",
+    "opacity": ".6875"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(7)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(210deg)",
+    "-ms-transform": "rotate(210deg)",
+    "transform": "rotate(210deg)",
+    "opacity": ".625"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(8)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(240deg)",
+    "-ms-transform": "rotate(240deg)",
+    "transform": "rotate(240deg)",
+    "opacity": ".5625"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(9)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(270deg)",
+    "-ms-transform": "rotate(270deg)",
+    "transform": "rotate(270deg)",
+    "opacity": ".5"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(10)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(300deg)",
+    "-ms-transform": "rotate(300deg)",
+    "transform": "rotate(300deg)",
+    "opacity": ".4375"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(11)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(330deg)",
+    "-ms-transform": "rotate(330deg)",
+    "transform": "rotate(330deg)",
+    "opacity": ".375"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-loading__spinner--spinner i:nth-of-type(12)",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(1turn)",
+    "-ms-transform": "rotate(1turn)",
+    "transform": "rotate(1turn)",
+    "opacity": ".3125"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "van-rotate",
+   "file": "202.css",
+   "source": "/_nuxt/be1f69b.js #202",
+   "css": "@-webkit-keyframes van-rotate{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "-webkit-transform": "rotate(0)",
+      "transform": "rotate(0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "-webkit-transform": "rotate(1turn)",
+      "transform": "rotate(1turn)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "van-rotate",
+   "file": "202.css",
+   "source": "/_nuxt/be1f69b.js #202",
+   "css": "@keyframes van-rotate{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "-webkit-transform": "rotate(0)",
+      "transform": "rotate(0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "-webkit-transform": "rotate(1turn)",
+      "transform": "rotate(1turn)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "van-circular",
+   "file": "202.css",
+   "source": "/_nuxt/be1f69b.js #202",
+   "css": "@-webkit-keyframes van-circular{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:90,150;stroke-dashoffset:-40}to{stroke-dasharray:90,150;stroke-dashoffset:-120}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "stroke-dasharray": "1,200",
+      "stroke-dashoffset": "0"
+     }
+    },
+    {
+     "at": "50%",
+     "declarations": {
+      "stroke-dasharray": "90,150",
+      "stroke-dashoffset": "-40"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "stroke-dasharray": "90,150",
+      "stroke-dashoffset": "-120"
+     }
+    }
+   ]
+  },
+  {
+   "name": "van-circular",
+   "file": "202.css",
+   "source": "/_nuxt/be1f69b.js #202",
+   "css": "@keyframes van-circular{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:90,150;stroke-dashoffset:-40}to{stroke-dasharray:90,150;stroke-dashoffset:-120}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "stroke-dasharray": "1,200",
+      "stroke-dashoffset": "0"
+     }
+    },
+    {
+     "at": "50%",
+     "declarations": {
+      "stroke-dasharray": "90,150",
+      "stroke-dashoffset": "-40"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "stroke-dasharray": "90,150",
+      "stroke-dashoffset": "-120"
+     }
+    }
+   ]
+  },
+  {
+   "name": "van-rotate",
+   "file": "1054.css",
+   "source": "/_nuxt/be1f69b.js #1054",
+   "css": "@-webkit-keyframes van-rotate{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "-webkit-transform": "rotate(0)",
+      "transform": "rotate(0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "-webkit-transform": "rotate(1turn)",
+      "transform": "rotate(1turn)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "van-rotate",
+   "file": "1054.css",
+   "source": "/_nuxt/be1f69b.js #1054",
+   "css": "@keyframes van-rotate{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "-webkit-transform": "rotate(0)",
+      "transform": "rotate(0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "-webkit-transform": "rotate(1turn)",
+      "transform": "rotate(1turn)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "#c8c9cc",
+   "#969799"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "0",
+   "14px"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "van-rotate .8s linear infinite",
+   "van-circular 1.5s ease-in-out infinite"
+  ]
+ }
+}

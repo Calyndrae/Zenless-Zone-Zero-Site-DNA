@@ -1,0 +1,11 @@
+{
+  "summary": "Babel runtime helper toConsumableArray. It converts an array (via arrayLikeToArray, module 265), an iterable (iterableToArray, module 350) or an array-like (unsupportedIterableToArray, module 205) into a new array, and throws a TypeError about spreading a non-iterable instance otherwise.",
+  "exports": {
+    "a": "toConsumableArray(value) Babel helper"
+  },
+  "renames": {
+    "l_1": "toConsumableArray",
+    "e_2": "value",
+    "e_3": "maybeArray"
+  }
+}

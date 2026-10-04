@@ -1,0 +1,34 @@
+{
+  "summary": "mi-ho-yo-pager-rich Vue component (rich pagination). Props totalPage, showItems (5), showPrev/showNext/showJump, initPage, mode (\"event\" | \"query\" | \"params\"), routeName (required for params mode, else created throws), prevText/nextText (上一页/下一页), totalText, jumpText, pagerClass and simpleStyle; data currentPage/jumpPage and a computed pages window around the current page. go(page) clamps to 1..totalPage and then updates $route.query.page or $route.params.page via $router.go, or emits \"go\". It renders div.mihoyo-pager-rich with __pages (prev/next links with --simple variants, first/last __button, __ellipsis markers, page buttons with __current) and, unless simpleStyle, a __jump block (__text, __total, number __input bound to jumpPage, __go button). Normalised with componentNormalizer (module 36); styles from module 1169.",
+  "exports": {
+    "a": "mi-ho-yo-pager-rich Vue component (pagination with jump-to-page)"
+  },
+  "renames": {
+    "o_1": "pagerOptions",
+    "n_2": "componentNormalizer",
+    "e_3": "self",
+    "t_4": "buildRange",
+    "r_5": "showItems",
+    "o_6": "halfWindow",
+    "n_7": "rangeEnd",
+    "t_8": "start",
+    "r_9": "end",
+    "o_10": "range",
+    "i_11": "page",
+    "e_12": "newCurrentPage",
+    "e_13": "newInitPage",
+    "e_14": "targetPage",
+    "t_15": "routeQuery",
+    "r_16": "routeParams",
+    "e_17": "vm",
+    "t_18": "h",
+    "t_19": "prevClickEvent",
+    "t_20": "firstClickEvent",
+    "r_21": "pageNum",
+    "t_22": "pageClickEvent",
+    "t_23": "lastClickEvent",
+    "t_24": "nextClickEvent",
+    "t_25": "inputEvent",
+    "t_26": "goClickEvent"
+  }
+}

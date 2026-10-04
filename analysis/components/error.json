@@ -1,0 +1,166 @@
+{
+ "component": "error",
+ "files": [
+  "660.css"
+ ],
+ "classes": {
+  "error": "error",
+  "error__404": "error__404",
+  "error__500": "error__500",
+  "error__text": "error__text",
+  "error__text-sub": "error__text-sub",
+  "error__btn": "error__btn",
+  "error__text-main": "error__text-main"
+ },
+ "ruleCount": 12,
+ "rules": [
+  {
+   "selector": ".error",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "100%",
+    "height": "100%",
+    "text-align": "center",
+    "display": "flex",
+    "flex-direction": "column",
+    "justify-content": "center",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__404 img",
+   "media": [],
+   "declarations": {
+    "width": "4.6rem"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__500 img",
+   "media": [],
+   "declarations": {
+    "width": "9.7rem"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__500 .error__text",
+   "media": [],
+   "declarations": {
+    "font-size": ".5rem"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__500 .error__text-sub",
+   "media": [],
+   "declarations": {
+    "margin-top": ".3rem",
+    "font-size": ".3rem"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__text",
+   "media": [],
+   "declarations": {
+    "margin-top": "1.16rem",
+    "font-size": "22px"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__text-sub",
+   "media": [],
+   "declarations": {
+    "margin-top": ".1rem",
+    "font-size": "14px"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__btn",
+   "media": [],
+   "declarations": {
+    "margin-top": ".76rem",
+    "display": "inline-block",
+    "min-width": "1.8rem",
+    "padding": "0 .2rem",
+    "height": ".6rem",
+    "font-size": ".2rem",
+    "line-height": ".6rem",
+    "border-radius": ".3rem",
+    "color": "#fff",
+    "background-color": "#000",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__404",
+   "media": [
+    "@media (max-width: 1024px)"
+   ],
+   "declarations": {
+    "width": "80%"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__500",
+   "media": [
+    "@media (max-width: 1024px)"
+   ],
+   "declarations": {
+    "width": "80%"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__500 img",
+   "media": [
+    "@media (max-width: 1024px)"
+   ],
+   "declarations": {
+    "width": "5.4rem"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  },
+  {
+   "selector": ".error__500 .error__text-main",
+   "media": [
+    "@media (max-width: 1024px)"
+   ],
+   "declarations": {
+    "font-size": ".4rem"
+   },
+   "source": "/_nuxt/8c4c131.js #660"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff",
+   "#000"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".5rem",
+   ".3rem",
+   "22px",
+   "14px",
+   ".2rem",
+   ".4rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,1106 @@
+{
+ "component": "home-character",
+ "files": [
+  "1363.css"
+ ],
+ "classes": {
+  "home-character": "home-character",
+  "home-character__anim": "home-character__anim",
+  "home-character__main": "home-character__main",
+  "home-character__main-panel": "home-character__main-panel",
+  "home-character__main-nav": "home-character__main-nav",
+  "home-character__nav": "home-character__nav",
+  "home-character__nav-item": "home-character__nav-item",
+  "home-character__nav-mask": "home-character__nav-mask",
+  "home-character__main-swiper": "home-character__main-swiper",
+  "home-character__list": "home-character__list",
+  "home-character__list-empty": "home-character__list-empty",
+  "home-character__list-item": "home-character__list-item",
+  "home-character__role": "home-character__role",
+  "home-character__shade": "home-character__shade",
+  "home-character__info": "home-character__info",
+  "home-character__camp": "home-character__camp",
+  "home-character__name": "home-character__name"
+ },
+ "ruleCount": 41,
+ "rules": [
+  {
+   "selector": ".home-character[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": "10.86rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character .section-nav.lg[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "z-index": "1"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__anim[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "width": "11.16rem",
+    "height": "6.5rem",
+    "font-size": "7.22rem",
+    "line-height": "5.7rem",
+    "color": "rgba(239,239,239,.2)",
+    "white-space": "nowrap",
+    "border-top-right-radius": ".9rem",
+    "transition": "all .5s cubic-bezier(0.215, 0.61, 0.355, 1)",
+    "overflow": "hidden"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__anim .en-name-container[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "-3.23rem",
+    "font-size": "7.22rem",
+    "line-height": "5.7rem",
+    "color": "rgba(239,239,239,.1)",
+    "white-space": "nowrap",
+    "display": "flex",
+    "flex-wrap": "nowrap"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__anim .en-name-container .old-en-name[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "margin-right": "1rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "3rem",
+    "left": "1.78rem",
+    "width": "20.64rem",
+    "height": "7.86rem",
+    "z-index": "2",
+    "background": "url(/_nuxt/img/chara-panel-bg.86c2c99.png) no-repeat 0 0/100% 100%"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-panel[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "20.65rem",
+    "height": "7.86rem",
+    "background": "url(/_nuxt/img/chara-panel.20d68d6.png) no-repeat 0 0/100% 100%"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".38rem",
+    "bottom": ".35rem",
+    "z-index": "19",
+    "display": "flex",
+    "align-items": "center",
+    "max-width": "6.64rem",
+    "height": ".76rem",
+    "line-height": "0",
+    "padding": "0 .92rem",
+    "background-color": "#222122",
+    "border-radius": ".38rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .home-character__nav[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "transform": "skewX(-25.3deg)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .home-character__nav-item[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "1.6rem",
+    "height": ".6rem",
+    "cursor": "pointer",
+    "transform": "skewX(25.3deg)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .home-character__nav-item img[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "width": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .home-character__nav-mask[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "opacity": "0",
+    "position": "absolute",
+    "top": "-0.01rem",
+    "left": "0",
+    "width": "1.6rem",
+    "height": ".62rem",
+    "background": "url(data:image/png;base64,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) 0 0/100% 100%"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-slide:hover .home-character__nav-mask[data-v-c6f7f9a8],.home-character__main-nav .swiper-slide-thumb-active .home-character__nav-mask[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-navigation[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "50%",
+    "left": "50%",
+    "z-index": "99",
+    "width": "100%",
+    "height": "100%",
+    "transform": "translate(-50%, -50%)",
+    "pointer-events": "none"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-button-prev[data-v-c6f7f9a8],.home-character__main-nav .swiper-button-next[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "margin-top": "-0.3rem",
+    "width": ".84rem",
+    "height": ".6rem",
+    "background": "url(data:image/png;base64,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) center center/100% 100%",
+    "pointer-events": "auto",
+    "transform": "scale(1)",
+    "transition": "transform 300ms,opacity 300ms"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-button-prev.swiper-button-disabled[data-v-c6f7f9a8],.home-character__main-nav .swiper-button-next.swiper-button-disabled[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "opacity": ".5",
+    "pointer-events": "none"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-button-prev[data-v-c6f7f9a8]:hover,.home-character__main-nav .swiper-button-next[data-v-c6f7f9a8]:hover",
+   "media": [],
+   "declarations": {
+    "transform": "scale(1.12)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-button-prev[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "left": ".08rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-button-next[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "right": ".08rem",
+    "transform": "rotate(180deg)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-nav .swiper-button-next[data-v-c6f7f9a8]:hover",
+   "media": [],
+   "declarations": {
+    "transform": "rotate(180deg) scale(1.12)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__main-swiper[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": "0",
+    "left": "-2.8rem",
+    "width": "23.5rem",
+    "height": "12.53rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "width": "23.5rem",
+    "height": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list-empty[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": ".58rem",
+    "width": "20.63rem",
+    "height": "9.03rem",
+    "border-bottom-left-radius": ".66rem",
+    "overflow": "hidden",
+    "text-align": "right"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list-empty img[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "height": "100%",
+    "width": "auto"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list-item[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "width": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__role[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "bottom": "0",
+    "z-index": "2",
+    "width": "23.5rem",
+    "height": "12.53rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__role img[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "height": "100%",
+    "display": "block",
+    "margin": "0 auto",
+    "opacity": "0",
+    "transform": "translateX(50%)",
+    "transition": "all .5s cubic-bezier(0.215, 0.61, 0.355, 1)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__shade[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "14rem",
+    "bottom": ".73rem",
+    "z-index": "1",
+    "width": "9rem",
+    "height": "7.13rem",
+    "overflow": "hidden",
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "flex-start",
+    "align-items": "flex-start"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__shade img[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": "auto",
+    "opacity": "0",
+    "transform": "translateX(50%)",
+    "transition": "all .3s cubic-bezier(0.215, 0.61, 0.355, 1)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__info[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "1.54rem",
+    "bottom": "0",
+    "z-index": "3",
+    "padding-top": "1.95rem",
+    "width": "6.2rem",
+    "height": "7.86rem",
+    "text-align": "right"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__camp[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "margin-right": ".06rem",
+    "margin-bottom": ".14rem",
+    "font-size": ".42rem",
+    "color": "#222122",
+    "opacity": "0",
+    "transform": "translateX(200%)",
+    "transition": "all .4s cubic-bezier(0.215, 0.61, 0.355, 1)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": "[mi18n-lang=es-es] .home-character__list .home-character__camp[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "font-size": ".3rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": "[mi18n-lang=vi-vn] .home-character__list .home-character__camp[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "line-height": "1.3"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__name[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "font-size": ".88rem",
+    "color": "#222122"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": "[mi18n-lang=es-es] .home-character__list .home-character__name[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "font-size": ".7rem"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .home-character__name span[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "opacity": "0",
+    "transform": "translateX(200%)",
+    "transition": "all .6s cubic-bezier(0.215, 0.61, 0.355, 1)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character__list .swiper-slide-active .home-character__role img[data-v-c6f7f9a8],.home-character__list .swiper-slide-active .home-character__shade img[data-v-c6f7f9a8],.home-character__list .swiper-slide-active .home-character__camp[data-v-c6f7f9a8],.home-character__list .swiper-slide-active .home-character__name span[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "opacity": "1",
+    "transform": "translateX(0)"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character .more-btn[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": ".35rem",
+    "right": "1.5rem",
+    "z-index": "4"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character .chara-mask[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "bottom": "0",
+    "z-index": "2",
+    "width": "64%",
+    "height": "100%",
+    "background-color": "#1f1f1f",
+    "padding": ".3em 1em 0",
+    "text-decoration": "none",
+    "display": "inline-block",
+    "border-top-right-radius": "12%",
+    "clip-path": "polygon(100% 0, 100% 24%, 42% 100%, 0 100%, 0 0)",
+    "overflow": "hidden",
+    "white-space": "nowrap",
+    "line-height": ".75",
+    "font-size": "0"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character .chara-mask span[data-v-c6f7f9a8]",
+   "media": [],
+   "declarations": {
+    "font-size": "390px",
+    "color": "#606060"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  },
+  {
+   "selector": ".home-character .chara-mask[data-v-c6f7f9a8]::before",
+   "media": [],
+   "declarations": {
+    "display": "none",
+    "content": "\"\"",
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "right": "0",
+    "bottom": "0",
+    "background": "pink",
+    "border-radius": "10px"
+   },
+   "source": "/_nuxt/3b23566.js #1363"
+  }
+ ],
+ "markup": "<div data-v-4cbeaaa9=\"\" class=\"m-home-character\"><div data-v-4cbeaaa9=\"\" class=\"character-page-tab__m m-section-nav font-num lg\"><!----> <div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">角色介绍</div> <div class=\"m-section-nav-en\">Characters</div> <div class=\"m-section-nav-num\">02</div></div></div> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__anim\"><div data-v-4cbeaaa9=\"\">Severian Lowell</div></div> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__main\"><div data-v-4cbeaaa9=\"\" class=\"m-home-character__main-panel\"></div> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__main-nav\"><div data-v-4cbeaaa9=\"\" class=\"swiper-container m-home-character__nav swiper-container-initialized swiper-container-horizontal swiper-container-ios\"> <div class=\"swiper-wrapper\" style=\"transform: translate3d(0px, 0px, 0px);\"><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide swiper-slide-thumb-active swiper-slide-active\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/5b7a1f1b291e4faa618566394020060e_5689839607822342264.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide swiper-slide-next\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166075/c0e0ac1d128a4ac2fd7ac4ce8f3a9b85_1925037804287088239.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165591/2422c21d4ad5b0f7fdeeea7a12cabb58_3103671763155550777.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165587/1dac89f9a010360fee97a2b565df5b3b_6303130061632849261.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/164897/0b8df81d361f5c107439a0989b691297_311366182478865700.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/164866/6ff05850891c1d497988e196f56503d0_2329916733774491895.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/163786/45d619f746cb6914a10c15a6a81bcc31_6447749095878680964.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/163785/bdb0f9a62b920ae0bf82ea369a6e293f_9129330591140855389.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/163768/72593e16fe7fb810df13b184a04b75a5_8491031648194049311.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/163293/28d23c50c6c4f4cb06575b59d043e5af_6099103243789045887.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/163316/db1ee7a8af36bff7427951c3c85c0436_1098988075508054677.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/162680/5e310111c288e79458136872d29e1aba_123795829958409551.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/162652/b8b867d7725bd51fc67781d2adf10802_6049384073567286585.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/161792/527900f1eccab5b683c40783b0923cb6_5519753406619442779.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/161791/1782d10f7e3be156b513dd5c13b8199b_2213396738931141847.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/160762/72decac9f08ade9215c5c0b86001748a_6561191971186085326.png\" alt=\"\"> <div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-mask\"></div></div><div data-v-4cbeaaa9=\"\" class=\"m-home-character__nav-item swiper-no-swiping swiper-slide\"><img data-v-4cbeaaa9=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/160758/e67bd00a46d4\n<!-- … truncated, 69846 chars total -->",
+ "markupPage": "m_zh-cn_main",
+ "markupClass": "home-character",
+ "appearsOn": [
+  "zh-cn_main"
+ ],
+ "computed": {
+  "home-character": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 180,
+    "y": 987.1875,
+    "width": 1080,
+    "height": 610.875,
+    "top": 987.1875,
+    "right": 1260,
+    "bottom": 1598.0625,
+    "left": 180
+   },
+   "text": "角色介绍 Characters 02  Severian                                                    ",
+   "position": "relative",
+   "display": "block",
+   "width": "1080px",
+   "height": "610.875px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__anim": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 180,
+    "y": 987.1875,
+    "width": 627.75,
+    "height": 365.625,
+    "top": 987.1875,
+    "right": 807.75,
+    "bottom": 1352.8125,
+    "left": 180
+   },
+   "text": "Severian",
+   "display": "block",
+   "width": "627.75px",
+   "height": "365.625px",
+   "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "406.125px",
+   "font-weight": "400",
+   "line-height": "320.625px",
+   "color": "rgba(239, 239, 239, 0.2)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "0.5s cubic-bezier(0.215, 0.61, 0.355, 1)",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgba(239, 239, 239, 0.2)",
+   "border-radius": "0px 50.625px 0px 0px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__camp": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1427.75,
+    "y": 1265.625,
+    "width": 345.375,
+    "height": 23.625,
+    "top": 1265.625,
+    "right": 1773.125,
+    "bottom": 1289.25,
+    "left": 1427.75
+   },
+   "text": "都市秩序部",
+   "display": "block",
+   "width": "345.375px",
+   "height": "23.625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "23.625px",
+   "font-weight": "400",
+   "line-height": "23.625px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "0.4s cubic-bezier(0.215, 0.61, 0.355, 1)",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "margin": "0px 3.375px 7.875px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__info": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1427.75,
+    "y": 1155.9375,
+    "width": 348.75,
+    "height": 442.125,
+    "top": 1155.9375,
+    "right": 1776.5,
+    "bottom": 1598.0625,
+    "left": 1427.75
+   },
+   "text": "都市秩序部 赛维里安·洛威尔",
+   "position": "absolute",
+   "display": "block",
+   "width": "348.75px",
+   "height": "442.125px",
+   "top": "262.688px",
+   "left": "886.625px",
+   "right": "86.625px",
+   "z-index": "3",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 418.5, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "109.688px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__list": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 122.625,
+    "y": 893.25,
+    "width": 1321.875,
+    "height": 704.8125,
+    "top": 893.25,
+    "right": 1444.5,
+    "bottom": 1598.0625,
+    "left": 122.625
+   },
+   "text": "都市秩序部 赛维里安·洛威尔  坎卜斯黑枝 菲欧妮·蕾法爱菈  弗林特工坊 洛克茜·伊芙莉塔·普莱斯  弗林特工坊 克拉蕾·弗林特  空域巡戍局 希格莉德·德拉",
+   "position": "relative",
+   "display": "block",
+   "width": "1321.88px",
+   "height": "704.812px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__list-item": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 122.625,
+    "y": 893.25,
+    "width": 1322,
+    "height": 704.8125,
+    "top": 893.25,
+    "right": 1444.625,
+    "bottom": 1598.0625,
+    "left": 122.625
+   },
+   "text": "都市秩序部 赛维里安·洛威尔",
+   "position": "relative",
+   "display": "block",
+   "width": "1322px",
+   "height": "704.812px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "opacity",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "home-character__main": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 280.125,
+    "y": 1155.9375,
+    "width": 1161,
+    "height": 442.125,
+    "top": 1155.9375,
+    "right": 1441.125,
+    "bottom": 1598.0625,
+    "left": 280.125
+   },
+   "text": "都市秩序部 赛维里安·洛威尔  坎卜斯黑枝 菲欧妮·蕾法爱菈  弗林特工坊 洛克茜·伊芙莉塔·普莱斯  弗林特工坊 克拉蕾·弗林特  空域巡戍局 希格莉德·德拉",
+   "position": "absolute",
+   "display": "block",
+   "width": "1161px",
+   "height": "442.125px",
+   "top": "168.75px",
+   "left": "100.125px",
+   "right": "-181.125px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/chara-panel-bg.86c2c99.png\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__main-nav": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 301.5,
+    "y": 1535.625,
+    "width": 373.5,
+    "height": 42.75,
+    "top": 1535.625,
+    "right": 675,
+    "bottom": 1578.375,
+    "left": 301.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "373.5px",
+   "height": "42.75px",
+   "top": "379.688px",
+   "left": "21.375px",
+   "right": "766.125px",
+   "bottom": "19.6875px",
+   "z-index": "19",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(34, 33, 34)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "21.375px",
+   "padding": "0px 51.75px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  },
+  "home-character__main-panel": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1441.6875,
+    "y": 1155.9375,
+    "width": 1161.5625,
+    "height": 442.125,
+    "top": 1155.9375,
+    "right": 2603.25,
+    "bottom": 1598.0625,
+    "left": 1441.6875
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1161.56px",
+   "height": "442.125px",
+   "right": "-0.5625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/chara-panel.20d68d6.png\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 1161.56, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__main-swiper": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 122.625,
+    "y": 893.25,
+    "width": 1321.875,
+    "height": 704.8125,
+    "top": 893.25,
+    "right": 1444.5,
+    "bottom": 1598.0625,
+    "left": 122.625
+   },
+   "text": "都市秩序部 赛维里安·洛威尔  坎卜斯黑枝 菲欧妮·蕾法爱菈  弗林特工坊 洛克茜·伊芙莉塔·普莱斯  弗林特工坊 克拉蕾·弗林特  空域巡戍局 希格莉德·德拉",
+   "position": "absolute",
+   "display": "block",
+   "width": "1321.88px",
+   "height": "704.812px",
+   "top": "-262.688px",
+   "left": "-157.5px",
+   "right": "-3.375px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__name": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1916,
+    "y": 1297.125,
+    "width": 348.75,
+    "height": 99,
+    "top": 1297.125,
+    "right": 2264.75,
+    "bottom": 1396.125,
+    "left": 1916
+   },
+   "text": "赛维里安·洛威尔",
+   "display": "block",
+   "width": "348.75px",
+   "height": "99px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "49.5px",
+   "font-weight": "400",
+   "line-height": "49.5px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 488.25, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__nav": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 345.2732238769531,
+    "y": 1540.125,
+    "width": 285.9535827636719,
+    "height": 33.75,
+    "top": 1540.125,
+    "right": 631.226806640625,
+    "bottom": 1573.875,
+    "left": 345.2732238769531
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "270px",
+   "height": "33.75px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, -0.472698, 1, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__nav-item": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 353.25,
+    "y": 1540.125,
+    "width": 90,
+    "height": 33.75,
+    "top": 1540.125,
+    "right": 443.25,
+    "bottom": 1573.875,
+    "left": 353.25
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "90px",
+   "height": "33.75px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0.472698, 1, 0, 0)",
+   "transition": "transform, -webkit-transform",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "home-character__nav-mask": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 353.25,
+    "y": 1539.5625,
+    "width": 90,
+    "height": 34.875,
+    "top": 1539.5625,
+    "right": 443.25,
+    "bottom": 1574.4375,
+    "left": 353.25
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "90px",
+   "height": "34.875px",
+   "top": "-0.5625px",
+   "bottom": "-0.5625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"data:image/png;base64,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\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__role": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1973.25,
+    "y": 893.25,
+    "width": 1321.875,
+    "height": 704.8125,
+    "top": 893.25,
+    "right": 3295.125,
+    "bottom": 1598.0625,
+    "left": 1973.25
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1321.88px",
+   "height": "704.812px",
+   "right": "0.125px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 1850.62, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-character__shade": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1517.625,
+    "y": 1155.9375,
+    "width": 506.25,
+    "height": 401.0625,
+    "top": 1155.9375,
+    "right": 2023.875,
+    "bottom": 1557,
+    "left": 1517.625
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "506.25px",
+   "height": "401.062px",
+   "top": "262.688px",
+   "left": "787.5px",
+   "right": "28.25px",
+   "bottom": "41.0625px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 607.5, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "flex-start",
+   "align-items": "flex-start"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(239,239,239,.2)",
+   "rgba(239,239,239,.1)",
+   "#222122",
+   "#1f1f1f",
+   "#606060"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "7.22rem",
+   ".42rem",
+   ".3rem",
+   ".88rem",
+   ".7rem",
+   "0",
+   "390px"
+  ],
+  "zIndex": [
+   "1",
+   "2",
+   "19",
+   "99",
+   "3",
+   "4"
+  ],
+  "transitions": [
+   "all .5s cubic-bezier(0.215, 0.61, 0.355, 1)",
+   "transform 300ms,opacity 300ms",
+   "all .3s cubic-bezier(0.215, 0.61, 0.355, 1)",
+   "all .4s cubic-bezier(0.215, 0.61, 0.355, 1)",
+   "all .6s cubic-bezier(0.215, 0.61, 0.355, 1)"
+  ]
+ }
+}

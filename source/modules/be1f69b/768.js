@@ -1,0 +1,3 @@
+// module 768 from be1f69b.js
+// deps: 22, 89, 166, 30, 74, 39, 463, 468, 101
+const module_768 = function(e,t,n){"use strict";var r=n(22),o=n(89),c=n(166),l=n(30),f=n(74),d=n(39),h=n(463),m=n(468),v=n(101),y=c&&c.prototype;if(r({target:"Promise",proto:!0,real:!0,forced:!!c&&l((function(){y.finally.call({then:function(){}},(function(){}))}))},{finally:function(e){var t=h(this,f("Promise")),n=d(e);return this.then(n?function(n){return m(t,e()).then((function(){return n}))}:e,n?function(n){return m(t,e()).then((function(){throw n}))}:e)}}),!o&&d(c)){var w=f("Promise").prototype.finally;y.finally!==w&&v(y,"finally",w,{unsafe:!0})}};

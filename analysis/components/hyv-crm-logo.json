@@ -1,0 +1,36 @@
+{
+ "component": "hyv-crm-logo",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-crm-logo": "hyv-crm-logo"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".hyv-crm-logo,.hyv-subscription-logo",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "height": ".48em",
+    "margin": "0 auto .24em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

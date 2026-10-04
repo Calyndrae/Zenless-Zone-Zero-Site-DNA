@@ -1,0 +1,114 @@
+{
+ "at": "2026-10-04T00:25:12.296Z",
+ "results": [
+  {
+   "name": "shell untouched: the original scripts and the mirror adapter are the only head scripts in the served file",
+   "ok": true,
+   "detail": [
+    "/mirror/adapter.js",
+    "/archive/files/webstatic.hoyoverse.com/dora/base/jquery-1.11.1.js",
+    "/archive/files/webstatic.hoyoverse.com/dora/biz/hoyoverse-footer/v1/footer.js",
+    "/archive/files/webstatic.hoyoverse.com/dora/biz/hoyoverse-account-sdk/main.js",
+    "/archive/files/webstatic.hoyoverse.com/dora/biz/analysis/v2/main.js"
+   ]
+  },
+  {
+   "name": "news template rendered the handbook record",
+   "ok": true,
+   "detail": {
+    "ms": 6507
+   }
+  },
+  {
+   "name": "every chapter anchor is in the rendered DOM",
+   "ok": true,
+   "detail": {
+    "chapters": 41,
+    "found": 42,
+    "missing": []
+   }
+  },
+  {
+   "name": "rendered content matches the record (same number of headings, tables and images)",
+   "ok": true,
+   "detail": {
+    "h4": 42,
+    "table": 140
+   }
+  },
+  {
+   "name": "no build errors or unresolved excerpts in the content",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "embedded specimens render with non-zero size",
+   "ok": true,
+   "detail": {
+    "embedded": 74,
+    "nonZero": 68,
+    "zero": [
+     "swiper-pagination",
+     "swiper-pagination-clickable",
+     "swiper-pagination-bullet",
+     "swiper-pagination-bullet-active",
+     "swiper-button-prev",
+     "swiper-button-next"
+    ]
+   }
+  },
+  {
+   "name": "extra original stylesheets are present in the head",
+   "ok": true,
+   "detail": {
+    "styles": 38
+   }
+  },
+  {
+   "name": "hover parity: embedded specimens change the same computed property as the live measurement",
+   "ok": true,
+   "detail": [
+    "share__info.transform: no change",
+    "header__navbar-link.transform: no change",
+    "more-btn.color: match",
+    "home-kv__download.transform: match",
+    "home-kv__play.background-image: match",
+    "mihoyo-pager-rich__prev.transform: match",
+    "mihoyo-pager-rich__next.transform: match",
+    "news-list__item-banner.transform: no change",
+    "news-list__item.transform: no change",
+    "back-btn.background-image: no change",
+    "video-list__item-banner.transform: no change"
+   ]
+  },
+  {
+   "name": "the links to the mirror routes are in the handbook",
+   "ok": true,
+   "detail": {
+    "links": 532,
+    "sample": [
+     "/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.pdf",
+     "/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.md",
+     "#scope"
+    ]
+   }
+  },
+  {
+   "name": "no JavaScript errors from the site code",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "no missing files on this host",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "phone tree /m/zh-cn/news/7013 renders the handbook in the mobile news template",
+   "ok": true,
+   "detail": {
+    "url": "http://127.0.0.1:8798/m/zh-cn/news/7013/"
+   }
+  }
+ ]
+}

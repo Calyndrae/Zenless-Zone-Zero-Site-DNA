@@ -1,0 +1,69 @@
+{
+ "component": "hyv-button-ghost",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-button-ghost": "hyv-button-ghost",
+  "hyv-button-ghost__disable": "hyv-button-ghost__disable"
+ },
+ "ruleCount": 5,
+ "rules": [
+  {
+   "selector": ".hyv-button-ghost .hyv-loading__gradient-conic",
+   "media": [],
+   "declarations": {
+    "background": "conic-gradient(from 90deg at 50% 50%,hsla(0,0%,100%,0) 0deg,var(--brand-button-ghost-enabled-element) 1turn)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-ghost:hover .hyv-loading__gradient-conic",
+   "media": [],
+   "declarations": {
+    "background": "conic-gradient(from 90deg at 50% 50%,hsla(0,0%,100%,0) 0deg,var(--brand-button-ghost-hover-element) 1turn)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-ghost",
+   "media": [],
+   "declarations": {
+    "background": "transparent",
+    "border": "none",
+    "color": "var(--brand-button-ghost-enabled-element)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-ghost__disable",
+   "media": [],
+   "declarations": {
+    "color": "var(--brand-button-ghost-disabled-element) !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-button-ghost:hover",
+   "media": [],
+   "declarations": {
+    "color": "var(--brand-button-ghost-hover-element)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

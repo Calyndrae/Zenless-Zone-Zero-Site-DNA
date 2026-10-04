@@ -1,0 +1,24 @@
+{
+  "summary": "Nuxt page component `feature` for the desktop route `lang-feature`. `asyncData` calls the Nuxt `redirect` to `lang-main` unconditionally and also loads the feature list via the home content API (module 1164) `getFeature` (`/getContentList`, channel `CHANNEL_ID_CONFIG.FEATURE`) with `sLangKey: store.state.lang`, exposing it as `featureList`; `created` sets `activeFeature` to the first entry. It renders the desktop `pageTab` (nav-num 6), a `feature__title font-num` heading with the i18n `nav4Label`, and a vue-awesome-swiper `swiper` (ref `featureSwiper`, centered `auto` slides, `.swiper-pagination`) of `feature__slide` banners (`bannerInner`) plus, when there is more than one feature, `swiper-button-prev`/`swiper-button-next` arrows in `feature__navigation` whose clicks call `handleNavigatorUpload` (`$trackButton(\"features_next\")`). `slideChange` sets `activeFeature` from the swiper `realIndex`, and the active feature's title and HTML content (`sContent` or `summary`) render in `feature__info`; `head()` builds the title from i18n `nav4` + `seoTitlePrefix`.",
+  "exports": {
+    "default": "the `feature` desktop game-features page Vue component (route lang-feature, compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "r_1": "homeContentApi",
+    "c_2": "featurePageOptions",
+    "E_3": "componentNormalizer",
+    "t_4": "nuxtContext",
+    "e_5": "store",
+    "t_6": "featureResponse",
+    "t_7": "self",
+    "e_8": "createdGenerator",
+    "n_9": "featureListHead",
+    "e_10": "context",
+    "t_11": "realIndex",
+    "t_12": "vm",
+    "e_13": "h",
+    "t_14": "feature",
+    "t_15": "clickEvent",
+    "t_16": "mousemoveEvent"
+  }
+}

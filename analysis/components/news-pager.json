@@ -1,0 +1,87 @@
+{
+ "component": "news-pager",
+ "files": [
+  "1396.css"
+ ],
+ "classes": {
+  "news-pager": "news-pager"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".news-pager",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "center",
+    "position": "relative",
+    "margin-top": "0",
+    "font-size": "0",
+    "color": "#fff"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  },
+  {
+   "selector": ".news-pager .mihoyo-pager-rich",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "center",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/ba4082a.js #1396"
+  }
+ ],
+ "markup": "<div class=\"mihoyo-pager-rich news-pager\"><div class=\"mihoyo-pager-rich__pages\"><a class=\"mihoyo-pager-rich__prev\">&gt;</a> <a class=\"mihoyo-pager-rich__button mihoyo-pager-rich__current\">1</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">2</a><a class=\"mihoyo-pager-rich__button\">3</a><a class=\"mihoyo-pager-rich__button\">4</a><a class=\"mihoyo-pager-rich__button\">5</a> <strong class=\"mihoyo-pager-rich__ellipsis\">...</strong> <a class=\"mihoyo-pager-rich__button\">171</a> <a class=\"mihoyo-pager-rich__next\">&lt;</a></div> <!----></div>",
+ "markupPage": "zh-cn_news",
+ "markupClass": "news-pager",
+ "appearsOn": [
+  "zh-cn_news"
+ ],
+ "computed": {
+  "news-pager": {
+   "page": "zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 1546.75,
+    "width": 720,
+    "height": 29.25,
+    "top": 1546.75,
+    "right": 1080,
+    "bottom": 1576,
+    "left": 360
+   },
+   "text": "> 1 ... 2345 ... 171 <",
+   "position": "relative",
+   "display": "flex",
+   "width": "720px",
+   "height": "29.25px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "0"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

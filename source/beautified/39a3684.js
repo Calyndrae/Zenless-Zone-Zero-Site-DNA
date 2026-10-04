@@ -1,0 +1,398 @@
+(window.webpackJsonp = window.webpackJsonp || []).push([
+  [40],
+  {
+    1120: function (t, e, n) {
+      "use strict";
+      var r = n(47),
+        o = n(346)(5),
+        l = "find",
+        c = !0;
+      (l in [] &&
+        Array(1).find(function () {
+          c = !1;
+        }),
+        r(r.P + r.F * c, "Array", {
+          find: function (t) {
+            return o(this, t, arguments.length > 1 ? arguments[1] : void 0);
+          },
+        }),
+        n(345)(l));
+    },
+    1124: function (t, e, n) {
+      "use strict";
+      (n(67), n(155), n(77));
+      var r = n(1151),
+        o = n.n(r),
+        l = n(1117),
+        c = n(28),
+        d = n(1),
+        m = function (t) {
+          var e = arguments.length > 1 && void 0 !== arguments[1] && arguments[1],
+            n = arguments.length > 2 ? arguments[2] : void 0,
+            r = t.iTotal,
+            o = t.list,
+            l = o.filter(function (t) {
+              return !e || !t.sExt["news-self-path"];
+            });
+          return { iTotal: r - (e ? 1 : 0), list: l.slice(0, n) };
+        };
+      e.a = {
+        formatNews: function () {
+          var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
+          return (
+            t.forEach(function (t) {
+              var e = d.default.prototype.$getI18nWord("dateFormat");
+              ((t.sExt = "string" == typeof t.sExt ? JSON.parse(t.sExt) : t.sExt),
+                (t.banner = t.sExt["news-banner"][0].url),
+                (t.title = t.sTitle),
+                (t.summary = t.sIntro),
+                (t.date = o()(t.dtStartTime, e)),
+                (t.dateFormat = o()(t.dtStartTime, e)),
+                (t.id = t.iInfoId));
+            }),
+            t
+          );
+        },
+        getList: function () {
+          var t = this,
+            e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 },
+            n = function () {
+              var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+                e = Object.assign({ iPageSize: 20, iPage: 1 }, t);
+              return e;
+            };
+          return new Promise(function (r, o) {
+            Object(l.get)("".concat(c.apiBase, "/getContentList"), e, n, l.defaultFormatResult)
+              .then(function (data) {
+                ((data.list = t.formatNews(data.list)), r(data));
+              })
+              .catch(function (t) {
+                o(t);
+              });
+          });
+        },
+        getSliderNews: function () {
+          var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 },
+            e = arguments.length > 1 && void 0 !== arguments[1] && arguments[1];
+          return (
+            (t.data = Object.assign({ iPage: 1, iPageSize: 7 }, t.data || {})),
+            this.getAllNews(t).then(function (data) {
+              return m(data, e, t.data.iPageSize);
+            })
+          );
+        },
+        getAllNews: function () {
+          var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 },
+            e = arguments.length > 1 && void 0 !== arguments[1] && arguments[1],
+            n = Object.assign({ iChanId: c.CHANNEL_ID_CONFIG.NEWS.ALL, iPageSize: 9 }, t.data || {});
+          return (
+            (t.data = n),
+            this.getList(t).then(function (data) {
+              return m(data, e, n.iPageSize);
+            })
+          );
+        },
+        getDetail: function () {
+          var t = this,
+            e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 };
+          return (
+            (e.data = Object.assign({ iChanId: c.CHANNEL_ID_CONFIG.NEWS.ALL, iAround: 1 }, e.data || {})),
+            new Promise(function (n, r) {
+              Object(l.get)(
+                "".concat(c.apiBase, "/getContent"),
+                e,
+                l.defaultFormatParams,
+                l.defaultFormatResult,
+              )
+                .then(function (data) {
+                  var e = t.formatNews([data])[0];
+                  ((e.content = e.sContent), n(e));
+                })
+                .catch(function (t) {
+                  r(t);
+                });
+            })
+          );
+        },
+        getCates: function () {
+          var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 },
+            e = function () {
+              var t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+                param = Object.assign({ iChanId: c.CHANNEL_ID_CONFIG.NEWS.ALL, iPageSize: 10 }, t);
+              return param;
+            },
+            n = function (data) {
+              var t = {},
+                e = !1;
+              return (
+                data.children.forEach(function (n) {
+                  ((t[n.iChanId] = n), e || (e = n.iChanId === c.CHANNEL_ID_CONFIG.NEWS.ALL));
+                }),
+                e ||
+                  data.children.splice(0, 0, { iChanId: c.CHANNEL_ID_CONFIG.NEWS.ALL, name: data.sChanName }),
+                (data.arrList = data.children.slice(0, 4)),
+                (data.objList = t),
+                data
+              );
+            };
+          return Object(l.get)("/getChildTree", t, e, n);
+        },
+      };
+    },
+    1147: function (t, e, n) {
+      var content = n(1160);
+      (content.__esModule && (content = content.default),
+        "string" == typeof content && (content = [[t.i, content, ""]]),
+        content.locals && (t.exports = content.locals));
+      (0, n(55).default)("753f2330", content, !0, { sourceMap: !1 });
+    },
+    1159: function (t, e, n) {
+      "use strict";
+      n(1147);
+    },
+    1160: function (t, e, n) {
+      var r = n(54),
+        o = n(117),
+        l = n(1161),
+        c = r(!1),
+        d = o(l);
+      (c.push([
+        t.i,
+        '.news-tag{position:relative;min-width:.4rem;padding-left:.1rem;height:.26rem;font-size:.12rem;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:bold;white-space:nowrap;background:#000;color:#bfdb5a;border-top-left-radius:.14rem;border-bottom-left-radius:.14rem;line-height:.23rem}.news-tag::after{content:"";position:absolute;top:0;right:-0.16rem;z-index:-1;width:.2rem;height:.26rem;white-space:nowrap;background:url(' +
+          d +
+          ") right center/auto 100%}.news-tag.mobile::after{background-repeat:no-repeat}",
+        "",
+      ]),
+        (t.exports = c));
+    },
+    1161: function (t, e) {
+      t.exports =
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAQCAYAAABgIu2QAAAAAXNSR0IArs4c6QAAARdJREFUSEvNljFLA0EQhd/jutTHLlxhYSuSRghW4i/IDxDEQmz9KXY2FnYWNqKdaGVpGbSwEC1vppVAOO4c2YOTcAnaJbPdLgvz8WbmzRC9E2McATgBsG9mGySz/p8V3r/M7KaqqlN2QYuiGNR1fU7yEMDv+wqh/gp13QIlyKZpHgHsOgHrY8xa0BDCJckjp5AJa8o8z3eyLHt2mO553R4YY7wAcOxYzYQ2TqDvADYdg76KyDZDCPWaLeg/jQ5E5Mo1qJm9qeoWgMZ76ls1k+Sem+lFRIYAvltQx/Y0FpG7roBdGr6ZPanq3nyXeRyhMzMbqepkAbSb9w6WkimA1EC3fc9a2JLWsOZVZvZB8p7kWVmWn8uM9QeQn2pHGIhaowAAAABJRU5ErkJggg==";
+    },
+    1163: function (t, e, n) {
+      "use strict";
+      var r = n(32),
+        o = (n(98), n(556), n(1120), n(1124)),
+        l = {
+          name: "news-tag",
+          props: { channel: { type: [Number, String], default: "" }, mob: { type: Boolean, default: !1 } },
+          computed: {
+            newsCates: function () {
+              return this.$store.getters.newsCates || [];
+            },
+            currentChannel: function () {
+              var t = this;
+              return this.newsCates.find(function (e) {
+                return Number(e.iChanId) === Number(t.channel);
+              });
+            },
+            color: function () {
+              return "#BFDB5A";
+            },
+          },
+          created: function () {
+            (this.newsCates && this.newsCates.length) || this.getCates();
+          },
+          methods: {
+            getCates: function () {
+              var t = this;
+              return Object(r.a)(
+                regeneratorRuntime.mark(function e() {
+                  var n, r;
+                  return regeneratorRuntime.wrap(function (e) {
+                    for (;;)
+                      switch ((e.prev = e.next)) {
+                        case 0:
+                          return ((e.next = 2), o.a.getCates({ data: { sLangKey: t.$store.state.lang } }));
+                        case 2:
+                          ((n = e.sent), (r = n.arrList[0].children), t.$store.commit("setNewsCates", r));
+                        case 5:
+                        case "end":
+                          return e.stop();
+                      }
+                  }, e);
+                }),
+              )();
+            },
+          },
+        },
+        c = (n(1159), n(36)),
+        component = Object(c.a)(
+          l,
+          function () {
+            var t = this;
+            return (0, t._self._c)("div", { staticClass: "news-tag", class: { mobile: t.mob } }, [
+              t._v("\n  " + t._s(t.currentChannel && t.currentChannel.sChanName) + "\n"),
+            ]);
+          },
+          [],
+          !1,
+          null,
+          null,
+          null,
+        );
+      e.a = component.exports;
+    },
+    1212: function (t, e, n) {
+      var content = n(1323);
+      (content.__esModule && (content = content.default),
+        "string" == typeof content && (content = [[t.i, content, ""]]),
+        content.locals && (t.exports = content.locals));
+      (0, n(55).default)("12afbb50", content, !0, { sourceMap: !1 });
+    },
+    1322: function (t, e, n) {
+      "use strict";
+      n(1212);
+    },
+    1323: function (t, e, n) {
+      var r = n(54)(!1);
+      (r.push([
+        t.i,
+        '.m-news-detail{margin:1.1rem auto 0;min-height:100%}.m-news-detail.fromGame{width:80%}.m-news-detail-container{padding:.9rem .4rem;text-align:center}.m-news-detail__article{position:relative;text-align:left}.m-news-detail__title{font-size:.42rem;font-weight:800;line-height:1.3;text-align:center;color:#222122}.m-news-detail__info{display:flex;flex-direction:row;justify-content:space-between;align-items:center;height:.64rem;padding:0 .24rem;margin:.9rem 0;font-size:.24rem;color:#fff;background-color:#222122;border-radius:.32rem}.m-news-detail__info .breadcrumb{display:flex;align-items:center}.m-news-detail__info span{font-size:.24rem;margin-right:.1rem}.m-news-detail__info .news-tag{width:auto;font-size:.24rem;height:.24rem;line-height:.24rem;color:#fff;font-weight:normal;background:rgba(0,0,0,0)}.m-news-detail__info .news-tag::after{display:none}.m-news-detail__content{font-size:.26rem;line-height:1.5;color:#222122;overflow:hidden;word-break:break-all}.m-news-detail__content .table-wrapper{overflow:auto}.m-news-detail__content img,.m-news-detail__content video{max-width:100% !important;height:auto !important}.m-news-detail__content img{display:inline-block}.m-news-detail__content table{width:100%}.m-news-detail__content table,.m-news-detail__content td{border-collapse:collapse;border:solid 1px #c2c2c2}.m-news-detail__content td{padding-left:10px}.m-news-detail__content td p{text-align:inherit;max-width:90%}.m-news-detail__content a{max-width:100%;word-break:break-word}.m-news-detail__foot{display:flex;justify-content:center;margin-top:.9rem;text-align:center;font-size:0}.m-news-detail__back{display:flex;flex-direction:row;justify-content:center;align-items:center;min-width:2.42rem;height:.82rem;padding:0 .14rem;background:#000;border:.08rem solid #767678;border-radius:.42rem;font-size:.28rem;font-weight:500;color:#fff}.m-news-detail__back::after{margin-left:.26rem;font-size:.18rem;font-family:"icomoon",sans-serif !important;content:"";color:#d6d6d6;transform:rotate(-180deg)}',
+        "",
+      ]),
+        (t.exports = r));
+    },
+    1436: function (t, e, n) {
+      "use strict";
+      n.r(e);
+      var r = n(32),
+        o = (n(98), n(28)),
+        l = n(1124),
+        c = {
+          layout: "m/default",
+          components: { newsTag: n(1163).a },
+          data: function () {
+            return {};
+          },
+          head: function () {
+            return { title: "".concat(this.newsContent.title).concat(this.$getI18nWord("seoTitlePrefix")) };
+          },
+          computed: {
+            fromGame: function () {
+              return this.$route.query.nolandscape && this.$route.query.fromGame;
+            },
+          },
+          asyncData: function (t) {
+            return Object(r.a)(
+              regeneratorRuntime.mark(function e() {
+                var n, r, c, d, m;
+                return regeneratorRuntime.wrap(
+                  function (e) {
+                    for (;;)
+                      switch ((e.prev = e.next)) {
+                        case 0:
+                          return (
+                            (n = t.params),
+                            (r = t.redirect),
+                            (c = t.store),
+                            t.res,
+                            (d = n.id),
+                            (e.prev = 2),
+                            (e.next = 5),
+                            l.a.getDetail({
+                              data: {
+                                iInfoId: d,
+                                iChanId: o.CHANNEL_ID_CONFIG.NEWS.ALL,
+                                sLangKey: c.state.lang,
+                              },
+                            })
+                          );
+                        case 5:
+                          ((m = e.sent), (e.next = 12));
+                          break;
+                        case 8:
+                          ((e.prev = 8), (e.t0 = e.catch(2)), r({ name: "m-lang-news" }));
+                        case 12:
+                          return e.abrupt("return", { newsContent: m });
+                        case 13:
+                        case "end":
+                          return e.stop();
+                      }
+                  },
+                  e,
+                  null,
+                  [[2, 8]],
+                );
+              }),
+            )();
+          },
+          methods: {
+            handleBackUpload: function () {
+              this.$trackButton("news_back", "".concat(this.$route.params.id));
+            },
+          },
+          validate: function (t) {
+            var e = t.params;
+            return /^\d+$/.test(e.id);
+          },
+        },
+        d = (n(1322), n(36)),
+        component = Object(d.a)(
+          c,
+          function () {
+            var t = this,
+              e = t._self._c;
+            return e("div", { staticClass: "m-news-detail", class: { fromGame: t.fromGame } }, [
+              e(
+                "div",
+                { staticClass: "m-news-detail-container" },
+                [
+                  e("article", { staticClass: "m-news-detail__article" }, [
+                    e("div", { staticClass: "m-news-detail__title" }, [
+                      t._v("\n        " + t._s(t.newsContent.title) + "\n      "),
+                    ]),
+                    t._v(" "),
+                    e("div", { staticClass: "m-news-detail__info" }, [
+                      e(
+                        "div",
+                        { staticClass: "breadcrumb" },
+                        [
+                          e("span", [t._v(t._s(t.$getI18nWord("gameName")))]),
+                          t._v("\n          >\n          "),
+                          e("news-tag", { attrs: { channel: t.newsContent.sChanId[0] } }),
+                        ],
+                        1,
+                      ),
+                      t._v(" "),
+                      e("div", [t._v(t._s(t.newsContent.dateFormat))]),
+                    ]),
+                    t._v(" "),
+                    e("div", {
+                      staticClass: "m-news-detail__content",
+                      domProps: { innerHTML: t._s(t.newsContent.sContent) },
+                    }),
+                  ]),
+                  t._v(" "),
+                  e(
+                    "nuxt-link",
+                    {
+                      staticClass: "m-news-detail__foot",
+                      attrs: { to: { name: "m-lang-news" } },
+                      nativeOn: {
+                        click: function (e) {
+                          return t.handleBackUpload.apply(null, arguments);
+                        },
+                      },
+                    },
+                    [
+                      e("div", { staticClass: "m-news-detail__back" }, [
+                        t._v(t._s(t.$getI18nWord("textBack"))),
+                      ]),
+                    ],
+                  ),
+                ],
+                1,
+              ),
+            ]);
+          },
+          [],
+          !1,
+          null,
+          null,
+          null,
+        );
+      e.default = component.exports;
+    },
+  },
+]);

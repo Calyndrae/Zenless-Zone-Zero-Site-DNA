@@ -1,0 +1,3 @@
+// module 636 from 2e4935f.js
+// deps: 216, 145, 142, 108, 146
+const module_636 = function(t,e,n){var r=n(216)("meta"),o=n(145),c=n(142),f=n(108).f,l=0,d=Object.isExtensible||function(){return!0},h=!n(146)((function(){return d(Object.preventExtensions({}))})),v=function(t){f(t,r,{value:{i:"O"+ ++l,w:{}}})},meta=t.exports={KEY:r,NEED:!1,fastKey:function(t,e){if(!o(t))return"symbol"==typeof t?t:("string"==typeof t?"S":"P")+t;if(!c(t,r)){if(!d(t))return"F";if(!e)return"E";v(t)}return t[r].i},getWeak:function(t,e){if(!c(t,r)){if(!d(t))return!0;if(!e)return!1;v(t)}return t[r].w},onFreeze:function(t){return h&&meta.NEED&&d(t)&&!c(t,r)&&v(t),t}}};

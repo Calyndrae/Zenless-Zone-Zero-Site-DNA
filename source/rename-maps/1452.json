@@ -1,0 +1,26 @@
+{
+  "summary": "Nuxt page component for the desktop world-entry detail route `lang-world-id` (`scrollToTop`). `validate` only accepts numeric `params.id`; `asyncData` loads the entry via the world API (module 1152) `getDetail` (`/getContent`, channel `CHANNEL_ID_CONFIG.WORLD`) with `iInfoId: params.id` and `sLangKey: store.state.lang`, raising a Nuxt 404 `error` on failure, and exposes it as `worldContent` (its `sTitle` plus i18n `seoTitlePrefix` is the `head()` title). It renders `world-detail` with the desktop `pageTab` (nav-num 5), a `world-detail__back` `nuxt-link` to `lang-world` with `params.worldId`, and a `world-detail__article` (ref `desc`) holding `scaleIn` transitions around a client-only vue-awesome-swiper (ref `worldSwiper`, `.swiper-pagination` plus `.swiper-button-prev/next`, shown when `banner` has more than one image) of `banner` images whose click calls `gotoDetail`, the entry title and HTML `sContent`. A `world-detail__more` toggle (i18n `learnMore`/`textFold`) runs `handleMore`, which expands the article to `height: auto` or collapses it back to `8.5rem` and scrolls the window to the top with jQuery `$(window).scrollTop(0)`.",
+  "exports": {
+    "default": "the `lang-world-id` desktop world-entry detail page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "o_1": "worldApi",
+    "r_2": "worldDetailPageOptions",
+    "c_3": "componentNormalizer",
+    "t_4": "nuxtContext",
+    "e_5": "asyncDataGenerator",
+    "n_6": "worldId",
+    "l_7": "worldContent",
+    "e_8": "context",
+    "t_9": "descElement",
+    "t_10": "validateContext",
+    "e_11": "routeParams",
+    "t_12": "vm",
+    "e_13": "h",
+    "n_14": "bannerImage",
+    "l_15": "bannerIndex",
+    "e_16": "clickEvent",
+    "t_17": "paginationClickEvent",
+    "t_18": "mousemoveEvent"
+  }
+}

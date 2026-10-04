@@ -1,0 +1,31 @@
+{
+  "summary": "axios's browser XHR adapter (`lib/adapters/xhr.js`, CommonJS). It returns a Promise that builds an `XMLHttpRequest` from the request config: strips `Content-Type` for FormData, adds HTTP Basic `Authorization`, combines `baseURL`/`url` and serializes `params`, sets `timeout`, `withCredentials`, `responseType`, XSRF header from the cookie when same-origin or credentialed, request headers and progress listeners; on load it parses response headers and settles the promise via `settle`, rejects with `createError` on abort (`ECONNABORTED`), network error or timeout (`ETIMEDOUT` when `transitional.clarifyTimeoutError`), and supports cancellation through `cancelToken` and `AbortSignal` (rejecting with a `Cancel('canceled')`).",
+  "exports": {
+    "module.exports": "xhrAdapter(config) — performs the request and returns a Promise of the axios response"
+  },
+  "renames": {
+    "t_1": "config",
+    "e_2": "resolve",
+    "n_3": "reject",
+    "__4": "onCanceled",
+    "w_5": "requestData",
+    "x_6": "requestHeaders",
+    "O_7": "responseType",
+    "S_8": "done",
+    "E_9": "request",
+    "C_10": "username",
+    "k_11": "password",
+    "A_12": "fullPath",
+    "T_13": "onloadend",
+    "j_14": "xsrfValue",
+    "r_15": "responseHeaders",
+    "c_16": "response",
+    "t_17": "settledValue",
+    "t_18": "settledError",
+    "e_19": "timeoutErrorMessage",
+    "r_20": "transitional",
+    "t_21": "headerValue",
+    "e_22": "headerKey",
+    "t_23": "cancel"
+  }
+}

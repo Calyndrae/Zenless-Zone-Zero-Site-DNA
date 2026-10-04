@@ -1,0 +1,12 @@
+{
+  "summary": "protocol Vue component: the desktop layout for legal/protocol pages. It registers headerBar (module 348), footerBar (module 203) and backTop (module 347), takes props content and title, and exposes computed isMobile from $isMob. It renders div.page-protocol with <header-bar>, div.web-protocol > .web-protocol-container > .web-protocol__article holding .web-protocol__title, a .web-protocol__info breadcrumb (i18n gameName > title) and .web-protocol__content via innerHTML, a .backContainer with <backTop theme=\"reverse\">, then <footer-bar>. Normalised with componentNormalizer (module 36); styles from module 1139.",
+  "exports": {
+    "a": "protocol Vue component (desktop protocol article page)"
+  },
+  "renames": {
+    "l_1": "protocolOptions",
+    "f_2": "componentNormalizer",
+    "t_3": "vm",
+    "e_4": "h"
+  }
+}

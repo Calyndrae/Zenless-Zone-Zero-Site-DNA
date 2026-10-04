@@ -1,0 +1,34 @@
+{
+ "component": "fadeIn-enter",
+ "files": [
+  "664.css"
+ ],
+ "classes": {
+  "fadeIn-enter": "fadeIn-enter"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".fadeIn-enter,.fadeIn-leave-to",
+   "media": [],
+   "declarations": {
+    "opacity": "0"
+   },
+   "source": "/_nuxt/8c4c131.js #664"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

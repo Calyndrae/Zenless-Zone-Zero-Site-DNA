@@ -1,0 +1,26 @@
+{
+  "summary": "Async Nuxt plugin that detects the visitor's region. It requests `<ipApiBase>/event/event_fe_info/ip_location?game_biz=nap_global&ip_location_type=1&ip_config_key=ftc_country_code` with axios (credentials included, and in non-production builds an `x-rpc-e_client_ip` header taken from the `ip` query parameter), reads the `fe_2299282` flag from the response data and commits it to the store via the `setIsEnIp` mutation, silently ignoring request errors.",
+  "exports": {
+    "a": "the async Nuxt plugin function (context) that sets store.isEnIp"
+  },
+  "renames": {
+    "l_1": "envConfig",
+    "t_2": "pluginAsync",
+    "e_3": "nuxtContext",
+    "t_4": "ipLocationPlugin",
+    "r_5": "app",
+    "m_6": "fetchIpLocation",
+    "d_7": "ipLocationData",
+    "c_8": "isEnIp",
+    "t_9": "generatorContext",
+    "t_10": "fetchAsync",
+    "t_11": "fetchIpLocationGenerator",
+    "e_12": "headers",
+    "o_13": "urlUtils",
+    "r_14": "queryString",
+    "m_15": "debugIp",
+    "d_16": "response",
+    "t_17": "fetchContext",
+    "e_18": "pluginContext"
+  }
+}

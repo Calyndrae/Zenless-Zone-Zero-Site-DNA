@@ -1,0 +1,12 @@
+{
+  "summary": "m-protocol Vue component: the mobile layout for legal/protocol pages. It uses headerBar (module 349) and footerBar (module 203), takes props content and title, and computes fromGame from $route.query.nolandscape && $route.query.fromGame. It renders div.page-protocol with <header-bar>, div.m-web-protocol (fromGame class) > .m-web-protocol-container > .m-web-protocol__article holding .m-web-protocol__title, a .m-web-protocol__info breadcrumb (i18n gameName > title) and .m-web-protocol__content via innerHTML, then <footer-bar>. Normalised with componentNormalizer (module 36); styles from module 1132.",
+  "exports": {
+    "a": "m-protocol Vue component (mobile protocol article page)"
+  },
+  "renames": {
+    "r_1": "mProtocolOptions",
+    "c_2": "componentNormalizer",
+    "t_3": "vm",
+    "e_4": "h"
+  }
+}

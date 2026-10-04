@@ -1,0 +1,12 @@
+{
+  "summary": "Nuxt page component \"video-page\" for the non-localized /video route. Its only logic is a middleware that reads redirect and query from the Nuxt context and redirects to the named route \"lang-video\" with params.lang = store.state.lang, preserving the query. The render function outputs an empty div. Compiled with the vendor normalizeComponent helper (module 36).",
+  "exports": {
+    "default": "the \"video-page\" Vue component (redirect-only page to lang-video)"
+  },
+  "renames": {
+    "t_1": "videoPageOptions",
+    "e_2": "context",
+    "n_3": "redirect",
+    "r_4": "query"
+  }
+}

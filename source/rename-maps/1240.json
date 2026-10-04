@@ -1,0 +1,12 @@
+{
+  "summary": "User-model response cache. Creates a Store named \"responseData\" (from module 1176) and exports a default object with get(key), which logs via userModelUtils.log and returns Promise.resolve(JSON.parse(value)) when a cached entry exists (null otherwise), and set(key, data), which logs, stores JSON.stringify(data) and returns true. Pure data layer: no DOM, no Vue component.",
+  "exports": {
+    "default": "response cache facade { get(key) -> Promise|null, set(key, data) -> true } backed by a Store(\"responseData\")"
+  },
+  "renames": {
+    "r_1": "responseCacheStore",
+    "e_2": "cacheKey",
+    "t_3": "cachedJson",
+    "e_4": "entryKey"
+  }
+}

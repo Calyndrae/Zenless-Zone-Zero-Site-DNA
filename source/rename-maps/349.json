@@ -1,0 +1,41 @@
+{
+  "summary": "Vue component `m-header-bar`, the mobile site header. It extends the shared `base` mixin, registers `headerSocial`, builds its nav list from `HoYoverseMi18n.e` plus i18n-driven extra links (exchange/top_up/community under a `menu_more_label` group and `menu_care_link`), and renders `.m-header` with the logo (`.m-header__logo`, `.logo-icon`, `.logoSmall-img`), a download button (`.m-header__download` calling `$downloadIns.download()`), a `me-audio` BGM player (`.m-header__bgm`, storageKey `napSeaBgAudio`), a slide-in menu panel (`.m-header__menu`, `.m-header__menu-link`, `.nav-content-sub`) and login/user info blocks (`.header-user-info`, `.header-login-btn`). It reads `$store.state.lang`, `bgmMuted`, `homeSection`, commits `muteBgm`, navigates via `$router.push({ name: 'm-lang-<link>' })`, tracks clicks with `$trackEvent`/`$trackButton`, uses lodash `_.omit`, `$clipboard`, `$mtoast`, `$mJump` and `$accountRoleUtil.show()`, and toggles `showMenuBtn`/`isStartScroll` from the window scroll position.",
+  "exports": {
+    "a": "the m-header-bar Vue component (normalized component exports)"
+  },
+  "renames": {
+    "A_1": "headerBarOptions",
+    "m_2": "componentOptions",
+    "d_3": "componentNormalizer",
+    "t_4": "isMuted",
+    "t_5": "info",
+    "t_6": "url",
+    "t_7": "self",
+    "e_8": "navs",
+    "n_9": "moreSubNavs",
+    "t_10": "isPlaying",
+    "t_11": "routeName",
+    "t_12": "navIndex",
+    "e_13": "navTrackLabels",
+    "n_14": "routeQuery",
+    "t_15": "copyLinkSelf",
+    "t_16": "scrollTop",
+    "e_17": "viewportHeight",
+    "t_18": "guideIndex",
+    "t_19": "vm",
+    "e_20": "h",
+    "e_21": "logoClickEvent",
+    "e_22": "downloadClickEvent",
+    "e_23": "menuBtnClickEvent",
+    "e_24": "menuClickEvent",
+    "t_25": "menuTouchmoveEvent",
+    "t_26": "menuHeaderClickEvent",
+    "e_27": "menuCloseClickEvent",
+    "t_28": "menuContentClickEvent",
+    "n_29": "nav",
+    "o_30": "index",
+    "e_31": "navClickEvent",
+    "n_32": "subNav",
+    "e_33": "subNavClickEvent"
+  }
+}

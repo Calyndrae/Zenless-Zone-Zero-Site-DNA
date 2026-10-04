@@ -1,0 +1,261 @@
+{
+ "component": "character-info",
+ "files": [
+  "1250.css",
+  "1330.css"
+ ],
+ "classes": {
+  "character-info": "character-info"
+ },
+ "ruleCount": 16,
+ "rules": [
+  {
+   "selector": ".character-info",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "padding": "0 .4rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player",
+   "media": [],
+   "declarations": {
+    "width": "fit-content",
+    "min-width": "3.71rem",
+    "margin-top": ".18rem",
+    "height": ".54rem",
+    "border": ".06rem solid #000",
+    "border-radius": ".3rem",
+    "display": "flex",
+    "align-items": "center",
+    "padding-left": ".6rem",
+    "padding-right": ".1rem",
+    "justify-content": "space-between",
+    "position": "relative"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-btn",
+   "media": [],
+   "declarations": {
+    "width": ".54rem",
+    "height": ".54rem",
+    "position": "absolute",
+    "border-radius": ".3rem",
+    "background-color": "#000",
+    "left": "-0.06rem",
+    "top": "-0.06rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-btn-inner",
+   "media": [],
+   "declarations": {
+    "width": ".23rem",
+    "height": ".31rem",
+    "background-image": "url(data:image/png;base64,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)",
+    "background-size": "100% 100%"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-btn-inner-highlight",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": "100%",
+    "mask-image": "url(data:image/png;base64,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)",
+    "-webkit-mask-image": "url(data:image/png;base64,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)",
+    "mask-size": "100% 100%",
+    "-webkit-mask-size": "100% 100%",
+    "background-image": "linear-gradient(to bottom, rgba(191, 219, 90, 0) 0%, rgba(191, 219, 90, 0) var(--progress), rgb(191, 219, 90) calc(var(--progress) + 10%), rgb(191, 219, 90) 100%)"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player-name",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center",
+    "font-size": ".16rem",
+    "margin-right": ".1rem",
+    "line-height": ".3rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player-name-text",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css)",
+    "font-weight": "bolder",
+    "margin-left": ".1rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": "[lang=zh-cn] .character-info .character-voice-player-name,[lang=zh-tw] .character-info .character-voice-player-name",
+   "media": [],
+   "declarations": {
+    "font-size": ".25rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-lang-switcher",
+   "media": [],
+   "declarations": {
+    "width": ".76rem",
+    "height": ".3rem",
+    "background-color": "#000",
+    "border-radius": ".15rem",
+    "color": "#e8e8e8",
+    "font-size": ".16rem",
+    "position": "relative",
+    "cursor": "pointer",
+    "flex-shrink": "0"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-lang-switcher span",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "line-height": ".24rem",
+    "top": ".03rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-lang-switcher__1 span",
+   "media": [],
+   "declarations": {
+    "right": ".1rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-lang-switcher__1::after",
+   "media": [],
+   "declarations": {
+    "left": ".09rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-lang-switcher__0 span",
+   "media": [],
+   "declarations": {
+    "left": ".1rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-lang-switcher__0::after",
+   "media": [],
+   "declarations": {
+    "left": ".45rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info .character-voice-player .character-voice-lang-switcher::after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "width": ".2rem",
+    "height": ".2rem",
+    "background-color": "#e8e8e8",
+    "position": "absolute",
+    "top": ".045rem",
+    "border-radius": "50%",
+    "transition": "left .2s ease-in-out"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "12rem",
+    "top": "2.14rem",
+    "width": "10rem"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  }
+ ],
+ "markup": "<div class=\"character-info\"><div class=\"character-info-prop\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/b60b27574c9c70a791f7c46e7eda7c9c_7431480135044190857.png\" alt=\"\"> <img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/47fc72d0dae8e4f9d4889dfd5b11a4bc_281900660500507983.png\" alt=\"\"></div> <div class=\"character-info-name\"><!----> <span>赛维里安·洛威尔</span></div> <div class=\"character-voice-player\"><div class=\"character-voice-btn\"><div class=\"character-voice-btn-inner\"><div class=\"character-voice-btn-inner-highlight\"></div></div></div> <span class=\"character-voice-player-name\"><span>CV: </span> <span class=\"character-voice-player-name-text\">杨超然</span></span> <div class=\"character-voice-lang-switcher character-voice-lang-switcher__0\"><span>中</span></div></div> <div class=\"character-info-desc-container\"><div class=\"__vuescroll hasVBar vBarVisible\" style=\"height: 100%; width: 100%; padding: 0px; position: relative; overflow: hidden;\"><div class=\"__panel __hidebar\" style=\"position: relative; box-sizing: border-box; height: 100%; overflow: hidden scroll;\"><div class=\"__view\" style=\"position: relative; box-sizing: border-box; min-width: 100%; min-height: 100%; width: 100%;\"><div class=\"character-info-desc\"><p style=\"white-space: pre-wrap;\">「你们说大魔…呃，洛威尔长官？等、等等…他不在附近吧？你们确定？…好，那我就直说了！我从没见过他笑！他是真正的、真正的、真正的恶魔！」</p><p style=\"white-space: pre-wrap;\">——谨慎观察周围后，说话声越来越小、又陡然大叫起来的希希芙</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\">「大家都说，『赛维里安·洛威尔长官是所有治安官的榜样』。但我…好吧，虽然听起来有点可笑，但他不是我的榜样。如果『他能按照自己说好的时间回家』？那也不是！」</p><p style=\"white-space: pre-wrap;\">——赛斯</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\">「黑枝的档案里有他的资料。呃，这会不会有点夸张…我知道要『避免与之发生冲突』，但也不用最大字号、红色字体，加粗标注三次吧？」</p><p style=\"white-space: pre-wrap;\">——菲欧妮</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\">「长官他…好像会在大家出外勤的时候，给我的番茄和青衣前辈的绿植浇水？虽然我没有证据。我暂时还无法想象和他讨论任何工作以外的问题…」</p><p style=\"white-space: pre-wrap;\">——朱鸢</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p></div><div style=\"display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none; padding: 0px; margin: 0px; opacity: 0; z-index: -1000; pointer-events: none;\"><object type=\"text/html\" tabindex=\"-1\" data=\"about:blank\" style=\"display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none; padding: 0px; margin: 0px; opacity: 0; z-index: -1000; pointer-events: none;\"></object></div></div></div><div class=\"__rail-is-vertical\" style=\"position: absolute; z-index: 1; border-radius: 0.05rem; background: rgb(222, 222, 222); border: none; width: 0.05rem; top: 0px; bottom: 0px; right: 2px;\"><div class=\"__bar-wrap-is-vertical\" style=\"position: absolute; border-radius: 0.05rem; top: 0px; bottom: 0px; width: 100%;\"><div class=\"__bar-is-vertical\" style=\"cursor: pointer; position: absolute; margin: auto; transition: opacity 0.5s; user-select: none; border-radius: inherit; height: 18.7032%; background: rgb(192, 192, 192); width: 0.05rem; opacity: 1; transform: translateY(0%); left: 0px; right: 0px;\"></div></div></div></div> <div class=\"character-info-desc-cover\" style=\"opacity: 1;\"></div></div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-info",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "zh-cn_character"
+ ],
+ "computed": {
+  "character-info": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 528.828125,
+    "width": 390,
+    "height": 209,
+    "top": 528.828125,
+    "right": 390,
+    "bottom": 737.828125,
+    "left": 0
+   },
+   "text": "赛维里安·洛威尔  CV:  杨超然 中 「你们说大魔…呃，洛威尔长官？等、等等…他不在附近吧？你们确定？…好，那我就直说了！我从没见过他笑！他是真正的、真正的",
+   "position": "relative",
+   "display": "block",
+   "width": "390px",
+   "height": "209px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "0px 20.8px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000",
+   "rgba(191, 219, 90, 0)",
+   "rgb(191, 219, 90)",
+   "#e8e8e8"
+  ],
+  "fonts": [
+   "var(--mi18n-font-css)"
+  ],
+  "fontSizes": [
+   ".16rem",
+   ".25rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "left .2s ease-in-out"
+  ]
+ }
+}

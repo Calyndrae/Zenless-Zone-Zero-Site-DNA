@@ -1,0 +1,3 @@
+// module 75 from be1f69b.js
+// deps: 45, 446, 448, 79, 228
+const module_75 = function(e,t,n){var r=n(45),o=n(446),c=n(448),l=n(79),f=n(228),d=TypeError,h=Object.defineProperty,m=Object.getOwnPropertyDescriptor,v="enumerable",y="configurable",w="writable";t.f=r?c?function(e,t,n){if(l(e),t=f(t),l(n),"function"==typeof e&&"prototype"===t&&"value"in n&&w in n&&!n.writable){var r=m(e,t);r&&r.writable&&(e[t]=n.value,n={configurable:y in n?n.configurable:r.configurable,enumerable:v in n?n.enumerable:r.enumerable,writable:!1})}return h(e,t,n)}:h:function(e,t,n){if(l(e),t=f(t),l(n),o)try{return h(e,t,n)}catch(e){}if("get"in n||"set"in n)throw d("Accessors not supported");return"value"in n&&(e[t]=n.value),e}};

@@ -1,0 +1,36 @@
+{
+  "summary": "Nuxt router plugin. It registers a pass-through `router.beforeEach` guard and a `router.afterEach` hook that computes which query keys changed between the previous and current route (lodash-style difference/intersection helpers); unless the path is unchanged and only `webpush*` keys changed, it sends a pageview with `window.mhyAna.trackPageview({ path, name })` and rewrites the browser URL via `history.replaceState`, stripping all `webpush*` query parameters using the `qs`/`addParamsToUrl` utilities.",
+  "exports": {
+    "a": "the Nuxt router plugin function (context)"
+  },
+  "renames": {
+    "l_1": "differenceModule",
+    "d_2": "beforeEachGuard",
+    "c_3": "afterEachHook",
+    "t_4": "to",
+    "e_5": "from",
+    "n_6": "next",
+    "t_7": "afterTo",
+    "e_8": "afterFrom",
+    "t_9": "context",
+    "e_10": "router",
+    "e_11": "toRoute",
+    "n_12": "fromRoute",
+    "o_13": "nextFn",
+    "e_14": "currentRoute",
+    "l_15": "previousRoute",
+    "A_16": "urlUtils",
+    "d_17": "addParamsToUrl",
+    "h_18": "qs",
+    "y_19": "filteredQuery",
+    "w_20": "cleanUrl",
+    "f_21": "changedQueryKeys",
+    "t_22": "prevQuery",
+    "e_23": "nextQuery",
+    "n_24": "prevKeys",
+    "o_25": "nextKeys",
+    "l_26": "allKeys",
+    "t_27": "queryKey",
+    "t_28": "queryEntry"
+  }
+}

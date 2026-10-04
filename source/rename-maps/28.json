@@ -1,0 +1,33 @@
+{
+  "summary": "Build-time environment configuration module (ES module with named exports). It defines the production/sea environment flags, the HoYoverse API base URLs (content_v2_user static content API, the e20220610reserve event API, sg-public-api IP API, account management site), the gacha probability page URL and GACHA_ID 123483, the landing URL https://zenless.hoyoverse.com, the content CHANNEL_ID_CONFIG map (social follow 292, KV 285, news 288/295/296/297, protocol pages 294/293/303/305/789/836, character camp 286 / character 287, feature 289, world 290, video 1332/1337), INFO_ID_CONFIG (FUND 123774, ABOUT 123763) and the account SDK app id.",
+  "exports": {
+    "environment": "build environment name (\"production\")",
+    "i18nEnv": "i18n region environment (\"sea\")",
+    "isSea": "boolean flag that this is the overseas (sea) build",
+    "apiBase": "content_v2_user static content API base URL",
+    "normalBase": "e20220610reserve event API base URL",
+    "accountMangementUrl": "HoYoverse account management site URL",
+    "ipApiBase": "sg-public-api base URL used for IP/region lookups",
+    "gachaUrl": "gacha probability static page URL",
+    "GACHA_ID": "content id of the gacha probability entry",
+    "LANDING_URL": "official site landing URL",
+    "CHANNEL_ID_CONFIG": "map of content channel ids (social, KV, news, protocol, character, feature, world, video)",
+    "INFO_ID_CONFIG": "map of single content info ids (FUND, ABOUT)",
+    "accountSdkAppId": "HoYoverse account SDK app id"
+  },
+  "renames": {
+    "o_1": "environment",
+    "l_2": "i18nEnv",
+    "r_3": "isSea",
+    "A_4": "apiBase",
+    "m_5": "normalBase",
+    "d_6": "accountManagementUrl",
+    "c_7": "ipApiBase",
+    "h_8": "gachaUrl",
+    "y_9": "gachaId",
+    "w_10": "landingUrl",
+    "f_11": "channelIdConfig",
+    "v_12": "infoIdConfig",
+    "M_13": "accountSdkAppId"
+  }
+}

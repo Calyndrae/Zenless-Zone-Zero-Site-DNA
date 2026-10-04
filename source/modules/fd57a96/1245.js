@@ -1,0 +1,3 @@
+// module 1245 from fd57a96.js
+// deps: 1246, 1166, 1248
+const module_1245 = function(e,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),o(1246);var n=o(1166),r=function(e){return document.getElementById(e)};if(!n.isSSR&&!r("miHoYoUserModelLoading")){var d=document.createElement("div");d.innerHTML=o(1248),document.body.appendChild(d)}t.default={show:function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"数据加载中";n.isSSR||(r("miHoYoUserModelLoadingText").innerText=e,r("miHoYoUserModelLoading").style.display="block")},hide:function(){n.isSSR||(r("miHoYoUserModelLoading").style.display="none")}}};

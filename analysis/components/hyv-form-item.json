@@ -1,0 +1,214 @@
+{
+ "component": "hyv-form-item",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-form-item__item": "hyv-form-item__item",
+  "hyv-form-item__label": "hyv-form-item__label",
+  "hyv-form-item__label--required": "hyv-form-item__label--required",
+  "hyv-form-item__controls": "hyv-form-item__controls",
+  "hyv-form-item__controls-content": "hyv-form-item__controls-content"
+ },
+ "ruleCount": 6,
+ "rules": [
+  {
+   "selector": ".hyv-form-item__item",
+   "media": [],
+   "declarations": {
+    "margin-bottom": "20px"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-form-item__label",
+   "media": [],
+   "declarations": {
+    "-webkit-box-sizing": "border-box",
+    "box-sizing": "border-box",
+    "color": "rgba(0,0,0,.9)",
+    "float": "left",
+    "line-height": "var(--global-spacing-11)",
+    "padding-right": "var(--global-spacing-6)",
+    "vertical-align": "middle",
+    "white-space": "nowrap"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-form-item__label--required label:before",
+   "media": [],
+   "declarations": {
+    "color": "var(--global-color-red-7)",
+    "content": "\"*\"",
+    "display": "inline-block",
+    "line-height": "var(--global-spacing-5)",
+    "margin-right": "var(--global-spacing-1)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-form-item__controls",
+   "media": [],
+   "declarations": {
+    "display": "flow-root",
+    "min-height": "var(--global-spacing-5)",
+    "position": "relative"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-form-item__controls-content",
+   "media": [],
+   "declarations": {
+    "-webkit-box-align": "start",
+    "-ms-flex-align": "start",
+    "align-items": "flex-start",
+    "display": "flex",
+    "min-height": "var(--global-spacing-5)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-form-item__controls-content .hyv-input,.hyv-form-item__controls-content .hyv-input__wrapper,.hyv-form-item__controls-content .hyv-input__wrapper>div:first-child",
+   "media": [],
+   "declarations": {
+    "width": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": "<div class=\"hyv-form-item__item hyv-form-item-item__email\"><div class=\"hyv-form-item__controls\"><div class=\"hyv-form-item__controls-content\"><div class=\"hyv-input hyv-input-normal\"><div class=\"hyv-input__wrapper\"><div><label class=\"hyv-input__label\">电子邮箱</label><input type=\"text\" class=\"hyv-input__inner\"></div><div name=\"suffix\" class=\"hyv-input__suffix\"></div></div><div class=\"hyv-input__helper-text\"></div></div></div></div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "hyv-form-item__item",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_company_privacy",
+  "m_zh-cn_company_terms",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_news_166535",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370",
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "hyv-form-item__controls": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "电子邮箱",
+   "position": "relative",
+   "display": "flow-root",
+   "font-family": "Inter, \"Microsoft YaHei\", sans-serif",
+   "font-size": "100px",
+   "font-weight": "400",
+   "line-height": "100px",
+   "color": "rgb(60, 63, 68)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(60, 63, 68)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "hyv-form-item__controls-content": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "电子邮箱",
+   "display": "flex",
+   "font-family": "Inter, \"Microsoft YaHei\", sans-serif",
+   "font-size": "100px",
+   "font-weight": "400",
+   "line-height": "100px",
+   "color": "rgb(60, 63, 68)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(60, 63, 68)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "flex-start"
+  },
+  "hyv-form-item__item": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "电子邮箱",
+   "display": "block",
+   "font-family": "Inter, \"Microsoft YaHei\", sans-serif",
+   "font-size": "100px",
+   "font-weight": "400",
+   "line-height": "100px",
+   "color": "rgb(60, 63, 68)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(60, 63, 68)",
+   "margin": "0px 0px 20px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,.9)"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

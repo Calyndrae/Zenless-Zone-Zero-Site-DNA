@@ -1,0 +1,100 @@
+{
+ "component": "character-info-desc",
+ "files": [
+  "1250.css",
+  "1330.css"
+ ],
+ "classes": {
+  "character-info-desc": "character-info-desc"
+ },
+ "ruleCount": 4,
+ "rules": [
+  {
+   "selector": ".character-info-desc",
+   "media": [],
+   "declarations": {
+    "width": "6.31rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info-desc p",
+   "media": [],
+   "declarations": {
+    "margin": "0"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info-desc",
+   "media": [],
+   "declarations": {
+    "width": "9.7rem",
+    "line-height": ".4rem",
+    "padding-bottom": ".4rem",
+    "font-family": "var(--mi18n-font-css)"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  },
+  {
+   "selector": ".character-info-desc p",
+   "media": [],
+   "declarations": {
+    "margin": "0",
+    "line-height": ".4rem !important"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  }
+ ],
+ "markup": "<div class=\"character-info-desc-container\"><div class=\"__vuescroll hasVBar vBarVisible\" style=\"height: 100%; width: 100%; padding: 0px; position: relative; overflow: hidden;\"><div class=\"__panel __hidebar\" style=\"position: relative; box-sizing: border-box; height: 100%; overflow: hidden scroll;\"><div class=\"__view\" style=\"position: relative; box-sizing: border-box; min-width: 100%; min-height: 100%; width: 100%;\"><div class=\"character-info-desc\"><p style=\"white-space: pre-wrap;\">「你们说大魔…呃，洛威尔长官？等、等等…他不在附近吧？你们确定？…好，那我就直说了！我从没见过他笑！他是真正的、真正的、真正的恶魔！」</p><p style=\"white-space: pre-wrap;\">——谨慎观察周围后，说话声越来越小、又陡然大叫起来的希希芙</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\">「大家都说，『赛维里安·洛威尔长官是所有治安官的榜样』。但我…好吧，虽然听起来有点可笑，但他不是我的榜样。如果『他能按照自己说好的时间回家』？那也不是！」</p><p style=\"white-space: pre-wrap;\">——赛斯</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\">「黑枝的档案里有他的资料。呃，这会不会有点夸张…我知道要『避免与之发生冲突』，但也不用最大字号、红色字体，加粗标注三次吧？」</p><p style=\"white-space: pre-wrap;\">——菲欧妮</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p><p style=\"white-space: pre-wrap;\">「长官他…好像会在大家出外勤的时候，给我的番茄和青衣前辈的绿植浇水？虽然我没有证据。我暂时还无法想象和他讨论任何工作以外的问题…」</p><p style=\"white-space: pre-wrap;\">——朱鸢</p><p style=\"white-space: pre-wrap; min-height: 1.5em;\"></p></div><div style=\"display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none; padding: 0px; margin: 0px; opacity: 0; z-index: -1000; pointer-events: none;\"><object type=\"text/html\" tabindex=\"-1\" data=\"about:blank\" style=\"display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none; padding: 0px; margin: 0px; opacity: 0; z-index: -1000; pointer-events: none;\"></object></div></div></div><div class=\"__rail-is-vertical\" style=\"position: absolute; z-index: 1; border-radius: 0.05rem; background: rgb(222, 222, 222); border: none; width: 0.05rem; top: 0px; bottom: 0px; right: 2px;\"><div class=\"__bar-wrap-is-vertical\" style=\"position: absolute; border-radius: 0.05rem; top: 0px; bottom: 0px; width: 100%;\"><div class=\"__bar-is-vertical\" style=\"cursor: pointer; position: absolute; margin: auto; transition: opacity 0.5s; user-select: none; border-radius: inherit; height: 18.7032%; background: rgb(192, 192, 192); width: 0.05rem; opacity: 1; transform: translateY(0%); left: 0px; right: 0px;\"></div></div></div></div> <div class=\"character-info-desc-cover\" style=\"opacity: 1;\"></div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-info-desc",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "zh-cn_character"
+ ],
+ "computed": {
+  "character-info-desc": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 662.953125,
+    "width": 328.109375,
+    "height": 401.375,
+    "top": 662.953125,
+    "right": 348.90625,
+    "bottom": 1064.328125,
+    "left": 20.796875
+   },
+   "text": "「你们说大魔…呃，洛威尔长官？等、等等…他不在附近吧？你们确定？…好，那我就直说了！我从没见过他笑！他是真正的、真正的、真正的恶魔！」——谨慎观察周围后，说话声",
+   "display": "block",
+   "width": "328.109px",
+   "height": "401.375px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.44px",
+   "font-weight": "400",
+   "line-height": "20.8px",
+   "color": "rgb(166, 166, 166)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(166, 166, 166)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [
+   "var(--mi18n-font-css)"
+  ],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

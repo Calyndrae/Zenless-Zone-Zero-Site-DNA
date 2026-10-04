@@ -1,0 +1,35 @@
+{
+ "component": "slide-fade-enter",
+ "files": [
+  "1406.css"
+ ],
+ "classes": {
+  "slide-fade-enter": "slide-fade-enter"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".slide-fade-enter,.slide-fade-leave-to",
+   "media": [],
+   "declarations": {
+    "transform": "translateX(-400%)",
+    "opacity": "0"
+   },
+   "source": "/_nuxt/1e69d9d.js #1406"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

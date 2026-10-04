@@ -1,0 +1,83 @@
+{
+ "component": "swiper-navigation",
+ "files": [
+  "1287.css"
+ ],
+ "classes": {
+  "swiper-navigation": "swiper-navigation"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".swiper-navigation[data-v-42ef7462]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "1.47rem",
+    "left": ".2rem",
+    "z-index": "99",
+    "width": "5.38rem",
+    "height": ".37rem",
+    "pointer-events": "none"
+   },
+   "source": "/_nuxt/a9873dc.js #1287"
+  }
+ ],
+ "markup": "<div data-v-4cbeaaa9=\"\" class=\"swiper-navigation\"><div data-v-4cbeaaa9=\"\" slot=\"button-prev\" class=\"swiper-button-prev cha-swiper-button-prev swiper-button-disabled\"></div> <div data-v-4cbeaaa9=\"\" slot=\"button-next\" class=\"swiper-button-next cha-swiper-button-next\"></div></div>",
+ "markupPage": "m_zh-cn_main",
+ "markupClass": "swiper-navigation",
+ "appearsOn": [
+  "m_zh-cn_main",
+  "zh-cn_main"
+ ],
+ "computed": {
+  "swiper-navigation": {
+   "page": "m_zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 59.7890625,
+    "y": 627.6015625,
+    "width": 217.359375,
+    "height": 24.953125,
+    "top": 627.6015625,
+    "right": 277.1484375,
+    "bottom": 652.5546875,
+    "left": 59.7890625
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "217.359px",
+   "height": "24.9531px",
+   "top": "12.4688px",
+   "left": "108.672px",
+   "right": "-108.672px",
+   "bottom": "-12.4688px",
+   "z-index": "99",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, -108.68, -12.4766)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "99"
+  ],
+  "transitions": []
+ }
+}
