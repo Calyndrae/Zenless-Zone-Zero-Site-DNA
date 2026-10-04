@@ -1,0 +1,37 @@
+{
+ "component": "logoBig-enter-active",
+ "files": [
+  "673.css"
+ ],
+ "classes": {
+  "logoBig-enter-active": "logoBig-enter-active"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".logoBig-enter-active,.logoBig-leave-active",
+   "media": [],
+   "declarations": {
+    "transition": "opacity .7s ease,transform .7s ease",
+    "transform-origin": "top left"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "opacity .7s ease,transform .7s ease"
+  ]
+ }
+}

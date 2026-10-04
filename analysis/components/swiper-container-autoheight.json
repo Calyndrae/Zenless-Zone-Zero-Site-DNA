@@ -1,0 +1,89 @@
+{
+ "component": "swiper-container-autoheight",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-container-autoheight": "swiper-container-autoheight"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".swiper-container-autoheight,\n.swiper-container-autoheight .swiper-slide",
+   "media": [],
+   "declarations": {
+    "height": "auto"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-autoheight .swiper-wrapper",
+   "media": [],
+   "declarations": {
+    "-webkit-box-align": "start",
+    "-webkit-align-items": "flex-start",
+    "-ms-flex-align": "start",
+    "align-items": "flex-start",
+    "-webkit-transition-property": "height, -webkit-transform",
+    "transition-property": "transform, height, -webkit-transform",
+    "-o-transition-property": "transform, height"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": "<div class=\"swiper-container m-world-detail__banner-list swiper-container-initialized swiper-container-horizontal swiper-container-autoheight swiper-container-ios\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(-0.1955px, 0px, 0px); height: 264px;\"><div class=\"m-world-detail__banner-item swiper-slide swiper-slide-active\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102370/d939babbf873b4881cdeac7f71901d83_4506111104540170839.png\" alt=\"\"></div></div>    <span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div>",
+ "markupPage": "m_zh-cn_world_102370",
+ "markupClass": "swiper-container-autoheight",
+ "appearsOn": [
+  "m_zh-cn_world_102370",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "swiper-container-autoheight": {
+   "page": "m_zh-cn_world_102370",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 217.484375,
+    "width": 348.390625,
+    "height": 264,
+    "top": 217.484375,
+    "right": 369.1875,
+    "bottom": 481.484375,
+    "left": 20.796875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "348.391px",
+   "height": "264px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0.015625px 0px 0px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

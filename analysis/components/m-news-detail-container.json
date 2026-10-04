@@ -1,0 +1,80 @@
+{
+ "component": "m-news-detail-container",
+ "files": [
+  "1321.css",
+  "1323.css"
+ ],
+ "classes": {
+  "m-news-detail-container": "m-news-detail-container"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".m-news-detail-container",
+   "media": [],
+   "declarations": {
+    "padding": ".9rem .4rem",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/75ab81f.js #1321"
+  },
+  {
+   "selector": ".m-news-detail-container",
+   "media": [],
+   "declarations": {
+    "padding": ".9rem .4rem",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/39a3684.js #1323"
+  }
+ ],
+ "markup": "<div class=\"m-news-detail-container\"><article class=\"m-news-detail__article\"><div class=\"m-news-detail__title\">\n        《绝区零》2026年10月月历壁纸\n      </div> <div class=\"m-news-detail__info\"><div class=\"breadcrumb\"><span>绝区零</span>\n          &gt;\n          <div class=\"news-tag\">\n  新闻\n</div></div> <div>2026/10/01</div></div> <div class=\"m-news-detail__content\"><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">「抱歉，小姐现在很忙，不方便见人。」</p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">「限定款茶歇蛋糕要化了？...稍等，我去问一下小姐。」</p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"></p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">亲爱的绳匠，欢迎下载&amp;使用10月月历壁纸~</p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"></p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">▼下载链接内包含手机与电脑版壁纸。</p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\"><a href=\"https://hoyo.link/f1YaVhJnI\" data-type=\"a\" link-type=\"game_none\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">https://hoyo.link/f1YaVhJnI</a> </p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_4948577812846636085.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p></div></article> <a href=\"/m/zh-cn/news\" class=\"m-news-detail__foot nuxt-link-active\"><div class=\"m-news-detail__back\">返回</div></a></div>",
+ "markupPage": "m_zh-cn_news_166535",
+ "markupClass": "m-news-detail-container",
+ "appearsOn": [
+  "m_zh-cn_news_166535"
+ ],
+ "computed": {
+  "m-news-detail-container": {
+   "page": "m_zh-cn_news_166535",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 57.1875,
+    "width": 390,
+    "height": 730.1875,
+    "top": 57.1875,
+    "right": 390,
+    "bottom": 787.375,
+    "left": 0
+   },
+   "text": "《绝区零》2026年10月月历壁纸\n       绝区零\n          >\n          \n  新闻\n 2026/10/01 「抱歉，小姐现在很忙，",
+   "display": "block",
+   "width": "390px",
+   "height": "730.188px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "46.8px 20.8px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

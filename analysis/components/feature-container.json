@@ -1,0 +1,36 @@
+{
+ "component": "feature-container",
+ "files": [
+  "1339.css"
+ ],
+ "classes": {
+  "feature-container": "feature-container"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".feature-container",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "padding": "2.9rem 0 2.26rem",
+    "height": "100%"
+   },
+   "source": "/_nuxt/44468dc.js #1339"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

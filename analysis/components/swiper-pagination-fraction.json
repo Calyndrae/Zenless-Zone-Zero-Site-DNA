@@ -1,0 +1,36 @@
+{
+ "component": "swiper-pagination-fraction",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-pagination-fraction": "swiper-pagination-fraction"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".swiper-pagination-fraction,\n.swiper-pagination-custom,\n.swiper-container-horizontal > .swiper-pagination-bullets",
+   "media": [],
+   "declarations": {
+    "bottom": "10px",
+    "left": "0",
+    "width": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

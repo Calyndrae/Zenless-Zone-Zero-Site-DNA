@@ -1,0 +1,71 @@
+{
+ "component": "home-world-wrap",
+ "files": [
+  "1374.css"
+ ],
+ "classes": {
+  "home-world-wrap": "home-world-wrap"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".home-world-wrap[data-v-53daaf10]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "19.2rem",
+    "margin": "0 auto"
+   },
+   "source": "/_nuxt/3b23566.js #1374"
+  }
+ ],
+ "markup": "<div data-v-53daaf10=\"\" class=\"home-world-wrap\"><div data-v-53daaf10=\"\" class=\"section-nav lg\"><!----> <div class=\"section-nav-inner\"><div class=\"section-nav-label\" style=\"transform: translate(140%, 0%);\">设定档案</div> <div class=\"section-nav-en\" style=\"transform: translate(140%, 0%);\">background</div> <div class=\"section-nav-num\" style=\"transform: translate(120%, 0%);\">05</div></div></div> <div data-v-53daaf10=\"\" class=\"home-world__banner\" style=\"transform: translate(0%, 40%);\"><div data-v-53daaf10=\"\" class=\"swiper-container home-world__banner-list swiper-container-initialized swiper-container-horizontal\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(-1586.25px, 0px, 0px);\"><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102370/0a3fab8aa62d35d4cb0013bcb90253d6_4785974286708189785.png\" alt=\"world-banner\"></a></div><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"1\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102257/7dc8e490e0e15e0656458003241b94ad_614488157834342400.png\" alt=\"world-banner\"></a></div><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-duplicate swiper-slide-prev\" data-swiper-slide-index=\"2\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://webstatic.hoyoverse.com/upload/op-public/2022/05/20/7a001b1888212dcf02dac506218db1a8_3526051403190038831.png\" alt=\"world-banner\"></a></div><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-active\" data-swiper-slide-index=\"0\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102370/0a3fab8aa62d35d4cb0013bcb90253d6_4785974286708189785.png\" alt=\"world-banner\"></a></div><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-next\" data-swiper-slide-index=\"1\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102257/7dc8e490e0e15e0656458003241b94ad_614488157834342400.png\" alt=\"world-banner\"></a></div><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-duplicate-prev\" data-swiper-slide-index=\"2\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://webstatic.hoyoverse.com/upload/op-public/2022/05/20/7a001b1888212dcf02dac506218db1a8_3526051403190038831.png\" alt=\"world-banner\"></a></div>  <div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102370/0a3fab8aa62d35d4cb0013bcb90253d6_4785974286708189785.png\" alt=\"world-banner\"></a></div><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"1\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102257/7dc8e490e0e15e0656458003241b94ad_614488157834342400.png\" alt=\"world-banner\"></a></div><div data-v-53daaf10=\"\" class=\"home-world__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"2\"><a data-v-53daaf10=\"\" href=\"/zh-cn/world\" class=\"home-world__banner-img\"><img data-v-53daaf10=\"\" src=\"https://webstatic.hoyoverse.com/upload/op-public/2022/05/20/7a001b1888212dcf02dac506218db1a8_3526051403190038831.png\" alt=\"world-banner\"></a></div></div>  <div data-v-53daaf10=\"\" class=\"swiper-button-prev\" tabindex=\"0\" role=\"button\" aria-label=\"Previous slide\"></div> <div data-v-53daaf10=\"\" class=\"swiper-button-next\" tabindex=\"0\" role=\"button\" aria-label=\"Next slide\"></div> <span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div></div></div>",
+ "markupPage": "zh-cn_main",
+ "markupClass": "home-world-wrap",
+ "appearsOn": [
+  "zh-cn_main"
+ ],
+ "computed": {
+  "home-world-wrap": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 180,
+    "y": 3234.375,
+    "width": 1080,
+    "height": 298.125,
+    "top": 3234.375,
+    "right": 1260,
+    "bottom": 3532.5,
+    "left": 180
+   },
+   "text": "设定档案 background 05",
+   "position": "relative",
+   "display": "block",
+   "width": "1080px",
+   "height": "298.125px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

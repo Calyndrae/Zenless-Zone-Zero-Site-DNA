@@ -1,0 +1,17 @@
+{
+  "summary": "Small theme-mode helper library (UMD factory applied to webpack exports). It defines a `ThemeMode` enum (`dark`/`light`), `setGlogalTheme(mode)` which sets the `theme-mode` attribute on `<html>` (default `light`), and `setBrandTheme(brand, isDark)` which applies the dark/light theme mode and sets the `brand` attribute on `<html>`.",
+  "exports": {
+    "setBrandTheme": "setBrandTheme(brand, isDark) — sets theme-mode and brand attributes on document.documentElement",
+    "setGlogalTheme": "setGlogalTheme(mode) — sets the theme-mode attribute on document.documentElement"
+  },
+  "renames": {
+    "e_1": "moduleExports",
+    "t_2": "ThemeMode",
+    "n_3": "setGlobalTheme",
+    "e_4": "themeModeEnum",
+    "e_5": "mode",
+    "e_6": "brand",
+    "r_7": "isDark",
+    "o_8": "themeMode"
+  }
+}

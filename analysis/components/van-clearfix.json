@@ -1,0 +1,36 @@
+{
+ "component": "van-clearfix",
+ "files": [
+  "202.css"
+ ],
+ "classes": {
+  "van-clearfix": "van-clearfix"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".van-clearfix:after",
+   "media": [],
+   "declarations": {
+    "display": "table",
+    "clear": "both",
+    "content": "\"\""
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

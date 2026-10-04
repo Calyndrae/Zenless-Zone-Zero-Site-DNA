@@ -1,0 +1,78 @@
+{
+ "component": "home-news-container",
+ "files": [
+  "1368.css"
+ ],
+ "classes": {
+  "home-news-container": "home-news-container"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".home-news-container[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin-left": "8.37rem",
+    "margin-top": ".56rem",
+    "width": "9.4rem",
+    "z-index": "2"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  }
+ ],
+ "markup": "<div data-v-68b07d09=\"\" class=\"home-news-container\" style=\"transform: translate(0%, 40%);\"><div data-v-68b07d09=\"\" class=\"home-news__banner\"><div data-v-68b07d09=\"\" class=\"swiper-container home-news__banner-list swiper-container-initialized swiper-container-horizontal\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(-3172.5px, 0px, 0px);\"><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166535\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_2628406247496769925.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"1\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166498\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166498/801579a8589b04bef42c4d475bc6ba81_9070677666140127897.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"2\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166497\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166497/721f26d02e752b034fa4c0375060333d_6904896181431312895.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"3\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166496\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166496/6e21865917d0d671b4821d0be5ba6c10_7627518777412622827.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"4\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166476\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166476/3cb9766cf1ffc6f694c9257033575df5_4878917223056569186.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-prev\" data-swiper-slide-index=\"5\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166475\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/5e5c5daefb39338f4a40d31a3b4a9ccf_7857193178439832577.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-active\" data-swiper-slide-index=\"0\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166535\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_2628406247496769925.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-next\" data-swiper-slide-index=\"1\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166498\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166498/801579a8589b04bef42c4d475bc6ba81_9070677666140127897.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide\" data-swiper-slide-index=\"2\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166497\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166497/721f26d02e752b034fa4c0375060333d_6904896181431312895.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide\" data-swiper-slide-index=\"3\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166496\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166496/6e21865917d0d671b4821d0be5ba6c10_7627518777412622827.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide\" data-swiper-slide-index=\"4\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166476\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166476/3cb9766cf1ffc6f694c9257033575df5_4878917223056569186.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate-prev\" data-swiper-slide-index=\"5\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166475\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/5e5c5daefb39338f4a40d31a3b4a9ccf_7857193178439832577.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166535\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_2628406247496769925.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"1\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166498\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166498/801579a8589b04bef42c4d475bc6ba81_9070677666140127897.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"2\"><a data-v-68b07d09=\"\" href=\"/zh-cn/news/166497\" class=\"home-news__banner-img\"><img data-v-68b07d09=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166497/721f26d02e752b034fa4c0375060333d_6904896181431312895.jpg\" alt=\"news-banner\"></a></div><div data-v-68b07d09=\"\" class=\"home-news__banner-item swiper-slide swiper-slide-duplicate\" data-swip\n<!-- … truncated, 8578 chars total -->",
+ "markupPage": "zh-cn_main",
+ "markupClass": "home-news-container",
+ "appearsOn": [
+  "zh-cn_main"
+ ],
+ "computed": {
+  "home-news-container": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 650.8125,
+    "y": 2694.14990234375,
+    "width": 528.75,
+    "height": 381.9375,
+    "top": 2694.14990234375,
+    "right": 1179.5625,
+    "bottom": 3076.08740234375,
+    "left": 650.8125
+   },
+   "text": "亲爱的绳匠，欢迎下载&使用10月月历壁纸~ 2026/10/01 《绝区零》2026年10月月历壁纸  查看更多",
+   "position": "relative",
+   "display": "block",
+   "width": "528.75px",
+   "height": "381.938px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 152.775)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "31.5px 0px 0px 470.812px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": []
+ }
+}

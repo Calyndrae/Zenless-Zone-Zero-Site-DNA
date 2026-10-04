@@ -1,0 +1,18 @@
+{
+  "summary": "Nuxt page component for the desktop route `lang-company-terms` (layout `empty`), the terms-of-service page. In `asyncData` it calls the CMS content API (module 1118) `getUser`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.TERMS`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title`, `content` and `pdfUrl` (from `sTitle`/`sContent`/`pdfUrl`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows, inside `client-only`, either a `protocol-pdf` (HoYoverse PDF viewer, module 1131, with `is-mob` = false and `pdf-url`) when `pdfUrl` is set, or the `protocol` text component (desktop protocol, module 1142) with `title`/`content`.",
+  "exports": {
+    "default": "the `lang-company-terms` desktop terms-of-service page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "r_1": "HoYoversePdfViewer",
+    "f_2": "pageOptions",
+    "t_3": "nuxtContext",
+    "o_4": "asyncDataGenerator",
+    "e_5": "redirect",
+    "n_6": "store",
+    "r_7": "protocolEntry",
+    "o_8": "context",
+    "o_10": "h",
+    "t_9": "vm"
+  }
+}

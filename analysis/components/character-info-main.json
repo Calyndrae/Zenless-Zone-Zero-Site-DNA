@@ -1,0 +1,70 @@
+{
+ "component": "character-info-main",
+ "files": [
+  "1330.css"
+ ],
+ "classes": {
+  "character-info-main": "character-info-main"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".character-info-main",
+   "media": [],
+   "declarations": {
+    "height": "2.7rem",
+    "margin-bottom": ".2rem"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  }
+ ],
+ "markup": "<div class=\"character-info-main\"><div class=\"character-info-row\"><div class=\"character-info-name\"><!----> <span>赛维里安·洛威尔</span> <span class=\"character-info-name-en font-mont-heavy character-info-name-en-166076\" style=\"transform: scale(0.999112);\">Severian Lowell</span></div></div> <div class=\"character-info-row\"><div class=\"character-voice-player\"><div class=\"character-voice-btn\"><div class=\"character-voice-btn-inner\"><div class=\"character-voice-btn-inner-highlight\"></div></div></div> <span class=\"character-voice-player-name\"><span>CV: </span> <span class=\"character-voice-player-name-text\">杨超然</span></span> <div class=\"character-voice-lang-switcher character-voice-lang-switcher__0\"><span>中</span></div></div> <div class=\"character-info-prop\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/b60b27574c9c70a791f7c46e7eda7c9c_7431480135044190857.png\" alt=\"\"> <img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/47fc72d0dae8e4f9d4889dfd5b11a4bc_281900660500507983.png\" alt=\"\"></div></div></div>",
+ "markupPage": "zh-cn_character",
+ "markupClass": "character-info-main",
+ "appearsOn": [
+  "zh-cn_character"
+ ],
+ "computed": {
+  "character-info-main": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 675,
+    "y": 176.625,
+    "width": 562.5,
+    "height": 151.875,
+    "top": 176.625,
+    "right": 1237.5,
+    "bottom": 328.5,
+    "left": 675
+   },
+   "text": "赛维里安·洛威尔 Severian Lowell  CV:  杨超然 中",
+   "display": "block",
+   "width": "562.5px",
+   "height": "151.875px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0px 11.25px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

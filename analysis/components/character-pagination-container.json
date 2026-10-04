@@ -1,0 +1,156 @@
+{
+ "component": "character-pagination-container",
+ "files": [
+  "1250.css"
+ ],
+ "classes": {
+  "character-pagination-container": "character-pagination-container"
+ },
+ "ruleCount": 9,
+ "rules": [
+  {
+   "selector": ".character-pagination-container",
+   "media": [],
+   "declarations": {
+    "height": ".95rem",
+    "margin-top": ".81rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "height": ".89rem",
+    "padding-left": ".38rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination .character-pagination-item",
+   "media": [],
+   "declarations": {
+    "width": "2.42rem",
+    "height": ".89rem",
+    "flex-shrink": "0",
+    "background-image": "url(/_nuxt/img/chara-pagination-bg.1452db0.png)",
+    "background-size": "100% 100%",
+    "position": "relative",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination .character-pagination-item .active-pagination-item-bg",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": "100%",
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "opacity": "0",
+    "background-size": "100% 100%"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination .character-pagination-item img",
+   "media": [],
+   "declarations": {
+    "width": "2.11rem",
+    "height": ".65rem",
+    "opacity": ".4",
+    "transition": "opacity .2s",
+    "position": "relative"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination .character-pagination-item-active",
+   "media": [],
+   "declarations": {
+    "background-image": "none"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination .character-pagination-item-active .active-pagination-item-bg",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination .character-pagination-item-active img",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-pagination-container .character-pagination .character-pagination-item:not(:first-child)",
+   "media": [],
+   "declarations": {
+    "margin-left": "-0.16rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  }
+ ],
+ "markup": "<div class=\"character-pagination-container\"><div class=\"__vuescroll\" style=\"height: 100%; width: 100%; padding: 0px; position: relative; overflow: hidden;\"><div class=\"__panel __hidebar\" style=\"position: relative; box-sizing: border-box; height: 100%; overflow: hidden;\"><div class=\"__view\" style=\"position: relative; box-sizing: border-box; min-width: 100%; min-height: 100%; width: -webkit-fit-content;\"><div class=\"character-pagination\" style=\"width: 4.84rem;\"><div class=\"character-pagination-item character-pagination-item-active\"><div class=\"active-pagination-item-bg\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/166076/56f488c7eb960013ef7971dc39a24511_6133855652571303518.png&quot;);\"></div> <img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/ee6274fe94180c14ee8bfd6a176b784c_8342345966518150172.png\" alt=\"\"></div><div class=\"character-pagination-item\"><div class=\"active-pagination-item-bg\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/162680/70079eb642789e6fb17f258cca494d88_9065760633870077552.png&quot;);\"></div> <img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/162680/0cf70ac98d5e736b6f04d496410c6efc_5973355059611209114.png\" alt=\"\"></div></div><div style=\"display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none; padding: 0px; margin: 0px; opacity: 0; z-index: -1000; pointer-events: none;\"><object type=\"text/html\" tabindex=\"-1\" data=\"about:blank\" style=\"display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none; padding: 0px; margin: 0px; opacity: 0; z-index: -1000; pointer-events: none;\"></object></div></div></div></div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-pagination-container",
+ "appearsOn": [
+  "m_zh-cn_character"
+ ],
+ "computed": {
+  "character-pagination-container": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 793.5,
+    "width": 390,
+    "height": 49.390625,
+    "top": 793.5,
+    "right": 390,
+    "bottom": 842.890625,
+    "left": 0
+   },
+   "text": "",
+   "display": "block",
+   "width": "390px",
+   "height": "49.3906px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "42.12px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "opacity .2s"
+  ]
+ }
+}

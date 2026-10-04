@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[47],{1421:function(e,n,r){"use strict";r.r(n);var t={name:"video-page",middleware:function(e){var n=e.redirect,r=e.query;n({name:"lang-video",params:{lang:e.store.state.lang},query:r})}},l=r(36),component=Object(l.a)(t,(function(){return(0,this._self._c)("div")}),[],!1,null,null,null);n.default=component.exports}}]);

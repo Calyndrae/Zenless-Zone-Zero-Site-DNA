@@ -1,0 +1,55 @@
+{
+ "component": "van-multi-ellipsis",
+ "files": [
+  "202.css"
+ ],
+ "classes": {
+  "van-multi-ellipsis--l2": "van-multi-ellipsis--l2",
+  "van-multi-ellipsis--l3": "van-multi-ellipsis--l3"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": ".van-multi-ellipsis--l2",
+   "media": [],
+   "declarations": {
+    "-webkit-line-clamp": "2"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-multi-ellipsis--l2,.van-multi-ellipsis--l3",
+   "media": [],
+   "declarations": {
+    "display": "-webkit-box",
+    "overflow": "hidden",
+    "-o-text-overflow": "ellipsis",
+    "text-overflow": "ellipsis",
+    "-webkit-box-orient": "vertical"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-multi-ellipsis--l3",
+   "media": [],
+   "declarations": {
+    "-webkit-line-clamp": "3"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

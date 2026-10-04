@@ -1,0 +1,35 @@
+{
+ "component": "nav-item",
+ "files": [
+  "1385.css"
+ ],
+ "classes": {
+  "nav-item": "nav-item"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".nav-item.is-active>img[data-v-95fb0980]",
+   "media": [],
+   "declarations": {
+    "transform": "scale(1.4)",
+    "opacity": "1"
+   },
+   "source": "/_nuxt/3b23566.js #1385"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

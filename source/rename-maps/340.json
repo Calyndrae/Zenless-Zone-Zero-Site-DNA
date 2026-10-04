@@ -1,0 +1,32 @@
+{
+  "summary": "Async Nuxt route middleware that initializes i18n for the current language. It resolves the language from the route `lang` param via the locale helpers (module 83, falling back to the `mi18nLang` cookie / default), disables SDK error popups outside development/test via `setCommonConfig`, calls `initAppI18n(Vue, { appId: 'm03111446031031', gameBiz: 'nap_global', env: i18nEnv, lang, zone: 'morax' })` and commits the `setLang` mutation, then returns. The code also contains an (unreachable after the early return) branch that detects language from the cookie or `accept-language` header, sets `Cache-Control: no-cache` and redirects unsupported-language paths to a language-prefixed path or `lang` route.",
+  "exports": {
+    "a": "the async i18n/language Nuxt middleware function (context)"
+  },
+  "renames": {
+    "l_1": "i18nSdk",
+    "c_2": "detectLang",
+    "h_3": "langMiddlewareAsync",
+    "t_4": "context",
+    "e_5": "routeLang",
+    "n_6": "acceptLanguage",
+    "o_7": "preferredLang",
+    "l_8": "app",
+    "r_9": "req",
+    "A_10": "headerLang",
+    "e_11": "middlewareContext",
+    "t_12": "langMiddlewareGenerator",
+    "n_13": "params",
+    "o_14": "route",
+    "h_15": "redirect",
+    "y_16": "res",
+    "w_17": "nuxtApp",
+    "f_18": "paramLang",
+    "v_19": "resolvedLang",
+    "M_20": "detectedLang",
+    "I_21": "query",
+    "B_22": "langRouteName",
+    "t_23": "generatorContext",
+    "t_24": "middlewareCtx"
+  }
+}

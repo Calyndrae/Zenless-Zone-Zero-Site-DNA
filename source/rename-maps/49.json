@@ -1,0 +1,19 @@
+{
+  "summary": "Static site constants module. It exports the main navigation list (main, character, video, news, world, feature entries with Chinese labels, mi18n keys nav1/nav2/navVideo/nav3/nav5/nav4 and tracking keys), the 13 supported locale codes, a per-section parallax animation config (yPercent/xPercent tweens for `.fill-bg`, `.fill-text`, `.section-character`, `.fill-black-bar-feature`), the default language `en-us`, the `lang` storage/query key, and a list of route paths/regexes (`/xbox`, `/main`, `/company/privacy`, `/company/terms*`, `/news/<id>`) used for path matching.",
+  "exports": {
+    "e": "main navigation items (label, link, mi18nKey, miaKey)",
+    "d": "list of supported locale codes",
+    "f": "per-home-section parallax animation config (element selector + tween attrs)",
+    "b": "default language code (\"en-us\")",
+    "c": "language key name (\"lang\")",
+    "a": "list of route paths / regexes matched by path helpers"
+  },
+  "renames": {
+    "o_1": "navList",
+    "l_2": "supportedLangs",
+    "r_3": "sectionParallaxConfig",
+    "A_4": "defaultLang",
+    "m_5": "langKey",
+    "d_6": "matchedRoutePaths"
+  }
+}

@@ -1,0 +1,3 @@
+// module 1160 from f87ccae.js
+// deps: 54, 117, 1161
+const module_1160 = function(e,t,n){var r=n(54),o=n(117),c=n(1161),l=r(!1),d=o(c);l.push([e.i,'.news-tag{position:relative;min-width:.4rem;padding-left:.1rem;height:.26rem;font-size:.12rem;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:bold;white-space:nowrap;background:#000;color:#bfdb5a;border-top-left-radius:.14rem;border-bottom-left-radius:.14rem;line-height:.23rem}.news-tag::after{content:"";position:absolute;top:0;right:-0.16rem;z-index:-1;width:.2rem;height:.26rem;white-space:nowrap;background:url('+d+") right center/auto 100%}.news-tag.mobile::after{background-repeat:no-repeat}",""]),e.exports=l};

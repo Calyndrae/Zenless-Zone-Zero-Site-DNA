@@ -1,0 +1,38 @@
+{
+ "component": "hyv-subscription-line-container",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-subscription-line-container": "hyv-subscription-line-container"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".hyv-subscription-line-container",
+   "media": [],
+   "declarations": {
+    "-webkit-box-align": "center",
+    "-ms-flex-align": "center",
+    "align-items": "center",
+    "display": "flex",
+    "margin-bottom": ".24em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

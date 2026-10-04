@@ -1,0 +1,300 @@
+{
+ "component": "annotationLayer",
+ "files": [
+  "1024.css"
+ ],
+ "classes": {
+  "annotationLayer": "annotationLayer"
+ },
+ "ruleCount": 26,
+ "rules": [
+  {
+   "selector": ".annotationLayer section",
+   "media": [],
+   "declarations": {
+    "position": "absolute"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .linkAnnotation > a,\n.annotationLayer .buttonWidgetAnnotation.pushButton > a",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "font-size": "1em",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .linkAnnotation > a:hover,\n.annotationLayer .buttonWidgetAnnotation.pushButton > a:hover",
+   "media": [],
+   "declarations": {
+    "opacity": "0.2",
+    "background": "#ff0",
+    "box-shadow": "0px 2px 10px #ff0"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textAnnotation img",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textWidgetAnnotation input,\n.annotationLayer .textWidgetAnnotation textarea,\n.annotationLayer .choiceWidgetAnnotation select,\n.annotationLayer .buttonWidgetAnnotation.checkBox input,\n.annotationLayer .buttonWidgetAnnotation.radioButton input",
+   "media": [],
+   "declarations": {
+    "background-color": "rgba(0, 54, 255, 0.13)",
+    "border": "1px solid transparent",
+    "box-sizing": "border-box",
+    "font-size": "9px",
+    "height": "100%",
+    "margin": "0",
+    "padding": "0 3px",
+    "vertical-align": "top",
+    "width": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .choiceWidgetAnnotation select option",
+   "media": [],
+   "declarations": {
+    "padding": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .buttonWidgetAnnotation.radioButton input",
+   "media": [],
+   "declarations": {
+    "border-radius": "50%"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textWidgetAnnotation textarea",
+   "media": [],
+   "declarations": {
+    "font": "message-box",
+    "font-size": "9px",
+    "resize": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textWidgetAnnotation input[disabled],\n.annotationLayer .textWidgetAnnotation textarea[disabled],\n.annotationLayer .choiceWidgetAnnotation select[disabled],\n.annotationLayer .buttonWidgetAnnotation.checkBox input[disabled],\n.annotationLayer .buttonWidgetAnnotation.radioButton input[disabled]",
+   "media": [],
+   "declarations": {
+    "background": "none",
+    "border": "1px solid transparent",
+    "cursor": "not-allowed"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textWidgetAnnotation input:hover,\n.annotationLayer .textWidgetAnnotation textarea:hover,\n.annotationLayer .choiceWidgetAnnotation select:hover,\n.annotationLayer .buttonWidgetAnnotation.checkBox input:hover,\n.annotationLayer .buttonWidgetAnnotation.radioButton input:hover",
+   "media": [],
+   "declarations": {
+    "border": "1px solid #000"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textWidgetAnnotation input:focus,\n.annotationLayer .textWidgetAnnotation textarea:focus,\n.annotationLayer .choiceWidgetAnnotation select:focus",
+   "media": [],
+   "declarations": {
+    "background": "none",
+    "border": "1px solid transparent"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .buttonWidgetAnnotation.checkBox input:checked:before,\n.annotationLayer .buttonWidgetAnnotation.checkBox input:checked:after,\n.annotationLayer .buttonWidgetAnnotation.radioButton input:checked:before",
+   "media": [],
+   "declarations": {
+    "background-color": "#000",
+    "content": "''",
+    "display": "block",
+    "position": "absolute"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .buttonWidgetAnnotation.checkBox input:checked:before,\n.annotationLayer .buttonWidgetAnnotation.checkBox input:checked:after",
+   "media": [],
+   "declarations": {
+    "height": "80%",
+    "left": "45%",
+    "width": "1px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .buttonWidgetAnnotation.checkBox input:checked:before",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(45deg)",
+    "transform": "rotate(45deg)"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .buttonWidgetAnnotation.checkBox input:checked:after",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "rotate(-45deg)",
+    "transform": "rotate(-45deg)"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .buttonWidgetAnnotation.radioButton input:checked:before",
+   "media": [],
+   "declarations": {
+    "border-radius": "50%",
+    "height": "50%",
+    "left": "30%",
+    "top": "20%",
+    "width": "50%"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textWidgetAnnotation input.comb",
+   "media": [],
+   "declarations": {
+    "font-family": "monospace",
+    "padding-left": "2px",
+    "padding-right": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .textWidgetAnnotation input.comb:focus",
+   "media": [],
+   "declarations": {
+    "width": "115%"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .buttonWidgetAnnotation.checkBox input,\n.annotationLayer .buttonWidgetAnnotation.radioButton input",
+   "media": [],
+   "declarations": {
+    "-webkit-appearance": "none",
+    "-moz-appearance": "none",
+    "appearance": "none",
+    "padding": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .popupWrapper",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "20em"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .popup",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "z-index": "200",
+    "max-width": "20em",
+    "background-color": "#FFFF99",
+    "box-shadow": "0px 2px 5px #888",
+    "border-radius": "2px",
+    "padding": "6px",
+    "margin-left": "5px",
+    "cursor": "pointer",
+    "font": "message-box",
+    "font-size": "9px",
+    "word-wrap": "break-word"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .popup > *",
+   "media": [],
+   "declarations": {
+    "font-size": "9px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .popup h1",
+   "media": [],
+   "declarations": {
+    "display": "inline-block"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .popup span",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "margin-left": "5px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .popup p",
+   "media": [],
+   "declarations": {
+    "border-top": "1px solid #333",
+    "margin-top": "2px",
+    "padding-top": "2px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".annotationLayer .highlightAnnotation,\n.annotationLayer .underlineAnnotation,\n.annotationLayer .squigglyAnnotation,\n.annotationLayer .strikeoutAnnotation,\n.annotationLayer .freeTextAnnotation,\n.annotationLayer .lineAnnotation svg line,\n.annotationLayer .squareAnnotation svg rect,\n.annotationLayer .circleAnnotation svg ellipse,\n.annotationLayer .polylineAnnotation svg polyline,\n.annotationLayer .polygonAnnotation svg polygon,\n.annotationLayer .caretAnnotation,\n.annotationLayer .inkAnnotation svg polyline,\n.annotationLayer .stampAnnotation,\n.annotationLayer .fileAttachmentAnnotation",
+   "media": [],
+   "declarations": {
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#ff0",
+   "rgba(0, 54, 255, 0.13)",
+   "#000",
+   "#ffff99",
+   "#888",
+   "#333"
+  ],
+  "fonts": [
+   "monospace"
+  ],
+  "fontSizes": [
+   "1em",
+   "9px"
+  ],
+  "zIndex": [
+   "200"
+  ],
+  "transitions": []
+ }
+}

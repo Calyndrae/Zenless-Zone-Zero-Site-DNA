@@ -1,0 +1,3 @@
+// module 575 from 2e4935f.js
+// deps: 57, 368, 124
+const module_575 = function(t,e,n){var r=n(57),o=n(368).set,c=r.MutationObserver||r.WebKitMutationObserver,f=r.process,l=r.Promise,d="process"==n(124)(f);t.exports=function(){var head,t,e,n=function(){var n,r;for(d&&(n=f.domain)&&n.exit();head;){r=head.fn,head=head.next;try{r()}catch(n){throw head?e():t=void 0,n}}t=void 0,n&&n.enter()};if(d)e=function(){f.nextTick(n)};else if(!c||r.navigator&&r.navigator.standalone)if(l&&l.resolve){var h=l.resolve(void 0);e=function(){h.then(n)}}else e=function(){o.call(r,n)};else{var v=!0,m=document.createTextNode("");new c(n).observe(m,{characterData:!0}),e=function(){m.data=v=!v}}return function(n){var r={fn:n,next:void 0};t&&(t.next=r),head||(head=r,e()),t=r}}};

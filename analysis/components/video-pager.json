@@ -1,0 +1,87 @@
+{
+ "component": "video-pager",
+ "files": [
+  "1403.css"
+ ],
+ "classes": {
+  "video-pager": "video-pager"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".video-pager",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "center",
+    "position": "relative",
+    "margin-top": "0",
+    "font-size": "0",
+    "color": "#fff"
+   },
+   "source": "/_nuxt/53d09dd.js #1403"
+  },
+  {
+   "selector": ".video-pager .mihoyo-pager-rich",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "center",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/53d09dd.js #1403"
+  }
+ ],
+ "markup": "<div class=\"mihoyo-pager-rich m-video-pager\"><div class=\"mihoyo-pager-rich__pages\"><a class=\"mihoyo-pager-rich__prev\">&gt;</a> <a class=\"mihoyo-pager-rich__button mihoyo-pager-rich__current\">1</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">2</a><a class=\"mihoyo-pager-rich__button\">3</a><a class=\"mihoyo-pager-rich__button\">4</a><a class=\"mihoyo-pager-rich__button\">5</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">6</a> <a class=\"mihoyo-pager-rich__next\">&lt;</a></div> <!----></div>",
+ "markupPage": "m_zh-cn_video",
+ "markupClass": "video-pager",
+ "appearsOn": [
+  "zh-cn_video"
+ ],
+ "computed": {
+  "video-pager": {
+   "page": "zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 1488.9375,
+    "width": 725.625,
+    "height": 29.25,
+    "top": 1488.9375,
+    "right": 1085.625,
+    "bottom": 1518.1875,
+    "left": 360
+   },
+   "text": "> 1 ... 234 ... 5 <",
+   "position": "relative",
+   "display": "flex",
+   "width": "725.625px",
+   "height": "29.25px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "0"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

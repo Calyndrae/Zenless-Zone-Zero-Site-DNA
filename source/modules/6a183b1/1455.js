@@ -1,0 +1,3 @@
+// module 1455 from 6a183b1.js
+// deps: 36
+const module_1455 = function(n,t,e){"use strict";e.r(t);var l=e(36),component=Object(l.a)({},(function(){return(0,this._self._c)("div")}),[],!1,null,null,null);t.default=component.exports};

@@ -1,0 +1,105 @@
+{
+ "component": "mobile",
+ "files": [
+  "1235.css",
+  "1304.css",
+  "1319.css"
+ ],
+ "classes": {
+  "mobile": "mobile"
+ },
+ "ruleCount": 4,
+ "rules": [
+  {
+   "selector": "[mi18n-lang=ru-ru].mobile .m-section-nav-label",
+   "media": [],
+   "declarations": {
+    "font-size": ".3rem"
+   },
+   "source": "/_nuxt/b5b7858.js #1235"
+  },
+  {
+   "selector": "[mi18n-lang=vi-vn].mobile .m-home-world .section__concept-title[data-v-c09ee0ae],[mi18n-lang=ru-ru].mobile .m-home-world .section__concept-title[data-v-c09ee0ae],[mi18n-lang=pt-pt].mobile .m-home-world .section__concept-title[data-v-c09ee0ae],[mi18n-lang=fr-fr].mobile .m-home-world .section__concept-title[data-v-c09ee0ae]",
+   "media": [],
+   "declarations": {
+    "padding-left": ".4rem"
+   },
+   "source": "/_nuxt/a9873dc.js #1304"
+  },
+  {
+   "selector": "[mi18n-lang=de-de].mobile .m-home-world .section__concept-title[data-v-c09ee0ae]",
+   "media": [],
+   "declarations": {
+    "margin-left": ".2rem"
+   },
+   "source": "/_nuxt/a9873dc.js #1304"
+  },
+  {
+   "selector": "[mi18n-lang=vi-vn].mobile .m-world__slide-cover .cover-name .name-en",
+   "media": [],
+   "declarations": {
+    "font-size": ".75rem"
+   },
+   "source": "/_nuxt/b262029.js #1319"
+  }
+ ],
+ "markup": "<html class=\"ios iphone mobile portrait mo\" style=\"font-size: 52px;\" theme-mode=\"light\" brand=\"nap\" mi18n-lang=\"zh-cn\" hyv-device=\"mobile\" lang=\"zh-cn\"><head>\n    <title>赛维里安·洛威尔 |《绝区零》官方网站</title><meta data-n-head=\"1\" charset=\"utf-8\"><meta data-n-head=\"1\" http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta data-n-head=\"1\" name=\"google-site-verification\" content=\"gro5hBJaz1OmMHQbHKQcbrMa7Sa3a-QatAiT_c1NZhc\"><meta data-n-head=\"1\" name=\"nightmode\" content=\"disable\"><link data-n-head=\"1\" rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\"><script type=\"text/javascript\" async=\"\" src=\"https://www.google-analytics.com/analytics.js\"></script><script type=\"text/javascript\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-4MDLY4VQB3&amp;cx=c&amp;gtm=4e6a10h2\"></script><script type=\"text/javascript\" async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=UA-223308089-2&amp;cx=c&amp;gtm=4e6a10h2\"></script><script data-n-head=\"1\" src=\"https://webstatic.hoyoverse.com/dora/base/jquery-1.11.1.js\"></script><script data-n-head=\"1\" src=\"https://webstatic.hoyoverse.com/dora/biz/hoyoverse-footer/v1/footer.js\" async=\"\"></script><script data-n-head=\"1\" src=\"https://webstatic.hoyoverse.com/dora/biz/hoyoverse-account-sdk/main.js\" crossorigin=\"anonymous\"></script><style type=\"text/css\">.hyv-login-platform__loading.hidden{opacity:0;pointer-events:none;display:none}.hyv-login-platform__loading{opacity:1;position:fixed;top:0;bottom:0;left:0;right:0;display:flex;justify-content:center;align-items:center;user-select:none;z-index:100001;background:rgba(0,0,0,0)}@-webkit-keyframes rotation{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}.hyv-login-platform__loading--rotation{width:80px;height:80px;background:#2b2e33;border-radius:20px;display:flex;justify-content:center;align-items:center}.hyv-login-platform__loading--rotation div{border:none;width:46px;height:46px;background-size:46px;background-image:url(data:image/png;base64,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);animation:rotation 1s linear infinite}.hyv-login-platform__overflow-hidden{overflow:hidden}</style><script data-n-head=\"1\" src=\"https://webstatic.hoyoverse.com/dora/biz/analysis/v2/main.js\"></sc",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "mobile",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_company_privacy",
+  "m_zh-cn_company_terms",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_news_166535",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370"
+ ],
+ "computed": {
+  "mobile": {
+   "page": "m_zh-cn_character",
+   "tag": "HTML",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 1590.8125,
+    "top": 0,
+    "right": 390,
+    "bottom": 1590.8125,
+    "left": 0
+   },
+   "text": "赛维里安·洛威尔 |《绝区零》官方网站.hyv-login-platform__loading.hidden{opacity:0;pointer-events:",
+   "display": "block",
+   "width": "390px",
+   "height": "1590.81px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   ".3rem",
+   ".75rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

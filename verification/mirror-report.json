@@ -1,0 +1,109 @@
+{
+ "at": "2026-10-04T00:17:27.329Z",
+ "results": [
+  {
+   "name": "home: loader finished from the archive",
+   "ok": true,
+   "detail": "5464 ms"
+  },
+  {
+   "name": "home: header, six sections and footer rendered",
+   "ok": true,
+   "detail": {
+    "sections": 6
+   }
+  },
+  {
+   "name": "home: CMS API answered from this host (no request reached sg-public-api-static)",
+   "ok": true,
+   "detail": {
+    "localApi": 9,
+    "live": 0
+   }
+  },
+  {
+   "name": "home: nothing fetched from the live CDN or the live site",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "home: character and video swipers populated",
+   "ok": true,
+   "detail": {
+    "chara": 62,
+    "video": 9
+   }
+  },
+  {
+   "name": "client navigation to the character page (router push, no reload)",
+   "ok": true,
+   "detail": {
+    "url": "http://127.0.0.1:8797/zh-cn/character?id=166076",
+    "slides": 62
+   }
+  },
+  {
+   "name": "news index: list, tabs and pager from the archive",
+   "ok": true,
+   "detail": {
+    "items": 9,
+    "tabs": 4
+   }
+  },
+  {
+   "name": "news index: second tab answered from the archive",
+   "ok": true,
+   "detail": {
+    "live": 0
+   }
+  },
+  {
+   "name": "article 166535: renders its archived record",
+   "ok": true,
+   "detail": {
+    "title": "《绝区零》2026年10月月历壁纸",
+    "want": "《绝区零》2026年10月月历壁纸"
+   }
+  },
+  {
+   "name": "article 166535: images served from this host where archived",
+   "ok": true,
+   "detail": {
+    "127.0.0.1:8797": 6
+   }
+  },
+  {
+   "name": "world page: slides from the archive",
+   "ok": true,
+   "detail": {
+    "slides": 9
+   }
+  },
+  {
+   "name": "handbook route /zh-cn/news/7013 renders the handbook inside the news template",
+   "ok": true,
+   "detail": {
+    "title": "Zenless Zone Zero website DNA — technical handbook (single p",
+    "headings": 42
+   }
+  },
+  {
+   "name": "mobile tree: /m/zh-cn/main renders the mobile home from the archive",
+   "ok": true,
+   "detail": {
+    "url": "http://127.0.0.1:8797/m/zh-cn/main",
+    "cms": 0
+   }
+  },
+  {
+   "name": "no JavaScript errors from the site code",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "no missing files on this host",
+   "ok": true,
+   "detail": []
+  }
+ ]
+}

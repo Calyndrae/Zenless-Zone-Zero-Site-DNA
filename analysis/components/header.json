@@ -1,0 +1,1482 @@
+{
+ "component": "header",
+ "files": [
+  "673.css",
+  "685.css"
+ ],
+ "classes": {
+  "header": "header",
+  "header__logo": "header__logo",
+  "header__navbar": "header__navbar",
+  "header__navbar-links": "header__navbar-links",
+  "header__navbar-link": "header__navbar-link",
+  "header__navbar-link--active": "header__navbar-link--active",
+  "header__navbar-btns": "header__navbar-btns",
+  "header__bgm": "header__bgm",
+  "header__share": "header__share",
+  "header__login": "header__login"
+ },
+ "ruleCount": 50,
+ "rules": [
+  {
+   "selector": ".header",
+   "media": [],
+   "declarations": {
+    "position": "fixed",
+    "top": "0",
+    "left": "0",
+    "z-index": "99",
+    "width": "100%",
+    "height": "1rem",
+    "background-color": "#000"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__logo",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "2.3rem",
+    "height": ".54rem",
+    "line-height": "0",
+    "flex-shrink": "0",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__logo .logo-big",
+   "media": [],
+   "declarations": {
+    "margin-top": ".08rem",
+    "transform-origin": "top left"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__logo .logo-sm",
+   "media": [],
+   "declarations": {
+    "width": "auto",
+    "height": ".54rem",
+    "position": "absolute",
+    "top": "0",
+    "left": "0"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "flex-end",
+    "align-items": "center",
+    "height": "100%",
+    "white-space": "nowrap"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-links",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link",
+   "media": [],
+   "declarations": {
+    "height": "1rem",
+    "font-size": ".2rem",
+    "font-weight": "bold",
+    "color": "#787878",
+    "position": "relative",
+    "padding-top": ".28rem",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": ".44rem",
+    "border-radius": "1.2rem",
+    "padding": "0 .1rem",
+    "min-width": "1.24rem",
+    "cursor": "pointer",
+    "text-align": "center",
+    "transform": "scale(1)",
+    "transition": "background 500ms,color 500ms,transform 500ms",
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": "[mi18n-lang=ru-ru] .header__navbar-link .nav-content",
+   "media": [],
+   "declarations": {
+    "padding": "0 .3rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": "[mi18n-lang=ru-ru] .header__navbar-link .nav-content>span",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "width": "min-content",
+    "min-width": ".8rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-more span",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-more span::before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "width": ".12rem",
+    "height": ".1rem",
+    "background-image": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAeCAYAAABJ/8wUAAAAAXNSR0IArs4c6QAAAohJREFUWEfN1z2IE0EUAOD3drncak44YqnNCYd3IofYCBbaiN0VghYeimARQUkRJcmuiTB4JjNjgggBBRtBLcSgiJ2glTYWokcUr0kjCCIKosRbIXtPBjaQ5JLsj5twU05m3vv27WRmFmGTNNwkDhgKYYxN27YdKdYwjDXGmN1bgA1J3ORFIlpCxOkRVewdIl7jnD9px++CZLPZbZqmvQaAhREBusIS0Xkp5W3V2QUxTfMqAFwZB8LNseY4zq5yufy1F7Iyrmq0H5aITkspH/RCPgHA3BgrAoh4lnN+txdyHwBOjRNCRAtSynoXxLKsPUT0HgAmxoEhoqdSymMbFqvqME3zOgBkxgD5Q0TzUsrPfSGMsSnbttVa2TlizGUhBO+7j7Q7TdM8AQCPRghZbTab+6rV6t+hEPcVPQeAo6PAaJp2pFQqveyMPfAcyWQys7qu1wFgMkoMIj7knJ/0PGs6B1iWtUxEhQghv3Vdny8Wi18CQdLp9JZYLPYREWeiwCDiJc75jX6xPI/4XC63iIjPIoDUDcPYzxhrhYK4C1dBFv8DQ4h4mHP+alAMz4qoiYVCYabVan0AgK0hMfeEEGeGzfUFUQFyuVwBEZeDQojop+M4uyuVyrdIIKlUajIej6u/82xAzAUhxC2vOb4r4q4VtcGpjc5ve9toNA7UajXHa0IgiItRW786ArzaOiIe5Jy/8Rqofg8MyefzOxzHWQWAKY8Ed4QQ5/wgQkHcqqhrgrouDGrfEXGOc/5jpJBkMjmRSCReAMChPonUnnG881PBDybwq2kHdb9/bgLAUseNTl1yLgohHvtJ3jkmNKQdxLKs7QCwl4h+GYaxwhhbD4oIvUbCJPKa8w/GWtEfunMEbAAAAABJRU5ErkJggg==)",
+    "background-size": "100% 100%",
+    "right": "-0.15rem",
+    "top": ".04rem",
+    "transform-origin": "center",
+    "transition": "transform .25s"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-download",
+   "media": [],
+   "declarations": {
+    "background-color": "#d8fa00",
+    "color": "#000"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-download span::before",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link:hover .nav-content-sub",
+   "media": [],
+   "declarations": {
+    "opacity": "1",
+    "pointer-events": "auto",
+    "transition": "opacity .25s"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link:hover .nav-content-more span::before",
+   "media": [],
+   "declarations": {
+    "transform": "rotate(180deg)"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link:hover .nav-content:not(.nav-content-more):not(.nav-content-download),.header__navbar-link--active .nav-content",
+   "media": [],
+   "declarations": {
+    "background-color": "#fff",
+    "color": "#000",
+    "transform": "scale(1.12)"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-sub",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "top": ".9rem",
+    "width": "2rem",
+    "margin-left": "-1rem",
+    "background-color": "#111",
+    "padding": ".16rem .06rem .06rem",
+    "border-radius": ".05rem",
+    "opacity": "0",
+    "pointer-events": "none"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-sub-item",
+   "media": [],
+   "declarations": {
+    "min-height": ".43rem",
+    "font-size": ".2rem",
+    "border-radius": ".05rem",
+    "cursor": "pointer",
+    "position": "relative",
+    "padding": ".05rem 0"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-sub-item span,.header__navbar-link .nav-content-sub-item a",
+   "media": [],
+   "declarations": {
+    "color": "#787878",
+    "width": "1.6rem",
+    "min-height": ".43rem",
+    "padding": "0 .1rem",
+    "position": "relative",
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-sub-item-link::after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "right": ".06rem",
+    "top": "50%",
+    "width": ".15rem",
+    "height": ".15rem",
+    "background-image": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAedJREFUSEvN1z9rFEEYBvDnnTm5QpNghICdpaX5AEEIiWAhSMRvoE3KgBwezN5zO2AhCElhZWdtLRaKYFJpbESxs0hlmSBYefPKyF3YI3uX/Xcm283OzPubd2Z3dlZwRpeckYsTMMn5wWCwbK290OCgfpL8mo03BpO8G0J4CWCuQfRfKFV9Y629R/J3LB/DnU5nod1uHwCYbxodxRORtN/v98Zg59yKiHyYFTqM+z5N09UxmOS1EMKP7CzMYBB7aZqujMGx0Ov1nqnq1gzAUch8ONYmSXJbRNYAXDptAKoan5ENAFdOazusnwwXDHDcLEmSpwAeFezXDEzyRgjhHYDF/wYP0bclpjmOrV7GFdF6cA20OlwAPVLVOyIS34jXOetefqqLoMaYWyQ/Drffw9pwEVRV1733nyLWCFwWbQSugtaGq6K14CKoMWaN5H7ejlVpjeuilTImuRhC+A5gacLeezQt01Gf0hk75x6IyIs6aKWMnXObIvI8By6UaeWMu93u1Var9Q3A5Qx+aIxZn/Qg5c0OyVYIIe5cF7P1qvrKe3//xNEn3nDO3RSRbQDXAXw2xmyS/FLwe5s9IDwB8DjT74+qrnrvd3PhssCU9uKceygiG6r6y1q7Q3Jv1P78/MI0mPHUUH8BSo8jLipYR6YAAAAASUVORK5CYII=)",
+    "background-size": "100% 100%",
+    "margin-left": ".05rem",
+    "margin-top": "-0.075rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-sub-item:hover",
+   "media": [],
+   "declarations": {
+    "background-color": "#3d3d3d",
+    "color": "#acacac"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link .nav-content-sub::before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": ".1rem",
+    "border-radius": ".05rem",
+    "background-color": "#d8fa00"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-link:not(:first-child)",
+   "media": [],
+   "declarations": {
+    "margin-left": ".4rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-btns",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "flex-start",
+    "align-items": "center",
+    "height": "100%",
+    "margin-left": ".62rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__navbar-btns .header__navbar-link",
+   "media": [],
+   "declarations": {
+    "margin-left": "0",
+    "margin-right": ".4rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__bgm",
+   "media": [],
+   "declarations": {
+    "width": ".58rem",
+    "height": ".58rem",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__bgm .m-audio-player__icon--active",
+   "media": [],
+   "declarations": {
+    "animation": "heartbeat .8s infinite"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__share",
+   "media": [],
+   "declarations": {
+    "margin-left": ".52rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login",
+   "media": [],
+   "declarations": {
+    "height": "100%",
+    "margin-left": ".38rem"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login",
+   "media": [],
+   "declarations": {
+    "height": "100%"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__btn,.header__login .login__icon",
+   "media": [],
+   "declarations": {
+    "width": ".58rem",
+    "height": ".58rem",
+    "background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAADhu0ooAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1MEE3OUI2QkExNDYxMUVDOEU1NEVERTcwQzFGOTJGRiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1MEE3OUI2Q0ExNDYxMUVDOEU1NEVERTcwQzFGOTJGRiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjUwQTc5QjY5QTE0NjExRUM4RTU0RURFNzBDMUY5MkZGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjUwQTc5QjZBQTE0NjExRUM4RTU0RURFNzBDMUY5MkZGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+W5qehQAAAmRJREFUeNrsms9LFVEUx9/YDx8ovFUFIoZZhITVQsXnzhcGgtiyoKD+giCCWrWsVasWLYqohRAtBLU2Uo8WVmYJUgShERUUuBC07Hfq9Bm4i2G8t9fI3OFd5xz4LN7lnJnznTtz7j0zz/N9P5cFq8llxESoCBWhIlSEilARKkJFaOaEbk7xgu6HVtgK3+AFvElNadC9WKQWzsFHX28v4Th4lvPIeRbbtGYYgbb/8L0HJ+CzrWRsCW2ASWiMEfMEDsFPV4qRB4MxRQbWDRddmtF+uKsZn4Br8EEVptOwK+KzDLuVT9UXo2FN0bkONRG/ehjX+F5wpRgtQiH0e07N3A+NbwvMRh6hh1Cq9me0EBEZ2JhBZGBv4VVkbKcLxcjTjP2qEPM7jd1a0gf9opm9nn+cZ5sqTGH75ILQVXgaGdsDZw3nvqK2hNHq7MQW8JRhu3cDOmAHlOC+xmcV2lypulvUhr11HbF34JhLW8AD8BjqYsS8g06Yd6kfDWa0L0bSr9U+d95SPlYb73FVUW/BH4PPElyCdjWj1sxL6WvadjgM+yCv2rFpKMPXkF+9asqTT8pChTsPZWiKGdcFszAEdUnnleTB8jAYWiq+w2VoqRDXDrdhJRQ7vY4LlYrQAjwyrJ+BgCOGuE5YMMTNQbHahJ40JLsEAxVi98KMIf5mUkJtVt33UITRCn4z0AUPXH2ve0bTgplsQa27TgqNu0Qsy5t6ESpC15jNby9Bu3UwK0I33K3rZ+UZfQYrFvJ7Xo1tWi8chU0JHW8KriZ1t3jy704RKkJFqAgVoSJUhIpQEbpB7a8AAwB9zWfbRxVjNwAAAABJRU5ErkJggg==) center/contain",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__info",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "display": "flex",
+    "align-items": "center",
+    "height": "100%"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__info:hover .login__dropdown",
+   "media": [],
+   "declarations": {
+    "display": "block"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__dropdown",
+   "media": [],
+   "declarations": {
+    "display": "none",
+    "position": "absolute",
+    "top": "0",
+    "right": "0",
+    "min-width": "1.5rem",
+    "min-height": ".8rem",
+    "padding": ".1rem .2rem .14rem",
+    "border-radius": ".06rem",
+    "border-top": ".1rem solid #d8fa00",
+    "background": "#111",
+    "transform": "translateY(0.84rem)",
+    "transform-origin": "top center"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__dropdown-wrap",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "display": "flex",
+    "flex-direction": "column",
+    "justify-content": "center",
+    "align-items": "center",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__dropdown a",
+   "media": [],
+   "declarations": {
+    "font-size": ".16rem",
+    "line-height": ".26rem",
+    "color": "#fff"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__dropdown a:last-child",
+   "media": [],
+   "declarations": {
+    "min-width": ".76rem",
+    "margin-top": ".1rem",
+    "padding": "0 .1rem",
+    "border-radius": ".12rem",
+    "text-align": "center",
+    "background-color": "#333"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__dropdown .btn-logout",
+   "media": [],
+   "declarations": {
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": ".header__login .login__dropdown .btn-logout:hover",
+   "media": [],
+   "declarations": {
+    "background-color": "#fff",
+    "color": "#333"
+   },
+   "source": "/_nuxt/8c4c131.js #673"
+  },
+  {
+   "selector": "html[lang|=en-us] body .header__navbar-link,html[lang|=en-us] body .news-detail__title,html[lang|=en-us] body .news-detail__info,html[lang|=en-us] body .news-detail__content,html[lang|=en-us] body .web-protocol__title,html[lang|=en-us] body .web-protocol__info,html[lang|=en-us] body .web-protocol__content,html[lang|=en-us] body .character-detail-intro .character__intro-content,html[lang|=en-us] body .news-wrap,html[lang|=en-us] body .video-wrap,html[lang|=en-us] body .subscription-dlg,html[lang|=en-us] body .world__slide-cover,html[lang|=en-us] body .redirect-dialog,html[lang|=en-us] body .character__cv-name,html[lang|=en-us] body .character-camp__item-desc,html[lang|=en-us] body .news-list__item,html[lang|=en-us] body .news-tag,html[lang|=en-us] body .world__slide-tape .tape-name .name,html[lang|=en-us] body .world-detail__title,html[lang|=en-us] body .world-detail__content,html[lang|=en-us] body .me-toast,html[lang|=en-us] body .mihoyo-cookie-tips__text,html[lang|=en-us] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=ja-jp] body .header__navbar-link,html[lang|=ja-jp] body .news-detail__title,html[lang|=ja-jp] body .news-detail__info,html[lang|=ja-jp] body .news-detail__content,html[lang|=ja-jp] body .web-protocol__title,html[lang|=ja-jp] body .web-protocol__info,html[lang|=ja-jp] body .web-protocol__content,html[lang|=ja-jp] body .character-detail-intro .character__intro-content,html[lang|=ja-jp] body .news-wrap,html[lang|=ja-jp] body .video-wrap,html[lang|=ja-jp] body .subscription-dlg,html[lang|=ja-jp] body .world__slide-cover .cover-summary,html[lang|=ja-jp] body .redirect-dialog,html[lang|=ja-jp] body .character__cv-name,html[lang|=ja-jp] body .character-camp__item-desc,html[lang|=ja-jp] body .news-tag,html[lang|=ja-jp] body .world-detail__title,html[lang|=ja-jp] body .world-detail__content,html[lang|=ja-jp] body .me-toast,html[lang|=ja-jp] body .mihoyo-cookie-tips__text,html[lang|=ja-jp] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=ko-kr] body .header__navbar-link,html[lang|=ko-kr] body .news-detail__title,html[lang|=ko-kr] body .news-detail__info,html[lang|=ko-kr] body .news-detail__content,html[lang|=ko-kr] body .web-protocol__title,html[lang|=ko-kr] body .web-protocol__info,html[lang|=ko-kr] body .web-protocol__content,html[lang|=ko-kr] body .character-detail-intro .character__intro-content,html[lang|=ko-kr] body .news-wrap,html[lang|=ko-kr] body .video-wrap,html[lang|=ko-kr] body .subscription-dlg,html[lang|=ko-kr] body .world__slide-cover,html[lang|=ko-kr] body .redirect-dialog,html[lang|=ko-kr] body .character-camp__item-desc,html[lang|=ko-kr] body .news-tag,html[lang|=ko-kr] body .world-detail__title,html[lang|=ko-kr] body .world-detail__content,html[lang|=ko-kr] body .me-toast,html[lang|=ko-kr] body .mihoyo-cookie-tips__text,html[lang|=ko-kr] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=zh-cn] body .header__navbar-link,html[lang|=zh-cn] body .news-detail__title,html[lang|=zh-cn] body .news-detail__info,html[lang|=zh-cn] body .news-detail__content,html[lang|=zh-cn] body .web-protocol__title,html[lang|=zh-cn] body .web-protocol__info,html[lang|=zh-cn] body .web-protocol__content,html[lang|=zh-cn] body .character-detail-intro .character__intro-content,html[lang|=zh-cn] body .news-wrap,html[lang|=zh-cn] body .video-wrap,html[lang|=zh-cn] body .subscription-dlg,html[lang|=zh-cn] body .world__slide-cover,html[lang|=zh-cn] body .redirect-dialog,html[lang|=zh-cn] body .character__cv-name,html[lang|=zh-cn] body .character-camp__item-desc,html[lang|=zh-cn] body .news-tag,html[lang|=zh-cn] body .world__slide-tape .tape-name .name,html[lang|=zh-cn] body .world-detail__title,html[lang|=zh-cn] body .world-detail__content,html[lang|=zh-cn] body .me-toast,html[lang|=zh-cn] body .mihoyo-cookie-tips__text,html[lang|=zh-cn] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=zh-tw] body .header__navbar-link,html[lang|=zh-tw] body .news-detail__title,html[lang|=zh-tw] body .news-detail__info,html[lang|=zh-tw] body .news-detail__content,html[lang|=zh-tw] body .web-protocol__title,html[lang|=zh-tw] body .web-protocol__info,html[lang|=zh-tw] body .web-protocol__content,html[lang|=zh-tw] body .character-detail-intro .character__intro-content,html[lang|=zh-tw] body .news-wrap,html[lang|=zh-tw] body .video-wrap,html[lang|=zh-tw] body .subscription-dlg,html[lang|=zh-tw] body .world__slide-cover,html[lang|=zh-tw] body .redirect-dialog,html[lang|=zh-tw] body .character__cv-name,html[lang|=zh-tw] body .character-camp__item-desc,html[lang|=zh-tw] body .news-tag,html[lang|=zh-tw] body .world__slide-tape .tape-name .name,html[lang|=zh-tw] body .world-detail__title,html[lang|=zh-tw] body .world-detail__content,html[lang|=zh-tw] body .me-toast,html[lang|=zh-tw] body .mihoyo-cookie-tips__text,html[lang|=zh-tw] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=es-es] body .header__navbar-link,html[lang|=es-es] body .news-detail__title,html[lang|=es-es] body .news-detail__info,html[lang|=es-es] body .news-detail__content,html[lang|=es-es] body .web-protocol__title,html[lang|=es-es] body .web-protocol__info,html[lang|=es-es] body .web-protocol__content,html[lang|=es-es] body .character-detail-intro .character__intro-content,html[lang|=es-es] body .news-wrap,html[lang|=es-es] body .video-wrap,html[lang|=es-es] body .subscription-dlg,html[lang|=es-es] body .world__slide-cover,html[lang|=es-es] body .redirect-dialog,html[lang|=es-es] body .character__cv-name,html[lang|=es-es] body .character-camp__item-desc,html[lang|=es-es] body .news-list__item,html[lang|=es-es] body .news-tag,html[lang|=es-es] body .world__slide-tape .tape-name .name,html[lang|=es-es] body .world-detail__title,html[lang|=es-es] body .world-detail__content,html[lang|=es-es] body .me-toast,html[lang|=es-es] body .mihoyo-cookie-tips__text,html[lang|=es-es] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=id-id] body .header__navbar-link,html[lang|=id-id] body .news-detail__title,html[lang|=id-id] body .news-detail__info,html[lang|=id-id] body .news-detail__content,html[lang|=id-id] body .web-protocol__title,html[lang|=id-id] body .web-protocol__info,html[lang|=id-id] body .web-protocol__content,html[lang|=id-id] body .character-detail-intro .character__intro-content,html[lang|=id-id] body .m-character-detail__intro,html[lang|=id-id] body .news-wrap,html[lang|=id-id] body .video-wrap,html[lang|=id-id] body .subscription-dlg,html[lang|=id-id] body .world__slide-cover,html[lang|=id-id] body .redirect-dialog,html[lang|=id-id] body .character__cv-name,html[lang|=id-id] body .character-camp__item-desc,html[lang|=id-id] body .news-list__item,html[lang|=id-id] body .news-tag,html[lang|=id-id] body .world__slide-tape .tape-name .name,html[lang|=id-id] body .world-detail__title,html[lang|=id-id] body .world-detail__content,html[lang|=id-id] body .me-toast,html[lang|=id-id] body .mihoyo-cookie-tips__text,html[lang|=id-id] body .sea-download-nap-title__txt,html[lang|=ru-ru] body .header__navbar-link,html[lang|=ru-ru] body .news-detail__title,html[lang|=ru-ru] body .news-detail__info,html[lang|=ru-ru] body .news-detail__content,html[lang|=ru-ru] body .web-protocol__title,html[lang|=ru-ru] body .web-protocol__info,html[lang|=ru-ru] body .web-protocol__content,html[lang|=ru-ru] body .character-detail-intro .character__intro-content,html[lang|=ru-ru] body .m-character-detail__intro,html[lang|=ru-ru] body .news-wrap,html[lang|=ru-ru] body .video-wrap,html[lang|=ru-ru] body .subscription-dlg,html[lang|=ru-ru] body .world__slide-cover,html[lang|=ru-ru] body .redirect-dialog,html[lang|=ru-ru] body .character__cv-name,html[lang|=ru-ru] body .character-camp__item-desc,html[lang|=ru-ru] body .news-list__item,html[lang|=ru-ru] body .news-tag,html[lang|=ru-ru] body .world__slide-tape .tape-name .name,html[lang|=ru-ru] body .world-detail__title,html[lang|=ru-ru] body .world-detail__content,html[lang|=ru-ru] body .me-toast,html[lang|=ru-ru] body .mihoyo-cookie-tips__text,html[lang|=ru-ru] body .sea-download-nap-title__txt,html[lang|=pt-pt] body .header__navbar-link,html[lang|=pt-pt] body .news-detail__title,html[lang|=pt-pt] body .news-detail__info,html[lang|=pt-pt] body .news-detail__content,html[lang|=pt-pt] body .web-protocol__title,html[lang|=pt-pt] body .web-protocol__info,html[lang|=pt-pt] body .web-protocol__content,html[lang|=pt-pt] body .character-detail-intro .character__intro-content,html[lang|=pt-pt] body .m-character-detail__intro,html[lang|=pt-pt] body .news-wrap,html[lang|=pt-pt] body .video-wrap,html[lang|=pt-pt] body .subscription-dlg,html[lang|=pt-pt] body .world__slide-cover,html[lang|=pt-pt] body .redirect-dialog,html[lang|=pt-pt] body .character__cv-name,html[lang|=pt-pt] body .character-camp__item-desc,html[lang|=pt-pt] body .news-list__item,html[lang|=pt-pt] body .news-tag,html[lang|=pt-pt] body .world__slide-tape .tape-name .name,html[lang|=pt-pt] body .world-detail__title,html[lang|=pt-pt] body .world-detail__content,html[lang|=pt-pt] body .me-toast,html[lang|=pt-pt] body .mihoyo-cookie-tips__text,html[lang|=pt-pt] body .sea-download-nap-title__txt,html[lang|=fr-fr] body .header__navbar-link,html[lang|=fr-fr] body .news-detail__title,html[lang|=fr-fr] body .news-detail__info,html[lang|=fr-fr] body .news-detail__content,html[lang|=fr-fr] body .web-protocol__title,html[lang|=fr-fr] body .web-protocol__info,html[lang|=fr-fr] body .web-protocol__content,html[lang|=fr-fr] body .character-detail-intro .character__intro-content,html[lang|=fr-fr] body .m-character-detail__intro,html[lang|=fr-fr] body .news-wrap,html[lang|=fr-fr] body .video-wrap,html[lang|=fr-fr] body .subscription-dlg,html[lang|=fr-fr] body .world__slide-cover,html[lang|=fr-fr] body .redirect-dialog,html[lang|=fr-fr] body .character__cv-name,html[lang|=fr-fr] body .character-camp__item-desc,html[lang|=fr-fr] body .news-list__item,html[lang|=fr-fr] body .news-tag,html[lang|=fr-fr] body .world__slide-tape .tape-name .name,html[lang|=fr-fr] body .world-detail__title,html[lang|=fr-fr] body .world-detail__content,html[lang|=fr-fr] body .me-toast,html[lang|=fr-fr] body .mihoyo-cookie-tips__text,html[lang|=fr-fr] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=de-de] body .header__navbar-link,html[lang|=de-de] body .news-detail__title,html[lang|=de-de] body .news-detail__info,html[lang|=de-de] body .news-detail__content,html[lang|=de-de] body .web-protocol__title,html[lang|=de-de] body .web-protocol__info,html[lang|=de-de] body .web-protocol__content,html[lang|=de-de] body .character-detail-intro .character__intro-content,html[lang|=de-de] body .m-character-detail__intro,html[lang|=de-de] body .news-wrap,html[lang|=de-de] body .video-wrap,html[lang|=de-de] body .subscription-dlg,html[lang|=de-de] body .world__slide-cover,html[lang|=de-de] body .redirect-dialog,html[lang|=de-de] body .character__cv-name,html[lang|=de-de] body .character-camp__item-desc,html[lang|=de-de] body .news-list__item,html[lang|=de-de] body .news-tag,html[lang|=de-de] body .world__slide-tape .tape-name .name,html[lang|=de-de] body .world-detail__title,html[lang|=de-de] body .world-detail__content,html[lang|=de-de] body .me-toast,html[lang|=de-de] body .mihoyo-cookie-tips__text,html[lang|=de-de] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=th-th] body .header__navbar-link,html[lang|=th-th] body .news-detail__title,html[lang|=th-th] body .news-detail__info,html[lang|=th-th] body .news-detail__content,html[lang|=th-th] body .web-protocol__title,html[lang|=th-th] body .web-protocol__info,html[lang|=th-th] body .web-protocol__content,html[lang|=th-th] body .character-detail-intro .character__intro-content,html[lang|=th-th] body .news-wrap,html[lang|=th-th] body .video-wrap,html[lang|=th-th] body .subscription-dlg,html[lang|=th-th] body .world__slide-cover,html[lang|=th-th] body .redirect-dialog,html[lang|=th-th] body .character__cv-name,html[lang|=th-th] body .character-camp__item-desc,html[lang|=th-th] body .news-list__item,html[lang|=th-th] body .news-tag,html[lang|=th-th] body .world__slide-tape .tape-name .name,html[lang|=th-th] body .world-detail__title,html[lang|=th-th] body .world-detail__content,html[lang|=th-th] body .me-toast,html[lang|=th-th] body .mihoyo-cookie-tips__text,html[lang|=th-th] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "\"KanitRegular\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=vi-vn] body .header__navbar-link,html[lang|=vi-vn] body .news-detail__title,html[lang|=vi-vn] body .news-detail__info,html[lang|=vi-vn] body .news-detail__content,html[lang|=vi-vn] body .web-protocol__title,html[lang|=vi-vn] body .web-protocol__info,html[lang|=vi-vn] body .web-protocol__content,html[lang|=vi-vn] body .character-detail-intro .character__intro-content,html[lang|=vi-vn] body .news-wrap,html[lang|=vi-vn] body .video-wrap,html[lang|=vi-vn] body .subscription-dlg,html[lang|=vi-vn] body .world__slide-cover,html[lang|=vi-vn] body .redirect-dialog,html[lang|=vi-vn] body .character__cv-name,html[lang|=vi-vn] body .character-camp__item-desc,html[lang|=vi-vn] body .news-tag,html[lang|=vi-vn] body .world__slide-tape .tape-name .name,html[lang|=vi-vn] body .world-detail__title,html[lang|=vi-vn] body .world-detail__content,html[lang|=vi-vn] body .me-toast,html[lang|=vi-vn] body .mihoyo-cookie-tips__text,html[lang|=vi-vn] body .sea-download-nap-title__txt",
+   "media": [],
+   "declarations": {
+    "font-family": "var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  }
+ ],
+ "markup": "<header class=\"m-header\"><div class=\"m-header-wrap\"><div class=\"m-header__logo\"><div class=\"logo-icon logo-icon__light\" style=\"display: none;\"></div> <img src=\"https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2022/05/12/3328244ee4c186f6277acaa1a5ee0255_714129345908257824.png\" alt=\"miHoYo\" class=\"logoSmall-img\"></div> <div class=\"m-header-right\"><div class=\"m-header__download\"><img src=\"https://fastcdn.hoyoverse.com/mi18n/nap_global/m03111446031031/upload/d673d1e99492ffab6cf509efa2d58d50_2864364064439756581.png\"></div> <div class=\"m-audio-player m-header__bgm\"><img src=\"data:image/png;base64,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\" alt=\"\" class=\"m-audio-player__icon\" style=\"display: none;\"> <img src=\"\" alt=\"\" class=\"m-audio-player__icon m-audio-player__icon--hover\" style=\"display: none;\"> <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAADhu0ooAAAAAXNSR0IArs4c6QAAD1hJREFUaEPNmwlwVMUWhk8nIWyKAioqIK6A4oLPSOYOoEbFhUVc31MQVFRcShCeWmBhlUspyrMEcQWxAHcBn7ggi4KRxZkJIBIVkF1REVTCKgRJpl99nelrz81MMglQ9U4V5WTm3u7++2z/Od0qOUgSiUTqi8jZWVlZ7bXWbUSkhVLqCBFpxJTxeLxMKbVVRH7TWq/LysparpRakp+fv+pgLEkdyEEXLlzYsry8/DoR6SEiYRHJrcX4m0RkllJqaklJycyuXbvurcUYlV7Zb6Baa1VUVHS5iAzUWncRkawDsbDEGFtEZGJ2dvboDh06/LQ/4+4X0Fgs1lVr/Tgmmm4Ru3btkt9//122bt0qf/75p/z1119SVlYmdevWNf8OPfRQadq0qRx55JGSk5OTbpgyAJeXlz/cqVOnjbUBXCug0Wj0eBF5SUTQZJLs27dP1qxZIytXrpQffvjBAMxEsrOz5dhjj5WTTjpJ2rVrJ0cddVSq1/4UkcdKS0tHFhQUAD5jqTHQSCTSTyk1WkQOcWcpKSmRWCwmxcXFUlpamvEC0j3YrFkz6dChg5x11llSp06d4GOLtNa9wuHwmkwnyhhoYWFhvfr164/VWvd1B9++fbt8/vnnBqDWunIQUEqaNGlizLNRo0aSm5trFo4JY8q8/9tvv8mePXtSrhnTPv/88+Wcc86RrKwk998hIn08z/soE7AZAZ0/f37jnJycj0Wkox00Ho9LNBqVwsJCwVxdadiwoZx22mnSunVrOe6446RevXrVrmXLli2ybt06WbFihaxfv570k/QOGr7yyiuNeTsS11rfFw6Hn61ugmqBzps378g6derMEZEz7GA7duyQKVOmyIYNG5LGP+aYY6RTp05y6qmnCj5XW0HLixYtMv9cN0CjF154oZlDqaSlD/U8b0RV81UJNBaLNdJaF4rIP+wgP//8s7zzzjtCNLVy+OGHy6WXXmoABhZQW6zmPcx57ty5UlRUlKRh5rnmmmuCvnuf53kj002YFujkyZOzW7Zsibn6kRWTeuutt5JM9dxzz5VLLrnE+N7Bko0bN8r7779v0pSVli1byo033ui6hVZKXRcKhf6bah1pgcZiseFa6wftS0GQBBR85vTTTz9Y+JLGJXh9+OGH8t133/nft2jRQm6++WZXs7uUUvmhUGh5cFEpgUaj0QtEBL80YY6dfPXVV31/adCggfTu3VuY6EDK3r17zVybN2/2/xGkmIdNhWB89tln8uWXX/rTtmnTRq6//no3Ihdv3bo1P0gdKwFdvHhxg3379\n<!-- … truncated, 11903 chars total -->",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "header",
+ "appearsOn": [
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "header": {
+   "page": "zh-cn_character",
+   "tag": "HEADER",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 56.25,
+    "top": 0,
+    "right": 1440,
+    "bottom": 56.25,
+    "left": 0
+   },
+   "text": "首页 角色介绍 影像资料\n 新闻资讯 设定档案 更多 兑换码 充值 攻略  立即下载      关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nT",
+   "position": "fixed",
+   "display": "block",
+   "width": "1440px",
+   "height": "56.25px",
+   "bottom": "843.75px",
+   "z-index": "99",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "header__bgm": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 1080,
+    "y": 11.8125,
+    "width": 32.625,
+    "height": 32.625,
+    "top": 11.8125,
+    "right": 1112.625,
+    "bottom": 44.4375,
+    "left": 1080
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "32.625px",
+   "height": "32.625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "header__login": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 1195.875,
+    "y": 0,
+    "width": 32.625,
+    "height": 56.25,
+    "top": 0,
+    "right": 1228.5,
+    "bottom": 56.25,
+    "left": 1195.875
+   },
+   "text": "",
+   "display": "block",
+   "width": "32.625px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0px 0px 21.375px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "header__logo": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 211.5,
+    "y": 12.9375,
+    "width": 129.375,
+    "height": 30.375,
+    "top": 12.9375,
+    "right": 340.875,
+    "bottom": 43.3125,
+    "left": 211.5
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "129.375px",
+   "height": "30.375px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "header__navbar": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 952.875,
+    "y": 0,
+    "width": 275.625,
+    "height": 56.25,
+    "top": 0,
+    "right": 1228.5,
+    "bottom": 56.25,
+    "left": 952.875
+   },
+   "text": "立即下载      关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInsta",
+   "display": "flex",
+   "width": "275.625px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "flex-end",
+   "align-items": "center"
+  },
+  "header__navbar-btns": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 987.75,
+    "y": 0,
+    "width": 240.75,
+    "height": 56.25,
+    "top": 0,
+    "right": 1228.5,
+    "bottom": 56.25,
+    "left": 987.75
+   },
+   "text": "立即下载      关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInsta",
+   "display": "flex",
+   "width": "240.75px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0px 0px 34.875px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "flex-start",
+   "align-items": "center"
+  },
+  "header__navbar-link": {
+   "page": "zh-cn_character",
+   "tag": "NAV",
+   "rect": {
+    "x": 340.875,
+    "y": 0,
+    "width": 69.75,
+    "height": 56.25,
+    "top": 0,
+    "right": 410.625,
+    "bottom": 56.25,
+    "left": 340.875
+   },
+   "text": "首页",
+   "position": "relative",
+   "display": "block",
+   "width": "69.75px",
+   "height": "56.25px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.25px",
+   "font-weight": "700",
+   "line-height": "11.25px",
+   "color": "rgb(120, 120, 120)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(120, 120, 120)",
+   "padding": "15.75px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "header__navbar-link--active": {
+   "page": "zh-cn_character",
+   "tag": "NAV",
+   "rect": {
+    "x": 433.125,
+    "y": 0,
+    "width": 69.75,
+    "height": 56.25,
+    "top": 0,
+    "right": 502.875,
+    "bottom": 56.25,
+    "left": 433.125
+   },
+   "text": "角色介绍",
+   "position": "relative",
+   "display": "block",
+   "width": "69.75px",
+   "height": "56.25px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.25px",
+   "font-weight": "700",
+   "line-height": "11.25px",
+   "color": "rgb(120, 120, 120)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(120, 120, 120)",
+   "padding": "15.75px 0px 0px",
+   "margin": "0px 0px 0px 22.5px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "header__navbar-links": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 340.875,
+    "y": 0,
+    "width": 531,
+    "height": 56.25,
+    "top": 0,
+    "right": 871.875,
+    "bottom": 56.25,
+    "left": 340.875
+   },
+   "text": "首页 角色介绍 影像资料\n 新闻资讯 设定档案 更多 兑换码 充值 攻略",
+   "display": "flex",
+   "width": "531px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  },
+  "header__share": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 1141.875,
+    "y": 0,
+    "width": 32.625,
+    "height": 56.25,
+    "top": 0,
+    "right": 1174.5,
+    "bottom": 56.25,
+    "left": 1141.875
+   },
+   "text": "关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInstagram\n\n Ins",
+   "display": "block",
+   "width": "32.625px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0px 0px 29.25px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [
+  {
+   "page": "zh-cn_character",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166475",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166476",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166496",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166497",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166498",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166535",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_video",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world_102173",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world_102257",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world_102370",
+   "cls": "header__navbar-link",
+   "diff": {
+    "nav-content#1#0": {
+     "transform": {
+      "before": "matrix(1, 0, 0, 1, 0, 0)",
+      "after": "matrix(1.12, 0, 0, 1.12, 0, 0)"
+     },
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(255, 255, 255)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    },
+    "SPAN#2#0": {
+     "color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     },
+     "border-color": {
+      "before": "rgb(120, 120, 120)",
+      "after": "rgb(0, 0, 0)"
+     }
+    }
+   },
+   "transition": "all"
+  }
+ ],
+ "keyframes": [
+  {
+   "name": "heartbeat",
+   "file": "673.css",
+   "source": "/_nuxt/8c4c131.js #673",
+   "css": "@keyframes heartbeat{0%{transform:scale(1, 1)}30%{transform:scale(1.1, 1.1)}50%{transform:scale(1, 1)}75%{transform:scale(1.1, 1.1)}80%{transform:scale(1, 1)}100%{transform:scale(1, 1)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    },
+    {
+     "at": "30%",
+     "declarations": {
+      "transform": "scale(1.1, 1.1)"
+     }
+    },
+    {
+     "at": "50%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    },
+    {
+     "at": "75%",
+     "declarations": {
+      "transform": "scale(1.1, 1.1)"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    },
+    {
+     "at": "100%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "heartbeat",
+   "file": "695.css",
+   "source": "/_nuxt/8c4c131.js #695",
+   "css": "@keyframes heartbeat{0%{transform:scale(1, 1)}30%{transform:scale(1.1, 1.1)}50%{transform:scale(1, 1)}75%{transform:scale(1.1, 1.1)}80%{transform:scale(1, 1)}100%{transform:scale(1, 1)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    },
+    {
+     "at": "30%",
+     "declarations": {
+      "transform": "scale(1.1, 1.1)"
+     }
+    },
+    {
+     "at": "50%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    },
+    {
+     "at": "75%",
+     "declarations": {
+      "transform": "scale(1.1, 1.1)"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    },
+    {
+     "at": "100%",
+     "declarations": {
+      "transform": "scale(1, 1)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "#000",
+   "#787878",
+   "#d8fa00",
+   "#fff",
+   "#111",
+   "#3d3d3d",
+   "#acacac",
+   "#333"
+  ],
+  "fonts": [
+   "var(--mi18n-font-css) !important",
+   "\"KanitRegular\",var(--mi18n-font-css) !important"
+  ],
+  "fontSizes": [
+   ".2rem",
+   ".16rem"
+  ],
+  "zIndex": [
+   "99"
+  ],
+  "transitions": [
+   "background 500ms,color 500ms,transform 500ms",
+   "transform .25s",
+   "opacity .25s",
+   "heartbeat .8s infinite"
+  ]
+ }
+}

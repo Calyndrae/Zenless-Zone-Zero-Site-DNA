@@ -1,0 +1,24 @@
+{
+  "summary": "Nuxt page component `m-feature` for the mobile route `m-lang-feature` (layout `m/default`). `asyncData` calls the Nuxt `redirect` to `m-lang-main` unconditionally and also loads the feature list via the home content API (module 1164) `getFeature` (`/getContentList`, channel `CHANNEL_ID_CONFIG.FEATURE`) with `sLangKey: store.state.lang`, exposing it as `featureList`; `created` sets `activeFeature` to the first entry. It renders the mobile `pageTab` (nav-num 6), a `m-feature__title` with the i18n `nav4Label`, and a vue-awesome-swiper `swiper` (ref `featureSwiper`, centered `auto` slides with `.swiper-pagination` / `.swiper-button-next/prev`) of `m-feature__slide` banners (`bannerInner`), whose `slideChange` handler sets `activeFeature` from `realIndex`; the active feature's title and HTML content (`sContent` or `summary`) are shown in `m-feature__info`. `head()` builds the title from i18n `nav4` + `seoTitlePrefix`, and `handleNavigatorUpload` tracks the `m-features_next` button via `$trackButton`.",
+  "exports": {
+    "default": "the `m-feature` mobile game-features page Vue component (route m-lang-feature, compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "c_1": "homeContentApi",
+    "l_2": "featurePageOptions",
+    "A_3": "componentNormalizer",
+    "e_4": "nuxtContext",
+    "t_5": "store",
+    "e_6": "featureResponse",
+    "e_7": "self",
+    "t_8": "createdGenerator",
+    "n_9": "featureListHead",
+    "t_10": "context",
+    "e_11": "realIndex",
+    "e_12": "vm",
+    "t_13": "h",
+    "e_14": "feature",
+    "e_15": "clickEvent",
+    "e_16": "mousemoveEvent"
+  }
+}

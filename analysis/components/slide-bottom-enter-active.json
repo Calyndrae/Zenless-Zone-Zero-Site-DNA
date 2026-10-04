@@ -1,0 +1,36 @@
+{
+ "component": "slide-bottom-enter-active",
+ "files": [
+  "664.css"
+ ],
+ "classes": {
+  "slide-bottom-enter-active": "slide-bottom-enter-active"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".slide-bottom-enter-active",
+   "media": [],
+   "declarations": {
+    "transition": "all .4s ease-out"
+   },
+   "source": "/_nuxt/8c4c131.js #664"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "all .4s ease-out"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "summary": "Vendor helper: lodash toNumber. Returns numbers as-is, NaN for symbols (module 1383 isSymbol), unwraps objects via valueOf (module 351 isObject), coerces non-strings with unary plus, otherwise trims the string (module 1381 baseTrim) and parses binary (0b) and octal (0o) prefixes with parseInt, rejects signed hex (/^[-+]0x/) as NaN, and falls back to +value.",
+  "exports": {
+    "module.exports": "toNumber(value) -> number"
+  },
+  "renames": {
+    "d_1": "reIsBadHex",
+    "l_2": "reIsBinary",
+    "f_3": "reIsOctal",
+    "h_4": "freeParseInt",
+    "e_5": "value",
+    "t_6": "valueOfResult",
+    "n_7": "isBinary"
+  }
+}

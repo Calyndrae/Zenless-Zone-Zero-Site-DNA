@@ -1,0 +1,312 @@
+{
+ "component": "m-video-list",
+ "files": [
+  "1315.css"
+ ],
+ "classes": {
+  "m-video-list": "m-video-list",
+  "m-video-list__item": "m-video-list__item",
+  "m-video-list__item-banner": "m-video-list__item-banner",
+  "m-video-list__item-content": "m-video-list__item-content",
+  "m-video-list__item-title": "m-video-list__item-title",
+  "m-video-list__item-date": "m-video-list__item-date"
+ },
+ "ruleCount": 6,
+ "rules": [
+  {
+   "selector": ".m-video-list",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "row",
+    "flex-wrap": "wrap",
+    "justify-content": "space-between",
+    "width": "6.7rem",
+    "margin": "0 auto"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-list__item",
+   "media": [],
+   "declarations": {
+    "width": "3.22rem",
+    "margin-bottom": ".56rem",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-list__item-banner",
+   "media": [],
+   "declarations": {
+    "overflow": "hidden",
+    "width": "100%",
+    "height": "1.83rem",
+    "border-top-right-radius": ".35rem",
+    "border-bottom-left-radius": ".35rem"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-list__item-content",
+   "media": [],
+   "declarations": {
+    "margin-top": ".24rem"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-list__item-title",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "font-size": ".22rem",
+    "height": ".56rem",
+    "font-weight": "800",
+    "line-height": ".28rem",
+    "color": "#222122",
+    "display": "-webkit-box",
+    "-webkit-line-clamp": "2",
+    "-webkit-box-orient": "vertical",
+    "overflow": "hidden"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-list__item-date",
+   "media": [],
+   "declarations": {
+    "margin-top": ".18rem",
+    "font-size": ".2rem",
+    "color": "#919091",
+    "font-family": "Impact"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  }
+ ],
+ "markup": "<div class=\"m-video-list\"><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166539/ba7dd4b5af3e11a52a7a85c38f49dca7_985536253469226449.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》洛克茜角色PV | 发条骑士\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-29\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166499/d0a4d1097203860cbce0e413d2c82987_2965556366067039114.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》洛克茜角色展示 | 神秘负棺人\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-25\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165988/de160cbb364d48be78e1ba0e5ec72331_2337052276222437059.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》克拉蕾EP | Link up\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-06\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165971/c19f115b68f4b4435e5bd545afc3c8ff_6487691747577217347.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》克拉蕾角色展示 | 不想培训，但攻略已写好\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-04\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165918/1c90e47f176efe238567fbe37cead8a6_761750977942799091.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》3.2版本PV | 她与她的隐秘往事\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-28\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165752/da786247269263f059bb7e73d75d72b1_8901277569211929442.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》希格莉德角色PV | 小马希莉\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-17\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165725/9b5f3686d2b8fe79661aa3aef914bbfb_1516760697106813336.png\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》希格莉德角色展示 | 好马识途\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-14\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165492/d1ff1de7c8eb0245cf3a75d73517ed03_5805757503427289912.png\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              决战时刻 | 翼刃出鞘\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-02\n            </div></div></div></div>",
+ "markupPage": "m_zh-cn_video",
+ "markupClass": "m-video-list",
+ "appearsOn": [
+  "m_zh-cn_video"
+ ],
+ "computed": {
+  "m-video-list": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 290.125,
+    "width": 348.390625,
+    "height": 742.4375,
+    "top": 290.125,
+    "right": 369.1875,
+    "bottom": 1032.5625,
+    "left": 20.796875
+   },
+   "text": "《绝区零》洛克茜角色PV | 发条骑士\n             \n              2026-09-29\n             \n       ",
+   "display": "flex",
+   "width": "348.391px",
+   "height": "742.438px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0.015625px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "space-between"
+  },
+  "m-video-list__item": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 290.125,
+    "width": 167.4375,
+    "height": 156.5,
+    "top": 290.125,
+    "right": 188.234375,
+    "bottom": 446.625,
+    "left": 20.796875
+   },
+   "text": "《绝区零》洛克茜角色PV | 发条骑士\n             \n              2026-09-29",
+   "display": "block",
+   "width": "167.438px",
+   "height": "156.5px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0px 29.12px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "m-video-list__item-banner": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 290.125,
+    "width": 167.4375,
+    "height": 95.15625,
+    "top": 290.125,
+    "right": 188.234375,
+    "bottom": 385.28125,
+    "left": 20.796875
+   },
+   "text": "",
+   "display": "block",
+   "width": "167.438px",
+   "height": "95.1562px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "0px 18.2px",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "m-video-list__item-content": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 397.75,
+    "width": 167.4375,
+    "height": 48.875,
+    "top": 397.75,
+    "right": 188.234375,
+    "bottom": 446.625,
+    "left": 20.796875
+   },
+   "text": "《绝区零》洛克茜角色PV | 发条骑士\n             \n              2026-09-29",
+   "display": "block",
+   "width": "167.438px",
+   "height": "48.875px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "12.48px 0px 0px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "m-video-list__item-date": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 436.21875,
+    "width": 167.4375,
+    "height": 10.40625,
+    "top": 436.21875,
+    "right": 188.234375,
+    "bottom": 446.625,
+    "left": 20.796875
+   },
+   "text": "2026-09-29",
+   "display": "block",
+   "width": "167.438px",
+   "height": "10.4062px",
+   "font-family": "Impact",
+   "font-size": "10.4px",
+   "font-weight": "400",
+   "line-height": "10.4px",
+   "color": "rgb(145, 144, 145)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(145, 144, 145)",
+   "margin": "9.36px 0px 0px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "m-video-list__item-title": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 397.75,
+    "width": 167.4375,
+    "height": 29.109375,
+    "top": 397.75,
+    "right": 188.234375,
+    "bottom": 426.859375,
+    "left": 20.796875
+   },
+   "text": "《绝区零》洛克茜角色PV | 发条骑士",
+   "display": "flow-root",
+   "width": "167.438px",
+   "height": "29.1094px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.44px",
+   "font-weight": "800",
+   "line-height": "14.56px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#222122",
+   "#919091"
+  ],
+  "fonts": [
+   "Impact"
+  ],
+  "fontSizes": [
+   ".22rem",
+   ".2rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

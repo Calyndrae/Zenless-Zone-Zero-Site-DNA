@@ -1,0 +1,158 @@
+{
+ "component": "character-info-name",
+ "files": [
+  "1250.css",
+  "1330.css"
+ ],
+ "classes": {
+  "character-info-name": "character-info-name"
+ },
+ "ruleCount": 6,
+ "rules": [
+  {
+   "selector": ".character-info-name",
+   "media": [],
+   "declarations": {
+    "margin-top": ".1rem",
+    "font-size": ".48rem",
+    "line-height": ".54rem",
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info-name i",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "width": ".45rem",
+    "height": ".46rem",
+    "background-size": "100% 100%",
+    "margin-right": ".08rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info-name",
+   "media": [],
+   "declarations": {
+    "font-size": ".8rem",
+    "line-height": "1.2",
+    "margin-bottom": ".1rem",
+    "display": "flex",
+    "align-items": "flex-start",
+    "position": "relative"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  },
+  {
+   "selector": ".character-info-name i",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "width": ".79rem",
+    "height": ".82rem",
+    "margin-top": ".07rem",
+    "margin-right": ".15rem",
+    "flex-shrink": "0",
+    "background-size": "100% 100%",
+    "position": "relative",
+    "z-index": "1"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  },
+  {
+   "selector": ".character-info-name span",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "z-index": "1"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  },
+  {
+   "selector": ".character-info-name span.character-info-name-en",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "display": "block",
+    "width": "max-content",
+    "max-width": "10rem",
+    "font-size": "1.3rem",
+    "line-height": "1.3",
+    "left": "0",
+    "bottom": "-1rem",
+    "z-index": "0",
+    "background-image": "linear-gradient(80deg, #e8e8e8, #dedede)",
+    "background-clip": "text",
+    "-webkit-text-fill-color": "rgba(0,0,0,0)",
+    "white-space": "nowrap",
+    "transform-origin": "left center"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  }
+ ],
+ "markup": "<div class=\"character-info-name\"><!----> <span>赛维里安·洛威尔</span></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-info-name",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "zh-cn_character"
+ ],
+ "computed": {
+  "character-info-name": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 563.640625,
+    "width": 348.40625,
+    "height": 28.078125,
+    "top": 563.640625,
+    "right": 369.203125,
+    "bottom": 591.71875,
+    "left": 20.796875
+   },
+   "text": "赛维里安·洛威尔",
+   "display": "flex",
+   "width": "348.406px",
+   "height": "28.0781px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "24.96px",
+   "font-weight": "400",
+   "line-height": "28.08px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "5.2px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#e8e8e8",
+   "#dedede",
+   "rgba(0,0,0,0)"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".48rem",
+   ".8rem",
+   "1.3rem"
+  ],
+  "zIndex": [
+   "1",
+   "0"
+  ],
+  "transitions": []
+ }
+}

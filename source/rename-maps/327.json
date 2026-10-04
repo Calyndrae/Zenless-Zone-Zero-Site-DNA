@@ -1,0 +1,32 @@
+{
+  "summary": "Nuxt client plugin that sets up analytics. It initializes Google Analytics (module 897, measurement id `G-8BR44XDKVQ`) and `window.miHoYoAnalysis` (appId 262, isSea/environment from the env config, `dataBelong: ['nap']`, deviceType from `$flex`, plat 1/2/3 for Android/iOS/PC), falling back to a console-warning stub when the SDK is missing, stores it as `window.mhyAna`, and injects `$trackEvent`, `$updateUid` and `$trackButton` (which prefixes `Button`, `Click` to the tracked event arguments).",
+  "exports": {
+    "a": "the Nuxt analytics plugin function (context, inject)"
+  },
+  "renames": {
+    "t_1": "context",
+    "e_2": "inject",
+    "l_3": "analytics",
+    "r_4": "flex",
+    "m_5": "isIOS",
+    "d_6": "isMobile",
+    "c_7": "trackEvent",
+    "t_8": "uidArgCount",
+    "e_9": "uidArgs",
+    "n_10": "uidArgIndex",
+    "t_11": "stubArgCount",
+    "e_12": "stubArgs",
+    "n_13": "stubArgIndex",
+    "t_14": "trackTarget",
+    "e_15": "eventArgCount",
+    "n_16": "eventArgs",
+    "o_17": "eventArgIndex",
+    "t_18": "uidTarget",
+    "e_19": "updateArgCount",
+    "n_20": "updateArgs",
+    "o_21": "updateArgIndex",
+    "t_22": "buttonArgCount",
+    "e_23": "buttonArgs",
+    "n_24": "buttonArgIndex"
+  }
+}

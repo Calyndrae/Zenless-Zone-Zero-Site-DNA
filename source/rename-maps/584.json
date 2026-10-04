@@ -1,0 +1,32 @@
+{
+  "summary": "Nuxt route middleware for language handling. It normalises params.lang via module 83's helper, commits the store mutation \"setLang\", and when the lang is in the supported list (module 49 .d) either initialises @mihoyo i18n (setCommonConfig/initAppI18n with appId \"m03111446031031\", gameBiz \"nap_global\", zone \"morax\", env from appBundle.i18nEnv) on static builds or calls setLang at runtime. For an unsupported lang it redirects to a lang-prefixed path, or resolves a named route with lang/query and either redirects to it or (for the special route name module 49 .c) hard-navigates window.location after 200 ms.",
+  "exports": {
+    "default": "Nuxt middleware function ({ params, route, redirect, app, isStatic }) that sets the store language, initialises i18n and redirects unsupported-language URLs"
+  },
+  "renames": {
+    "l_1": "mi18nSdk",
+    "c_2": "ownKeys",
+    "h_3": "objectSpread",
+    "t_4": "enumerableOnly",
+    "e_5": "keys",
+    "n_6": "symbols",
+    "t_7": "symbol",
+    "t_8": "target",
+    "i_9": "argIndex",
+    "e_10": "key",
+    "e_11": "descriptorKey",
+    "t_12": "context",
+    "e_13": "params",
+    "n_14": "route",
+    "o_15": "redirect",
+    "c_16": "app",
+    "y_17": "langParam",
+    "w_18": "normalizedLang",
+    "t_19": "middlewareContext",
+    "e_20": "routeName",
+    "n_21": "targetLang",
+    "o_22": "nuxtApp",
+    "l_23": "redirectTo",
+    "A_24": "routeLocation"
+  }
+}

@@ -1,0 +1,3 @@
+// module 201 from be1f69b.js
+// deps: 60
+const module_201 = function(e,t,n){"use strict";n.d(t,"createApp",(function(){return l})),n.d(t,"Vue2",(function(){return c}));var r=n(60),o=n.n(r),c=o.a;o.a.util.warn;function l(e,t){var n,r={},c={config:o.a.config,use:o.a.use.bind(o.a),mixin:o.a.mixin.bind(o.a),component:o.a.component.bind(o.a),provide:function(e,t){return r[e]=t,this},directive:function(e,t){return t?(o.a.directive(e,t),c):o.a.directive(e)},mount:function(c,l){return n||((n=new o.a(Object.assign({propsData:t},e,{provide:Object.assign(r,e.provide)}))).$mount(c,l),n)},unmount:function(){n&&(n.$destroy(),n=void 0)}};return c}};

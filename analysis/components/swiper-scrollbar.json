@@ -1,0 +1,39 @@
+{
+ "component": "swiper-scrollbar",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-scrollbar": "swiper-scrollbar"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".swiper-scrollbar",
+   "media": [],
+   "declarations": {
+    "border-radius": "10px",
+    "position": "relative",
+    "-ms-touch-action": "none",
+    "background": "rgba(0, 0, 0, 0.1)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0, 0, 0, 0.1)"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

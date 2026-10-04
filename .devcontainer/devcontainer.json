@@ -1,0 +1,15 @@
+{
+  "name": "Zenless Zone Zero site DNA handbook",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "cd tools && npm install --omit=optional",
+  "postStartCommand": "nohup node tools/serve.mjs 8786 > /tmp/mirror.log 2>&1 &",
+  "forwardPorts": [
+    8786
+  ],
+  "portsAttributes": {
+    "8786": {
+      "label": "Zenless Zone Zero handbook (mirror)",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

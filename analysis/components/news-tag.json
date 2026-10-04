@@ -1,0 +1,129 @@
+{
+ "component": "news-tag",
+ "files": [
+  "1160.css"
+ ],
+ "classes": {
+  "news-tag": "news-tag"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": ".news-tag",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "min-width": ".4rem",
+    "padding-left": ".1rem",
+    "height": ".26rem",
+    "font-size": ".12rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "text-align": "center",
+    "font-weight": "bold",
+    "white-space": "nowrap",
+    "background": "#000",
+    "color": "#bfdb5a",
+    "border-top-left-radius": ".14rem",
+    "border-bottom-left-radius": ".14rem",
+    "line-height": ".23rem"
+   },
+   "source": "/_nuxt/0d508be.js /_nuxt/39a3684.js /_nuxt/ba4082a.js /_nuxt/f87ccae.js #1160"
+  },
+  {
+   "selector": ".news-tag::after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "top": "0",
+    "right": "-0.16rem",
+    "z-index": "-1",
+    "width": ".2rem",
+    "height": ".26rem",
+    "white-space": "nowrap",
+    "background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAQCAYAAABgIu2QAAAAAXNSR0IArs4c6QAAARdJREFUSEvNljFLA0EQhd/jutTHLlxhYSuSRghW4i/IDxDEQmz9KXY2FnYWNqKdaGVpGbSwEC1vppVAOO4c2YOTcAnaJbPdLgvz8WbmzRC9E2McATgBsG9mGySz/p8V3r/M7KaqqlN2QYuiGNR1fU7yEMDv+wqh/gp13QIlyKZpHgHsOgHrY8xa0BDCJckjp5AJa8o8z3eyLHt2mO553R4YY7wAcOxYzYQ2TqDvADYdg76KyDZDCPWaLeg/jQ5E5Mo1qJm9qeoWgMZ76ls1k+Sem+lFRIYAvltQx/Y0FpG7roBdGr6ZPanq3nyXeRyhMzMbqepkAbSb9w6WkimA1EC3fc9a2JLWsOZVZvZB8p7kWVmWn8uM9QeQn2pHGIhaowAAAABJRU5ErkJggg==) right center/auto 100%"
+   },
+   "source": "/_nuxt/0d508be.js /_nuxt/39a3684.js /_nuxt/ba4082a.js /_nuxt/f87ccae.js #1160"
+  },
+  {
+   "selector": ".news-tag.mobile::after",
+   "media": [],
+   "declarations": {
+    "background-repeat": "no-repeat"
+   },
+   "source": "/_nuxt/0d508be.js /_nuxt/39a3684.js /_nuxt/ba4082a.js /_nuxt/f87ccae.js #1160"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [
+  "m_zh-cn_news",
+  "m_zh-cn_news_166535",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535"
+ ],
+ "computed": {
+  "news-tag": {
+   "page": "m_zh-cn_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 103.1875,
+    "y": 511.71875,
+    "width": 20.796875,
+    "height": 13.515625,
+    "top": 511.71875,
+    "right": 123.984375,
+    "bottom": 525.234375,
+    "left": 103.1875
+   },
+   "text": "新闻",
+   "position": "relative",
+   "display": "flex",
+   "width": "20.7969px",
+   "height": "13.5156px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "6.24px",
+   "font-weight": "700",
+   "line-height": "11.96px",
+   "color": "rgb(191, 219, 90)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(191, 219, 90)",
+   "border-radius": "7.28px 0px 0px 7.28px",
+   "padding": "0px 0px 0px 5.2px",
+   "margin": "0px 10.4px 0px 0px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center",
+   "align-items": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000",
+   "#bfdb5a"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".12rem"
+  ],
+  "zIndex": [
+   "-1"
+  ],
+  "transitions": []
+ }
+}

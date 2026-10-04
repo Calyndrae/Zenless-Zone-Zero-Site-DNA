@@ -1,0 +1,40 @@
+{
+  "summary": "AccountPopup Vue component from the HoYoverse account SDK, bundled with the vue-runtime-helpers normalizeComponent helper. Props: round, duration, position (default \"center\"), overlay, closeOnClickOverlay, closeOnPopstate, visible, overlayClass; computed isCenter, mainClass (account-popup-round / account-popup--<position>), transitionName (account-popup-fade or account-popup-slide-<position>) and mainStyle (animation/transition duration). It renders a v-show div.account-popup--overlay wrapping a <transition> and div.account-popup with the default slot, emits click, update:visible (overlay click / popstate), opened and closed, and listens to window popstate when closeOnPopstate is set.",
+  "exports": {
+    "default": "AccountPopup Vue component (normalized options with render function)"
+  },
+  "renames": {
+    "r_1": "defineProperty",
+    "o_2": "normalizeComponent",
+    "c_3": "componentOptions",
+    "l_4": "render",
+    "f_5": "AccountPopup",
+    "e_6": "obj",
+    "t_7": "key",
+    "n_8": "value",
+    "e_9": "scopeId",
+    "t_10": "isFunctionalTemplate",
+    "n_11": "moduleIdentifier",
+    "r_12": "shadowMode",
+    "o_13": "createInjector",
+    "c_14": "createInjectorSSR",
+    "l_15": "createInjectorShadow",
+    "f_16": "hook",
+    "d_17": "options",
+    "h_18": "originalRender",
+    "m_19": "existingBeforeCreate",
+    "e_20": "ssrContext",
+    "e_21": "shadowContext",
+    "e_22": "injectContext",
+    "e_23": "createElement",
+    "t_24": "renderContext",
+    "e_25": "classMap",
+    "e_26": "event",
+    "e_27": "openedEvent",
+    "e_28": "closedEvent",
+    "e_29": "vm",
+    "t_30": "createElementFn",
+    "n_31": "h",
+    "t_32": "clickEvent"
+  }
+}

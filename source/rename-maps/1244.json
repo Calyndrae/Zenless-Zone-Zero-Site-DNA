@@ -1,0 +1,24 @@
+{
+  "summary": "User-model message/config facade. Wraps the loading overlay (module 1245) with showLoading(text)/hideLoading(), and provides showErrorMessage/showWarnMessage/showSuccMessage which only console.log the level (\"error\"/\"warning\"/\"success\"), message and optional title. Also exposes request hooks used by the user-model request layer: isSuccessResponse (retcode === 0), identity formatURL/formatParams, formatResult (returns response.data) and loadingDelay = 0.",
+  "exports": {
+    "default": "message/config facade { showLoading, hideLoading, showErrorMessage, showWarnMessage, showSuccMessage, isSuccessResponse, formatURL, formatParams, formatResult, loadingDelay }"
+  },
+  "renames": {
+    "n_1": "loadingOverlayModule",
+    "d_2": "loadingOverlay",
+    "l_3": "errorLevel",
+    "c_4": "warningLevel",
+    "f_5": "successLevel",
+    "m_6": "logMessage",
+    "e_7": "level",
+    "t_8": "message",
+    "e_9": "loadingText",
+    "e_10": "errorMessage",
+    "e_11": "warnMessage",
+    "e_12": "successMessage",
+    "e_13": "response",
+    "e_14": "url",
+    "e_15": "params",
+    "e_16": "result"
+  }
+}

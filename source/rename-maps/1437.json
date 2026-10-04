@@ -1,0 +1,27 @@
+{
+  "summary": "Nuxt page component for the mobile world-entry detail route `m-lang-world-id` (layout `m/default`, `scrollToTop`). `validate` only accepts numeric `params.id`; `asyncData` loads the entry via the world API (module 1152) `getDetail` (`/getContent`, channel `CHANNEL_ID_CONFIG.WORLD`) with `iInfoId: params.id` and `sLangKey: store.state.lang`, raising a Nuxt 404 `error` on failure, and exposes it as `worldContent` (its `sTitle` plus i18n `seoTitlePrefix` is the `head()` title). It renders `m-world-detail` with the mobile `pageTab` (nav-num 5), a static \"back / ground\" `m-world-detail__title`, a `scaleIn` transition around a client-only vue-awesome-swiper (ref `worldSwiper`, centered `auto` slides with `autoHeight` and `.swiper-pagination`, shown when `worldContent.banner` has more than one item) of `bannerM` images whose click calls `gotoDetail`, then the entry name, HTML `sContent` and a `nuxt-link` (i18n `textClose`) back to `m-lang-world` with `params.worldId`.",
+  "exports": {
+    "default": "the `m-lang-world-id` mobile world-entry detail page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "o_1": "worldApi",
+    "l_2": "worldDetailPageOptions",
+    "d_3": "componentNormalizer",
+    "t_4": "nuxtContext",
+    "e_5": "asyncDataGenerator",
+    "n_6": "worldId",
+    "r_7": "worldContent",
+    "e_8": "context",
+    "t_9": "validateContext",
+    "e_10": "routeParams",
+    "t_11": "vm",
+    "e_12": "h",
+    "n_13": "bannerImage",
+    "r_14": "bannerIndex",
+    "e_15": "clickEvent",
+    "t_16": "paginationClickEvent",
+    "t_17": "mousemoveEvent",
+    "t_18": "staticVm",
+    "e_19": "staticH"
+  }
+}

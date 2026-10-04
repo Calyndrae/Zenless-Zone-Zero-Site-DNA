@@ -1,0 +1,3 @@
+// module 745 from be1f69b.js
+// deps: 22, 41, 234, 236, 747, 150, 111, 127, 748, 749, 129, 750, 38, 751
+const module_745 = function(e,t,n){"use strict";var r=n(22),o=n(41),c=n(234),l=n(236),f=n(747),d=n(150),h=n(111),m=n(127),v=n(748),y=n(749),w=n(129),_=n(750),k=n(38),x=n(751),S=k("toStringTag"),A=Error,C=[].push,E=function(e,t){var n,r=arguments.length>2?arguments[2]:void 0,f=o(O,this);l?n=l(new A,f?c(this):O):(n=f?this:d(O),h(n,S,"Error")),void 0!==t&&h(n,"message",_(t)),x&&h(n,"stack",v(n.stack,1)),y(n,r);var m=[];return w(e,C,{that:m}),h(n,"errors",m),n};l?l(E,A):f(E,A,{name:!0});var O=E.prototype=d(A.prototype,{constructor:m(1,E),message:m(1,""),name:m(1,"AggregateError")});r({global:!0,constructor:!0,arity:2},{AggregateError:E})};

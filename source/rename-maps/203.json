@@ -1,0 +1,22 @@
+{
+  "summary": "Vue component `footer-bar`, the site footer. On mount it initializes the external `window.HYVFooter` widget on `#footer` (biz `nap_global`, locale from `$store.state.lang`, supported locales from `HoYoverseMi18n.d`, selector hidden on `$isBBS`) and on language change collapses the footer, calls `setLang`, commits the `setLang` mutation and reloads the page with the language segment replaced in the URL. It renders `.footer` / `.footer__wrap` with a `backTop` button on the main/news routes, a `.footer__socialbar` with `media-icon` (bound to `$store.getters.mediaConfig`, tracking follows via `$trackButton('go_media', ...)`) and a `hover-btn.copy-btn` that copies the `shareCopyText` via `$clipboard` and toasts with `$mtoast`, plus a `.footer-crm` `crm-sub` subscription widget (shown unless `$store.state.isEnIp`, i18n key `m20231213hy4784y0w0`, event key `nap_official_crm`).",
+  "exports": {
+    "a": "the footer-bar Vue component (normalized component exports)"
+  },
+  "renames": {
+    "m_1": "footerBarOptions",
+    "d_2": "componentNormalizer",
+    "t_3": "self",
+    "e_4": "newLang",
+    "n_5": "fullPath",
+    "o_6": "currentLang",
+    "r_7": "langPattern",
+    "t_8": "footerConfig",
+    "t_9": "sharePlatform",
+    "e_10": "shareSelf",
+    "t_11": "mediaName",
+    "t_12": "vm",
+    "e_13": "h",
+    "e_14": "copyClickEvent"
+  }
+}

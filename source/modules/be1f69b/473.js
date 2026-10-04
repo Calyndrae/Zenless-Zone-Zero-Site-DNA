@@ -1,0 +1,3 @@
+// module 473 from be1f69b.js
+// deps: 22, 30, 163, 58, 90, 100, 474, 153, 304, 196, 38, 160
+const module_473 = function(e,t,n){"use strict";var r=n(22),o=n(30),c=n(163),l=n(58),f=n(90),d=n(100),h=n(474),m=n(153),v=n(304),y=n(196),w=n(38),_=n(160),k=w("isConcatSpreadable"),x=_>=51||!o((function(){var e=[];return e[k]=!1,e.concat()[0]!==e})),S=y("concat"),A=function(e){if(!l(e))return!1;var t=e[k];return void 0!==t?!!t:c(e)};r({target:"Array",proto:!0,arity:1,forced:!x||!S},{concat:function(e){var i,t,n,r,o,c=f(this),l=v(c,0),y=0;for(i=-1,n=arguments.length;i<n;i++)if(A(o=-1===i?c:arguments[i]))for(r=d(o),h(y+r),t=0;t<r;t++,y++)t in o&&m(l,y,o[t]);else h(y+1),m(l,y++,o);return l.length=y,l}})};

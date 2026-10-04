@@ -1,0 +1,627 @@
+{
+ "components": [
+  "_12W2W7w0",
+  "_1O4IHgc7",
+  "_2KIYvRS5",
+  "_2vPZV2Zw",
+  "_2vQSqpU9",
+  "_32Xo0xuQ",
+  "annotationLayer",
+  "back-btn",
+  "backTop",
+  "character",
+  "character-block",
+  "character-camp",
+  "character-camp-icon",
+  "character-camp-inner",
+  "character-camp-mist",
+  "character-camp-selection",
+  "character-cover",
+  "character-cover-mist",
+  "character-detail-info",
+  "character-info",
+  "character-info-desc",
+  "character-info-desc-container",
+  "character-info-desc-cover",
+  "character-info-main",
+  "character-info-name",
+  "character-info-prop",
+  "character-info-row",
+  "character-info-word",
+  "character-kv",
+  "character-pagination-container",
+  "character-swiper",
+  "cloud-download-dialog",
+  "cloud-download-dialog-close",
+  "cloud-download-dialog-content",
+  "cloud-download-dialog-title",
+  "ellipsis",
+  "error",
+  "fadeIn-enter",
+  "fadeIn-enter-active",
+  "feature",
+  "feature-container",
+  "font-hongmeng",
+  "font-mont-heavy",
+  "font-num",
+  "footer",
+  "footer-crm",
+  "gacha-detail",
+  "gacha-detail-article",
+  "gacha-detail-container",
+  "gacha-detail-wrapper",
+  "header",
+  "header-wrapper",
+  "header-wrapper-lt",
+  "home",
+  "home-age",
+  "home-age-container",
+  "home-character",
+  "home-feature",
+  "home-kv",
+  "home-kv-aside",
+  "home-kv-wrap",
+  "home-news",
+  "home-news-container",
+  "home-news-wrap",
+  "home-pv",
+  "home-pv-close",
+  "home-pv-video",
+  "home-video",
+  "home-world",
+  "home-world-wrap",
+  "hyv-button",
+  "hyv-button-filled",
+  "hyv-button-ghost",
+  "hyv-button-glass",
+  "hyv-button-icon",
+  "hyv-button-outlined",
+  "hyv-button-size-l",
+  "hyv-button-size-m",
+  "hyv-button-size-s",
+  "hyv-button-size-xl",
+  "hyv-checkbox",
+  "hyv-checkbox-large",
+  "hyv-checkbox-medium",
+  "hyv-checkbox-small",
+  "hyv-crm",
+  "hyv-crm-agree",
+  "hyv-crm-bottom-empty",
+  "hyv-crm-desc",
+  "hyv-crm-flat",
+  "hyv-crm-flat-left",
+  "hyv-crm-flat-right",
+  "hyv-crm-flat-right-button",
+  "hyv-crm-flat-right-form",
+  "hyv-crm-info",
+  "hyv-crm-item",
+  "hyv-crm-logo",
+  "hyv-crm-modal",
+  "hyv-crm-title",
+  "hyv-form",
+  "hyv-form-item",
+  "hyv-form-item-input",
+  "hyv-form-item-item",
+  "hyv-icon-load",
+  "hyv-input",
+  "hyv-input-normal",
+  "hyv-input-sendCode",
+  "hyv-input-small",
+  "hyv-loading",
+  "hyv-subscription-area",
+  "hyv-subscription-area-content",
+  "hyv-subscription-area-dropdown-item",
+  "hyv-subscription-area-dropdown-scroll",
+  "hyv-subscription-area-dropdown-wrapper",
+  "hyv-subscription-area-icons",
+  "hyv-subscription-detail",
+  "hyv-subscription-detail-button",
+  "hyv-subscription-detail-extra",
+  "hyv-subscription-detail-modify",
+  "hyv-subscription-guest-select",
+  "hyv-subscription-guest-select-container",
+  "hyv-subscription-guest-select-container-item",
+  "hyv-subscription-guest-select-container-item-inner",
+  "hyv-subscription-guest-select-container-name",
+  "hyv-subscription-guest-select-desc",
+  "hyv-subscription-line-container",
+  "hyv-subscription-line-entity",
+  "hyv-subscription-line-info",
+  "hyv-subscription-modal",
+  "hyv-subscription-question",
+  "hyv-subscription-quickRegister",
+  "hyv-subscription-quickRegister-buttons",
+  "hyv-subscription-register-button",
+  "hyv-subscription-selected",
+  "hyv-subscription-selected-item",
+  "hyv-subscription-selected-item-content",
+  "hyv-subscription-selected-item-prefix",
+  "hyv-subscription-selected-label",
+  "hyv-subscription-selected-list",
+  "hyv-subscription-success-container",
+  "hyv-subscription-survey-tip",
+  "icon",
+  "is-active",
+  "loading",
+  "logoBig-enter",
+  "logoBig-enter-active",
+  "logoBig-leave",
+  "logoSmall-enter",
+  "logoSmall-enter-active",
+  "logoSmall-leave",
+  "m-feature",
+  "m-feature-container",
+  "m-header",
+  "m-header-right",
+  "m-header-wrap",
+  "m-home-character",
+  "m-home-feature",
+  "m-home-kv",
+  "m-home-kv-wrap",
+  "m-home-news",
+  "m-home-video",
+  "m-home-world",
+  "m-news",
+  "m-news-container",
+  "m-news-detail",
+  "m-news-detail-container",
+  "m-news-foot",
+  "m-news-list",
+  "m-news-main",
+  "m-news-slider",
+  "m-news-tab",
+  "m-preregister-container",
+  "m-section-nav",
+  "m-section-nav-bg",
+  "m-section-nav-en",
+  "m-section-nav-inner",
+  "m-section-nav-label",
+  "m-section-nav-num",
+  "m-video",
+  "m-video-container",
+  "m-video-foot",
+  "m-video-list",
+  "m-video-main",
+  "m-video-pager",
+  "m-video-slider",
+  "m-video-tab",
+  "m-web-protocol",
+  "m-web-protocol-container",
+  "m-world",
+  "m-world-container",
+  "m-world-detail",
+  "m-world-detail-container",
+  "me-toast-content",
+  "mhy-bridge-message-box-mask",
+  "mihoyo-pager-rich",
+  "mihoyo-share-tips",
+  "mihoyo-share-tips-wrap",
+  "mo",
+  "mobile",
+  "more-btn",
+  "namefade-enter",
+  "namefade-enter-active",
+  "namefade-leave-active",
+  "namefade-leave-to",
+  "nav-item",
+  "news",
+  "news-container",
+  "news-detail",
+  "news-detail-article",
+  "news-detail-container",
+  "news-detail-wrapper",
+  "news-list",
+  "news-pager",
+  "news-slider",
+  "news-tab",
+  "news-tag",
+  "news-wrap",
+  "nuxt-progress",
+  "nuxt-progress-failed",
+  "pJabgfwZ",
+  "page-enter",
+  "page-enter-active",
+  "pc",
+  "pdfPresentationMode",
+  "pdfViewer",
+  "protocol-pdf",
+  "root",
+  "scaleIn-enter",
+  "scaleIn-enter-active",
+  "scaleIn-leave-active",
+  "section",
+  "section-nav",
+  "section-nav-bg",
+  "section-nav-en",
+  "section-nav-inner",
+  "section-nav-label",
+  "section-nav-num",
+  "section-news",
+  "section-wrap",
+  "share",
+  "sidebar",
+  "slide-bottom-enter",
+  "slide-bottom-enter-active",
+  "slide-bottom-leave-active",
+  "slide-down-enter",
+  "slide-down-enter-active",
+  "slide-down-leave-active",
+  "slide-fade-enter",
+  "slide-fade-enter-active",
+  "slide-fade-leave-active",
+  "slide-from-rb-enter",
+  "slide-from-rb-enter-active",
+  "slide-from-rb-leave-active",
+  "slide-left-enter",
+  "slide-left-enter-active",
+  "slide-left-leave-active",
+  "spread",
+  "sub-view-enter",
+  "sub-view-enter-active",
+  "sub-view-enter-to",
+  "sub-view-leave",
+  "subscription-dlg",
+  "swiper-button-lock",
+  "swiper-button-next",
+  "swiper-button-prev",
+  "swiper-container",
+  "swiper-container-3d",
+  "swiper-container-android",
+  "swiper-container-autoheight",
+  "swiper-container-coverflow",
+  "swiper-container-cube",
+  "swiper-container-fade",
+  "swiper-container-flip",
+  "swiper-container-free-mode",
+  "swiper-container-horizontal",
+  "swiper-container-multirow",
+  "swiper-container-no-flexbox",
+  "swiper-container-rtl",
+  "swiper-container-vertical",
+  "swiper-container-wp8-horizontal",
+  "swiper-container-wp8-vertical",
+  "swiper-lazy-preloader",
+  "swiper-lazy-preloader-white",
+  "swiper-navigation",
+  "swiper-pagination",
+  "swiper-pagination-black",
+  "swiper-pagination-bullet",
+  "swiper-pagination-bullet-active",
+  "swiper-pagination-bullets-dynamic",
+  "swiper-pagination-clickable",
+  "swiper-pagination-fraction",
+  "swiper-pagination-lock",
+  "swiper-pagination-progressbar",
+  "swiper-pagination-white",
+  "swiper-scrollbar",
+  "swiper-scrollbar-cursor-drag",
+  "swiper-scrollbar-drag",
+  "swiper-scrollbar-lock",
+  "swiper-slide",
+  "swiper-slide-invisible-blank",
+  "swiper-slide-zoomed",
+  "swiper-wrapper",
+  "swiper-zoom-container",
+  "textLayer",
+  "user-model-loading",
+  "van-clearfix",
+  "van-ellipsis",
+  "van-fade-enter-active",
+  "van-fade-leave-active",
+  "van-hairline",
+  "van-loading",
+  "van-multi-ellipsis",
+  "van-overflow-hidden",
+  "van-overlay",
+  "van-popup",
+  "van-popup-slide-bottom-enter",
+  "van-popup-slide-bottom-enter-active",
+  "van-popup-slide-bottom-leave-active",
+  "van-popup-slide-left-enter",
+  "van-popup-slide-right-enter",
+  "van-popup-slide-top-enter",
+  "van-slide-down-enter-active",
+  "van-slide-down-leave-active",
+  "van-slide-left-enter-active",
+  "van-slide-left-leave-active",
+  "van-slide-right-enter-active",
+  "van-slide-right-leave-active",
+  "van-slide-up-enter-active",
+  "van-slide-up-leave-active",
+  "video",
+  "video-container",
+  "video-list",
+  "video-pager",
+  "video-slider",
+  "video-tab",
+  "video-tag",
+  "video-wrap",
+  "web-protocol",
+  "web-protocol-container",
+  "wordsLoop-enter-active",
+  "world",
+  "world-container",
+  "world-detail",
+  "world-detail-container",
+  "world-detail-inner",
+  "world-inner",
+  "zoom-enter",
+  "zoom-enter-active",
+  "zoom-leave-active"
+ ],
+ "embedded": {
+  "header-wrapper": [
+   "header"
+  ],
+  "header-wrapper-lt": [
+   "header"
+  ],
+  "header": [
+   "header"
+  ],
+  "share": [
+   "header"
+  ],
+  "home-kv": [
+   "home-kv"
+  ],
+  "home-kv-wrap": [
+   "home-kv"
+  ],
+  "home-kv-aside": [
+   "home-kv"
+  ],
+  "home-character": [
+   "home-character"
+  ],
+  "swiper-slide": [
+   "home-character",
+   "character",
+   "world",
+   "mobile-home",
+   "mobile-pages"
+  ],
+  "home-video": [
+   "home-video"
+  ],
+  "is-active": [
+   "home-video"
+  ],
+  "home-news": [
+   "home-news"
+  ],
+  "home-world": [
+   "home-world"
+  ],
+  "section": [
+   "home-feature",
+   "world"
+  ],
+  "footer": [
+   "footer"
+  ],
+  "character-info": [
+   "character"
+  ],
+  "character-info-main": [
+   "character"
+  ],
+  "character-info-row": [
+   "character"
+  ],
+  "character-info-name": [
+   "character"
+  ],
+  "font-mont-heavy": [
+   "character"
+  ],
+  "character-info-prop": [
+   "character"
+  ],
+  "character-info-word": [
+   "character"
+  ],
+  "character-info-desc-container": [
+   "character"
+  ],
+  "character-info-desc": [
+   "character"
+  ],
+  "video-tab": [
+   "video"
+  ],
+  "video-list": [
+   "video"
+  ],
+  "font-num": [
+   "video",
+   "mobile-home"
+  ],
+  "video-tag": [
+   "video"
+  ],
+  "mihoyo-pager-rich": [
+   "video"
+  ],
+  "video-pager": [
+   "video"
+  ],
+  "news-tab": [
+   "news"
+  ],
+  "news-list": [
+   "news"
+  ],
+  "news-tag": [
+   "news",
+   "article",
+   "mobile-pages"
+  ],
+  "back-btn": [
+   "article"
+  ],
+  "news-detail": [
+   "article"
+  ],
+  "world": [
+   "world"
+  ],
+  "world-detail-container": [
+   "world"
+  ],
+  "section-nav": [
+   "world"
+  ],
+  "section-nav-inner": [
+   "world"
+  ],
+  "section-nav-label": [
+   "world"
+  ],
+  "section-nav-en": [
+   "world"
+  ],
+  "section-nav-num": [
+   "world"
+  ],
+  "section-wrap": [
+   "world"
+  ],
+  "world-detail-inner": [
+   "world"
+  ],
+  "world-detail": [
+   "world"
+  ],
+  "swiper-container": [
+   "world"
+  ],
+  "swiper-container-horizontal": [
+   "world"
+  ],
+  "swiper-container-autoheight": [
+   "world"
+  ],
+  "swiper-wrapper": [
+   "world"
+  ],
+  "swiper-pagination": [
+   "world"
+  ],
+  "swiper-pagination-clickable": [
+   "world"
+  ],
+  "swiper-pagination-bullet": [
+   "world"
+  ],
+  "swiper-pagination-bullet-active": [
+   "world"
+  ],
+  "swiper-button-prev": [
+   "world"
+  ],
+  "swiper-button-next": [
+   "world"
+  ],
+  "more-btn": [
+   "world"
+  ],
+  "m-header-wrap": [
+   "mobile-shell"
+  ],
+  "m-header": [
+   "mobile-shell"
+  ],
+  "m-header-right": [
+   "mobile-shell"
+  ],
+  "m-home-kv": [
+   "mobile-home"
+  ],
+  "m-home-kv-wrap": [
+   "mobile-home"
+  ],
+  "m-home-character": [
+   "mobile-home"
+  ],
+  "m-section-nav": [
+   "mobile-home"
+  ],
+  "m-section-nav-inner": [
+   "mobile-home"
+  ],
+  "m-section-nav-label": [
+   "mobile-home"
+  ],
+  "m-section-nav-en": [
+   "mobile-home"
+  ],
+  "m-section-nav-num": [
+   "mobile-home"
+  ],
+  "character-block": [
+   "mobile-pages"
+  ],
+  "m-news-list": [
+   "mobile-pages"
+  ],
+  "mobile": [
+   "mobile-pages"
+  ],
+  "ellipsis": [
+   "mobile-pages"
+  ],
+  "m-news-detail-container": [
+   "mobile-pages"
+  ],
+  "m-news-detail": [
+   "mobile-pages"
+  ],
+  "m-world": [
+   "mobile-pages"
+  ]
+ },
+ "chapters": [
+  "scope",
+  "routes",
+  "structure",
+  "scaling",
+  "layers",
+  "colour",
+  "typography",
+  "rhythm",
+  "header",
+  "loading",
+  "home-kv",
+  "sidebar",
+  "home-character",
+  "home-video",
+  "home-news",
+  "home-world",
+  "home-feature",
+  "footer",
+  "character",
+  "video",
+  "news",
+  "article",
+  "world",
+  "company",
+  "redemption",
+  "mobile-shell",
+  "mobile-home",
+  "mobile-pages",
+  "controls",
+  "hover",
+  "motion",
+  "audio",
+  "imagery",
+  "responsive",
+  "i18n",
+  "javascript",
+  "unrendered",
+  "coverage",
+  "blueprint",
+  "interactions",
+  "originals"
+ ]
+}

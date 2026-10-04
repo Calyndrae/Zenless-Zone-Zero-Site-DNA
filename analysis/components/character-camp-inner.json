@@ -1,0 +1,99 @@
+{
+ "component": "character-camp-inner",
+ "files": [
+  "1250.css"
+ ],
+ "classes": {
+  "character-camp-inner": "character-camp-inner"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".character-camp-inner",
+   "media": [],
+   "declarations": {
+    "padding": ".05rem .3rem .05rem .7rem",
+    "min-height": ".52rem",
+    "border": ".04rem solid #000",
+    "border-radius": ".3rem",
+    "background-image": "url(/_nuxt/img/camp-texture-m.36115d3.png)",
+    "background-size": "cover",
+    "background-position": "center",
+    "color": "#fff",
+    "font-size": ".18rem",
+    "display": "flex",
+    "align-items": "center",
+    "position": "relative"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-camp-inner *",
+   "media": [],
+   "declarations": {
+    "font-size": ".18rem !important"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  }
+ ],
+ "markup": "<div class=\"character-camp-inner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/162679/21b34b51b613b2cf1bcc703633643c18_7904567709066951169.png\" alt=\"\" class=\"character-camp-icon\"> <span>都市秩序部</span> <i></i></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-camp-inner",
+ "appearsOn": [
+  "m_zh-cn_character"
+ ],
+ "computed": {
+  "character-camp-inner": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 281.75,
+    "y": 77.46875,
+    "width": 100.984375,
+    "height": 27.03125,
+    "top": 77.46875,
+    "right": 382.734375,
+    "bottom": 104.5,
+    "left": 281.75
+   },
+   "text": "都市秩序部",
+   "position": "relative",
+   "display": "flex",
+   "width": "100.984px",
+   "height": "27.0312px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "9.36px",
+   "font-weight": "400",
+   "line-height": "9.36px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/camp-texture-m.36115d3.png\")",
+   "background-size": "cover",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "2px solid rgb(0, 0, 0)",
+   "border-radius": "15.6px",
+   "padding": "2.6px 15.6px 2.6px 36.4px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000",
+   "#fff"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".18rem",
+   ".18rem !important"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

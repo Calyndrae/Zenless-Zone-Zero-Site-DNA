@@ -1,0 +1,27 @@
+{
+  "summary": "Routing/locale helper functions built on the site constants module (`HoYoverseMi18n`, module 49) and a cookie library (module 40). It exports a matcher that tests a path against the configured path list (strings or RegExps), a route-name normalizer that falls back to the `lang` key, a builder that prefixes a path with the language segment (keeping or dropping the mobile `/m` prefix), a language resolver that validates against the supported locales or falls back to the `mi18nLang` cookie / default language, and a query sanitizer that strips the `catchSpider` key.",
+  "exports": {
+    "a": "isMatchedPath(path) — whether the path matches one of the configured route paths/regexes",
+    "e": "normalizeLangRouteName(name) — returns the name if it is a lang route name, otherwise the lang key",
+    "c": "buildLangPath(path, lang, dropMobilePrefix) — prefixes a path with /<lang> (and /m on mobile)",
+    "d": "resolveLang(lang) — supported lang or mi18nLang cookie or default lang",
+    "b": "omitCatchSpider(query) — copy of a query object without the catchSpider key"
+  },
+  "renames": {
+    "l_1": "isMatchedPath",
+    "r_2": "normalizeLangRouteName",
+    "A_3": "buildLangPath",
+    "m_4": "resolveLang",
+    "d_5": "omitCatchSpider",
+    "t_6": "pattern",
+    "t_7": "routeName",
+    "t_8": "lang",
+    "e_9": "dropMobilePrefix",
+    "n_10": "isMobilePath",
+    "t_11": "langCode",
+    "t_12": "query",
+    "t_13": "queryKey",
+    "e_14": "result",
+    "n_15": "key"
+  }
+}

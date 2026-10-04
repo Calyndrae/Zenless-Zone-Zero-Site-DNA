@@ -1,0 +1,77 @@
+{
+ "component": "m-world-container",
+ "files": [
+  "1319.css"
+ ],
+ "classes": {
+  "m-world-container": "m-world-container"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".m-world-container",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "z-index": "2",
+    "width": "100%",
+    "height": "100%",
+    "padding": ".7rem 0 1.9rem"
+   },
+   "source": "/_nuxt/b262029.js #1319"
+  }
+ ],
+ "markup": "<div class=\"m-world-container\"><div class=\"m-world__title\"><div class=\"m-world__title-inner\">back<br>ground</div></div> <div class=\"swiper-container m-world__swiper swiper-container-initialized swiper-container-horizontal swiper-container-ios\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(-773.188px, 0px, 0px);\"><div class=\"m-world__slide swiper-slide isInitAnim swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\" style=\"transform: translateX(57.594rem) scale(0.0740741); opacity: 1; transition-duration: 0ms; z-index: 0;\"><div class=\"m-world__slide-container\"><div class=\"m-world__slide-mask\"></div> <div class=\"m-world__slide-cover\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/102370/4335f1f09a46775ba2410124c53b47c8_4602178121928237092.png&quot;);\"><div class=\"cover-name\"><div class=\"name-en\"><span style=\"font-size:0.78rem\">Bangboo</span></div> <div class=\"name\">邦布</div></div> <div class=\"cover-summary\">小小的身体，大大的用处</div></div> <div class=\"m-world__slide-tape\"><div class=\"tape-name\"><div class=\"name-en\"><span style=\"font-size:0.78rem\">Bangboo</span></div> <div class=\"name\">邦布</div></div></div></div></div><div class=\"m-world__slide swiper-slide isInitAnim swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"1\" style=\"transform: translateX(19.8214rem) scale(0.383134); opacity: 1; transition-duration: 0ms; z-index: 0;\"><div class=\"m-world__slide-container\"><div class=\"m-world__slide-mask\"></div> <div class=\"m-world__slide-cover\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/102257/f85e04ea3182276e650cb81a1bc2d26d_2271782842542584719.png&quot;);\"><div class=\"cover-name\"><div class=\"name-en\">The city life</div> <div class=\"name\">城市生活</div></div> <div class=\"cover-summary\">新艾利都里有空洞，数量还不少。</div></div> <div class=\"m-world__slide-tape\"><div class=\"tape-name\"><div class=\"name-en\">The city life</div> <div class=\"name\">城市生活</div></div></div></div></div><div class=\"m-world__slide swiper-slide isInitAnim swiper-slide-duplicate swiper-slide-prev\" data-swiper-slide-index=\"2\" style=\"transform: translateX(0.670982rem) scale(0.691079); opacity: 1; transition-duration: 0ms; z-index: 95;\"><div class=\"m-world__slide-container\"><div class=\"m-world__slide-mask\"></div> <div class=\"m-world__slide-cover\" style=\"background-image: url(&quot;https://webstatic.hoyoverse.com/upload/op-public/2022/06/01/1fd59ab0936cf49221b4c909b91bd138_2661657801299474663.png&quot;);\"><div class=\"cover-name\"><div class=\"name-en\">Hollow</div> <div class=\"name\">空洞生存</div></div> <div class=\"cover-summary\">空洞是毁灭世界的灾难，是一种凭空出现、吞噬一切的异常球体空间</div></div> <div class=\"m-world__slide-tape\"><div class=\"tape-name\"><div class=\"name-en\">Hollow</div> <div class=\"name\">空洞生存</div></div></div></div></div><div class=\"m-world__slide swiper-slide isInitAnim swiper-slide-active\" data-swiper-slide-index=\"0\" style=\"transform: translateX(0rem) scale(0.999861); opacity: 1; transition-duration: 0ms; z-index: 99;\"><div class=\"m-world__slide-container\"><div class=\"m-world__slide-mask\"></div> <div class=\"m-world__slide-cover\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/102370/4335f1f09a46775ba2410124c53b47c8_4602178121928237092.png&quot;);\"><div class=\"cover-name\"><div class=\"name-en\"><span style=\"font-size:0.78rem\">Bangboo</span></div> <div class=\"name\">邦布</div></div> <div class=\"cover-summary\">小小的身体，大大的用处</div></div> <div class=\"m-world__slide-tape\"><div class=\"tape-name\"><div class=\"name-en\"><span style=\"font-size:0.78rem\">Bangboo</span></div> <div class=\"name\">邦布</div></div></div></div></div><div class=\"m-world__slide swiper-slide isInitAnim swiper-slide-next\" data-swiper-slide-index=\"1\" style=\"transform: translateX(-0.679979rem) scale(0.6908); opacity: 1; transition-duration: 0ms; z-index: 0;\"><div class=\"m-world__slide-container\"><div class=\"m-world__slide-mask\"></div> <div class=\"m-world__slide-cover\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/102257/f85e04ea3182276e650cb81a1bc2d26d_2271782842542584719.png&quot;);\"><div class=\"cover-name\"><div class=\"name-en\">The city life</div> <div class=\"name\">城市生活</div></div> <div class=\"cover-summary\">新艾利都里有空洞，数量还不少。</div></div> <div class=\"m-world__slide-tape\"><div class=\"tape-name\"><div class=\"name-en\">The city life</div> <div class=\"name\">城市生活</div></div></div></div></div><div class=\"m-world__slide swiper-slide isInitAnim swiper-slide-duplicate-prev\" data-swiper-slide-index=\"2\" style=\"transform: translateX(-19.8471rem) scale(0.382856); opacity: 1; transition-duration: 0ms; z-index: 0;\"><div class=\"m-world__slide-container\"><div class=\"m-world__slide-mask\"></div> <div class=\"m-world__slide-cover\" style=\"background-image: url(&quot;https://webstatic.hoyoverse.com/upload/op-public/2022/06/01/1fd59ab0936cf49221b4c909b91bd138_2661657801299474663.png&quot;);\"><div class=\"cover-name\"><div class=\"name-en\">Hollow</div> <div class=\"name\">空洞生存</div></div> <div class=\"cover-summary\">空洞是毁灭世界的灾难，是一种凭空出现、吞噬一切的异常球体空间</div></div> <div class=\"m-world__slide-tape\"><div class=\"tape-name\"><div class=\"name-en\">Hollow</div> <div class=\"name\">空洞生存</div></div></div></div></div><div class=\"m-world__slide swiper-slide isInitAnim swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\" style=\"transform: translateX(-57.6365rem) scale(0.0737951); opacity: 1; transition-duration: 0ms; z-index: 0;\"><div class=\"m-world__slide-container\"><div class=\"m-world__slide-mask\"></div> <div class=\"m-world__slide-cover\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/102370/4335f1f09a46775ba2410124c53b47c8_4602178121928237092.png&quot;);\"><div class=\"cover-name\"><div class=\"name-en\"><span style=\"font-size:0.78rem\">Bangboo</span></div> <div class=\"name\">邦布</div></div> <div class=\"cover-summary\">小小的身体，大大的用处</div></div> <div class=\"m-world__slide-tape\"><div class=\"tape-name\"><div clas\n<!-- … truncated, 7820 chars total -->",
+ "markupPage": "m_zh-cn_world",
+ "markupClass": "m-world-container",
+ "appearsOn": [
+  "m_zh-cn_world"
+ ],
+ "computed": {
+  "m-world-container": {
+   "page": "m_zh-cn_world",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 57.1875,
+    "width": 390,
+    "height": 763.484375,
+    "top": 57.1875,
+    "right": 390,
+    "bottom": 820.671875,
+    "left": 0
+   },
+   "text": "background   Bangboo 邦布 小小的身体，大大的用处 Bangboo 邦布 The city life 城市生活 新艾利都里有空洞，数量还不少",
+   "position": "relative",
+   "display": "block",
+   "width": "390px",
+   "height": "763.484px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "36.4px 0px 98.8px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": []
+ }
+}

@@ -1,0 +1,34 @@
+{
+  "summary": "Home page CMS API helpers, all calling the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\". getKV loads channel CHANNEL_ID_CONFIG.KV (one item) and maps sExt home-kv, home-kv-m and home-youtobe to kv, kvMob and youtobeUrl, resolving the first item. getFollowSocials loads CHANNEL_ID_CONFIG.SOCIAL.FOLLOW and maps social-name, social-name-key, social-ico-name, social-link, social-icon, social-icon-active and social-qrcode onto each entry. getFeature loads CHANNEL_ID_CONFIG.FEATURE and maps sTitle/sIntro plus feature-banner, feature-banner-m and feature-inner to title, summary, banner, bannerM and bannerInner.",
+  "exports": {
+    "a": "home CMS API object { getKV, getFollowSocials, getFeature }"
+  },
+  "renames": {
+    "e_1": "kvOptions",
+    "t_2": "buildKvParams",
+    "e_3": "kvExtraParams",
+    "t_4": "kvParams",
+    "n_5": "resolveKv",
+    "c_6": "rejectKv",
+    "e_7": "kvItem",
+    "e_8": "kvError",
+    "e_9": "socialOptions",
+    "t_10": "buildSocialParams",
+    "e_11": "socialExtraParams",
+    "t_12": "socialParams",
+    "n_13": "resolveSocials",
+    "c_14": "rejectSocials",
+    "e_15": "social",
+    "e_16": "socialError",
+    "e_17": "featureOptions",
+    "t_18": "buildFeatureParams",
+    "e_19": "featureExtraParams",
+    "t_20": "featureParams",
+    "n_21": "resolveFeature",
+    "c_22": "rejectFeature",
+    "e_23": "feature",
+    "t_24": "bannerMobileAsset",
+    "n_25": "bannerInnerAsset",
+    "e_26": "featureError"
+  }
+}

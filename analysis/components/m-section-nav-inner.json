@@ -1,0 +1,78 @@
+{
+ "component": "m-section-nav-inner",
+ "files": [
+  "1235.css"
+ ],
+ "classes": {
+  "m-section-nav-inner": "m-section-nav-inner"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".m-section-nav-inner",
+   "media": [],
+   "declarations": {
+    "padding-left": ".1rem",
+    "text-align": "left",
+    "pointer-events": "auto",
+    "position": "relative"
+   },
+   "source": "/_nuxt/b5b7858.js #1235"
+  }
+ ],
+ "markup": "<div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">角色介绍</div> <div class=\"m-section-nav-en\">Characters</div> <div class=\"m-section-nav-num\">02</div></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "m-section-nav-inner",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370"
+ ],
+ "computed": {
+  "m-section-nav-inner": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 83.703125,
+    "width": 106.078125,
+    "height": 74.890625,
+    "top": 83.703125,
+    "right": 106.078125,
+    "bottom": 158.59375,
+    "left": 0
+   },
+   "text": "角色介绍 Characters 02",
+   "position": "relative",
+   "display": "block",
+   "width": "106.078px",
+   "height": "74.8906px",
+   "font-family": "Impact",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "padding": "0px 0px 0px 5.2px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

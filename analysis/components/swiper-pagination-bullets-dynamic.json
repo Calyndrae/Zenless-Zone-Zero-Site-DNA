@@ -1,0 +1,108 @@
+{
+ "component": "swiper-pagination-bullets-dynamic",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-pagination-bullets-dynamic": "swiper-pagination-bullets-dynamic"
+ },
+ "ruleCount": 8,
+ "rules": [
+  {
+   "selector": ".swiper-pagination-bullets-dynamic",
+   "media": [],
+   "declarations": {
+    "overflow": "hidden",
+    "font-size": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-bullets-dynamic .swiper-pagination-bullet",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "scale(0.33)",
+    "-ms-transform": "scale(0.33)",
+    "transform": "scale(0.33)",
+    "position": "relative"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "scale(1)",
+    "-ms-transform": "scale(1)",
+    "transform": "scale(1)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "scale(1)",
+    "-ms-transform": "scale(1)",
+    "transform": "scale(1)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "scale(0.66)",
+    "-ms-transform": "scale(0.66)",
+    "transform": "scale(0.66)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "scale(0.33)",
+    "-ms-transform": "scale(0.33)",
+    "transform": "scale(0.33)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "scale(0.66)",
+    "-ms-transform": "scale(0.66)",
+    "transform": "scale(0.66)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "scale(0.33)",
+    "-ms-transform": "scale(0.33)",
+    "transform": "scale(0.33)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   "0"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

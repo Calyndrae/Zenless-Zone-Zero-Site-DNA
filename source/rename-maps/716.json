@@ -1,0 +1,14 @@
+{
+  "summary": "Vendored axios helper parseHeaders (axios/lib/helpers/parseHeaders). It splits a raw HTTP response header string on newlines, trims and lower-cases each header name using axios utils (module 73), ignores duplicates of a fixed list of single-value headers (age, authorization, content-length, content-type, etag, ... user-agent), collects set-cookie into an array and joins other repeated headers with \", \".",
+  "exports": {
+    "module.exports": "parseHeaders(rawHeaders) -> parsed header object"
+  },
+  "renames": {
+    "o_1": "ignoreDuplicateOf",
+    "t_2": "rawHeaders",
+    "e_3": "headerKey",
+    "n_4": "headerValue",
+    "i_5": "colonIndex",
+    "c_6": "parsed"
+  }
+}

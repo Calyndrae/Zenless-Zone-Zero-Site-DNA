@@ -1,0 +1,22 @@
+{
+  "summary": "Anonymous loading-screen Vue component. It renders `.loading` with a hidden `.loading__field` that preloads each entry of its `source` list as an `img`, `video` or `audio` element (advancing progress on `load`/`canplaythrough`) and a `.loading__anim` animation block. On mount it sets the `isLoading` computed (backed by `$store.state.isLoading` / the `setLoading` mutation) to true and locks `document.body` scrolling; the `step` method increments `progress` by 5 on timers until 100, then `onLoaded` emits `loaded`, clears `isLoading` and restores body overflow.",
+  "exports": {
+    "a": "the loading Vue component (normalized component exports)"
+  },
+  "renames": {
+    "o_1": "loadingOptions",
+    "l_2": "componentOptions",
+    "r_3": "componentNormalizer",
+    "t_4": "isLoadingValue",
+    "t_5": "self",
+    "e_6": "amountDelta",
+    "n_7": "shouldTick",
+    "t_8": "vm",
+    "e_9": "h",
+    "n_10": "asset",
+    "o_11": "assetIndex",
+    "e_12": "imgLoadEvent",
+    "e_13": "videoCanPlayEvent",
+    "e_14": "audioCanPlayEvent"
+  }
+}

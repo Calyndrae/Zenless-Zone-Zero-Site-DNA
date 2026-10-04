@@ -1,0 +1,54 @@
+{
+ "component": "home-pv-close",
+ "files": [
+  "1280.css"
+ ],
+ "classes": {
+  "home-pv-close": "home-pv-close"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".home-pv-close",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "-0.64rem",
+    "top": "-0.14rem",
+    "z-index": "9",
+    "width": ".6rem",
+    "height": ".6rem",
+    "cursor": "pointer",
+    "transform": "rotate(0)",
+    "transition": "transform 500ms"
+   },
+   "source": "/_nuxt/a9873dc.js #1280"
+  },
+  {
+   "selector": ".home-pv-close:hover",
+   "media": [],
+   "declarations": {
+    "transform": "rotate(90deg)"
+   },
+   "source": "/_nuxt/a9873dc.js #1280"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "9"
+  ],
+  "transitions": [
+   "transform 500ms"
+  ]
+ }
+}

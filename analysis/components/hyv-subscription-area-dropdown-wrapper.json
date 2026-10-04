@@ -1,0 +1,56 @@
+{
+ "component": "hyv-subscription-area-dropdown-wrapper",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-subscription-area-dropdown-wrapper": "hyv-subscription-area-dropdown-wrapper"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".hyv-subscription-area-dropdown-wrapper",
+   "media": [],
+   "declarations": {
+    "background": "var(--global-surface-1)",
+    "border": ".5px solid var(--global-surface-1)",
+    "-webkit-box-shadow": "0 3px 14px 2px rgba(0,0,0,.05),0 8px 10px 1px rgba(0,0,0,.06),0 5px 5px -3px rgba(0,0,0,.1)",
+    "box-shadow": "0 3px 14px 2px rgba(0,0,0,.05),0 8px 10px 1px rgba(0,0,0,.06),0 5px 5px -3px rgba(0,0,0,.1)",
+    "cursor": "pointer",
+    "display": "none",
+    "height": "150px",
+    "left": "-15px",
+    "overflow": "hidden",
+    "position": "absolute",
+    "scrollbar-color": "#2d2e33",
+    "scrollbar-gutter": "none",
+    "scrollbar-width": "thin",
+    "top": "50px",
+    "width": "calc(100% + 60px)",
+    "z-index": "9999"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,.05)",
+   "rgba(0,0,0,.06)",
+   "rgba(0,0,0,.1)",
+   "#2d2e33"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "9999"
+  ],
+  "transitions": []
+ }
+}

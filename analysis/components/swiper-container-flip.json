@@ -1,0 +1,74 @@
+{
+ "component": "swiper-container-flip",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-container-flip": "swiper-container-flip"
+ },
+ "ruleCount": 5,
+ "rules": [
+  {
+   "selector": ".swiper-container-flip",
+   "media": [],
+   "declarations": {
+    "overflow": "visible"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-flip .swiper-slide",
+   "media": [],
+   "declarations": {
+    "pointer-events": "none",
+    "-webkit-backface-visibility": "hidden",
+    "backface-visibility": "hidden",
+    "z-index": "1"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-flip .swiper-slide .swiper-slide",
+   "media": [],
+   "declarations": {
+    "pointer-events": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-flip .swiper-slide-active,\n.swiper-container-flip .swiper-slide-active .swiper-slide-active",
+   "media": [],
+   "declarations": {
+    "pointer-events": "auto"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-flip .swiper-slide-shadow-top,\n.swiper-container-flip .swiper-slide-shadow-bottom,\n.swiper-container-flip .swiper-slide-shadow-left,\n.swiper-container-flip .swiper-slide-shadow-right",
+   "media": [],
+   "declarations": {
+    "z-index": "0",
+    "-webkit-backface-visibility": "hidden",
+    "backface-visibility": "hidden"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "1",
+   "0"
+  ],
+  "transitions": []
+ }
+}

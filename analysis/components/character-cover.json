@@ -1,0 +1,95 @@
+{
+ "component": "character-cover",
+ "files": [
+  "1250.css",
+  "1330.css"
+ ],
+ "classes": {
+  "character-cover": "character-cover"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".character-cover",
+   "media": [],
+   "declarations": {
+    "width": "7.5rem",
+    "height": "11.7rem",
+    "position": "absolute",
+    "left": "0",
+    "top": "0"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-cover",
+   "media": [],
+   "declarations": {
+    "width": "16rem",
+    "height": "12.97rem",
+    "background-size": "auto 13.69rem",
+    "background-position": "left -0.72rem",
+    "background-repeat": "no-repeat",
+    "position": "relative",
+    "pointer-events": "none",
+    "transition": "transform .3s ease-in-out",
+    "transform": "translateX(-2rem)"
+   },
+   "source": "/_nuxt/3f59e77.js #1330"
+  }
+ ],
+ "markup": "<img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/6c20298349992ef86b067bc8330cc313_7372893491764088783.png\" class=\"character-cover\">",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-cover",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "zh-cn_character"
+ ],
+ "computed": {
+  "character-cover": {
+   "page": "m_zh-cn_character",
+   "tag": "IMG",
+   "rect": {
+    "x": 0,
+    "y": 52,
+    "width": 390,
+    "height": 608.390625,
+    "top": 52,
+    "right": 390,
+    "bottom": 660.390625,
+    "left": 0
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "390px",
+   "height": "608.391px",
+   "bottom": "91px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "transform .3s ease-in-out"
+  ]
+ }
+}

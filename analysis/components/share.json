@@ -1,0 +1,1356 @@
+{
+ "component": "share",
+ "files": [
+  "670.css"
+ ],
+ "classes": {
+  "share": "share",
+  "share__info": "share__info",
+  "share__panel": "share__panel",
+  "share__icon": "share__icon",
+  "share__panel-wrap": "share__panel-wrap",
+  "share__title": "share__title",
+  "share__list": "share__list"
+ },
+ "ruleCount": 12,
+ "rules": [
+  {
+   "selector": ".share",
+   "media": [],
+   "declarations": {
+    "height": "100%"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__info",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "display": "flex",
+    "align-items": "center",
+    "height": "100%"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__info:hover .share__panel",
+   "media": [],
+   "declarations": {
+    "display": "block"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__icon",
+   "media": [],
+   "declarations": {
+    "width": ".58rem",
+    "height": ".58rem",
+    "background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAADhu0ooAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozRDI5QkE2REExNDYxMUVDQTEzREZCNEI2RTE3NzA5QiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozRDI5QkE2RUExNDYxMUVDQTEzREZCNEI2RTE3NzA5QiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNEMjlCQTZCQTE0NjExRUNBMTNERkI0QjZFMTc3MDlCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNEMjlCQTZDQTE0NjExRUNBMTNERkI0QjZFMTc3MDlCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+P2UYIQAAA0ZJREFUeNrsmt9LFFEUx9d1WxYif6BppFEWFJk9VCJiT0UQEf2gKKgXfROMhUKCCMK36BdYkv34AyKorKC0qIegBbPMh7agF0nyodCMrbRNbXX6DpyFw+HO/mgHZ4a9Bz44d+bM7nz33rn3e2YsMAzDlw/h9+VJaKFaqBaqhWqhWqgWqoVqoXknNGDz59WA3WADCIFx8Bo8BXFHlZrViw1UgXtg3lDHd3ACFNr0fVlTYEOZ1gB6QXkGuX3gkBO9m6vQlWAIlGVxzm1w1GuTUbcQOQMugHqwBuwBL8Q5R8BeL92jteI+/AOaFHnmqLkpcvsX+h7NpUf3i7bZk/2q3xKEwSe2rxFUemXobhTtWylyZ0EPnxtoCfKE0JBoj6fJ/yraS7wi9Idor02Tvz7LH8Y1Qt+IdjhFbiWtn3wov/fKrLsMzIjZtJ1mWZ5XDgZE3l2vOaNOcFzsM73tHRCjCadZuKYE2AKiIEi963pntBhEwKYszjkJLoEK8BK00mfsAtvIgMRpqXoIfrvF1C8FESN9JMApZiIesf1fLM4ZAwfsGLp23QMBEAYjioudA09APRN5zcg8zIqoxQ3Vi09hBJL16DcwSH+TUQLu0zDlMQWuU5GwGrSBajo2DWrBiNP16P+MgD7WazFQJ3JKwDuW0+WU180lzJl3grUvgg8KQ9LO2ju9+sxoBdt+ZZETYdsVXhU6lYGIauGmXCF0B617Y3RRw+AKqGITlVmIH6b2kLCPhYrP5LZy0Ol11Jy5L6dYHn6B8yBK7QE6rwbMsrwHYBUdKwVnxcO2g06vo2eEsAkSNZ1CfCOd26E4FiMTwaNX4aEXVOhyZuwTZBoCzDE9thD6FgTp4jvTGIZnoNhpZ9SWZp0Lgc/iwodBKwlN5m2ndTVOOX9piDcDvxssYDcT0GSR08VyOliPq/CTUQjabVJyfSUxx7YXWeQE2fZzMgtWMa94cuGK57pRtt2iOF4M9rEf5aNX372UgUk2NM+BIjq2TpRvPU69d7GrejkGrgofOwlK2b6fYLN4tuvJt2mnFWtfMsyiusHJ3rS7Hq2jGnIrKAKj9PbsBvWoo2F34e3a0P/DoIVqoVqoFqqFaqFaqBaad0L/CTAAhEXjYJtg4B8AAAAASUVORK5CYII=) 0 0/100% 100%",
+    "cursor": "pointer"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__panel",
+   "media": [],
+   "declarations": {
+    "display": "none",
+    "position": "absolute",
+    "top": "0",
+    "left": "50%",
+    "width": "1.66rem",
+    "padding": "0 .1rem .1rem",
+    "border-radius": ".06rem",
+    "border-top": ".1rem solid #d8fa00",
+    "background": "#111",
+    "transform": "translate(-50%, 0.84rem)",
+    "transform-origin": "top center"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__panel-wrap",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "margin-top": ".2rem",
+    "display": "flex",
+    "flex-direction": "column",
+    "justify-content": "center",
+    "align-items": "center",
+    "text-align": "center"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__panel .share__title",
+   "media": [],
+   "declarations": {
+    "font-size": ".18rem",
+    "color": "#fff",
+    "white-space": "normal"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__list",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "row",
+    "flex-wrap": "wrap",
+    "justify-content": "flex-start",
+    "width": "1.2rem"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__list .me-media-icon",
+   "media": [],
+   "declarations": {
+    "width": "1.2rem",
+    "flex-wrap": "wrap",
+    "justify-content": "flex-start !important"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__list .me-media-icon-box",
+   "media": [],
+   "declarations": {
+    "width": ".6rem !important",
+    "height": ".6rem !important",
+    "margin": "0 !important"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__list .me-media-icon-item",
+   "media": [],
+   "declarations": {
+    "width": ".6rem !important",
+    "height": ".6rem !important"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  },
+  {
+   "selector": ".share__list .copy-btn",
+   "media": [],
+   "declarations": {
+    "width": ".5rem !important",
+    "height": ".5rem !important",
+    "margin-top": ".06rem"
+   },
+   "source": "/_nuxt/8c4c131.js #670"
+  }
+ ],
+ "markup": "<div class=\"share header__share\"><div class=\"share__info\"><div class=\"share__icon\"></div> <div class=\"share__panel\"><div class=\"share__panel-wrap\"><div class=\"share__title\">关注我们</div> <div class=\"share__list\"><div class=\"me-media-icon\" style=\"justify-content: center;\"> <div class=\"me-media-icon-box bottom\" style=\"width: 1em; margin: 0px 0.25em 0.1em;\"><div class=\"me-media-icon-item media-icon-Twitter\" style=\"width: 1em; height: 1em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"80\" height=\"80\" viewBox=\"0 0 80 80\">\n<g id=\"icomoon-ignore\">\n</g>\n<path fill=\"#898989\" d=\"M43.969 36.923l13.507-15.582h-3.2l-11.728 13.53-9.366-13.53h-10.804l14.165 20.46-14.165 16.34h3.2l12.385-14.288 9.892 14.288h10.804l-14.69-21.218zM39.585 41.981l-12.854-18.249h4.916l22.629 32.126h-4.916l-9.775-13.878z\" class=\"icon-path-Twitter\"></path>\n</svg></div> <div class=\"me-media-icon-label\" style=\"display: none;\"><div style=\"font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137);\">X</div></div></div><div class=\"me-media-icon-box bottom\" style=\"width: 1em; margin: 0px 0.25em 0.1em;\"><div class=\"me-media-icon-item media-icon-Youtube\" style=\"width: 1em; height: 1em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"80\" height=\"80\" viewBox=\"0 0 80 80\">\n<title>YouTube</title>\n<path d=\"M60.042 31.82c0 0-0.4-2.819-1.629-4.058-1.558-1.629-3.299-1.637-4.098-1.733-5.719-0.415-14.307-0.415-14.307-0.415h-0.015c0 0-8.588 0-14.307 0.415-0.799 0.096-2.54 0.104-4.098 1.733-1.231 1.238-1.622 4.058-1.622 4.058s-0.408 3.308-0.408 6.622v3.099c0 3.307 0.408 6.622 0.408 6.622s0.4 2.819 1.622 4.058c1.558 1.629 3.603 1.574 4.513 1.75 3.276 0.312 13.907 0.408 13.907 0.408s8.595-0.015 14.315-0.423c0.799-0.096 2.541-0.104 4.098-1.733 1.229-1.238 1.629-4.058 1.629-4.058s0.408-3.307 0.408-6.622v-3.099c-0.008-3.308-0.415-6.622-0.415-6.622zM35.775 45.304v-11.495l11.048 5.768-11.048 5.727z\" fill=\"#898989\" class=\"icon-path-Youtube\"></path>\n</svg></div> <div class=\"me-media-icon-label\" style=\"display: none;\"><div style=\"font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137);\">YouTube</div></div></div><div class=\"me-media-icon-box bottom\" style=\"width: 1em; margin: 0px 0.25em 0.1em;\"><div class=\"me-media-icon-item media-icon-TikTok\" style=\"width: 1em; height: 1em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"80\" height=\"80\" viewBox=\"0 0 80 80\">\n<title>TikTok</title>\n<path d=\"M56.397 36.63c-0.011 0-0.024 0-0.038 0-3.36 0-6.468-1.077-8.998-2.906l0.045 0.032v13.087c-0.003 6.571-5.331 11.898-11.903 11.898-6.574 0-11.903-5.328-11.903-11.903s5.328-11.903 11.903-11.903c0.577 0 1.144 0.040 1.697 0.12l-0.064-0.007v6.581c-0.49-0.16-1.054-0.252-1.639-0.252-3.018 0-5.464 2.446-5.464 5.464s2.446 5.464 5.464 5.464c3.018 0 5.464-2.446 5.464-5.464 0 0 0 0 0 0v0-25.583h6.443c0 0.022 0 0.047 0 0.073 0 0.548 0.049 1.084 0.144 1.605l-0.009-0.055c0.476 2.479 1.919 4.552 3.914 5.853l0.035 0.022c1.38 0.924 3.077 1.475 4.904 1.475 0 0 0.002 0 0.002 0v0z\" fill=\"#898989\" class=\"icon-path-TikTok\"></path>\n</svg></div> <div class=\"me-media-icon-label\" style=\"display: none;\"><div style=\"font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137);\">TikTok</div></div></div><div class=\"me-media-icon-box bottom\" style=\"width: 1em; margin: 0px 0.25em 0.1em;\"><div class=\"me-media-icon-item media-icon-Discord\" style=\"width: 1em; height: 1em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"80\" height=\"80\" viewBox=\"0 0 80 80\">\n<title>Discord</title>\n<path d=\"M55.91 25.549c-3.028-1.405-6.199-2.378-9.442-2.919-0.433 0.793-0.864 1.621-1.225 2.451-3.459-0.54-7.027-0.54-10.488 0-0.36-0.83-0.757-1.658-1.225-2.451-3.279 0.54-6.451 1.55-9.478 2.919-5.946 8.865-7.568 17.479-6.776 25.984v0c3.495 2.595 7.424 4.542 11.605 5.839 0.937-1.261 1.767-2.595 2.487-4.001-1.37-0.504-2.667-1.117-3.929-1.874 0.324-0.253 0.65-0.47 0.973-0.721 7.351 3.459 15.858 3.459 23.172 0 0.324 0.253 0.648 0.504 0.973 0.721-1.261 0.721-2.558 1.37-3.929 1.874 0.721 1.405 1.55 2.739 2.487 4.001 4.181-1.261 8.108-3.244 11.605-5.803v0c0.937-9.911-1.621-18.453-6.811-26.020zM32.413 46.307c-2.271 0-4.145-2.054-4.145-4.577s1.802-4.577 4.109-4.577 4.181 2.054 4.145 4.577-1.838 4.577-4.109 4.577zM47.621 46.307c-2.271 0-4.109-2.054-4.109-4.577s1.802-4.577 4.109-4.577 4.145 2.054 4.109 4.577-1.802 4.577-4.109 4.577z\" fill=\"#898989\" class=\"icon-path-Discord\"></path>\n</svg></div> <div class=\"me-media-icon-label\" style=\"display: none;\"><div style=\"font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137);\">Discord</div></div></div><div class=\"me-media-icon-box bottom\" style=\"width: 1em; margin: 0px 0.25em 0.1em;\"><div class=\"me-media-icon-item media-icon-Instagram\" style=\"width: 1em; height: 1em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" width=\"80\" height=\"80\" viewBox=\"0 0 80 80\">\n<title>Instagram</title>\n<path d=\"M40.291 24.010c5.117 0 5.698 0 7.733 0.116 1.86 0.058 2.849 0.407 3.547 0.639 0.872 0.349 1.512 0.756 2.209 1.453s1.105 1.279 1.453 2.209c0.232 0.698 0.581 1.686 0.639 3.547 0.116 2.035 0.116 2.616 0.116 7.733s0 5.698-0.116 7.733c-0.058 1.86-0.407 2.849-0.639 3.547-0.349 0.872-0.756 1.512-1.453 2.209s-1.279 1.105-2.209 1.453c-0.698 0.232-1.686 0.581-3.547 0.639-2.035 0.116-2.616 0.116-7.733 0.116s-5.698 0-7.733-0.116c-1.86-0.058-2.849-0.407-3.547-0.639-0.872-0.349-1.512-0.756-2.209-1.453s-1.105-1.279-1.453-2.209c-0.232-0.698-0.581-1.686-0.639-3.547-0.116-2.035-0.116-2.616-0.116-7.733s0-5.698 0.116-7.733c0.058-1.86 0.407-2.849 0.639-3.547 0.349-0.872 0.756-1.512 1.453-2.209s1.279-1.105 2.209-1.453c0.698-0.232 1.686-0.581 3.547-0.639 2.035-0.058 2.616-0.116 7.733-0.116zM40.291 20.58c-5.175 0-5.814 0-7.85 0.116s-3.43 0.407-4.651 0.872c-1.279 0.465-2.326 1.163-3.372 2.209s-1.744 2.151-2.209 3.372c-0.465 1.221-0.814 2.616-0.872 4.651-0.116 2.035-0.116 2.675-0.116 7.907s0 5.814 0.116 7.85c0.116 2.035 0.407 3.43 0.872 4.651 0.465 1.279 1.163 2.326 2.209 3.372s2.151 1.744 3.372 2.209c1.221 0.465 2.616 0.814 4.651 0.872 2.035 0.116 2.675 0.116 7.85 0.116s5.81\n<!-- … truncated, 18158 chars total -->",
+ "markupPage": "zh-cn_character",
+ "markupClass": "share",
+ "appearsOn": [
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "share": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 1141.875,
+    "y": 0,
+    "width": 32.625,
+    "height": 56.25,
+    "top": 0,
+    "right": 1174.5,
+    "bottom": 56.25,
+    "left": 1141.875
+   },
+   "text": "关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInstagram\n\n Ins",
+   "display": "block",
+   "width": "32.625px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0px 0px 29.25px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "share__icon": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 1141.875,
+    "y": 11.8125,
+    "width": 32.625,
+    "height": 32.625,
+    "top": 11.8125,
+    "right": 1174.5,
+    "bottom": 44.4375,
+    "left": 1141.875
+   },
+   "text": "",
+   "display": "block",
+   "width": "32.625px",
+   "height": "32.625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAADhu0ooAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozRDI5QkE2REExNDYxMUVDQTEzREZCNEI2RTE3NzA5QiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozRDI5QkE2RUExNDYxMUVDQTEzREZCNEI2RTE3NzA5QiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNEMjlCQTZCQTE0NjExRUNBMTNERkI0QjZFMTc3MDlCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNEMjlCQTZDQTE0NjExRUNBMTNERkI0QjZFMTc3MDlCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+P2UYIQAAA0ZJREFUeNrsmt9LFFEUx9d1WxYif6BppFEWFJk9VCJiT0UQEf2gKKgXfROMhUKCCMK36BdYkv34AyKorKC0qIegBbPMh7agF0nyodCMrbRNbXX6DpyFw+HO/mgHZ4a9Bz44d+bM7nz33rn3e2YsMAzDlw/h9+VJaKFaqBaqhWqhWqgWqoVqoXknNGDz59WA3WADCIFx8Bo8BXFHlZrViw1UgXtg3lDHd3ACFNr0fVlTYEOZ1gB6QXkGuX3gkBO9m6vQlWAIlGVxzm1w1GuTUbcQOQMugHqwBuwBL8Q5R8BeL92jteI+/AOaFHnmqLkpcvsX+h7NpUf3i7bZk/2q3xKEwSe2rxFUemXobhTtWylyZ0EPnxtoCfKE0JBoj6fJ/yraS7wi9Idor02Tvz7LH8Y1Qt+IdjhFbiWtn3wov/fKrLsMzIjZtJ1mWZ5XDgZE3l2vOaNOcFzsM73tHRCjCadZuKYE2AKiIEi963pntBhEwKYszjkJLoEK8BK00mfsAtvIgMRpqXoIfrvF1C8FESN9JMApZiIesf1fLM4ZAwfsGLp23QMBEAYjioudA09APRN5zcg8zIqoxQ3Vi09hBJL16DcwSH+TUQLu0zDlMQWuU5GwGrSBajo2DWrBiNP16P+MgD7WazFQJ3JKwDuW0+WU180lzJl3grUvgg8KQ9LO2ju9+sxoBdt+ZZETYdsVXhU6lYGIauGmXCF0B617Y3RRw+AKqGITlVmIH6b2kLCPhYrP5LZy0Ol11Jy5L6dYHn6B8yBK7QE6rwbMsrwHYBUdKwVnxcO2g06vo2eEsAkSNZ1CfCOd26E4FiMTwaNX4aEXVOhyZuwTZBoCzDE9thD6FgTp4jvTGIZnoNhpZ9SWZp0Lgc/iwodBKwlN5m2ndTVOOX9piDcDvxssYDcT0GSR08VyOliPq/CTUQjabVJyfSUxx7YXWeQE2fZzMgtWMa94cuGK57pRtt2iOF4M9rEf5aNX372UgUk2NM+BIjq2TpRvPU69d7GrejkGrgofOwlK2b6fYLN4tuvJt2mnFWtfMsyiusHJ3rS7Hq2jGnIrKAKj9PbsBvWoo2F34e3a0P/DoIVqoVqoFqqFaqFaqBaad0L/CTAAhEXjYJtg4B8AAAAASUVORK5CYII=\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "share__info": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 1141.875,
+    "y": 0,
+    "width": 32.625,
+    "height": 56.25,
+    "top": 0,
+    "right": 1174.5,
+    "bottom": 56.25,
+    "left": 1141.875
+   },
+   "text": "关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInstagram\n\n Ins",
+   "position": "relative",
+   "display": "flex",
+   "width": "32.625px",
+   "height": "56.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "align-items": "center"
+  },
+  "share__list": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInstagram\n\n Instagram\n\n Ho",
+   "display": "flex",
+   "width": "67.5px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "flex-start"
+  },
+  "share__panel": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInstagram\n\n Ins",
+   "position": "absolute",
+   "width": "93.375px",
+   "left": "50%",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(17, 17, 17)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border-radius": "3.375px",
+   "padding": "0px 5.625px 5.625px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "share__panel-wrap": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "关注我们  \n\n\n\n X\nYouTube\n\n YouTube\nTikTok\n\n TikTok\nDiscord\n\n Discord\nInstagram\n\n Ins",
+   "display": "flex",
+   "width": "100%",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "11.25px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center",
+   "align-items": "center"
+  },
+  "share__title": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "关注我们",
+   "display": "block",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "10.125px",
+   "font-weight": "400",
+   "line-height": "10.125px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [
+  {
+   "page": "zh-cn_character",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_company_privacy",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_company_terms",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_main",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166475",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166476",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166496",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166497",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166498",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_news_166535",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_video",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world_102173",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world_102257",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  },
+  {
+   "page": "zh-cn_world_102370",
+   "cls": "share__info",
+   "diff": {
+    "share__panel#1#1": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, -46.6875, 47.25)"
+     },
+     "height": {
+      "before": "auto",
+      "after": "200.75px"
+     },
+     "left": {
+      "before": "50%",
+      "after": "16.3125px"
+     },
+     "right": {
+      "before": "auto",
+      "after": "-77.0625px"
+     },
+     "bottom": {
+      "before": "auto",
+      "after": "-144.5px"
+     },
+     "display": {
+      "before": "none",
+      "after": "block"
+     }
+    },
+    "share__panel-wrap#2#0": {
+     "width": {
+      "before": "100%",
+      "after": "82.125px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "178.875px"
+     }
+    },
+    "share__title#3#0": {
+     "width": {
+      "before": "auto",
+      "after": "40px"
+     },
+     "height": {
+      "before": "auto",
+      "after": "10.125px"
+     }
+    },
+    "share__list#3#1": {
+     "height": {
+      "before": "auto",
+      "after": "168.75px"
+     }
+    }
+   },
+   "transition": "all"
+  }
+ ],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#d8fa00",
+   "#111",
+   "#fff"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".18rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,37 @@
+{
+  "summary": "Bundled `mhy-copy-input` clipboard helper (a self-contained webpack bundle with its own module runtime). Its default export `clipboard({ text, onSuccess, onFail })` creates a temporary read-only `input.mhy-copy-input` (font-size 14px) holding the text, selects it, runs `document.execCommand('copy')` (throwing when `queryCommandSupported('copy')` is false), removes the input and calls `onSuccess` or `onFail`; its `install(Vue)` method sets `Vue.prototype.$clipboard`.",
+  "exports": {
+    "module.exports": "the clipboard copy function (with install(Vue) registering $clipboard)"
+  },
+  "renames": {
+    "e_1": "modules",
+    "t_2": "installedModules",
+    "n_3": "innerRequire",
+    "r_4": "moduleId",
+    "o_5": "installedModule",
+    "e_6": "exportsObj",
+    "t_7": "propName",
+    "r_8": "getter",
+    "e_9": "esModuleTarget",
+    "e_10": "nsValue",
+    "t_11": "nsMode",
+    "r_12": "namespace",
+    "o_13": "nsKey",
+    "t_14": "boundKey",
+    "e_15": "mod",
+    "t_16": "getDefault",
+    "e_17": "object",
+    "t_18": "property",
+    "e_19": "clipboardModule",
+    "t_20": "clipboardExports",
+    "n_21": "clipboardRequire",
+    "r_22": "clipboard",
+    "e_23": "copyOptions",
+    "t_24": "text",
+    "n_25": "onSuccess",
+    "r_26": "onFail",
+    "o_27": "input",
+    "e_28": "copyError",
+    "e_29": "Vue"
+  }
+}

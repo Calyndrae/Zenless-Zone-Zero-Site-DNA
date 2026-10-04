@@ -1,0 +1,3 @@
+// module 716 from 2e4935f.js
+// deps: 73
+const module_716 = function(t,e,n){"use strict";var r=n(73),o=["age","authorization","content-length","content-type","etag","expires","from","host","if-modified-since","if-unmodified-since","last-modified","location","max-forwards","proxy-authorization","referer","retry-after","user-agent"];t.exports=function(t){var e,n,i,c={};return t?(r.forEach(t.split("\n"),(function(line){if(i=line.indexOf(":"),e=r.trim(line.substr(0,i)).toLowerCase(),n=r.trim(line.substr(i+1)),e){if(c[e]&&o.indexOf(e)>=0)return;c[e]="set-cookie"===e?(c[e]?c[e]:[]).concat([n]):c[e]?c[e]+", "+n:n}})),c):c}};

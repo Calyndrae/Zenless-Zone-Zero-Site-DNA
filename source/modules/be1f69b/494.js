@@ -1,0 +1,3 @@
+// module 494 from be1f69b.js
+// deps: 45, 29, 51, 30, 191, 238, 226, 90, 227
+const module_494 = function(e,t,n){"use strict";var r=n(45),o=n(29),c=n(51),l=n(30),f=n(191),d=n(238),h=n(226),m=n(90),v=n(227),y=Object.assign,w=Object.defineProperty,_=o([].concat);e.exports=!y||l((function(){if(r&&1!==y({b:1},y(w({},"a",{enumerable:!0,get:function(){w(this,"b",{value:3,enumerable:!1})}}),{b:2})).b)return!0;var e={},t={},symbol=Symbol(),n="abcdefghijklmnopqrst";return e[symbol]=7,n.split("").forEach((function(e){t[e]=e})),7!=y({},e)[symbol]||f(y({},t)).join("")!=n}))?function(e,source){for(var t=m(e),n=arguments.length,o=1,l=d.f,y=h.f;n>o;)for(var w,k=v(arguments[o++]),x=l?_(f(k),l(k)):f(k),S=x.length,A=0;S>A;)w=x[A++],r&&!c(y,k,w)||(t[w]=k[w]);return t}:y};

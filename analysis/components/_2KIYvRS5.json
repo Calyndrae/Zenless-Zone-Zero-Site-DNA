@@ -1,0 +1,52 @@
+{
+ "component": "_2KIYvRS5",
+ "files": [
+  "154.css"
+ ],
+ "classes": {
+  "_2KIYvRS5": "_2KIYvRS5"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": "._2KIYvRS5",
+   "media": [],
+   "declarations": {
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%",
+    "display": "flex",
+    "-webkit-box-align": "center",
+    "-ms-flex-align": "center",
+    "align-items": "center",
+    "-webkit-box-pack": "center",
+    "-ms-flex-pack": "center",
+    "justify-content": "center"
+   },
+   "source": "/_nuxt/be1f69b.js #154"
+  },
+  {
+   "selector": "._2KIYvRS5>*",
+   "media": [],
+   "declarations": {
+    "pointer-events": "auto"
+   },
+   "source": "/_nuxt/be1f69b.js #154"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

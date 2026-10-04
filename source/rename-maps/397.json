@@ -1,0 +1,21 @@
+{
+  "summary": "Browser implementation of the `sync-request` library. It exports a `doRequest(method, url, options)` function that validates its arguments, appends `options.qs` via a query-string helper (module 618), sets `X-Requested-With: XMLHttpRequest` for same-origin requests, serializes `options.json` (with `content-type: application/json`) or `options.form` as the body, performs a synchronous `XMLHttpRequest`, parses the raw response headers and returns an http-response-object (module 630) with status, headers, body text and URL. It also re-exports the global `FormData`.",
+  "exports": {
+    "default": "doRequest(method, url, options) — synchronous XHR request returning a Response object",
+    "module.exports": "doRequest (also exposed as .default and .FormData)",
+    "FormData": "the global FormData constructor"
+  },
+  "renames": {
+    "c_1": "FormDataCtor",
+    "l_2": "doRequest",
+    "e_3": "method",
+    "t_4": "url",
+    "n_5": "options",
+    "c_6": "hostMatch",
+    "l_7": "xhr",
+    "f_8": "crossDomain",
+    "d_9": "headerName",
+    "h_10": "responseHeaders",
+    "e_11": "headerParts"
+  }
+}

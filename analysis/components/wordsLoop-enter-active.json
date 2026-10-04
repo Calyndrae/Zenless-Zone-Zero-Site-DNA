@@ -1,0 +1,57 @@
+{
+ "component": "wordsLoop-enter-active",
+ "files": [
+  "664.css"
+ ],
+ "classes": {
+  "wordsLoop-enter-active": "wordsLoop-enter-active"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".wordsLoop-enter-active",
+   "media": [],
+   "declarations": {
+    "animation": "wordsLoop 20s linear infinite"
+   },
+   "source": "/_nuxt/8c4c131.js #664"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "wordsLoop",
+   "file": "664.css",
+   "source": "/_nuxt/8c4c131.js #664",
+   "css": "@keyframes wordsLoop{0%{transform:translateX(9.4rem)}100%{transform:translateX(-100%)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(9.4rem)"
+     }
+    },
+    {
+     "at": "100%",
+     "declarations": {
+      "transform": "translateX(-100%)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "wordsLoop 20s linear infinite"
+  ]
+ }
+}

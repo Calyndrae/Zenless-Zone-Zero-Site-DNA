@@ -1,0 +1,146 @@
+{
+ "component": "textLayer",
+ "files": [
+  "1024.css"
+ ],
+ "classes": {
+  "textLayer": "textLayer"
+ },
+ "ruleCount": 11,
+ "rules": [
+  {
+   "selector": ".textLayer",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "overflow": "hidden",
+    "opacity": "0.2",
+    "line-height": "1.0"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer > span",
+   "media": [],
+   "declarations": {
+    "color": "transparent",
+    "position": "absolute",
+    "white-space": "pre",
+    "cursor": "text",
+    "-webkit-transform-origin": "0% 0%",
+    "transform-origin": "0% 0%"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer .highlight",
+   "media": [],
+   "declarations": {
+    "margin": "-1px",
+    "padding": "1px",
+    "background-color": "rgb(180, 0, 170)",
+    "border-radius": "4px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer .highlight.begin",
+   "media": [],
+   "declarations": {
+    "border-radius": "4px 0px 0px 4px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer .highlight.end",
+   "media": [],
+   "declarations": {
+    "border-radius": "0px 4px 4px 0px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer .highlight.middle",
+   "media": [],
+   "declarations": {
+    "border-radius": "0px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer .highlight.selected",
+   "media": [],
+   "declarations": {
+    "background-color": "rgb(0, 100, 0)"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer ::-moz-selection",
+   "media": [],
+   "declarations": {
+    "background": "rgb(0,0,255)"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer ::selection",
+   "media": [],
+   "declarations": {
+    "background": "rgb(0,0,255)"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer .endOfContent",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "position": "absolute",
+    "left": "0px",
+    "top": "100%",
+    "right": "0px",
+    "bottom": "0px",
+    "z-index": "-1",
+    "cursor": "default",
+    "-webkit-user-select": "none",
+    "-moz-user-select": "none",
+    "-ms-user-select": "none",
+    "user-select": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  },
+  {
+   "selector": ".textLayer .endOfContent.active",
+   "media": [],
+   "declarations": {
+    "top": "0px"
+   },
+   "source": "/_nuxt/be1f69b.js #1024"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgb(180, 0, 170)",
+   "rgb(0, 100, 0)",
+   "rgb(0,0,255)"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "-1"
+  ],
+  "transitions": []
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "component": "m-section-nav-num",
+ "files": [
+  "1235.css"
+ ],
+ "classes": {
+  "m-section-nav-num": "m-section-nav-num"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".m-section-nav-num",
+   "media": [],
+   "declarations": {
+    "font-size": ".84rem"
+   },
+   "source": "/_nuxt/b5b7858.js #1235"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370"
+ ],
+ "computed": {
+  "m-section-nav-num": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 5.1875,
+    "y": 114.90625,
+    "width": 100.890625,
+    "height": 43.6875,
+    "top": 114.90625,
+    "right": 106.078125,
+    "bottom": 158.59375,
+    "left": 5.1875
+   },
+   "text": "02",
+   "display": "block",
+   "width": "100.891px",
+   "height": "43.6875px",
+   "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "43.68px",
+   "font-weight": "400",
+   "line-height": "43.68px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   ".84rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

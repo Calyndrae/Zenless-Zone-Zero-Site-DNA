@@ -1,0 +1,13 @@
+{
+  "summary": "Vendor helper (date-fns v1 style buildFormattingTokensRegExp). Holds a list of common date format tokens (M, MM, Q, D, DD, DDD, DDDD, d, E, W, WW, YY, YYYY, GG, GGGG, H, HH, h, hh, m, mm, s, ss, S, SS, SSS, Z, ZZ, X, x) and exports a function that merges them with the keys of a formatters object, sorts them in reverse so longer tokens match first, and returns a global RegExp matching escaped [literal] groups, a backslash escape, or any token / single character.",
+  "exports": {
+    "module.exports": "buildFormattingTokensRegExp(formatters) -> RegExp"
+  },
+  "renames": {
+    "n_1": "commonFormatterKeys",
+    "e_2": "formatters",
+    "t_3": "customFormatterKeys",
+    "r_4": "key",
+    "o_5": "allTokens"
+  }
+}

@@ -1,0 +1,35 @@
+{
+ "component": "van-popup-slide-bottom-enter-active",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "van-popup-slide-bottom-enter-active": "van-popup-slide-bottom-enter-active"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".van-popup-slide-bottom-enter-active,.van-popup-slide-left-enter-active,.van-popup-slide-right-enter-active,.van-popup-slide-top-enter-active",
+   "media": [],
+   "declarations": {
+    "-webkit-transition-timing-function": "ease-out",
+    "transition-timing-function": "ease-out"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

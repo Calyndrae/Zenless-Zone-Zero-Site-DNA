@@ -1,0 +1,185 @@
+{
+ "component": "m-section-nav-en",
+ "files": [
+  "703.css",
+  "1235.css",
+  "1315.css"
+ ],
+ "classes": {
+  "m-section-nav-en": "m-section-nav-en"
+ },
+ "ruleCount": 13,
+ "rules": [
+  {
+   "selector": "html[lang|=en-us] body .m-section-nav-en,html[lang|=en-us] body .m-section-nav-num,html[lang|=en-us] body .m-home-character__anim,html[lang|=en-us] body .m-section-nav.lg .m-section-nav-en,html[lang|=en-us] body .m-section-nav.lg .m-section-nav-num,html[lang|=en-us] body .m-character-kv__title,html[lang|=en-us] body .m-character-camp__item-empty .empty-text-en,html[lang|=en-us] body .m-character-role__title,html[lang|=en-us] body .m-news-slider__title,html[lang|=en-us] body .m-feature__title,html[lang|=en-us] body .m-world__slide-cover .cover-name .name-en,html[lang|=en-us] body .m-world__slide-tape .tape-name .name-en,html[lang|=en-us] body .m-character-detail .character__cv,html[lang|=en-us] body .m-character-detail .character__name,html[lang|=en-us] body .m-character-detail .m-character__name-en,html[lang|=en-us] body .m-section-nav-label,html[lang|=en-us] body .lab-cv,html[lang|=en-us] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=ja-jp] body .m-section-nav-en,html[lang|=ja-jp] body .m-section-nav-num,html[lang|=ja-jp] body .m-home-character__anim,html[lang|=ja-jp] body .m-section-nav.lg .m-section-nav-en,html[lang|=ja-jp] body .m-section-nav.lg .m-section-nav-num,html[lang|=ja-jp] body .m-character-kv__title,html[lang|=ja-jp] body .m-character-camp__item-empty .empty-text-en,html[lang|=ja-jp] body .m-character-role__title,html[lang|=ja-jp] body .m-news-slider__title,html[lang|=ja-jp] body .m-feature__title,html[lang|=ja-jp] body .m-world__slide-cover .cover-name .name-en,html[lang|=ja-jp] body .m-world__slide-tape .tape-name .name-en,html[lang|=ja-jp] body .m-character-detail .m-character__name-en,html[lang|=ja-jp] body .lab-cv,html[lang|=ja-jp] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=ko-kr] body .m-section-nav-en,html[lang|=ko-kr] body .m-section-nav-num,html[lang|=ko-kr] body .m-home-character__anim,html[lang|=ko-kr] body .m-section-nav.lg .m-section-nav-en,html[lang|=ko-kr] body .m-section-nav.lg .m-section-nav-num,html[lang|=ko-kr] body .m-character-kv__title,html[lang|=ko-kr] body .m-character-camp__item-empty .empty-text-en,html[lang|=ko-kr] body .m-character-role__title,html[lang|=ko-kr] body .m-news-slider__title,html[lang|=ko-kr] body .m-feature__title,html[lang|=ko-kr] body .m-world__slide-cover .cover-name .name-en,html[lang|=ko-kr] body .m-world__slide-tape .tape-name .name-en,html[lang|=ko-kr] body .m-character-detail .m-character__name-en,html[lang|=ko-kr] body .lab-cv,html[lang|=ko-kr] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=zh-cn] body .m-section-nav-en,html[lang|=zh-cn] body .m-section-nav-num,html[lang|=zh-cn] body .m-home-character__anim,html[lang|=zh-cn] body .m-section-nav.lg .m-section-nav-en,html[lang|=zh-cn] body .m-section-nav.lg .m-section-nav-num,html[lang|=zh-cn] body .m-character-kv__title,html[lang|=zh-cn] body .m-character-camp__item-empty .empty-text-en,html[lang|=zh-cn] body .m-character-role__title,html[lang|=zh-cn] body .m-news-slider__title,html[lang|=zh-cn] body .m-feature__title,html[lang|=zh-cn] body .m-world__slide-cover .cover-name .name-en,html[lang|=zh-cn] body .m-world__slide-tape .tape-name .name-en,html[lang|=zh-cn] body .m-character-detail .m-character__name-en,html[lang|=zh-cn] body .lab-cv,html[lang|=zh-cn] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=zh-tw] body .m-section-nav-en,html[lang|=zh-tw] body .m-section-nav-num,html[lang|=zh-tw] body .m-home-character__anim,html[lang|=zh-tw] body .m-section-nav.lg .m-section-nav-en,html[lang|=zh-tw] body .m-section-nav.lg .m-section-nav-num,html[lang|=zh-tw] body .m-character-kv__title,html[lang|=zh-tw] body .m-character-camp__item-empty .empty-text-en,html[lang|=zh-tw] body .m-character-role__title,html[lang|=zh-tw] body .m-news-slider__title,html[lang|=zh-tw] body .m-feature__title,html[lang|=zh-tw] body .m-world__slide-cover .cover-name .name-en,html[lang|=zh-tw] body .m-world__slide-tape .tape-name .name-en,html[lang|=zh-tw] body .m-character-detail .m-character__name-en,html[lang|=zh-tw] body .lab-cv,html[lang|=zh-tw] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=zh-tw] body .m-section-nav-en,html[lang|=zh-tw] body .m-section-nav-num,html[lang|=zh-tw] body .m-home-character__anim,html[lang|=zh-tw] body .m-section-nav.lg .m-section-nav-en,html[lang|=zh-tw] body .m-section-nav.lg .m-section-nav-num,html[lang|=zh-tw] body .m-character-kv__title,html[lang|=zh-tw] body .m-character-camp__item-empty .empty-text-en,html[lang|=zh-tw] body .m-character-role__title,html[lang|=zh-tw] body .m-news-slider__title,html[lang|=zh-tw] body .m-feature__title,html[lang|=zh-tw] body .m-world__slide-cover .cover-name .name-en,html[lang|=zh-tw] body .m-world__slide-tape .tape-name .name-en,html[lang|=zh-tw] body .m-character-detail .m-character__name-en,html[lang|=zh-tw] body .lab-cv,html[lang|=zh-tw] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=es-es] body .m-section-nav-en,html[lang|=es-es] body .m-section-nav-num,html[lang|=es-es] body .m-home-character__anim,html[lang|=es-es] body .m-section-nav.lg .m-section-nav-en,html[lang|=es-es] body .m-section-nav.lg .m-section-nav-num,html[lang|=es-es] body .m-character-kv__title,html[lang|=es-es] body .m-character-camp__item-empty .empty-text-en,html[lang|=es-es] body .m-character-role__title,html[lang|=es-es] body .m-news-slider__title,html[lang|=es-es] body .m-feature__title,html[lang|=es-es] body .m-world__slide-cover .cover-name .name-en,html[lang|=es-es] body .m-world__slide-tape .tape-name .name-en,html[lang|=es-es] body .m-character-detail .character__cv,html[lang|=es-es] body .m-character-detail .character__name,html[lang|=es-es] body .m-character-detail .m-character__name-en,html[lang|=es-es] body .m-section-nav-label,html[lang|=es-es] body .lab-cv,html[lang|=es-es] body .character-camp-inner,html[lang|=es-es] body .character-camp-item-name,html[lang|=es-es] body .character-camp-selection-back,html[lang|=es-es] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=id-id] body .m-section-nav-en,html[lang|=id-id] body .m-section-nav-num,html[lang|=id-id] body .m-home-character__anim,html[lang|=id-id] body .m-section-nav.lg .m-section-nav-en,html[lang|=id-id] body .m-section-nav.lg .m-section-nav-num,html[lang|=id-id] body .m-character-kv__title,html[lang|=id-id] body .m-character-camp__item-empty .empty-text-en,html[lang|=id-id] body .m-character-role__title,html[lang|=id-id] body .m-news-slider__title,html[lang|=id-id] body .m-feature__title,html[lang|=id-id] body .m-world__slide-cover .cover-name .name-en,html[lang|=id-id] body .m-world__slide-tape .tape-name .name-en,html[lang|=id-id] body .m-character-detail .character__cv,html[lang|=id-id] body .m-character-detail .character__name,html[lang|=id-id] body .m-character-detail .m-character__name-en,html[lang|=id-id] body .m-section-nav-label,html[lang|=id-id] body .lab-cv,html[lang|=id-id] body .character-camp-inner,html[lang|=id-id] body .character-camp-item-name,html[lang|=id-id] body .character-camp-selection-back,html[lang|=id-id] body .m-news-list__item-date,html[lang|=ru-ru] body .m-section-nav-en,html[lang|=ru-ru] body .m-section-nav-num,html[lang|=ru-ru] body .m-home-character__anim,html[lang|=ru-ru] body .m-section-nav.lg .m-section-nav-en,html[lang|=ru-ru] body .m-section-nav.lg .m-section-nav-num,html[lang|=ru-ru] body .m-character-kv__title,html[lang|=ru-ru] body .m-character-camp__item-empty .empty-text-en,html[lang|=ru-ru] body .m-character-role__title,html[lang|=ru-ru] body .m-news-slider__title,html[lang|=ru-ru] body .m-feature__title,html[lang|=ru-ru] body .m-world__slide-cover .cover-name .name-en,html[lang|=ru-ru] body .m-world__slide-tape .tape-name .name-en,html[lang|=ru-ru] body .m-character-detail .character__cv,html[lang|=ru-ru] body .m-character-detail .character__name,html[lang|=ru-ru] body .m-character-detail .m-character__name-en,html[lang|=ru-ru] body .m-section-nav-label,html[lang|=ru-ru] body .lab-cv,html[lang|=ru-ru] body .character-camp-inner,html[lang|=ru-ru] body .character-camp-item-name,html[lang|=ru-ru] body .character-camp-selection-back,html[lang|=ru-ru] body .m-news-list__item-date,html[lang|=pt-pt] body .m-section-nav-en,html[lang|=pt-pt] body .m-section-nav-num,html[lang|=pt-pt] body .m-home-character__anim,html[lang|=pt-pt] body .m-section-nav.lg .m-section-nav-en,html[lang|=pt-pt] body .m-section-nav.lg .m-section-nav-num,html[lang|=pt-pt] body .m-character-kv__title,html[lang|=pt-pt] body .m-character-camp__item-empty .empty-text-en,html[lang|=pt-pt] body .m-character-role__title,html[lang|=pt-pt] body .m-news-slider__title,html[lang|=pt-pt] body .m-feature__title,html[lang|=pt-pt] body .m-world__slide-cover .cover-name .name-en,html[lang|=pt-pt] body .m-world__slide-tape .tape-name .name-en,html[lang|=pt-pt] body .m-character-detail .character__cv,html[lang|=pt-pt] body .m-character-detail .character__name,html[lang|=pt-pt] body .m-character-detail .m-character__name-en,html[lang|=pt-pt] body .m-section-nav-label,html[lang|=pt-pt] body .lab-cv,html[lang|=pt-pt] body .character-camp-inner,html[lang|=pt-pt] body .character-camp-item-name,html[lang|=pt-pt] body .character-camp-selection-back,html[lang|=pt-pt] body .m-news-list__item-date,html[lang|=fr-fr] body .m-section-nav-en,html[lang|=fr-fr] body .m-section-nav-num,html[lang|=fr-fr] body .m-home-character__anim,html[lang|=fr-fr] body .m-section-nav.lg .m-section-nav-en,html[lang|=fr-fr] body .m-section-nav.lg .m-section-nav-num,html[lang|=fr-fr] body .m-character-kv__title,html[lang|=fr-fr] body .m-character-camp__item-empty .empty-text-en,html[lang|=fr-fr] body .m-character-role__title,html[lang|=fr-fr] body .m-news-slider__title,html[lang|=fr-fr] body .m-feature__title,html[lang|=fr-fr] body .m-world__slide-cover .cover-name .name-en,html[lang|=fr-fr] body .m-world__slide-tape .tape-name .name-en,html[lang|=fr-fr] body .m-character-detail .character__cv,html[lang|=fr-fr] body .m-character-detail .character__name,html[lang|=fr-fr] body .m-character-detail .m-character__name-en,html[lang|=fr-fr] body .m-section-nav-label,html[lang|=fr-fr] body .lab-cv,html[lang|=fr-fr] body .character-camp-inner,html[lang|=fr-fr] body .character-camp-item-name,html[lang|=fr-fr] body .character-camp-selection-back,html[lang|=fr-fr] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=de-de] body .m-section-nav-en,html[lang|=de-de] body .m-section-nav-num,html[lang|=de-de] body .m-home-character__anim,html[lang|=de-de] body .m-section-nav.lg .m-section-nav-en,html[lang|=de-de] body .m-section-nav.lg .m-section-nav-num,html[lang|=de-de] body .m-character-kv__title,html[lang|=de-de] body .m-character-camp__item-empty .empty-text-en,html[lang|=de-de] body .m-character-role__title,html[lang|=de-de] body .m-news-slider__title,html[lang|=de-de] body .m-feature__title,html[lang|=de-de] body .m-world__slide-cover .cover-name .name-en,html[lang|=de-de] body .m-world__slide-tape .tape-name .name-en,html[lang|=de-de] body .m-character-detail .character__cv,html[lang|=de-de] body .m-character-detail .character__name,html[lang|=de-de] body .m-character-detail .m-character__name-en,html[lang|=de-de] body .m-section-nav-label,html[lang|=de-de] body .lab-cv,html[lang|=de-de] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=th-th] body .m-section-nav-en,html[lang|=th-th] body .m-section-nav-num,html[lang|=th-th] body .m-home-character__anim,html[lang|=th-th] body .m-section-nav.lg .m-section-nav-en,html[lang|=th-th] body .m-section-nav.lg .m-section-nav-num,html[lang|=th-th] body .m-character-kv__title,html[lang|=th-th] body .m-character-camp__item-empty .empty-text-en,html[lang|=th-th] body .m-character-role__title,html[lang|=th-th] body .m-news-slider__title,html[lang|=th-th] body .m-feature__title,html[lang|=th-th] body .m-world__slide-cover .cover-name .name-en,html[lang|=th-th] body .m-world__slide-tape .tape-name .name-en,html[lang|=th-th] body .m-character-detail .character__cv,html[lang|=th-th] body .m-character-detail .character__name,html[lang|=th-th] body .m-character-detail .m-character__name-en,html[lang|=th-th] body .m-section-nav-label,html[lang|=th-th] body .lab-cv,html[lang|=th-th] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"en impact\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": "html[lang|=vi-vn] body .m-section-nav-en,html[lang|=vi-vn] body .m-section-nav-num,html[lang|=vi-vn] body .m-home-character__anim,html[lang|=vi-vn] body .m-section-nav.lg .m-section-nav-en,html[lang|=vi-vn] body .m-section-nav.lg .m-section-nav-num,html[lang|=vi-vn] body .m-character-kv__title,html[lang|=vi-vn] body .m-character-camp__item-empty .empty-text-en,html[lang|=vi-vn] body .m-character-role__title,html[lang|=vi-vn] body .m-news-slider__title,html[lang|=vi-vn] body .m-feature__title,html[lang|=vi-vn] body .m-world__slide-cover .cover-name .name-en,html[lang|=vi-vn] body .m-world__slide-tape .tape-name .name-en,html[lang|=vi-vn] body .m-character-detail .character__cv,html[lang|=vi-vn] body .m-character-detail .character__name,html[lang|=vi-vn] body .m-character-detail .m-character__name-en,html[lang|=vi-vn] body .m-section-nav-label,html[lang|=vi-vn] body .lab-cv,html[lang|=vi-vn] body .m-news-list__item-date",
+   "media": [],
+   "declarations": {
+    "font-family": "\"TTHovesProCompactBold\",var(--mi18n-font-css) !important"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  },
+  {
+   "selector": ".m-section-nav-en",
+   "media": [],
+   "declarations": {
+    "margin-top": ".04rem",
+    "padding-left": ".03rem",
+    "font-size": ".22rem",
+    "letter-spacing": ".01em",
+    "text-transform": "uppercase"
+   },
+   "source": "/_nuxt/b5b7858.js #1235"
+  },
+  {
+   "selector": "::v-deep .m-section-nav-en",
+   "media": [],
+   "declarations": {
+    "font-size": ".21rem"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [
+  "m_zh-cn_character",
+  "m_zh-cn_main",
+  "m_zh-cn_news",
+  "m_zh-cn_video",
+  "m_zh-cn_world",
+  "m_zh-cn_world_102370"
+ ],
+ "computed": {
+  "m-section-nav-en": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 5.1875,
+    "y": 103.46875,
+    "width": 100.890625,
+    "height": 11.4375,
+    "top": 103.46875,
+    "right": 106.078125,
+    "bottom": 114.90625,
+    "left": 5.1875
+   },
+   "text": "Characters",
+   "display": "block",
+   "width": "100.891px",
+   "height": "11.4375px",
+   "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.44px",
+   "font-weight": "400",
+   "line-height": "11.44px",
+   "letter-spacing": "0.1144px",
+   "text-transform": "uppercase",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "padding": "0px 0px 0px 1.56px",
+   "margin": "2.08px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [
+   "\"en impact\",var(--mi18n-font-css) !important",
+   "\"TTHovesProCompactBold\",var(--mi18n-font-css) !important"
+  ],
+  "fontSizes": [
+   ".22rem",
+   ".21rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

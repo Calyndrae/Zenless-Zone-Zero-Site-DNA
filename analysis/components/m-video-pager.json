@@ -1,0 +1,90 @@
+{
+ "component": "m-video-pager",
+ "files": [
+  "1315.css"
+ ],
+ "classes": {
+  "m-video-pager": "m-video-pager"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": ".m-video-pager",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "justify-content": "center",
+    "width": "6.7rem",
+    "margin": ".2rem auto 0",
+    "font-size": "0"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-pager .mihoyo-pager-rich",
+   "media": [],
+   "declarations": {
+    "width": "100%"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video-pager .mihoyo-pager-rich__pages",
+   "media": [],
+   "declarations": {
+    "padding": "0 .7rem"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  }
+ ],
+ "markup": "<div class=\"mihoyo-pager-rich m-video-pager\"><div class=\"mihoyo-pager-rich__pages\"><a class=\"mihoyo-pager-rich__prev\">&gt;</a> <a class=\"mihoyo-pager-rich__button mihoyo-pager-rich__current\">1</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">2</a><a class=\"mihoyo-pager-rich__button\">3</a><a class=\"mihoyo-pager-rich__button\">4</a><a class=\"mihoyo-pager-rich__button\">5</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">6</a> <a class=\"mihoyo-pager-rich__next\">&lt;</a></div> <!----></div>",
+ "markupPage": "m_zh-cn_video",
+ "markupClass": "m-video-pager",
+ "appearsOn": [
+  "m_zh-cn_video"
+ ],
+ "computed": {
+  "m-video-pager": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 1042.953125,
+    "width": 348.390625,
+    "height": 27.03125,
+    "top": 1042.953125,
+    "right": 369.1875,
+    "bottom": 1069.984375,
+    "left": 20.796875
+   },
+   "text": "> 1 ... 2345 ... 6 <",
+   "display": "flex",
+   "width": "348.391px",
+   "height": "27.0312px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "10.4px 0.015625px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "center"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [
+   "0"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

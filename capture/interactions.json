@@ -1,0 +1,1864 @@
+{
+ "startedAt": "2026-10-03T23:36:39.666Z",
+ "rootFontSize": [
+  {
+   "viewport": "2560×1440",
+   "fontSize": "100px",
+   "inline": "100px",
+   "clientWidth": 2560,
+   "formula": "100px",
+   "match": true
+  },
+  {
+   "viewport": "1920×1080",
+   "fontSize": "75px",
+   "inline": "75px",
+   "clientWidth": 1920,
+   "formula": "75px",
+   "match": true
+  },
+  {
+   "viewport": "1440×900",
+   "fontSize": "56.25px",
+   "inline": "56.25px",
+   "clientWidth": 1440,
+   "formula": "56.25px",
+   "match": true
+  },
+  {
+   "viewport": "1280×720",
+   "fontSize": "56.25px",
+   "inline": "56.25px",
+   "clientWidth": 1280,
+   "formula": "50px",
+   "match": false
+  },
+  {
+   "viewport": "1024×768",
+   "fontSize": "56.25px",
+   "inline": "56.25px",
+   "clientWidth": 1024,
+   "formula": "40px",
+   "match": false
+  },
+  {
+   "viewport": "800×600",
+   "fontSize": "56.25px",
+   "inline": "56.25px",
+   "clientWidth": 800,
+   "formula": "31.25px",
+   "match": false
+  }
+ ],
+ "rootFontSizeMobile": [
+  {
+   "viewport": "390×844",
+   "fontSize": "52px",
+   "clientWidth": 390,
+   "formula750": "52px",
+   "match750": true
+  },
+  {
+   "viewport": "375×667",
+   "fontSize": "50px",
+   "clientWidth": 375,
+   "formula750": "50px",
+   "match750": true
+  },
+  {
+   "viewport": "430×932",
+   "fontSize": "57.3334px",
+   "clientWidth": 430,
+   "formula750": "57.3333px",
+   "match750": true
+  },
+  {
+   "viewport": "768×1024",
+   "fontSize": "102.4px",
+   "clientWidth": 768,
+   "formula750": "102.4px",
+   "match750": true
+  }
+ ],
+ "loader": {
+  "frames": [
+   {
+    "t": 2118,
+    "state": {
+     "zzz": false,
+     "loading": false,
+     "loadingField": null,
+     "root": false,
+     "anim": null
+    },
+    "file": "capture/interactions/loader-00.png"
+   },
+   {
+    "t": 2417,
+    "state": {
+     "zzz": true,
+     "loading": false,
+     "loadingField": null,
+     "root": false,
+     "anim": null
+    },
+    "file": "capture/interactions/loader-01.png"
+   },
+   {
+    "t": 5096,
+    "state": {
+     "zzz": false,
+     "loading": true,
+     "loadingField": "0px",
+     "root": true,
+     "anim": "loadingLoop-4ed1ddcf"
+    },
+    "file": "capture/interactions/loader-02.png"
+   },
+   {
+    "t": 7154,
+    "state": {
+     "zzz": false,
+     "loading": false,
+     "loadingField": "0px",
+     "root": true,
+     "anim": "loadingLoop-4ed1ddcf"
+    },
+    "file": "capture/interactions/loader-03.png"
+   },
+   {
+    "t": 7154,
+    "state": {
+     "zzz": false,
+     "loading": false,
+     "loadingField": "0px",
+     "root": true,
+     "anim": "loadingLoop-4ed1ddcf"
+    },
+    "done": true
+   }
+  ],
+  "shellLoader": ".zzz-loading (inline style in the SSR shell, removed when the Vue app mounts)",
+  "appLoader": ".loading (Vue component, store.isLoading)"
+ },
+ "header": {
+  "navs": [
+   {
+    "text": "首页",
+    "cls": "nav-content"
+   },
+   {
+    "text": "角色介绍",
+    "cls": "nav-content"
+   },
+   {
+    "text": "影像资料",
+    "cls": "nav-content"
+   },
+   {
+    "text": "新闻资讯",
+    "cls": "nav-content"
+   },
+   {
+    "text": "设定档案",
+    "cls": "nav-content"
+   },
+   {
+    "text": "更多",
+    "cls": "nav-content nav-content-more"
+   },
+   {
+    "text": "立即下载",
+    "cls": "nav-content nav-content-download"
+   }
+  ],
+  "moreHover": {
+   "subItems": [
+    {
+     "text": "兑换码",
+     "href": "https://zenless.hoyoverse.com/redemption",
+     "visible": true
+    },
+    {
+     "text": "充值",
+     "href": "https://zenless.hoyoverse.com/payment?utm_source=zzzofficialweb&utm_medium=nav",
+     "visible": true
+    },
+    {
+     "text": "攻略",
+     "href": "https://act.hoyolab.com/zzz/event/e20240601-guide-c0k2vt/index.html?game_biz=nap_global&hyl_presentation_style=fullscreen&hyl_auth_required=true&hyl_hide_status_bar=true&utm_source=napofficialweb&utm_medium=nav&utm_campaign=guide",
+     "visible": true
+    }
+   ],
+   "sub": {
+    "class": "nav-content-sub",
+    "display": "block",
+    "opacity": "1",
+    "transform": "none",
+    "height": "101.812px"
+   }
+  },
+  "navClicks": [
+   {
+    "index": 1,
+    "text": "角色介绍",
+    "routeBefore": "/zh-cn/main",
+    "routeAfter": "/zh-cn/character",
+    "routeChangedAfterMs": 1971,
+    "fullReload": 1,
+    "activeNav": -1,
+    "activeClass": null,
+    "apiCalls": [
+     "…/getContentList?iChanId=286&iPageSize=50&iPage=1&sLangKey=zh-cn",
+     "…/getContentList?iPageSize=200&iPage=1&iChanId=287&sLangKey=zh-cn"
+    ],
+    "title": "赛维里安·洛威尔 |《绝区零》官方网站"
+   },
+   {
+    "index": 2,
+    "text": "影像资料",
+    "routeBefore": "/zh-cn/main",
+    "routeAfter": "/zh-cn/video",
+    "routeChangedAfterMs": 1807,
+    "fullReload": 1,
+    "activeNav": -1,
+    "activeClass": null,
+    "apiCalls": [
+     "…/getContentList?iPageSize=6&iPage=1&iChanId=1332&sLangKey=zh-cn",
+     "…/getChildTree?iChanId=1332&iPageSize=10&sLangKey=zh-cn",
+     "…/getContentList?iPageSize=9&iPage=1&iChanId=1332&sLangKey=zh-cn"
+    ],
+    "title": "|《绝区零》官方网站影像资料"
+   },
+   {
+    "index": 3,
+    "text": "新闻资讯",
+    "routeBefore": "/zh-cn/main",
+    "routeAfter": "/zh-cn/news",
+    "routeChangedAfterMs": 1649,
+    "fullReload": 1,
+    "activeNav": -1,
+    "activeClass": null,
+    "apiCalls": [
+     "…/getContentList?iPageSize=7&iPage=1&iChanId=288&sLangKey=zh-cn",
+     "…/getChildTree?iChanId=288&iPageSize=10&sLangKey=zh-cn",
+     "…/getContentList?iPageSize=9&iPage=1&iChanId=288&sLangKey=zh-cn"
+    ],
+    "title": "新闻资讯 |《绝区零》官方网站"
+   },
+   {
+    "index": 4,
+    "text": "设定档案",
+    "routeBefore": "/zh-cn/main",
+    "routeAfter": "/zh-cn/world",
+    "routeChangedAfterMs": 1425,
+    "fullReload": 1,
+    "activeNav": -1,
+    "activeClass": null,
+    "apiCalls": [
+     "…/getContentList?iPageSize=10&iPage=1&sLangKey=zh-cn&iChanId=290"
+    ],
+    "title": "设定档案 |《绝区零》官方网站"
+   }
+  ],
+  "logoClick": {
+   "routeAfter": "/zh-cn/main"
+  },
+  "bgm": {
+   "stateBefore": false,
+   "stateAfterClick": false,
+   "iconClass": "m-audio-player__icon",
+   "calls": {
+    "media": [],
+    "audio": []
+   },
+   "audioElements": [],
+   "localStorageKeys": [
+    "napSeaBgAudioOfficial={\"createdTime\":1791070694320,\"cacheTime\":0,\"data\":false}"
+   ],
+   "stateAfterSecondClick": false,
+   "callsSecond": {
+    "media": [],
+    "audio": []
+   }
+  },
+  "shareHover": {
+   "panel": {
+    "class": "share__panel",
+    "display": "block",
+    "transform": "matrix(1, 0, 0, 1, -46.6875, 47.25)",
+    "opacity": "1",
+    "height": "200.75px"
+   },
+   "items": [
+    {
+     "cls": "me-media-icon-item media-icon-Twitter",
+     "text": "",
+     "href": null
+    },
+    {
+     "cls": "me-media-icon-item media-icon-Youtube",
+     "text": "YouTube",
+     "href": null
+    },
+    {
+     "cls": "me-media-icon-item media-icon-TikTok",
+     "text": "TikTok",
+     "href": null
+    },
+    {
+     "cls": "me-media-icon-item media-icon-Discord",
+     "text": "Discord",
+     "href": null
+    },
+    {
+     "cls": "me-media-icon-item media-icon-Instagram",
+     "text": "Instagram",
+     "href": null
+    },
+    {
+     "cls": "me-media-icon-item media-icon-HoYoLAB",
+     "text": "",
+     "href": null
+    },
+    {
+     "cls": "me-media-icon-item media-icon-Twitch",
+     "text": "Twitch",
+     "href": null
+    },
+    {
+     "cls": "me-media-icon-item media-icon-Telegram",
+     "text": "Telegram",
+     "href": null
+    }
+   ]
+  },
+  "loginClick": {
+   "popups": [
+    {
+     "tag": "IFRAME",
+     "cls": "",
+     "src": "https://account.hoyoverse.com/login-platform/index.html?st=https%3A%2F%2Fzenless.hoyoverse.com%2Fzh-cn%2Fvideo&token_typ"
+    }
+   ],
+   "route": "/zh-cn/main"
+  }
+ },
+ "sidebar": {
+  "nums": [
+   {
+    "text": "01",
+    "active": true
+   },
+   {
+    "text": "02",
+    "active": false
+   },
+   {
+    "text": "03",
+    "active": false
+   },
+   {
+    "text": "04",
+    "active": false
+   },
+   {
+    "text": "05",
+    "active": false
+   },
+   {
+    "text": "06",
+    "active": false
+   }
+  ],
+  "state": {
+   "lang": "zh-cn",
+   "bgmMuted": false,
+   "homeSection": "main",
+   "navSection": "",
+   "routePage": "index",
+   "isLoading": false,
+   "videoMainChanName": "最新"
+  },
+  "clicks": [
+   {
+    "index": 2,
+    "scrollY": 1598,
+    "homeSection": "video",
+    "active": 2,
+    "sectionTop": [
+     -1571,
+     -717,
+     0,
+     667,
+     1354,
+     1953
+    ],
+    "ms": 2023
+   },
+   {
+    "index": 4,
+    "scrollY": 2952,
+    "homeSection": "world",
+    "active": 4,
+    "sectionTop": [
+     -2925,
+     -2071,
+     -1354,
+     -687,
+     0,
+     599
+    ],
+    "ms": 2021
+   },
+   {
+    "index": 0,
+    "scrollY": 0,
+    "homeSection": "main",
+    "active": 0,
+    "sectionTop": [
+     27,
+     908,
+     1598,
+     2265,
+     2952,
+     3551
+    ],
+    "ms": 2026
+   }
+  ],
+  "next": {
+   "scrollY": 908,
+   "active": 1,
+   "prevDisabled": "sidebar__nav-prev"
+  },
+  "scrollSweep": [
+   {
+    "scrollTo": 0,
+    "scrollY": 0,
+    "homeSection": "main",
+    "active": 0,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop light",
+     "opacity": "0",
+     "display": "block",
+     "visibility": "visible"
+    }
+   },
+   {
+    "scrollTo": 600,
+    "scrollY": 600,
+    "homeSection": "character",
+    "active": 1,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop backTop--show light",
+     "opacity": "1",
+     "display": "block",
+     "visibility": "visible"
+    }
+   },
+   {
+    "scrollTo": 1200,
+    "scrollY": 1200,
+    "homeSection": "video",
+    "active": 2,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop backTop--show light",
+     "opacity": "1",
+     "display": "block",
+     "visibility": "visible"
+    }
+   },
+   {
+    "scrollTo": 1900,
+    "scrollY": 1900,
+    "homeSection": "news",
+    "active": 3,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop backTop--show light",
+     "opacity": "1",
+     "display": "block",
+     "visibility": "visible"
+    }
+   },
+   {
+    "scrollTo": 2500,
+    "scrollY": 2500,
+    "homeSection": "world",
+    "active": 4,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop backTop--show light",
+     "opacity": "1",
+     "display": "block",
+     "visibility": "visible"
+    }
+   },
+   {
+    "scrollTo": 3200,
+    "scrollY": 3200,
+    "homeSection": "feature",
+    "active": 5,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop backTop--show light",
+     "opacity": "1",
+     "display": "block",
+     "visibility": "visible"
+    }
+   },
+   {
+    "scrollTo": 3900,
+    "scrollY": 3900,
+    "homeSection": "feature",
+    "active": 5,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop backTop--show light",
+     "opacity": "1",
+     "display": "block",
+     "visibility": "visible"
+    }
+   },
+   {
+    "scrollTo": 4600,
+    "scrollY": 3935,
+    "homeSection": "feature",
+    "active": 5,
+    "headerClass": "header",
+    "backTop": {
+     "class": "backTop backTop--show light",
+     "opacity": "1",
+     "display": "block",
+     "visibility": "visible"
+    }
+   }
+  ],
+  "backTop": {
+   "scrollYAfter": 0,
+   "class": "backTop light"
+  }
+ },
+ "hero": {
+  "kv": [
+   "home-kv__bg",
+   "home-kv__play",
+   "home-kv__slogan",
+   "home-kv__download"
+  ],
+  "downloadHover": {
+   "transform": {
+    "class": "home-kv__download",
+    "transform": "matrix(1.1, 0, 0, 1.1, 0, 0)",
+    "transition": "all"
+   },
+   "dropdown": [
+    "sea-download-layout",
+    "sea-download-layout-left",
+    "sea-download-layout-qr",
+    "sea-download-layout-qr__main",
+    "sea-download-layout-right",
+    "sea-download-layout-list",
+    "sea-download-layout-download__row",
+    "sea-download-layout-download__item",
+    "sea-download-layout-download__item-btn",
+    "sea-download-layout-download__item-btn-img"
+   ],
+   "items": [
+    {
+     "text": "",
+     "visible": true
+    },
+    {
+     "text": "",
+     "visible": true
+    },
+    {
+     "text": "",
+     "visible": true
+    },
+    {
+     "text": "",
+     "visible": true
+    },
+    {
+     "text": "",
+     "visible": true
+    },
+    {
+     "text": "",
+     "visible": true
+    },
+    {
+     "text": "",
+     "visible": true
+    }
+   ]
+  },
+  "playClick": {
+   "dialog": [
+    {
+     "cls": "video-container pc",
+     "rect": {
+      "x": 360,
+      "y": 247.5,
+      "width": 720,
+      "height": 405,
+      "top": 247.5,
+      "right": 1080,
+      "bottom": 652.5,
+      "left": 360
+     }
+    }
+   ],
+   "video": [],
+   "calls": {
+    "media": [],
+    "audio": []
+   },
+   "videoRequests": [],
+   "bodyOverflow": "hidden",
+   "timeline": [
+    {
+     "element": "BODY",
+     "first": 19,
+     "last": 288,
+     "n": 2,
+     "props": {
+      "overflow": "hidden → hidden (288–288 ms, 1 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-character__list-item swiper-slide",
+     "first": 19,
+     "last": 289,
+     "n": 1620,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-video__main-item swiper-slide",
+     "first": 20,
+     "last": 290,
+     "n": 242,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-feature__list-item swiper-slide",
+     "first": 20,
+     "last": 290,
+     "n": 176,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-character__nav-item swiper-slide swiper-slide-thumb-active",
+     "first": 20,
+     "last": 291,
+     "n": 32,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-character__nav-item swiper-slide swiper-slide-visible",
+     "first": 20,
+     "last": 291,
+     "n": 60,
+     "props": {},
+     "classes": [
+      {
+       "t": 21,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 21,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 290,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 290,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      }
+     ],
+     "srcs": []
+    },
+    {
+     "element": "home-character__nav-item swiper-slide",
+     "first": 20,
+     "last": 291,
+     "n": 1534,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-news__banner-item swiper-slide",
+     "first": 21,
+     "last": 291,
+     "n": 500,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-world__banner-item swiper-slide",
+     "first": 22,
+     "last": 291,
+     "n": 248,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "_2KIYvRS5 custom-mihoyo-common-mask _2vPZV2Zw",
+     "first": 30,
+     "last": 288,
+     "n": 6,
+     "props": {
+      "background-color": "rgba(0, 0, 0, 0.8) → rgba(0, 0, 0, 0.8) (288–288 ms, 2 frames)",
+      "position": "fixed → fixed (288–288 ms, 2 frames)",
+      "z-index": "100 → 100 (288–288 ms, 2 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    }
+   ],
+   "closeButton": null,
+   "dialogAfterClose": 0
+  }
+ },
+ "homeCharacter": {
+  "navSwiper": {
+   "activeIndex": 0,
+   "realIndex": 0,
+   "slides": 62,
+   "translate": 0
+  },
+  "listSwiper": {
+   "activeIndex": 0,
+   "realIndex": 0,
+   "slides": 62,
+   "translate": 0
+  },
+  "nameBefore": "都市秩序部 赛维里安·洛威尔",
+  "vm": null,
+  "navClick": {
+   "index": 5,
+   "listSwiper": {
+    "activeIndex": 5,
+    "realIndex": 5,
+    "slides": 62,
+    "translate": -6610
+   },
+   "navSwiper": {
+    "activeIndex": 0,
+    "realIndex": 0,
+    "slides": 62,
+    "translate": 0
+   },
+   "nameAfter": "达识结社 蕾米埃尔·丹",
+   "activeNav": 0,
+   "vm": null,
+   "timeline": [
+    {
+     "element": "home-character__list-item swiper-slide",
+     "first": 419,
+     "last": 420,
+     "n": 504,
+     "props": {
+      "width": "1322px → 1322px (419–420 ms, 67 frames)",
+      "opacity": "1 → 1 (419–420 ms, 67 frames)",
+      "transform": "translate3d(0px, 0px, 0px) → translate3d(-6610px, 0px, 0px) (419–420 ms, 67 frames)",
+      "transition-duration": "300ms → 300ms (419–420 ms, 67 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "swiper-wrapper",
+     "first": 419,
+     "last": 419,
+     "n": 1,
+     "props": {
+      "transition-duration": "300ms → 300ms (419–419 ms, 1 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "en-name-container",
+     "first": 420,
+     "last": 420,
+     "n": 2,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "home-character__nav-item swiper-slide swiper-slide-visible",
+     "first": 420,
+     "last": 427,
+     "n": 318,
+     "props": {},
+     "classes": [
+      {
+       "t": 420,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 421,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 421,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 421,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 421,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 421,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 421,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      },
+      {
+       "t": 422,
+       "added": [
+        "swiper-slide-visible"
+       ]
+      }
+     ],
+     "srcs": []
+    },
+    {
+     "element": "home-character__nav-item swiper-slide swiper-slide-thumb-active",
+     "first": 420,
+     "last": 427,
+     "n": 89,
+     "props": {},
+     "classes": [
+      {
+       "t": 420,
+       "added": [
+        "swiper-slide-thumb-active"
+       ]
+      }
+     ],
+     "srcs": []
+    },
+    {
+     "element": "home-character__nav-item swiper-slide",
+     "first": 420,
+     "last": 427,
+     "n": 5087,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    }
+   ]
+  },
+  "nextClick": {
+   "listSwiper": {
+    "activeIndex": 5,
+    "realIndex": 5,
+    "slides": 62,
+    "translate": -6610
+   },
+   "navSwiper": {
+    "activeIndex": 3,
+    "realIndex": 3,
+    "slides": 62,
+    "translate": -270
+   }
+  },
+  "moreClick": {
+   "routeAfter": "/zh-cn/character?id=164866",
+   "newTab": null,
+   "same": false
+  }
+ },
+ "homeVideo": {
+  "mainSwiper": {
+   "activeIndex": 0,
+   "realIndex": 0,
+   "slides": 9,
+   "translate": 0
+  },
+  "summaryBefore": "角色PV 09/29/2026 《绝区零》洛克茜角色PV | 发条骑士",
+  "navClick": {
+   "index": 3,
+   "mainSwiper": {
+    "activeIndex": 3,
+    "realIndex": 3,
+    "slides": 9,
+    "translate": -3555
+   },
+   "summaryAfter": "角色展示 09/04/2026 《绝区零》克拉蕾角色展示 | 不想培训，但攻略已写好",
+   "activeNav": 3
+  },
+  "playClick": {
+   "dialog": [],
+   "video": [],
+   "calls": {
+    "media": [],
+    "audio": []
+   }
+  }
+ },
+ "homeNews": {
+  "bannerSwiper": {
+   "activeIndex": 6,
+   "realIndex": 0,
+   "slides": 18,
+   "translate": -3172
+  },
+  "bullets": 6,
+  "summaryAnimation": {
+   "class": "home-news__summary-scroll",
+   "animation": "20s linear 0s infinite normal none running wordsLoop",
+   "animation-duration": "20s"
+  },
+  "items": [
+   "/zh-cn/news/166535",
+   "/zh-cn/news/166498",
+   "/zh-cn/news/166497",
+   "/zh-cn/news/166496",
+   "/zh-cn/news/166476",
+   "/zh-cn/news/166475",
+   "/zh-cn/news/166535",
+   "/zh-cn/news/166498"
+  ],
+  "bulletClick": {
+   "index": 2,
+   "bannerSwiper": {
+    "activeIndex": 8,
+    "realIndex": 2,
+    "slides": 18,
+    "translate": -4230
+   },
+   "activeBullet": 2,
+   "title": "她与她的隐秘往事丨3.2版本内容一览（下期）"
+  }
+ },
+ "homeWorld": {
+  "bannerSwiper": {
+   "activeIndex": 3,
+   "realIndex": 0,
+   "slides": 9,
+   "translate": -1586
+  },
+  "nextClick": {
+   "bannerSwiper": {
+    "activeIndex": 4,
+    "realIndex": 1,
+    "slides": 9,
+    "translate": -2115
+   },
+   "links": [
+    "/zh-cn/world",
+    "https://hoyo.link/5zqkrlTAd"
+   ]
+  }
+ },
+ "homeFeature": {
+  "listSwiper": {
+   "activeIndex": 1,
+   "realIndex": 0,
+   "slides": 6,
+   "translate": -1160
+  },
+  "concept": "Drip Fest 2025",
+  "conceptVideo": {
+   "cls": "section__concept-video-mp4",
+   "video": false,
+   "bg": "none"
+  },
+  "nextClick": {
+   "listSwiper": {
+    "activeIndex": 2,
+    "realIndex": 1,
+    "slides": 6,
+    "translate": -2320
+   }
+  },
+  "conceptPlay": {
+   "dialog": [],
+   "video": [],
+   "calls": {
+    "media": [],
+    "audio": []
+   }
+  }
+ },
+ "character": {
+  "route": "/zh-cn/character?id=166076",
+  "chaSwiper": {
+   "activeIndex": 0,
+   "realIndex": 0,
+   "slides": 62,
+   "translate": 0
+  },
+  "pagination": {
+   "activeIndex": 0,
+   "realIndex": 0,
+   "slides": 2,
+   "translate": 0
+  },
+  "campSwiper": {
+   "activeIndex": 25,
+   "realIndex": 5,
+   "slides": 60,
+   "translate": -4968
+  },
+  "name": "赛维里安·洛威尔 Severian Lowell",
+  "vm": null,
+  "camps": [
+   "弗林特工坊",
+   "空域巡戍局",
+   "达识结社",
+   "外务筹策局",
+   "法厄同",
+   "都市秩序部",
+   "妄想天使",
+   "坎卜斯黑枝",
+   "怪啖屋",
+   "云岿山",
+   "反舌鸟",
+   "防卫军·白银小队",
+   "天琴座",
+   "对空六课",
+   "卡吕冬之子",
+   "刑侦特勤组",
+   "奥波勒斯小队",
+   "维多利亚家政",
+   "白祇重工",
+   "狡兔屋"
+  ],
+  "paginationClick": {
+   "chaSwiper": {
+    "activeIndex": 0,
+    "realIndex": 0,
+    "slides": 62,
+    "translate": 0
+   },
+   "name": "赛维里安·洛威尔 Severian Lowell",
+   "route": "/zh-cn/character?id=166076",
+   "vm": null,
+   "timeline": []
+  },
+  "voiceClick": {
+   "calls": {
+    "media": [],
+    "audio": []
+   },
+   "btnClass": "character-voice-btn",
+   "playerName": "CV:  杨超然",
+   "audioRequests": [],
+   "timeline": [
+    {
+     "element": "character-voice-btn-inner-highlight",
+     "first": 19,
+     "last": 1431,
+     "n": 6001,
+     "props": {
+      "--progress": "99.4337% → 44.3312% (19–1431 ms, 6001 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    }
+   ]
+  },
+  "langSwitch": {
+   "switchers": [
+    {
+     "text": "中",
+     "cls": "character-voice-lang-switcher character-voice-lang-switcher__0"
+    }
+   ],
+   "after": [
+    {
+     "text": "中",
+     "cls": "character-voice-lang-switcher character-voice-lang-switcher__0"
+    }
+   ],
+   "playerName": "CV:  杨超然",
+   "cv": ""
+  },
+  "campClick": {
+   "index": 3,
+   "campText": "外务筹策局",
+   "route": "/zh-cn/character?id=166076",
+   "chaSwiper": {
+    "activeIndex": 0,
+    "realIndex": 0,
+    "slides": 62,
+    "translate": 0
+   },
+   "name": "赛维里安·洛威尔 Severian Lowell",
+   "apiCalls": [],
+   "bg": {
+    "class": "character",
+    "background-image": "linear-gradient(rgb(232, 232, 232), rgb(232, 232, 232) 545.062px, rgb(239, 239, 239) 545.062px, rgb(239, 239, 239) 100%)",
+    "background-color": "rgba(0, 0, 0, 0)"
+   }
+  },
+  "expandClick": {
+   "expanded": 60,
+   "campSwiper": {
+    "activeIndex": 25,
+    "realIndex": 5,
+    "slides": 60,
+    "translate": -4968
+   },
+   "btnText": "更多阵营"
+  },
+  "keyboard": {
+   "arrowRight": {
+    "activeIndex": 0,
+    "realIndex": 0,
+    "slides": 62,
+    "translate": 0
+   }
+  }
+ },
+ "video": {
+  "route": "/zh-cn/video",
+  "tabs": [
+   {
+    "text": "最新",
+    "href": "/zh-cn/video",
+    "active": true
+   },
+   {
+    "text": "版本PV",
+    "href": "/zh-cn/video?category=1341",
+    "active": false
+   },
+   {
+    "text": "角色EP&MV",
+    "href": "/zh-cn/video?category=1340",
+    "active": false
+   },
+   {
+    "text": "角色PV",
+    "href": "/zh-cn/video?category=1339",
+    "active": false
+   },
+   {
+    "text": "角色展示",
+    "href": "/zh-cn/video?category=1338",
+    "active": false
+   }
+  ],
+  "items": 9,
+  "firstTitle": "《绝区零》洛克茜角色PV | 发条骑士",
+  "latest": {
+   "activeIndex": 6,
+   "realIndex": 0,
+   "slides": 18,
+   "translate": -2572
+  },
+  "pager": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "tabClick": {
+   "route": "/zh-cn/video?category=1341",
+   "apiCalls": [
+    "…/getContentList?iPageSize=9&iPage=1&iChanId=1341&sLangKey=zh-cn"
+   ],
+   "items": 7,
+   "firstTitle": "《绝区零》3.2版本PV | 她与她的隐秘往事",
+   "activeTab": 0,
+   "storeChanName": "最新"
+  },
+  "pagerClick": {
+   "route": "/zh-cn/video?category=1341",
+   "apiCalls": [],
+   "firstTitle": "《绝区零》3.2版本PV | 她与她的隐秘往事",
+   "current": null,
+   "scrollY": 0
+  },
+  "itemClick": {
+   "dialog": [],
+   "video": [],
+   "calls": {
+    "media": [],
+    "audio": []
+   },
+   "route": "/zh-cn/video?category=1341"
+  }
+ },
+ "news": {
+  "route": "/zh-cn/news",
+  "tabs": [
+   {
+    "text": "最新",
+    "href": "/zh-cn/news",
+    "active": true
+   },
+   {
+    "text": "新闻",
+    "href": "/zh-cn/news?category=295",
+    "active": false
+   },
+   {
+    "text": "公告",
+    "href": "/zh-cn/news?category=296",
+    "active": false
+   },
+   {
+    "text": "活动",
+    "href": "/zh-cn/news?category=297",
+    "active": false
+   }
+  ],
+  "items": [
+   "《绝区零》2026年10月月历壁纸",
+   "「跛脚乌鸦奇探录」活动说明",
+   "她与她的隐秘往事丨3.2版本内容一览（下期）"
+  ],
+  "latest": {
+   "activeIndex": 6,
+   "realIndex": 0,
+   "slides": 18,
+   "translate": -2572
+  },
+  "pager": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "171"
+  ],
+  "tabClick": {
+   "route": "/zh-cn/news?category=296",
+   "apiCalls": [
+    "…/getContentList?iPageSize=9&iPage=1&iChanId=296&sLangKey=zh-cn"
+   ],
+   "items": [
+    "「跛脚乌鸦奇探录」活动说明",
+    "「锵锵！球仔成长日记」活动说明",
+    "3.2版本限时频段（下期）"
+   ],
+   "tags": [
+    "公告"
+   ]
+  },
+  "nextPage": {
+   "route": "/zh-cn/news?category=296",
+   "apiCalls": [
+    "…/getContentList?iPageSize=9&iPage=2&iChanId=296&sLangKey=zh-cn"
+   ],
+   "current": "2",
+   "items": [
+    "「全新放送」活动说明",
+    "「潜能预演·烈火重锤」活动说明"
+   ]
+  },
+  "itemClick": {
+   "routeBefore": "/zh-cn/news?category=296",
+   "routeAfter": "/zh-cn/news/165997",
+   "apiCalls": [
+    "…/getContent?iChanId=288&iAround=1&iInfoId=165997&sLangKey=zh-cn"
+   ],
+   "title": "「全新放送」活动说明",
+   "detailBlocks": [
+    "news-detail-back",
+    "news-detail-wrapper",
+    "news-detail-container",
+    "news-detail-article",
+    "news-detail__title",
+    "news-detail__info",
+    "news-detail__content"
+   ],
+   "around": [],
+   "contentImgs": 1,
+   "fullReload": 1
+  },
+  "backClick": {
+   "route": "/zh-cn/news"
+  }
+ },
+ "world": {
+  "route": "/zh-cn/world",
+  "swiper": {
+   "activeIndex": 3,
+   "realIndex": 0,
+   "slides": 9,
+   "translate": -642
+  },
+  "slides": [
+   "Bangboo",
+   "The city life",
+   "Hollow",
+   "Bangboo",
+   "The city life",
+   "Hollow",
+   "Bangboo",
+   "The city life",
+   "Hollow"
+  ],
+  "initAnim": 9,
+  "slideAnimation": {
+   "class": "world__slide-container",
+   "animation": "0.3s linear 0s 1 normal forwards running slideToTop",
+   "animation-name": "slideToTop",
+   "animation-duration": "0.3s"
+  },
+  "nextClick": {
+   "swiper": {
+    "activeIndex": 4,
+    "realIndex": 1,
+    "slides": 9,
+    "translate": -942
+   },
+   "timeline": [
+    {
+     "element": "world__slide swiper-slide isInitAnim",
+     "first": 6,
+     "last": 828,
+     "n": 1316,
+     "props": {
+      "transform": "translateX(40.432rem) scale(-0.234568) → translateX(-40.432rem) scale(-0.234568) (6–828 ms, 279 frames)",
+      "opacity": "0 → 0 (6–828 ms, 279 frames)",
+      "transition-duration": "800ms → 0ms (6–828 ms, 279 frames)",
+      "z-index": "2 → 2 (6–828 ms, 279 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "swiper-wrapper",
+     "first": 6,
+     "last": 828,
+     "n": 3,
+     "props": {
+      "transition-duration": "800ms → 0ms (6–828 ms, 3 frames)",
+      "transform": "translate3d(-941.625px, 0px, 0px) → translate3d(-941.625px, 0px, 0px) (6–828 ms, 3 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "world",
+     "first": 19,
+     "last": 19,
+     "n": 1,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    }
+   ]
+  },
+  "hover": {
+   "cover": {
+    "class": "world__slide-cover",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, -101.745, 0)"
+   },
+   "tape": {
+    "class": "world__slide-tape",
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, 100.789, 0)"
+   },
+   "mask": {
+    "class": "world__slide-mask",
+    "opacity": "0",
+    "transform": "none"
+   }
+  },
+  "slideClick": {
+   "routeBefore": "/zh-cn/world",
+   "routeAfter": "/zh-cn/world",
+   "apiCalls": [],
+   "detail": [],
+   "title": null,
+   "navNum": null
+  },
+  "detailNext": {
+   "swipers": []
+  }
+ },
+ "footer": {
+  "social": [
+   {
+    "cls": "media-icon-Twitter",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Youtube",
+    "href": null
+   },
+   {
+    "cls": "media-icon-TikTok",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Discord",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Instagram",
+    "href": null
+   },
+   {
+    "cls": "media-icon-HoYoLAB",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Twitch",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Telegram",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Reddit",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Twitter",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Youtube",
+    "href": null
+   },
+   {
+    "cls": "media-icon-TikTok",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Discord",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Instagram",
+    "href": null
+   },
+   {
+    "cls": "media-icon-HoYoLAB",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Twitch",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Telegram",
+    "href": null
+   },
+   {
+    "cls": "media-icon-Reddit",
+    "href": null
+   }
+  ],
+  "legal": [
+   {
+    "text": "阅读详情>>",
+    "href": "https://zenless.hoyoverse.com/zh-cn/company/privacy"
+   },
+   {
+    "text": "隐私政策",
+    "href": "https://zenless.hoyoverse.com/zh-cn/company/privacy"
+   },
+   {
+    "text": "使用者协议",
+    "href": "https://zenless.hoyoverse.com/zh-cn/company/terms"
+   },
+   {
+    "text": "关于我们",
+    "href": "https://www.hoyoverse.com/about-us?utm_source=zzz&utm_medium=footer"
+   },
+   {
+    "text": "联系我们",
+    "href": "mailto:zzz_cs@hoyoverse.com"
+   },
+   {
+    "text": "服务中心",
+    "href": "https://cs.hoyoverse.com/static/hoyoverse-new-csc-service-hall-fe/index.html?page_id=19&login_type=visitor&game_biz=platform_hyvpass&lang=zh-cn&utm_source=zzz&utm_medium=footer"
+   }
+  ],
+  "socialHover": {
+   "item": {
+    "class": "me-media-icon-item media-icon-Youtube",
+    "transform": "none",
+    "background-color": "rgba(0, 0, 0, 0)",
+    "transition": "all"
+   },
+   "path": {
+    "class": "icon-path-Youtube",
+    "fill": "rgb(242, 242, 239)"
+   }
+  },
+  "copyHover": {
+   "normal": {
+    "class": "me-hover-btn__img me-hover-btn__img-normal",
+    "opacity": "0",
+    "display": "block"
+   },
+   "hover": {
+    "class": "me-hover-btn__img me-hover-btn__img-hover",
+    "opacity": "1",
+    "display": "block"
+   }
+  },
+  "localeClick": {
+   "options": [
+    "中文(简体) 中文(繁體) Deutsch En",
+    "中文(简体)",
+    "中文(繁體)",
+    "Deutsch",
+    "English",
+    "Español",
+    "Français",
+    "Indonesia",
+    "日本語",
+    "한국어",
+    "Português",
+    "Pусский",
+    "ภาษาไทย",
+    "Tiếng Việt"
+   ]
+  }
+ },
+ "errors": {},
+ "mobile": {
+  "route": "/m/zh-cn/main",
+  "header": [
+   "m-header__logo",
+   "m-header__download",
+   "m-audio-player",
+   "m-header__menu-btn",
+   "m-header__menu",
+   "m-header__menu-header",
+   "m-header__menu-close",
+   "m-header__menu-content",
+   "m-header__menu-links",
+   "m-header__menu-link"
+  ],
+  "sections": [
+   "m-home-kv",
+   "m-home-kv-wrap",
+   "m-home-kv__bg",
+   "m-home-kv__slogan",
+   "m-home-kv__aside",
+   "m-home-kv__play",
+   "m-home-character",
+   "m-home-character__anim",
+   "m-home-character__main",
+   "m-home-character__main-panel",
+   "m-home-character__main-nav",
+   "swiper-container",
+   "m-home-character__nav-item",
+   "m-home-character__nav-mask",
+   "m-home-character__main-swiper",
+   "m-home-character__list-item",
+   "m-home-character__role",
+   "m-home-character__shade",
+   "m-home-character__info",
+   "m-home-character__camp"
+  ],
+  "swipers": [
+   {
+    "cls": "m-home-character__nav",
+    "slides": 62
+   },
+   {
+    "cls": "m-home-character__list",
+    "slides": 62
+   },
+   {
+    "cls": "m-home-video__banner-list",
+    "slides": 9
+   },
+   {
+    "cls": "m-home-news__banner-list",
+    "slides": 18
+   },
+   {
+    "cls": "m-home-world__banner-list",
+    "slides": 9
+   },
+   {
+    "cls": "m-home-feature__list",
+    "slides": 6
+   }
+  ],
+  "menuClick": {
+   "button": "m-header__menu-btn",
+   "menu": [
+    {
+     "cls": "m-header__menu",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 844,
+      "top": 0,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+     }
+    },
+    {
+     "cls": "m-header__menu-header",
+     "rect": {
+      "x": 46.8125,
+      "y": 0,
+      "width": 343.1875,
+      "height": 57.1875,
+      "top": 0,
+      "right": 390,
+      "bottom": 57.1875,
+      "left": 46.8125
+     }
+    },
+    {
+     "cls": "m-header__menu-close",
+     "rect": {
+      "x": 326.0625,
+      "y": 3.625,
+      "width": 49.90625,
+      "height": 49.90625,
+      "top": 3.625,
+      "right": 375.96875,
+      "bottom": 53.53125,
+      "left": 326.0625
+     }
+    },
+    {
+     "cls": "m-header__menu-content",
+     "rect": {
+      "x": 0,
+      "y": 57.1875,
+      "width": 390,
+      "height": 399.171875,
+      "top": 57.1875,
+      "right": 390,
+      "bottom": 456.359375,
+      "left": 0
+     }
+    },
+    {
+     "cls": "m-header__menu-links",
+     "rect": {
+      "x": 1,
+      "y": 72.78125,
+      "width": 388,
+      "height": 302.53125,
+      "top": 72.78125,
+      "right": 389,
+      "bottom": 375.3125,
+      "left": 1
+     }
+    },
+    {
+     "cls": "m-header__menu-link m-header__menu-link--active",
+     "rect": {
+      "x": 33.28125,
+      "y": 72.78125,
+      "width": 323.4375,
+      "height": 42.625,
+      "top": 72.78125,
+      "right": 356.71875,
+      "bottom": 115.40625,
+      "left": 33.28125
+     }
+    },
+    {
+     "cls": "m-header__menu-link",
+     "rect": {
+      "x": 33.28125,
+      "y": 123.203125,
+      "width": 323.4375,
+      "height": 42.625,
+      "top": 123.203125,
+      "right": 356.71875,
+      "bottom": 165.828125,
+      "left": 33.28125
+     }
+    },
+    {
+     "cls": "m-header__menu-link",
+     "rect": {
+      "x": 33.28125,
+      "y": 173.625,
+      "width": 323.4375,
+      "height": 42.625,
+      "top": 173.625,
+      "right": 356.71875,
+      "bottom": 216.25,
+      "left": 33.28125
+     }
+    }
+   ],
+   "items": [],
+   "bodyOverflow": "hidden",
+   "timeline": [
+    {
+     "element": "BODY",
+     "first": 20,
+     "last": 20,
+     "n": 1,
+     "props": {
+      "overflow": "hidden → hidden (20–20 ms, 1 frames)"
+     },
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "m-header__menu fadeIn-enter fadeIn-enter-active",
+     "first": 20,
+     "last": 20,
+     "n": 3,
+     "props": {},
+     "classes": [
+      {
+       "t": 20,
+       "added": [
+        "fadeIn-enter",
+        "fadeIn-enter-active"
+       ]
+      },
+      {
+       "t": 20,
+       "added": [
+        "fadeIn-enter-active"
+       ]
+      }
+     ],
+     "srcs": []
+    },
+    {
+     "element": "m-home-character__list-item swiper-no-swiping swiper-slide",
+     "first": 20,
+     "last": 23,
+     "n": 810,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "m-home-character__nav-item swiper-no-swiping swiper-slide",
+     "first": 23,
+     "last": 24,
+     "n": 748,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "m-home-video__banner-item swiper-slide",
+     "first": 24,
+     "last": 25,
+     "n": 112,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "m-home-news__banner-item swiper-slide",
+     "first": 25,
+     "last": 1068,
+     "n": 3094,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "m-home-world__banner-item swiper-slide",
+     "first": 25,
+     "last": 26,
+     "n": 124,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    },
+    {
+     "element": "m-home-feature__list-item swiper-slide",
+     "first": 26,
+     "last": 26,
+     "n": 88,
+     "props": {},
+     "classes": [],
+     "srcs": []
+    }
+   ]
+  },
+  "sectionNav": [
+   {
+    "cls": "character-page-tab__m m-section-nav font-num lg",
+    "text": "角色介绍 Characters 02"
+   },
+   {
+    "cls": "m-section-nav-inner",
+    "text": "角色介绍 Characters 02"
+   },
+   {
+    "cls": "m-section-nav-label",
+    "text": "角色介绍"
+   },
+   {
+    "cls": "m-section-nav-en",
+    "text": "Characters"
+   }
+  ],
+  "scrolled": {
+   "y": 900,
+   "headerClass": "m-header",
+   "fixedPos": null
+  }
+ },
+ "finishedAt": "2026-10-03T23:52:30.153Z"
+}

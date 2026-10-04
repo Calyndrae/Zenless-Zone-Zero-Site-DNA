@@ -1,0 +1,78 @@
+{
+ "component": "character-camp-icon",
+ "files": [
+  "1250.css"
+ ],
+ "classes": {
+  "character-camp-icon": "character-camp-icon"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".character-camp-icon",
+   "media": [],
+   "declarations": {
+    "width": ".95rem",
+    "height": ".95rem",
+    "position": "absolute",
+    "left": "-0.16rem",
+    "bottom": "-0.2rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  }
+ ],
+ "markup": "<img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/162679/21b34b51b613b2cf1bcc703633643c18_7904567709066951169.png\" alt=\"\" class=\"character-camp-icon\">",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-camp-icon",
+ "appearsOn": [
+  "m_zh-cn_character"
+ ],
+ "computed": {
+  "character-camp-icon": {
+   "page": "m_zh-cn_character",
+   "tag": "IMG",
+   "rect": {
+    "x": 275.4375,
+    "y": 63.5,
+    "width": 49.390625,
+    "height": 49.390625,
+    "top": 63.5,
+    "right": 324.828125,
+    "bottom": 112.890625,
+    "left": 275.4375
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "49.3906px",
+   "height": "49.3906px",
+   "top": "-15.9688px",
+   "left": "-8.32px",
+   "right": "55.9062px",
+   "bottom": "-10.4px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "9.36px",
+   "font-weight": "400",
+   "line-height": "9.36px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

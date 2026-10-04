@@ -1,0 +1,12 @@
+{
+  "summary": "User-model loading overlay. Requires its stylesheet (module 1246) and, when not in SSR and #miHoYoUserModelLoading is absent, appends a div containing the HTML template from module 1248 to document.body. Exports show(text = \"数据加载中\") which sets #miHoYoUserModelLoadingText innerText and displays #miHoYoUserModelLoading as block, and hide() which sets display none; both are no-ops under userModelUtils.isSSR.",
+  "exports": {
+    "default": "loading overlay controller { show(text), hide() } for #miHoYoUserModelLoading"
+  },
+  "renames": {
+    "r_1": "getById",
+    "e_3": "elementId",
+    "d_2": "overlayContainer",
+    "e_4": "loadingText"
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "component": "_12W2W7w0",
+ "files": [
+  "154.css"
+ ],
+ "classes": {
+  "_12W2W7w0": "_12W2W7w0"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": "._12W2W7w0",
+   "media": [],
+   "declarations": {
+    "max-height": "100%",
+    "width": "100%",
+    "overflow-y": "auto",
+    "display": "flex",
+    "-webkit-box-pack": "center",
+    "-ms-flex-pack": "center",
+    "justify-content": "center",
+    "scrollbar-width": "none",
+    "overflow-style": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #154"
+  },
+  {
+   "selector": "._12W2W7w0>*",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-ms-flex": "none",
+    "flex": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #154"
+  },
+  {
+   "selector": "._12W2W7w0::-webkit-scrollbar",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #154"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "component": "van-popup-slide-right-enter",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "van-popup-slide-right-enter": "van-popup-slide-right-enter"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".van-popup-slide-right-enter,.van-popup-slide-right-leave-active",
+   "media": [],
+   "declarations": {
+    "-webkit-transform": "translate3d(100%,-50%,0)",
+    "transform": "translate3d(100%,-50%,0)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

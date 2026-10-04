@@ -1,0 +1,58 @@
+{
+ "component": "nuxt-progress",
+ "files": [
+  "662.css"
+ ],
+ "classes": {
+  "nuxt-progress": "nuxt-progress"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".nuxt-progress",
+   "media": [],
+   "declarations": {
+    "position": "fixed",
+    "top": "0px",
+    "left": "0px",
+    "right": "0px",
+    "height": "2px",
+    "width": "0%",
+    "opacity": "1",
+    "transition": "width 0.1s, opacity 0.4s",
+    "background-color": "#fff",
+    "z-index": "999999"
+   },
+   "source": "/_nuxt/be1f69b.js #662"
+  },
+  {
+   "selector": ".nuxt-progress.nuxt-progress-notransition",
+   "media": [],
+   "declarations": {
+    "transition": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #662"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "999999"
+  ],
+  "transitions": [
+   "width 0.1s, opacity 0.4s",
+   "none"
+  ]
+ }
+}

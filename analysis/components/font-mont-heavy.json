@@ -1,0 +1,86 @@
+{
+ "component": "font-mont-heavy",
+ "files": [
+  "685.css",
+  "703.css"
+ ],
+ "classes": {
+  "font-mont-heavy": "font-mont-heavy"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".font-mont-heavy",
+   "media": [],
+   "declarations": {
+    "font-family": "\"Mont-Heavy\",var(--mi18n-font-css)"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": ".font-mont-heavy",
+   "media": [],
+   "declarations": {
+    "font-family": "\"Mont-Heavy\",var(--mi18n-font-css)"
+   },
+   "source": "/_nuxt/8c4c131.js #703"
+  }
+ ],
+ "markup": "<span class=\"character-info-name-en font-mont-heavy character-info-name-en-166076\" style=\"transform: scale(0.999112);\">Severian Lowell</span>",
+ "markupPage": "zh-cn_character",
+ "markupClass": "font-mont-heavy",
+ "appearsOn": [
+  "zh-cn_character"
+ ],
+ "computed": {
+  "font-mont-heavy": {
+   "page": "zh-cn_character",
+   "tag": "SPAN",
+   "rect": {
+    "x": 675,
+    "y": 191.85470581054688,
+    "width": 562.00048828125,
+    "height": 94.97808837890625,
+    "top": 191.85470581054688,
+    "right": 1237.00048828125,
+    "bottom": 286.8327941894531,
+    "left": 675
+   },
+   "text": "Severian Lowell",
+   "position": "absolute",
+   "display": "block",
+   "width": "562.5px",
+   "height": "95.0625px",
+   "top": "15.1875px",
+   "right": "-202.5px",
+   "bottom": "-56.25px",
+   "z-index": "0",
+   "font-family": "Mont-Heavy, \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "73.125px",
+   "font-weight": "400",
+   "line-height": "95.0625px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "linear-gradient(80deg, rgb(232, 232, 232), rgb(222, 222, 222))",
+   "opacity": "1",
+   "transform": "matrix(0.999112, 0, 0, 0.999112, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [
+   "\"Mont-Heavy\",var(--mi18n-font-css)"
+  ],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,3 @@
+// module 1310 from a9873dc.js
+// deps: 54
+const module_1310 = function(e,t,A){var o=A(54)(!1);o.push([e.i,".home{position:relative;width:7.5rem;margin:1.1rem auto 0;overflow:hidden}.home section{position:relative}.home .fill{pointer-events:none}.home .fill img{width:100%}.home .fill-bg{position:absolute;top:.7rem;left:0;width:4.78rem}.home .fill-black{position:absolute;top:0;left:0;width:100%}.home .fill-black-right{position:absolute;top:-0.4rem;right:0;width:2.46rem;z-index:1}.home .fill-black-right .fill-black-bar{position:absolute;top:-0.56rem;left:-0.98rem;width:3.6rem}.home .m-section-nav{width:2.06rem;height:2.9rem}",""]),e.exports=o};

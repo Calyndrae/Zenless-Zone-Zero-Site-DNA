@@ -1,0 +1,74 @@
+{
+ "component": "news-detail-article",
+ "files": [
+  "1411.css"
+ ],
+ "classes": {
+  "news-detail-article": "news-detail-article"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".news-detail-article",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  }
+ ],
+ "markup": "<div class=\"news-detail-article\"><div class=\"news-detail__title\">\n            3.2版本限时频段（下期）\n          </div> <div class=\"news-detail__info\"><span class=\"breadcrumb\">\n              绝区零 &gt; <div class=\"news-tag\">\n  公告\n</div></span> <span>2026/09/28</span></div> <div class=\"news-detail__content\"><p style=\"white-space: pre-wrap; line-height: 2;\">亲爱的绳匠：</p><p style=\"white-space: pre-wrap; line-height: 2;\">本期代理人与音擎调频活动时间为： 2026-09-30 12:00（服务器时间） ~ 2026-10-20 14:59（服务器时间），包含如下内容：</p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/69c63f86c172c239a9133b0cc170e09b_6987986511169947707.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><h4 style=\"white-space: pre-wrap; line-height: 2;\">「烬夜安眠」调频活动</h4><p style=\"white-space: pre-wrap; line-height: 2;\">活动期间，限定S级代理人[洛克茜(风·击破)]以及默认A级代理人[可琳(物理·强攻)]、[比利(物理·强攻)]的调频获取概率将大幅提升！</p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/b061da78d4178b1765b0c8a8be006d05_6116310887377728409.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><h4 style=\"white-space: pre-wrap; line-height: 2;\">「绯月银棺」调频活动</h4><p style=\"white-space: pre-wrap; line-height: 2;\">活动期间，限定S级音擎[绯月银棺(击破)]以及默认A级音擎[家政员(强攻)]、[仿制星徽引擎(强攻)]的调频获取概率将大幅提升！</p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/3daed0c2e3b5576d400c9dbf3a8ab016_5444750547111332328.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><h4 style=\"white-space: pre-wrap; line-height: 2;\">「冷雨将尽之夜」调频活动</h4><p style=\"white-space: pre-wrap; line-height: 2;\">活动期间，限定S级代理人[普罗米娅(冰·异常)]以及默认A级代理人[可琳(物理·强攻)]、[比利(物理·强攻)]的调频获取概率将大幅提升！</p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/746deae85c5ef4833ef661bae9db9da5_4361942052368190514.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><h4 style=\"white-space: pre-wrap; line-height: 2;\">「朔月裁霜」调频活动</h4><p style=\"white-space: pre-wrap; line-height: 2;\">活动期间，限定S级音擎[朔月裁霜(异常)]以及默认A级音擎[家政员(强攻)]、[仿制星徽引擎(强攻)]的调频获取概率将大幅提升！</p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/b0dfd6f25e2462fad1d71866d802493b_568320171008509828.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><p style=\"white-space: pre-wrap; line-height: 2;\">※ 以上信号中，限定S级代理人与限定S级音擎均不会进入「热门卡司」常驻频段。</p><p style=\"white-space: pre-wrap; line-height: 2;\">※ 「烬夜安眠」、「冷雨将尽之夜」属于「独家频段」，在「「烬夜安眠」、「冷雨将尽之夜」频段的调频保底次数会一直累计在「独家频段」中。「独家频段」与其他频段的调频保底次数相互独立计算，互不影响。</p><p style=\"white-space: pre-wrap; line-height: 2;\">※ 「绯月银棺」、「朔月裁霜」属于「音擎频段」，在「绯月银棺」、「朔月裁霜」频段的调频保底次数会一直累计在「音擎频段」中。「音擎频段」与其他频段的调频保底次数相互独立计算，互不影响。</p><p style=\"white-space: pre-wrap; line-height: 2;\">※ 在独家频段和音擎频段中，[S信号定制]功能允许绳匠自定义6名S级代理人/音擎作为定制代理人/音擎，并继承独家频段中非本期限定S级代理人/音擎的数据和概率机制。若调频获取的S级信号非本期限定S级代理人/音擎，则必定获得自定义的6名S级代理人/音擎之一。</p><p style=\"white-space: pre-wrap; line-height: 2;\">※ 在独家频段和音擎频段中，[A概率提升]功能允许绳匠自定义2名A级代理人/音擎作为本期A级概率提升代理人/音擎，并继承之前A级概率提升代理人/音擎的数据和概率机制。如果绳匠未自定义，本期独家频段和音擎频段默认A级代理人/音擎将作为本期A级概率提升代理人/音擎。</p><p style=\"white-space: pre-wrap; line-height: 2;\">※ 更多调频信息可点击调频界面左下角「详情」按钮查看。</p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166475/eb241a3609c058584988ea64407cf866_1223958299271988916.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p><h4 style=\"white-space: pre-wrap; line-height: 2;\">【台前试镜 - 试玩关卡】活动</h4><p style=\"white-space: pre-wrap; line-height: 2;\">• 参与条件：绳网等级≥8级，在主线序章·幕间中解锁「活动」功能后即可参与。</p><p style=\"white-space: pre-wrap; line-height: 2;\">• 活动时间：</p><p style=\"white-space: pre-wrap; line-height: 2;\">[台前试镜-洛克茜]持续时间：2026-09-30 12:00（服务器时间） ~ 2026-10-20 14:59（服务器时间）</p><p style=\"white-space: pre-wrap; line-height: 2;\">[台前试镜-普罗米娅]持续时间：2026-09-30 12:00（服务器时间） ~ 2026-10-20 14:59（服务器时间）</p><p style=\"white-space: pre-wrap; line-height: 2;\">• 活动内容：可试用代理人[洛克茜(风·击破)和[普罗米娅(冰·异常)]体验关卡，首次完成关卡挑战后，可以在关卡结算界面获取奖励。</p><p style=\"white-space: pre-wrap; min-height: 1.5em; line-height: 2;\"></p></div></div>",
+ "markupPage": "zh-cn_news_166475",
+ "markupClass": "news-detail-article",
+ "appearsOn": [
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535"
+ ],
+ "computed": {
+  "news-detail-article": {
+   "page": "zh-cn_news_166475",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 202.5,
+    "width": 720,
+    "height": 4122.703125,
+    "top": 202.5,
+    "right": 1080,
+    "bottom": 4325.203125,
+    "left": 360
+   },
+   "text": "3.2版本限时频段（下期）\n           \n              绝区零 > \n  公告\n 2026/09/28 亲爱的绳匠：本期代理人与音擎调频",
+   "position": "relative",
+   "display": "block",
+   "width": "720px",
+   "height": "4122.7px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "component": "hyv-subscription-area-content",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-subscription-area-content": "hyv-subscription-area-content"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".hyv-subscription-area-content",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "1",
+    "color": "var(--brand-color-enabled)",
+    "-ms-flex": "1",
+    "flex": "1",
+    "width": "46px"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

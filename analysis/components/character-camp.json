@@ -1,0 +1,104 @@
+{
+ "component": "character-camp",
+ "files": [
+  "1250.css"
+ ],
+ "classes": {
+  "character-camp": "character-camp"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".character-camp",
+   "media": [],
+   "declarations": {
+    "max-width": "3.2rem",
+    "padding": ".04rem",
+    "position": "absolute",
+    "right": ".1rem",
+    "top": ".45rem",
+    "background-image": "linear-gradient(45deg, #B4BAFF 0%, #727CFF 100%)",
+    "border-radius": ".33rem",
+    "z-index": "1"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-camp i",
+   "media": [],
+   "declarations": {
+    "width": ".18rem",
+    "height": ".18rem",
+    "background-image": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAUJJREFUWEftmEtOxDAMhu10wfCQeg0QR4G5C5EYwaKurKYLxKbcheEoiHNUYhjYOJAK0ICgaTsdMULO1q7z60v9SBC2bOFQPUR0DAAniLj3PYb3/gkA7pxz933jDxWERHSBiJOWDZdFUVwDgO8japAgZp6IyGVsI2PMFTM/x/xW7SooRksJKaFVApplsf/h3xFCa21bK/gEkqbpjoicdSB0U9f1S8wv2KuqChXdN3Uoy7IjRJz+1Ci7BBvDJzTkJEnmjSAiOkfEgzECrxPDe//YCMrznNcJNOa3KihGUwl1JTQDgP2Y86btIfWbI2PmQxGZ/rGohTHm9suAZq3d7UJhQ5V6GfbWiTF2AkpICelM/V5I9W7fmgxb9/oRKjwRzdpm8NAonXPhfajXGlQYPy4GxpjTXxryQkTmZVk+9FLz5vwKr2X8MSRY6e4AAAAASUVORK5CYII=)",
+    "background-size": "100% 100%",
+    "position": "absolute",
+    "right": ".05rem",
+    "top": "50%",
+    "margin-top": "-0.09rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  }
+ ],
+ "markup": "<div class=\"character-camp-selection\" style=\"display: none;\"><div class=\"selection__bg\"></div> <div class=\"selection__header\"></div> <div class=\"selection__wrap\"><div class=\"__vuescroll\" style=\"height: 100%; width: 100%; padding: 0px; position: relative; overflow: hidden;\"><div class=\"__panel __hidebar\" style=\"position: relative; box-sizing: border-box; height: 100%; overflow: hidden;\"><div class=\"__view\" style=\"position: relative; box-sizing: border-box; min-width: 100%; min-height: 100%; width: -webkit-fit-content;\"><div class=\"selection__container\"><div class=\"selection__content\"><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165576/28083626397514f8f6fd34a915cd7496_2515806560709089279.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">弗林特工坊</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/164854/d6b367ba909c9a9ddb1fed0d96c6ed39_882678496323401161.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">空域巡戍局</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/164840/ea82960cb95cbe6312d45efd474087d1_2339173110362740156.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">达识结社</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/163780/bb85496b717f15f1f0c3b1181d5aaf3c_9199795346667629109.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">外务筹策局</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/163772/17df58468502891bb1fa37ace168c2ff_1077241705224950075.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">法厄同</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/162679/21b34b51b613b2cf1bcc703633643c18_7904567709066951169.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">都市秩序部</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/161790/80341212d20fc50549ad4ce34aa97da0_5670900786455890836.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">妄想天使</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/160116/73037e4dbe32270bcd5e1d8cc13eb787_1570681887593845871.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">坎卜斯黑枝</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/156710/f1c57508f02db0a0d2b64f18ab5acc5c_3196619388985930168.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">怪啖屋</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/155656/9c8d3ad38d4f5ab97b993916a72299ae_4781640013911954228.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">云岿山</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/154604/f69fdcd5eb433d1221d09d68df65c46c_413627333701706205.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">反舌鸟</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/154526/405b6747ab8ca5ca15dee5146ff0d373_4580833963648207134.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">防卫军·白银小队</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/127385/70945d50dc8412597f163a4ad101e0d6_3524951181551068144.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">天琴座</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/103294/00f3ae4cdbb7caec151eff3dd76ae151_6222733008382740198.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">对空六课</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/124305/18975f1c5982f44982ee86f1b6e257e3_4631986971571381794.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">卡吕冬之子</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/122783/35dacabddddcccc35ace223448b24c1d_8746474174472579352.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">刑侦特勤组</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102291/cdf533dd105600284ed17cdfee177fe9_2807670159528027984.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">奥波勒斯小队</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102476/099d26f3c9ae1fc0b868d001d24a3cce_7418679352745913302.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">维多利亚家政</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102707/16387c984e8714ec2ee67b24f3a2ccfa_5134116864080568611.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">白祇重工</div></div><div class=\"selection__content-item\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102027/a8fd1a67044ba93d0212e916a2329ea9_6955789118039223464.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-name\">狡兔屋</div></div><div class=\"selection__content-item selection__content-item__empty\"><img src=\"/_nuxt/img/camp-icon-unknown.d7d4775.png\" alt=\"\" class=\"selection__content-item-icon\"> <div class=\"selection__content-item-na\n<!-- … truncated, 7404 chars total -->",
+ "markupPage": "zh-cn_character",
+ "markupClass": "character-camp",
+ "appearsOn": [
+  "m_zh-cn_character"
+ ],
+ "computed": {
+  "character-camp": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 279.671875,
+    "y": 75.390625,
+    "width": 105.140625,
+    "height": 31.1875,
+    "top": 75.390625,
+    "right": 384.8125,
+    "bottom": 106.578125,
+    "left": 279.671875
+   },
+   "text": "都市秩序部",
+   "position": "absolute",
+   "display": "block",
+   "width": "105.141px",
+   "height": "31.1875px",
+   "top": "23.4px",
+   "left": "279.672px",
+   "right": "5.2px",
+   "bottom": "829.906px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "linear-gradient(45deg, rgb(252, 205, 151) 0%, rgb(219, 167, 85) 100%)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "17.16px",
+   "padding": "2.08px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#b4baff",
+   "#727cff"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "1"
+  ],
+  "transitions": []
+ }
+}

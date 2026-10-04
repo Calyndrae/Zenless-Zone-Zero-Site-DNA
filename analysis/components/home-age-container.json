@@ -1,0 +1,37 @@
+{
+ "component": "home-age-container",
+ "files": [
+  "1280.css"
+ ],
+ "classes": {
+  "home-age-container": "home-age-container"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".home-age-container",
+   "media": [],
+   "declarations": {
+    "width": "12rem",
+    "height": "8.2rem",
+    "background": "url(/_nuxt/img/age-modal.495c9ad.png) 0 0/100% 100%",
+    "overflow": "hidden"
+   },
+   "source": "/_nuxt/a9873dc.js #1280"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

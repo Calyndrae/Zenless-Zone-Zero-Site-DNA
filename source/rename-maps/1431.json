@@ -1,0 +1,18 @@
+{
+  "summary": "Nuxt page component for the mobile route `m-lang-company-privacy` (layout `empty`), the privacy-policy page. In `asyncData` it calls the CMS content API (module 1118) `getPrivacy`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.PRIVACY`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `m-lang-main`, otherwise it exposes `title`, `content` and `pdfUrl` (from `sTitle`/`sContent`/`pdfUrl`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows, inside `client-only`, either a `protocol-pdf` (HoYoverse PDF viewer, module 1131, with `is-mob` = true and `pdf-url`) when `pdfUrl` is set, or the `protocol` text component (m-protocol, module 1141) with `title`/`content`.",
+  "exports": {
+    "default": "the `m-lang-company-privacy` mobile privacy-policy page Vue component (compiled with vue-loader normalizer)"
+  },
+  "renames": {
+    "r_1": "cmsApi",
+    "l_2": "pageOptions",
+    "t_3": "nuxtContext",
+    "e_4": "asyncDataGenerator",
+    "o_5": "redirect",
+    "n_6": "store",
+    "c_7": "protocolEntry",
+    "e_8": "context",
+    "e_10": "h",
+    "t_9": "vm"
+  }
+}

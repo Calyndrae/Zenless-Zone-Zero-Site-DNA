@@ -1,0 +1,95 @@
+{
+ "component": "character-info-prop",
+ "files": [
+  "1250.css"
+ ],
+ "classes": {
+  "character-info-prop": "character-info-prop"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": ".character-info-prop",
+   "media": [],
+   "declarations": {
+    "width": "fit-content",
+    "height": ".57rem",
+    "display": "flex",
+    "padding": ".08rem .13rem",
+    "background-color": "#000",
+    "border-radius": ".3rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info-prop img",
+   "media": [],
+   "declarations": {
+    "width": ".44rem",
+    "height": ".43rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  },
+  {
+   "selector": ".character-info-prop img:not(:last-child)",
+   "media": [],
+   "declarations": {
+    "margin-right": ".02rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  }
+ ],
+ "markup": "<div class=\"character-info-prop\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/b60b27574c9c70a791f7c46e7eda7c9c_7431480135044190857.png\" alt=\"\"> <img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166076/47fc72d0dae8e4f9d4889dfd5b11a4bc_281900660500507983.png\" alt=\"\"></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-info-prop",
+ "appearsOn": [
+  "m_zh-cn_character",
+  "zh-cn_character"
+ ],
+ "computed": {
+  "character-info-prop": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 20.796875,
+    "y": 528.828125,
+    "width": 60.28125,
+    "height": 29.625,
+    "top": 528.828125,
+    "right": 81.078125,
+    "bottom": 558.453125,
+    "left": 20.796875
+   },
+   "text": "",
+   "display": "flex",
+   "width": "60.2812px",
+   "height": "29.625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "15.6px",
+   "padding": "4.16px 6.76px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

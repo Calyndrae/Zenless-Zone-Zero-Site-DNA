@@ -1,0 +1,90 @@
+{
+ "component": "hyv-subscription-quickRegister-buttons",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-subscription-quickRegister-buttons": "hyv-subscription-quickRegister-buttons",
+  "hyv-subscription-quickRegister-buttons__fill": "hyv-subscription-quickRegister-buttons__fill",
+  "hyv-subscription-quickRegister-buttons__now": "hyv-subscription-quickRegister-buttons__now"
+ },
+ "ruleCount": 6,
+ "rules": [
+  {
+   "selector": ".hyv-subscription-quickRegister-buttons",
+   "media": [],
+   "declarations": {
+    "-webkit-box-pack": "justify",
+    "-ms-flex-pack": "justify",
+    "display": "flex",
+    "justify-content": "space-between",
+    "margin-top": ".4em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-quickRegister-buttons",
+   "media": [],
+   "declarations": {
+    "-ms-flex-wrap": "wrap",
+    "flex-wrap": "wrap"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-quickRegister-buttons__fill",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-ms-flex": "0 0 48%",
+    "flex": "0 0 48%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-quickRegister-buttons__fill",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-ms-flex": "0 0 100%",
+    "flex": "0 0 100%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-quickRegister-buttons__now",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-ms-flex": "0 0 48%",
+    "flex": "0 0 48%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-quickRegister-buttons__now",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-ms-flex": "0 0 100%",
+    "flex": "0 0 100%",
+    "margin-top": "1em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

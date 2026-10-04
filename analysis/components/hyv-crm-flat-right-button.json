@@ -1,0 +1,91 @@
+{
+ "component": "hyv-crm-flat-right-button",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-crm-flat-right-button": "hyv-crm-flat-right-button"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".hyv-crm-flat-right-button",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-ms-flex": "0 0 30%",
+    "flex": "0 0 30%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-crm-flat-right-button>button",
+   "media": [],
+   "declarations": {
+    "margin-top": "0 !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": "<div class=\"hyv-crm-flat-right-button\"><button class=\"hyv-button hyv-button-size-l hyv-button-filled\" style=\"width: 100%; display: flex; margin-top: 0.16em;\"><span class=\"hyv-button__text\">现在订阅</span></button></div>",
+ "markupPage": "zh-cn_character",
+ "markupClass": "hyv-crm-flat-right-button",
+ "appearsOn": [
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "hyv-crm-flat-right-button": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "现在订阅",
+   "display": "block",
+   "font-family": "Inter, \"Microsoft YaHei\", sans-serif",
+   "font-size": "100px",
+   "font-weight": "400",
+   "line-height": "100px",
+   "color": "rgb(60, 63, 68)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(60, 63, 68)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 30%"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

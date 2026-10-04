@@ -1,0 +1,138 @@
+{
+ "component": "hyv-subscription-modal",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-subscription-modal": "hyv-subscription-modal",
+  "hyv-subscription-modal__guest": "hyv-subscription-modal__guest",
+  "hyv-subscription-modal__question": "hyv-subscription-modal__question"
+ },
+ "ruleCount": 12,
+ "rules": [
+  {
+   "selector": ".hyv-subscription-modal",
+   "media": [],
+   "declarations": {
+    "font-family": "Inter,Microsoft YaHei,sans-serif !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-modal .hyv-button__text",
+   "media": [],
+   "declarations": {
+    "line-height": "1"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-modal .hyv-input-normal .hyv-input__label",
+   "media": [],
+   "declarations": {
+    "font-size": ".85em",
+    "top": ".9em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-modal .hyv-input .hyv-input__label-shrink",
+   "media": [],
+   "declarations": {
+    "font-size": ".625em"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-modal__guest",
+   "media": [],
+   "declarations": {
+    "padding": ".36em .5em !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-modal__guest",
+   "media": [],
+   "declarations": {
+    "padding": ".36em .18em !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-modal__question",
+   "media": [],
+   "declarations": {
+    "height": "min(90vh,920px)",
+    "overflow": "hidden",
+    "padding": "0",
+    "width": "9.8em !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-modal__question",
+   "media": [],
+   "declarations": {
+    "height": "83vh",
+    "width": "100% !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": "[hyv-device^=mobile] .hyv-subscription-modal__question",
+   "media": [
+    "@media screen and (orientation:landscape)"
+   ],
+   "declarations": {
+    "height": "calc(100vh + .36em)"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-modal__question .hyv-subscription-question",
+   "media": [],
+   "declarations": {
+    "height": "100%",
+    "width": "100% !important"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-modal__question .hyv-subscription-question .hyv-subscription-frame",
+   "media": [],
+   "declarations": {
+    "height": "100%",
+    "width": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  },
+  {
+   "selector": ".hyv-subscription-modal__question .hyv-subscription-bottom-empty,.hyv-subscription-modal__question .hyv-subscription-success-container",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [
+   "Inter,Microsoft YaHei,sans-serif !important"
+  ],
+  "fontSizes": [
+   ".85em",
+   ".625em"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

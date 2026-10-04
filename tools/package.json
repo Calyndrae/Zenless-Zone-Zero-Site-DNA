@@ -1,0 +1,24 @@
+{
+  "name": "zenless-zone-zero-site-dna-tools",
+  "version": "1.0.0",
+  "description": "Tooling that captures, deobfuscates, analyses, archives and documents the Zenless Zone Zero official website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^8.0.6",
+    "@babel/parser": "^8.0.6",
+    "@babel/traverse": "^8.0.6",
+    "@babel/types": "^8.0.6",
+    "css": "^3.0.0",
+    "js-beautify": "^2.0.3",
+    "playwright": "^1.56.1",
+    "postcss": "^8.5.28",
+    "postcss-safe-parser": "^7.1.0",
+    "prettier": "^3.9.9"
+  }
+}

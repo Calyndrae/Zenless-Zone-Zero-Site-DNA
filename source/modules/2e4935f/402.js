@@ -1,0 +1,3 @@
+// module 402 from 2e4935f.js
+// deps: 57, 403, 86, 177, 276, 222, 72, 68, 48, 95, 371
+const module_402 = function(t,e,n){var r=n(57),o=n(403),c=n(86).f,f=n(177).f,l=n(276),d=n(222),h=r.RegExp,v=h,m=h.prototype,y=/a/g,_=/a/g,w=new h(y)!==y;if(n(72)&&(!w||n(68)((function(){return _[n(48)("match")]=!1,h(y)!=y||h(_)==_||"/a/i"!=h(y,"i")})))){h=function(p,t){var e=this instanceof h,n=l(p),r=void 0===t;return!e&&n&&p.constructor===h&&r?p:o(w?new v(n&&!r?p.source:p,t):v((n=p instanceof h)?p.source:p,n&&r?d.call(p):t),e?this:m,h)};for(var x=function(t){t in h||c(h,t,{configurable:!0,get:function(){return v[t]},set:function(e){v[t]=e}})},O=f(v),i=0;O.length>i;)x(O[i++]);m.constructor=h,h.prototype=m,n(95)(r,"RegExp",h)}n(371)("RegExp")};

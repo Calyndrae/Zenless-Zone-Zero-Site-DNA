@@ -1,0 +1,3 @@
+// module 626 from be1f69b.js
+// deps: 291, 290
+const module_626 = function(e,t,n){"use strict";var r=n(291),o=n(290),c=o("%Function.prototype.apply%"),l=o("%Function.prototype.call%"),f=o("%Reflect.apply%",!0)||r.call(l,c),d=o("%Object.getOwnPropertyDescriptor%",!0),h=o("%Object.defineProperty%",!0),m=o("%Math.max%");if(h)try{h({},"a",{value:1})}catch(e){h=null}e.exports=function(e){var t=f(r,l,arguments);if(d&&h){var desc=d(t,"length");desc.configurable&&h(t,"length",{value:1+m(0,e.length-(arguments.length-1))})}return t};var v=function(){return f(r,c,arguments)};h?h(e.exports,"apply",{value:v}):e.exports.apply=v};

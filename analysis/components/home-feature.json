@@ -1,0 +1,562 @@
+{
+ "component": "home-feature",
+ "files": [
+  "1370.css"
+ ],
+ "classes": {
+  "home-feature": "home-feature",
+  "home-feature__swiper": "home-feature__swiper",
+  "home-feature__list": "home-feature__list",
+  "home-feature__list-item": "home-feature__list-item",
+  "home-feature__banner": "home-feature__banner",
+  "home-feature__info": "home-feature__info",
+  "home-feature__info-bar": "home-feature__info-bar",
+  "home-feature__info-title": "home-feature__info-title",
+  "home-feature__info-summary": "home-feature__info-summary"
+ },
+ "ruleCount": 18,
+ "rules": [
+  {
+   "selector": ".home-feature[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": "15.3rem",
+    "padding-top": "2.8rem"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature .section-nav.lg[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "top": "5.84rem"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature .section-nav.lg .section-nav-inner[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "top": ".48rem"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__swiper[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "5.84rem",
+    "left": "1.76rem",
+    "width": "20.62rem",
+    "height": "7.86rem",
+    "background": "url(/_nuxt/img/panel.66cafff.png) no-repeat 0 0/100% 100%"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__swiper .swiper-navigation[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "50%",
+    "left": "0",
+    "z-index": "9",
+    "width": "100%",
+    "height": "100%",
+    "transform": "translate(0, -50%)",
+    "pointer-events": "none"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__swiper .swiper-navigation .swiper-button-prev[data-v-26432ee0],.home-feature__swiper .swiper-navigation .swiper-button-next[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "top": "3.22rem",
+    "margin-top": "0",
+    "width": ".86rem",
+    "height": "1.5rem",
+    "background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAABGCAYAAACzHqYAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALPSURBVGhD1ZvNi41hGIfPjMZHI/GHIMViLIhYWFC+ioUNC/KVGjWRWNnIQmHBhhppJrNgcaRhISsr/wVFKREpH8d1P89976fnfp/79Vz160xn8bt+TTNn5rzvc8YGPTIajSZ4OEUOkY3y3BIYkun8ZQ8weh1ZJCXMak0siNeS12lCGV/HtSsMpGt4WCDb0xNlvNXHGGQ0eSnfMgfvyXqtrA+ySfJCzA5k9GatrA8yGf1czA4+ki1aWR9kq0gXo6e0sj7IZPQzMTv4RLZqZX2QrSTe0Z/JNq2sD7IVZEHMDnoZ/UTMDr6QnVpZH2QTZF7MDmT0Lq2sDzIZ/VjMDr6R3VpZH2TLyCMxO5DRe7SyPshk9EMxO/hOQkePE+/oH2SvVtYH2Ri5L2YHMnqfVtYHmYy+J2YHP8kBrYwB4d2kLkdGH9S6GBDeTupyfpHDWhcDwltJXY6MPqJ1MSC8mdTl/CZHtS4GhDeSuhwZfUzrYkB4PanL+UOaG/2XnNC6GBBeS+pyehl9Nal9nNS6GBBezl4Xp7UuBoQz2evirNbFgPBi9rq4oHUxIDyfvS7CR+8g8lrrYUbr4kA6l93FXNGqWBB/yP4i3mlNOOHXx7tChr/JXxaxie96bz8qbf5yCojPZb+L2JdDA3F7f4AMxF38yT+jdbEgvpT9LmL/yTIQt/dvrYHYOz7+jYSBuIu3bse1LhbE7b1ZNhC3d3nCQNzeBSEDcXuX4AzE7V30NBDfSRPKib/MLCDt6sL+fq2MA2kX42NvpRhI5ebVA1ngIPbmlYG0vduFBlIZPysLHMTeoDWQtndL3EAq473XaWIPIRhIl5O2jn0YSNs7aGMglaNNT2WBg97Gd3WYLO4EnIFUxg9lgYPY43sG0tWkrQOTBtL2jqgaSNs7FGwglfGvZIGDRa2LBbH74LtWxYPc9VGD/+XDHfIedIM8twSGg8Fg+h9G9TcOio6ThAAAAABJRU5ErkJggg==) no-repeat center center/0.46rem .7rem",
+    "pointer-events": "auto",
+    "opacity": ".6"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__swiper .swiper-navigation .swiper-button-prev[data-v-26432ee0]:hover,.home-feature__swiper .swiper-navigation .swiper-button-next[data-v-26432ee0]:hover",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__swiper .swiper-navigation .swiper-button-prev[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "left": "3.56rem"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__swiper .swiper-navigation .swiper-button-next[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "right": "4.06rem",
+    "transform": "rotate(180deg)"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__list[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "width": "20.62rem",
+    "height": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__list-item[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "width": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__list .home-feature__banner[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "bottom": "0",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__list .home-feature__banner img[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "height": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__info[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "bottom": "0",
+    "z-index": "2",
+    "width": "100%",
+    "height": "2.32rem",
+    "text-align": "right",
+    "padding-right": "1.2rem"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__info-bar[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": "0",
+    "left": "0",
+    "width": "20.62rem",
+    "height": "2.32rem",
+    "background": "url(/_nuxt/img/bar.9dcf6df.png) no-repeat 0 0/100% 100%"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__info-title[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "z-index": "2",
+    "width": "100%",
+    "height": "1.74rem",
+    "font-weight": "400",
+    "color": "rgba(216,250,0,.9)",
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "flex-end",
+    "align-items": "center",
+    "white-space": "normal",
+    "font-size": ".8rem"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": "[mi18n-lang=th-th] .home-feature__info-title[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "font-size": ".7rem",
+    "line-height": ".75rem",
+    "padding-top": ".05rem"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  },
+  {
+   "selector": ".home-feature__info-summary[data-v-26432ee0]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "z-index": "2",
+    "padding-left": ".4rem",
+    "width": "100%",
+    "height": ".58rem",
+    "line-height": ".58rem",
+    "font-size": ".42rem",
+    "font-weight": "400",
+    "color": "#080808"
+   },
+   "source": "/_nuxt/3b23566.js #1370"
+  }
+ ],
+ "markup": "<div data-v-5959da90=\"\" class=\"m-home-feature\"><div data-v-5959da90=\"\" class=\"m-section-nav font-num lg\"><!----> <div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">游戏特色</div> <div class=\"m-section-nav-en\">Features</div> <div class=\"m-section-nav-num\">06</div></div></div> <div data-v-5959da90=\"\" class=\"m-home-feature__swiper\"><div data-v-5959da90=\"\" class=\"swiper-container m-home-feature__list swiper-container-fade swiper-container-initialized swiper-container-horizontal swiper-container-ios\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms;\"><div data-v-5959da90=\"\" class=\"m-home-feature__list-item swiper-slide swiper-slide-duplicate swiper-slide-prev\" data-swiper-slide-index=\"3\" style=\"width: 354px; transition-duration: 0ms; opacity: 0; transform: translate3d(0px, 0px, 0px);\"><div data-v-5959da90=\"\" class=\"m-home-feature__banner\"><img data-v-5959da90=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102112/6ea482e5796ecc7c76c62cc586e494a8_34588548705863970.png\" alt=\"\"></div></div><div data-v-5959da90=\"\" class=\"m-home-feature__list-item swiper-slide swiper-slide-active\" data-swiper-slide-index=\"0\" style=\"width: 354px; transition-duration: 0ms; opacity: 1; transform: translate3d(-354px, 0px, 0px);\"><div data-v-5959da90=\"\" class=\"m-home-feature__banner\"><img data-v-5959da90=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102108/b6df4303b484176f52d0dec2567c5763_3819475092935429212.png\" alt=\"\"></div></div><div data-v-5959da90=\"\" class=\"m-home-feature__list-item swiper-slide swiper-slide-next\" data-swiper-slide-index=\"1\" style=\"width: 354px; transition-duration: 0ms; opacity: 0; transform: translate3d(-708px, 0px, 0px);\"><div data-v-5959da90=\"\" class=\"m-home-feature__banner\"><img data-v-5959da90=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102110/d7b2e6dc0a25c667b692098132b8dd96_7828184690031533903.png\" alt=\"\"></div></div><div data-v-5959da90=\"\" class=\"m-home-feature__list-item swiper-slide\" data-swiper-slide-index=\"2\" style=\"width: 354px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1062px, 0px, 0px);\"><div data-v-5959da90=\"\" class=\"m-home-feature__banner\"><img data-v-5959da90=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102111/49c9ca548d5d661d80bd09aadb82ec84_73541263931156347.png\" alt=\"\"></div></div><div data-v-5959da90=\"\" class=\"m-home-feature__list-item swiper-slide swiper-slide-duplicate-prev\" data-swiper-slide-index=\"3\" style=\"width: 354px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1416px, 0px, 0px);\"><div data-v-5959da90=\"\" class=\"m-home-feature__banner\"><img data-v-5959da90=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102112/6ea482e5796ecc7c76c62cc586e494a8_34588548705863970.png\" alt=\"\"></div></div><div data-v-5959da90=\"\" class=\"m-home-feature__list-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"0\" style=\"width: 354px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1770px, 0px, 0px);\"><div data-v-5959da90=\"\" class=\"m-home-feature__banner\"><img data-v-5959da90=\"\" src=\"https://fastcdn.hoyoverse.com/content-v2/nap/102108/b6df4303b484176f52d0dec2567c5763_3819475092935429212.png\" alt=\"\"></div></div></div>    <span class=\"swiper-notification\" aria-live=\"assertive\" aria-atomic=\"true\"></span></div> <div data-v-5959da90=\"\" class=\"m-home-feature__info\"><div data-v-5959da90=\"\" class=\"m-home-feature__info-bar\"></div> <div data-v-5959da90=\"\" class=\"m-home-feature__info-title ellipsis\">双重身份，别样生活</div> <div data-v-5959da90=\"\" class=\"m-home-feature__info-summary ellipsis\"></div></div></div> <div data-v-5959da90=\"\" class=\"m-home-feature__navigator\"><div data-v-5959da90=\"\" slot=\"button-prev\" class=\"swiper-button-prev feat-swiper-button-prev\" tabindex=\"0\" role=\"button\" aria-label=\"Previous slide\"></div> <div data-v-5959da90=\"\" slot=\"button-next\" class=\"swiper-button-next feat-swiper-button-next\" tabindex=\"0\" role=\"button\" aria-label=\"Next slide\"></div></div></div>",
+ "markupPage": "m_zh-cn_main",
+ "markupClass": "home-feature",
+ "appearsOn": [
+  "zh-cn_main"
+ ],
+ "computed": {
+  "home-feature": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 180,
+    "y": 3550.5,
+    "width": 1080,
+    "height": 860.625,
+    "top": 3550.5,
+    "right": 1260,
+    "bottom": 4411.125,
+    "left": 180
+   },
+   "text": "游戏特色 Features 06          双重身份，别样生活",
+   "position": "relative",
+   "display": "block",
+   "width": "1080px",
+   "height": "860.625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "157.5px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-feature__banner": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 279,
+    "y": 3879,
+    "width": 1160,
+    "height": 442.125,
+    "top": 3879,
+    "right": 1439,
+    "bottom": 4321.125,
+    "left": 279
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1160px",
+   "height": "442.125px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-feature__info": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 279,
+    "y": 4190.625,
+    "width": 1159.875,
+    "height": 130.5,
+    "top": 4190.625,
+    "right": 1438.875,
+    "bottom": 4321.125,
+    "left": 279
+   },
+   "text": "双重身份，别样生活",
+   "position": "absolute",
+   "display": "block",
+   "width": "1159.88px",
+   "height": "130.5px",
+   "top": "311.625px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "0px 67.5px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-feature__info-bar": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 279,
+    "y": 4190.625,
+    "width": 1159.875,
+    "height": 130.5,
+    "top": 4190.625,
+    "right": 1438.875,
+    "bottom": 4321.125,
+    "left": 279
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1159.88px",
+   "height": "130.5px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/bar.9dcf6df.png\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-feature__info-summary": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1808.324951171875,
+    "y": 4288.5,
+    "width": 1092.375,
+    "height": 32.625,
+    "top": 4288.5,
+    "right": 2900.699951171875,
+    "bottom": 4321.125,
+    "left": 1808.324951171875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "1092.38px",
+   "height": "32.625px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "23.625px",
+   "font-weight": "400",
+   "line-height": "32.625px",
+   "color": "rgb(8, 8, 8)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 1529.32, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(8, 8, 8)",
+   "padding": "0px 0px 0px 22.5px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-feature__info-title": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 1371.375,
+    "y": 4190.625,
+    "width": 1092.375,
+    "height": 97.875,
+    "top": 4190.625,
+    "right": 2463.75,
+    "bottom": 4288.5,
+    "left": 1371.375
+   },
+   "text": "双重身份，别样生活",
+   "position": "relative",
+   "display": "flex",
+   "width": "1092.38px",
+   "height": "97.875px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "45px",
+   "font-weight": "400",
+   "line-height": "45px",
+   "color": "rgba(216, 250, 0, 0.9)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 1092.38, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgba(216, 250, 0, 0.9)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "flex-end",
+   "align-items": "center"
+  },
+  "home-feature__list": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 279,
+    "y": 3879,
+    "width": 1159.875,
+    "height": 442.125,
+    "top": 3879,
+    "right": 1438.875,
+    "bottom": 4321.125,
+    "left": 279
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "1159.88px",
+   "height": "442.125px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-feature__list-item": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 279,
+    "y": 3879,
+    "width": 1160,
+    "height": 442.125,
+    "top": 3879,
+    "right": 1439,
+    "bottom": 4321.125,
+    "left": 279
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "1160px",
+   "height": "442.125px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "0",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "opacity",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "home-feature__swiper": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 279,
+    "y": 3879,
+    "width": 1159.875,
+    "height": 442.125,
+    "top": 3879,
+    "right": 1438.875,
+    "bottom": 4321.125,
+    "left": 279
+   },
+   "text": "双重身份，别样生活",
+   "position": "absolute",
+   "display": "block",
+   "width": "1159.88px",
+   "height": "442.125px",
+   "top": "328.5px",
+   "left": "99px",
+   "right": "-178.875px",
+   "bottom": "90px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/panel.66cafff.png\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(216,250,0,.9)",
+   "#080808"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".8rem",
+   ".7rem",
+   ".42rem"
+  ],
+  "zIndex": [
+   "9",
+   "2"
+  ],
+  "transitions": []
+ }
+}

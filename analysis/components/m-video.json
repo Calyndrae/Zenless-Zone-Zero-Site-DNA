@@ -1,0 +1,131 @@
+{
+ "component": "m-video",
+ "files": [
+  "1315.css"
+ ],
+ "classes": {
+  "m-video": "m-video"
+ },
+ "ruleCount": 4,
+ "rules": [
+  {
+   "selector": ".m-video",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin-top": "1.1rem",
+    "min-height": "100%",
+    "background": "url(/_nuxt/img/inner-top-m.329e7ed.png) no-repeat 0 0/4rem auto",
+    "overflow": "hidden"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video img",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "cover",
+    "object-position": "center center"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video .back-top",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center",
+    "min-width": "2.42rem",
+    "height": ".82rem",
+    "padding": "0 .14rem",
+    "background": "#000",
+    "border": ".08rem solid #767678",
+    "border-radius": ".42rem",
+    "font-size": ".28rem",
+    "font-weight": "500",
+    "color": "#fff"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  },
+  {
+   "selector": ".m-video .back-top::after",
+   "media": [],
+   "declarations": {
+    "margin-left": ".26rem",
+    "font-size": ".18rem",
+    "font-family": "\"icomoon\",sans-serif !important",
+    "content": "\"\"",
+    "color": "#d6d6d6",
+    "transform": "rotate(-90deg)"
+   },
+   "source": "/_nuxt/fcdddd8.js #1315"
+  }
+ ],
+ "markup": "<div class=\"m-video\"><div class=\"m-section-nav font-num\"><!----> <div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">影像资料\n</div> <div class=\"m-section-nav-en\">Video\n</div> <div class=\"m-section-nav-num\">03</div></div></div> <div class=\"m-video-container section-wrap\"><div class=\"m-video-slider\"><div class=\"m-video-slider__title font-num\">Video\n</div></div> <div class=\"m-video-main\"><div class=\"m-video-tab\"><a href=\"/m/zh-cn/video\" aria-current=\"page\" class=\"m-video-tab__item nuxt-link-exact-active nuxt-link-active m-video-tab__item--active\"><span class=\"m-video-tab__label\">最新</span></a><a href=\"/m/zh-cn/video?category=1338\" class=\"m-video-tab__item\"><span class=\"m-video-tab__label\">角色展示</span></a><a href=\"/m/zh-cn/video?category=1339\" class=\"m-video-tab__item\"><span class=\"m-video-tab__label\">角色PV</span></a><a href=\"/m/zh-cn/video?category=1340\" class=\"m-video-tab__item\"><span class=\"m-video-tab__label\">角色EP&amp;MV</span></a><a href=\"/m/zh-cn/video?category=1341\" class=\"m-video-tab__item\"><span class=\"m-video-tab__label\">版本PV</span></a></div> <div class=\"m-video-list\"><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166539/ba7dd4b5af3e11a52a7a85c38f49dca7_985536253469226449.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》洛克茜角色PV | 发条骑士\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-29\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166499/d0a4d1097203860cbce0e413d2c82987_2965556366067039114.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》洛克茜角色展示 | 神秘负棺人\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-25\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165988/de160cbb364d48be78e1ba0e5ec72331_2337052276222437059.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》克拉蕾EP | Link up\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-06\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165971/c19f115b68f4b4435e5bd545afc3c8ff_6487691747577217347.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》克拉蕾角色展示 | 不想培训，但攻略已写好\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-09-04\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165918/1c90e47f176efe238567fbe37cead8a6_761750977942799091.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》3.2版本PV | 她与她的隐秘往事\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-28\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165752/da786247269263f059bb7e73d75d72b1_8901277569211929442.jpg\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》希格莉德角色PV | 小马希莉\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-17\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165725/9b5f3686d2b8fe79661aa3aef914bbfb_1516760697106813336.png\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              《绝区零》希格莉德角色展示 | 好马识途\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-14\n            </div></div></div><div class=\"m-video-list__item\"><div class=\"m-video-list__item-banner\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/165492/d1ff1de7c8eb0245cf3a75d73517ed03_5805757503427289912.png\" alt=\"cover\"></div> <div class=\"m-video-list__item-content\"><div class=\"m-video-list__item-title\">\n              决战时刻 | 翼刃出鞘\n            </div> <div class=\"m-video-list__item-date font-num\">\n              2026-08-02\n            </div></div></div></div> <div class=\"mihoyo-pager-rich m-video-pager\"><div class=\"mihoyo-pager-rich__pages\"><a class=\"mihoyo-pager-rich__prev\">&gt;</a> <a class=\"mihoyo-pager-rich__button mihoyo-pager-rich__current\">1</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">2</a><a class=\"mihoyo-pager-rich__button\">3</a><a class=\"mihoyo-pager-rich__button\">4</a><a class=\"mihoyo-pager-rich__button\">5</a> <strong class=\"mihoyo-pager-rich__ellipsis\" style=\"display: none;\">...</strong> <a class=\"mihoyo-pager-rich__button\">6</a> <a class=\"mihoyo-pager-rich__next\">&lt;</a></div> <!----></div> <div class=\"m-video-foot\"><div class=\"back-top font-hongmeng\">\n          回到顶部\n        </div></div></div></div></div>",
+ "markupPage": "m_zh-cn_video",
+ "markupClass": "m-video",
+ "appearsOn": [
+  "m_zh-cn_video"
+ ],
+ "computed": {
+  "m-video": {
+   "page": "m_zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 57.1875,
+    "width": 390,
+    "height": 1166.171875,
+    "top": 57.1875,
+    "right": 390,
+    "bottom": 1223.359375,
+    "left": 0
+   },
+   "text": "影像资料\n Video\n 03 Video\n 最新角色展示角色PV角色EP&MV版本PV  \n              《绝区零》洛克茜角色PV | 发条骑士",
+   "position": "relative",
+   "display": "block",
+   "width": "390px",
+   "height": "1166.17px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://zenless.hoyoverse.com/_nuxt/img/inner-top-m.329e7ed.png\")",
+   "background-size": "208px",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "57.2px 0px 0px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000",
+   "#767678",
+   "#fff",
+   "#d6d6d6"
+  ],
+  "fonts": [
+   "\"icomoon\",sans-serif !important"
+  ],
+  "fontSizes": [
+   ".28rem",
+   ".18rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

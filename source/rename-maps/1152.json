@@ -1,0 +1,25 @@
+{
+  "summary": "World (setting/region) CMS API helpers. formatWorld parses each item's sExt JSON and maps world-name, world-name-en, world-slide[0].url (cover), world-banner, world-banner-m, world-home-banner[0].url and sTitle/sIntro/iInfoId onto name, nameEN, cover, banner, bannerM, homeBanner, title, summary and id. getList and getWorldList call the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\" (channel CHANNEL_ID_CONFIG.WORLD, sLangKey \"zh-cn\", page size 20/10), and getDetail calls \"/getContent\" with iAround: 1, returning the formatted item with sContent as content.",
+  "exports": {
+    "a": "world CMS API object { formatWorld, getList, getWorldList, getDetail }"
+  },
+  "renames": {
+    "e_1": "worldList",
+    "e_2": "world",
+    "e_3": "listSelf",
+    "t_4": "listOptions",
+    "n_5": "buildListParams",
+    "e_6": "listExtraParams",
+    "t_7": "listParams",
+    "l_8": "resolveList",
+    "d_9": "rejectList",
+    "e_10": "listError",
+    "e_11": "worldListOptions",
+    "e_12": "detailSelf",
+    "t_13": "detailOptions",
+    "n_14": "resolveDetail",
+    "l_15": "rejectDetail",
+    "t_16": "detail",
+    "e_17": "detailError"
+  }
+}

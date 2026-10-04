@@ -1,0 +1,1072 @@
+[
+ {
+  "id": "1044",
+  "name": "show",
+  "file": "show.1044.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 3058,
+  "renames": 32,
+  "unresolvedLeft": 0,
+  "summary": "AccountPopup Vue component from the HoYoverse account SDK, bundled with the vue-runtime-helpers normalizeComponent helper. Props: round, duration, position (default \"center\"), overlay, closeOnClickOverlay, closeOnPopstate, visible, overlayClass; computed isCenter, mainClass (account-popup-round / account-popup--<position>), transitionName (account-popup-fade or account-popup-slide-<position>) and mainStyle (animation/transition duration). It renders a v-show div.account-popup--overlay wrapping a <transition> and div.account-popup with the default slot, emits click, update:visible (overlay click / popstate), opened and closed, and listens to window popstate when closeOnPopstate is set."
+ },
+ {
+  "id": "1117",
+  "name": "user-model-request",
+  "file": "user-model-request.1117.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 6437,
+  "renames": 82,
+  "unresolvedLeft": 0,
+  "summary": "User-model HTTP request layer. It exports get/post/put/del, each calling a shared request(method, url, options, formatParams, formatResult) that normalises options (data, preParams, cache, loading, success, error, download, response), adds isPreview/prerelease/timestamp in the \"prerelease\" environment, forwards authkey query params, serves GET responses from the response cache (module 1240) or merges duplicate in-flight GETs (module 1241), and otherwise calls axios (module 114, or nuxtContext.$axios from module 500 when appBundle.axiosType is \"nuxt\") with baseURL appBundle.apiBase. It manages a global loading overlay via a memory Store counter (isRequestingCount / hideDefaultLoadingTimer, module 1176) and the defaults facade (module 1244), shows success/warn/error messages, treats retcode -100 (not logged in) and -403 (no permission) specially, and supports download via module 1243; it also exports identity defaultFormatParams/formatParams/formatResult/defaultFormatResult and requestIsSucc."
+ },
+ {
+  "id": "1118",
+  "name": "protocol-CMS-API",
+  "file": "protocol-CMS-API.1118.js",
+  "chunk": "f5b0acd",
+  "bytesMinified": 4596,
+  "renames": 69,
+  "unresolvedLeft": 0,
+  "summary": "CMS protocol API helpers for legal/policy pages. Each method builds query params from a base {iPageSize: 1, iPage: 1, isPreview (1 in development/test/prerelease)} plus a channel id from appBundle.CHANNEL_ID_CONFIG.PROTOCOL (PRIVACY, TERMS, TERMS2, TERMS3, HISTORY, JP_FUND) and calls the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\" (getPrivacy, getUser, getTerms2, getTerms3, getKrHistory) or \"/getContent\" with iInfoId from INFO_ID_CONFIG.FUND/ABOUT (getJpFund, getJpAbout), resolving the first item. formatProtocol parses each item's sExt JSON string and copies sExt.link_pdf to pdfUrl."
+ },
+ {
+  "id": "1124",
+  "name": "news-CMS-API",
+  "file": "news-CMS-API.1124.js",
+  "chunk": "f87ccae",
+  "bytesMinified": 2801,
+  "renames": 37,
+  "unresolvedLeft": 0,
+  "summary": "News CMS API helpers. formatNews parses each item's sExt JSON and maps sExt[\"news-banner\"][0].url to banner, sTitle/sIntro/iInfoId to title/summary/id, and formats dtStartTime with date-fns format (module 1151) using the i18n word \"dateFormat\" ($getI18nWord). getList/getAllNews/getSliderNews call the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\" with channel CHANNEL_ID_CONFIG.NEWS.ALL (page sizes 20/9/7), optionally dropping items flagged sExt[\"news-self-path\"] and trimming to the page size; getDetail calls \"/getContent\" with iAround: 1 and exposes sContent as content; getCates calls \"/getChildTree\" and builds arrList (first 4 children, ensuring an ALL entry named sChanName) and objList keyed by iChanId."
+ },
+ {
+  "id": "1126",
+  "name": "page-tab",
+  "file": "page-tab.1126.js",
+  "chunk": "ba4082a",
+  "bytesMinified": 1309,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "page-tab Vue component (section number tab). Props navNum, size, direction and theme; data navInfo is the (navNum-1)th entry of the nav list from module 49, and computed hideEnLabel is true for store lang \"en-us\"/\"id-id\". It renders div.section-nav (with size/direction classes and has-theme) containing an optional svg.section-nav-bg path filled with the theme colour, and .section-nav-inner with .section-nav-label (i18n word pageNavChara for navNum 2, else navInfo.mi18nKey, via innerHTML), a v-show .section-nav-en label (<mi18nKey>Label) and .section-nav-num (\"0\" + navNum). Normalised with the vue-loader componentNormalizer (module 36); styles from module 1134."
+ },
+ {
+  "id": "1131",
+  "name": "protocol-pdf-viewer-component",
+  "file": "protocol-pdf-viewer-component.1131.js",
+  "chunk": "e502f5f",
+  "bytesMinified": 479,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "Protocol PDF viewer Vue component (unnamed, layout \"empty\"). Props isMob (Boolean) and pdfUrl (String), both required. On mobile it renders div.protocol-pdf.mob containing a <pdf-viewer> with src pdfUrl and text/annotation layers enabled; on desktop it renders div.protocol-pdf with an <iframe> pointing at pdfUrl. Normalised with the vue-loader componentNormalizer (module 36); styles from module 1129."
+ },
+ {
+  "id": "1141",
+  "name": "m-protocol",
+  "file": "m-protocol.1141.js",
+  "chunk": "f5b0acd",
+  "bytesMinified": 1059,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "m-protocol Vue component: the mobile layout for legal/protocol pages. It uses headerBar (module 349) and footerBar (module 203), takes props content and title, and computes fromGame from $route.query.nolandscape && $route.query.fromGame. It renders div.page-protocol with <header-bar>, div.m-web-protocol (fromGame class) > .m-web-protocol-container > .m-web-protocol__article holding .m-web-protocol__title, a .m-web-protocol__info breadcrumb (i18n gameName > title) and .m-web-protocol__content via innerHTML, then <footer-bar>. Normalised with componentNormalizer (module 36); styles from module 1132."
+ },
+ {
+  "id": "1142",
+  "name": "protocol",
+  "file": "protocol.1142.js",
+  "chunk": "f28487d",
+  "bytesMinified": 1088,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "protocol Vue component: the desktop layout for legal/protocol pages. It registers headerBar (module 348), footerBar (module 203) and backTop (module 347), takes props content and title, and exposes computed isMobile from $isMob. It renders div.page-protocol with <header-bar>, div.web-protocol > .web-protocol-container > .web-protocol__article holding .web-protocol__title, a .web-protocol__info breadcrumb (i18n gameName > title) and .web-protocol__content via innerHTML, a .backContainer with <backTop theme=\"reverse\">, then <footer-bar>. Normalised with componentNormalizer (module 36); styles from module 1139."
+ },
+ {
+  "id": "1149",
+  "name": "page-tab",
+  "file": "page-tab.1149.js",
+  "chunk": "b5b7858",
+  "bytesMinified": 1341,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "page-tab Vue component, mobile variant. Props navNum, size, theme and direction; data navInfo is the (navNum-1)th entry of the nav list from module 49, and computed hideEnLabel is true for store lang \"en-us\"/\"id-id\". It renders div.m-section-nav.font-num (size/direction classes, has-theme) with an optional svg.m-section-nav-bg path filled with the theme colour and .m-section-nav-inner containing .m-section-nav-label (i18n pageNavChara for navNum 2, else navInfo.mi18nKey, via innerHTML), a v-show .m-section-nav-en label and .m-section-nav-num (\"0\" + navNum). Normalised with componentNormalizer (module 36); styles from module 1234."
+ },
+ {
+  "id": "1150",
+  "name": "babel-toConsumableArray-helper",
+  "file": "babel-toConsumableArray-helper.1150.js",
+  "chunk": "fcdddd8",
+  "bytesMinified": 381,
+  "renames": 3,
+  "unresolvedLeft": 0,
+  "summary": "Babel runtime helper toConsumableArray. It converts an array (via arrayLikeToArray, module 265), an iterable (iterableToArray, module 350) or an array-like (unsupportedIterableToArray, module 205) into a new array, and throws a TypeError about spreading a non-iterable instance otherwise."
+ },
+ {
+  "id": "1152",
+  "name": "world-CMS-API",
+  "file": "world-CMS-API.1152.js",
+  "chunk": "b262029",
+  "bytesMinified": 1632,
+  "renames": 17,
+  "unresolvedLeft": 0,
+  "summary": "World (setting/region) CMS API helpers. formatWorld parses each item's sExt JSON and maps world-name, world-name-en, world-slide[0].url (cover), world-banner, world-banner-m, world-home-banner[0].url and sTitle/sIntro/iInfoId onto name, nameEN, cover, banner, bannerM, homeBanner, title, summary and id. getList and getWorldList call the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\" (channel CHANNEL_ID_CONFIG.WORLD, sLangKey \"zh-cn\", page size 20/10), and getDetail calls \"/getContent\" with iAround: 1, returning the formatted item with sContent as content."
+ },
+ {
+  "id": "1153",
+  "name": "video-CMS-API",
+  "file": "video-CMS-API.1153.js",
+  "chunk": "fcdddd8",
+  "bytesMinified": 2968,
+  "renames": 40,
+  "unresolvedLeft": 0,
+  "summary": "Video CMS API helpers. formatVideo parses each item's sExt JSON and maps video-cover[0].url, video-inner-cover[0].url, video-url (asset url or raw string), video-youtube, sChanName, sTitle and iInfoId onto cover, innerCover, videoUrl, youtubeUrl, cateName, title and id, with dates formatted by date-fns format (module 1151) as YYYY-MM-DD and MM/DD/YYYY. getList/getAllVideos/getHomeVideoList/getSliderVideos call the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\" for channel CHANNEL_ID_CONFIG.VIDEO.ALL (page sizes 20/9/9/6); getCates calls \"/getChildTree\" and sets mainChanName/arrList. isBlankVideoChan compares against CHANNEL_ID_CONFIG.VIDEO.BLANK, parseCatesFromRes builds {allCate, children, tabCates} (named, non-blank channels, using toConsumableArray from module 1150) and getCateDisplayName resolves a channel's sChanName with a fallback for the blank channel."
+ },
+ {
+  "id": "1154",
+  "name": "character-and-camp-CMS",
+  "file": "character-and-camp-CMS.1154.js",
+  "chunk": "7ff8829",
+  "bytesMinified": 4433,
+  "renames": 47,
+  "unresolvedLeft": 0,
+  "summary": "Character (agent) and camp (faction) CMS API helpers. formatCharacter parses each item's sExt JSON and maps chara-color, chara-name(-home/-home-m/-en), chara-nav, chara-cover-home/-m, chara-line, new-chara-cover-inner(-m), new-chara-nav, level-icon, prop-icon-1/2 and pagination-item-bg onto themeColor, name, nameHome, nameHomeM, nameEN, nav, cover, coverM, word, newCoverInner(M), newNav, levelIcon, propIcon1/2 and paginationItemBg, and builds a cv list from chara-cv1/2-name/-lang/-audio1..2. getList/getAllCharacter/getCampCharacter/getDetail call the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\" or \"/getContent\" (channel CHANNEL_ID_CONFIG.CHARACTER.CHARACTER, page size 200 for all). getCampList loads CHANNEL_ID_CONFIG.CHARACTER.CAMP and maps camp-kv(-m), camp-icon, camp-shade(-m), camp-name-img(-m), camp-name(-en), new-camp-icon, camp-channel and gradient-color-mob (split on \"-\") onto each camp."
+ },
+ {
+  "id": "1157",
+  "name": "video-dialog",
+  "file": "video-dialog.1157.js",
+  "chunk": "fcdddd8",
+  "bytesMinified": 857,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "video-dialog Vue component (scoped, data-v-949ad85e). Props src and iframeSrc; data isMobile from $isMob. It renders div.video-container with mob/pc classes containing either a <video class=\"video\"> (controls, autoplay, inline-playback and x5 player attributes, preload auto) when src is set, or an <iframe class=\"video video-frame\"> (1280x720, allowfullscreen) pointing at iframeSrc. Normalised with componentNormalizer (module 36); styles from module 1167."
+ },
+ {
+  "id": "1163",
+  "name": "news-tag",
+  "file": "news-tag.1163.js",
+  "chunk": "f87ccae",
+  "bytesMinified": 1113,
+  "renames": 11,
+  "unresolvedLeft": 0,
+  "summary": "news-tag Vue component. Props channel (Number|String) and mob; computed newsCates from the store getter newsCates, currentChannel (the cate whose iChanId equals channel) and a fixed color \"#BFDB5A\". On created, if no categories are cached it runs getCates, an async (asyncToGenerator, module 32 + regeneratorRuntime) call to the news API getCates (module 1124) with sLangKey from store state.lang, committing arrList[0].children via the \"setNewsCates\" mutation. It renders div.news-tag (mobile class when mob) showing the current channel's sChanName. Normalised with componentNormalizer (module 36); styles from module 1159."
+ },
+ {
+  "id": "1164",
+  "name": "home-CMS-API",
+  "file": "home-CMS-API.1164.js",
+  "chunk": "ded62d7",
+  "bytesMinified": 2406,
+  "renames": 26,
+  "unresolvedLeft": 0,
+  "summary": "Home page CMS API helpers, all calling the user-model get (module 1117) on appBundle.apiBase + \"/getContentList\". getKV loads channel CHANNEL_ID_CONFIG.KV (one item) and maps sExt home-kv, home-kv-m and home-youtobe to kv, kvMob and youtobeUrl, resolving the first item. getFollowSocials loads CHANNEL_ID_CONFIG.SOCIAL.FOLLOW and maps social-name, social-name-key, social-ico-name, social-link, social-icon, social-icon-active and social-qrcode onto each entry. getFeature loads CHANNEL_ID_CONFIG.FEATURE and maps sTitle/sIntro plus feature-banner, feature-banner-m and feature-inner to title, summary, banner, bannerM and bannerInner."
+ },
+ {
+  "id": "1165",
+  "name": "@firebase-util-helpers",
+  "file": "firebase-util-helpers.1165.js",
+  "chunk": "8d80f48",
+  "bytesMinified": 6051,
+  "renames": 105,
+  "unresolvedLeft": 0,
+  "summary": "Vendored @firebase/util helpers (wrapped with the global object, module 42, and process, module 120). It includes UTF-8 string-to-bytes conversion and a base64 codec (standard and web-safe alphabets, DecodeBase64StringError), base64urlEncodeWithoutPadding/base64Decode, lookup of __FIREBASE_DEFAULTS__ from the global, process.env or a cookie (getDefaultAppConfig returns its config), a Deferred promise wrapper with wrapCallback, isIndexedDBAvailable, validateIndexedDBOpenable (opens and deletes the probe database \"validate-browser-context-for-indexeddb-analytics-module\"), areCookiesEnabled, FirebaseError plus ErrorFactory (fills {$key} templates into \"<serviceName>: <message> (<service>/<code>).\"), deepEqual and getModularInstance."
+ },
+ {
+  "id": "1166",
+  "name": "user-model-utils",
+  "file": "user-model-utils.1166.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 721,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "User-model utility module. Exports GLB (window, or the global object from module 42 outside the browser), isSSR (no window or document), encode (strips URL punctuation such as http, :, ., /, ?, &, =, #, , to build cache keys), toUrlWithParams(url, params) which appends key=value pairs with ? or &, log which forwards to console.log only in the browser when the page URL contains \"debug=\", and getTimestamp returning the current Unix time in seconds."
+ },
+ {
+  "id": "1174",
+  "name": "mi-ho-yo-pager-rich",
+  "file": "mi-ho-yo-pager-rich.1174.js",
+  "chunk": "fcdddd8",
+  "bytesMinified": 4553,
+  "renames": 26,
+  "unresolvedLeft": 0,
+  "summary": "mi-ho-yo-pager-rich Vue component (rich pagination). Props totalPage, showItems (5), showPrev/showNext/showJump, initPage, mode (\"event\" | \"query\" | \"params\"), routeName (required for params mode, else created throws), prevText/nextText (上一页/下一页), totalText, jumpText, pagerClass and simpleStyle; data currentPage/jumpPage and a computed pages window around the current page. go(page) clamps to 1..totalPage and then updates $route.query.page or $route.params.page via $router.go, or emits \"go\". It renders div.mihoyo-pager-rich with __pages (prev/next links with --simple variants, first/last __button, __ellipsis markers, page buttons with __current) and, unless simpleStyle, a __jump block (__text, __total, number __input bound to jumpPage, __go button). Normalised with componentNormalizer (module 36); styles from module 1169."
+ },
+ {
+  "id": "1176",
+  "name": "user-model-memory-Store",
+  "file": "user-model-memory-Store.1176.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 877,
+  "renames": 19,
+  "unresolvedLeft": 0,
+  "summary": "User-model in-memory key/value store. It initialises GLB.miHoYoUserModelMemoryCache = {} (GLB from userModelUtils, module 1166) and exports a Store class whose constructor(name = \"defaultData\") binds this.data to the named bucket in that global cache (creating it if missing), with get(key) and set(key, data). The default export is a Store instance on the \"defaultData\" bucket. Uses Babel createClass/classCallCheck helpers; no DOM or Vue."
+ },
+ {
+  "id": "1187",
+  "name": "bar",
+  "file": "bar.1187.js",
+  "chunk": "df9cade",
+  "bytesMinified": 33083,
+  "renames": 510,
+  "unresolvedLeft": 0,
+  "summary": "Vendored vuescroll v4.17.3 (native mode build) wrapped around Vue (module 1). It defines the \"bar\" component (rail __rail-is-*, bar wrapper __bar-wrap-is-*, thumb __bar-is-* and optional __bar-button scroll buttons with drag, track-click and press-to-scroll handlers), the \"scrollPanel\" component (__panel), and a \"vueScroll\" root component (__vuescroll) that merges $vuescrollConfig/ops with defaults (rail/bar/scrollButton/scrollPanel/vuescroll), hides native scrollbars via negative margins or an injected __hidebar style, tracks bar size/position/opacity, handles mouse-wheel and touch/pointer events, smooth-scrolls with a requestAnimationFrame-driven ScrollControl and easing functions, detects resize via an injected <object>, and exposes scrollTo/scrollBy/scrollIntoView/refresh APIs and events such as handle-scroll and handle-resize. The returned plugin object has install (registers the component and $vuescrollConfig), version, refreshAll and a static scrollTo, and auto-installs on window.Vue."
+ },
+ {
+  "id": "1239",
+  "name": "babel-typeof-helper",
+  "file": "babel-typeof-helper.1239.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 370,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "Babel runtime helper typeof (@babel/runtime/helpers/typeof, CommonJS build). On first call it replaces module.exports with a native typeof function when Symbol.iterator is a real symbol, or a fallback that reports \"symbol\" for polyfilled Symbol instances, and sets __esModule/default on the exports."
+ },
+ {
+  "id": "1240",
+  "name": "user-model-request-helper",
+  "file": "user-model-request-helper.1240.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 359,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "User-model response cache. Creates a Store named \"responseData\" (from module 1176) and exports a default object with get(key), which logs via userModelUtils.log and returns Promise.resolve(JSON.parse(value)) when a cached entry exists (null otherwise), and set(key, data), which logs, stores JSON.stringify(data) and returns true. Pure data layer: no DOM, no Vue component."
+ },
+ {
+  "id": "1241",
+  "name": "user-model-request-merge",
+  "file": "user-model-request-merge.1241.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 998,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "User-model in-flight request de-duplication (\"request merge\"). Keeps a Store named \"requestQueue\" (module 1176) keyed by URL key; merge(urlKey) returns false on SSR or when this is the first request (marking it isRequesting with a timestamp), otherwise returns a Promise that subscribes to the user-model event bus (module 1242) and resolves/rejects with rsp.data when the original request completes. complete(urlKey, isSuccess, data) emits the event and clears the queue entry; remove(urlKey) clears it. All steps are logged through userModelUtils.log."
+ },
+ {
+  "id": "1242",
+  "name": "user-model-event-bus",
+  "file": "user-model-event-bus.1242.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 494,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "User-model event bus. Exports a singleton object whose handlers map is a Store named \"eventHandlers\" (module 1176). on(type, handler) appends a handler to the list for that type; emit(event) calls every handler registered for event.type and then clears that list (one-shot semantics); remove(type, handler) splices a single handler out of the list. No DOM or Vue involvement."
+ },
+ {
+  "id": "1244",
+  "name": "user-model-message-facade",
+  "file": "user-model-message-facade.1244.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 943,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "User-model message/config facade. Wraps the loading overlay (module 1245) with showLoading(text)/hideLoading(), and provides showErrorMessage/showWarnMessage/showSuccMessage which only console.log the level (\"error\"/\"warning\"/\"success\"), message and optional title. Also exposes request hooks used by the user-model request layer: isSuccessResponse (retcode === 0), identity formatURL/formatParams, formatResult (returns response.data) and loadingDelay = 0."
+ },
+ {
+  "id": "1245",
+  "name": "user-model-loading-overlay",
+  "file": "user-model-loading-overlay.1245.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 557,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "User-model loading overlay. Requires its stylesheet (module 1246) and, when not in SSR and #miHoYoUserModelLoading is absent, appends a div containing the HTML template from module 1248 to document.body. Exports show(text = \"数据加载中\") which sets #miHoYoUserModelLoadingText innerText and displays #miHoYoUserModelLoading as block, and hide() which sets display none; both are no-ops under userModelUtils.isSSR."
+ },
+ {
+  "id": "1248",
+  "name": "user-model-loading-overlay-markup",
+  "file": "user-model-loading-overlay-markup.1248.js",
+  "chunk": "fd57a96",
+  "bytesMinified": 332,
+  "renames": 0,
+  "unresolvedLeft": 0,
+  "summary": "Static HTML template string for the user-model loading overlay: a div #miHoYoUserModelLoading.user-model-loading containing .user-model-loading__bg, .user-model-loading__toast with .user-model-loading__icon and #miHoYoUserModelLoadingText.user-model-loading_text (default text \"数据加载中\"). Injected into document.body by module 1245. No logic."
+ },
+ {
+  "id": "1277",
+  "name": "date-fns-locale-helper",
+  "file": "date-fns-locale-helper.1277.js",
+  "chunk": "b74c7e3",
+  "bytesMinified": 347,
+  "renames": 5,
+  "unresolvedLeft": 0,
+  "summary": "Vendor helper (date-fns v1 style buildFormattingTokensRegExp). Holds a list of common date format tokens (M, MM, Q, D, DD, DDD, DDDD, d, E, W, WW, YY, YYYY, GG, GGGG, H, HH, h, hh, m, mm, s, ss, S, SS, SSS, Z, ZZ, X, x) and exports a function that merges them with the keys of a formatters object, sorts them in reverse so longer tokens match first, and returns a global RegExp matching escaped [literal] groups, a backslash escape, or any token / single character."
+ },
+ {
+  "id": "134",
+  "name": "show",
+  "file": "show.134.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1761,
+  "renames": 7,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt error page component (uses the `errorLayout` layout) that receives an `error` prop (default statusCode 500). It renders `.error` with either an `.error__404` block or an `.error__500` block, each showing an illustration image, i18n texts (`error404`/`error404Sub` or `error502`/`error502Sub` via `$getI18nWord`) in `.error__text-main`/`.error__text-sub`, and an `.error__btn` \"back home\" button (hidden when already on `lang-main`/`m-lang-main`) whose `handleBack` method pushes the `m-lang-main` or `lang-main` route depending on `$isMob`."
+ },
+ {
+  "id": "1380",
+  "name": "shared-helper",
+  "file": "shared-helper.1380.js",
+  "chunk": "8d80f48",
+  "bytesMinified": 379,
+  "renames": 7,
+  "unresolvedLeft": 0,
+  "summary": "Vendor helper: lodash toNumber. Returns numbers as-is, NaN for symbols (module 1383 isSymbol), unwraps objects via valueOf (module 351 isObject), coerces non-strings with unary plus, otherwise trims the string (module 1381 baseTrim) and parses binary (0b) and octal (0o) prefixes with parseInt, rejects signed hex (/^[-+]0x/) as NaN, and falls back to +value."
+ },
+ {
+  "id": "1415",
+  "name": "m-news",
+  "file": "m-news.1415.js",
+  "chunk": "f87ccae",
+  "bytesMinified": 6186,
+  "renames": 56,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `m-news` for the mobile news-list route `m-lang-news` (layout `m/default`). `asyncData` restores the list from `store.state.newsCache.mNews` when a cached `newsIndex` exists, otherwise loads the news category tree (`getCates`, `/getChildTree` under `CHANNEL_ID_CONFIG.NEWS.ALL`) and the first 10 items (`getAllNews`, honoring the `blockGachaAnnounce` getter) from the news API (module 1124), commits `setNewsCates` and returns `cates`, `cateChan`, `newsList`, `total` and `hasMore`; `mounted` consumes the cache (`setNewsCache` reset) and jQuery-scrolls back to the previously clicked `.m-news-list__item`. It renders the mobile `pageTab` (nav-num 4), a `m-news-slider__title` (i18n `nav3Label`), a `m-news-tab` of `nuxt-link` category tabs (`/m/<lang>/news?category=...`, keeping `shareType`) with a sliding `m-news-tab__thumb`, and a `m-news-list` of banner/date/`news-tag`/title/summary links to `m-lang-news-id` (or a `news-self-path` route) whose click (`handlePicClick`) stores the list in `setNewsCache` and tracks `news_pics`; the `m-news-foot` shows a `load-more` button (`handleMore` -> `getList` appends the next page, i18n `loadMore`/`loadTxt`) or `no-more` with a `back-top` that animates `html,body` to the top. Category query changes call `reload`."
+ },
+ {
+  "id": "1416",
+  "name": "news",
+  "file": "news.1416.js",
+  "chunk": "ba4082a",
+  "bytesMinified": 6441,
+  "renames": 51,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `news` for the desktop news-list route `lang-news`. `asyncData` reads the cached `newsCache.pageIndex` (then resets it with `setNewsCache`) and loads, via the news API (module 1124), the slider news (`getSliderNews`), the category tree (`getCates`, `/getChildTree` under `CHANNEL_ID_CONFIG.NEWS.ALL`) and a 9-item page of `getAllNews` for `query.category`, all honoring the `blockGachaAnnounce` getter; it commits `setNewsCates` and returns `latestNewsList` (first 6), `cates`, `initPage`, `newsList` and `total`. It renders the desktop `pageTab` (nav-num 4), a `news-slider` (i18n `nav3Label`) that shows the latest news as a plain list when fewer than 3 or as a looped vue-awesome-swiper (ref `mySwiper`) with custom `swiper-pagination-index-N` bullets whose clicks are tracked as `news_point`, a `news-wrap` with `news-tab` category links (`/<lang>/news?category=...`), a `news-list` of banner/date/`news-tag`/title/summary items linking to `lang-news-id` (or a `news-self-path` route) and a `mihoyo-pager-rich` pager (module 1174) whose `go` calls `renderPage`. `handlePicClick` saves `pageIndex`/`newsIndex` with `setNewsCache` and tracks `news_pics`; `mounted` jQuery-scrolls back to the list when returning from an article, and `renderPage` re-fetches (`cache: true`) and scrolls to `.news-wrap`."
+ },
+ {
+  "id": "1418",
+  "name": "sidebar",
+  "file": "sidebar.1418.js",
+  "chunk": "3b23566",
+  "bytesMinified": 41323,
+  "renames": 248,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `index` for the desktop home route `lang-main` (layout `default`), bundled with its inline children: the `sidebar` section pager (prev/next and `0N` numbers from the HoYoverse mi18n nav config `Navs`, translateY by a measured nav height, emits `toSection`), a `cloud-download-dialog` (QR code and Windows/macOS cloud-download buttons via `$mJump`, `popup_download` events), the KV (`home-kv`, extends `base`; PV playback in `videoDialog` with `muteBgm`, PC download via `addParamsToUrl(pc_download_link)` + `$ads` FB/Twitter tracking, Steam wishlist link, `sea-download-layout` platform buttons using `window.MeSeaDownload.getDownloadMi18n` for `layer_tag`, cloud download, and an optional Firebase web-push subscribe button using `initializeApp`/messaging `getToken` with a VAPID key and the `webpush_subscribe` storage flag), the character section (`home-character`, thumb + fade swipers, sliding English-name marquee via `$gsap`, camps from the `characterCamps` getter or `getCampList` -> `setCharacterCamps`), the news slider (`home-news`), feature (`home-feature`), world (`home-world` with the concept-video card) and video (`home-video`, fade swiper with a translating thumbnail nav, throttled prev/next and debounced resize) sections. The page's `asyncData` fetches `getKV`/`getFeature` (module 1164), `getSliderNews` (1124), `getAllCharacter` (1154), `getWorldList` (1152), `getHomeVideoList` and `getCates` (1153), commits `setVideoCates`/`setVideoMainChanName`, keeps up to 6 non-`news-self-path` news and returns `kvRes`, `newsRes`, `characterRes`, `featureRes`, `worldRes` and `videoRes`. It renders `section-index/character/video/news/world/feature` blocks with `fill` decorations, tracks the active section from scroll (`setHomeSection`, `$trackEvent('Page','enter')`), restores `homeScroll` / saves it with `setHomeScroll`, scrolls between sections with `$gsap` `scrollTo`, and registers per-section `$gsap` ScrollTrigger timelines that slide in `.section-nav-*` labels and animate mi18n-configured attributes."
+ },
+ {
+  "id": "1419",
+  "name": "m-lang-video",
+  "file": "m-lang-video.1419.js",
+  "chunk": "a9873dc",
+  "bytesMinified": 26541,
+  "renames": 165,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `m-index` for the mobile home route `m-lang-main` (layout `m/default`), bundled with its inline section components: the KV (`m-home-kv`, plays the `youtobeUrl` PV in `videoDialog` via `$openDialog` while committing `muteBgm`, tracking `AppointPage_PV_start/stop`), the video section (`m-home-video`, swiper of `videoRes` covers with prev/next, category label from `getCateDisplayName`, `learnMore` link to `m-lang-video`), the character section (`m-home-character`, thumb + fade swipers, camp info from the `characterCamps` getter or `getCampList` -> `setCharacterCamps`, `learnMore` to `m-lang-character`), the news slider (`m-home-news`, autoplaying looped swiper with `swiper-pagination-index-N` bullets and a scrolling summary), the feature section (`m-home-feature`, fade swiper with `feat-swiper-button-*`) and the world section (`m-home-world`, banners linking to `m-lang-world` plus the i18n `conceptLink` concept-video card), and an `m-preregister` floating bar with download / cloud-download buttons (`$downloadIns.download()`, `$mJump` to the iOS/Android cloud link, `$trackEvent`). The page's `asyncData` fetches in parallel `getKV`/`getFeature` (module 1164), `getSliderNews` (1124), `getAllCharacter` (1154), `getWorldList` (1152), `getHomeVideoList` and `getCates` (1153), commits `setVideoCates`/`setVideoMainChanName`, filters out `news-self-path` news (max 6) and returns `kvRes`, `newsRes`, `characterRes`, `featureRes`, `worldRes` and `videoRes`. It renders `section-index/character/video/news/world/feature` blocks with `fill` decoration static renders, keeps `isLoading` bound to the store (`setLoading`), positions the pre-register bar from scroll/resize, registers `$gsap` ScrollTrigger timelines that `$trackEvent('Page','enter')` per `.section`, and `slideTo` scrolls to a section using the nav config from HoYoverse mi18n (module 49)."
+ },
+ {
+  "id": "1420",
+  "name": "video-tag",
+  "file": "video-tag.1420.js",
+  "chunk": "53d09dd",
+  "bytesMinified": 6679,
+  "renames": 54,
+  "unresolvedLeft": 0,
+  "summary": "Desktop video-list page for the route `lang-video` (component name `lang-video`, layout `default`), bundled with an inline `video-tag` child component. `video-tag` takes a `channel` prop and shows a `video-tag__text` label from the video API (module 1153) `getCateDisplayName`, using the `videoCates`/`videoMainChanName` getters and, when they are empty, fetching `getCates` and committing `setVideoCates`/`setVideoMainChanName`. The page's `asyncData` loads `getSliderVideos`, `getCates` and a 9-item `getAllVideos` page for `query.category` (default `CHANNEL_ID_CONFIG.VIDEO.ALL`), commits the parsed categories and returns `latestVideoList` (first 6), `cates` (`tabCates`), `videoList` and `total`. It renders the desktop `pageTab` (nav-num 3), a `video-slider` (i18n `navVideoLabel`) with the latest videos as a list (fewer than 3) or a looped vue-awesome-swiper (ref `mySwiper`) with `swiper-pagination-index-N` bullets tracked as `video_point`, a `video-wrap` of `video-tab` category links (`/<lang>/video?category=...`, keeping `shareType`, tracked as `navigation_videos`), a `video-list` of cover/date/`video-tag`/title items and a `mihoyo-pager-rich` pager (module 1174) driving `renderPage` (re-fetch with `cache: true`, jQuery scroll to `.video-wrap`). Clicking a video calls `openPlayer`, which opens `videoDialog` (module 1157) via `$openDialog` with a YouTube iframe or `videoUrl` source and tracks `video_pics`."
+ },
+ {
+  "id": "1421",
+  "name": "video-page",
+  "file": "video-page.1421.js",
+  "chunk": "6850d84",
+  "bytesMinified": 304,
+  "renames": 4,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component \"video-page\" for the non-localized /video route. Its only logic is a middleware that reads redirect and query from the Nuxt context and redirects to the named route \"lang-video\" with params.lang = store.state.lang, preserving the query. The render function outputs an empty div. Compiled with the vendor normalizeComponent helper (module 36)."
+ },
+ {
+  "id": "1423",
+  "name": "m-cha",
+  "file": "m-cha.1423.js",
+  "chunk": "564bae5",
+  "bytesMinified": 13749,
+  "renames": 94,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `m-cha` for the mobile character route `m-lang-character` (layout `m/default`, `scrollToTop`). `asyncData` loads the camp list (`getCampList`, channel `CHANNEL_ID_CONFIG.CHARACTER.CAMP`) and all characters (`getAllCharacter`) from the character API (module 1154), redirects to `m` when there are none, commits `setCharacterCamps`, and derives `activeIndex` (camp) and `curActiveChaIdx` from `query.id`, plus a fade-effect `chaSwiperOpts`; `head()` builds title and description/og/twitter meta from the active character's `sTitle` and `word`. It renders the mobile `pageTab` (nav-num 2, themed by `themeColor`), a fade vue-awesome-swiper (ref `chaSwiperRef`) of `character-swiper-slide` covers with `character-info` (prop/level icons, name, a `character-voice-player` with CV name and language switcher, and a `vue-scroll` (vuescroll) description), prev/next `switch-button`s, a horizontally scrolling `character-pagination`, the active `character-camp` button and a `character-camp-selection` overlay animated with a `$gsap` timeline, plus hidden SEO `character-detail-link` nuxt-links. Voice playback uses `eventAudio` from module 354 (stop/unload/switchSrcIndex/play, `$mtoast` i18n `textSoon` when empty) with a looping `$gsap` `--progress` mic animation; the `curActiveCha` watcher rebuilds the audio, scrolls the pagination via `$flex('rem')`, syncs the swiper and `$router.replace`s `query.id`, and clicks are tracked with `$trackButton` (`character_voice`, `view_all_camp`/`all_camp_back`, `camp_change`)."
+ },
+ {
+  "id": "1424",
+  "name": "m-feature",
+  "file": "m-feature.1424.js",
+  "chunk": "ded62d7",
+  "bytesMinified": 2636,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `m-feature` for the mobile route `m-lang-feature` (layout `m/default`). `asyncData` calls the Nuxt `redirect` to `m-lang-main` unconditionally and also loads the feature list via the home content API (module 1164) `getFeature` (`/getContentList`, channel `CHANNEL_ID_CONFIG.FEATURE`) with `sLangKey: store.state.lang`, exposing it as `featureList`; `created` sets `activeFeature` to the first entry. It renders the mobile `pageTab` (nav-num 6), a `m-feature__title` with the i18n `nav4Label`, and a vue-awesome-swiper `swiper` (ref `featureSwiper`, centered `auto` slides with `.swiper-pagination` / `.swiper-button-next/prev`) of `m-feature__slide` banners (`bannerInner`), whose `slideChange` handler sets `activeFeature` from `realIndex`; the active feature's title and HTML content (`sContent` or `summary`) are shown in `m-feature__info`. `head()` builds the title from i18n `nav4` + `seoTitlePrefix`, and `handleNavigatorUpload` tracks the `m-features_next` button via `$trackButton`."
+ },
+ {
+  "id": "1425",
+  "name": "m-lang-video",
+  "file": "m-lang-video.1425.js",
+  "chunk": "fcdddd8",
+  "bytesMinified": 4914,
+  "renames": 45,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `m-lang-video` for the mobile video-list route (layout `m/default`). `asyncData` uses the video API (module 1153) to fetch the category tree (`getCates`, `/getChildTree` under `CHANNEL_ID_CONFIG.VIDEO.ALL`) and the first page of 8 videos (`getAllVideos`) for `query.category` (default `VIDEO.ALL`), logs both responses, commits the child categories with the `setVideoCates` mutation and returns `cates` (root + reversed children with a `sChanName`), `videoList` and `total` pages; `$route.query.category` changes re-run `renderPage`. It renders the mobile `pageTab` (nav-num 3), a `m-video-slider__title` (i18n `navVideoLabel`), a horizontally scrolling `m-video-tab` of `nuxt-link` category tabs (`/m/<lang>/video?category=...`, keeping `shareType`, tracked as `navigation_videos`) whose active tab is scrolled into view with jQuery `animate({scrollLeft})`, a `m-video-list` of cover/title/date items that open the `videoDialog` (module 1157) via `$openDialog` with a YouTube iframe or `videoUrl` source (tracked as `video_pics`), a `mihoyo-pager-rich` pager (module 1174) whose `go` event calls `renderPage` (re-fetch with `cache: true` and scroll to the list), and a `back-top` link (i18n `textBackTop`) that animates `html,body` to the top."
+ },
+ {
+  "id": "1426",
+  "name": "m-world",
+  "file": "m-world.1426.js",
+  "chunk": "b262029",
+  "bytesMinified": 4553,
+  "renames": 43,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `m-world` for the mobile world-archive route `m-lang-world` (layout `m/default`). `asyncData` loads entries via the world API (module 1152) `getWorldList` (channel `CHANNEL_ID_CONFIG.WORLD`) with `sLangKey: store.state.lang`, redirects to `m-lang-main` when the list is empty, and returns `worldList` plus the `activeIndex` matching `params.worldId`. It renders the mobile `pageTab` (nav-num 5), a static \"back / ground\" `m-world__title`, and a client-only looped vue-awesome-swiper coverflow (ref `worldSwiper`, centered `auto` slides, `.swiper-button-next/prev`) whose `progress` handler applies `translateX(...rem) scale(...)` and opacity per slide, `transitionStart` re-stacks z-indexes, `transitionEnd` stores `activeIndex`/`swiperIndex`, and `click` on the active slide calls `gotoDetail`; each `m-world__slide` shows a cover with `name-en`/`name` (hidden when `isEN`), `cover-summary` and a `m-world__slide-tape`. `gotoDetail` plays the `isClickAnim` animation, waits via `asyncTimeout`, then routes to `m-lang-world-id` and tracks `file_card` via `$trackButton` (`handleNavigatorUpload` tracks `file_next`); `head()` uses i18n `nav5` + `seoTitlePrefix`."
+ },
+ {
+  "id": "1428",
+  "name": "m-lang-main",
+  "file": "m-lang-main.1428.js",
+  "chunk": "aa05f4a",
+  "bytesMinified": 829,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-company-about` (layout `empty`), the company \"about\" page. In `asyncData` it calls the CMS content API (module 1118) `getJpAbout`, which fetches `/getContent` for info id `INFO_ID_CONFIG.ABOUT` in channel `CHANNEL_ID_CONFIG.PROTOCOL.JP_FUND`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `m-lang-main`, otherwise it exposes `title` and `content` (from `sTitle`/`sContent`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows the `protocol` text component (m-protocol, module 1141) with `title`/`content` inside `client-only`."
+ },
+ {
+  "id": "1429",
+  "name": "m-lang-main",
+  "file": "m-lang-main.1429.js",
+  "chunk": "f5b0acd",
+  "bytesMinified": 831,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-company-archive` (layout `empty`), the company archive/history page. In `asyncData` it calls the CMS content API (module 1118) `getKrHistory`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.HISTORY`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `m-lang-main`, otherwise it exposes `title` and `content` (from `sTitle`/`sContent`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows the `protocol` text component (m-protocol, module 1141) with `title`/`content` inside `client-only`."
+ },
+ {
+  "id": "1430",
+  "name": "m-lang-main",
+  "file": "m-lang-main.1430.js",
+  "chunk": "47029f5",
+  "bytesMinified": 828,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-company-fund` (layout `empty`), the company fund-settlement notice page. In `asyncData` it calls the CMS content API (module 1118) `getJpFund`, which fetches `/getContent` for info id `INFO_ID_CONFIG.FUND` in channel `CHANNEL_ID_CONFIG.PROTOCOL.JP_FUND`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `m-lang-main`, otherwise it exposes `title` and `content` (from `sTitle`/`sContent`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows the `protocol` text component (m-protocol, module 1141) with `title`/`content` inside `client-only`."
+ },
+ {
+  "id": "1431",
+  "name": "m-lang-main",
+  "file": "m-lang-main.1431.js",
+  "chunk": "528dc6e",
+  "bytesMinified": 939,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-company-privacy` (layout `empty`), the privacy-policy page. In `asyncData` it calls the CMS content API (module 1118) `getPrivacy`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.PRIVACY`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `m-lang-main`, otherwise it exposes `title`, `content` and `pdfUrl` (from `sTitle`/`sContent`/`pdfUrl`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows, inside `client-only`, either a `protocol-pdf` (HoYoverse PDF viewer, module 1131, with `is-mob` = true and `pdf-url`) when `pdfUrl` is set, or the `protocol` text component (m-protocol, module 1141) with `title`/`content`."
+ },
+ {
+  "id": "1432",
+  "name": "m-lang-main",
+  "file": "m-lang-main.1432.js",
+  "chunk": "e502f5f",
+  "bytesMinified": 936,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-company-terms` (layout `empty`). In `asyncData` it calls the CMS content API (module 1118) `getUser` with `sLangKey: store.state.lang`, which fetches the `getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.TERMS`, redirects to `m-lang-main` when nothing is returned, and otherwise exposes `title`, `content` and `pdfUrl` as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function wraps either a `protocol-pdf` (HoYoverse PDF viewer, with `is-mob`) when `pdfUrl` is set, or the `protocol` text component (m-protocol, module 1141) with `title`/`content`, inside `client-only`."
+ },
+ {
+  "id": "1433",
+  "name": "m-lang-main",
+  "file": "m-lang-main.1433.js",
+  "chunk": "6b7076d",
+  "bytesMinified": 938,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-company-terms2` (layout `empty`). In `asyncData` it calls the CMS content API (module 1118) `getTerms2` with `sLangKey: store.state.lang`, which fetches the `getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.TERMS2`, redirects to `m-lang-main` when nothing is returned, and otherwise exposes `title`, `content` and `pdfUrl` as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function wraps either a `protocol-pdf` (HoYoverse PDF viewer, with `is-mob`) when `pdfUrl` is set, or the `protocol` text component (m-protocol, module 1141) with `title`/`content`, inside `client-only`."
+ },
+ {
+  "id": "1434",
+  "name": "m-lang-main",
+  "file": "m-lang-main.1434.js",
+  "chunk": "01cc6f8",
+  "bytesMinified": 938,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-company-terms3` (layout `empty`). In `asyncData` it calls the CMS content API (module 1118) `getTerms3` with `sLangKey: store.state.lang`, which fetches the `getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.TERMS3`, redirects to `m-lang-main` when nothing is returned, and otherwise exposes `title`, `content` and `pdfUrl` as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function wraps either a `protocol-pdf` (HoYoverse PDF viewer, with `is-mob`) when `pdfUrl` is set, or the `protocol` text component (m-protocol, module 1141) with `title`/`content`, inside `client-only`."
+ },
+ {
+  "id": "1435",
+  "name": "m-lang-news",
+  "file": "m-lang-news.1435.js",
+  "chunk": "75ab81f",
+  "bytesMinified": 2197,
+  "renames": 18,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile route `m-lang-news-public` (layout `m/default`), the gacha/public-notice article that embeds an external page. `asyncData` fetches the article via the news API (module 1124) `getDetail` with `iInfoId: GACHA_ID`, `iChanId: CHANNEL_ID_CONFIG.NEWS.ALL` and `sLangKey: store.state.lang` (both from the app bundle, module 28), redirecting to `m-lang-news` if the request throws, and exposes it as `newsContent` (its title is also the `head()` title). The render shows `m-news-detail` (class `fromGame` when `$route.query.nolandscape` and `fromGame` are set) with an `m-news-detail__article` title and a client-only `iframe` pointing at `gachaUrl?lang=<store.state.lang>`, whose height tracks `frameHeight` (+50px) updated from `window` `message` events of type `sendHeight` (listener added on mount, removed before destroy). A `nuxt-link` footer (`m-news-detail__foot`, i18n `textBack`) returns to `m-lang-news` and tracks `news_back` via `$trackButton`."
+ },
+ {
+  "id": "1436",
+  "name": "m-lang-news",
+  "file": "m-lang-news.1436.js",
+  "chunk": "39a3684",
+  "bytesMinified": 2142,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile news-article route `m-lang-news-id` (layout `m/default`). `validate` only accepts numeric `params.id`; `asyncData` loads the article via the news API (module 1124) `getDetail` with `iInfoId: params.id`, `iChanId: CHANNEL_ID_CONFIG.NEWS.ALL` (app bundle, module 28) and `sLangKey: store.state.lang`, redirecting to `m-lang-news` on error, and exposes it as `newsContent`; `head()` uses its title plus i18n `seoTitlePrefix`. The render shows `m-news-detail` (class `fromGame` when `$route.query.nolandscape` and `fromGame` are set) with the `m-news-detail__title`, an `m-news-detail__info` breadcrumb (i18n `gameName` > `news-tag` for `sChanId[0]`) and `dateFormat`, the HTML `sContent` in `m-news-detail__content`, and a `nuxt-link` footer back to `m-lang-news` (i18n `textBack`) that tracks `news_back` with the article id via `$trackButton`."
+ },
+ {
+  "id": "1437",
+  "name": "show",
+  "file": "show.1437.js",
+  "chunk": "08021c5",
+  "bytesMinified": 2777,
+  "renames": 19,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the mobile world-entry detail route `m-lang-world-id` (layout `m/default`, `scrollToTop`). `validate` only accepts numeric `params.id`; `asyncData` loads the entry via the world API (module 1152) `getDetail` (`/getContent`, channel `CHANNEL_ID_CONFIG.WORLD`) with `iInfoId: params.id` and `sLangKey: store.state.lang`, raising a Nuxt 404 `error` on failure, and exposes it as `worldContent` (its `sTitle` plus i18n `seoTitlePrefix` is the `head()` title). It renders `m-world-detail` with the mobile `pageTab` (nav-num 5), a static \"back / ground\" `m-world-detail__title`, a `scaleIn` transition around a client-only vue-awesome-swiper (ref `worldSwiper`, centered `auto` slides with `autoHeight` and `.swiper-pagination`, shown when `worldContent.banner` has more than one item) of `bannerM` images whose click calls `gotoDetail`, then the entry name, HTML `sContent` and a `nuxt-link` (i18n `textClose`) back to `m-lang-world` with `params.worldId`."
+ },
+ {
+  "id": "1439",
+  "name": "character",
+  "file": "character.1439.js",
+  "chunk": "3f59e77",
+  "bytesMinified": 17965,
+  "renames": 123,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `character` for the desktop character route `lang-character` (`scrollToTop`). `asyncData` loads the camp list (`getCampList`, channel `CHANNEL_ID_CONFIG.CHARACTER.CAMP`) and all characters (`getAllCharacter`) from the character API (module 1154), redirects to `main` when there are none, commits `setCharacterCamps`, pads `renderCampList` to a multiple of 4 with empty camps, and derives `activeIndex`, `chaList`, `curActiveCha`/`curActiveChaIdx` from `query.id` plus a lazy fade `chaSwiperOption`; `head()` builds title and description/og/twitter meta from the active character's `sTitle` and `word`. It renders the desktop `pageTab` (nav-num 2, themed), a client-only fade vue-awesome-swiper (ref `chaSwiper`) of lazy `character-cover` slides with `character-info` (level icon, name, `Mont-Heavy` English name scaled by `updateEnNameScale`, a `character-voice-player`, prop icons, `character-info-word` and a `vue-scroll` (vuescroll) intro), a 3-per-view `cha-pagination-swiper` with arrow buttons, a vertical looped `side-camp-swiper` whose sticky position/height `updateSideCampStyle` recomputes on window `resize`/`scroll`, a `character-camp-selection` overlay (`selection__*`, animated by a `$gsap` timeline) and hidden SEO `character-detail-link` nuxt-links. Voice playback uses `eventAudio` from module 354 with a looping `$gsap` `--progress` mic animation, `loadEnFont` loads the `Mont-Heavy` FontFace from modules 558/559, `preloadImages` calls the swiper `lazy.loadInSlide`, and the `curActiveCha` watcher syncs the swiper and `$router.replace`s `query.id`; clicks are tracked with `$trackButton` (`character_voice`, `camp_change`, `view_all_camp`/`all_camp_back`)."
+ },
+ {
+  "id": "1440",
+  "name": "feature",
+  "file": "feature.1440.js",
+  "chunk": "44468dc",
+  "bytesMinified": 2947,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `feature` for the desktop route `lang-feature`. `asyncData` calls the Nuxt `redirect` to `lang-main` unconditionally and also loads the feature list via the home content API (module 1164) `getFeature` (`/getContentList`, channel `CHANNEL_ID_CONFIG.FEATURE`) with `sLangKey: store.state.lang`, exposing it as `featureList`; `created` sets `activeFeature` to the first entry. It renders the desktop `pageTab` (nav-num 6), a `feature__title font-num` heading with the i18n `nav4Label`, and a vue-awesome-swiper `swiper` (ref `featureSwiper`, centered `auto` slides, `.swiper-pagination`) of `feature__slide` banners (`bannerInner`) plus, when there is more than one feature, `swiper-button-prev`/`swiper-button-next` arrows in `feature__navigation` whose clicks call `handleNavigatorUpload` (`$trackButton(\"features_next\")`). `slideChange` sets `activeFeature` from the swiper `realIndex`, and the active feature's title and HTML content (`sContent` or `summary`) render in `feature__info`; `head()` builds the title from i18n `nav4` + `seoTitlePrefix`."
+ },
+ {
+  "id": "1441",
+  "name": "world",
+  "file": "world.1441.js",
+  "chunk": "1e69d9d",
+  "bytesMinified": 4855,
+  "renames": 42,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component `world` for the desktop world-archive route `lang-world`. `asyncData` loads entries via the world API (module 1152) `getWorldList` (channel `CHANNEL_ID_CONFIG.WORLD`) with `sLangKey: store.state.lang`, redirects to `lang-main` when the list is empty, and returns `worldList` plus the `activeIndex` matching `params.worldId`; `mounted` runs `initSwiper` (re-mounts the swiper at `initialSlide = activeIndex` and starts `isInitAnim`). It renders the desktop `pageTab` (nav-num 5) and a client-only looped vue-awesome-swiper coverflow (ref `worldSwiper`, no touch move, speed 800) whose `progress` handler applies `translateX(...rem) scale(...)`/opacity per slide, `transitionStart` re-stacks z-indexes when `dir` is `next`, `slideChange` stores `activeIndex`, and `click` on the active slide calls `gotoDetail`; each `world__slide` shows a cover with `name-en`/`name` (`data-lang`, hidden when `isEN`), `cover-summary` and `world__slide-tape`, plus `world__navigation` prev/next buttons that set `dir` and track `file_next`. `gotoDetail` plays the `isClickAnim` animation, waits via `asyncTimeout`, routes to `lang-world-id` and tracks `file_card` via `$trackButton`; `head()` uses i18n `nav5` + `seoTitlePrefix`."
+ },
+ {
+  "id": "1443",
+  "name": "lang-main",
+  "file": "lang-main.1443.js",
+  "chunk": "9221d05",
+  "bytesMinified": 858,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-company-about` (layout `empty`), the company \"about\" page. In `asyncData` it calls the CMS content API (module 1118) `getJpAbout`, which fetches `/getContent` for info id `INFO_ID_CONFIG.ABOUT` in channel `CHANNEL_ID_CONFIG.PROTOCOL.JP_FUND`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title` and `content` (from `sTitle`/`sContent`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows the `protocol` text component (desktop protocol, module 1142) with `title`/`content` inside `client-only`."
+ },
+ {
+  "id": "1444",
+  "name": "lang-main",
+  "file": "lang-main.1444.js",
+  "chunk": "f28487d",
+  "bytesMinified": 860,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-company-archive` (layout `empty`), the company archive/history page. In `asyncData` it calls the CMS content API (module 1118) `getKrHistory`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.HISTORY`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title` and `content` (from `sTitle`/`sContent`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows the `protocol` text component (desktop protocol, module 1142) with `title`/`content` inside `client-only`."
+ },
+ {
+  "id": "1445",
+  "name": "lang-main",
+  "file": "lang-main.1445.js",
+  "chunk": "5804396",
+  "bytesMinified": 857,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-company-fund` (layout `empty`), the company fund-settlement notice page. In `asyncData` it calls the CMS content API (module 1118) `getJpFund`, which fetches `/getContent` for info id `INFO_ID_CONFIG.FUND` in channel `CHANNEL_ID_CONFIG.PROTOCOL.JP_FUND`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title` and `content` (from `sTitle`/`sContent`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows the `protocol` text component (desktop protocol, module 1142) with `title`/`content` inside `client-only`."
+ },
+ {
+  "id": "1446",
+  "name": "lang-main",
+  "file": "lang-main.1446.js",
+  "chunk": "ce90c7a",
+  "bytesMinified": 968,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-company-privacy` (layout `empty`), the privacy-policy page. In `asyncData` it calls the CMS content API (module 1118) `getPrivacy`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.PRIVACY`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title`, `content` and `pdfUrl` (from `sTitle`/`sContent`/`pdfUrl`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows, inside `client-only`, either a `protocol-pdf` (HoYoverse PDF viewer, module 1131, with `is-mob` = false and `pdf-url`) when `pdfUrl` is set, or the `protocol` text component (desktop protocol, module 1142) with `title`/`content`."
+ },
+ {
+  "id": "1447",
+  "name": "lang-main",
+  "file": "lang-main.1447.js",
+  "chunk": "c36764e",
+  "bytesMinified": 965,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-company-terms` (layout `empty`), the terms-of-service page. In `asyncData` it calls the CMS content API (module 1118) `getUser`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.TERMS`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title`, `content` and `pdfUrl` (from `sTitle`/`sContent`/`pdfUrl`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows, inside `client-only`, either a `protocol-pdf` (HoYoverse PDF viewer, module 1131, with `is-mob` = false and `pdf-url`) when `pdfUrl` is set, or the `protocol` text component (desktop protocol, module 1142) with `title`/`content`."
+ },
+ {
+  "id": "1448",
+  "name": "lang-main",
+  "file": "lang-main.1448.js",
+  "chunk": "5e4f8d9",
+  "bytesMinified": 967,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-company-terms2` (layout `empty`), the secondary terms page (terms2). In `asyncData` it calls the CMS content API (module 1118) `getTerms2`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.TERMS2`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title`, `content` and `pdfUrl` (from `sTitle`/`sContent`/`pdfUrl`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows, inside `client-only`, either a `protocol-pdf` (HoYoverse PDF viewer, module 1131, with `is-mob` = false and `pdf-url`) when `pdfUrl` is set, or the `protocol` text component (desktop protocol, module 1142) with `title`/`content`."
+ },
+ {
+  "id": "1449",
+  "name": "lang-main",
+  "file": "lang-main.1449.js",
+  "chunk": "0065aaf",
+  "bytesMinified": 967,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-company-terms3` (layout `empty`), the tertiary terms page (terms3). In `asyncData` it calls the CMS content API (module 1118) `getTerms3`, which fetches the `/getContentList` entry for channel `CHANNEL_ID_CONFIG.PROTOCOL.TERMS3`, passing `sLangKey: store.state.lang`; when nothing is returned it redirects to `lang-main` (with `params.lang = store.state.lang`), otherwise it exposes `title`, `content` and `pdfUrl` (from `sTitle`/`sContent`/`pdfUrl`) as page data. `head()` sets the document title to the entry title plus the i18n `seoTitlePrefix`. The render function shows, inside `client-only`, either a `protocol-pdf` (HoYoverse PDF viewer, module 1131, with `is-mob` = false and `pdf-url`) when `pdfUrl` is set, or the `protocol` text component (desktop protocol, module 1142) with `title`/`content`."
+ },
+ {
+  "id": "1450",
+  "name": "lang-news",
+  "file": "lang-news.1450.js",
+  "chunk": "84ad6ad",
+  "bytesMinified": 2401,
+  "renames": 17,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop route `lang-news-public` (`scrollToTop`), the gacha/public-notice article that embeds an external page. `asyncData` fetches the article via the news API (module 1124) `getDetail` with `iInfoId: GACHA_ID`, `iChanId: CHANNEL_ID_CONFIG.NEWS.ALL` and `sLangKey: store.state.lang` (from the app bundle, module 28), redirecting to `lang-news` if the request throws, and exposes it as `newsContent` (its title is also the `head()` title). It renders `gacha-detail` with a `nuxt-link` back button to `lang-news` (`gacha-detail-back back-btn`, `backArrow`/`backText` with i18n `textBack`/`backSubtext`, tracking `news_back` via `$trackButton`), a `gacha-detail__title` and a client-only `iframe` on `gachaUrl?lang=<store.state.lang>` whose height follows `frameHeight` (+50px), updated from `window` `message` events of type `sendHeight` (listener added on mount, removed before destroy), plus a `backTop` (module 347, theme `reverse`) in `backContainer`."
+ },
+ {
+  "id": "1451",
+  "name": "lang-news",
+  "file": "lang-news.1451.js",
+  "chunk": "0d508be",
+  "bytesMinified": 2301,
+  "renames": 15,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop news-article route `lang-news-id` (`scrollToTop`). `validate` only accepts numeric `params.id`; `asyncData` loads the article via the news API (module 1124) `getDetail` with `iInfoId: params.id`, `iChanId: CHANNEL_ID_CONFIG.NEWS.ALL` (app bundle, module 28) and `sLangKey: store.state.lang`, redirecting to `lang-news` on error, and exposes it as `newsContent`; `head()` uses its title plus i18n `seoTitlePrefix`. It renders `news-detail` with a `nuxt-link` back button to `lang-news` (`news-detail-back back-btn`, `backArrow`/`backText` i18n `textBack`/`backSubtext`) that tracks `news_back` with the article id via `$trackButton`, then the `news-detail__title`, a `news-detail__info` breadcrumb (i18n `gameName` > `news-tag` for `sChanId[0]`) with `dateFormat`, the HTML `sContent` in `news-detail__content`, and a `backTop` (module 347, theme `reverse`) in `backContainer`."
+ },
+ {
+  "id": "1452",
+  "name": "lang-world",
+  "file": "lang-world.1452.js",
+  "chunk": "8c53a05",
+  "bytesMinified": 3920,
+  "renames": 18,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt page component for the desktop world-entry detail route `lang-world-id` (`scrollToTop`). `validate` only accepts numeric `params.id`; `asyncData` loads the entry via the world API (module 1152) `getDetail` (`/getContent`, channel `CHANNEL_ID_CONFIG.WORLD`) with `iInfoId: params.id` and `sLangKey: store.state.lang`, raising a Nuxt 404 `error` on failure, and exposes it as `worldContent` (its `sTitle` plus i18n `seoTitlePrefix` is the `head()` title). It renders `world-detail` with the desktop `pageTab` (nav-num 5), a `world-detail__back` `nuxt-link` to `lang-world` with `params.worldId`, and a `world-detail__article` (ref `desc`) holding `scaleIn` transitions around a client-only vue-awesome-swiper (ref `worldSwiper`, `.swiper-pagination` plus `.swiper-button-prev/next`, shown when `banner` has more than one image) of `banner` images whose click calls `gotoDetail`, the entry title and HTML `sContent`. A `world-detail__more` toggle (i18n `learnMore`/`textFold`) runs `handleMore`, which expands the article to `height: auto` or collapses it back to `8.5rem` and scrolls the window to the top with jQuery `$(window).scrollTop(0)`."
+ },
+ {
+  "id": "168",
+  "name": "NoSsr-functional-component",
+  "file": "NoSsr-functional-component.168.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 495,
+  "renames": 9,
+  "unresolvedLeft": 0,
+  "summary": "The `NoSsr` functional Vue component (from the vue-NoSsr package used by Nuxt). Until its parent is mounted it renders either a placeholder element (tag from the `placeholderTag` prop, default `div`, with class `.no-ssr-placeholder`, content from the `placeholder` prop or the `placeholder` slot) or empty comment nodes; it registers a one-time `hook:mounted` listener on the parent that calls `$forceUpdate()`, after which the default slot content is rendered client-side."
+ },
+ {
+  "id": "203",
+  "name": "footer-bar",
+  "file": "footer-bar.203.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 2670,
+  "renames": 14,
+  "unresolvedLeft": 0,
+  "summary": "Vue component `footer-bar`, the site footer. On mount it initializes the external `window.HYVFooter` widget on `#footer` (biz `nap_global`, locale from `$store.state.lang`, supported locales from `HoYoverseMi18n.d`, selector hidden on `$isBBS`) and on language change collapses the footer, calls `setLang`, commits the `setLang` mutation and reloads the page with the language segment replaced in the URL. It renders `.footer` / `.footer__wrap` with a `backTop` button on the main/news routes, a `.footer__socialbar` with `media-icon` (bound to `$store.getters.mediaConfig`, tracking follows via `$trackButton('go_media', ...)`) and a `hover-btn.copy-btn` that copies the `shareCopyText` via `$clipboard` and toasts with `$mtoast`, plus a `.footer-crm` `crm-sub` subscription widget (shown unless `$store.state.isEnIp`, i18n key `m20231213hy4784y0w0`, event key `nap_official_crm`)."
+ },
+ {
+  "id": "250",
+  "name": "loading-screen-component",
+  "file": "loading-screen-component.250.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1473,
+  "renames": 14,
+  "unresolvedLeft": 0,
+  "summary": "Anonymous loading-screen Vue component. It renders `.loading` with a hidden `.loading__field` that preloads each entry of its `source` list as an `img`, `video` or `audio` element (advancing progress on `load`/`canplaythrough`) and a `.loading__anim` animation block. On mount it sets the `isLoading` computed (backed by `$store.state.isLoading` / the `setLoading` mutation) to true and locks `document.body` scrolling; the `step` method increments `progress` by 5 on timers until 100, then `onLoaded` emits `loaded`, clears `isLoading` and restores body overflow."
+ },
+ {
+  "id": "251",
+  "name": "base",
+  "file": "base.251.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1780,
+  "renames": 12,
+  "unresolvedLeft": 0,
+  "summary": "Renderless `base` Vue mixin component shared by page components. It exposes computed accessors over the Vuex store (`baseConfig`, `lang`, `mi18n`, `userInfo` with the `setUserInfo` mutation, `baseInfo` with the `setBaseInfo` mutation) and the build `environment` from the env config module, and methods: `getWelcomeText` (picks welcome survey/submit/detail i18n texts from `baseInfo.survey_flag`/`reserve_flag`), an async `logout` (calls `$accountRoleUtil.logout()`, clears userInfo, tracks `SDK_Logout` via `$trackEvent`, reloads the page), `onLogin` (stores user info and enables `canClick`) and `handleError` (toasts the API `message` or the `code-500` i18n text via `$mtoast`)."
+ },
+ {
+  "id": "254",
+  "name": "v-click-outside-directive",
+  "file": "v-click-outside-directive.254.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 1874,
+  "renames": 48,
+  "unresolvedLeft": 0,
+  "summary": "Bundled `v-click-outside` library (CommonJS export of an IIFE). It defines a `click-outside` Vue directive that, on bind, normalizes the binding value (function or `{handler, middleware, events, isActive, detectIframe, capture}`), attaches `touchstart` or `click` listeners on `document.documentElement` that call the handler when the event path does not contain the element, optionally adds a `window` blur listener that fires when focus moves into an `IFRAME` outside the element, stores the listeners on `el['__v-click-outside']`, re-binds on value change in `update`, and removes them on `unbind`. It exports `{ install(Vue), directive }`."
+ },
+ {
+  "id": "262",
+  "name": "header-social",
+  "file": "header-social.262.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1273,
+  "renames": 8,
+  "unresolvedLeft": 0,
+  "summary": "Vue component `header-social`, the share/follow popover in the header. It renders `.share` > `.share__info` with a `.share__icon` trigger and, client-only, a `.share__panel` / `.share__panel-wrap` containing a `.share__title` (`socialFollow` i18n text) and a `.share__list` with `media-icon` bound to `$store.getters.mediaConfig` plus a `hover-btn.copy-btn` in the `extra-media-end` slot. Methods track `Media_Share`, `Media_Sub_Follow` and `Media_Sub_Share` via `$trackButton`, and the copy button copies `shareCopyText` with `$clipboard` and shows `copySuccess` via `$mtoast`."
+ },
+ {
+  "id": "28",
+  "name": "site-config-constants",
+  "file": "site-config-constants.28.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1269,
+  "renames": 13,
+  "unresolvedLeft": 0,
+  "summary": "Build-time environment configuration module (ES module with named exports). It defines the production/sea environment flags, the HoYoverse API base URLs (content_v2_user static content API, the e20220610reserve event API, sg-public-api IP API, account management site), the gacha probability page URL and GACHA_ID 123483, the landing URL https://zenless.hoyoverse.com, the content CHANNEL_ID_CONFIG map (social follow 292, KV 285, news 288/295/296/297, protocol pages 294/293/303/305/789/836, character camp 286 / character 287, feature 289, world 290, video 1332/1337), INFO_ID_CONFIG (FUND 123774, ABOUT 123763) and the account SDK app id."
+ },
+ {
+  "id": "324",
+  "name": "ClientOnly-functional-component",
+  "file": "ClientOnly-functional-component.324.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 505,
+  "renames": 9,
+  "unresolvedLeft": 0,
+  "summary": "The `ClientOnly` functional Vue component (from the vue-ClientOnly package used by Nuxt). Until its parent is mounted it renders either a placeholder element (tag from the `placeholderTag` prop, default `div`, with class `.client-only-placeholder`, content from the `placeholder` prop or the `placeholder` slot) or empty comment nodes; it registers a one-time `hook:mounted` listener on the parent that calls `$forceUpdate()`, after which the default slot content is rendered client-side."
+ },
+ {
+  "id": "326",
+  "name": "rem---device",
+  "file": "rem---device.326.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1770,
+  "renames": 37,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt client plugin that sets up responsive rem scaling (a lib-flexible variant) and device detection. It reads device info from a device-utils module (`getDeviceType`, `ios`, `android`, `samsungTablet`, `getOrient`), adds a `mo` or `pc` class to `<html>`, and computes the root font-size from `clientWidth` against a design width (750x1334 for mobile with landscape handling, 2560 with min-scale 1440 for PC), correcting for older Android Chrome (<79) font-size clamping, recalculating on `resize`/`pageshow`, adding a `hairlines` class on high-DPR screens, and revealing `#__nuxt`. It injects `$flex` (a getter for `rem`, `deviceType`/`device`, `clientType`, `pc`, `mobile`/`mo`, `samsungTablet`) and `$qs` (the qs library)."
+ },
+ {
+  "id": "327",
+  "name": "analytics-plugin",
+  "file": "analytics-plugin.327.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1045,
+  "renames": 24,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt client plugin that sets up analytics. It initializes Google Analytics (module 897, measurement id `G-8BR44XDKVQ`) and `window.miHoYoAnalysis` (appId 262, isSea/environment from the env config, `dataBelong: ['nap']`, deviceType from `$flex`, plat 1/2/3 for Android/iOS/PC), falling back to a console-warning stub when the SDK is missing, stores it as `window.mhyAna`, and injects `$trackEvent`, `$updateUid` and `$trackButton` (which prefixes `Button`, `Click` to the tracked event arguments)."
+ },
+ {
+  "id": "330",
+  "name": "ip-location-plugin",
+  "file": "ip-location-plugin.330.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1090,
+  "renames": 18,
+  "unresolvedLeft": 1,
+  "summary": "Async Nuxt plugin that detects the visitor's region. It requests `<ipApiBase>/event/event_fe_info/ip_location?game_biz=nap_global&ip_location_type=1&ip_config_key=ftc_country_code` with axios (credentials included, and in non-production builds an `x-rpc-e_client_ip` header taken from the `ip` query parameter), reads the `fe_2299282` flag from the response data and commits it to the store via the `setIsEnIp` mutation, silently ignoring request errors."
+ },
+ {
+  "id": "331",
+  "name": "axios-isPreview-request-interceptor",
+  "file": "axios-isPreview-request-interceptor.331.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 908,
+  "renames": 13,
+  "unresolvedLeft": 0,
+  "summary": "Axios setup module with no exports: it registers a global axios request interceptor that, when the build environment is `test` or `prerelease`, adds `isPreview: 1` to the request params and then copies the params into a new object (Babel `objectSpread2` helper using `ownKeys` and `defineProperty`)."
+ },
+ {
+  "id": "340",
+  "name": "i18n-language-middleware",
+  "file": "i18n-language-middleware.340.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1478,
+  "renames": 24,
+  "unresolvedLeft": 0,
+  "summary": "Async Nuxt route middleware that initializes i18n for the current language. It resolves the language from the route `lang` param via the locale helpers (module 83, falling back to the `mi18nLang` cookie / default), disables SDK error popups outside development/test via `setCommonConfig`, calls `initAppI18n(Vue, { appId: 'm03111446031031', gameBiz: 'nap_global', env: i18nEnv, lang, zone: 'morax' })` and commits the `setLang` mutation, then returns. The code also contains an (unreachable after the early return) branch that detects language from the cookie or `accept-language` header, sets `Cache-Control: no-cache` and redirects unsupported-language paths to a language-prefixed path or `lang` route."
+ },
+ {
+  "id": "341",
+  "name": "nuxt-axios-plugin",
+  "file": "nuxt-axios-plugin.341.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 790,
+  "renames": 18,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt axios plugin. It stores the Nuxt context in `memoryCache` under `nuxtContext`, merges `{ baseURL: apiBase, withCredentials: true }` into `$axios.defaults` with lodash `merge`, and registers `$axios` hooks: `onRequest` logs the request, `onResponse` handles `retcode` values (-100 toast + redirect to `/login`, -200 to `/initPersonInfo`, -300 to `/bindMobile`, 1001 router back), and `onError` shows a `$toast` for network errors or `code___message`."
+ },
+ {
+  "id": "343",
+  "name": "global-Vue-plugins-and",
+  "file": "global-Vue-plugins-and.343.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1179,
+  "renames": 6,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt plugin that installs the site's global Vue extensions exactly once (guarded by a module-level flag). It sets `Vue.prototype.$isBBS`, `$isSea` and `$isMob`, calls `setBrandTheme('nap', false)`, registers the `meAudio`, `share` and `CrmSub` components, `Vue.use`s a series of UI/utility plugins (toast, copy-input, Swiper, `window.MeSeaDownload`, a plugin given `{ lang: store.state.lang }`, a deep-link plugin with `schemaName: 'hoyolab'`), installs the account SDK plugin with `{ lang, isSea: true, gameBiz: 'nap_global', environment, appId: accountSdkAppId, useType: 'account' }` using the language resolved from `params.lang`, shows the cookie-tips banner outside BBS (`source: '262'`, storage key `napCookieTips`), and installs an ad-tracking plugin with Google Ads `AW-10901298873`, Facebook, pixel and Twitter ids."
+ },
+ {
+  "id": "344",
+  "name": "router-plugin",
+  "file": "router-plugin.344.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 807,
+  "renames": 28,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt router plugin. It registers a pass-through `router.beforeEach` guard and a `router.afterEach` hook that computes which query keys changed between the previous and current route (lodash-style difference/intersection helpers); unless the path is unchanged and only `webpush*` keys changed, it sends a pageview with `window.mhyAna.trackPageview({ path, name })` and rewrites the browser URL via `history.replaceState`, stripping all `webpush*` query parameters using the `qs`/`addParamsToUrl` utilities."
+ },
+ {
+  "id": "347",
+  "name": "back-top",
+  "file": "back-top.347.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 930,
+  "renames": 5,
+  "unresolvedLeft": 0,
+  "summary": "Vue component `back-top`, a scroll-to-top button. It renders a `button.backTop` with the `backTop--show` modifier and the `theme` prop (default `light`) as classes; it listens to window `scroll` (bound on mount, removed before destroy) and shows itself once the scroll offset exceeds half the viewport height, and on click animates `html,body` to `scrollTop: 0` with jQuery and tracks `back_to_top` via `$trackButton`."
+ },
+ {
+  "id": "348",
+  "name": "header-bar",
+  "file": "header-bar.348.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 7162,
+  "renames": 37,
+  "unresolvedLeft": 0,
+  "summary": "Vue component `header-bar`, the desktop site header; it extends the `base` mixin and registers `headerSocial`. On mount it creates a `window.MeSeaDownload.DownloadCore` instance (gameBiz `nap_global`, type `fab`, source `262`) used by the download nav button; left navs come from `HoYoverseMi18n.e` (minus `feature`) plus a `menu_more_label` group of exchange/top_up/community external links resolved via `$getI18nWord`. It renders `header.header` / `.header-wrapper` with the `.header__logo` (big/small logos switched by `$store.state.homeSection` on `lang-main`), `.header__navbar-links` / `.header__navbar-link(--active)` items with `.nav-content-sub` dropdowns, `.header__navbar-btns` with the download button, a `me-audio` `.header__bgm` BGM player (volume from `$store.state.bgmMuted`, storage key `napSeaBgAudio`), `header-social`, a `.login` block with `.login__dropdown` and logout, and a hidden `account-role` component. It reads `$store.state.lang`/`userInfo`, commits `setUserInfo` and `setRoutePage`, navigates to `lang-<link>` routes with lodash `_.omit` query cleanup, and tracks via `$trackEvent`/`$trackButton`."
+ },
+ {
+  "id": "349",
+  "name": "m-header-bar",
+  "file": "m-header-bar.349.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 7403,
+  "renames": 33,
+  "unresolvedLeft": 0,
+  "summary": "Vue component `m-header-bar`, the mobile site header. It extends the shared `base` mixin, registers `headerSocial`, builds its nav list from `HoYoverseMi18n.e` plus i18n-driven extra links (exchange/top_up/community under a `menu_more_label` group and `menu_care_link`), and renders `.m-header` with the logo (`.m-header__logo`, `.logo-icon`, `.logoSmall-img`), a download button (`.m-header__download` calling `$downloadIns.download()`), a `me-audio` BGM player (`.m-header__bgm`, storageKey `napSeaBgAudio`), a slide-in menu panel (`.m-header__menu`, `.m-header__menu-link`, `.nav-content-sub`) and login/user info blocks (`.header-user-info`, `.header-login-btn`). It reads `$store.state.lang`, `bgmMuted`, `homeSection`, commits `muteBgm`, navigates via `$router.push({ name: 'm-lang-<link>' })`, tracks clicks with `$trackEvent`/`$trackButton`, uses lodash `_.omit`, `$clipboard`, `$mtoast`, `$mJump` and `$accountRoleUtil.show()`, and toggles `showMenuBtn`/`isStartScroll` from the window scroll position."
+ },
+ {
+  "id": "354",
+  "name": "show",
+  "file": "show.354.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 12002,
+  "renames": 199,
+  "unresolvedLeft": 0,
+  "summary": "Bundled `@me/audio` library (UMD factory called with webpack exports and core-js-pure/Babel runtime helpers, howler, a shared utils module and Vue). It defines an `AudioPlayer` class wrapping `Howl` instances (multi-src index switching, sprites, fade in/out, volume change, play/pause/stop/unload, play state cached in `storage` under `storageKey` default `@me/audio`, pause on page `visibilitychange`, and an html5 first-click autoplay unlock with iOS 15 detection) and the `MeAudio` Vue component (props `src`, `effectSrc`, `effectConfig`, `index`, `loop`, `icon`/`activeIcon`/`hoverIcon`, `volume`, `autoplay`, `preload`, `fade`, `doPlay`, `html5`, `cache`, `storageKey`) that renders `.m-audio-player` with `.m-audio-player__icon` (`--hover`, `--active`) images, emits `tap`/`played`/`end`, and exposes `Vue.prototype.$effectPlayer` for sound effects. It includes the vue-runtime-helpers `normalizeComponent` and a browser style injector for its scoped CSS (`data-v-201c2d6f_0`)."
+ },
+ {
+  "id": "397",
+  "name": "sync-request-browser-XHR",
+  "file": "sync-request-browser-XHR.397.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 1108,
+  "renames": 11,
+  "unresolvedLeft": 0,
+  "summary": "Browser implementation of the `sync-request` library. It exports a `doRequest(method, url, options)` function that validates its arguments, appends `options.qs` via a query-string helper (module 618), sets `X-Requested-With: XMLHttpRequest` for same-origin requests, serializes `options.json` (with `content-type: application/json`) or `options.form` as the body, performs a synchronous `XMLHttpRequest`, parses the raw response headers and returns an http-response-object (module 630) with status, headers, body text and URL. It also re-exports the global `FormData`."
+ },
+ {
+  "id": "398",
+  "name": "qs-utils",
+  "file": "qs-utils.398.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 2698,
+  "renames": 60,
+  "unresolvedLeft": 0,
+  "summary": "The `qs` library's `utils` module (CommonJS). It exports helpers used by qs parse/stringify: `arrayToObject`, `assign`, `combine`, `compact` (removes undefined array holes via a breadth-first queue with cycle tracking), `decode` (with `iso-8859-1` support), `encode` (UTF-8 percent-encoding via a hex table, RFC1738 parentheses handling from the formats module, iso-8859-1 numeric entity escaping), `isBuffer`, `isRegExp`, `maybeMap` and a recursive `merge`."
+ },
+ {
+  "id": "439",
+  "name": "axios-xhr-adapter",
+  "file": "axios-xhr-adapter.439.js",
+  "chunk": "2e4935f",
+  "bytesMinified": 2299,
+  "renames": 23,
+  "unresolvedLeft": 0,
+  "summary": "axios's browser XHR adapter (`lib/adapters/xhr.js`, CommonJS). It returns a Promise that builds an `XMLHttpRequest` from the request config: strips `Content-Type` for FormData, adds HTTP Basic `Authorization`, combines `baseURL`/`url` and serializes `params`, sets `timeout`, `withCredentials`, `responseType`, XSRF header from the cookie when same-origin or credentialed, request headers and progress listeners; on load it parses response headers and settles the promise via `settle`, rejects with `createError` on abort (`ECONNABORTED`), network error or timeout (`ETIMEDOUT` when `transitional.clarifyTimeoutError`), and supports cancellation through `cancelToken` and `AbortSignal` (rejecting with a `Cancel('canceled')`)."
+ },
+ {
+  "id": "49",
+  "name": "site-constants",
+  "file": "site-constants.49.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1145,
+  "renames": 6,
+  "unresolvedLeft": 0,
+  "summary": "Static site constants module. It exports the main navigation list (main, character, video, news, world, feature entries with Chinese labels, mi18n keys nav1/nav2/navVideo/nav3/nav5/nav4 and tracking keys), the 13 supported locale codes, a per-section parallax animation config (yPercent/xPercent tweens for `.fill-bg`, `.fill-text`, `.section-character`, `.fill-black-bar-feature`), the default language `en-us`, the `lang` storage/query key, and a list of route paths/regexes (`/xbox`, `/main`, `/company/privacy`, `/company/terms*`, `/news/<id>`) used for path matching."
+ },
+ {
+  "id": "493",
+  "name": "core-js-native-URL-detection",
+  "file": "core-js-native-URL-detection.493.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 592,
+  "renames": 6,
+  "unresolvedLeft": 0,
+  "summary": "core-js internal feature-detection module (`native-url`): it exports a boolean that is true when the native `URL`/`URLSearchParams` implementation is correct, checking pathname encoding, `searchParams` iteration/deletion and `sort`, `href`, URLSearchParams string conversion and copy construction, the iterator symbol, `username` parsing, punycode host conversion (`xn--e1aybc` for `http://тест`), hash encoding and an undefined base argument (with an extra `toJSON` check in pure mode)."
+ },
+ {
+  "id": "500",
+  "name": "localStorage---memory",
+  "file": "localStorage---memory.500.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 829,
+  "renames": 20,
+  "unresolvedLeft": 0,
+  "summary": "Cache utilities module (ES module named exports). It provides localStorage helpers that store values wrapped as JSON `{ timestamp, value }` (`setLocalStorageCache`, `getLocalStorageCache`, `removeLocalStorageCache`, `getLocalStorageInfo`) and an in-memory `memoryCache` object (backed by a closure map) with `set`, `get`, `remove` and `getInfo` methods using the same timestamped record shape."
+ },
+ {
+  "id": "525",
+  "name": "cookie-universal",
+  "file": "cookie-universal.525.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 4504,
+  "renames": 92,
+  "unresolvedLeft": 0,
+  "summary": "Bundled `cookie-universal` library (a self-contained webpack bundle with its own module runtime) that also embeds the `cookie` package (`parse`/`serialize`). The exported factory `(req, res, parseJSON = true)` detects client vs server context and returns an API `{ parseJSON, set, setAll, get, getAll, remove, removeAll, nodeCookie }` that reads cookies from `document.cookie` or the request `cookie` header / response `Set-Cookie` headers, writes via `document.cookie` or `res.setHeader('Set-Cookie', ...)`, JSON-stringifies object values and optionally JSON-parses values on read; removal sets `expires` to epoch. The embedded serializer validates names/values and supports Max-Age, Domain, Path, Expires, HttpOnly, Secure and SameSite."
+ },
+ {
+  "id": "531",
+  "name": "HoYoverse-OSS-file-upload-SDK",
+  "file": "HoYoverse-OSS-file-upload-SDK.531.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 25028,
+  "renames": 339,
+  "unresolvedLeft": 0,
+  "summary": "Bundled HoYoverse/miHoYo OSS file-upload SDK (a self-contained webpack bundle with its own module runtime, depending on a SparkMD5 module and a file-encryption module). `ossFileUpload(options)` validates `env`, computes the file MD5 by reading 2MB chunks with `FileReader` + `SparkMD5.ArrayBuffer`, requests upload parameters from one of many takumi / sg-public-op / sg-public-api endpoints (e.g. `/upload/op/getParamsByOp`, `/upload/outer/getParamsByAccount`, `/upload/outer/GetParamsByAuthKey`, `/mupload/minio/getToken`) selected by inland/overseas, inner/outer, AWS (`s3`), login type and environment, then uploads via XHR as an OSS POST form (OSSAccessKeyId/policy/signature), an S3/SGW `PUT` with signed headers, or a private MinIO form; it also supports fetching remote URLs (`/upload/op/fetch`), optional client-side encryption (`encryptFromFile`), progress callbacks, `x-rpc-language`/`X-Rpc-App_key` headers and an optional watermark call to `/upload/op/watermark`. `ossFileBatchUpload` uploads multiple files to inland, overseas (`os`) or `both` areas and reports success/error lists, and the default export also provides a Vue `install` adding `$OssFileUpload`/`$OssFileBatchUpload`."
+ },
+ {
+  "id": "534",
+  "name": "@me-toast-library",
+  "file": "me-toast-library.534.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 15450,
+  "renames": 185,
+  "unresolvedLeft": 0,
+  "summary": "Bundled `@me/toast` library (UMD factory called with webpack exports, core-js-pure/Babel runtime helpers, Vue and a shared utils module providing `IS_MOB` and `asyncTimeout`). It defines the `Toast` Vue component (props `duration`, `message`, `showContent`, `zIndex`, `opacity`, `isLoading`, `setInnerHtml`, `blockEvent`, `el`) rendering `.me-toast` with `me-toast__m`/`__pc`/`__pc__2k` and `__enter`/`__leave` modifiers, a loading `.me-toast-content__loading` block with an SVG `.me-toast__spinner`, or a `transition-group` of `.me-toast-content__toast` messages (`.me-toast-message`) that auto-remove after their duration; its scoped CSS (`data-v-634288c8_0`) is injected by an embedded style injector and `normalizeComponent`. A singleton toast manager mounts instances via `Vue.extend` into `document.body` or a given element and exposes `Toast(msg|options)` with `.loading`, `.clear`, `.allowToastMultiple` and `.disableToastMultiple`; the default export is a plugin whose `install(Vue, commonOptions)` sets `Vue.prototype.$mtoast`."
+ },
+ {
+  "id": "535",
+  "name": "mhy-copy-input-clipboard-helper",
+  "file": "mhy-copy-input-clipboard-helper.535.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 1639,
+  "renames": 29,
+  "unresolvedLeft": 0,
+  "summary": "Bundled `mhy-copy-input` clipboard helper (a self-contained webpack bundle with its own module runtime). Its default export `clipboard({ text, onSuccess, onFail })` creates a temporary read-only `input.mhy-copy-input` (font-size 14px) holding the text, selects it, runs `document.execCommand('copy')` (throwing when `queryCommandSupported('copy')` is false), removes the input and calls `onSuccess` or `onFail`; its `install(Vue)` method sets `Vue.prototype.$clipboard`."
+ },
+ {
+  "id": "538",
+  "name": "theme-mode-helper",
+  "file": "theme-mode-helper.538.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 355,
+  "renames": 8,
+  "unresolvedLeft": 0,
+  "summary": "Small theme-mode helper library (UMD factory applied to webpack exports). It defines a `ThemeMode` enum (`dark`/`light`), `setGlogalTheme(mode)` which sets the `theme-mode` attribute on `<html>` (default `light`), and `setBrandTheme(brand, isDark)` which applies the dark/light theme mode and sets the `brand` attribute on `<html>`."
+ },
+ {
+  "id": "549",
+  "name": "description",
+  "file": "description.549.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1622,
+  "renames": 7,
+  "unresolvedLeft": 0,
+  "summary": "Desktop Nuxt layout component. It registers `headerBar`, `footerBar` and `loading`, renders `.root` containing the `loading` screen (shown while `$store.state.isLoading`), `header-bar`, the `<nuxt>` page outlet and `footer-bar`, and sets page `head()` metadata (title, html `lang` from `$store.state.lang`, description/Keywords/og:*/twitter:* meta from the `seoTitle`, `seoDesc`, `seoKeywords`, `ogImage` i18n words). On mount it adds a jQuery `mousewheel` handler on `body` that scrolls manually for IE10/IE11/Edge 12."
+ },
+ {
+  "id": "55",
+  "name": "vue-style-loader-addStylesClient",
+  "file": "vue-style-loader-addStylesClient.55.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 2532,
+  "renames": 64,
+  "unresolvedLeft": 0,
+  "summary": "vue-style-loader's client-side style injector (`addStylesClient`). It converts css-loader module lists into style records keyed by id, injects `<style>` elements into `document.head` (reusing server-rendered tags marked with the `data-vue-ssr-id` attribute), reference-counts styles for hot updates/removal, appends source maps as base64 `sourceMappingURL` comments, and falls back to a single shared style tag with `styleSheet.cssText` replacement for old IE (msie 6-9). It throws if used outside a browser when DEBUG is set."
+ },
+ {
+  "id": "551",
+  "name": "description",
+  "file": "description.551.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 2184,
+  "renames": 8,
+  "unresolvedLeft": 0,
+  "summary": "Mobile Nuxt layout component. It registers `footerBar`, the mobile `headerBar` (m-header-bar) and `loading`, renders `.root` with the `loading` screen (shown while `$store.state.isLoading`), `header-bar`, `<nuxt>` and `footer-bar`, and sets the same SEO `head()` metadata as the desktop layout (`seoTitle`, `seoDesc`, `seoKeywords`, `ogImage`, html `lang`). On mount it adds the IE/Edge `mousewheel` scroll workaround, initializes `$landscapeTip` with a portrait-mode tip (`landscapeTip` text) unless the `nolandscape` query or `$flex('samsungTablet')` is set, and creates a shared `window.MeSeaDownload.DownloadCore` instance (gameBiz `nap_global`, type `fab`, source `262`) on `Vue.prototype.$downloadIns` if `$store.state.downloadIns` is not set."
+ },
+ {
+  "id": "584",
+  "name": "nuxt-language-middleware",
+  "file": "nuxt-language-middleware.584.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 1601,
+  "renames": 24,
+  "unresolvedLeft": 0,
+  "summary": "Nuxt route middleware for language handling. It normalises params.lang via module 83's helper, commits the store mutation \"setLang\", and when the lang is in the supported list (module 49 .d) either initialises @mihoyo i18n (setCommonConfig/initAppI18n with appId \"m03111446031031\", gameBiz \"nap_global\", zone \"morax\", env from appBundle.i18nEnv) on static builds or calls setLang at runtime. For an unsupported lang it redirects to a lang-prefixed path, or resolves a named route with lang/query and either redirects to it or (for the special route name module 49 .c) hard-navigates window.location after 200 ms."
+ },
+ {
+  "id": "619",
+  "name": "qs-stringify",
+  "file": "qs-stringify.619.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 4277,
+  "renames": 70,
+  "unresolvedLeft": 0,
+  "summary": "Vendored qs library stringify implementation (qs/lib/stringify). It serialises an object into a query string, supporting arrayFormat brackets/comma/indices/repeat, allowDots, encode/encodeValuesOnly with a custom encoder, filter, sort, skipNulls, strictNullHandling, serializeDate, RFC formats (module 292) and utf-8/iso-8859-1 charset sentinels. Cyclic references are detected with side-channel maps (module 620) and throw RangeError(\"Cyclic object value\"); encoding/merging helpers come from qs utils (module 398)."
+ },
+ {
+  "id": "629",
+  "name": "qs-parse",
+  "file": "qs-parse.629.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 3967,
+  "renames": 57,
+  "unresolvedLeft": 0,
+  "summary": "Vendored qs library parse implementation (qs/lib/parse). It splits a query string by delimiter (respecting parameterLimit, ignoreQueryPrefix and utf8 charset sentinels), decodes keys/values with the configured decoder, handles comma lists, interpretNumericEntities and [] suffixes, then expands bracket/dot keys into nested objects/arrays up to depth and arrayLimit while guarding prototype keys. Results are merged and compacted with qs utils (module 398)."
+ },
+ {
+  "id": "704",
+  "name": "root-Vuex-store",
+  "file": "root-Vuex-store.704.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 2531,
+  "renames": 52,
+  "unresolvedLeft": 0,
+  "summary": "Root Vuex store module (store/index). State holds lang, mi18n words, isLoading, bgmMuted, newsCates, videoCates, videoMainChanName, characterCamps, navSection, homeSection, routePage, homeScroll, baseInfo, userInfo, isEnIp and a newsCache {pageIndex, newsIndex, mNews}. Getters expose those fields plus blockGachaAnnounce (non-EN-IP visitor on en-us) and mediaConfig (svg icon colours and basicConfig {biz: \"nap_global\", lang, environment}); mutations are plain setters (setIsEnIp, setLang, setMi18n, setLoading, muteBgm, setNewsCates, setVideoCates, setVideoMainChanName, setCharacterCamps, setHomeSection, setRoutePage, setHomeScroll, setNavSection, setBaseInfo, setUserInfo, setNewsCache merging into newsCache); actions is empty."
+ },
+ {
+  "id": "716",
+  "name": "axios-parseHeaders",
+  "file": "axios-parseHeaders.716.js",
+  "chunk": "2e4935f",
+  "bytesMinified": 564,
+  "renames": 6,
+  "unresolvedLeft": 0,
+  "summary": "Vendored axios helper parseHeaders (axios/lib/helpers/parseHeaders). It splits a raw HTTP response header string on newlines, trims and lower-cases each header name using axios utils (module 73), ignores duplicates of a fixed list of single-value headers (age, authorization, content-length, content-type, etag, ... user-agent), collects set-cookie into an array and joins other repeated headers with \", \"."
+ },
+ {
+  "id": "722",
+  "name": "GSAP-ScrollToPlugin-3.10.4",
+  "file": "GSAP-ScrollToPlugin-3-10-4.722.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 3522,
+  "renames": 65,
+  "unresolvedLeft": 0,
+  "summary": "Vendored GSAP ScrollToPlugin v3.10.4 (name \"scrollTo\"). It lazily grabs gsap (window.gsap or the registering instance), sets autoKillThreshold 7, and tweens window or element scrollLeft/scrollTop toward numeric, relative (\"+=\"/\"-=\"), \"max\" or element targets with offsetX/offsetY, temporarily disabling scroll-snap-type and auto-killing the tween when the user scrolls away (calling onAutoKill). It also exposes max, getOffset and buildGetter helpers and self-registers when gsap is on window."
+ },
+ {
+  "id": "783",
+  "name": "core-js-es.symbol",
+  "file": "core-js-es-symbol.783.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 2764,
+  "renames": 68,
+  "unresolvedLeft": 0,
+  "summary": "Vendored core-js polyfill es.symbol (Symbol constructor). When native Symbol is unavailable it installs a $Symbol wrapper that tracks symbols in shared stores (\"symbols\", \"op-symbols\", \"wks\"), keeps per-object hidden enumerability flags, and patches Object.create/defineProperty/defineProperties/getOwnPropertyDescriptor/getOwnPropertyNames plus propertyIsEnumerable, Symbol.prototype.description/toString, Symbol.useSetter/useSimple and well-known symbol definitions via core-js internals (_export, internal-state, object-define-property, etc.)."
+ },
+ {
+  "id": "83",
+  "name": "locale-and-route-path",
+  "file": "locale-and-route-path.83.js",
+  "chunk": "8c4c131",
+  "bytesMinified": 850,
+  "renames": 15,
+  "unresolvedLeft": 0,
+  "summary": "Routing/locale helper functions built on the site constants module (`HoYoverseMi18n`, module 49) and a cookie library (module 40). It exports a matcher that tests a path against the configured path list (strings or RegExps), a route-name normalizer that falls back to the `lang` key, a builder that prefixes a path with the language segment (keeping or dropping the mobile `/m` prefix), a language resolver that validates against the supported locales or falls back to the `mi18nLang` cookie / default language, and a query sanitizer that strips the `catchSpider` key."
+ },
+ {
+  "id": "943",
+  "name": "share-SDK-constants",
+  "file": "share-SDK-constants.943.js",
+  "chunk": "be1f69b",
+  "bytesMinified": 563,
+  "renames": 0,
+  "unresolvedLeft": 0,
+  "summary": "Constants module for the share/social SDK. It exports URLS, a map of social share endpoints (Facebook sharer, Twitter intent, Messenger with app_id 521270401588372, WhatsApp, LINE, Naver Cafe, Reddit, VK), and apiPre, the per-environment public API host prefix (testing-sg-public-api / pre-sg-public-api / sg-public-api). No suffixed bindings to rename."
+ }
+]

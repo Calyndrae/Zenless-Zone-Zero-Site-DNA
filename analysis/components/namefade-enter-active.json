@@ -1,0 +1,47 @@
+{
+ "component": "namefade-enter-active",
+ "files": [
+  "664.css",
+  "1293.css"
+ ],
+ "classes": {
+  "namefade-enter-active": "namefade-enter-active"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".namefade-enter-active",
+   "media": [],
+   "declarations": {
+    "transition": "opacity 1s ease-in,transform 1s cubic-bezier(0.02, 0.88, 0.58, 1)",
+    "transform": "translate3d(0, 0, 0)"
+   },
+   "source": "/_nuxt/8c4c131.js #664"
+  },
+  {
+   "selector": ".namefade-enter-active[data-v-4cbeaaa9]",
+   "media": [],
+   "declarations": {
+    "transition": "opacity 1s ease-in,transform 1s cubic-bezier(0.02, 0.88, 0.58, 1)",
+    "transform": "translate3d(0, 0, 0)"
+   },
+   "source": "/_nuxt/a9873dc.js #1293"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "opacity 1s ease-in,transform 1s cubic-bezier(0.02, 0.88, 0.58, 1)"
+  ]
+ }
+}

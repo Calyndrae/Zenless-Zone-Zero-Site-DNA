@@ -1,0 +1,41 @@
+{
+ "component": "gacha-detail-container",
+ "files": [
+  "1409.css"
+ ],
+ "classes": {
+  "gacha-detail-container": "gacha-detail-container"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".gacha-detail-container",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "z-index": "2",
+    "width": "17.12rem",
+    "padding-top": "2.6rem",
+    "padding-bottom": "1.6rem",
+    "margin": "0 auto"
+   },
+   "source": "/_nuxt/84ad6ad.js #1409"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": []
+ }
+}

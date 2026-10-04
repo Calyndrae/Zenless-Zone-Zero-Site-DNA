@@ -1,0 +1,904 @@
+(window.webpackJsonp = window.webpackJsonp || []).push([
+  [43],
+  {
+    1120: function (e, t, r) {
+      "use strict";
+      var o = r(47),
+        n = r(346)(5),
+        c = "find",
+        l = !0;
+      (c in [] &&
+        Array(1).find(function () {
+          l = !1;
+        }),
+        o(o.P + o.F * l, "Array", {
+          find: function (e) {
+            return n(this, e, arguments.length > 1 ? arguments[1] : void 0);
+          },
+        }),
+        r(345)(c));
+    },
+    1143: function (e, t, r) {
+      "use strict";
+      var o = r(47),
+        n = r(346)(6),
+        c = "findIndex",
+        l = !0;
+      (c in [] &&
+        Array(1)[c](function () {
+          l = !1;
+        }),
+        o(o.P + o.F * l, "Array", {
+          findIndex: function (e) {
+            return n(this, e, arguments.length > 1 ? arguments[1] : void 0);
+          },
+        }),
+        r(345)(c));
+    },
+    1144: function (e, t, r) {
+      e.exports = r.p + "img/inner-top-m.329e7ed.png";
+    },
+    1150: function (e, t, r) {
+      "use strict";
+      r.d(t, "a", function () {
+        return l;
+      });
+      var o = r(265);
+      var n = r(350),
+        c = r(205);
+      function l(e) {
+        return (
+          (function (e) {
+            if (Array.isArray(e)) return Object(o.a)(e);
+          })(e) ||
+          Object(n.a)(e) ||
+          Object(c.a)(e) ||
+          (function () {
+            throw new TypeError(
+              "Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.",
+            );
+          })()
+        );
+      }
+    },
+    1153: function (e, t, r) {
+      "use strict";
+      var o = r(1150),
+        n = (r(77), r(556), r(67), r(1120), r(1151)),
+        c = r.n(n),
+        l = r(1117),
+        d = r(28);
+      t.a = {
+        formatVideo: function () {
+          var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
+          return (
+            e.forEach(function (e) {
+              var t, r, o, n, l, d;
+              e.sExt = "string" == typeof e.sExt ? JSON.parse(e.sExt) : e.sExt;
+              var m = e.sExt || {};
+              ((e.cover =
+                (null === (t = m["video-cover"]) || void 0 === t || null === (r = t[0]) || void 0 === r
+                  ? void 0
+                  : r.url) || ""),
+                (e.innerCover =
+                  (null === (o = m["video-inner-cover"]) ||
+                  void 0 === o ||
+                  null === (n = o[0]) ||
+                  void 0 === n
+                    ? void 0
+                    : n.url) || ""),
+                (e.videoUrl =
+                  (null === (l = m["video-url"]) || void 0 === l || null === (d = l[0]) || void 0 === d
+                    ? void 0
+                    : d.url) ||
+                  m["video-url"] ||
+                  ""),
+                (e.youtubeUrl = m["video-youtube"] || ""),
+                (e.cateName = e.sChanName || ""),
+                (e.title = e.sTitle),
+                (e.date = c()(e.dtStartTime, "YYYY-MM-DD")),
+                (e.dateFormat = c()(e.dtStartTime, "MM/DD/YYYY")),
+                (e.id = e.iInfoId));
+            }),
+            e
+          );
+        },
+        getList: function () {
+          var e = this,
+            t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 },
+            r = function () {
+              var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+                t = Object.assign({ iPageSize: 20, iPage: 1 }, e);
+              return t;
+            };
+          return new Promise(function (o, n) {
+            Object(l.get)("".concat(d.apiBase, "/getContentList"), t, r, l.defaultFormatResult)
+              .then(function (data) {
+                ((data.list = e.formatVideo(data.list)), o(data));
+              })
+              .catch(function (e) {
+                n(e);
+              });
+          });
+        },
+        getAllVideos: function () {
+          var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 };
+          return (
+            (e.data = Object.assign({ iChanId: d.CHANNEL_ID_CONFIG.VIDEO.ALL, iPageSize: 9 }, e.data || {})),
+            this.getList(e)
+          );
+        },
+        getHomeVideoList: function () {
+          var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 };
+          return ((e.data = Object.assign({ iPage: 1, iPageSize: 9 }, e.data || {})), this.getAllVideos(e));
+        },
+        getSliderVideos: function () {
+          var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 };
+          return ((e.data = Object.assign({ iPage: 1, iPageSize: 6 }, e.data || {})), this.getAllVideos(e));
+        },
+        isBlankVideoChan: function (e) {
+          var t = d.CHANNEL_ID_CONFIG.VIDEO.BLANK;
+          return !(!t || !e || Number(e) !== Number(t));
+        },
+        parseCatesFromRes: function () {
+          var e = this,
+            t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+            r = t.arrList,
+            n = r && r[0],
+            c = (n && n.children) || [],
+            l = [n].concat(Object(o.a)(c)).filter(function (t) {
+              return t && t.sChanName && !e.isBlankVideoChan(t.iChanId);
+            });
+          return { allCate: n, children: c, tabCates: l };
+        },
+        getCateDisplayName: function (e) {
+          var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : [],
+            r = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "";
+          if (!e) return "";
+          if (this.isBlankVideoChan(e)) return r;
+          var o = t.find(function (t) {
+            return Number(t.iChanId) === Number(e);
+          });
+          return (o && o.sChanName) || "";
+        },
+        getCates: function () {
+          var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : { loading: !1 },
+            t = function () {
+              var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+                param = Object.assign({ iChanId: d.CHANNEL_ID_CONFIG.VIDEO.ALL, iPageSize: 10 }, e);
+              return param;
+            },
+            r = function (data) {
+              var e = (data.children || [])[0] || {};
+              return ((data.mainChanName = e.sChanName || ""), (data.arrList = data.children), data);
+            };
+          return Object(l.get)("/getChildTree", e, t, r);
+        },
+      };
+    },
+    1155: function (e, t, r) {
+      var content = r(1168);
+      (content.__esModule && (content = content.default),
+        "string" == typeof content && (content = [[e.i, content, ""]]),
+        content.locals && (e.exports = content.locals));
+      (0, r(55).default)("2accd326", content, !0, { sourceMap: !1 });
+    },
+    1156: function (e, t, r) {
+      var content = r(1170);
+      (content.__esModule && (content = content.default),
+        "string" == typeof content && (content = [[e.i, content, ""]]),
+        content.locals && (e.exports = content.locals));
+      (0, r(55).default)("2d6f0ea6", content, !0, { sourceMap: !1 });
+    },
+    1157: function (e, t, r) {
+      "use strict";
+      var o = {
+          name: "video-dialog",
+          props: { src: { type: String, default: "" }, iframeSrc: { type: String, default: "" } },
+          data: function () {
+            return { isMobile: this.$isMob };
+          },
+        },
+        n = (r(1167), r(36)),
+        component = Object(n.a)(
+          o,
+          function () {
+            var e = this,
+              t = e._self._c;
+            return t(
+              "div",
+              { staticClass: "video-container", class: [{ mob: e.isMobile, pc: !e.isMobile }] },
+              [
+                e.src
+                  ? t("video", {
+                      staticClass: "video",
+                      attrs: {
+                        src: e.src,
+                        controls: "controls",
+                        autoplay: "autoplay",
+                        playsinline: "",
+                        "webkit-playsinline": "",
+                        "x5-playsinline": "",
+                        "x-webkit-airplay": "allow",
+                        "x5-video-orientation": "portraint",
+                        "x5-video-player-type": "h5",
+                        "x5-video-player-fullscreen": "true",
+                        preload: "auto",
+                      },
+                    })
+                  : t("iframe", {
+                      staticClass: "video video-frame",
+                      attrs: {
+                        src: e.iframeSrc,
+                        type: "text/html",
+                        width: "1280",
+                        height: "720",
+                        frameborder: "0",
+                        allowfullscreen: "",
+                        allowautoplay: "",
+                      },
+                    }),
+              ],
+            );
+          },
+          [],
+          !1,
+          null,
+          "949ad85e",
+          null,
+        );
+      t.a = component.exports;
+    },
+    1167: function (e, t, r) {
+      "use strict";
+      r(1155);
+    },
+    1168: function (e, t, r) {
+      var o = r(54)(!1);
+      (o.push([
+        e.i,
+        ".video-container[data-v-949ad85e]{overflow:hidden;display:flex;justify-content:center;align-items:center;width:12.8rem}.video-container .video[data-v-949ad85e]{background:#000;pointer-events:auto;flex:0 0 auto;width:100%;height:auto;object-fit:contain}.video-container .video.show[data-v-949ad85e]{transform:none}.video-container .video-frame[data-v-949ad85e]{height:7.2rem}.video-container.mob[data-v-949ad85e]{width:100%}.video-container.mob .video-frame[data-v-949ad85e]{height:4rem;width:7.4rem}.video-container.pc video[data-v-949ad85e]{aspect-ratio:16/9}",
+        "",
+      ]),
+        (e.exports = o));
+    },
+    1169: function (e, t, r) {
+      "use strict";
+      r(1156);
+    },
+    1170: function (e, t, r) {
+      var o = r(54),
+        n = r(117),
+        c = r(1171),
+        l = r(1172),
+        d = r(1173),
+        m = o(!1),
+        h = n(c),
+        f = n(l),
+        v = n(d);
+      (m.push([
+        e.i,
+        ".mihoyo-pager-rich{text-align:center}.mihoyo-pager-rich__pages{display:flex;align-items:center;height:.52rem;line-height:.52rem;border-radius:.3rem;background-color:#222122}.mihoyo-pager-rich__button,.mihoyo-pager-rich__ellipsis{display:inline-block;min-width:.64rem;padding:0;margin:0 .06rem;vertical-align:middle;text-align:center;font-size:.2rem;color:#fff}.mihoyo-pager-rich__button{cursor:pointer}.mihoyo-pager-rich__prev,.mihoyo-pager-rich__next{margin:0 .06rem;width:.64rem;height:.4rem;background:url(" +
+          h +
+          ") no-repeat center/100%;transition:all 300ms;cursor:pointer}.mihoyo-pager-rich__prev:hover,.mihoyo-pager-rich__next:hover{transform:scale(1.12)}.mihoyo-pager-rich__prev{margin-right:.24rem}.mihoyo-pager-rich__next{background-image:url(" +
+          f +
+          ");margin-left:.24rem}.mihoyo-pager-rich__current{width:.64rem;background:#fff;color:#000;background:rgba(0,0,0,0) url(" +
+          v +
+          ") no-repeat center center/0.64rem .32rem}.mihoyo-pager-rich .mihoyo-pager-rich__button:hover{color:#000;width:.64rem;background:#fff;background:rgba(0,0,0,0) url(" +
+          v +
+          ") no-repeat center center/0.64rem .32rem}.mihoyo-pager-rich .mihoyo-pager-rich__button:hover:not(.mihoyo-pager-rich__current){transform:scale(1.12)}.mihoyo-pager-rich .mihoyo-pager-rich__text{display:inline-block}.mihoyo-pager-rich .mihoyo-pager-rich__jump{display:inline-block}.mihoyo-pager-rich .mihoyo-pager-rich__jump em{font-style:normal}.mihoyo-pager-rich .mihoyo-pager-rich__input{outline:none;border:0;vertical-align:top}",
+        "",
+      ]),
+        (e.exports = m));
+    },
+    1171: function (e, t) {
+      e.exports =
+        "data:image/png;base64,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";
+    },
+    1172: function (e, t) {
+      e.exports =
+        "data:image/png;base64,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";
+    },
+    1173: function (e, t) {
+      e.exports =
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAgCAYAAACl36CRAAAAAXNSR0IArs4c6QAAAnFJREFUaEPdmLuPTVEYxX9LvEXoqKhEQSQiHomRkCCCkHhVSjM6FeNvMKPSeZQqryBeQUKCxCMaoVBS0RFhvGLJJ2dkcjNz73nsc2bunPbuvdb63XvOXefbosbL9grgILAJWArMrdEuj/RP4DHQL+ml8uwousb2IuAUsAuoxaNoppb1X4ENyYPZ3gJcAOZXDFj39jtJ4W1vBm4AM+pOnkD/ezJ428uz52legmBNSAwlgbe9EHgKLG4idSKPa5Xhbc8GHgKrE4VqQuZz5K0Eb3sKcBHY00TiRB6/gO2S7leFHwSOJgrVlEyvpHNhVhredh9wuqnEiXwGJB0f1ioFb3srcBOYmihUEzKXgAOSXBre9jLgCdAtlRasz+IVW9LQyG+50C9ve0Em1E2V9g5YK+lj6+2VG972rKzS1jRxjybyiEpbL+nNaHq54G3Huqi0vYlCNSETlbZD0r2xzPLCDwDHmkic0KNP0tl2eh3hbfcCZxKGakJqUFJ/J6O28Nl4GpU2rZPQBPr8MrB/ZKUVvu27tNKeAxtbK60Q/GSrtNzwk7HScsFnlRZHUPsm0DPcKcrvrNLudlrY9iXH9ok42SwqMs7rD0sq1Ub//+1tHwLa9uI4Q45mf1JS6fePf/DZweOtLqu0K1ml/Sn7o8j2EuBFl01pkTcq7VtZ8NgX8FeB3VVEGt4bU9o6SR+q+gZ8fHsxsXXDFVNaj6TXKcIGfAz4M1OI1azxA9gZB4+pfAL+NrAtlWBNOp+yI6gxx9MyvgG/EngEzCkjUPOeOG+7DhyR9D6113DVrQJiZu8Bpqc2Kaj3BXgLPADOS3pVcH/u5X8B9ni3uc8/x8MAAAAASUVORK5CYII=";
+    },
+    1174: function (e, t, r) {
+      "use strict";
+      r(556);
+      var o = {
+          name: "mi-ho-yo-pager-rich",
+          props: {
+            totalPage: { type: Number, default: 1, required: !0 },
+            showItems: { type: Number, default: 5 },
+            showPrev: { type: Boolean, default: !0 },
+            showNext: { type: Boolean, default: !0 },
+            showJump: { type: Boolean, default: !0 },
+            initPage: { type: Number, default: 1 },
+            mode: { type: String, default: "event" },
+            routeName: { type: String, default: "" },
+            prevText: { type: String, default: "上一页" },
+            nextText: { type: String, default: "下一页" },
+            totalText: {
+              type: Array,
+              default: function () {
+                return ["共", "页"];
+              },
+            },
+            jumpText: {
+              type: Array,
+              default: function () {
+                return ["跳至", "页", "确认"];
+              },
+            },
+            pagerClass: { type: String, default: "" },
+            simpleStyle: { type: Boolean, default: !1 },
+          },
+          data: function () {
+            return { currentPage: this.initPage, jumpPage: this.initPage };
+          },
+          computed: {
+            pages: function () {
+              var e = this,
+                t = function (t, r) {
+                  ((t <= 1 || t > r || t >= e.totalPage) && (t = 2),
+                    (r >= e.totalPage || r < t || r <= 1) && (r = e.totalPage - 1));
+                  for (var o = [], i = t; i <= r; i++) o.push(i);
+                  return o;
+                },
+                r = this.showItems;
+              if (this.totalPage < r + 2) return t(2, this.totalPage);
+              if (this.currentPage <= Math.ceil(r / 2)) return t(2, r);
+              if (this.currentPage >= this.totalPage - Math.floor(r / 2))
+                return t(this.totalPage + 1 - r, this.totalPage - 1);
+              var o = Math.ceil(r / 2) - 1,
+                n = this.currentPage + o;
+              return (r % 2 == 0 && (n += 1), t(this.currentPage - o, n));
+            },
+          },
+          watch: {
+            currentPage: function (e) {
+              this.jumpPage = e;
+            },
+            initPage: function (e) {
+              this.currentPage !== e && (this.currentPage = e);
+            },
+          },
+          created: function () {
+            if (((this.currentPage = this.initPage), "params" === this.mode && !this.routeName))
+              throw new Error("need a route name when choose params mode in pager component");
+          },
+          beforeMount: function () {},
+          methods: {
+            go: function (e) {
+              if ((e < 1 && (e = 1), e > this.totalPage && (e = this.totalPage), e !== this.currentPage))
+                if (((this.currentPage = parseInt(e, 10)), "query" === this.mode)) {
+                  var t = this.$route.query;
+                  ((t.page = this.currentPage), this.$router.go({ query: t }));
+                } else if ("params" === this.mode) {
+                  var r = this.$route.params;
+                  ((r.page = this.currentPage), this.$router.go({ name: this.routeName, params: r }));
+                } else this.$emit("go", this.currentPage);
+            },
+          },
+        },
+        n = (r(1169), r(36)),
+        component = Object(n.a)(
+          o,
+          function () {
+            var e = this,
+              t = e._self._c;
+            return e.totalPage > 0
+              ? t("div", { staticClass: "mihoyo-pager-rich", class: e.pagerClass }, [
+                  t(
+                    "div",
+                    { staticClass: "mihoyo-pager-rich__pages" },
+                    [
+                      t(
+                        "a",
+                        {
+                          directives: [
+                            { name: "show", rawName: "v-show", value: e.showPrev, expression: "showPrev" },
+                          ],
+                          staticClass: "mihoyo-pager-rich__prev",
+                          class: { "mihoyo-pager-rich__prev--simple": e.simpleStyle },
+                          on: {
+                            click: function (t) {
+                              return e.go(e.currentPage - 1);
+                            },
+                          },
+                        },
+                        [e._v(e._s(e.prevText))],
+                      ),
+                      e._v(" "),
+                      t(
+                        "a",
+                        {
+                          class: [
+                            "mihoyo-pager-rich__button",
+                            1 == e.currentPage ? "mihoyo-pager-rich__current" : "",
+                          ],
+                          on: {
+                            click: function (t) {
+                              return e.go(1);
+                            },
+                          },
+                        },
+                        [e._v("1")],
+                      ),
+                      e._v(" "),
+                      t(
+                        "strong",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: e.pages[0] > 2,
+                              expression: "pages[0] > 2",
+                            },
+                          ],
+                          staticClass: "mihoyo-pager-rich__ellipsis",
+                        },
+                        [e._v("...")],
+                      ),
+                      e._v(" "),
+                      e._l(e.pages, function (r) {
+                        return t(
+                          "a",
+                          {
+                            key: r,
+                            class: [
+                              "mihoyo-pager-rich__button",
+                              e.currentPage == r ? "mihoyo-pager-rich__current" : "",
+                            ],
+                            on: {
+                              click: function (t) {
+                                return e.go(r);
+                              },
+                            },
+                          },
+                          [e._v(e._s(r))],
+                        );
+                      }),
+                      e._v(" "),
+                      t(
+                        "strong",
+                        {
+                          directives: [
+                            {
+                              name: "show",
+                              rawName: "v-show",
+                              value: e.pages[e.pages.length - 1] < e.totalPage - 1,
+                              expression: "pages[pages.length-1] < totalPage - 1",
+                            },
+                          ],
+                          staticClass: "mihoyo-pager-rich__ellipsis",
+                        },
+                        [e._v("...")],
+                      ),
+                      e._v(" "),
+                      e.totalPage > 1
+                        ? t(
+                            "a",
+                            {
+                              class: [
+                                "mihoyo-pager-rich__button",
+                                e.currentPage == e.totalPage ? "mihoyo-pager-rich__current" : "",
+                              ],
+                              on: {
+                                click: function (t) {
+                                  return e.go(e.totalPage);
+                                },
+                              },
+                            },
+                            [e._v(e._s(e.totalPage))],
+                          )
+                        : e._e(),
+                      e._v(" "),
+                      t(
+                        "a",
+                        {
+                          directives: [
+                            { name: "show", rawName: "v-show", value: e.showNext, expression: "showNext" },
+                          ],
+                          staticClass: "mihoyo-pager-rich__next",
+                          class: { "mihoyo-pager-rich__next--simple": e.simpleStyle },
+                          on: {
+                            click: function (t) {
+                              return e.go(e.currentPage + 1);
+                            },
+                          },
+                        },
+                        [e._v(e._s(e.nextText))],
+                      ),
+                    ],
+                    2,
+                  ),
+                  e._v(" "),
+                  !e.simpleStyle && e.showJump && e.totalPage > 1
+                    ? t("div", { staticClass: "mihoyo-pager-rich__jump" }, [
+                        t("div", { staticClass: "mihoyo-pager-rich__text" }, [
+                          e._v("\n      " + e._s(e.totalText[0]) + "\n      "),
+                          t("em", { staticClass: "mihoyo-pager-rich__total" }, [e._v(e._s(e.totalPage))]),
+                          e._v(" "),
+                          t("span", [e._v(e._s(e.totalText[1]) + ", " + e._s(e.jumpText[0]))]),
+                        ]),
+                        e._v(" "),
+                        t("input", {
+                          directives: [
+                            { name: "model", rawName: "v-model", value: e.jumpPage, expression: "jumpPage" },
+                          ],
+                          staticClass: "mihoyo-pager-rich__input",
+                          attrs: { max: e.totalPage, type: "number", min: "1" },
+                          domProps: { value: e.jumpPage },
+                          on: {
+                            input: function (t) {
+                              t.target.composing || (e.jumpPage = t.target.value);
+                            },
+                          },
+                        }),
+                        e._v(" "),
+                        "" !== e.jumpText[1] ? t("span", [e._v(e._s(e.jumpText[1]))]) : e._e(),
+                        e._v(" "),
+                        t(
+                          "a",
+                          {
+                            staticClass: "mihoyo-pager-rich__button mihoyo-pager-rich__go",
+                            on: {
+                              click: function (t) {
+                                return e.go(e.jumpPage);
+                              },
+                            },
+                          },
+                          [e._v(e._s(e.jumpText[2]))],
+                        ),
+                      ])
+                    : e._e(),
+                ])
+              : e._e();
+          },
+          [],
+          !1,
+          null,
+          null,
+          null,
+        );
+      t.a = component.exports;
+    },
+    1209: function (e, t, r) {
+      var content = r(1315);
+      (content.__esModule && (content = content.default),
+        "string" == typeof content && (content = [[e.i, content, ""]]),
+        content.locals && (e.exports = content.locals));
+      (0, r(55).default)("405d6e42", content, !0, { sourceMap: !1 });
+    },
+    1314: function (e, t, r) {
+      "use strict";
+      r(1209);
+    },
+    1315: function (e, t, r) {
+      var o = r(54),
+        n = r(117),
+        c = r(1144),
+        l = r(1316),
+        d = r(1317),
+        m = o(!1),
+        h = n(c),
+        f = n(l),
+        v = n(d);
+      (m.push([
+        e.i,
+        ".m-video{position:relative;margin-top:1.1rem;min-height:100%;background:url(" +
+          h +
+          ') no-repeat 0 0/4rem auto;overflow:hidden}.m-video img{width:100%;height:100%;object-fit:cover;object-position:center center}.m-video-container{padding-bottom:.98rem}.m-video-slider{display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-end}.m-video-slider__title{position:absolute;width:4rem;margin-top:.7rem;margin-right:.4rem;font-size:1.4rem;color:#dfdfdf;line-height:.84;font-family:"Impact",sans-serif;font-style:italic;text-transform:uppercase;text-align:right}.m-video-main{position:relative;margin:3.55rem auto 0;padding:0 .4rem;overflow:hidden}.m-video-tab{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;width:100%;margin-left:1.13rem;margin-bottom:.58rem;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}.m-video-tab::-webkit-scrollbar{display:none}.m-video-tab__item{position:relative;flex-shrink:0;padding:0 .14rem;width:2.05rem;height:.35rem;display:flex;align-items:center;justify-content:center;background-image:url(' +
+          f +
+          ");background-size:100% 100%;background-repeat:no-repeat;cursor:pointer;transition:all 100ms}.m-video-tab__item:last-child{margin-right:2.05rem}.m-video-tab__item--active{background-image:url(" +
+          v +
+          ')}.m-video-tab__item--active .m-video-tab__label{color:#000}.m-video-tab__label{display:block;font-size:.13rem;text-align:center;line-height:.35rem;color:#fff;white-space:nowrap}.m-video-list{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;width:6.7rem;margin:0 auto}.m-video-list__item{width:3.22rem;margin-bottom:.56rem;cursor:pointer}.m-video-list__item-banner{overflow:hidden;width:100%;height:1.83rem;border-top-right-radius:.35rem;border-bottom-left-radius:.35rem}.m-video-list__item-content{margin-top:.24rem}.m-video-list__item-title{width:100%;font-size:.22rem;height:.56rem;font-weight:800;line-height:.28rem;color:#222122;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.m-video-list__item-date{margin-top:.18rem;font-size:.2rem;color:#919091;font-family:Impact}.m-video-pager{display:flex;justify-content:center;width:6.7rem;margin:.2rem auto 0;font-size:0}.m-video-pager .mihoyo-pager-rich{width:100%}.m-video-pager .mihoyo-pager-rich__pages{padding:0 .7rem}.m-video-foot{display:flex;flex-direction:column;justify-content:center;align-items:center;width:6.7rem;margin:1.15rem auto 0;text-align:center}.m-video .back-top{display:flex;flex-direction:row;justify-content:center;align-items:center;min-width:2.42rem;height:.82rem;padding:0 .14rem;background:#000;border:.08rem solid #767678;border-radius:.42rem;font-size:.28rem;font-weight:500;color:#fff}.m-video .back-top::after{margin-left:.26rem;font-size:.18rem;font-family:"icomoon",sans-serif !important;content:"";color:#d6d6d6;transform:rotate(-90deg)}::v-deep .m-section-nav-en{font-size:.21rem}',
+        "",
+      ]),
+        (e.exports = m));
+    },
+    1316: function (e, t) {
+      e.exports =
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAABGCAMAAADCU6KxAAACRlBMVEUAAAD///+AgICqqqqAgICZmZmAgICSkpKfn5+Ojo6ZmZmLi4uVlZWJiYmZiJmPj4+WlpaOjo6UlJSMjIySkpKXi5eQkJCVlZWTk5OOjo6NjY2QkJCUlJSPj4+Tk5OOjo6RkZGUjZSQkJCTk5OPj4+SkpKRkZGTjpOSkpKPj4+SkpKPj4+RkZGTjpOQkJCSjpKQkJCSkpKPj4+RkZGTj5OSjpKQkJCRkZGRkZGSjpKQkJCRkZGTj5ORkZGSj5KRkZGPj4+RkZGSj5KSj5KQkJCRkZGQkJCRkZGSj5KQkJCRkZGQkJCRkZGQkJCQkJCRkZGSkJKRkZGSj5KQkJCQkJCSkJKRkZGSj5KQkJCRkZGSkJKRkZGSkJKQkJCRj5GQkJCSkJKRkZGRkZGQkJCSkJKRkZGQkJCRj5GSkJKRkZGRkJGQkJCRj5GRj5GSkJKRkZGQkJCRkJGRj5GSkJKRkZGRkZGRkJGSkJKRj5GRkZGSkJKRj5GSkJKQkJCRkJGSkJKRj5GSkJKRkZGRkJGRkJGQkJCRkJGRkZGRkJGQkJCRkJGSkJKRkJGRkZGRkJGRkJGSkJKRkJGRkZGQkJCRkJGSkJKRkJGRj5GRkJGQkJCRkJGSkJKRkJGRkJGRkJGRkJGSkJKRkJGRkJGRkJGRkJGRj5GRkJGSkJKRkJGRkJGRkJGRkJGQkJCRkJGRkJGRkJGRkJGRkJGRkJGQkJCRkJGRkJGRkJGRkJGRkJGRkJGRkJGRkJGRkJGRkJGRkJGRkJGRkJGRkJEkjDONAAAAwXRSTlMAAQIDBAUGBwgJCgsMDQ8QERITFBUWFxgaGx0eHyAhJCUmJygpKiwtLzAxMjM0NTY3ODk6Oz0+QUNERUhJSktPUFFSVFVWV1hbXF1eX2NlZmdoaWpsbm9wcXR1dnd4eXp8fX+BhYaIiYyNjo+QkpOUlpeZmpudnqGipKipqq2ur7CxsrO1tre7vL2+v8HCw8XGx8nLzM3O0NHS09TW19ja29zd3t/g4eLl5ufo6err7O3u7/Dy8/T19vf4+fr7/P3+bUq6swAAA/JJREFUGBntwWtDkncUAPADgpIj2VJTNCUrc0tpl0qsXFlbukUXytRqU0vLtdbNboyszExK7cJsTsPSLhIEKBgoogjP+Wb7CP/necF5dX4/UCwzZ31t85XekanAHEuH4GT/WUu+GhTTFZnrTnc7xwJxZOmxOOFoNOvVoJBuy5Hux688c0vI0ibxyXXOnAeKaIp3tfd5JWRpJrmOVYMiZTbH+Cyy9Ava20ABXfnx/gAyCotj90CBitbhEDIaUTfIpt3Y9CyGjIofZDO1DEaRkYmATOpC60AEGZ0wyFT4yx0/MjqL70GeNXvs00lkZFLTgyDLl7svTa4goxN+eAHkyP6+698YMjrJsTM/gQzZlb+5FpDRSXlu15SAmGZDszOMjFCg56BRA0IZJdZHIWSEIgNWowbECuodPmSEFoZPmkAGQ63dl0JGZ2Xk1CYtiOktF98iI7Q8fr5SDWKaby+8TiAj9KZrezaIZX3dNppCRif58WaNHmQob3sRQ0bIe6suF8Qy1h0dnEdGR5q5X29UgVjx4QchZIRm+2ylahBS5e/v8UnI6ESfNm3OArHcvdc/SMjozLs6q3Qgtrr68sQSMjrL7i5LDojpt3WMxpHRSUzd2GkAscyK1qEIMkJe+4G1IKYtsz35jIzQTG9DgQrEig7dDSIjFHE2loIMefvu+CVkdOLPT5g0IGaovTaNjFD8ZUcFyLBqx9V3K8gIuTu36kBMt7XTjYzQyrurO1aBDBUdL+PICE1fqzWAmMZ04nkcGR3Jf2dfHshQ2uiMICMUvHuoCMRUBQ29M8gIfX5iK9OC2NoDdi8yQpGh1opMEDPsvDGVQEYnPtqxTQ9iOZYu9zIyOksTl6tXg5iuqtM1j4yO9OH63lwQy9rc9DSKjI7k69mfrwIhdamtbxYZodCDw8UgpjLW35+RkNGZHzy6LgPEcutueZERWnzRVg4y6Gtufkwio5P6r/2bLBDL3t71BhmhxOs/v9OCmLry/PgyMkJv/7LoQUy76dTICjI6Kd/fPxpABtPJ4QVkhHyOhgIQ0xitAxFkhEKPrCUZIKQxHuwJICM052zZoAGxkprbnhQyOrF/fq/KBhl+PjOeREYnNvrHD1+AHBf7w8joJCcv7f4KZBnySMjIJD32PWtAnvdxZHT8Pb8WgkxhZHQiA1ajGmSKICMTHWwxgWx+ZFRiz5o2akE2dxQZjdBwawUocG9sERmFQP/xch0o0GYPIku/2XGHrQwUqT7mkpClmeTta99VrAFF8sznXJ8SyNJmac7z6nH3kS06UEitNzc6JhaRpUc8MObsPl1nLtKBYup8y9n+yeAcS4NwYGqk90pz7fqcTFDqfzC1oykcB6CVAAAAAElFTkSuQmCC";
+    },
+    1317: function (e, t) {
+      e.exports =
+        "data:image/png;base64,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";
+    },
+    1425: function (e, t, r) {
+      "use strict";
+      r.r(t);
+      (r(77), r(206), r(207));
+      var o = r(1150),
+        n = r(71),
+        c = (r(1143), r(556), r(136), r(137), r(67), r(28)),
+        l = r(1149),
+        d = r(1174),
+        m = r(1153),
+        h = r(1157),
+        f = c.CHANNEL_ID_CONFIG.VIDEO.ALL,
+        v = {
+          layout: "m/default",
+          name: "m-lang-video",
+          components: { pageTab: l.a, mihoyoPagerRich: d.a },
+          head: function () {
+            return {
+              title: "".concat(this.$getI18nWord("seoTitlePrefix")).concat(this.$getI18nWord("navVideo")),
+            };
+          },
+          data: function () {
+            return { initPage: 1 };
+          },
+          computed: {
+            cateId: function () {
+              return this.$route.query.category || f;
+            },
+            activeChannelIndex: function () {
+              var e = this;
+              return (this.cates || []).findIndex(function (t) {
+                return t.iChanId.toString() === e.cateId.toString();
+              });
+            },
+            lang: function () {
+              return this.$store.state.lang;
+            },
+          },
+          watch: {
+            "$route.query.category": function () {
+              this.renderPage(1, "cate");
+            },
+            activeChannelIndex: function () {
+              this.scrollActiveTabToStart();
+            },
+            cates: function () {
+              this.scrollActiveTabToStart();
+            },
+          },
+          mounted: function () {
+            var e = this;
+            setTimeout(function () {
+              return e.scrollActiveTabToStart();
+            }, 100);
+          },
+          asyncData: function (e) {
+            var t = e.query,
+              r = e.store,
+              c = t.category,
+              l = Number(c || f);
+            return Promise.all([
+              m.a.getCates({ data: { sLangKey: r.state.lang } }),
+              m.a.getAllVideos({ data: { iPageSize: 8, iPage: 1, iChanId: l, sLangKey: r.state.lang } }),
+            ]).then(function (e) {
+              var t = Object(n.a)(e, 2),
+                c = t[0],
+                l = t[1];
+              (console.log("catesRes", c), console.log("listRes", l));
+              var d = c.arrList,
+                m = d && d[0],
+                h = (m && m.children) || [],
+                f = [m].concat(Object(o.a)((h || []).reverse())).filter(function (e) {
+                  return e && e.sChanName;
+                });
+              return (
+                r.commit("setVideoCates", h),
+                { cates: f, videoList: l.list, total: Math.ceil(l.iTotal / 8) }
+              );
+            });
+          },
+          methods: {
+            scrollActiveTabToStart: function () {
+              var e = this;
+              this.$nextTick(function () {
+                var t = e.$refs.tabScroll,
+                  r = e.activeChannelIndex;
+                if (t && !(r < 0)) {
+                  var o = t.querySelectorAll(".m-video-tab__item")[r];
+                  if (o) {
+                    var n = t.scrollWidth - t.clientWidth;
+                    if (!(n <= 0)) {
+                      var c = t.getBoundingClientRect(),
+                        l = o.getBoundingClientRect(),
+                        d = t.scrollLeft + (l.left - c.left),
+                        m = Math.min(Math.max(0, d), n);
+                      $(t).stop(!0).animate({ scrollLeft: m }, 300);
+                    }
+                  }
+                }
+              });
+            },
+            handleTabClick: function (e, t) {
+              this.$trackButton("navigation_videos", t);
+            },
+            renderPage: function (e, t) {
+              var r = this;
+              m.a
+                .getAllVideos({
+                  cache: !0,
+                  data: { iChanId: this.cateId, iPageSize: 8, iPage: e, sLangKey: this.$store.state.lang },
+                })
+                .then(function (data) {
+                  if (
+                    ((r.videoList = data.list),
+                    (r.total = Math.ceil(data.iTotal / 8)),
+                    (r.initPage = e),
+                    "cate" !== t)
+                  ) {
+                    var o = r.$refs.videoWrapper;
+                    if (o) {
+                      var n = o.offsetTop;
+                      $("html,body").animate({ scrollTop: n - 20 }, 0);
+                    }
+                  }
+                });
+            },
+            handleTop: function () {
+              $("html,body").animate({ scrollTop: 0 }, 600);
+            },
+            openPlayer: function (video) {
+              var e = this.getVideoDialogInfo(video);
+              e &&
+                (this.$openDialog(h.a, {
+                  transitionType: "scale",
+                  zIndex: 100,
+                  maskClose: !0,
+                  bgOpacity: 0.8,
+                  dialogInfo: e,
+                }),
+                this.$trackButton("video_pics", video.id));
+            },
+            getVideoDialogInfo: function (video) {
+              return video
+                ? video.youtubeUrl
+                  ? { iframeSrc: video.youtubeUrl }
+                  : video.videoUrl
+                    ? { src: video.videoUrl }
+                    : null
+                : null;
+            },
+          },
+        },
+        A = (r(1314), r(36)),
+        component = Object(A.a)(
+          v,
+          function () {
+            var e = this,
+              t = e._self._c;
+            return t(
+              "div",
+              { staticClass: "m-video" },
+              [
+                t("pageTab", { attrs: { "nav-num": 3 } }),
+                e._v(" "),
+                t("div", { staticClass: "m-video-container section-wrap" }, [
+                  t("div", { staticClass: "m-video-slider" }, [
+                    t("div", { staticClass: "m-video-slider__title font-num" }, [
+                      e._v(e._s(e.$getI18nWord("navVideoLabel"))),
+                    ]),
+                  ]),
+                  e._v(" "),
+                  t(
+                    "div",
+                    { ref: "videoWrapper", staticClass: "m-video-main" },
+                    [
+                      t(
+                        "div",
+                        { ref: "tabScroll", staticClass: "m-video-tab" },
+                        e._l(e.cates, function (r, i) {
+                          return t(
+                            "nuxt-link",
+                            {
+                              key: r.iChanId,
+                              staticClass: "m-video-tab__item",
+                              class: {
+                                "m-video-tab__item--active": r.iChanId.toString() === e.cateId.toString(),
+                              },
+                              attrs: {
+                                to: {
+                                  path:
+                                    0 !== i
+                                      ? "/m/"
+                                          .concat(e.lang, "/video?category=")
+                                          .concat(r.iChanId)
+                                          .concat(
+                                            e.$route.query.shareType
+                                              ? "&shareType=" + e.$route.query.shareType
+                                              : "",
+                                          )
+                                      : "/m/"
+                                          .concat(e.lang, "/video")
+                                          .concat(
+                                            e.$route.query.shareType
+                                              ? "?shareType=" + e.$route.query.shareType
+                                              : "",
+                                          ),
+                                },
+                              },
+                              nativeOn: {
+                                click: function (t) {
+                                  return e.handleTabClick(r, i);
+                                },
+                              },
+                            },
+                            [t("span", { staticClass: "m-video-tab__label" }, [e._v(e._s(r.sChanName))])],
+                          );
+                        }),
+                        1,
+                      ),
+                      e._v(" "),
+                      t(
+                        "div",
+                        { staticClass: "m-video-list" },
+                        e._l(e.videoList, function (r) {
+                          return t(
+                            "div",
+                            {
+                              key: r.iInfoId,
+                              staticClass: "m-video-list__item",
+                              on: {
+                                click: function (t) {
+                                  return e.openPlayer(r);
+                                },
+                              },
+                            },
+                            [
+                              t("div", { staticClass: "m-video-list__item-banner" }, [
+                                t("img", { attrs: { src: r.innerCover, alt: "cover" } }),
+                              ]),
+                              e._v(" "),
+                              t("div", { staticClass: "m-video-list__item-content" }, [
+                                t("div", { staticClass: "m-video-list__item-title" }, [
+                                  e._v("\n              " + e._s(r.title) + "\n            "),
+                                ]),
+                                e._v(" "),
+                                t("div", { staticClass: "m-video-list__item-date font-num" }, [
+                                  e._v("\n              " + e._s(r.date) + "\n            "),
+                                ]),
+                              ]),
+                            ],
+                          );
+                        }),
+                        0,
+                      ),
+                      e._v(" "),
+                      e.total > 1 && e.cateId
+                        ? t("mihoyo-pager-rich", {
+                            staticClass: "m-video-pager",
+                            attrs: {
+                              "init-page": e.initPage,
+                              "total-page": e.total,
+                              "show-jump": !1,
+                              "show-prev": !0,
+                              "show-next": !0,
+                              "next-text": "<",
+                              "prev-text": ">",
+                            },
+                            on: { go: e.renderPage },
+                          })
+                        : e._e(),
+                      e._v(" "),
+                      t("div", { staticClass: "m-video-foot" }, [
+                        t("div", { staticClass: "back-top font-hongmeng", on: { click: e.handleTop } }, [
+                          e._v("\n          " + e._s(e.$getI18nWord("textBackTop")) + "\n        "),
+                        ]),
+                      ]),
+                    ],
+                    1,
+                  ),
+                ]),
+              ],
+              1,
+            );
+          },
+          [],
+          !1,
+          null,
+          null,
+          null,
+        );
+      t.default = component.exports;
+    },
+  },
+]);

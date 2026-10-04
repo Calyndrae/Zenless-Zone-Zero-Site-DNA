@@ -1,0 +1,58 @@
+{
+ "sameOrigin": [
+  "https://zenless.hoyoverse.com/zh-cn/character",
+  "https://zenless.hoyoverse.com/zh-cn/video",
+  "https://zenless.hoyoverse.com/zh-cn/news",
+  "https://zenless.hoyoverse.com/zh-cn/world",
+  "https://zenless.hoyoverse.com/zh-cn/company/privacy",
+  "https://zenless.hoyoverse.com/zh-cn/company/terms",
+  "https://zenless.hoyoverse.com/redemption",
+  "https://zenless.hoyoverse.com/payment",
+  "https://zenless.hoyoverse.com/zh-cn/news/166535",
+  "https://zenless.hoyoverse.com/zh-cn/news/166498",
+  "https://zenless.hoyoverse.com/zh-cn/news/166497",
+  "https://zenless.hoyoverse.com/zh-cn/news/166496",
+  "https://zenless.hoyoverse.com/zh-cn/news/166476",
+  "https://zenless.hoyoverse.com/zh-cn/news/166475",
+  "https://zenless.hoyoverse.com/zh-cn/world/102370",
+  "https://zenless.hoyoverse.com/zh-cn/world/102257",
+  "https://zenless.hoyoverse.com/zh-cn/world/102173"
+ ],
+ "external": [
+  {
+   "text": "攻略",
+   "href": "https://act.hoyolab.com/zzz/event/e20240601-guide-c0k2vt/index.html?game_biz=nap_global&hyl_presentation_style=fullscreen&hyl_auth_required=true&hyl_hide_status_bar=true&utm_source=napofficialweb&utm_medium=nav&utm_campaign=guide",
+   "target": "_blank"
+  },
+  {
+   "text": "Drip Fest 2025",
+   "href": "https://hoyo.link/5zqkrlTAd",
+   "target": "_blank"
+  },
+  {
+   "text": "关于我们",
+   "href": "https://www.hoyoverse.com/about-us?utm_source=zzz&utm_medium=footer",
+   "target": "_blank"
+  },
+  {
+   "text": "联系我们",
+   "href": "mailto:zzz_cs@hoyoverse.com",
+   "target": "_blank"
+  },
+  {
+   "text": "服务中心",
+   "href": "https://cs.hoyoverse.com/static/hoyoverse-new-csc-service-hall-fe/index.html?page_id=19&login_type=visitor&game_biz=platform_hyvpass&lang=zh-cn&utm_source=zzz&utm_medium=footer",
+   "target": "_blank"
+  },
+  {
+   "text": "",
+   "href": "https://www.hoyoverse.com/?utm_source=zzz&utm_medium=footer",
+   "target": "_blank"
+  }
+ ],
+ "worldIds": [
+  102370,
+  102257,
+  102173
+ ]
+}

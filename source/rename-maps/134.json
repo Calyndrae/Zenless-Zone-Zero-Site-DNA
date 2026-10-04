@@ -1,0 +1,15 @@
+{
+  "summary": "Nuxt error page component (uses the `errorLayout` layout) that receives an `error` prop (default statusCode 500). It renders `.error` with either an `.error__404` block or an `.error__500` block, each showing an illustration image, i18n texts (`error404`/`error404Sub` or `error502`/`error502Sub` via `$getI18nWord`) in `.error__text-main`/`.error__text-sub`, and an `.error__btn` \"back home\" button (hidden when already on `lang-main`/`m-lang-main`) whose `handleBack` method pushes the `m-lang-main` or `lang-main` route depending on `$isMob`.",
+  "exports": {
+    "a": "the error page Vue component (normalized component exports)"
+  },
+  "renames": {
+    "o_1": "errorPageOptions",
+    "l_2": "componentNormalizer",
+    "t_3": "mainRouteName",
+    "t_4": "vm",
+    "e_5": "h",
+    "e_6": "backClickEvent404",
+    "e_7": "backClickEvent500"
+  }
+}

@@ -1,0 +1,230 @@
+{
+ "component": "mhy-bridge-message-box-mask",
+ "files": [
+  "527.css"
+ ],
+ "classes": {
+  "mhy-bridge-message-box-mask": "mhy-bridge-message-box-mask"
+ },
+ "ruleCount": 8,
+ "rules": [
+  {
+   "selector": ".mhy-bridge-message-box-mask",
+   "media": [],
+   "declarations": {
+    "position": "fixed",
+    "top": "0",
+    "bottom": "0",
+    "left": "0",
+    "right": "0",
+    "background-color": "rgba(0, 0, 0, 0.5)",
+    "-webkit-animation": "messageBoxMaskIn 200ms ease",
+    "animation": "messageBoxMaskIn 200ms ease",
+    "opacity": "1",
+    "-webkit-transition": "opacity 200ms ease",
+    "-o-transition": "opacity 200ms ease",
+    "transition": "opacity 200ms ease",
+    "z-index": "999",
+    "font-size": "3.73333vmin"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  },
+  {
+   "selector": ".mhy-bridge-message-box-mask .mhy-bridge-message-box",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "50%",
+    "left": "0",
+    "right": "0",
+    "margin": "auto",
+    "width": "66.66667vmin",
+    "text-align": "center",
+    "-webkit-transform": "translateY(-50%)",
+    "-ms-transform": "translateY(-50%)",
+    "transform": "translateY(-50%)",
+    "border-radius": "2.13333vmin",
+    "background-color": "#fff",
+    "-webkit-animation": "messageBoxScaleIn 200ms ease",
+    "animation": "messageBoxScaleIn 200ms ease"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  },
+  {
+   "selector": ".mhy-bridge-message-box-mask .mhy-bridge-message-box header",
+   "media": [],
+   "declarations": {
+    "font-size": "4.26667vmin",
+    "line-height": "12vmin",
+    "border-bottom": "1px solid #f0f0f0"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  },
+  {
+   "selector": ".mhy-bridge-message-box-mask .mhy-bridge-message-box .mhy-bridge-message-box-content",
+   "media": [],
+   "declarations": {
+    "padding": "4.26667vmin 8.53333vmin",
+    "font-size": "3.73333vmin",
+    "line-height": "1.5",
+    "word-break": "break-all"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  },
+  {
+   "selector": ".mhy-bridge-message-box-mask .mhy-bridge-message-box footer",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "border-top": "1px solid #f0f0f0",
+    "line-height": "12vmin",
+    "color": "#6cf",
+    "font-size": "3.73333vmin"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  },
+  {
+   "selector": ".mhy-bridge-message-box-mask .mhy-bridge-message-box footer .confirm-item",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "1",
+    "-ms-flex": "1",
+    "flex": "1",
+    "border-right": "1px solid #f0f0f0",
+    "cursor": "pointer",
+    "-webkit-highlight": "none",
+    "-webkit-tap-highlight-color": "transparent"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  },
+  {
+   "selector": ".mhy-bridge-message-box-mask .mhy-bridge-message-box footer .confirm-item:last-child",
+   "media": [],
+   "declarations": {
+    "border-right": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  },
+  {
+   "selector": ".mhy-bridge-message-box-mask.message-box-close",
+   "media": [],
+   "declarations": {
+    "opacity": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #527"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "messageBoxScaleIn",
+   "file": "527.css",
+   "source": "/_nuxt/be1f69b.js #527",
+   "css": "@-webkit-keyframes messageBoxScaleIn {\n  from {\n    -webkit-transform: translateY(-50%) scale(0.3);\n    transform: translateY(-50%) scale(0.3); }\n  to {\n    -webkit-transform: translateY(-50%) scale(1);\n    transform: translateY(-50%) scale(1); } }",
+   "steps": [
+    {
+     "at": "from",
+     "declarations": {
+      "-webkit-transform": "translateY(-50%) scale(0.3)",
+      "transform": "translateY(-50%) scale(0.3)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "-webkit-transform": "translateY(-50%) scale(1)",
+      "transform": "translateY(-50%) scale(1)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "messageBoxScaleIn",
+   "file": "527.css",
+   "source": "/_nuxt/be1f69b.js #527",
+   "css": "@keyframes messageBoxScaleIn {\n  from {\n    -webkit-transform: translateY(-50%) scale(0.3);\n    transform: translateY(-50%) scale(0.3); }\n  to {\n    -webkit-transform: translateY(-50%) scale(1);\n    transform: translateY(-50%) scale(1); } }",
+   "steps": [
+    {
+     "at": "from",
+     "declarations": {
+      "-webkit-transform": "translateY(-50%) scale(0.3)",
+      "transform": "translateY(-50%) scale(0.3)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "-webkit-transform": "translateY(-50%) scale(1)",
+      "transform": "translateY(-50%) scale(1)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "messageBoxMaskIn",
+   "file": "527.css",
+   "source": "/_nuxt/be1f69b.js #527",
+   "css": "@-webkit-keyframes messageBoxMaskIn {\n  from {\n    background-color: rgba(0, 0, 0, 0); }\n  to {\n    background-color: rgba(0, 0, 0, 0.5); } }",
+   "steps": [
+    {
+     "at": "from",
+     "declarations": {
+      "background-color": "rgba(0, 0, 0, 0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "background-color": "rgba(0, 0, 0, 0.5)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "messageBoxMaskIn",
+   "file": "527.css",
+   "source": "/_nuxt/be1f69b.js #527",
+   "css": "@keyframes messageBoxMaskIn {\n  from {\n    background-color: rgba(0, 0, 0, 0); }\n  to {\n    background-color: rgba(0, 0, 0, 0.5); } }",
+   "steps": [
+    {
+     "at": "from",
+     "declarations": {
+      "background-color": "rgba(0, 0, 0, 0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "background-color": "rgba(0, 0, 0, 0.5)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "rgba(0, 0, 0, 0.5)",
+   "#fff",
+   "#f0f0f0",
+   "#6cf"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "3.73333vmin",
+   "4.26667vmin"
+  ],
+  "zIndex": [
+   "999"
+  ],
+  "transitions": [
+   "messageBoxMaskIn 200ms ease",
+   "opacity 200ms ease",
+   "messageBoxScaleIn 200ms ease"
+  ]
+ }
+}

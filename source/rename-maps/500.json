@@ -1,0 +1,32 @@
+{
+  "summary": "Cache utilities module (ES module named exports). It provides localStorage helpers that store values wrapped as JSON `{ timestamp, value }` (`setLocalStorageCache`, `getLocalStorageCache`, `removeLocalStorageCache`, `getLocalStorageInfo`) and an in-memory `memoryCache` object (backed by a closure map) with `set`, `get`, `remove` and `getInfo` methods using the same timestamped record shape.",
+  "exports": {
+    "setLocalStorageCache": "setLocalStorageCache(key, value) — stores a timestamped JSON record in localStorage",
+    "getLocalStorageCache": "getLocalStorageCache(key) — returns the stored value or null",
+    "removeLocalStorageCache": "removeLocalStorageCache(key) — removes the localStorage entry",
+    "getLocalStorageInfo": "getLocalStorageInfo(key) — returns the parsed { timestamp, value } record",
+    "memoryCache": "in-memory cache object { set, get, remove, getInfo }"
+  },
+  "renames": {
+    "o_1": "setLocalStorageCache",
+    "l_2": "getLocalStorageCache",
+    "r_3": "removeLocalStorageCache",
+    "A_4": "getLocalStorageInfo",
+    "m_5": "memoryStore",
+    "d_6": "memoryCache",
+    "t_7": "setKey",
+    "e_8": "value",
+    "n_9": "storage",
+    "o_10": "serialized",
+    "t_11": "getKey",
+    "e_12": "rawValue",
+    "t_13": "removeKey",
+    "t_14": "infoKey",
+    "e_15": "rawInfo",
+    "t_16": "memorySetKey",
+    "e_17": "memoryValue",
+    "t_18": "memoryGetKey",
+    "t_19": "memoryRemoveKey",
+    "t_20": "memoryInfoKey"
+  }
+}

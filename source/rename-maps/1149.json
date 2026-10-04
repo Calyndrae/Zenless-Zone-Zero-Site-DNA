@@ -1,0 +1,12 @@
+{
+  "summary": "page-tab Vue component, mobile variant. Props navNum, size, theme and direction; data navInfo is the (navNum-1)th entry of the nav list from module 49, and computed hideEnLabel is true for store lang \"en-us\"/\"id-id\". It renders div.m-section-nav.font-num (size/direction classes, has-theme) with an optional svg.m-section-nav-bg path filled with the theme colour and .m-section-nav-inner containing .m-section-nav-label (i18n pageNavChara for navNum 2, else navInfo.mi18nKey, via innerHTML), a v-show .m-section-nav-en label and .m-section-nav-num (\"0\" + navNum). Normalised with componentNormalizer (module 36); styles from module 1234.",
+  "exports": {
+    "a": "mobile page-tab Vue component (m-section-nav label with number)"
+  },
+  "renames": {
+    "m_1": "pageTabOptions",
+    "l_2": "componentNormalizer",
+    "n_3": "vm",
+    "D_4": "h"
+  }
+}

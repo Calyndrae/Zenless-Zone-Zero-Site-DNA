@@ -1,0 +1,123 @@
+{
+ "component": "video-tag",
+ "files": [
+  "1400.css"
+ ],
+ "classes": {
+  "video-tag": "video-tag",
+  "video-tag__text": "video-tag__text"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".video-tag",
+   "media": [],
+   "declarations": {
+    "min-width": ".44rem",
+    "padding": ".02rem .1rem",
+    "background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAeCAMAAADQFyqnAAAAP1BMVEUXFxcAAAAXFxcSEhIWFhYWFhYXFxcZGRkWFhYWFhYXFxcXFxcVFRUXFxcXFxcXFxcXFxcXFxcYGBgTExMXFxcWGeK9AAAAFHRSTlPzADUGR5uFEN3tyHQMsvnPeWEVG31lfqIAAAC4SURBVEjHxdeJEYMwDARAnfybJ5Co/1pDIB6o4LQN3Mjj5ywYiualNiGoSQNG8HvvRrTNV3CI3bjiGTxPxtYFQMjGJ0CYzIEA0TwI5moOqmAyD1lCMw8q0TykIsk8KORlDlKBiDlQgJt7DwyvgclLfQ/ssblWxcHhOOWAA/8CaYof/pW54UR/JF6KE/1Z3HFhF4Hlgwu5+kjEH7nsZQzcepsKBmahX/OdS/zCrD3igfNpa3XZNODpCzN9+CaR976uAAAAAElFTkSuQmCC) center center/100% 100%"
+   },
+   "source": "/_nuxt/53d09dd.js #1400"
+  },
+  {
+   "selector": ".video-tag__text",
+   "media": [],
+   "declarations": {
+    "color": "#d8fa00",
+    "font-size": ".12rem",
+    "text-align": "center",
+    "white-space": "nowrap"
+   },
+   "source": "/_nuxt/53d09dd.js #1400"
+  }
+ ],
+ "markup": "<div class=\"video-tag\"><div class=\"video-tag__text\">\n      角色PV\n    </div></div>",
+ "markupPage": "zh-cn_video",
+ "markupClass": "video-tag",
+ "appearsOn": [
+  "zh-cn_video"
+ ],
+ "computed": {
+  "video-tag": {
+   "page": "zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 430.25,
+    "y": 856.125,
+    "width": 34.265625,
+    "height": 9,
+    "top": 856.125,
+    "right": 464.515625,
+    "bottom": 865.125,
+    "left": 430.25
+   },
+   "text": "角色PV",
+   "display": "block",
+   "width": "34.2656px",
+   "height": "9px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "12.375px",
+   "font-weight": "400",
+   "line-height": "12.375px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAeCAMAAADQFyqnAAAAP1BMVEUXFxcAAAAXFxcSEhIWFhYWFhYXFxcZGRkWFhYWFhYXFxcXFxcVFRUXFxcXFxcXFxcXFxcXFxcYGBgTExMXFxcWGeK9AAAAFHRSTlPzADUGR5uFEN3tyHQMsvnPeWEVG31lfqIAAAC4SURBVEjHxdeJEYMwDARAnfybJ5Co/1pDIB6o4LQN3Mjj5ywYiualNiGoSQNG8HvvRrTNV3CI3bjiGTxPxtYFQMjGJ0CYzIEA0TwI5moOqmAyD1lCMw8q0TykIsk8KORlDlKBiDlQgJt7DwyvgclLfQ/ssblWxcHhOOWAA/8CaYof/pW54UR/JF6KE/1Z3HFhF4Hlgwu5+kjEH7nsZQzcepsKBmahX/OdS/zCrD3igfNpa3XZNODpCzN9+CaR976uAAAAAElFTkSuQmCC\")",
+   "background-size": "100% 100%",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "1.125px 5.625px",
+   "margin": "0px 11.25px 0px 0px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "video-tag__text": {
+   "page": "zh-cn_video",
+   "tag": "DIV",
+   "rect": {
+    "x": 435.875,
+    "y": 857.25,
+    "width": 23.015625,
+    "height": 6.75,
+    "top": 857.25,
+    "right": 458.890625,
+    "bottom": 864,
+    "left": 435.875
+   },
+   "text": "角色PV",
+   "display": "block",
+   "width": "23.0156px",
+   "height": "6.75px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "6.75px",
+   "font-weight": "400",
+   "line-height": "6.75px",
+   "color": "rgb(216, 250, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(216, 250, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#d8fa00"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".12rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

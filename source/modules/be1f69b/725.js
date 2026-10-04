@@ -1,0 +1,3 @@
+// module 725 from be1f69b.js
+// deps: 
+const module_725 = function(e,t,n){"use strict";function r(e,t){return Object.prototype.hasOwnProperty.call(e,t)}e.exports=function(e,t,n,c){t=t||"&",n=n||"=";var l={};if("string"!=typeof e||0===e.length)return l;var f=/\+/g;e=e.split(t);var d=1e3;c&&"number"==typeof c.maxKeys&&(d=c.maxKeys);var h=e.length;d>0&&h>d&&(h=d);for(var i=0;i<h;++i){var m,v,y,w,_=e[i].replace(f,"%20"),k=_.indexOf(n);k>=0?(m=_.substr(0,k),v=_.substr(k+1)):(m=_,v=""),y=decodeURIComponent(m),w=decodeURIComponent(v),r(l,y)?o(l[y])?l[y].push(w):l[y]=[l[y],w]:l[y]=w}return l};var o=Array.isArray||function(e){return"[object Array]"===Object.prototype.toString.call(e)}};

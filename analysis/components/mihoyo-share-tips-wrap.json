@@ -1,0 +1,38 @@
+{
+ "component": "mihoyo-share-tips-wrap",
+ "files": [
+  "334.css"
+ ],
+ "classes": {
+  "mihoyo-share-tips-wrap": "mihoyo-share-tips-wrap"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".mihoyo-share-tips-wrap",
+   "media": [],
+   "declarations": {
+    "position": "fixed",
+    "left": "0",
+    "top": "0",
+    "height": "100%",
+    "width": "100%"
+   },
+   "source": "/_nuxt/be1f69b.js #334"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

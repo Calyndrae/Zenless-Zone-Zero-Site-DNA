@@ -1,0 +1,16 @@
+{
+  "summary": "Vue component `header-social`, the share/follow popover in the header. It renders `.share` > `.share__info` with a `.share__icon` trigger and, client-only, a `.share__panel` / `.share__panel-wrap` containing a `.share__title` (`socialFollow` i18n text) and a `.share__list` with `media-icon` bound to `$store.getters.mediaConfig` plus a `hover-btn.copy-btn` in the `extra-media-end` slot. Methods track `Media_Share`, `Media_Sub_Follow` and `Media_Sub_Share` via `$trackButton`, and the copy button copies `shareCopyText` with `$clipboard` and shows `copySuccess` via `$mtoast`.",
+  "exports": {
+    "a": "the header-social Vue component (normalized component exports)"
+  },
+  "renames": {
+    "o_1": "headerSocialOptions",
+    "l_2": "componentNormalizer",
+    "t_3": "mediaName",
+    "t_4": "sharePlatform",
+    "e_5": "self",
+    "t_6": "vm",
+    "e_7": "h",
+    "e_8": "copyClickEvent"
+  }
+}

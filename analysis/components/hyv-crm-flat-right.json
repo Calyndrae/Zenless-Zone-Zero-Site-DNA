@@ -1,0 +1,89 @@
+{
+ "component": "hyv-crm-flat-right",
+ "files": [
+  "1054.css"
+ ],
+ "classes": {
+  "hyv-crm-flat-right": "hyv-crm-flat-right"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".hyv-crm-flat-right",
+   "media": [],
+   "declarations": {
+    "-webkit-box-flex": "0",
+    "-webkit-box-pack": "justify",
+    "-ms-flex-pack": "justify",
+    "display": "flex",
+    "-ms-flex": "0 0 40%",
+    "flex": "0 0 40%",
+    "justify-content": "space-between",
+    "max-width": "600px"
+   },
+   "source": "/_nuxt/be1f69b.js #1054"
+  }
+ ],
+ "markup": "<div class=\"hyv-crm-flat-right\"><div class=\"hyv-crm-flat-right-form\"><div class=\"hyv-form-item__item hyv-form-item-item__email\"><div class=\"hyv-form-item__controls\"><div class=\"hyv-form-item__controls-content\"><div class=\"hyv-input hyv-input-normal\"><div class=\"hyv-input__wrapper\"><div><label class=\"hyv-input__label\">电子邮箱</label><input type=\"text\" class=\"hyv-input__inner\"></div><div name=\"suffix\" class=\"hyv-input__suffix\"></div></div><div class=\"hyv-input__helper-text\"></div></div></div></div></div><div class=\"hyv-form-item__item hyv-form-item-item__agree\"><div class=\"hyv-form-item__controls\"><div class=\"hyv-form-item__controls-content\"><div class=\"hyv-checkbox hyv-checkbox-small\"><label class=\"hyv-checkbox__container\"><input type=\"checkbox\" class=\"hyv-checkbox__input\"><span class=\"hyv-checkbox__inner hyv-checkbox__inner-unchecked\"></span><div class=\"hyv-subscription-agree\">已同意收集并使用个人数据接收活动邀请及其他游戏信息。 <a class=\"\" target=\"__blank\" href=\"https://zenless.hoyoverse.com/zh-cn/company/privacy\">阅读详情&gt;&gt;</a></div></label></div></div></div></div></div><div class=\"hyv-crm-flat-right-button\"><button class=\"hyv-button hyv-button-size-l hyv-button-filled\" style=\"width: 100%; display: flex; margin-top: 0.16em;\"><span class=\"hyv-button__text\">现在订阅</span></button></div></div>",
+ "markupPage": "zh-cn_character",
+ "markupClass": "hyv-crm-flat-right",
+ "appearsOn": [
+  "zh-cn_character",
+  "zh-cn_company_privacy",
+  "zh-cn_company_terms",
+  "zh-cn_main",
+  "zh-cn_news",
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535",
+  "zh-cn_video",
+  "zh-cn_world",
+  "zh-cn_world_102173",
+  "zh-cn_world_102257",
+  "zh-cn_world_102370"
+ ],
+ "computed": {
+  "hyv-crm-flat-right": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "电子邮箱已同意收集并使用个人数据接收活动邀请及其他游戏信息。 阅读详情>>现在订阅",
+   "display": "flex",
+   "font-family": "Inter, \"Microsoft YaHei\", sans-serif",
+   "font-size": "100px",
+   "font-weight": "400",
+   "line-height": "100px",
+   "color": "rgb(60, 63, 68)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(60, 63, 68)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 40%",
+   "justify-content": "space-between"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

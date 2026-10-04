@@ -1,0 +1,21 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 200 
+content-type: text/html
+content-length: 8184
+date: Sat, 03 Oct 2026 23:05:15 GMT
+x-access-mode: normal
+server: nginx
+accept-ranges: bytes
+cache-control: max-age=300,s-maxage=86400
+etag: "c14850b6dcbe01d83eb242801f99fe6f"
+last-modified: Thu, 13 Aug 2026 02:43:44 GMT
+x-amz-server-side-encryption: AES256
+x-request-id: e4dfd409-bf7e-11f1-85f5-6a616dd75843
+vary: Origin,Accept-Encoding
+via: 1.1 be186fed299dda1ccfe93db37fe3b3fa.cloudfront.net (CloudFront)
+age: 2060
+x-cache: Hit from cloudfront
+x-amz-cf-pop: IAD12-P1
+x-amz-cf-id: kaY-SqNCNIZrAdurgjyWzEDwrF-9Om94xM4OuieT8Qfjzo-8ybRStg==
+

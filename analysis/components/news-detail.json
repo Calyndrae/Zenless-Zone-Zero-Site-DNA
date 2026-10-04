@@ -1,0 +1,380 @@
+{
+ "component": "news-detail",
+ "files": [
+  "1411.css"
+ ],
+ "classes": {
+  "news-detail": "news-detail",
+  "news-detail__title": "news-detail__title",
+  "news-detail__info": "news-detail__info",
+  "news-detail__content": "news-detail__content"
+ },
+ "ruleCount": 19,
+ "rules": [
+  {
+   "selector": ".news-detail",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin-top": "1rem",
+    "min-height": "100%"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail .backContainer",
+   "media": [],
+   "declarations": {
+    "position": "sticky",
+    "right": "1.5rem",
+    "bottom": "0",
+    "z-index": "90",
+    "width": "100%",
+    "height": "1.8rem"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail .backContainer .backTop",
+   "media": [],
+   "declarations": {
+    "left": "auto",
+    "right": "1.5rem",
+    "background-position": "bottom center"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail .section__foot",
+   "media": [],
+   "declarations": {
+    "width": "3.4rem",
+    "height": "9.8rem",
+    "right": "0",
+    "background-size": "auto 100%",
+    "z-index": "-1"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail::before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "top": "1.6rem",
+    "left": "-6.9rem",
+    "width": "9.9rem",
+    "height": "4.8rem",
+    "background": "url(/_nuxt/img/inner-top.5496864.png) no-repeat 0 0/100% auto"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__title",
+   "media": [],
+   "declarations": {
+    "font-size": ".46rem",
+    "font-weight": "800",
+    "color": "#222122",
+    "text-align": "center",
+    "line-height": "1.3"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__info",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "space-between",
+    "align-items": "center",
+    "height": ".64rem",
+    "padding": "0 .54rem",
+    "margin": ".9rem 0",
+    "font-size": ".24rem",
+    "line-height": "1",
+    "color": "#fff",
+    "background-color": "#222122",
+    "border-radius": ".32rem"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__info .breadcrumb",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__info .news-tag",
+   "media": [],
+   "declarations": {
+    "min-width": "auto",
+    "width": "auto",
+    "font-size": ".24rem",
+    "color": "#fff",
+    "font-weight": "normal",
+    "background": "rgba(0,0,0,0)"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__info .news-tag::after",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content",
+   "media": [],
+   "declarations": {
+    "font-size": ".2rem",
+    "padding-bottom": "1.3rem",
+    "color": "#222122",
+    "line-height": "1.5"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content .table-wrapper",
+   "media": [],
+   "declarations": {
+    "overflow": "auto"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content img,.news-detail__content video",
+   "media": [],
+   "declarations": {
+    "max-width": "100% !important",
+    "height": "auto !important"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content img",
+   "media": [],
+   "declarations": {
+    "display": "inline-block"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content table",
+   "media": [],
+   "declarations": {
+    "width": "100%"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content table,.news-detail__content td",
+   "media": [],
+   "declarations": {
+    "border-collapse": "collapse",
+    "border": "solid 1px #c2c2c2"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content td",
+   "media": [],
+   "declarations": {
+    "padding-left": "10px"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content td p",
+   "media": [],
+   "declarations": {
+    "text-align": "inherit",
+    "max-width": "90%"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  },
+  {
+   "selector": ".news-detail__content a",
+   "media": [],
+   "declarations": {
+    "max-width": "100%",
+    "word-break": "break-word"
+   },
+   "source": "/_nuxt/0d508be.js #1411"
+  }
+ ],
+ "markup": "<div class=\"m-news-detail\"><div class=\"m-news-detail-container\"><article class=\"m-news-detail__article\"><div class=\"m-news-detail__title\">\n        《绝区零》2026年10月月历壁纸\n      </div> <div class=\"m-news-detail__info\"><div class=\"breadcrumb\"><span>绝区零</span>\n          &gt;\n          <div class=\"news-tag\">\n  新闻\n</div></div> <div>2026/10/01</div></div> <div class=\"m-news-detail__content\"><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">「抱歉，小姐现在很忙，不方便见人。」</p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">「限定款茶歇蛋糕要化了？...稍等，我去问一下小姐。」</p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"></p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">亲爱的绳匠，欢迎下载&amp;使用10月月历壁纸~</p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"></p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\">▼下载链接内包含手机与电脑版壁纸。</p><p style=\"white-space: pre-wrap; text-align: center; line-height: 2;\"><a href=\"https://hoyo.link/f1YaVhJnI\" data-type=\"a\" link-type=\"game_none\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">https://hoyo.link/f1YaVhJnI</a> </p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"></p><p style=\"white-space: pre-wrap; min-height: 1.5em; text-align: center; line-height: 2;\"><img src=\"https://fastcdn.hoyoverse.com/content-v2/nap/166535/8334e2038691c9699e548dfbf577f894_4948577812846636085.jpg\" href=\"\" data-origin-width=\"\" style=\"vertical-align:middle;\"></p></div></article> <a href=\"/m/zh-cn/news\" class=\"m-news-detail__foot nuxt-link-active\"><div class=\"m-news-detail__back\">返回</div></a></div></div>",
+ "markupPage": "m_zh-cn_news_166535",
+ "markupClass": "news-detail",
+ "appearsOn": [
+  "zh-cn_news_166475",
+  "zh-cn_news_166476",
+  "zh-cn_news_166496",
+  "zh-cn_news_166497",
+  "zh-cn_news_166498",
+  "zh-cn_news_166535"
+ ],
+ "computed": {
+  "news-detail": {
+   "page": "zh-cn_news_166475",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 56.25,
+    "width": 1440,
+    "height": 4460.203125,
+    "top": 56.25,
+    "right": 1440,
+    "bottom": 4516.453125,
+    "left": 0
+   },
+   "text": "返回 back \n            3.2版本限时频段（下期）\n           \n              绝区零 > \n  公告\n 2026/0",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "4460.2px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "56.25px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "news-detail__content": {
+   "page": "zh-cn_news_166475",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 373.375,
+    "width": 720,
+    "height": 3951.828125,
+    "top": 373.375,
+    "right": 1080,
+    "bottom": 4325.203125,
+    "left": 360
+   },
+   "text": "亲爱的绳匠：本期代理人与音擎调频活动时间为： 2026-09-30 12:00（服务器时间） ~ 2026-10-20 14:59（服务器时间），包含如下内容：",
+   "display": "block",
+   "width": "720px",
+   "height": "3951.83px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.25px",
+   "font-weight": "400",
+   "line-height": "16.875px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "padding": "0px 0px 73.125px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "news-detail__info": {
+   "page": "zh-cn_news_166475",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 286.75,
+    "width": 720,
+    "height": 36,
+    "top": 286.75,
+    "right": 1080,
+    "bottom": 322.75,
+    "left": 360
+   },
+   "text": "绝区零 > \n  公告\n 2026/09/28",
+   "display": "flex",
+   "width": "720px",
+   "height": "36px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "13.5px",
+   "font-weight": "400",
+   "line-height": "13.5px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(34, 33, 34)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "border-radius": "18px",
+   "padding": "0px 30.375px",
+   "margin": "50.625px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto",
+   "justify-content": "space-between",
+   "align-items": "center"
+  },
+  "news-detail__title": {
+   "page": "zh-cn_news_166475",
+   "tag": "DIV",
+   "rect": {
+    "x": 360,
+    "y": 202.5,
+    "width": 720,
+    "height": 33.625,
+    "top": 202.5,
+    "right": 1080,
+    "bottom": 236.125,
+    "left": 360
+   },
+   "text": "3.2版本限时频段（下期）",
+   "display": "block",
+   "width": "720px",
+   "height": "33.625px",
+   "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "25.875px",
+   "font-weight": "800",
+   "line-height": "33.6375px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#222122",
+   "#fff",
+   "rgba(0,0,0,0)",
+   "#c2c2c2"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".46rem",
+   ".24rem",
+   ".2rem"
+  ],
+  "zIndex": [
+   "90",
+   "-1"
+  ],
+  "transitions": []
+ }
+}

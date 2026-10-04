@@ -1,0 +1,79 @@
+{
+ "component": "character-block",
+ "files": [
+  "1250.css"
+ ],
+ "classes": {
+  "character-block": "character-block"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".character-block",
+   "media": [],
+   "declarations": {
+    "width": "2rem",
+    "height": "2rem",
+    "position": "absolute",
+    "transform": "skewX(-40deg)",
+    "right": "-1.2rem",
+    "bottom": "-0.5rem"
+   },
+   "source": "/_nuxt/564bae5.js #1250"
+  }
+ ],
+ "markup": "<div class=\"character-block\" style=\"background: rgb(21, 102, 184);\"></div>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "character-block",
+ "appearsOn": [
+  "m_zh-cn_character"
+ ],
+ "computed": {
+  "character-block": {
+   "page": "m_zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 304.7574462890625,
+    "y": 858.484375,
+    "width": 191.266357421875,
+    "height": 104,
+    "top": 858.484375,
+    "right": 496.0238037109375,
+    "bottom": 962.484375,
+    "left": 304.7574462890625
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "104px",
+   "height": "104px",
+   "top": "806.484px",
+   "left": "348.391px",
+   "right": "-62.4px",
+   "bottom": "-26px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "52px",
+   "font-weight": "400",
+   "line-height": "52px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(21, 102, 184)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, -0.8391, 1, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

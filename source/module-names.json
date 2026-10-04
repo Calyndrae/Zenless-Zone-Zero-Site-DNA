@@ -1,0 +1,417 @@
+{
+ "1117": {
+  "name": "user-model request (get/post/formatParams/formatResult)",
+  "kind": "site-vendor",
+  "note": "HoYoverse 'miHoYoUserModel' request layer: axios wrapper with param/result formatting, request merging and loading/toast hooks"
+ },
+ "1118": {
+  "name": "protocol CMS API (getPrivacy, getUser, getTerms2/3, getKrHistory, getJpFund, getJpAbout)",
+  "kind": "site",
+  "note": "the site's content API definitions against sg-public-api-static.hoyoverse.com/content_v2_user/app/3e9196a4b9274bd7"
+ },
+ "1241": {
+  "name": "user-model request merge (in-flight de-duplication)",
+  "kind": "site-vendor",
+  "note": "merges identical concurrent requests through the Store + event bus"
+ },
+ "1244": {
+  "name": "user-model message facade (loading / error / warn / success)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1176": {
+  "name": "user-model memory Store",
+  "kind": "site-vendor",
+  "note": "window.miHoYoUserModelMemoryCache keyed stores"
+ },
+ "1166": {
+  "name": "user-model utils (GLB, isSSR, log, toUrlWithParams, getTimestamp)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1245": {
+  "name": "user-model loading overlay (#miHoYoUserModelLoading)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1242": {
+  "name": "user-model event bus (on/emit/remove)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1185": {
+  "name": "firebase component container",
+  "kind": "vendor",
+  "note": "@firebase/component"
+ },
+ "1186": {
+  "name": "idb (IndexedDB promise wrapper)",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1158": {
+  "name": "date-fns parse",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1151": {
+  "name": "date-fns format",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1276": {
+  "name": "date-fns locale (en)",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1275": {
+  "name": "date-fns distance-in-words locale",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1224": {
+  "name": "lodash.debounce",
+  "kind": "vendor",
+  "note": ""
+ },
+ "28": {
+  "name": "site config constants (environment, API bases, CHANNEL_ID_CONFIG, INFO_ID_CONFIG)",
+  "kind": "site",
+  "note": ""
+ },
+ "49": {
+  "name": "site constants (nav list, supported locales, parallax config, route paths)",
+  "kind": "site",
+  "note": ""
+ },
+ "55": {
+  "name": "vue-style-loader addStylesClient (injects the css modules as <style> tags)",
+  "kind": "vendor",
+  "note": ""
+ },
+ "83": {
+  "name": "locale and route path helpers (isMatchedPath)",
+  "kind": "site",
+  "note": ""
+ },
+ "134": {
+  "name": "nuxt error page (404/500)",
+  "kind": "site",
+  "note": ""
+ },
+ "168": {
+  "name": "NoSsr functional component",
+  "kind": "vendor",
+  "note": ""
+ },
+ "250": {
+  "name": "loading screen component",
+  "kind": "site",
+  "note": ""
+ },
+ "251": {
+  "name": "base mixin (seo head, mi18n words, user info)",
+  "kind": "site",
+  "note": ""
+ },
+ "254": {
+  "name": "v-click-outside directive",
+  "kind": "vendor",
+  "note": ""
+ },
+ "324": {
+  "name": "ClientOnly functional component",
+  "kind": "vendor",
+  "note": ""
+ },
+ "326": {
+  "name": "rem / device plugin ($flex, $qs): html font-size from the viewport",
+  "kind": "site",
+  "note": ""
+ },
+ "327": {
+  "name": "analytics plugin (GA + miHoYoAnalysis, $trackEvent/$trackButton)",
+  "kind": "site",
+  "note": ""
+ },
+ "330": {
+  "name": "ip-location plugin (setIsEnIp)",
+  "kind": "site",
+  "note": ""
+ },
+ "331": {
+  "name": "axios isPreview request interceptor",
+  "kind": "site",
+  "note": ""
+ },
+ "340": {
+  "name": "i18n language middleware (initAppI18n, setLang)",
+  "kind": "site",
+  "note": ""
+ },
+ "341": {
+  "name": "nuxt axios plugin (baseURL, retcode handling, memoryCache)",
+  "kind": "site",
+  "note": ""
+ },
+ "343": {
+  "name": "global Vue plugins and components installer",
+  "kind": "site",
+  "note": ""
+ },
+ "344": {
+  "name": "router plugin (pageview tracking, query cleanup)",
+  "kind": "site",
+  "note": ""
+ },
+ "354": {
+  "name": "@me/audio library (AudioPlayer + MeAudio component)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "397": {
+  "name": "sync-request browser XHR",
+  "kind": "vendor",
+  "note": ""
+ },
+ "398": {
+  "name": "qs utils",
+  "kind": "vendor",
+  "note": ""
+ },
+ "439": {
+  "name": "axios xhr adapter",
+  "kind": "vendor",
+  "note": ""
+ },
+ "493": {
+  "name": "core-js native URL detection",
+  "kind": "vendor",
+  "note": ""
+ },
+ "500": {
+  "name": "localStorage / memory cache utilities",
+  "kind": "site",
+  "note": ""
+ },
+ "525": {
+  "name": "cookie-universal",
+  "kind": "vendor",
+  "note": ""
+ },
+ "531": {
+  "name": "HoYoverse OSS file-upload SDK",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "534": {
+  "name": "@me/toast library ($mtoast)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "535": {
+  "name": "mhy-copy-input clipboard helper ($clipboard)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "538": {
+  "name": "theme-mode helper (setBrandTheme)",
+  "kind": "site",
+  "note": ""
+ },
+ "549": {
+  "name": "desktop nuxt layout",
+  "kind": "site",
+  "note": ""
+ },
+ "551": {
+  "name": "mobile nuxt layout",
+  "kind": "site",
+  "note": ""
+ },
+ "584": {
+  "name": "nuxt language middleware (setLang, i18n init, redirect)",
+  "kind": "site",
+  "note": ""
+ },
+ "619": {
+  "name": "qs stringify",
+  "kind": "vendor",
+  "note": ""
+ },
+ "629": {
+  "name": "qs parse",
+  "kind": "vendor",
+  "note": ""
+ },
+ "704": {
+  "name": "root Vuex store (state, getters, mutations, actions)",
+  "kind": "site",
+  "note": ""
+ },
+ "716": {
+  "name": "axios parseHeaders",
+  "kind": "vendor",
+  "note": ""
+ },
+ "722": {
+  "name": "GSAP ScrollToPlugin 3.10.4",
+  "kind": "vendor",
+  "note": ""
+ },
+ "783": {
+  "name": "core-js es.symbol",
+  "kind": "vendor",
+  "note": ""
+ },
+ "943": {
+  "name": "share SDK constants (URLS, apiPre)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1044": {
+  "name": "AccountPopup component (account SDK)",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1124": {
+  "name": "news CMS API (formatNews, getList, getAllNews, getSliderNews, getDetail, getCates)",
+  "kind": "site",
+  "note": ""
+ },
+ "1126": {
+  "name": "page-tab component (desktop section-nav)",
+  "kind": "site",
+  "note": ""
+ },
+ "1131": {
+  "name": "protocol pdf viewer component",
+  "kind": "site",
+  "note": ""
+ },
+ "1141": {
+  "name": "m-protocol page component (mobile)",
+  "kind": "site",
+  "note": ""
+ },
+ "1142": {
+  "name": "protocol page component (desktop)",
+  "kind": "site",
+  "note": ""
+ },
+ "1149": {
+  "name": "page-tab component (mobile m-section-nav)",
+  "kind": "site",
+  "note": ""
+ },
+ "1150": {
+  "name": "babel toConsumableArray helper",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1152": {
+  "name": "world CMS API (formatWorld, getList, getWorldList, getDetail)",
+  "kind": "site",
+  "note": ""
+ },
+ "1153": {
+  "name": "video CMS API (formatVideo, getAllVideos, getCates)",
+  "kind": "site",
+  "note": ""
+ },
+ "1154": {
+  "name": "character and camp CMS API (formatCharacter, getCampList, …)",
+  "kind": "site",
+  "note": ""
+ },
+ "1157": {
+  "name": "video-dialog component",
+  "kind": "site",
+  "note": ""
+ },
+ "1163": {
+  "name": "news-tag component",
+  "kind": "site",
+  "note": ""
+ },
+ "1164": {
+  "name": "home CMS API (getKV, getFollowSocials, getFeature)",
+  "kind": "site",
+  "note": ""
+ },
+ "1165": {
+  "name": "@firebase/util helpers",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1174": {
+  "name": "mi-ho-yo-pager-rich pagination component",
+  "kind": "site",
+  "note": ""
+ },
+ "1187": {
+  "name": "vuescroll 4.17.3",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1239": {
+  "name": "babel typeof helper",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1240": {
+  "name": "user-model request helper",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1248": {
+  "name": "user-model loading overlay markup",
+  "kind": "site-vendor",
+  "note": ""
+ },
+ "1277": {
+  "name": "date-fns locale helper",
+  "kind": "vendor",
+  "note": ""
+ },
+ "1380": {
+  "name": "shared helper",
+  "kind": "site",
+  "note": ""
+ },
+ "1421": {
+  "name": "video page redirect (route video)",
+  "kind": "site",
+  "note": ""
+ },
+ "1422": {
+  "name": "mobile lang index redirect (route m-lang)",
+  "kind": "site",
+  "note": ""
+ },
+ "1427": {
+  "name": "m-character-detail redirect",
+  "kind": "site",
+  "note": ""
+ },
+ "1438": {
+  "name": "lang index redirect (route lang)",
+  "kind": "site",
+  "note": ""
+ },
+ "1442": {
+  "name": "character-detail redirect",
+  "kind": "site",
+  "note": ""
+ },
+ "1453": {
+  "name": "m index redirect",
+  "kind": "site",
+  "note": ""
+ },
+ "1455": {
+  "name": "index redirect",
+  "kind": "site",
+  "note": ""
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "component": "section-nav-bg",
+ "files": [
+  "1135.css"
+ ],
+ "classes": {
+  "section-nav-bg": "section-nav-bg"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".section-nav-bg",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "3.01rem",
+    "height": "4.62rem",
+    "right": "0",
+    "top": "-0.17rem",
+    "z-index": "1"
+   },
+   "source": "/_nuxt/1e69d9d.js /_nuxt/3b23566.js /_nuxt/3f59e77.js /_nuxt/44468dc.js /_nuxt/53d09dd.js /_nuxt/8c53a05.js /_nuxt/ba4082a.js #1135"
+  },
+  {
+   "selector": ".section-nav-bg path",
+   "media": [],
+   "declarations": {
+    "transition": "fill .2s"
+   },
+   "source": "/_nuxt/1e69d9d.js /_nuxt/3b23566.js /_nuxt/3f59e77.js /_nuxt/44468dc.js /_nuxt/53d09dd.js /_nuxt/8c53a05.js /_nuxt/ba4082a.js #1135"
+  }
+ ],
+ "markup": "<svg viewBox=\"0 0 406.62 624\" class=\"m-section-nav-bg\"><path fill=\"#1566b8\" d=\"m0,624V0h293.77c17.87,0,35.57,4.1,51.37,12.45,5.05,2.67,10.21,5.89,15.31,9.77,33.66,25.63,50.77,69.34,45.11,110.33-3.58,25.95-15.47,44.85-23.33,55.22L0,624Z\"></path></svg>",
+ "markupPage": "m_zh-cn_character",
+ "markupClass": "section-nav-bg",
+ "appearsOn": [
+  "zh-cn_character"
+ ],
+ "computed": {
+  "section-nav-bg": {
+   "page": "zh-cn_character",
+   "tag": "svg",
+   "rect": {
+    "x": 0,
+    "y": 136.6875,
+    "width": 169.3125,
+    "height": 259.875,
+    "top": 136.6875,
+    "right": 169.3125,
+    "bottom": 396.5625,
+    "left": 0
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "169.312px",
+   "height": "259.875px",
+   "top": "-9.5625px",
+   "left": "388.125px",
+   "bottom": "147.938px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(34, 33, 34)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(34, 33, 34)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "1"
+  ],
+  "transitions": [
+   "fill .2s"
+  ]
+ }
+}

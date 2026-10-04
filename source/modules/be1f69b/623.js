@@ -1,0 +1,3 @@
+// module 623 from be1f69b.js
+// deps: 
+const module_623 = function(e,t,n){"use strict";var r="Function.prototype.bind called on incompatible ",o=Array.prototype.slice,c=Object.prototype.toString,l="[object Function]";e.exports=function(e){var t=this;if("function"!=typeof t||c.call(t)!==l)throw new TypeError(r+t);for(var n,f=o.call(arguments,1),d=function(){if(this instanceof n){var r=t.apply(this,f.concat(o.call(arguments)));return Object(r)===r?r:this}return t.apply(e,f.concat(o.call(arguments)))},h=Math.max(0,t.length-f.length),m=[],i=0;i<h;i++)m.push("$"+i);if(n=Function("binder","return function ("+m.join(",")+"){ return binder.apply(this,arguments); }")(d),t.prototype){var v=function(){};v.prototype=t.prototype,n.prototype=new v,v.prototype=null}return n}};

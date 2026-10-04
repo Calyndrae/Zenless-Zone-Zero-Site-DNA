@@ -1,0 +1,3 @@
+// module 943 from be1f69b.js
+// deps: 
+const module_943 = function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});t.URLS={FACEBOOK:"https://www.facebook.com/sharer.php?u=",TWITTER:"https://twitter.com/intent/tweet?url=",MESSAGER:"fb-messenger://share/?app_id=521270401588372&link=",WHATSAPP:"whatsapp://send?text=",LINE:"https://social-plugins.line.me/lineit/share?url=",CAFE:"https://share.naver.com/web/shareView?url=",REDDIT:"https://www.reddit.com/submit?url=",VK:"https://vk.com/share.php?url="},t.apiPre={test:"testing-sg-public-api",prerelease:"pre-sg-public-api",production:"sg-public-api"}};

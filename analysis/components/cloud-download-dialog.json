@@ -1,0 +1,38 @@
+{
+ "component": "cloud-download-dialog",
+ "files": [
+  "1354.css"
+ ],
+ "classes": {
+  "cloud-download-dialog": "cloud-download-dialog"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".cloud-download-dialog[data-v-138999ba]",
+   "media": [],
+   "declarations": {
+    "width": "7.49rem",
+    "height": "4.68rem",
+    "position": "relative",
+    "background-size": "100% 100%",
+    "background-image": "url(/_nuxt/img/cloud_download_bg.5f3945d.png)"
+   },
+   "source": "/_nuxt/3b23566.js #1354"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

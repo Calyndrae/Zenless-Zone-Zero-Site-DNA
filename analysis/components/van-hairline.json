@@ -1,0 +1,88 @@
+{
+ "component": "van-hairline",
+ "files": [
+  "202.css"
+ ],
+ "classes": {
+  "van-hairline": "van-hairline",
+  "van-hairline--bottom": "van-hairline--bottom",
+  "van-hairline--left": "van-hairline--left",
+  "van-hairline--right": "van-hairline--right",
+  "van-hairline--surround": "van-hairline--surround",
+  "van-hairline--top": "van-hairline--top",
+  "van-hairline--top-bottom": "van-hairline--top-bottom"
+ },
+ "ruleCount": 7,
+ "rules": [
+  {
+   "selector": ".van-hairline,.van-hairline--bottom,.van-hairline--left,.van-hairline--right,.van-hairline--surround,.van-hairline--top,.van-hairline--top-bottom",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-hairline--top:after",
+   "media": [],
+   "declarations": {
+    "border-top-width": "1px"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-hairline--left:after",
+   "media": [],
+   "declarations": {
+    "border-left-width": "1px"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-hairline--right:after",
+   "media": [],
+   "declarations": {
+    "border-right-width": "1px"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-hairline--bottom:after",
+   "media": [],
+   "declarations": {
+    "border-bottom-width": "1px"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-hairline--top-bottom:after,.van-hairline-unset--top-bottom:after",
+   "media": [],
+   "declarations": {
+    "border-width": "1px 0"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  },
+  {
+   "selector": ".van-hairline--surround:after",
+   "media": [],
+   "declarations": {
+    "border-width": "1px"
+   },
+   "source": "/_nuxt/be1f69b.js #202"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

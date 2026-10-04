@@ -1,0 +1,604 @@
+{
+ "component": "home-news",
+ "files": [
+  "685.css",
+  "1368.css"
+ ],
+ "classes": {
+  "home-news__summary-scroll": "home-news__summary-scroll",
+  "home-news__summary": "home-news__summary",
+  "home-news": "home-news",
+  "home-news__page-bg": "home-news__page-bg",
+  "home-news__banner": "home-news__banner",
+  "home-news__banner-list": "home-news__banner-list",
+  "home-news__banner-item": "home-news__banner-item",
+  "home-news__banner-img": "home-news__banner-img",
+  "home-news__info": "home-news__info",
+  "home-news__pagination": "home-news__pagination"
+ },
+ "ruleCount": 18,
+ "rules": [
+  {
+   "selector": "html[lang|=ja-jp] body .home-news__summary-scroll,html[lang|=ja-jp] body .home-feature__info-summary",
+   "media": [],
+   "declarations": {
+    "line-height": "1.6"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": "html[lang|=zh-tw] body .home-news__summary,html[lang|=zh-tw] body .home-feature__info-summary",
+   "media": [],
+   "declarations": {
+    "line-height": "1.6"
+   },
+   "source": "/_nuxt/8c4c131.js #685"
+  },
+  {
+   "selector": ".home-news[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": "12.22rem",
+    "padding-top": "2.28rem"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news .section-nav[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "top": "2.08rem",
+    "z-index": "-1"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news img[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "cover",
+    "object-position": "center"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__page-bg[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "2.08rem",
+    "left": "1.76rem",
+    "z-index": "1",
+    "width": "20.61rem !important",
+    "height": "7.86rem !important"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__banner[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "9.4rem",
+    "height": "5.3rem",
+    "border-radius": ".54rem",
+    "overflow": "hidden"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__banner-list[data-v-68b07d09],.home-news__banner-item[data-v-68b07d09],.home-news__banner-img[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__summary[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "bottom": "0",
+    "z-index": "2",
+    "width": "100%",
+    "height": ".58rem",
+    "line-height": ".58rem",
+    "font-size": ".4rem",
+    "font-style": "italic",
+    "color": "rgba(255,255,255,.5)",
+    "white-space": "nowrap",
+    "background-color": "#000"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__summary-scroll[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "animation": "wordsLoop 20s linear infinite"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__info[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "margin-top": ".34rem",
+    "margin-bottom": ".33rem",
+    "min-height": ".52rem",
+    "padding": "0 .2rem",
+    "font-size": ".21rem",
+    "line-height": "1",
+    "color": "#000"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__info a[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "color": "#000"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__info .title[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "margin-top": ".06rem"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__pagination[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": ".3rem",
+    "padding": "0 .2rem"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__pagination .swiper-pagination[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "z-index": "1",
+    "width": "100%",
+    "height": ".3rem",
+    "line-height": ".3rem",
+    "text-align": "left"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__pagination .swiper-pagination[data-v-68b07d09] .swiper-pagination-bullet",
+   "media": [],
+   "declarations": {
+    "width": ".3rem",
+    "height": ".3rem",
+    "margin-left": "0",
+    "margin-right": ".32rem",
+    "background-color": "rgba(0,0,0,0)",
+    "background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAABGxJREFUWEetl1toI2UYhp9M0iYt2m63Se2RZFmEbrYergQPVyKiN4qiIojLgt4pKyzrEcEzeCEKeuMJFxFEQVBkEb3SCwVBRRSkG9pkxWzrdm3TND0l7aaR9+9MmUwmnYn4wVBo/v9/v/P3fhGCJQoMAYeB64FrgQxwEEgAq8BFYAb42f6KQCno6cg+B/TbIHADcB9wI9AH9ADdgJSSNIBLQA3YAP4BvgY+BaaBtXYY7cC7gGuAR4FbgSSg/4UVKTEHfAycBv6ylWy67wcuy+4AngKytpVhQb3nFJLvgJeBX4C6+4AXvBd4wAY+BOwXlrAKKSQ/AU8CPwA7zkX343LrPcArgID/T5HFPwIngF+dEDjg+nsd8C5wVZDFUcsiGosRiUTY2dmhXq+bvwEiD3wOnATO66wDfgXwBnAvEPN7RECJRIJkKkVfXx/d3Up4aDQa1KpVSqWS+ba3t/fTYRl4EXgH2BS4wO4C3gKkRIvEYjGGR0YYSqWIWJaxGH0NVZldb40GW1tbnC8WWV4Whq/owm/A/UBO4GPAm8CdrtrduyngdDrNwcFBY+V+7o1Gd0v/XKHA0uKiaQA+smJb/7bAbwHeB9Leg7JwfGKC4eFhAyrwIJECOjuTy1FZVaW1iJLjW+AhgT8PPAYc8B7r7e1lcnISy34wCNj5XQqsr6+TO3vWJKOPqP0eF/gXwG1A3HsoncmQTCZDWey+a1mWuTM7M8PKirzcIkvASwL/HZjylpe0Pzo1ZbI6RBk1va5w6bu4sECxWPRTXvE4LfB5YMSrWzyRIJvN4sQwrMvdri+Xy+RnZ/2U31TNC1wu0Hhskp6eHo5ks8iFnVquh6S0XC7X+9zXBDwjcAV/3AuuhiLLO002t+XLpRKFQqGd5Z8JXNNGBMFyKyDNZbmU6NRyxVsem5ub4+/5eb+YV4D3BK6hrxEqVtIk7hrvJObylrI9Nz3N2povl1gEnhX448DTwEBL0sXjxvqurq529dqik6xWVywtLZHP59t57RzwoMBFjz60OVrLY6mhIQ5lMqZVtmkYe3cELEWr1appMJubSuoWUdc5AzwicJHDV20SsTuqXKIHR0ZHGRvTCGDPEnerdepaeVKr1Ux5rfq3Vj0hYili8ZHAlWg3Ax8AE36q6vGBgQHGxseJx3cboZlstjiKVCoVM9U2NkThfEUO/B44BvzpvKB4vwA8bLNT35tyaX9/v5nnUkIZfaleN318pVw2oAGhuQA8AXwCbLuZzBF7yIsqN5WdXyi8loeYeEoAMdnnAGV7E0F03P86cDRIgU5KT1YCXwGngFnnrpeditVowonqatg4i0GHWE3Hq8A3qmvgDzd/96PGUuAm4Bl7PbrsPyIrubS9iDS+BuS9i0M7Xq4QiD4ft1elUSCsEmIqGuI5tVDgSyfGLbkTYNXlwJXA3cDt9uh1djV5SMoLTLRY7lWNaT8ToPY1Da2tdhhhNxJRLDFbJeLVtle0RGrRUBYv2JaKmSqhtLX6tje3Iv8C8ltv3flgqjoAAAAASUVORK5CYII=) no-repeat center center/100% 100%",
+    "opacity": "1",
+    "vertical-align": "bottom"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news__pagination .swiper-pagination[data-v-68b07d09] .swiper-pagination-bullet-active",
+   "media": [],
+   "declarations": {
+    "background-image": "url(data:image/png;base64,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)"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  },
+  {
+   "selector": ".home-news .more[data-v-68b07d09]",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": "-0.24rem",
+    "right": "0",
+    "z-index": "3"
+   },
+   "source": "/_nuxt/3b23566.js #1368"
+  }
+ ],
+ "markup": "<div data-v-4271f3ad=\"\" class=\"m-home-news\"><div data-v-4271f3ad=\"\" class=\"m-section-nav font-num lg\"><!----> <div class=\"m-section-nav-inner\"><div class=\"m-section-nav-label\">新闻资讯</div> <div class=\"m-section-nav-en\">News &amp; Info</div> <div class=\"m-section-nav-num\">04</div></div></div> <img data-v-4271f3ad=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVAAAAJmCAMAAACNJFtEAAAC+lBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////86i/ucAAAA/XRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ozw9Pj9AQUJDREVGR0hJSktMTU5PUFFSU1RV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\n<!-- … truncated, 17958 chars total -->",
+ "markupPage": "m_zh-cn_main",
+ "markupClass": "home-news",
+ "appearsOn": [
+  "zh-cn_main"
+ ],
+ "computed": {
+  "home-news": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 180,
+    "y": 2264.625,
+    "width": 1080,
+    "height": 687.375,
+    "top": 2264.625,
+    "right": 1260,
+    "bottom": 2952,
+    "left": 180
+   },
+   "text": "新闻资讯 News & Info 04        亲爱的绳匠，欢迎下载&使用10月月历壁纸~ 2026/10/01 《绝区零》2026年10月月历壁纸  查",
+   "position": "relative",
+   "display": "block",
+   "width": "1080px",
+   "height": "687.375px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "128.25px 0px 0px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-news__banner": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 650.8125,
+    "y": 2694.14990234375,
+    "width": 528.75,
+    "height": 298.125,
+    "top": 2694.14990234375,
+    "right": 1179.5625,
+    "bottom": 2992.27490234375,
+    "left": 650.8125
+   },
+   "text": "亲爱的绳匠，欢迎下载&使用10月月历壁纸~",
+   "position": "relative",
+   "display": "block",
+   "width": "528.75px",
+   "height": "298.125px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "30.375px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-news__banner-img": {
+   "page": "zh-cn_main",
+   "tag": "A",
+   "rect": {
+    "x": -2521.6875,
+    "y": 2694.14990234375,
+    "width": 528.75,
+    "height": 298.125,
+    "top": 2694.14990234375,
+    "right": -1992.9375,
+    "bottom": 2992.27490234375,
+    "left": -2521.6875
+   },
+   "text": "",
+   "display": "block",
+   "width": "528.75px",
+   "height": "298.125px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 238)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 238)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-news__banner-item": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": -2521.6875,
+    "y": 2694.14990234375,
+    "width": 528.75,
+    "height": 298.125,
+    "top": 2694.14990234375,
+    "right": -1992.9375,
+    "bottom": 2992.27490234375,
+    "left": -2521.6875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "528.75px",
+   "height": "298.125px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "transform, -webkit-transform",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 0 auto"
+  },
+  "home-news__banner-list": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 650.8125,
+    "y": 2694.14990234375,
+    "width": 528.75,
+    "height": 298.125,
+    "top": 2694.14990234375,
+    "right": 1179.5625,
+    "bottom": 2992.27490234375,
+    "left": 650.8125
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "528.75px",
+   "height": "298.125px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-news__info": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 650.8125,
+    "y": 3011.39990234375,
+    "width": 528.75,
+    "height": 29.25,
+    "top": 3011.39990234375,
+    "right": 1179.5625,
+    "bottom": 3040.64990234375,
+    "left": 650.8125
+   },
+   "text": "2026/10/01 《绝区零》2026年10月月历壁纸",
+   "display": "block",
+   "width": "528.75px",
+   "height": "29.25px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "11.8125px",
+   "font-weight": "400",
+   "line-height": "11.8125px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "0px 11.25px",
+   "margin": "19.125px 0px 18.5625px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-news__page-bg": {
+   "page": "zh-cn_main",
+   "tag": "IMG",
+   "rect": {
+    "x": 279,
+    "y": 2509.875,
+    "width": 1159.3125,
+    "height": 442.125,
+    "top": 2509.875,
+    "right": 1438.3125,
+    "bottom": 2952,
+    "left": 279
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1159.31px",
+   "height": "442.125px",
+   "top": "117px",
+   "left": "99px",
+   "right": "-178.312px",
+   "bottom": "-28.6875px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "cover",
+   "flex": "0 1 auto"
+  },
+  "home-news__pagination": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 650.8125,
+    "y": 3059.21240234375,
+    "width": 528.75,
+    "height": 16.875,
+    "top": 3059.21240234375,
+    "right": 1179.5625,
+    "bottom": 3076.08740234375,
+    "left": 650.8125
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "528.75px",
+   "height": "16.875px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "0px 11.25px",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-news__summary": {
+   "page": "zh-cn_main",
+   "tag": "DIV",
+   "rect": {
+    "x": 650.8125,
+    "y": 2959.64990234375,
+    "width": 528.75,
+    "height": 32.625,
+    "top": 2959.64990234375,
+    "right": 1179.5625,
+    "bottom": 2992.27490234375,
+    "left": 650.8125
+   },
+   "text": "亲爱的绳匠，欢迎下载&使用10月月历壁纸~",
+   "position": "absolute",
+   "display": "block",
+   "width": "528.75px",
+   "height": "32.625px",
+   "top": "265.5px",
+   "z-index": "2",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "22.5px",
+   "font-weight": "400",
+   "line-height": "32.625px",
+   "color": "rgba(255, 255, 255, 0.5)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgba(255, 255, 255, 0.5)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  },
+  "home-news__summary-scroll": {
+   "page": "zh-cn_main",
+   "tag": "SPAN",
+   "rect": {
+    "x": 703.475341796875,
+    "y": 2959.64990234375,
+    "width": 458,
+    "height": 32.625,
+    "top": 2959.64990234375,
+    "right": 1161.475341796875,
+    "bottom": 2992.27490234375,
+    "left": 703.475341796875
+   },
+   "text": "亲爱的绳匠，欢迎下载&使用10月月历壁纸~",
+   "display": "inline-block",
+   "width": "458px",
+   "height": "32.625px",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "22.5px",
+   "font-weight": "400",
+   "line-height": "32.625px",
+   "color": "rgba(255, 255, 255, 0.5)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 52.6629, 0)",
+   "transition": "all",
+   "animation": "20s linear 0s infinite normal none running wordsLoop",
+   "border": "0px none rgba(255, 255, 255, 0.5)",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "wordsLoop",
+   "file": "664.css",
+   "source": "/_nuxt/8c4c131.js #664",
+   "css": "@keyframes wordsLoop{0%{transform:translateX(9.4rem)}100%{transform:translateX(-100%)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(9.4rem)"
+     }
+    },
+    {
+     "at": "100%",
+     "declarations": {
+      "transform": "translateX(-100%)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "rgba(255,255,255,.5)",
+   "#000",
+   "rgba(0,0,0,0)"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   ".4rem",
+   ".21rem"
+  ],
+  "zIndex": [
+   "-1",
+   "1",
+   "2",
+   "3"
+  ],
+  "transitions": [
+   "wordsLoop 20s linear infinite"
+  ]
+ }
+}

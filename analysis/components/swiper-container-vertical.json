@@ -1,0 +1,147 @@
+{
+ "component": "swiper-container-vertical",
+ "files": [
+  "899.css"
+ ],
+ "classes": {
+  "swiper-container-vertical": "swiper-container-vertical"
+ },
+ "ruleCount": 7,
+ "rules": [
+  {
+   "selector": ".swiper-container-vertical > .swiper-wrapper",
+   "media": [],
+   "declarations": {
+    "-webkit-box-orient": "vertical",
+    "-webkit-box-direction": "normal",
+    "-webkit-flex-direction": "column",
+    "-ms-flex-direction": "column",
+    "flex-direction": "column"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-vertical > .swiper-pagination-bullets",
+   "media": [],
+   "declarations": {
+    "right": "10px",
+    "top": "50%",
+    "-webkit-transform": "translate3d(0px, -50%, 0)",
+    "transform": "translate3d(0px, -50%, 0)"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet",
+   "media": [],
+   "declarations": {
+    "margin": "6px 0",
+    "display": "block"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic",
+   "media": [],
+   "declarations": {
+    "top": "50%",
+    "-webkit-transform": "translateY(-50%)",
+    "-ms-transform": "translateY(-50%)",
+    "transform": "translateY(-50%)",
+    "width": "8px"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "-webkit-transition": "200ms top, 200ms -webkit-transform",
+    "transition": "200ms transform, 200ms top, 200ms -webkit-transform",
+    "-o-transition": "200ms transform, 200ms top"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-vertical > .swiper-pagination-progressbar,\n.swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite",
+   "media": [],
+   "declarations": {
+    "width": "4px",
+    "height": "100%",
+    "left": "0",
+    "top": "0"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  },
+  {
+   "selector": ".swiper-container-vertical > .swiper-scrollbar",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "3px",
+    "top": "1%",
+    "z-index": "50",
+    "width": "5px",
+    "height": "98%"
+   },
+   "source": "/_nuxt/be1f69b.js #899"
+  }
+ ],
+ "markup": "<div class=\"swiper-container side-camp-swiper swiper-container-initialized swiper-container-vertical\"> <div class=\"swiper-wrapper\" style=\"transition-duration: 0ms; transform: translate3d(0px, -4968.06px, 0px);\"><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"0\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/165576/28083626397514f8f6fd34a915cd7496_2515806560709089279.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">弗林特工坊</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"1\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/164854/d6b367ba909c9a9ddb1fed0d96c6ed39_882678496323401161.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">空域巡戍局</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"2\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/164840/ea82960cb95cbe6312d45efd474087d1_2339173110362740156.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">达识结社</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"3\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/163780/bb85496b717f15f1f0c3b1181d5aaf3c_9199795346667629109.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">外务筹策局</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev\" data-swiper-slide-index=\"4\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/163772/17df58468502891bb1fa37ace168c2ff_1077241705224950075.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">法厄同</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active\" data-swiper-slide-index=\"5\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/162679/21b34b51b613b2cf1bcc703633643c18_7904567709066951169.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">都市秩序部</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next\" data-swiper-slide-index=\"6\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/161790/80341212d20fc50549ad4ce34aa97da0_5670900786455890836.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">妄想天使</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"7\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/160116/73037e4dbe32270bcd5e1d8cc13eb787_1570681887593845871.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">坎卜斯黑枝</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"8\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/156710/f1c57508f02db0a0d2b64f18ab5acc5c_3196619388985930168.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">怪啖屋</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"9\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/155656/9c8d3ad38d4f5ab97b993916a72299ae_4781640013911954228.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">云岿山</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"10\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/154604/f69fdcd5eb433d1221d09d68df65c46c_413627333701706205.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">反舌鸟</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"11\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/154526/405b6747ab8ca5ca15dee5146ff0d373_4580833963648207134.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">防卫军·白银小队</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"12\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/127385/70945d50dc8412597f163a4ad101e0d6_3524951181551068144.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">天琴座</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"13\" style=\"margin-bottom: 5.625px;\"><div class=\"side-camp-icon\" style=\"background-image: url(&quot;https://fastcdn.hoyoverse.com/content-v2/nap/103294/00f3ae4cdbb7caec151eff3dd76ae151_6222733008382740198.png&quot;);\"></div> <div class=\"side-camp-name-container\"><div class=\"side-camp-name\">对空六课</div></div></div><div class=\"side-camp-item swiper-slide swiper-slide-duplicate\" data-swiper-slide-index=\"14\" styl\n<!-- … truncated, 24128 chars total -->",
+ "markupPage": "zh-cn_character",
+ "markupClass": "swiper-container-vertical",
+ "appearsOn": [
+  "zh-cn_character"
+ ],
+ "computed": {
+  "swiper-container-vertical": {
+   "page": "zh-cn_character",
+   "tag": "DIV",
+   "rect": {
+    "x": 1284.1875,
+    "y": 56.25,
+    "width": 147.9375,
+    "height": 729.5625,
+    "top": 56.25,
+    "right": 1432.125,
+    "bottom": 785.8125,
+    "left": 1284.1875
+   },
+   "text": "弗林特工坊 空域巡戍局 达识结社 外务筹策局 法厄同 都市秩序部 妄想天使 坎卜斯黑枝 怪啖屋 云岿山 反舌鸟 防卫军·白银小队 天琴座 对空六课 卡吕冬之子 ",
+   "position": "relative",
+   "display": "block",
+   "width": "147.938px",
+   "height": "729.562px",
+   "z-index": "1",
+   "font-family": "\"en inpin\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "font-size": "56.25px",
+   "font-weight": "400",
+   "line-height": "56.25px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 7.875px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb",
+   "object-fit": "fill",
+   "flex": "0 1 auto"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "50"
+  ],
+  "transitions": [
+   "200ms transform, 200ms top, 200ms -webkit-transform"
+  ]
+ }
+}
