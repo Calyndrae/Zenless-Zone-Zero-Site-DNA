@@ -123,6 +123,10 @@ export const chapters = [
     if (Fo.localeClick) out.push(measured(`Clicking the locale selector lists: ${esc(Fo.localeClick.options.join(' · '))}.`));
     out.push(shotIf('capture/interactions/footer-locale.png', 'footer with the locale list open'));
     out.push(spec('footer social bar', 'footer__socialbar', 'Rendered by the footer SDK into the site\'s socialbar container.'));
+    out.push(spec('back-to-top strip (footer__wrap)', 'footer__wrap', 'The site-owned part of the footer: the backTop button (class light on light sections).'));
+    out.push(spec('subscription widget (footer-crm, CRM SDK)', 'footer-crm', 'Injected by the CRM SDK, which also injects its stylesheet on every page. In every capture its inline state is display: none (the SDK shows it once its subscription API has answered), so the rendered widget is the live one at the bottom of this page.'));
+    out.push(spec('HoYoverse footer (hy-footer, footer SDK)', 'hy-footer-*', 'Injected by the footer SDK: product logos, legal links, trademark notice and the language selector. The logos are lazy-loaded by the SDK (img data-src, no src in the markup), so they show in the live footer at the bottom of this page, not in this static specimen.'));
+    out.push(p('<em>The same three parts render live at the bottom of this page, by the same SDK scripts.</em>'));
     const hv = hoverRows('me-media-icon-item').concat(hoverRows('me-hover-btn'), hoverRows('backTop'), hoverRows('light')); if (hv.length) out.push(table(['Hovered class', 'Node', 'Computed change', 'Transition'], hv));
     out.push(cssBlock(rulesFor('footer').concat(rulesFor('backTop'), rulesFor('footer-crm')), { max: 40 }));
     out.push(rule('Keep the three-part footer: a site-owned social/back-top strip, an SDK-owned subscription block and an SDK-owned corporate footer with the language picker; a child site owns only the first part and the containers.'));

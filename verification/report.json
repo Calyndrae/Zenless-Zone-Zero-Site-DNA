@@ -1,5 +1,5 @@
 {
- "at": "2026-10-04T00:25:12.296Z",
+ "at": "2026-10-04T01:09:36.958Z",
  "results": [
   {
    "name": "shell untouched: the original scripts and the mirror adapter are the only head scripts in the served file",
@@ -16,7 +16,7 @@
    "name": "news template rendered the handbook record",
    "ok": true,
    "detail": {
-    "ms": 6507
+    "ms": 6380
    }
   },
   {
@@ -33,7 +33,7 @@
    "ok": true,
    "detail": {
     "h4": 42,
-    "table": 140
+    "table": 147
    }
   },
   {
@@ -45,16 +45,51 @@
    "name": "embedded specimens render with non-zero size",
    "ok": true,
    "detail": {
-    "embedded": 74,
-    "nonZero": 68,
+    "embedded": 92,
+    "nonZero": 69,
     "zero": [
-     "swiper-pagination",
-     "swiper-pagination-clickable",
-     "swiper-pagination-bullet",
-     "swiper-pagination-bullet-active",
-     "swiper-button-prev",
-     "swiper-button-next"
+     "footer-crm",
+     "hyv-crm",
+     "hyv-crm-flat",
+     "hyv-form",
+     "hyv-crm-flat-left",
+     "hyv-crm-flat-right",
+     "hyv-crm-flat-right-form",
+     "hyv-form-item"
     ]
+   }
+  },
+  {
+   "name": "every specimen cell renders inside the article column (at least 8 px high, not wider than the column, positioned roots inside their window)",
+   "ok": true,
+   "detail": {
+    "cells": 35,
+    "column": 720,
+    "bad": [],
+    "hidden": [
+     "footer:subscription widget (footer-crm, CRM SDK)",
+     "mobile-shell:m-header menu panel"
+    ],
+    "staged": 4,
+    "scrolling": [
+     "header:header inner wrapper (nav + tools) — the bar itself is position:fixed, so its inner wrapper is embedded",
+     "home-kv:home-kv (hero composition)",
+     "home-character:home-character active list item",
+     "footer:back-to-top strip (footer__wrap)",
+     "footer:HoYoverse footer (hy-footer, footer SDK)",
+     "character:character info panel (active slide)",
+     "video:video tab row",
+     "news:news tag",
+     "mobile-home:m-section-nav"
+    ]
+   }
+  },
+  {
+   "name": "no horizontal overflow: the document is not wider than the viewport",
+   "ok": true,
+   "detail": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440
    }
   },
   {
@@ -85,7 +120,7 @@
    "name": "the links to the mirror routes are in the handbook",
    "ok": true,
    "detail": {
-    "links": 532,
+    "links": 540,
     "sample": [
      "/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.pdf",
      "/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.md",

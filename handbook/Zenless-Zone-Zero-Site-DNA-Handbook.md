@@ -1759,6 +1759,237 @@ Rendered by the footer SDK into the site's socialbar container.
     </path>
 ```
 
+**Specimen — back-to-top strip (footer__wrap)**
+
+The site-owned part of the footer: the backTop button (class light on light sections).
+
+```html
+<div data-v-2b67f5b0="" class="footer__wrap">
+  <button data-v-2b67f5b0="" class="backTop light">
+  </button>
+  <div data-v-2b67f5b0="" class="footer__socialbar">
+    <div data-v-2b67f5b0="" class="me-media-icon" style="justify-content: center">
+      <div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em">
+        <div class="me-media-icon-item media-icon-Twitter" style="width: 1em; height: 1em">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80" height="80" viewBox="0 0 80 80">
+            <g id="icomoon-ignore">
+            </g>
+            <path fill="#898989" d="M43.969 36.923l13.507-15.582h-3.2l-11.728 13.53-9.366-13.53h-10.804l14.165 20.46-14.165 16.34h3.2l12.385-14.288 9.892 14.288h10.804l-14.69-21.218zM39.585 41.981l-12.854-18.249h4.916l22.629 32.126h-4.916l-9.775-13.878z" class="icon-path-Twitter">
+          </path>
+        </svg>
+      </div>
+      <div class="me-media-icon-label" style="display: none">
+        <div style="font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137)">X</div>
+      </div>
+    </div>
+    <div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em">
+      <div class="me-media-icon-item media-icon-Youtube" style="width: 1em; height: 1em">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80" height="80" viewBox="0 0 80 80">
+          <title>YouTube</title>
+          <path d="M60.042 31.82c0 0-0.4-2.819-1.629-4.058-1.558-1.629-3.299-1.637-4.098-1.733-5.719-0.415-14.307-0.415-14.307-0.415h-0.015c0 0-8.588 0-14.307 0.415-0.799 0.096-2.54 0.104-4.098 1.733-1.231 1.238-1.622 4.058-1.622 4.058s-0.408 3.308-0.408 6.622v3.099c0 3.307 0.408 6.622 0.408 6.622s0.4 2.819 1.622 4.058c1.558 1.629 3.603 1.574 4.513 1.75 3.276 0.312 13.907 0.408 13.907 0.408s8.595-0.015 14.315-0.423c0.799-0.096 2.541-0.104 4.098-1.733 1.229-1.238 1.629-4.058 1.629-4.058s0.408-3.307 0.408-6.622v-3.099c-0.008-3.308-0.415-6.622-0.415-6.622zM35.775 45.304v-11.495l11.048 5.768-11.048 5.727z" fill="#898989" class="icon-path-Youtube">
+        </path>
+      </svg>
+    </div>
+    <div class="me-media-icon-label" style="display: none">
+      <div style="font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137)">YouTube</div>
+    </div>
+  </div>
+  <div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em">
+    <div class="me-media-icon-item media-icon-TikTok" style="width: 1em; height: 1em">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80" height="80" viewBox="0 0 80 80">
+        <title>TikTok</title>
+        <path d="M56.397 36.63c-0.011 0-0.024 0-0.038 0-3.36 0-6.468-1.077-8.998-2.906l0.045 0.032v13.087c-0.003 6.571-5.331 11.898-11.903 11.898-6.574 0-11.903-5.328-11.903-11.903s5.328-11.903 11.903-11.903c0.577 0 1.144 0.040 1.697 0.12l-0.064-0.007v6.581c-0.49-0.16-1.054-0.252-1.639-0.252-3.018 0-5.464 2.446-5.464 5.464s2.446 5.464 5.464 5.464c3.018 0 5.464-2.446 5.464-5.464 0 0 0 0 0 0v0-25.583h6.443c0 0.022 0 0.047 0 0.073 0 0.548 0.049 1.084 0.144 1.605l-0.009-0.055c0.476 2.479 1.919 4.552 3.914 5.853l0.035 0.022c1.38 0.924 3.077 1.475 4.904 1.475 0 0 0.002 0 0.002 0v0z" fill="#898989" class="icon-path-TikTok">
+      </path>
+    </svg>
+  </div>
+  <div class="me-media-icon-label" style="display: none">
+    <div style="font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137)">TikTok</div>
+  </div>
+</div>
+<div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em">
+  <div class="me-media-icon-item media-icon-Discord" style="width: 1em; height: 1em">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80" height="80" viewBox="0 0 80 80">
+      <title>Discord</title>
+      <path d="M55.91 25.549c-3.028-1.405-6.199-2.378-9.442-2.919-0.433 0.793-0.864 1.621-1.225 2.451-3.459-0.54-7.027-0.54-10.488 0-0.36-0.83-0.757-1.658-1.225-2.451-3.279 0.54-6.451 1.55-9.478 2.919-5.946 8.865-7.568 17.479-6.776 25.984v0c3.495 2.595 7.424 4.542 11.605 5.839 0.937-1.261 1.767-2.595 2.487-4.001-1.37-0.504-2.667-1.117-3.929-1.874 0.324-0.253 0.65-0.47 0.973-0.721 7.351 3.459 15.858 3.459 23.172 0 0.324 0.253 0.648 0.504 0.973 0.721-1.261 0.721-2.558 1.37-3.929 1.874 0.721 1.405 1.55 2.739 2.487 4.001 4.181-1.261 8.108-3.244 11.605-5.803v0c0.937-9.911-1.621-18.453-6.811-26.020zM32.413 46.307c-2.271 0-4.145-2.054-4.145-4.577s1.802-4.577 4.109-4.577 4.181 2.054 4.145 4.577-1.838 4.577-4.109 4.577zM47.621 46.307c-2.271 0-4.109-2.054-4.109-4.577s1.802-4.577 4.109-4.577 4.145 2.054 4.109 4.577-1.802 4.577-4.109 4.577z" fill="#898989" class="icon-path-Discord">
+    </path>
+  </svg>
+</div>
+<div class="me-media-icon-label" style="display: none">
+  <div style="font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137)">Discord</div>
+</div>
+</div>
+<div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em">
+  <div class="me-media-icon-item media-icon-Instagram" style="width: 1em; height: 1em">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80" height="80" viewBox="0 0 80 80">
+      <title>Instagram</title>
+      <path d="M40.291 24.010c5.117 0 5.698 0 7.733 0.116 1.86 0.058 2.849 0.407 3.547 0.639 0.872 0.349 1.512 0.756 2.209 1.453s1.105 1.279 1.453 2.209c0.232 0.698 0.581 1.686 0.639 3.547 0.116 2.035 0.116 2.616 0.116 7.733s0 5.698-0.116 7.733c-0.058 1.86-0.407 2.849-0.639 3.547-0.349 0.872-0.756 1.512-1.453 2.209s-1.279 1.105-2.209 1.453c-0.698 0.232-1.686 0.581-3.547 0.639-2.035 0.116-2.616 0.116-7.733 0.116s-5.698 0-7.733-0.116c-1.86-0.058-2.849-0.407-3.547-0.639-0.872-0.349-1.512-0.756-2.209-1.453s-1.105-1.279-1.453-2.209c-0.232-0.698-0.581-1.686-0.639-3.547-0.116-2.035-0.116-2.616-0.116-7.733s0-5.698 0.116-7.733c0.058-1.86 0.407-2.849 0.639-3.547 0.349-0.872 0.756-1.512 1.453-2.209s1.279-1.105 2.209-1.453c0.698-0.232 1.686-0.581 3.547-0.639 2.035-0.058 2.616-0.116 7.733-0.116zM40.291 20.58c-5.175 0-5.814 0-7.85 0.116s-3.43 0.407-4.651 0.872c-1.279 0.465-2.326 1.163-3.372 2.209s-1.744 2.151-2.209 3.372c-0.465 1.221-0.814 2.616-0.872 4.651-0.116 2.035-0.116 2.675-0.116 7.907s0 5.814 0.116 7.85c0.116 2.035 0.407 3.43 0.872 4.651 0.465 1.279 1.163 2.326 2.209 3.372s2.151 1.744 3.372 2.209c1.221 0.465 2.616 0.814 4.651 0.872 2.035 0.116 2.675 0.116 7.85 0.116s5.814 0 7.85-0.116c2.035-0.116 3.43-0.407 4.651-0.872 1.279-0.465 2.326-1.163 3.372-2.209s1.744-2.151 2.209-3.372c0.465-1.221 0.814-2.616 0.872-4.651 0.116-2.035 0.116-2.675 0.116-7.85s0-5.814-0.116-7.85c-0.116-2.035-0.407-3.43-0.872-4.651-0.465-1.279-1.105-2.326-2.209-3.372-1.046-1.046-2.151-1.744-3.372-2.209s-2.616-0.814-4.651-0.872c-2.035-0.116-2.675-0.175-7.85-0.175 0 0 0 0 0 0zM40.291 29.883c-5.407 0-9.826 4.419-9.826 9.826s4.419 9.826 9.826 9.826 9.826-4.419 9.826-9.826-4.419-9.826-9.826-9.826zM40.291 46.047c-3.489 0-6.338-2.849-6.338-6.338s2.849-6.338 6.338-6.338 6.338 2.849 6.338 6.338-2.849 6.338-6.338 6.338zM52.792 29.476c0 1.279-1.046 2.268-2.268 2.268s-2.268-1.046-2.268-2.268 0.988-2.268 2.209-2.268 2.326 1.046 2.326 2.268z" fill="#898989" class="icon-path-Instagram">
+    </path>
+  </svg>
+</div>
+<div class="me-media-icon-label" style="display: none">
+  <div style="font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137)">Instagram</div>
+</div>
+</div>
+<div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em">
+  <div class="me-media-icon-item media-icon-HoYoLAB" style="width: 1em; height: 1em">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.246 63.8787C25.0962 61.886 24.2777 59.1786 24.2777 55.5007C24.2777 54.5567 24.3765 52.6956 24.6195 50.4113C23.6038 48.3744 21.9014 46.7306 19.7747 45.8074L19.6866 45.7691C18.533 45.2683 18.3504 43.6953 19.3582 42.9394L21.1656 41.5835C22.6853 40.4435 23.6811 38.73 23.9248 36.8357L24.0341 35.9862C24.2779 34.0911 26.8448 33.7299 27.5936 35.4854L27.887 36.1732C28.9069 33.9276 30.189 32.2704 31.7883 31.8013C33.162 31.3984 34.0271 33.3483 34.8047 35.101L34.8054 35.1027C34.86 35.2258 34.9144 35.3484 34.9683 35.4687C36.5828 34.2829 39.1757 33.0984 42.8462 32.6204C45.4508 32.2812 47.353 32.3699 48.7071 32.6984C49.7807 30.6408 51.6576 27.9372 53.6388 26.9197C57.1696 25.1064 58.1016 28.3043 58.9734 31.2958C59.4118 32.8001 59.835 34.2523 60.5659 34.9888C61.9706 36.4043 64.6351 39.1383 66.169 40.8827C65.7845 26.7629 54.2176 15.4347 40.0049 15.4347C25.5495 15.4347 13.831 27.1532 13.831 41.6087C13.831 51.0167 18.7947 59.2653 26.246 63.8787ZM54.8959 30.7097C55.2296 30.4051 55.6628 29.9292 55.4602 29.4495C55.2284 28.9007 54.4015 28.8665 53.7471 29.3682C52.2759 30.4963 51.5551 32.3788 51.4131 33.8487C51.3599 34.3996 51.5247 34.7597 51.9434 34.8257C52.362 34.8917 52.6238 34.5614 52.7697 34.1753C53.5468 32.119 54.187 31.3569 54.8959 30.7097ZM35.5033 38.6456C34.797 39.6182 35.2733 40.5619 36.1007 40.7533C41.8509 38.8984 47.9864 38.1378 48.7616 38.0662C49.5137 37.9967 49.6075 36.9306 49.31 36.2142C49.0124 35.4979 47.3757 34.6314 42.9746 35.2756C38.5735 35.9198 36.2095 37.673 35.5033 38.6456ZM49.1325 60.2072C57.0223 58.0724 60.7369 53.9441 59.7317 50.2133C57.9311 43.5307 50.148 41.513 42.9663 43.6058C35.0091 45.9246 32.1224 51.9154 33.5147 56.9967C35.3069 63.5371 42.3858 62.0327 49.1325 60.2072ZM26.5706 38.1757C26.3823 37.7617 25.7787 37.8329 25.6903 38.2796L25.5842 38.8162C25.228 40.6165 24.1894 42.2056 22.6892 43.2453L21.8926 43.7974C21.5839 44.0114 21.6391 44.4866 21.9884 44.6228L22.4364 44.7976C24.3984 45.5629 25.9141 47.1789 26.5628 49.1972L27.1589 51.0517C27.316 51.5404 28.0255 51.4567 28.0664 50.9446L28.2361 48.8212C28.3968 46.8101 29.4045 44.965 31.0039 43.7531L31.3233 43.5111C31.6086 43.2949 31.5568 42.8487 31.2297 42.7048L30.4258 42.3512C28.8508 41.6584 27.5841 40.4046 26.8678 38.8293L26.5706 38.1757ZM25.1451 44.6342C25.8098 44.3438 26.268 43.7293 26.5255 43.3191C26.6655 43.0961 26.7733 42.8888 26.8464 42.7372C27.1086 42.1929 27.1159 41.5624 26.5 41.2979C25.8421 41.0154 25.5185 41.5823 25.2314 42.0854L25.2314 42.0854L25.2314 42.0854C25.1805 42.1747 25.1307 42.2619 25.0804 42.342C24.866 42.6835 24.6443 42.9109 24.4758 42.9845C24.0369 43.1763 23.8308 43.7011 24.0157 44.1567C24.2005 44.6122 24.7062 44.826 25.1451 44.6342ZM52.1476 47.6257C52.573 48.2529 52.5029 49.09 51.9083 49.5567L51.9047 49.5596L51.8873 49.5733C51.8713 49.5862 51.8464 49.6061 51.8142 49.6324C51.7495 49.685 51.6557 49.7626 51.5432 49.8589C51.316 50.0534 51.023 50.3154 50.7439 50.5967C50.6414 50.7 50.5464 50.8002 50.4606 50.8958C50.5852 50.9248 50.7199 50.9524 50.8625 50.9781C51.2509 51.0482 51.6398 51.0945 51.9364 51.1232C52.0833 51.1375 52.2043 51.1471 52.2871 51.1531C53.0614 51.209 53.7413 51.7692 53.6973 52.6082C53.6574 53.3673 53.0145 53.9501 52.2619 53.9099C52.0661 53.8989 51.8705 53.8824 51.6753 53.8635C51.3343 53.8304 50.867 53.7755 50.3817 53.6879C49.9098 53.6027 49.3577 53.4758 48.8757 53.28C48.6349 53.1821 48.3589 53.0463 48.1076 52.8528C47.8621 52.6637 47.5467 52.3468 47.3969 51.865C47.247 51.3832 47.3264 50.9414 47.4209 50.6447C47.5175 50.3412 47.6671 50.0707 47.8094 49.8517C48.0941 49.4133 48.4755 48.9911 48.8146 48.6493C49.2537 48.2069 49.722 47.746 50.2321 47.3841C50.8478 46.9473 51.7304 47.0106 52.1476 47.6257ZM40.7664 49.3267C41.6159 49.2361 42.3774 49.8572 42.4673 50.7139C42.6221 52.1901 42.9927 53.747 43.7094 54.8178C44.1873 55.5319 44.0007 56.5015 43.2927 56.9835C42.5846 57.4655 41.6232 57.2773 41.1453 56.5632C40.0034 54.857 39.5636 52.6882 39.391 51.0421C39.3011 50.1854 39.9169 49.4174 40.7664 49.3267Z" fill="#898989" class="icon-path-HoYoLAB">
+    </path>
+  </svg>
+</div>
+<div class="me-media-icon-label" style="display: none">
+  <div style="font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137)">HoYoLAB</div>
+</div>
+</div>
+<div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em">
+  <div class="me-media-icon-item media-icon-Twitch" style="width: 1em; height: 1em">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="80" height="80" viewBox="0 0 80 80">
+```
+
+**Specimen — subscription widget (footer-crm, CRM SDK)**
+
+Injected by the CRM SDK, which also injects its stylesheet on every page. In every capture its inline state is display: none (the SDK shows it once its subscription API has answered), so the rendered widget is the live one at the bottom of this page.
+
+```html
+<div data-v-2b67f5b0="" class="footer-crm" style="display: none">
+  <div data-v-2b67f5b0="" class="hyv-crm">
+    <div class="hyv-crm-flat">
+      <div class="hyv-form-container">
+        <form class="hyv-form">
+          <div class="hyv-crm-flat__pc">
+            <div class="hyv-crm-flat-left">
+              <div class="hyv-subscription-title">订阅消息</div>
+              <div class="hyv-subscription-desc">订阅Type II独家推送，可以获得活动通知、最新PV、版本壁纸、表情包等不定期推送！</div>
+            </div>
+            <div class="hyv-crm-flat-right">
+              <div class="hyv-crm-flat-right-form">
+                <div class="hyv-form-item__item hyv-form-item-item__email">
+                  <div class="hyv-form-item__controls">
+                    <div class="hyv-form-item__controls-content">
+                      <div class="hyv-input hyv-input-normal">
+                        <div class="hyv-input__wrapper">
+                          <div>
+                            <label class="hyv-input__label">电子邮箱</label>
+                            <input type="text" class="hyv-input__inner">
+                          </div>
+                          <div name="suffix" class="hyv-input__suffix">
+                          </div>
+                        </div>
+                        <div class="hyv-input__helper-text">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hyv-form-item__item hyv-form-item-item__agree">
+                  <div class="hyv-form-item__controls">
+                    <div class="hyv-form-item__controls-content">
+                      <div class="hyv-checkbox hyv-checkbox-small">
+                        <label class="hyv-checkbox__container">
+                          <input type="checkbox" class="hyv-checkbox__input">
+                          <span class="hyv-checkbox__inner hyv-checkbox__inner-unchecked">
+                          </span>
+                          <div class="hyv-subscription-agree">已同意收集并使用个人数据接收活动邀请及其他游戏信息。 <a class="" target="__blank" href="https://zenless.hoyoverse.com/zh-cn/company/privacy">阅读详情&gt;&gt;</a>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hyv-crm-flat-right-button">
+              <button class="hyv-button hyv-button-size-l hyv-button-filled" style="width: 100%; display: flex; margin-top: 0.16em">
+                <span class="hyv-button__text">现在订阅</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+```
+
+**Specimen — HoYoverse footer (hy-footer, footer SDK)**
+
+Injected by the footer SDK: product logos, legal links, trademark notice and the language selector. The logos are lazy-loaded by the SDK (img data-src, no src in the markup), so they show in the live footer at the bottom of this page, not in this static specimen.
+
+```html
+<footer class="hy-footer-1DmxLu">
+  <div class="main-yByaza">
+    <div class="wrapper-2i-f_o prod-logo-wrapper-zGjjx1">
+      <div class="container-sGLK6x prod-logos-2ivtAv">
+        <a class="anchor-img-2u0Ts4 prod-logo-1pfLvP" target="_blank" style="cursor:default" rel="noopener noreferrer">
+          <img class="img-2yo9WX" data-src="https://fastcdn.hoyoverse.com/mi18n/nap_global/m12021633011271/upload/0ffc34112f711cdf0ccfc7bda46d4574_4382622611375418997.png">
+        </a>
+      </div>
+    </div>
+    <div class="wrapper-2i-f_o prod-link-wrapper-2KJ_Lk">
+      <div class="container-sGLK6x prod-links-2W-LIk">
+        <a href="https://zenless.hoyoverse.com/zh-cn/company/privacy" class="link-1VLT0O decorate-SiS6EF" target="_blank" rel="noopener noreferrer">隐私政策</a>
+        <a href="https://zenless.hoyoverse.com/zh-cn/company/terms" class="link-1VLT0O decorate-SiS6EF" target="_blank" rel="noopener noreferrer">使用者协议</a>
+        <a href="https://www.hoyoverse.com/about-us?utm_source=zzz&amp;utm_medium=footer" class="link-1VLT0O decorate-SiS6EF" target="_blank" rel="noopener noreferrer">关于我们</a>
+        <a href="mailto:zzz_cs@hoyoverse.com" class="link-1VLT0O decorate-SiS6EF" target="_blank" rel="noopener noreferrer">联系我们</a>
+        <a href="https://cs.hoyoverse.com/static/hoyoverse-new-csc-service-hall-fe/index.html?page_id=19&amp;login_type=visitor&amp;game_biz=platform_hyvpass&amp;lang=zh-cn&amp;utm_source=zzz&amp;utm_medium=footer" class="link-1VLT0O decorate-SiS6EF" target="_blank" rel="noopener noreferrer">服务中心</a>
+      </div>
+    </div>
+    <div class="wrapper-2i-f_o statement-wrapper-2ufpIJ">
+      <p style="white-space: pre-wrap">"PlayStation Family Mark" ,"PlayStation" and "PS5 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc. </p>
+      <p style="white-space: pre-wrap">Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All other trademarks are the property of their respective owners.</p>
+    </div>
+    <div class="wrapper-2i-f_o logo-wrapper-ZqqgW2">
+      <a href="https://www.hoyoverse.com?utm_source=zzz&amp;utm_medium=footer" class="anchor-img-2u0Ts4 logo-2li-qs decorate-SiS6EF" target="_blank" rel="noopener noreferrer">
+        <img class="img-2yo9WX" data-src="https://fastcdn.hoyoverse.com/mi18n/resource-trans/upload/event/2021/12/29/eaa64d81ae6a7318a6afb91cbffd83a4_118924438105936743.png">
+      </a>
+    </div>
+    <div class="wrapper-2i-f_o copyright-wrapper-MHmh6B">Copyright © COGNOSPHERE. All Rights Reserved.</div>
+  </div>
+  <div class="aside-17wT4S">
+    <div class="locale-container-2ZkQYu">
+      <div class="locale-selector-3HQCGC clickable-1QrHX5 btn-outline-17rjoU enabled-3-v__T" style="--btn-width: 190px">
+        <div class="icon-wrapper-3s-64u">
+          <div class="icon-1qVZxg" style="background-image: url(data:image/png; base64,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)">
+          </div>
+        </div>
+        <div class="label-27UfyN">
+          <div class="locale-wrapper-AgV1G6">中文(简体) <i class="indicator-2rTl34">
+          </i>
+        </div>
+      </div>
+    </div>
+    <div class="option-wrapper-2bMXEX invisible-FbKElL">
+      <div class="option-container-2Dn3Sb">
+        <div class="options-2PpulH scroll-wrapper-2Veynw" style="padding-right:2px">
+          <div class="container-2tWa7P">
+            <div class="option-12YHh_ clickable-1QrHX5 active-JlMEOM">中文(简体) </div>
+            <div class="option-12YHh_ clickable-1QrHX5">中文(繁體) </div>
+            <div class="option-12YHh_ clickable-1QrHX5">Deutsch </div>
+            <div class="option-12YHh_ clickable-1QrHX5">English </div>
+            <div class="option-12YHh_ clickable-1QrHX5">Español </div>
+            <div class="option-12YHh_ clickable-1QrHX5">Français </div>
+            <div class="option-12YHh_ clickable-1QrHX5">Indonesia </div>
+            <div class="option-12YHh_ clickable-1QrHX5">日本語 </div>
+            <div class="option-12YHh_ clickable-1QrHX5">한국어 </div>
+            <div class="option-12YHh_ clickable-1QrHX5">Português </div>
+            <div class="option-12YHh_ clickable-1QrHX5">Pусский </div>
+            <div class="option-12YHh_ clickable-1QrHX5">ภาษาไทย </div>
+            <div class="option-12YHh_ clickable-1QrHX5">Tiếng Việt </div>
+          </div>
+          <div class="scrollbar-1o4RKb" style="width:2px; border-radius:calc(2px / 2); background:#454545">
+            <div class="thumb-5LqQbm" style="background:#999">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+```
+
+_The same three parts render live at the bottom of this page, by the same SDK scripts._
+
 | Hovered class | Node | Computed change | Transition |
 | --- | --- | --- | --- |
 | light | backTop | background-image: url("data:image/png;base64,iVBORw0KGgoAA → url("data:image/png;base64,iVBORw0KGgoAA | 0.2s ease-out |
@@ -2891,10 +3122,66 @@ The menu panel is a sibling in the DOM, shown by the menu button.
 
 **Specimen — m-header menu panel**
 
-Full-screen menu with the route links.
+Full-screen menu with the route links; the capture has it closed (inline display: none), the phone interactions chapter shows it open.
 
 ```html
-<div class="m-header__menu-btn" style="display: none">
+<div class="m-header__menu" style="display: none">
+  <div class="m-header__menu-header">
+    <div class="m-header__menu-close">
+    </div>
+  </div>
+  <div class="m-header__menu-content">
+    <div class="m-header__menu-links">
+      <nav class="m-header__menu-link m-header__menu-link--active">
+        <div class="nav-content">
+          <span>首页</span>
+        </div>
+        <!---->
+      </nav>
+      <nav class="m-header__menu-link">
+        <div class="nav-content">
+          <span>角色介绍</span>
+        </div>
+        <!---->
+      </nav>
+      <nav class="m-header__menu-link">
+        <div class="nav-content">
+          <span>影像资料
+          </span>
+        </div>
+        <!---->
+      </nav>
+      <nav class="m-header__menu-link">
+        <div class="nav-content">
+          <span>新闻资讯</span>
+        </div>
+        <!---->
+      </nav>
+      <nav class="m-header__menu-link">
+        <div class="nav-content">
+          <span>设定档案</span>
+        </div>
+        <!---->
+      </nav>
+      <nav class="m-header__menu-link">
+        <div class="nav-content nav-content-more">
+          <span>更多</span>
+        </div>
+        <div class="nav-content-sub">
+          <div class="nav-content-sub-item nav-content-sub-item-link">
+            <span>兑换码</span>
+          </div>
+          <div class="nav-content-sub-item nav-content-sub-item-link">
+            <span>充值</span>
+          </div>
+          <div class="nav-content-sub-item nav-content-sub-item-link">
+            <span>攻略</span>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="header-login-btn">登录</div>
+  </div>
 </div>
 ```
 
@@ -4325,7 +4612,7 @@ _Chapter 37 · 1 observed · 0 measured · 0 inferred · 0 rules_
 
 _Chapter 38 · 1 observed · 0 measured · 0 inferred · 0 rules_
 
-**OBSERVED** — 74 blocks are embedded as verbatim specimens; the others are shown by screenshot and their shipped rules (fixed/absolute chrome such as header, sidebar, loaders; SDK widgets; vendor UI).
+**OBSERVED** — 92 blocks are embedded as verbatim specimens; the others are shown by screenshot and their shipped rules (fixed/absolute chrome such as header, sidebar, loaders; SDK widgets; vendor UI).
 
 | Block | Rules | Renders on | In this handbook |
 | --- | --- | --- | --- |
@@ -4337,7 +4624,7 @@ _Chapter 38 · 1 observed · 0 measured · 0 inferred · 0 rules_
 | _32Xo0xuQ | 1 |  | CSS only |
 | annotationLayer | 26 |  | CSS only |
 | back-btn | 27 | character, news_166475, news_166476, news_166496 +3 | specimen in #article |
-| backTop | 8 |  | CSS only |
+| backTop | 8 |  | specimen in #footer |
 | character | 80 | m/character, character | screenshot + CSS |
 | character-block | 1 | m/character | specimen in #mobile-pages |
 | character-camp | 2 | m/character | screenshot + CSS |
@@ -4374,7 +4661,7 @@ _Chapter 38 · 1 observed · 0 measured · 0 inferred · 0 rules_
 | font-mont-heavy | 2 | character | specimen in #character |
 | font-num | 1 | m/character, m/main, m/news, m/video +4 | specimen in #video, #mobile-home |
 | footer | 13 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
-| footer-crm | 15 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| footer-crm | 15 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | gacha-detail | 7 |  | CSS only |
 | gacha-detail-article | 1 |  | CSS only |
 | gacha-detail-container | 1 |  | CSS only |
@@ -4399,41 +4686,41 @@ _Chapter 38 · 1 observed · 0 measured · 0 inferred · 0 rules_
 | home-video | 21 | main | specimen in #home-video |
 | home-world | 23 | main | specimen in #home-world |
 | home-world-wrap | 1 | main | screenshot + CSS |
-| hyv-button | 2 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
-| hyv-button-filled | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| hyv-button | 2 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
+| hyv-button-filled | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | hyv-button-ghost | 5 |  | CSS only |
 | hyv-button-glass | 4 |  | CSS only |
 | hyv-button-icon | 2 |  | CSS only |
 | hyv-button-outlined | 5 |  | CSS only |
-| hyv-button-size-l | 2 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| hyv-button-size-l | 2 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | hyv-button-size-m | 2 |  | CSS only |
 | hyv-button-size-s | 2 |  | CSS only |
 | hyv-button-size-xl | 2 |  | CSS only |
-| hyv-checkbox | 29 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| hyv-checkbox | 29 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | hyv-checkbox-large | 3 |  | CSS only |
 | hyv-checkbox-medium | 3 |  | CSS only |
-| hyv-checkbox-small | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
-| hyv-crm | 10 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| hyv-checkbox-small | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
+| hyv-crm | 10 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | hyv-crm-agree | 2 |  | CSS only |
 | hyv-crm-bottom-empty | 1 |  | CSS only |
 | hyv-crm-desc | 1 |  | CSS only |
-| hyv-crm-flat | 4 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
-| hyv-crm-flat-left | 1 | character, company_privacy, company_terms, main +12 | screenshot + CSS |
-| hyv-crm-flat-right | 1 | character, company_privacy, company_terms, main +12 | screenshot + CSS |
-| hyv-crm-flat-right-button | 2 | character, company_privacy, company_terms, main +12 | screenshot + CSS |
-| hyv-crm-flat-right-form | 1 | character, company_privacy, company_terms, main +12 | screenshot + CSS |
+| hyv-crm-flat | 4 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
+| hyv-crm-flat-left | 1 | character, company_privacy, company_terms, main +12 | specimen in #footer |
+| hyv-crm-flat-right | 1 | character, company_privacy, company_terms, main +12 | specimen in #footer |
+| hyv-crm-flat-right-button | 2 | character, company_privacy, company_terms, main +12 | specimen in #footer |
+| hyv-crm-flat-right-form | 1 | character, company_privacy, company_terms, main +12 | specimen in #footer |
 | hyv-crm-info | 1 |  | CSS only |
 | hyv-crm-item | 2 |  | CSS only |
 | hyv-crm-logo | 1 |  | CSS only |
 | hyv-crm-modal | 9 |  | CSS only |
 | hyv-crm-title | 1 |  | CSS only |
-| hyv-form | 1 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
-| hyv-form-item | 6 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| hyv-form | 1 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
+| hyv-form-item | 6 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | hyv-form-item-input | 1 |  | CSS only |
-| hyv-form-item-item | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| hyv-form-item-item | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | hyv-icon-load | 1 |  | CSS only |
-| hyv-input | 34 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
-| hyv-input-normal | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | screenshot + CSS |
+| hyv-input | 34 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
+| hyv-input-normal | 3 | m/character, m/company_privacy, m/company_terms, m/main +21 | specimen in #footer |
 | hyv-input-sendCode | 4 |  | CSS only |
 | hyv-input-small | 3 |  | CSS only |
 | hyv-loading | 1 |  | CSS only |
@@ -51919,9 +52206,9 @@ The analysis and capture archives behind the chapters are large machine-readable
 | _nuxt/ | the build files at their original paths (chunks, fonts, images) | 12.1 MB | [https://sitedna.zenlesszonezero.calyndrae.com/_nuxt/](https://sitedna.zenlesszonezero.calyndrae.com/_nuxt/) |
 | zh-cn/ and m/ | the self-contained mirror: the shell at every route of both trees, served from the archive | 0 B | [https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/ and m/](https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/ and m/) |
 | mirror/ | the mirror adapter and the rewritten copies it serves | 5.9 MB | [https://sitedna.zenlesszonezero.calyndrae.com/mirror/](https://sitedna.zenlesszonezero.calyndrae.com/mirror/) |
-| verification/report.json | the handbook verification report | 3 KB | [https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json](https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json) |
+| verification/report.json | the handbook verification report | 4 KB | [https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json](https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json) |
 | verification/mirror-report.json | the mirror verification report | 2 KB | [https://sitedna.zenlesszonezero.calyndrae.com/verification/mirror-report.json](https://sitedna.zenlesszonezero.calyndrae.com/verification/mirror-report.json) |
-| handbook/handbook-content.json | the live handbook as the CMS record 7013 | 1.2 MB | [https://sitedna.zenlesszonezero.calyndrae.com/handbook/handbook-content.json](https://sitedna.zenlesszonezero.calyndrae.com/handbook/handbook-content.json) |
+| handbook/handbook-content.json | the live handbook as the CMS record 7013 | 1.4 MB | [https://sitedna.zenlesszonezero.calyndrae.com/handbook/handbook-content.json](https://sitedna.zenlesszonezero.calyndrae.com/handbook/handbook-content.json) |
 
 The complete repository, including the tools that produced every file above and this document, is at [https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA](https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA).
 

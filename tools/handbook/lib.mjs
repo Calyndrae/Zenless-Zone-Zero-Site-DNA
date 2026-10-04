@@ -27,6 +27,14 @@ export const compExists = name => existsSync(join(root, 'analysis/components/' +
 export const interactions = opt('capture/interactions.json', null);
 // --- output mode
 export let mode = 'site'; export const setMode = m => { mode = m; };
+// --- specimen geometry. tools/measure-specimens.mjs renders the built page in headless Chromium, measures every specimen
+// cell and writes handbook/specimen-geometry.json; a component whose root is absolutely or fixed positioned in the site's
+// CSS gets a sized window onto a 1440 × 900 stage (the viewport its CSS assumes), shifted so the component is in view.
+export let chapterSlug = ''; export const setChapter = s => { chapterSlug = s; };
+export const specimenIndex = []; const specimenKeys = new Map();
+const geometry = opt('handbook/specimen-geometry.json', {});
+export const STAGE = { w: 1440, h: 900 };
+const WRAP = 'word-break: break-all; overflow-wrap: anywhere;';
 const docHref = href => { if (!href.startsWith('/')) return href; const m = href.match(/^\/source\/readable\/([^/#?]+)$/); if (m) return '#js-' + m[1].replace(/[^A-Za-z0-9]/g, '-'); const c = href.match(/^\/capture\/css\/(\d+)\.css$/); if (c) return '#css-' + c[1] + '-css'; return SITE_URL + href; };
 export const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 // --- builders (site vocabulary = what the CMS editor emits into sContent)
@@ -53,22 +61,35 @@ export const inferredHtml = html => taggedHtml('inferred', 'INFERRED', html);
 export const ruleHtml = html => taggedHtml('rule', 'RULE FOR A CHILD SITE', html);
 export const table = (headers, rows) => mode === 'doc'
   ? `<table class="data"><thead><tr>${headers.map(x => `<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table>`
-  : `<table style="border-collapse: collapse;"><tbody><tr>${headers.map(x => `<td style="background-color: #222122; color: #fff;"><p style="white-space: pre-wrap;"><strong>${esc(x)}</strong></p></td>`).join('')}</tr>${rows.map(r => `<tr>${r.map(c => `<td><p style="white-space: pre-wrap;">${c}</p></td>`).join('')}</tr>`).join('')}</tbody></table>`;
-export const code = (text, { max = 60 } = {}) => { const lines = String(text).replace(/\t/g, '  ').split('\n'); const shown = lines.slice(0, max).map(l => l.replace(/\s+$/, '')); const more = lines.length > max ? `… ${lines.length - max} more lines` : ''; if (mode === 'doc') return `<pre class="code"><code>${shown.map(esc).join('\n')}${more ? '\n' + esc(more) : ''}</code></pre>`; return `<table style="border-collapse: collapse;"><tbody><tr><td style="background-color: #efefef;"><p style="white-space: pre-wrap; font-size: .16rem; line-height: 1.6;">${shown.map(esc).join('\n')}${more ? '\n<em>' + esc(more) + '</em>' : ''}</p></td></tr></tbody></table>`; };
+  : `<table style="border-collapse: collapse;"><tbody><tr>${headers.map(x => `<td style="background-color: #222122; color: #fff;"><p style="white-space: pre-wrap; overflow-wrap: anywhere;"><strong>${esc(x)}</strong></p></td>`).join('')}</tr>${rows.map(r => `<tr>${r.map(c => `<td><p style="white-space: pre-wrap; overflow-wrap: anywhere;">${c}</p></td>`).join('')}</tr>`).join('')}</tbody></table>`;
+export const code = (text, { max = 60 } = {}) => { const lines = String(text).replace(/\t/g, '  ').split('\n'); const shown = lines.slice(0, max).map(l => l.replace(/\s+$/, '')); const more = lines.length > max ? `… ${lines.length - max} more lines` : ''; if (mode === 'doc') return `<pre class="code"><code>${shown.map(esc).join('\n')}${more ? '\n' + esc(more) : ''}</code></pre>`; return `<table style="border-collapse: collapse; width: 100%; table-layout: fixed;"><tbody><tr><td style="background-color: #efefef;"><p style="white-space: pre-wrap; ${WRAP} font-size: .16rem; line-height: 1.6;">${shown.map(esc).join('\n')}${more ? '\n<em>' + esc(more) + '</em>' : ''}</p></td></tr></tbody></table>`; };
 export const cssBlock = (rules, { max = 40 } = {}) => code(rules.slice(0, max).map(r => `${r.selector}${r.media && r.media.length ? '  /* ' + r.media.join(' & ').replace(/@media /g, '') + ' */' : ''} { ${Object.entries(r.declarations).map(([k, v]) => `${k}: ${v}`).join('; ')} }`).join('\n') + (rules.length > max ? `\n/* … ${rules.length - max} more rules */` : ''), { max: max + 2 });
 // Specimens: verbatim live markup inside a table cell (the article template's own table styling). Inline animation state
 // (swiper/gsap write transform/opacity/transition inline) is removed so each specimen shows its settled state.
 export const settle = html => String(html).replace(/ style="([^"]*)"/g, (m, v) => { const kept = v.split(';').map(x => x.trim()).filter(Boolean).filter(d => !/^(opacity|transform|visibility|transition|transition-duration)\s*:/i.test(d)); return kept.length ? ` style="${kept.join('; ')}"` : ''; });
 export const prettyMarkup = html => String(html).replace(/>\s*</g, '>\n<').split('\n').reduce((acc, line) => { const closes = /^<\//.test(line); if (closes) acc.depth = Math.max(0, acc.depth - 1); acc.out.push('  '.repeat(acc.depth) + line); const selfClosing = /^<(img|br|input|source|meta|link|hr|wbr|path|circle|rect|line|polygon|use|stop)\b/.test(line) || /\/>$/.test(line) || /<\/[a-z0-9]+>$/.test(line) && !closes; if (!closes && !selfClosing && /^<[a-zA-Z]/.test(line)) acc.depth++; return acc; }, { out: [], depth: 0 }).out.join('\n');
-export const specimen = (label, markup, note) => mode === 'doc'
-  ? `<figure class="specimen"><figcaption>Specimen — ${esc(label)}</figcaption><div class="frame">${settle(markup)}</div>${note ? `<p class="note">${esc(note)}</p>` : ''}<details open><summary>Markup of this specimen (verbatim from the live page; animation inline state removed)</summary><pre class="code"><code>${esc(prettyMarkup(settle(markup)).split('\n').slice(0, 80).join('\n'))}</code></pre></details></figure>`
-  : `<table style="border-collapse: collapse;"><tbody><tr><td style="background-color: #222122; color: #fff;"><p style="white-space: pre-wrap;"><strong>Specimen — ${esc(label)}</strong></p></td></tr><tr><td style="position: relative; overflow: hidden;">${settle(markup)}</td></tr>${note ? `<tr><td><p style="white-space: pre-wrap;"><em>${esc(note)}</em></p></td></tr>` : ''}<tr><td style="background-color: #efefef;"><p style="white-space: pre-wrap; font-size: .16rem; line-height: 1.6;">${esc(prettyMarkup(settle(markup)).split('\n').slice(0, 80).join('\n'))}</p></td></tr></tbody></table>`;
+export const specimen = (label, markup, note) => {
+  if (mode === 'doc') return `<figure class="specimen"><figcaption>Specimen — ${esc(label)}</figcaption><div class="frame">${settle(markup)}</div>${note ? `<p class="note">${esc(note)}</p>` : ''}<details open><summary>Markup of this specimen (verbatim from the live page; animation inline state removed)</summary><pre class="code"><code>${esc(prettyMarkup(settle(markup)).split('\n').slice(0, 80).join('\n'))}</code></pre></details></figure>`;
+  const base = `${chapterSlug}:${label}`; const n = (specimenKeys.get(base) || 0) + 1; specimenKeys.set(base, n); const key = n > 1 ? `${base}#${n}` : base;
+  const id = 'specimen-' + key.replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase();
+  const g = geometry[key]; const rootClass = (String(markup).match(/class="([^"]*)"/) || [, ''])[1].split(/\s+/)[0];
+  specimenIndex.push({ key, id, chapter: chapterSlug, label, rootClass, staged: !!(g && g.stage) });
+  // The specimen cell is a block (so it can scroll sideways when the component is wider than the article column, e.g. the
+  // 19.2rem header). A positioned component gets a window of its measured size onto a stage table at the measured offset.
+  const cell = g && g.stage
+    ? `<td id="${id}" style="display: block; position: relative; overflow: hidden; padding: 0; width: 100%; height: ${Math.round(g.h)}px;"><table style="border-collapse: collapse; table-layout: fixed; position: absolute; left: ${-Math.round(g.dx)}px; top: ${-Math.round(g.dy)}px; width: ${STAGE.w}px; height: ${STAGE.h}px;"><tbody><tr><td style="display: block; position: relative; padding: 0; width: ${STAGE.w}px; height: ${STAGE.h}px; transform: translate(0px, 0px);">${settle(markup)}</td></tr></tbody></table></td>`
+    : `<td id="${id}" style="display: block; position: relative; overflow: auto; width: 100%;">${settle(markup)}</td>`;
+  const stageNote = g && g.stage ? `<tr><td><p style="white-space: pre-wrap;"><em>This component is ${esc(g.position)}-positioned by the site's CSS; it sits ${Math.round(g.dx)} px from the left and ${Math.round(g.dy)} px from the top of a ${STAGE.w} × ${STAGE.h} px stage, and the cell above is a measured ${Math.round(g.w)} × ${Math.round(g.h)} px window onto that stage.</em></p></td></tr>` : (g && g.hidden ? `<tr><td><p style="white-space: pre-wrap;"><em>The captured element is display: none in this context (${esc(g.hiddenWhy || 'hidden by the site\'s CSS or by its inline state')}); the markup below is still the verbatim capture.</em></p></td></tr>` : '');
+  return `<table style="border-collapse: collapse; width: 100%; table-layout: fixed;"><tbody><tr><td style="background-color: #222122; color: #fff;"><p style="white-space: pre-wrap;"><strong>Specimen — ${esc(label)}</strong></p></td></tr><tr>${cell}</tr>${note ? `<tr><td><p style="white-space: pre-wrap;"><em>${esc(note)}</em></p></td></tr>` : ''}${stageNote}<tr><td style="background-color: #efefef;"><p style="white-space: pre-wrap; ${WRAP} font-size: .16rem; line-height: 1.6;">${esc(prettyMarkup(settle(markup)).split('\n').slice(0, 80).join('\n'))}</p></td></tr></tbody></table>`;
+};
 export const readableFile = id => data.readable.find(r => String(r.id) === String(id));
 export const readableLink = (id, label) => { const r = readableFile(id); return r ? a(label || r.file, '/source/readable/' + r.file) : esc(label || `module ${id}`); };
 export const chunkUrl = chunk => CDN + chunk + '.js';
 export const rem = (remValue, px = 56.25) => `${remValue}rem = ${+(parseFloat(remValue) * px).toFixed(2)}px at 1440 wide`;
 export function extractAll(html, cls, limit = 3, cap = 20000) {
-  const out = []; const re = new RegExp(`<([a-zA-Z0-9]+)([^>]*class="[^"]*\\b${cls.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b[^"]*"[^>]*)>`, 'g'); let m;
+  // exact class-token match; a trailing * matches a hashed suffix (CSS-module classes such as hy-footer-1DmxLu)
+  const prefix = cls.endsWith('*'); const base = (prefix ? cls.slice(0, -1) : cls).replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&'); const token = prefix ? `${base}[A-Za-z0-9_-]*` : base;
+  const out = []; const re = new RegExp(`<([a-zA-Z0-9]+)([^>]*class="(?:[^"]*\\s)?${token}(?:\\s[^"]*)?"[^>]*)>`, 'g'); let m;
   const voids = new Set(['img', 'br', 'input', 'source', 'meta', 'link', 'hr', 'wbr']);
   while ((m = re.exec(html)) && out.length < limit) {
     const start = m.index; if (out.some(o => start < o.end && start >= o.start)) continue;
