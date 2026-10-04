@@ -1,8 +1,11 @@
-# Example page — a child site built from the site DNA
+# Example page — a portfolio built as a child site of the site DNA
 
-A single page that follows the handbook (`/zh-cn/news/7013/`) by reusing the studied site's **own parts and nothing
-else**: its stylesheet modules, its SDK styles, its captured component markup, its dictionaries and the records and
-images in the repository's archive. Nothing on the page is drawn, styled or written for it.
+A single-page portfolio of this repository's work (the handbook, the mirror, the archive, the tooling) that follows the
+handbook (`/zh-cn/news/7013/`) by reusing the studied site's **own parts and nothing else**: its stylesheet modules, its
+SDK styles, its captured component markup and its dictionaries' keys. The content is the portfolio's: screenshots of
+the handbook and of the mirror pages taken by `tools/collect-portfolio.mjs`, the repository's recent commits, the
+GitHub avatar and a QR code of the GitHub page, shields.io badges where the site shows store badges and logos, and a
+Simple Icons mark where the footer shows social icons. Nothing on the page is drawn or styled for it.
 
 ```sh
 node tools/serve.mjs 8786
@@ -21,14 +24,15 @@ The page is served with the repository at the server root, as the live site is (
 | Stylesheets, desktop tree (42) and phone tree (45) | `capture/css/<module>.css`, the css-loader modules extracted from the bundle, in the order each home page injects them (`src/stylesheets.json`, built by `tools/collect-styles.mjs` from the recorded style tags of `capture/pages/zh-cn_main`, `m_zh-cn_main` and `m_zh-cn_news`) |
 | SDK styles (footer, media icons, copy button, download layout, audio player) | `vendor/*.css`, lifted from the archived SDK scripts; each file's length equals the style tag recorded on the page |
 | Component markup | the captured DOM (`capture/pages/*/dom.html`, handbook specimens): header, KV, sidebar pager, the six home sections with their `data-v-*` scopes, the three-part footer, the phone header, menu, sections, pre-register bar and the news page's load-more list, with the pre-entrance transforms the capture carries |
-| SDK-rendered blocks | `src/site-fragments.json`, lifted verbatim from the captured DOMs by `tools/collect-content.mjs`: download layout (QR + store badges), share list, footer strip with the copy button, corporate footer with the locale picker, CRM form, phone menu, pre-register bar |
-| Records | `src/content.json`: the content API's archived answers for channels 285 (key visual), 286 (camps), 287 (characters), 288 (news), 289 (features), 290 (world), 292 (social) and 1332 (videos) plus the child trees, with image URLs pointing at the archived copies |
-| Strings | `src/i18n.zh-cn.json`: the site's own mi18n dictionaries merged flat (`nav1`…`nav5`, `navVideo`, `learnMore`, `download_label`, `pc_download_tip`, `conceptTitle` …); the archive holds the zh-cn set, so that is the language shown |
-| Images | the records' own fields (`home-kv`, `chara-cover-home`, `chara-nav`, `camp-shade`, `video-cover`, `news-banner`, `world-home-banner`, `feature-banner` and their `-m` variants), the dictionary's images (`home_download_icon`, `m_download_btn`, `logoMob`, `conceptVideo`), `/_nuxt/img/*` and the data-URI icons the markup carries (`src/site-assets.json`) |
+| SDK-rendered blocks | rendered from the SDKs' templates (download layout, share list, footer strip with the copy button, corporate footer with the locale picker, phone menu, pre-register bar) with the dictionary's keys (`platforms.N.img/href/tip`, `qr_image`, `prodLinks.N.label/href`, `logo.img`, `statement`, `copyright`); `src/site-fragments.json` is empty |
+| Records | `src/content.json`, written by `tools/collect-portfolio.mjs` in the content API's shapes: 285 key visual (the handbook page), 286 camps (文档 / 镜像), 287 "characters" (the six delivered pages, tall captures), 288 news (the repository's six latest commits with a handbook specimen as banner), 289 features (four skills, shown through the pages that exercise them), 290 world (three reference chapters of the handbook), 1332 videos (six showcase captures; "play" opens the page) and 292 social (GitHub) |
+| Strings | `src/i18n.zh-cn.json`: the site's own dictionary keys (`nav1`…`nav5`, `navVideo`, `learnMore`, `download_label`, `pc_download_tip`, `conceptTitle` …) with the portfolio's words; `route_*` keys point the header entries at the live handbook and mirror |
+| Images | `media/`: the captures (`kv`, `work-N`, `show-N`, `update-N`, `archive-N`, `skill-N` and their `-m` / `-nav` variants, taken from the repository served locally at the site's capture widths), `avatar.png` (GitHub), `qr-github.png` (api.qrserver.com), `badge-N.svg` (shields.io), `icon-github.svg` (Simple Icons); plus `/_nuxt/img/*` and the data-URI icons the markup carries (`src/site-assets.json`) |
 | Application | `src/app.js`: rem adapter port, store, content API client over the inline answers, a Swiper-vocabulary carousel, both trees' behaviours, `$getI18nWord`, audio toggle, loader hand-over |
 
-The site asks the characters channel for 200 records; the example keeps the first 12 (`PAGE_SIZE.CHARACTERS`) so the
-standalone bundle stays small. Videos open the records' YouTube embeds in the site's overlay player.
+Handbook captures are cropped to the document (the application chrome around it is removed before the shot, as a
+page scan would); mirror pages are captured whole, since the running application is the work. Each capture is scrolled
+to a named heading of the handbook, so the same places are shown at every width.
 
 ## Rule by rule
 
@@ -49,7 +53,8 @@ standalone bundle stays small. Videos open the records' YouTube embeds in the si
 ```sh
 node examples/portfolio/tools/verify.mjs           # Playwright: measurements, behaviours, screenshots → verification/
 node examples/portfolio/tools/collect-styles.mjs   # src/stylesheets.json, vendor/*.css, src/site-assets.json
-node examples/portfolio/tools/collect-content.mjs  # src/content.json, src/i18n.zh-cn.json, src/site-fragments.json
+node examples/portfolio/tools/collect-portfolio.mjs # media/*.png, src/content.json, src/i18n.zh-cn.json (serves the repository on :8789 and screenshots it)
+node examples/portfolio/tools/collect-content.mjs  # alternative content: the site's own archived records instead of the portfolio's
 node examples/portfolio/build.mjs                  # index.html
 node examples/portfolio/tools/bundle.mjs           # dist/standalone/: the page with every file it requests, a server and a launcher
 ```

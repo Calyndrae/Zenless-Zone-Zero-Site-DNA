@@ -30,7 +30,7 @@
   const HEADER_NAVS = ['main', 'character', 'video', 'news', 'world'];
   // scoped style ids of the site's components (vue-loader data-v attributes the stylesheets key on)
   const SCOPE = { loading: 'data-v-4ed1ddcf', character: 'data-v-c6f7f9a8', video: 'data-v-95fb0980', news: 'data-v-68b07d09', world: 'data-v-53daaf10', feature: 'data-v-26432ee0', footer: 'data-v-2b67f5b0', dialog: 'data-v-949ad85e', mCharacter: 'data-v-4cbeaaa9', mVideo: 'data-v-42ef7462', mNews: 'data-v-4271f3ad', mWorld: 'data-v-c09ee0ae', mFeature: 'data-v-5959da90' };
-  // the mirror's routes for the pages the home links to (the published repository serves them next to this example)
+  // the pages the home links to: the dictionary's route_* entries, else the mirror's routes next to this example
   const ROUTES = { character: '/zh-cn/character', video: '/zh-cn/video', news: '/zh-cn/news', world: '/zh-cn/world' };
   // audio: one looping background track behind a persisted mute toggle (chapter 32); the archive holds no track, so a quiet synthesised loop stands in
   const BGM = { src: '', storageKey: 'siteBgAudio', volume: 0.8 };
@@ -38,6 +38,10 @@
   const DB = JSON.parse(document.getElementById('site-content').textContent);           // the content API's archived answers
   const SITE = JSON.parse(document.getElementById('site-assets').textContent);          // the components' own data-URI images
   const FRAG = JSON.parse(document.getElementById('site-fragments').textContent);       // SDK-rendered blocks, verbatim from the captured DOMs
+  // the repository's root-absolute paths (/archive/…, /_nuxt/…, the mirror's routes) resolved against wherever this page is served
+  // from, so the same page works at the repository root and under a project path such as GitHub Pages' /<repo>/
+  const BASE = location.pathname.replace(/\/examples\/portfolio\/?.*$/, '');
+  const localize = s => String(s).replace(/\b(src|href|data-src)="\/(archive|_nuxt|mirror|zh-cn|m)\//g, (m, attr, dir) => attr + '="' + BASE + '/' + dir + '/');
 
   /* ---------- 1. device detection and the rem adapter (rem---device, module 326; chapter 04) ---------- */
   let rem = 0, deviceType = 'pc';
@@ -131,6 +135,7 @@
     document.documentElement.setAttribute('mi18n-lang', lang);
     if (d.__fontCss) document.documentElement.style.setProperty('--mi18n-font-css', d.__fontCss);   // the mi18n loader exposes the language font as --mi18n-font-css
     document.title = word('seoTitle');
+    for (const k of Object.keys(ROUTES)) if (word('route_' + k)) ROUTES[k] = word('route_' + k);
   }
 
   /* ---------- 4. content API client (news-CMS-API 1124, video 1153, world 1152, character-and-camp 1154, home 1164) ---------- */
@@ -287,7 +292,33 @@
     const render = x => (x instanceof Safe ? x.__raw : esc(x));
     return acc + s + (Array.isArray(v) ? v.map(render).join('') : render(v));
   }, ''));
-  const frag = key => raw(FRAG[key] || '');                                               // an SDK block, verbatim
+  const frag = key => raw(FRAG[key] || '');                                               // an SDK block, verbatim (none in the portfolio build)
+  // the footer SDK's media icon unit, exactly as it renders it (inline sizes in em, a hidden label), carrying the record's mark
+  const mediaIcon = (r) => { const e = ext(r), key = e['social-name-key'] || ''; return html`<div class="me-media-icon-box bottom" style="width: 1em; margin: 0px 0.25em 0.1em;"><a class="me-media-icon-item media-icon-${key}" style="width: 1em; height: 1em;" href="${e['social-link']}" target="_blank" rel="noopener noreferrer" aria-label="${e['social-name']}">${raw(e['social-svg'] || '')}</a><div class="me-media-icon-label" style="display: none;"><div style="font-size: 0.3em; padding: 0.5em; color: rgb(137, 137, 137);">${e['social-name']}</div></div></div>`; };
+  const copyButton = (pc, scope) => html`<div ${raw(scope || '')} class="me-hover-btn copy-btn${pc ? ' me-hover-btn-pc' : ''}" role="button" tabindex="0" aria-label="${word('copySuccess')}"><img src="${SITE['me-hover-btn__img.me-hover-btn__img-normal']}" class="me-hover-btn__img me-hover-btn__img-normal"><img src="${SITE['me-hover-btn__img.me-hover-btn__img-hover']}" class="me-hover-btn__img me-hover-btn__img-hover"><!----><!----></div>`;
+  // the download SDK's layout (sea-download-layout-nap): the QR tile on the left, rows of image buttons with a tip
+  const platforms = () => { const list = []; for (let i = 0; word('platforms.' + i + '.img'); i++) list.push({ img: word('platforms.' + i + '.img'), href: word('platforms.' + i + '.href'), tip: word('platforms.' + i + '.tip') }); return list; };
+  const downloadLayout = () => {
+    const item = p => html`<div class="sea-download-layout-download__item sea-download-pointer"><a href="${p.href}" target="_blank" rel="noopener" aria-label="${p.tip}"><p class="sea-download-layout-download__item-btn"><img src="${p.img}" class="sea-download-layout-download__item-btn-img"><img src class="sea-download-layout-download__item-btn-img-hover"></p></a><p class="sea-download-layout-download__item-tip"><span class="sea-download-layout-download__item-tip-txt sea-download-one-line sea-download-no-select">${p.tip}</span></p></div>`;
+    const list = platforms(), rows = [list.slice(0, 2), list.slice(2)].filter(r => r.length);
+    return html`<div class="home-btn-container home-btn-container__single"><!----><div class="sea-download-layout sea-download-layout-nap"><div class="sea-download-layout-left"><p class="sea-download-layout-qr"><img src="${word('qr_image')}" class="sea-download-layout-qr__main"></p><p class="sea-download-layout-qr__tip"><span title="${word('qr_tip')}" class="sea-download-layout-qr__tip-txt sea-download-ellipsis sea-download-no-select">${word('qr_tip')}</span></p></div><div class="sea-download-layout-right"><div class="sea-download-layout-list">${rows.map(r => html`<div class="sea-download-layout-download__row">${r.map(item)}</div>`)}</div></div><!----></div><!----><!----></div>`;
+  };
+  // the corporate footer's structure with the dictionary's logo, links, statement and copyright (hy-footer config keys)
+  const prodLinks = () => { const list = []; for (let i = 0; word('prodLinks.' + i + '.label'); i++) list.push([word('prodLinks.' + i + '.label'), word('prodLinks.' + i + '.href')]); return list; };
+  const corporateFooter = (mob) => html`<div ${raw(SCOPE.footer)} id="footer"><footer class="hy-footer-1DmxLu">
+        <div class="main-yByaza">
+          <div class="wrapper-2i-f_o prod-logo-wrapper-zGjjx1"><div class="container-sGLK6x prod-logos-2ivtAv"><a class="anchor-img-2u0Ts4 prod-logo-1pfLvP" href="${word('prodLogos.0.href')}" target="_blank" rel="noopener noreferrer"><img class="img-2yo9WX" data-src="${word('prodLogos.0.img')}" alt="${word('gameName')}"></a></div></div>
+          <div class="wrapper-2i-f_o prod-link-wrapper-2KJ_Lk"><div class="container-sGLK6x prod-links-2W-LIk">${prodLinks().map(([label, href]) => html`<a href="${href}" class="link-1VLT0O decorate-SiS6EF" target="_blank" rel="noopener noreferrer">${label}</a>`)}</div></div>
+          <div class="wrapper-2i-f_o statement-wrapper-2ufpIJ"><p style="white-space: pre-wrap;">${word('statement')}</p></div>
+          <div class="wrapper-2i-f_o logo-wrapper-ZqqgW2"><a href="${word('logo.href')}" class="anchor-img-2u0Ts4 logo-2li-qs decorate-SiS6EF" target="_blank" rel="noopener noreferrer"><img class="img-2yo9WX" data-src="${word('logo.img')}" alt=""></a></div>
+          <div class="wrapper-2i-f_o copyright-wrapper-MHmh6B">${word('copyright')}</div>
+        </div>
+        <div class="aside-17wT4S"><div class="locale-container-2ZkQYu">
+          <div class="locale-selector-3HQCGC clickable-1QrHX5 btn-outline-17rjoU enabled-3-v__T" style="--btn-width: ${mob ? '168px' : '190px'};" role="button" tabindex="0" aria-label="language"><div class="icon-wrapper-3s-64u"><div class="icon-1qVZxg" style="background-image: url(&quot;${raw(SITE['icon-1qVZxg'] || '')}&quot;);"></div></div><div class="label-27UfyN"><div class="locale-wrapper-AgV1G6">${word('langName')}<i class="indicator-2rTl34"></i></div></div></div>
+          <div class="option-wrapper-2bMXEX invisible-FbKElL top-2OhMK3"><div class="option-container-2Dn3Sb"><div class="options-2PpulH scroll-wrapper-2Veynw" style="padding-right:2px"><div class="container-2tWa7P">${LANGS.map(l => html`<div class="option-12YHh_ clickable-1QrHX5${l === store.state.lang ? ' active-JlMEOM' : ''}" role="button" tabindex="0">${DICTS[l].langName || l}</div>`)}</div><div class="scrollbar-1o4RKb" style="width:2px;border-radius:calc(2px / 2);background:#454545"><div class="thumb-5LqQbm" style="background:#999;"></div></div></div></div></div>
+        </div></div>
+      </footer></div>`;
+  const footerWrap = (data, mob) => { const v = raw(SCOPE.footer); return html`<div ${v} class="footer__wrap"><button ${v} class="backTop light" aria-label="${word('textBackTop')}"></button><div ${v} class="footer__socialbar${mob ? ' mob' : ''}"><div ${v} class="me-media-icon${mob ? ' mob' : ''}" style="justify-content: center;">${data.social.map(mediaIcon)}</div>${copyButton(!mob, SCOPE.footer)}</div></div>`; };
   const fmtDate = s => (s || '').slice(0, 10).replace(/-/g, '/');                       // the news info bar shows 2026/10/01
   const fmtDateUS = s => { const d = (s || '').slice(0, 10).split('-'); return d.length === 3 ? d[1] + '/' + d[2] + '/' + d[0] : s; }; // the home video summary shows 09/29/2026
   const audioPlayer = (cls) => html`<div class="m-audio-player ${cls}" data-action="toggle-bgm" role="button" tabindex="0" aria-label="BGM"><img src="${SITE['m-audio-player__icon']}" alt="" class="m-audio-player__icon" style="display: none;"><img src="" alt="" class="m-audio-player__icon m-audio-player__icon--hover" style="display: none;"><img src="${SITE['m-audio-player__icon.m-audio-player__icon--active']}" alt="" class="m-audio-player__icon m-audio-player__icon--active" style=""></div>`;
@@ -296,7 +327,7 @@
   /* ---------- 7. data for the home page (asyncData of lang-main, module 1443/1418; chapter 02) ---------- */
   async function loadHome() {
     const lang = store.state.lang;
-    const [kv, camps, characters, news, world, videos, videoTree, newsTree, feature] = await Promise.all([
+    const [kv, camps, characters, news, world, videos, videoTree, newsTree, feature, social] = await Promise.all([
       api.getContentList({ iChanId: CHANNEL_ID_CONFIG.KV, iPageSize: 1, sLangKey: lang }),
       api.getContentList({ iChanId: CHANNEL_ID_CONFIG.CAMPS, iPageSize: PAGE_SIZE.CAMPS, sLangKey: lang }),
       api.getContentList({ iChanId: CHANNEL_ID_CONFIG.CHARACTERS, iPageSize: PAGE_SIZE.CHARACTERS, sLangKey: lang }),
@@ -306,6 +337,7 @@
       api.getChildTree({ iChanId: CHANNEL_ID_CONFIG.VIDEO.ALL, iPageSize: PAGE_SIZE.TREE }),
       api.getChildTree({ iChanId: CHANNEL_ID_CONFIG.NEWS.ALL, iPageSize: PAGE_SIZE.TREE }),
       api.getContentList({ iChanId: CHANNEL_ID_CONFIG.FEATURE, iPageSize: PAGE_SIZE.FEATURE, sLangKey: lang }),
+      api.getContentList({ iChanId: CHANNEL_ID_CONFIG.SOCIAL, iPageSize: PAGE_SIZE.TREE, sLangKey: lang }),
     ]);
     store.commit('setCharacterCamps', camps.data.list);
     store.commit('setVideoCates', (videoTree.data.children[0] || {}).children || []);
@@ -313,7 +345,7 @@
     return {
       kv: kv.data.list[0], camps: camps.data.list, characters: characters.data.list,
       news: news.data.list.slice(0, 6),                 // the page keeps up to 6 news for the banner
-      world: world.data.list, videos: videos.data.list, feature: feature.data.list,
+      world: world.data.list, videos: videos.data.list, feature: feature.data.list, social: social.data.list,
     };
   }
   const campOf = (record) => store.state.characterCamps.find(c => (record.sChanId || []).includes(String(ext(c)['camp-channel']))) || null;   // camp-and-character module 1154: the camp whose channel the record lists
@@ -327,18 +359,18 @@
   }
   const navWord = { main: 'nav1', character: 'nav2', video: 'navVideo', news: 'nav3', world: 'nav5' };
   const moreMenu = () => ['community', 'exchange', 'top_up'].map(k => [word('menu_' + k + '_label'), word('menu_' + k + '_link')]).filter(([l, h]) => l && h);
-  function headerMarkup() {
+  function headerMarkup(data) {
     const links = HEADER_NAVS.map(name => html`<nav class="header__navbar-link" data-nav="${name}"><div class="nav-content" role="button" tabindex="0"><span>${word(navWord[name]).trim()}</span></div><!----></nav>`);
     return html`<header class="header"><div class="header-wrapper">
       <div class="header-wrapper-lt">
-        <div class="header__logo lg" data-action="home"><img src="/_nuxt/img/logo.1e072ee.png" alt="${word('gameName')}" class="logo-big" style=""><img src="${word('logoMob')}" alt="${word('gameName')}" class="logo-sm" style="display: none;"></div>
+        <div class="header__logo lg" data-action="home"><img src="${word('logoPc')}" alt="${word('gameName')}" class="logo-big" style=""><img src="${word('logoMob')}" alt="${word('gameName')}" class="logo-sm" style="display: none;"></div>
         <div class="header__navbar-links">${links}<nav class="header__navbar-link"><div class="nav-content nav-content-more"><span>${word('menu_more_label')}</span></div><div class="nav-content-sub">${moreMenu().map(([label, href]) => html`<div class="nav-content-sub-item nav-content-sub-item-link"><a href="${href}" target="_blank" rel="noopener">${label}</a><!----></div>`)}</div></nav></div>
       </div>
       <div class="header__navbar"><div class="header__navbar-btns">
         <nav class="header__navbar-link" data-action="download"><div class="nav-content nav-content-download" role="button" tabindex="0"><span>${word('download_label')}</span></div><!----></nav>
         ${audioPlayer('header__bgm')}
-        <div class="share header__share"><div class="share__info"><div class="share__icon" role="button" tabindex="0" aria-label="${word('socialFollow')}"></div><div class="share__panel"><div class="share__panel-wrap"><div class="share__title">${word('socialFollow')}</div>${frag('desktop .share__list')}</div></div></div></div>
-        ${frag('desktop .header__login')}
+        <div class="share header__share"><div class="share__info"><div class="share__icon" role="button" tabindex="0" aria-label="${word('socialFollow')}"></div><div class="share__panel"><div class="share__panel-wrap"><div class="share__title">${word('socialFollow')}</div><div class="share__list"><div class="me-media-icon" style="justify-content: center;">${data.social.map(mediaIcon)}${copyButton(true)}</div></div></div></div></div></div>
+        <div class="header__login"><div class="login"><div class="login__info"><a class="login__icon" href="${word('login_link')}" target="_blank" rel="noopener" aria-label="${word('login_btn')}"></a><!----></div></div></div>
       </div></div>
     </div></header>`;
   }
@@ -346,15 +378,15 @@
     const kv = data.kv, e = ext(kv);
     return html`<section class="section section-index">
       <div class="fill fill-bg"><img src="/_nuxt/img/fill-bg.c5ecc5f.png" alt=""></div>
-      <div class="fill fill-text" style=""><img src="/_nuxt/img/fill-text.b4d7ce4.png" alt=""></div>
+      <div class="fill fill-text" style="">${word('fill_text') ? html`<img src="${word('fill_text')}" alt="">` : ''}</div>
       <div class="home-kv">
         <div class="home-kv-wrap">
           <div class="home-kv__bg"><img src="${img(kv, 'home-kv')}" alt=""><p class="pc_download_tip">${word('pc_download_tip')}</p></div>
-          <div class="home-kv-aside"><div class="home-kv__play" style="" data-action="play" data-video="${e['home-youtobe'] || ''}" data-title="${kv.sTitle}" role="button" tabindex="0" aria-label="PV"></div><div class="home-kv__slogan" style=""><img src="${SITE['home-kv__slogan>img']}" alt=""></div></div>
+          <div class="home-kv-aside"><div class="home-kv__play" style="" data-action="play" data-video="${e['home-youtobe'] || ''}" data-link="${kv.sUrl || ''}" data-title="${kv.sTitle}" role="button" tabindex="0" aria-label="PV"></div><div class="home-kv__slogan" style="">${word('slogan_image') ? html`<img src="${word('slogan_image')}" alt="">` : ''}</div></div>
         </div>
-        <div class="home-kv__download" style="" data-action="download" role="button" tabindex="0" aria-label="${word('download_label')}"><img src="${word('home_download_icon')}" alt=""></div>
+        ${word('home_download_icon') ? html`<div class="home-kv__download" style="" data-action="download" role="button" tabindex="0" aria-label="${word('download_label')}"><img src="${word('home_download_icon')}" alt=""></div>` : ''}
         <img src="" alt="" class="steam-download steam-download--no-webpush" style="display: none;">
-        ${frag('desktop .home-btn-container')}
+        ${downloadLayout()}
       </div>
     </section>`;
   }
@@ -374,7 +406,7 @@
           </div>
           <div ${v} class="home-character__main-swiper"><div ${v} class="swiper-container home-character__list"><div class="swiper-wrapper">${list.map(r => { const camp = campOf(r); return html`<div ${v} class="home-character__list-item swiper-slide" data-en="${ext(r)['chara-name-en'] || ''}">
             <div ${v} class="home-character__role" style="transform: translate(140%, 0%);"><img ${v} src="${img(r, 'chara-cover-home')}" alt=""></div>
-            <div ${v} class="home-character__shade" style="transform: translate(120%, 0%);"><img ${v} src="${camp ? img(camp, 'camp-shade') : ''}" alt=""></div>
+            <div ${v} class="home-character__shade" style="transform: translate(120%, 0%);">${camp && img(camp, 'camp-shade') ? html`<img ${v} src="${img(camp, 'camp-shade')}" alt="">` : ''}</div>
             <div ${v} class="home-character__info" style="transform: translate(120%, 0%);"><div ${v} class="home-character__camp"><span ${v}>${camp ? ext(camp)['camp-name'] : ''}</span></div><div ${v} class="home-character__name" style="transform: translate(140%, 0%);"><span ${v}>${r.sTitle}</span></div></div>
           </div>`; })}</div></div></div>
         </div>
@@ -388,8 +420,8 @@
     return html`<section class="section section-video">
       <div ${v} class="home-video">${sectionNav(SCOPE.video, 'video', 'right', 3, 'right')}
         <div ${v} class="home-video__content">
-          <div ${v} class="swiper-container home-video__main"><div class="swiper-wrapper">${list.map(r => html`<div ${v} class="home-video__main-item swiper-slide" data-action="play" data-video="${videoSrc(r)}" data-title="${r.sTitle}"><img ${v} src="${img(r, 'video-cover')}" alt="" class="home-video__cover"></div>`)}</div></div>
-          <div ${v} class="home-video__action"><img ${v} src="${SITE['home-video__action-icon']}" alt="" class="home-video__action-icon" data-action="play-active-video" role="button" tabindex="0" aria-label="play"><a ${v} href="${ROUTES.video}" class="more"><div ${v} class="more-btn">${word('learnMore')}</div></a></div>
+          <div ${v} class="swiper-container home-video__main"><div class="swiper-wrapper">${list.map(r => html`<div ${v} class="home-video__main-item swiper-slide" data-action="play" data-video="${videoSrc(r)}" data-link="${r.sUrl || ''}" data-title="${r.sTitle}"><img ${v} src="${img(r, 'video-cover')}" alt="" class="home-video__cover"></div>`)}</div></div>
+          <div ${v} class="home-video__action"><img ${v} src="${SITE['home-video__action-icon']}" alt="" class="home-video__action-icon" data-action="play-active-video" role="button" tabindex="0" aria-label="play"><a ${v} href="${ROUTES.video}" class="more" target="_blank" rel="noopener"><div ${v} class="more-btn">${word('learnMore')}</div></a></div>
           <div ${v} class="home-video__list">
             <div ${v} class="home-video__summary"><div ${v} class="home-video__summary-item"><span ${v} class="home-video__summary-category"></span><span ${v} class="home-video__summary-date"></span></div><div ${v} class="home-video__summary-title"></div></div>
             <div ${v} class="home-video__nav-container">
@@ -403,8 +435,8 @@
       <img src="/_nuxt/img/fill-film-bg.bbdc31c.png" alt="" class="fill-black-bar-video">
     </section>`;
   }
-  const newsLink = r => `${ROUTES.news}/${r.iInfoId}`;
-  const worldLink = r => `${ROUTES.world}/${r.iInfoId}`;
+  const newsLink = r => r.sUrl || `${ROUTES.news}/${r.iInfoId}`;
+  const worldLink = r => r.sUrl || `${ROUTES.world}/${r.iInfoId}`;
   function newsMarkup(data) {
     const v = raw(SCOPE.news), list = data.news;
     return html`<section class="section section-news">
@@ -434,7 +466,7 @@
         <div ${v} class="section__concept"><div ${v} class="section__concept-bg"></div><a ${v} href="${word('conceptLink')}" target="_blank" rel="noopener">
           <div ${v} class="section__concept-title"><div ${v} class="section__concept-title-content"><div ${v} class="section__concept-title-label">${word('conceptTitle')}</div><div ${v} class="section__concept-title-sub">${word('conceptSubtitle')}</div></div></div>
           <div ${v} class="section__concept-icon"></div>
-          <div ${v} class="section__concept-video">${frag('desktop .section__concept-video-mp4')}<div ${v} class="section__concept-video-tv"></div><div ${v} class="section__concept-video-play"></div></div>
+          <div ${v} class="section__concept-video"><div ${v} class="section__concept-video-mp4"><img ${v} src="${word('conceptImage')}" alt=""></div><div ${v} class="section__concept-video-tv"></div><div ${v} class="section__concept-video-play"></div></div>
         </a></div>
       </div>
     </section>`;
@@ -452,16 +484,15 @@
       </div>
     </section>`;
   }
-  // the three-part footer (chapter 18), lifted verbatim: the site-owned strip (back-top, social icons, copy link), the CRM block
-  // as the page carried it (hidden by the SDK), and the corporate footer with its locale picker
-  const footerMarkup = (tree, mob) => html`<div ${raw(SCOPE.footer)} class="footer${mob ? ' mob' : ''}">${frag(tree + ' .footer__wrap')}${frag('desktop .footer-crm')}${frag(tree + ' #footer')}</div>`;
+  // the three-part footer (chapter 18): the site-owned strip (back-top, social icons, copy link) and the corporate footer, in their own markup
+  const footerMarkup = (data, mob) => html`<div ${raw(SCOPE.footer)} class="footer${mob ? ' mob' : ''}">${footerWrap(data, mob)}${corporateFooter(mob)}</div>`;
   // the overlay player (video-dialog 1157, styles 1168 + 1280): the message-box mask of the bridge library around the pc video container
   const dialogMarkup = (mob) => html`<div class="mhy-bridge-message-box-mask video-dialog" style="display: none;" data-action="close-dialog"><div class="home-pv"><div class="custom-mihoyo-common-container" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"><div class="home-pv-close" data-action="close-dialog" role="button" tabindex="0" aria-label="${word('textClose')}"></div><div ${raw(SCOPE.dialog)} class="video-container ${mob ? 'mob' : 'pc'}"><div ${raw(SCOPE.dialog)} class="video-frame video-placeholder" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; background: #000; color: #d6d6d6; font-size: .22rem; text-align: center;"></div></div></div></div></div>`;
 
   function desktopMarkup(data) {
     return html`<div class="root page-enter">${headerMarkup(data)}
       <div class="home"><div class="section-wrap">${kvMarkup(data)}${charactersMarkup(data)}${videosMarkup(data)}${newsMarkup(data)}${worldMarkup(data)}${featureMarkup(data)}</div>${sidebarMarkup()}</div>
-      ${footerMarkup('desktop', false)}${dialogMarkup(false)}
+      ${footerMarkup(data, false)}${dialogMarkup(false)}
     </div>`;
   }
 
@@ -487,7 +518,7 @@
     $('.swiper-button-next', charNav).addEventListener('click', () => { const t = Math.min(listSwiper.maxIndex, listSwiper.activeIndex + 3); listSwiper.slideTo(t); navSwiper.slideTo(t); trackEvent('next_character', 'click', ''); });
     const syncCharNav = () => { $('.swiper-button-prev', charNav).classList.toggle('swiper-button-disabled', listSwiper.activeIndex === 0); $('.swiper-button-next', charNav).classList.toggle('swiper-button-disabled', listSwiper.activeIndex >= listSwiper.maxIndex); };
     listSwiper.on('slideChange', () => { syncWorks(); syncCharNav(); }); syncWorks(); syncCharNav();
-    $('[data-action="open-active-work"]').addEventListener('click', () => { trackEvent('character_more', 'click', ''); location.href = ROUTES.character; });
+    $('[data-action="open-active-work"]').addEventListener('click', () => { trackEvent('character_more', 'click', ''); const r = data.characters[listSwiper.activeIndex]; window.open((r && r.sUrl) || ROUTES.character, '_blank', 'noopener'); });
 
     // 03 videos: fade main + translating thumbnail track (module 1418 home-video: navTx = -min(activeIndex × navStep, maxTranslate))
     const videoSwiper = new MiniSwiper($('.home-video__main'), { effect: 'fade', speed: 300 });
@@ -619,25 +650,25 @@
     return html`<div class="root page-enter">
       <header class="m-header">
         <div class="m-header-wrap">
-          <div class="m-header__logo" data-action="home"><div class="logo-icon logo-icon__light"></div><img src="${word('logoMob')}" alt="${word('gameName')}" class="logoSmall-img" style="display: none;"></div>
+          <div class="m-header__logo" data-action="home"><div class="logo-icon logo-icon__light" style="background-image: url(${word('logoPc')});"></div><img src="${word('logoMob')}" alt="${word('gameName')}" class="logoSmall-img" style="display: none;"></div>
           <div class="m-header-right"><div class="m-header__download" data-action="download" role="button" tabindex="0" aria-label="${word('download_label')}"><img src="${word('m_download_btn')}"></div>${audioPlayer('m-header__bgm')}</div>
         </div>
         <div class="m-header__menu-btn" data-action="open-menu" role="button" tabindex="0" aria-label="menu"></div>
-        ${frag('phone .m-header__menu')}
+        <div class="m-header__menu" style="display: none;"><div class="m-header__menu-header"><div class="m-header__menu-close" role="button" tabindex="0" aria-label="${word('textClose')}"></div></div><div class="m-header__menu-content"><div class="m-header__menu-links">${HEADER_NAVS.map((name, i) => html`<nav class="m-header__menu-link${i === 0 ? ' m-header__menu-link--active' : ''}"><div class="nav-content"><span>${word(navWord[name]).trim()}</span></div><!----></nav>`)}</div><a class="header-login-btn" href="${word('login_link')}" target="_blank" rel="noopener">${word('login_btn')}</a></div></div>
       </header>
       <div class="home">
-        <section class="section m-home-kv"><div class="m-home-kv-wrap"><div class="m-home-kv__bg"><img src="${img(kv, 'home-kv-m')}" alt=""></div><div class="m-home-kv__slogan"><img src="${SITE['m-home-kv__slogan>img']}" alt=""></div><div class="m-home-kv__aside"><div class="m-home-kv__play" data-action="play" data-video="${e['home-youtobe'] || ''}" data-title="${kv.sTitle}" role="button" tabindex="0" aria-label="PV"><img src="${SITE['m-home-kv__play>img']}" alt=""></div></div></div></section>
+        <section class="section m-home-kv"><div class="m-home-kv-wrap"><div class="m-home-kv__bg"><img src="${img(kv, 'home-kv-m')}" alt=""></div><div class="m-home-kv__slogan">${word('slogan_image') ? html`<img src="${word('slogan_image')}" alt="">` : ''}</div><div class="m-home-kv__aside"><div class="m-home-kv__play" data-action="play" data-video="${e['home-youtobe'] || ''}" data-link="${kv.sUrl || ''}" data-title="${kv.sTitle}" role="button" tabindex="0" aria-label="PV"><img src="${SITE['m-home-kv__play>img']}" alt=""></div></div></div></section>
         <section class="section"><div ${C} class="m-home-character">${mSectionNav(SCOPE.mCharacter, 'character', 'character-page-tab__m m-section-nav font-num lg', 2)}
           <div ${C} class="m-home-character__anim"><div ${C}>${ext(data.characters[0] || {})['chara-name-en'] || ''}</div></div>
           <div ${C} class="m-home-character__main"><div ${C} class="m-home-character__main-panel"></div>
             <div ${C} class="m-home-character__main-nav"><div ${C} class="swiper-container m-home-character__nav"><div class="swiper-wrapper">${data.characters.map((r, i) => html`<div ${C} class="m-home-character__nav-item swiper-no-swiping swiper-slide" data-index="${i}" role="button" tabindex="0" aria-label="${r.sTitle}"><img ${C} src="${img(r, 'chara-nav')}" alt=""><div ${C} class="m-home-character__nav-mask"></div></div>`)}</div></div><div ${C} class="swiper-navigation"><div ${C} slot="button-prev" class="swiper-button-prev cha-swiper-button-prev" role="button" tabindex="0" aria-label="prev"></div><div ${C} slot="button-next" class="swiper-button-next cha-swiper-button-next" role="button" tabindex="0" aria-label="next"></div></div></div>
-            <div ${C} class="m-home-character__main-swiper"><div ${C} class="swiper-container m-home-character__list"><div class="swiper-wrapper">${data.characters.map(r => { const camp = campOf(r); return html`<div ${C} class="m-home-character__list-item swiper-no-swiping swiper-slide" data-en="${ext(r)['chara-name-en'] || ''}"><div ${C} class="m-home-character__role"><img ${C} src="${img(r, 'chara-cover-m')}" alt=""></div><div ${C} class="m-home-character__shade"><img ${C} src="${camp ? img(camp, 'camp-shade-m') : ''}" alt=""></div><div ${C} class="m-home-character__info"><div ${C} class="m-home-character__camp">${camp ? ext(camp)['camp-name'] : ''}</div><div ${C} class="m-home-character__name">${r.sTitle}</div></div></div>`; })}</div></div></div>
+            <div ${C} class="m-home-character__main-swiper"><div ${C} class="swiper-container m-home-character__list"><div class="swiper-wrapper">${data.characters.map(r => { const camp = campOf(r); return html`<div ${C} class="m-home-character__list-item swiper-no-swiping swiper-slide" data-en="${ext(r)['chara-name-en'] || ''}"><div ${C} class="m-home-character__role"><img ${C} src="${img(r, 'chara-cover-m')}" alt=""></div><div ${C} class="m-home-character__shade">${camp && img(camp, 'camp-shade-m') ? html`<img ${C} src="${img(camp, 'camp-shade-m')}" alt="">` : ''}</div><div ${C} class="m-home-character__info"><div ${C} class="m-home-character__camp">${camp ? ext(camp)['camp-name'] : ''}</div><div ${C} class="m-home-character__name">${r.sTitle}</div></div></div>`; })}</div></div></div>
           </div>
           <div ${C} class="m-more-btn" data-action="open-active-work" role="button" tabindex="0">${word('learnMore')}</div>
         </div></section>
         <section class="section"><div ${V} class="m-home-video">${mSectionNav(SCOPE.mVideo, 'video', 'm-section-nav font-num lg right', 3)}
-          <div ${V} class="m-home-video__banner"><div ${V} class="swiper-container m-home-video__banner-list"><div class="swiper-wrapper">${data.videos.map(r => html`<div ${V} class="m-home-video__banner-item swiper-slide"><img ${V} src="${img(r, 'video-cover')}" alt="" class="m-home-video__cover" data-action="play" data-video="${videoSrc(r)}" data-title="${r.sTitle}"></div>`)}</div></div>
-            <div ${V} class="m-home-video__action"><img ${V} src="${SITE['m-home-video__play']}" alt="" class="m-home-video__play" data-action="play-active-video" role="button" tabindex="0" aria-label="play"><a ${V} href="${ROUTES.video}" class="more"><div ${V} class="m-more-btn">${word('learnMore')}</div></a></div></div>
+          <div ${V} class="m-home-video__banner"><div ${V} class="swiper-container m-home-video__banner-list"><div class="swiper-wrapper">${data.videos.map(r => html`<div ${V} class="m-home-video__banner-item swiper-slide"><img ${V} src="${img(r, 'video-cover')}" alt="" class="m-home-video__cover" data-action="play" data-video="${videoSrc(r)}" data-link="${r.sUrl || ''}" data-title="${r.sTitle}"></div>`)}</div></div>
+            <div ${V} class="m-home-video__action"><img ${V} src="${SITE['m-home-video__play']}" alt="" class="m-home-video__play" data-action="play-active-video" role="button" tabindex="0" aria-label="play"><a ${V} href="${ROUTES.video}" class="more" target="_blank" rel="noopener"><div ${V} class="m-more-btn">${word('learnMore')}</div></a></div></div>
           <div ${V} class="swiper-navigation"><div ${V} class="swiper-button-prev" role="button" tabindex="0" aria-label="prev"></div><div ${V} class="swiper-button-next" role="button" tabindex="0" aria-label="next"></div></div>
           <div ${V} class="m-home-video__summary"><div ${V} class="m-home-video__summary-category"></div><div ${V} class="m-home-video__summary-title"></div></div>
           <img ${V} src="/_nuxt/img/video-bottom-film-bg.25679c3.png" alt="video-bottom-film-bg" class="m-home-video__bottom-film-bg"><img ${V} src="${SITE['m-home-video__right-film-bg']}" alt="video-right-film-bg" class="m-home-video__right-film-bg">
@@ -649,7 +680,7 @@
         </div></section>
         <section class="section"><div ${W} class="m-home-world">${mSectionNav(SCOPE.mWorld, 'world', 'm-section-nav font-num lg', 5)}
           <div ${W} class="m-home-world__banner"><div ${W} class="swiper-container m-home-world__banner-list"><div class="swiper-wrapper">${data.world.map(r => html`<div ${W} class="m-home-world__banner-item swiper-slide"><a ${W} href="${worldLink(r)}" class="m-home-world__banner-img"><img ${W} src="${img(r, 'world-home-banner')}" alt="world-banner"></a></div>`)}</div><div ${W} class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div><div ${W} class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div></div></div>
-          <div ${W} class="section__concept"><a ${W} href="${word('conceptLink')}" target="_blank" rel="noopener"><div ${W} class="section__concept-title"><div ${W} class="section__concept-title-label">${word('conceptTitle')}</div></div><div ${W} class="section__concept-video">${frag('phone .section__concept-video-mp4')}<div ${W} class="section__concept-video-tv"></div><div ${W} class="section__concept-video-play"></div></div></a></div>
+          <div ${W} class="section__concept"><a ${W} href="${word('conceptLink')}" target="_blank" rel="noopener"><div ${W} class="section__concept-title"><div ${W} class="section__concept-title-label">${word('conceptTitle')}</div></div><div ${W} class="section__concept-video"><div ${W} class="section__concept-video-mp4"><img ${W} src="${word('conceptImage')}" alt=""></div><div ${W} class="section__concept-video-tv"></div><div ${W} class="section__concept-video-play"></div></div></a></div>
         </div></section>
         <section class="section"><div ${F} class="m-home-feature">${mSectionNav(SCOPE.mFeature, 'feature', 'm-section-nav font-num lg', 6)}
           <div ${F} class="m-home-feature__swiper"><div ${F} class="swiper-container m-home-feature__list"><div class="swiper-wrapper">${data.feature.map(r => html`<div ${F} class="m-home-feature__list-item swiper-slide" data-title="${r.sTitle}" data-summary="${r.sIntro || ''}"><div ${F} class="m-home-feature__banner"><img ${F} src="${img(r, 'feature-banner-m') || img(r, 'feature-banner')}" alt=""></div></div>`)}</div></div><div ${F} class="m-home-feature__info"><div ${F} class="m-home-feature__info-bar"></div><div ${F} class="m-home-feature__info-title ellipsis"></div><div ${F} class="m-home-feature__info-summary ellipsis"></div></div></div>
@@ -657,8 +688,8 @@
         </div></section>
         <section class="section m-news"><div class="m-news-container"><div class="m-news-main"><div class="m-news-list"></div><div class="m-news-foot"><div class="load-more" data-action="load-more" role="button" tabindex="0">${word('loadMore')}</div></div></div></div></section>
       </div>
-      ${frag('phone .m-preregister-container')}
-      ${footerMarkup('phone', true)}${dialogMarkup(true)}
+      <div class="m-preregister-container expand" style="position: fixed;"><div class="m-preregister-content"><!----><div class="download-btn" role="button" tabindex="0"><span>${word('preRegisterBtn')}</span></div></div><div class="preregister-arrow" role="button" tabindex="0" aria-label="toggle"></div></div>
+      ${footerMarkup(data, true)}${dialogMarkup(true)}
     </div>`;
   }
   function mountMobile(root, data) {
@@ -672,7 +703,7 @@
     const sectionFor = { main: '.m-home-kv', character: '.m-home-character', video: '.m-home-video', news: '.m-home-news', world: '.m-home-world', feature: '.m-home-feature' };
     const menuLinks = $$('.m-header__menu-link');
     const goTo = name => { const s = $(sectionFor[name] || sectionFor.main); if (s) window.scrollTo({ top: s.getBoundingClientRect().top + window.pageYOffset - 1.1 * rem, behavior: 'smooth' }); history.replaceState(null, '', '#/' + name); menuLinks.forEach((l, i) => l.classList.toggle('m-header__menu-link--active', HEADER_NAVS[i] === name)); };
-    menuLinks.forEach((l, i) => l.addEventListener('click', () => { if (HEADER_NAVS[i]) { closeMenu(); goTo(HEADER_NAVS[i]); } else l.classList.toggle('m-header__menu-link--open'); }));   // the lifted menu lists the five sections and the "more" entry in the site's order
+    menuLinks.forEach((l, i) => l.addEventListener('click', () => { closeMenu(); goTo(HEADER_NAVS[i]); }));
     $('[data-action="home"]').addEventListener('click', () => goTo('main'));
     // characters
     const mCharNav = $('.m-home-character__main-nav');
@@ -685,7 +716,7 @@
     mPrev.addEventListener('click', () => { const t = Math.max(0, mList.activeIndex - 1); mList.slideTo(t); mNav.slideTo(t); });
     mNext.addEventListener('click', () => { const t = Math.min(mList.maxIndex, mList.activeIndex + 1); mList.slideTo(t); mNav.slideTo(t); });
     mList.on('slideChange', syncM); syncM();
-    $('[data-action="open-active-work"]').addEventListener('click', () => { location.href = ROUTES.character; });
+    $('[data-action="open-active-work"]').addEventListener('click', () => { const r = data.characters[mList.activeIndex]; window.open((r && r.sUrl) || ROUTES.character, '_blank', 'noopener'); });
     // videos (slide, prev/next in the section), news (loop + marquee), world (loop with arrows, 800 ms), feature (fade loop with the navigator)
     const vNav = $('.m-home-video .swiper-navigation');
     const vSw = new MiniSwiper($('.m-home-video__banner-list'), { speed: 300, navigation: { prevEl: $('.swiper-button-prev', vNav), nextEl: $('.swiper-button-next', vNav) } });
@@ -706,7 +737,7 @@
       page += 1;
       const res = await api.getContentList({ iChanId: CHANNEL_ID_CONFIG.NEWS.ALL, iPageSize: PAGE_SIZE.LOAD_MORE, iPage: page });
       total = res.data.iTotal;
-      res.data.list.forEach(r => listEl.insertAdjacentHTML('beforeend', html`<a href="${newsLink(r)}" class="m-news-list__item"><div class="m-news-list__item-banner"><img src="${img(r, 'news-banner')}" alt="banner"></div><div class="m-news-list__item-content"><div class="m-news-list__item-date"><div>${fmtDate(r.dtStartTime)}</div><div class="news-tag mobile">${cateName(store.state.newsCates, r)}</div></div><div class="m-news-list__item-title ellipsis">${r.sTitle}</div><div class="m-news-list__item-desc ellipsis">${r.sIntro}</div></div></a>`));
+      res.data.list.forEach(r => listEl.insertAdjacentHTML('beforeend', localize(html`<a href="${newsLink(r)}" class="m-news-list__item"><div class="m-news-list__item-banner"><img src="${img(r, 'news-banner')}" alt="banner"></div><div class="m-news-list__item-content"><div class="m-news-list__item-date"><div>${fmtDate(r.dtStartTime)}</div><div class="news-tag mobile">${cateName(store.state.newsCates, r)}</div></div><div class="m-news-list__item-title ellipsis">${r.sTitle}</div><div class="m-news-list__item-desc ellipsis">${r.sIntro}</div></div></a>`)));
       if (page * PAGE_SIZE.LOAD_MORE >= total) { loadBtn.remove(); foot.insertAdjacentHTML('beforeend', html`<div class="no-more">${word('noMore')}</div>`); }
     }
     loadBtn.addEventListener('click', loadMore); loadMore();
@@ -743,8 +774,8 @@
     root.addEventListener('click', e => {
       const t = e.target.closest('[data-action]'); if (!t) return;
       const action = t.dataset.action;
-      if (action === 'play') { e.preventDefault(); openPlayer(t.dataset.video, t.dataset.title); }
-      else if (action === 'play-active-video') { const active = $('.home-video__main .swiper-slide-active, .m-home-video__banner-list .swiper-slide-active'); const holder = active.dataset.video !== undefined ? active : active.querySelector('[data-video]'); openPlayer(holder ? holder.dataset.video : '', holder ? holder.dataset.title : ''); }
+      if (action === 'play') { e.preventDefault(); if (!t.dataset.video && t.dataset.link) { window.open(t.dataset.link, '_blank', 'noopener'); return; } openPlayer(t.dataset.video, t.dataset.title); }
+      else if (action === 'play-active-video') { const active = $('.home-video__main .swiper-slide-active, .m-home-video__banner-list .swiper-slide-active'); const holder = active.dataset.video !== undefined ? active : active.querySelector('[data-video]'); if (holder && !holder.dataset.video && holder.dataset.link) { window.open(holder.dataset.link, '_blank', 'noopener'); return; } openPlayer(holder ? holder.dataset.video : '', holder ? holder.dataset.title : ''); }
       else if (action === 'close-dialog') { if (t === dialog && e.target !== dialog) return; closePlayer(); }
       else if (action === 'download') { trackEvent('popup_download', 'click', 'pc'); window.open(word('pc_download_link'), '_blank', 'noopener'); }
       else if (action === 'toggle-bgm') audio.toggle();
@@ -818,7 +849,7 @@
   async function render() {
     const data = await loadHome();
     const markup = deviceType === 'mobile' ? mobileMarkup(data) : desktopMarkup(data);
-    const tpl = document.createElement('template'); tpl.innerHTML = String(markup).trim();
+    const tpl = document.createElement('template'); tpl.innerHTML = localize(String(markup).trim());
     const root = tpl.content.firstElementChild;
     if (currentRoot) currentRoot.replaceWith(root); else app.appendChild(root);
     currentRoot = root;

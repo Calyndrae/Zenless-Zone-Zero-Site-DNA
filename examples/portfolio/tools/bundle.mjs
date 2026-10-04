@@ -60,8 +60,15 @@ for (const path of requested) {
   const src = join(repo, rel);
   if (!existsSync(src) || !statSync(src).isFile()) continue;
   if (rel.includes('/verification/')) continue;
-  const dst = join(out, rel); mkdirSync(dirname(dst), { recursive: true }); copyFileSync(src, dst); bytes += statSync(src).size; files++;
+  const dst = join(out, rel); mkdirSync(dirname(dst), { recursive: true });
+  if (/^capture\/css\/[^/]+\.css$/.test(rel)) {
+    // the site's modules name their images and fonts by root-absolute path; the bundle may be served under a project path
+    // (GitHub Pages' /<repo>/), so the paths become relative to the module's own folder — the rules themselves are untouched
+    writeFileSync(dst, readFileSync(src, 'utf8').replace(/url\((['"]?)\/_nuxt\//g, 'url($1../../_nuxt/'));
+  } else copyFileSync(src, dst);
+  bytes += statSync(src).size; files++;
 }
+writeFileSync(join(out, '.nojekyll'), '');   // GitHub Pages: serve the _nuxt folder (Jekyll skips names that start with an underscore)
 mkdirSync(join(out, 'examples', 'portfolio', 'src'), { recursive: true });
 for (const name of ['README.md', 'build.mjs']) copyFileSync(join(example, name), join(out, 'examples', 'portfolio', name));
 for (const name of readdirSync(join(example, 'src'))) copyFileSync(join(example, 'src', name), join(out, 'examples', 'portfolio', 'src', name));
@@ -71,7 +78,7 @@ let serve = readFileSync(join(repo, 'tools', 'serve.mjs'), 'utf8')
   .replace(/const root = .*\n/, "const root = resolve(fileURLToPath(new URL('..', import.meta.url)));   // fileURLToPath: works on Windows drive paths too\n")
   .replace(/\.listen\(port, host, \(\) => console\.log\([\s\S]*?\)\);\s*$/, ".listen(port, host, () => console.log(`example on http://${host === '0.0.0.0' ? '<LAN address of this machine>' : host}:${port}/examples/portfolio/  (Ctrl+C stops the server)`));\n");
 writeFileSync(join(out, 'tools', 'serve.mjs'), serve);
-writeFileSync(join(out, 'index.html'), '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=/examples/portfolio/"><title>example</title><a href="/examples/portfolio/">examples/portfolio/</a>\n');
+writeFileSync(join(out, 'index.html'), '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=examples/portfolio/"><title>example</title><a href="examples/portfolio/">examples/portfolio/</a>\n');
 writeFileSync(join(out, 'start.cmd'), '@echo off\r\ncd /d "%~dp0"\r\nwhere node >nul 2>nul || (echo Node.js is required: https://nodejs.org & pause & exit /b 1)\r\nstart "example server" cmd /k node tools\\serve.mjs 8786\r\ntimeout /t 2 /nobreak >nul\r\nstart "" "http://127.0.0.1:8786/examples/portfolio/"\r\n');
 writeFileSync(join(out, 'start.sh'), '#!/bin/sh\ncd "$(dirname "$0")"\nnode tools/serve.mjs 8786\n');
 writeFileSync(join(out, 'HOW-TO-RUN.txt'), `Example page — standalone bundle

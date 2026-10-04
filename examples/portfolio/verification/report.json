@@ -1,5 +1,5 @@
 {
- "date": "2026-10-04T08:26:13.570Z",
+ "date": "2026-10-04T09:48:43.358Z",
  "base": "http://127.0.0.1:8799/examples/portfolio/?lang=zh-cn",
  "desktop": {
   "2560x1440": {
@@ -51,18 +51,18 @@
     "x": 320,
     "y": 48,
     "w": 1920,
-    "h": 1536.19
+    "h": 1152.75
    },
    "downloadLayout": {
-    "x": 1527.45,
+    "x": 1124.92,
     "y": 1037.42,
-    "w": 652.55,
+    "w": 1055.08,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 1629.03,
+    "x": 1226.5,
     "y": 1040.61,
-    "w": 130.55,
+    "w": 276.47,
     "h": 40.8
    },
    "sections": [
@@ -110,12 +110,7 @@
     "w": 160,
     "h": 180
    },
-   "crm": {
-    "x": 0,
-    "y": 0,
-    "w": 0,
-    "h": 0
-   },
+   "crm": null,
    "hyFooter": {
     "x": 0,
     "y": 7906,
@@ -154,12 +149,12 @@
     "active": "03"
    },
    "worksNavClick4": {
-    "activeIndex": "Claret Flint",
-    "enName": "Claret Flint",
+    "activeIndex": "VIDEO",
+    "enName": "VIDEO",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "《绝区零》克拉蕾EP | Link up",
+    "title": "手册 · rem 画布测量表",
     "active": "2",
     "track": "translateX(-576px)"
    },
@@ -217,18 +212,18 @@
     "x": 240,
     "y": 36,
     "w": 1440,
-    "h": 1152.14
+    "h": 864.56
    },
    "downloadLayout": {
-    "x": 982.45,
+    "x": 579.92,
     "y": 753.67,
-    "w": 652.55,
+    "w": 1055.08,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 1084.03,
+    "x": 681.5,
     "y": 756.86,
-    "w": 130.55,
+    "w": 276.47,
     "h": 40.8
    },
    "sections": [
@@ -276,12 +271,7 @@
     "w": 120,
     "h": 135
    },
-   "crm": {
-    "x": 0,
-    "y": 0,
-    "w": 0,
-    "h": 0
-   },
+   "crm": null,
    "hyFooter": {
     "x": 0,
     "y": 5945.5,
@@ -320,12 +310,12 @@
     "active": "04"
    },
    "worksNavClick4": {
-    "activeIndex": "Claret Flint",
-    "enName": "Claret Flint",
+    "activeIndex": "VIDEO",
+    "enName": "VIDEO",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "《绝区零》克拉蕾EP | Link up",
+    "title": "手册 · rem 画布测量表",
     "active": "2",
     "track": "translateX(-432px)"
    },
@@ -383,18 +373,18 @@
     "x": 180,
     "y": 27,
     "w": 1080,
-    "h": 864.11
+    "h": 648.42
    },
    "downloadLayout": {
-    "x": 573.7,
+    "x": 171.17,
     "y": 540.86,
-    "w": 652.55,
+    "w": 1055.08,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 675.28,
+    "x": 272.75,
     "y": 544.05,
-    "w": 130.55,
+    "w": 276.47,
     "h": 40.8
    },
    "sections": [
@@ -429,7 +419,7 @@
      "height": 861
     }
    ],
-   "pageHeight": 4835,
+   "pageHeight": 4816,
    "footerSocialbar": {
     "x": 180,
     "y": 4411.13,
@@ -442,17 +432,12 @@
     "w": 90,
     "h": 101.25
    },
-   "crm": {
-    "x": 0,
-    "y": 0,
-    "w": 0,
-    "h": 0
-   },
+   "crm": null,
    "hyFooter": {
     "x": 0,
     "y": 4475.13,
     "w": 1440,
-    "h": 360.34
+    "h": 341.16
    },
    "newsSwiper": {
     "slides": 18,
@@ -486,12 +471,12 @@
     "active": "05"
    },
    "worksNavClick4": {
-    "activeIndex": "Claret Flint",
-    "enName": "Claret Flint",
+    "activeIndex": "VIDEO",
+    "enName": "VIDEO",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "《绝区零》克拉蕾EP | Link up",
+    "title": "手册 · rem 画布测量表",
     "active": "2",
     "track": "translateX(-324px)"
    },
@@ -549,18 +534,18 @@
     "x": 100,
     "y": 27,
     "w": 1080,
-    "h": 864.11
+    "h": 648.42
    },
    "downloadLayout": {
-    "x": 493.7,
+    "x": 91.17,
     "y": 540.86,
-    "w": 652.55,
+    "w": 1055.08,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 595.28,
+    "x": 192.75,
     "y": 544.05,
-    "w": 130.55,
+    "w": 276.47,
     "h": 40.8
    },
    "sections": [
@@ -608,12 +593,7 @@
     "w": 90,
     "h": 101.25
    },
-   "crm": {
-    "x": 0,
-    "y": 0,
-    "w": 0,
-    "h": 0
-   },
+   "crm": null,
    "hyFooter": {
     "x": 0,
     "y": 4475.13,
@@ -652,12 +632,12 @@
     "active": "04"
    },
    "worksNavClick4": {
-    "activeIndex": "Claret Flint",
-    "enName": "Claret Flint",
+    "activeIndex": "VIDEO",
+    "enName": "VIDEO",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "《绝区零》克拉蕾EP | Link up",
+    "title": "手册 · rem 画布测量表",
     "active": "2",
     "track": "translateX(-324px)"
    },
@@ -735,18 +715,17 @@
      "height": 1330
     }
    ],
-   "pageHeight": 3810,
+   "pageHeight": 3757,
    "loadMoreItems": 3,
    "menuOpen": {
     "open": true,
     "bodyOverflow": "hidden",
     "links": [
      "首页",
-     "角色介绍",
-     "影像资料",
-     "新闻资讯",
-     "设定档案",
-     "更多 兑换码充值攻略"
+     "作品",
+     "演示",
+     "动态",
+     "档案"
     ]
    },
    "afterLoadMore": 6,
@@ -822,18 +801,17 @@
      "height": 1280
     }
    ],
-   "pageHeight": 3688,
+   "pageHeight": 3635,
    "loadMoreItems": 3,
    "menuOpen": {
     "open": true,
     "bodyOverflow": "hidden",
     "links": [
      "首页",
-     "角色介绍",
-     "影像资料",
-     "新闻资讯",
-     "设定档案",
-     "更多 兑换码充值攻略"
+     "作品",
+     "演示",
+     "动态",
+     "档案"
     ]
    },
    "afterLoadMore": 6,
@@ -845,25 +823,25 @@
  },
  "localeList": {
   "visible": true,
-  "options": 13
+  "options": 1
  },
  "words": {
-  "title": "《绝区零》官方网站",
+  "title": "Calyndrae · 作品集",
   "nav": [
    "首页",
-   "角色介绍",
-   "影像资料",
-   "新闻资讯",
-   "设定档案",
+   "作品",
+   "演示",
+   "动态",
+   "档案",
    "更多",
-   "立即下载"
+   "手册 PDF"
   ],
   "sections": [
-   "角色介绍",
-   "影像资料",
-   "新闻资讯",
-   "设定档案",
-   "游戏特色"
+   "作品",
+   "演示",
+   "动态",
+   "档案",
+   "技能"
   ],
   "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
   "errors": [
@@ -872,13 +850,12 @@
   ]
  },
  "dialog": {
-  "openByKeyboard": true,
-  "bodyOverflow": "hidden",
+  "openByKeyboard": false,
+  "bodyOverflow": "",
   "closedByEscape": true,
   "errors": [
    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
-   "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-   "request failed: https://www.youtube.com/embed/KGOynaQoofc"
+   "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
   ]
  }
 }
