@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 102" width="328" height="102">
+    <rect x="3" y="3" width="322" height="96" rx="14" fill="#000" stroke="#3a3a3a" stroke-width="6"/>
+    <g transform="translate(22 11) scale(1)"><path d="M22 14h24l14 14v38H22zm4 4v40h30V32H44V18zm8 24h6a6 6 0 0 1 0 12h-2v6h-4zm4 4v4h2a2 2 0 0 0 0-4z" fill="#fff"/></g>
+    <text x="110" y="52" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#fff">Handbook PDF</text>
+    <text x="110" y="82" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#fff" opacity=".75">手册 · 印刷版</text>
+  </svg>

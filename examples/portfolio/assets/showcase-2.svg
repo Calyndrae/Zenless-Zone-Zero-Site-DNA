@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2106 786" width="2106" height="786">
+    <defs><pattern id="sc2" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)"><rect width="12" height="40" fill="#262626"/></pattern></defs>
+    <rect width="2106" height="786" fill="#111"/>
+    <polygon points="1560.6,0 2106,0 2045.4,786 1500,786" fill="url(#sc2)"/>
+    <text x="360" y="560" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="420" font-weight="700" fill="#d8fa00" font-style="italic">02</text>
+    <text x="820" y="470" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="200" font-weight="700" fill="#fff" letter-spacing="4">SIDEBAR</text>
+    <rect x="828" y="520" width="320" height="16" fill="#d8fa00"/>
+    <text x="830" y="610" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="52" fill="#d6d6d6">侧栏分页器</text>
+  </svg>

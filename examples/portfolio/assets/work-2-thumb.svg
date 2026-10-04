@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" width="160" height="60">
+    <rect width="160" height="60" fill="#3a3a3a"/>
+    <rect x="118" y="0" width="42" height="60" fill="#555"/>
+    <text x="14" y="44" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="36" font-weight="700" fill="#fff" font-style="italic">MIR</text>
+  </svg>

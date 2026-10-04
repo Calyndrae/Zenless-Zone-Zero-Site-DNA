@@ -1,0 +1,197 @@
+/* Verbatim style text injected at run time by archive/files/webstatic.hoyoverse.com/dora/biz/me-design/sea-download/index.global.nap.js (recorded as style tag 47 of zh-cn_main, 5679 characters). Belongs to HoYoverse / COGNOSPHERE; reproduced for the study of the site's construction. */
+.sea-download-pointer {
+  cursor: pointer;
+}
+.sea-download-pointer:hover {
+  text-decoration: underline;
+}
+.sea-download-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  word-break: break-word;
+}
+.sea-download-one-line {
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.sea-download-no-select {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.sea-download-more-gap {
+  margin-top: 30px !important;
+}
+.sea-download-layout.sea-download-layout-nap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 100px;
+}
+.sea-download-layout.sea-download-layout-nap p {
+  margin: 0;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-left {
+  width: 1.14em;
+  margin-right: 0.12em;
+  position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-tag {
+  margin-left: 0.12em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-tag__img {
+  height: 1.14em;
+  width: auto;
+  display: block;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-qr {
+  width: 1.14em;
+  height: 1.14em;
+  text-align: center;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-qr__main {
+  width: auto;
+  height: 100%;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-qr__tip {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 1.18em;
+  color: #fff;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-qr__tip-txt {
+  font-size: 0.16em;
+  line-height: 1.25;
+  text-align: center;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 1.14em;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 0.51em;
+  margin-bottom: 0.12em;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__row:last-of-type {
+  margin-bottom: 0;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__row:last-of-type .sea-download-layout-download__item-tip {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  top: 0.55em !important;
+  bottom: auto !important;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item {
+  height: 100%;
+  min-width: 1.4em;
+  position: relative;
+  margin-right: 0.12em;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item.has-hover-img:hover .sea-download-layout-download__item-btn-img {
+  display: none;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item.has-hover-img:hover .sea-download-layout-download__item-btn-img-hover {
+  display: block;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item:hover .sea-download-layout-download__item-tip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item:last-of-type {
+  margin-right: 0;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item-btn {
+  height: 100%;
+  font-size: 0;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item-btn-img {
+  height: 100%;
+  width: auto;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item-btn-img-hover {
+  height: 100%;
+  display: none;
+  width: auto;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item-tip {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 0.55em;
+}
+.sea-download-layout.sea-download-layout-nap .sea-download-layout-download__item-tip-txt {
+  font-size: 0.16em;
+  line-height: 1.25;
+  text-align: center;
+}

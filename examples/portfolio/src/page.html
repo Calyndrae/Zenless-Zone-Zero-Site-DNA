@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Calyndrae | 作品集 · 站点 DNA 子站示例</title>
+    <meta name="description" content="A single-page portfolio built as a child site of the Zenless Zone Zero website DNA: the site's own stylesheet modules and component markup (header, sidebar pager, six home compositions, three-part footer, phone tree), carrying portfolio records through the same content-API shapes.">
+    <meta name="author" content="Calyndrae">
+    <!--
+      Portfolio example · authored by Calyndrae · https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/tree/main/examples/portfolio
+      Built by examples/portfolio/build.mjs from src/ (page.html, app.js, content.json, i18n.*.json, stylesheets.json, site-assets.json). Edit src/, not this file.
+      Stylesheets: the studied site's own css-loader modules (capture/css/, verbatim) and the styles its SDK scripts inject (vendor/, verbatim), one list per tree in the order that tree's home page injects them; no stylesheet of this page's own.
+      Markup: the components as captured on the live site (handbook specimens and capture/pages/<page>/dom.html), with this portfolio's records in the content slots.
+      Zenless Zone Zero, its artwork, fonts, stylesheets and code belong to HoYoverse / COGNOSPHERE; this page is not affiliated with them.
+    -->
+    <!-- the shell loader's own style, as the original HTML shell carries it inline (original/shell-response.html) -->
+    <style>.zzz-loading{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#fff;z-index:997}.zzz-loading__anim{position:absolute;right:16.875px;bottom:28.125px;width:298.125px;height:84.375px;background:url(https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png);background-size:100% 3000%;background-position:0 0;animation:loadingLoop-zzz .5s steps(30) infinite forwards}@media (max-width:374px){.zzz-loading__anim{width:265px;height:75px;right:15px;bottom:25px}}@media (max-width:300px){.zzz-loading__anim{width:198px;height:56px;right:11.2px;bottom:18.6px}}@keyframes loadingLoop-zzz{0%{background-position:0 0}100%{background-position:0 -3000%}}.zzz-loading__field{width:0;height:0;overflow:hidden;visibility:hidden}</style>
+    <!-- the two trees' stylesheet lists (desktop "pc", phone "m"), each in the order its home page injects them -->
+    <script id="portfolio-stylesheets" type="application/json">/*! INLINE:stylesheets */</script>
+    <script>
+      /* The shell's head script (chapter 26): the site tests the user agent here and sends phones to the /m/… document,
+         which carries the phone tree's styles. This single page keeps both trees in one file, so the same test picks
+         the tree here and writes that tree's <link> elements (render-blocking, like server-sent ones); ?tree=m|pc forces it. */
+      (function () {
+        var forced = new URLSearchParams(location.search).get('tree');
+        var ua = navigator.userAgent;
+        var phone = forced === 'm' || forced === 'mobile' ? true : forced === 'pc' ? false
+          : /(phone|pad|pod|iPhone|iPod|ios|iPad|iPadOs|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        var tree = phone ? 'm' : 'pc';
+        document.documentElement.setAttribute('data-tree', tree);
+        var sheets = JSON.parse(document.getElementById('portfolio-stylesheets').textContent)[tree];
+        document.write(sheets.map(function (href) { return '<link rel="stylesheet" href="' + href + '">'; }).join(''));
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app" style="visibility: hidden;">
+      <!-- the static loader lives in the HTML shell so the viewport is never blank before the application runs (chapter 10) -->
+      <div class="zzz-loading"><div class="zzz-loading__field"></div><div class="zzz-loading__anim"></div></div>
+    </div>
+    <!-- per-language dictionaries (chapter 35: strings stay out of components; a word() accessor reads them) -->
+    <script id="portfolio-i18n" type="application/json">/*! INLINE:i18n */</script>
+    <!-- the content API's answers (chapter 02: getContentList / getContent / getChildTree over records with sTitle, sIntro, sContent, sExt, dates, iInfoId) -->
+    <script id="portfolio-content" type="application/json">/*! INLINE:content.json */</script>
+    <!-- the data-URI images the site's own component markup carries (audio toggle, play, copy button, phone decorations), lifted verbatim from the captured DOM -->
+    <script id="portfolio-site-assets" type="application/json">/*! INLINE:site-assets.json */</script>
+    <script>/*! INLINE:app.js */</script>
+  </body>
+</html>

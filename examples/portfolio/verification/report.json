@@ -1,0 +1,878 @@
+{
+ "date": "2026-10-04T07:22:12.539Z",
+ "base": "http://127.0.0.1:8799/examples/portfolio/?lang=zh-cn",
+ "desktop": {
+  "2560x1440": {
+   "fontSize": "100px",
+   "formula": "100px",
+   "htmlClass": "landscape pc desktop",
+   "htmlAttrs": {
+    "lang": "zh-cn",
+    "mi18n": "zh-cn",
+    "hyvDevice": "pc"
+   },
+   "horizontalOverflow": false,
+   "styleSheetsWithRules": 43,
+   "header": {
+    "x": 0,
+    "y": 0,
+    "w": 2560,
+    "h": 100
+   },
+   "headerWrapper": {
+    "x": 320,
+    "y": 0,
+    "w": 1920,
+    "h": 100
+   },
+   "logo": {
+    "x": 376,
+    "y": 23,
+    "w": 230,
+    "h": 54
+   },
+   "sidebar": {
+    "x": 2478,
+    "y": 320,
+    "w": 82,
+    "h": 358
+   },
+   "navLabel": {
+    "font-size": "20px",
+    "color": "rgb(120, 120, 120)",
+    "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "sidebarNum": {
+    "font-size": "48px",
+    "color": "rgb(216, 250, 0)",
+    "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "kvBg": {
+    "x": 320,
+    "y": 48,
+    "w": 1920,
+    "h": 1152.75
+   },
+   "downloadLayout": {
+    "x": 1665.67,
+    "y": 1037.42,
+    "w": 514.33,
+    "h": 97.58
+   },
+   "downloadItem": {
+    "x": 1767.25,
+    "y": 1015.42,
+    "w": 131.19,
+    "h": 40.8
+   },
+   "sections": [
+    {
+     "name": "section-index",
+     "top": 0,
+     "height": 1537
+    },
+    {
+     "name": "section-character",
+     "top": 1567,
+     "height": 1226
+    },
+    {
+     "name": "section-video",
+     "top": 2793,
+     "height": 1185
+    },
+    {
+     "name": "section-news",
+     "top": 3978,
+     "height": 1222
+    },
+    {
+     "name": "section-world",
+     "top": 5200,
+     "height": 1064
+    },
+    {
+     "name": "section-feature",
+     "top": 6264,
+     "height": 1530
+    }
+   ],
+   "pageHeight": 8512,
+   "footerSocialbar": {
+    "x": 320,
+    "y": 7842,
+    "w": 1920,
+    "h": 64
+   },
+   "backTop": {
+    "x": 320,
+    "y": 7842,
+    "w": 160,
+    "h": 180
+   },
+   "crm": {
+    "x": 0,
+    "y": 7906,
+    "w": 2560,
+    "h": 265
+   },
+   "hyFooter": {
+    "x": 0,
+    "y": 8171,
+    "w": 2560,
+    "h": 341.16
+   },
+   "newsSwiper": {
+    "slides": 18,
+    "bullets": 6
+   },
+   "worldSlides": 9,
+   "featureSlides": 18,
+   "bgm": false,
+   "lang": "zh-cn",
+   "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "hoverNav": {
+    "transform": "matrix(1.12, 0, 0, 1.12, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)"
+   },
+   "hoverMoreBtn": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(18, 18, 18)",
+    "borderColor": "rgb(18, 18, 18)"
+   },
+   "sidebarClick03": {
+    "scrollY": 2793,
+    "homeSection": "video",
+    "active": "03",
+    "hash": "#/video",
+    "videoSectionTop": 2793,
+    "pagerTransform": "translateY(-4.24rem)"
+   },
+   "scrollTo2500": {
+    "homeSection": "video",
+    "active": "03"
+   },
+   "worksNavClick4": {
+    "activeIndex": "TOKENS",
+    "enName": "TOKENS",
+    "thumbActive": "3"
+   },
+   "videoNavClick3": {
+    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "active": "2",
+    "track": "translateX(-576px)"
+   },
+   "errors": [
+    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+    "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+   ]
+  },
+  "1920x1080": {
+   "fontSize": "75px",
+   "formula": "75px",
+   "htmlClass": "landscape pc desktop",
+   "htmlAttrs": {
+    "lang": "zh-cn",
+    "mi18n": "zh-cn",
+    "hyvDevice": "pc"
+   },
+   "horizontalOverflow": false,
+   "styleSheetsWithRules": 43,
+   "header": {
+    "x": 0,
+    "y": 0,
+    "w": 1920,
+    "h": 75
+   },
+   "headerWrapper": {
+    "x": 240,
+    "y": 0,
+    "w": 1440,
+    "h": 75
+   },
+   "logo": {
+    "x": 282,
+    "y": 17.25,
+    "w": 172.5,
+    "h": 40.5
+   },
+   "sidebar": {
+    "x": 1858.5,
+    "y": 240,
+    "w": 61.5,
+    "h": 268.5
+   },
+   "navLabel": {
+    "font-size": "15px",
+    "color": "rgb(120, 120, 120)",
+    "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "sidebarNum": {
+    "font-size": "36px",
+    "color": "rgb(216, 250, 0)",
+    "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "kvBg": {
+    "x": 240,
+    "y": 36,
+    "w": 1440,
+    "h": 864.56
+   },
+   "downloadLayout": {
+    "x": 1120.67,
+    "y": 753.67,
+    "w": 514.33,
+    "h": 97.58
+   },
+   "downloadItem": {
+    "x": 1222.25,
+    "y": 731.67,
+    "w": 131.19,
+    "h": 40.8
+   },
+   "sections": [
+    {
+     "name": "section-index",
+     "top": 0,
+     "height": 1153
+    },
+    {
+     "name": "section-character",
+     "top": 1175,
+     "height": 920
+    },
+    {
+     "name": "section-video",
+     "top": 2095,
+     "height": 889
+    },
+    {
+     "name": "section-news",
+     "top": 2984,
+     "height": 917
+    },
+    {
+     "name": "section-world",
+     "top": 3900,
+     "height": 798
+    },
+    {
+     "name": "section-feature",
+     "top": 4698,
+     "height": 1148
+    }
+   ],
+   "pageHeight": 6517,
+   "footerSocialbar": {
+    "x": 240,
+    "y": 5881.5,
+    "w": 1440,
+    "h": 64
+   },
+   "backTop": {
+    "x": 240,
+    "y": 5881.5,
+    "w": 120,
+    "h": 135
+   },
+   "crm": {
+    "x": 0,
+    "y": 5945.5,
+    "w": 1920,
+    "h": 230
+   },
+   "hyFooter": {
+    "x": 0,
+    "y": 6175.5,
+    "w": 1920,
+    "h": 341.16
+   },
+   "newsSwiper": {
+    "slides": 18,
+    "bullets": 6
+   },
+   "worldSlides": 9,
+   "featureSlides": 18,
+   "bgm": false,
+   "lang": "zh-cn",
+   "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "hoverNav": {
+    "transform": "matrix(1.12, 0, 0, 1.12, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)"
+   },
+   "hoverMoreBtn": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(18, 18, 18)",
+    "borderColor": "rgb(18, 18, 18)"
+   },
+   "sidebarClick03": {
+    "scrollY": 2095,
+    "homeSection": "video",
+    "active": "03",
+    "hash": "#/video",
+    "videoSectionTop": 2095,
+    "pagerTransform": "translateY(-4.24rem)"
+   },
+   "scrollTo2500": {
+    "homeSection": "news",
+    "active": "04"
+   },
+   "worksNavClick4": {
+    "activeIndex": "TOKENS",
+    "enName": "TOKENS",
+    "thumbActive": "3"
+   },
+   "videoNavClick3": {
+    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "active": "2",
+    "track": "translateX(-432px)"
+   },
+   "errors": [
+    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+    "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+   ]
+  },
+  "1440x900": {
+   "fontSize": "56.25px",
+   "formula": "56.25px",
+   "htmlClass": "landscape pc desktop",
+   "htmlAttrs": {
+    "lang": "zh-cn",
+    "mi18n": "zh-cn",
+    "hyvDevice": "pc"
+   },
+   "horizontalOverflow": false,
+   "styleSheetsWithRules": 43,
+   "header": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 56.25
+   },
+   "headerWrapper": {
+    "x": 180,
+    "y": 0,
+    "w": 1080,
+    "h": 56.25
+   },
+   "logo": {
+    "x": 211.5,
+    "y": 12.94,
+    "w": 129.38,
+    "h": 30.38
+   },
+   "sidebar": {
+    "x": 1393.88,
+    "y": 180,
+    "w": 46.13,
+    "h": 201.38
+   },
+   "navLabel": {
+    "font-size": "11.25px",
+    "color": "rgb(120, 120, 120)",
+    "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "sidebarNum": {
+    "font-size": "27px",
+    "color": "rgb(216, 250, 0)",
+    "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "kvBg": {
+    "x": 180,
+    "y": 27,
+    "w": 1080,
+    "h": 648.42
+   },
+   "downloadLayout": {
+    "x": 711.92,
+    "y": 540.86,
+    "w": 514.33,
+    "h": 97.58
+   },
+   "downloadItem": {
+    "x": 813.5,
+    "y": 518.86,
+    "w": 131.19,
+    "h": 40.8
+   },
+   "sections": [
+    {
+     "name": "section-index",
+     "top": 0,
+     "height": 865
+    },
+    {
+     "name": "section-character",
+     "top": 881,
+     "height": 690
+    },
+    {
+     "name": "section-video",
+     "top": 1571,
+     "height": 667
+    },
+    {
+     "name": "section-news",
+     "top": 2238,
+     "height": 687
+    },
+    {
+     "name": "section-world",
+     "top": 2925,
+     "height": 599
+    },
+    {
+     "name": "section-feature",
+     "top": 3524,
+     "height": 861
+    }
+   ],
+   "pageHeight": 5020,
+   "footerSocialbar": {
+    "x": 180,
+    "y": 4411.13,
+    "w": 1080,
+    "h": 64
+   },
+   "backTop": {
+    "x": 180,
+    "y": 4411.13,
+    "w": 90,
+    "h": 101.25
+   },
+   "crm": {
+    "x": 0,
+    "y": 4475.13,
+    "w": 1440,
+    "h": 203.75
+   },
+   "hyFooter": {
+    "x": 0,
+    "y": 4678.88,
+    "w": 1440,
+    "h": 341.16
+   },
+   "newsSwiper": {
+    "slides": 18,
+    "bullets": 6
+   },
+   "worldSlides": 9,
+   "featureSlides": 18,
+   "bgm": false,
+   "lang": "zh-cn",
+   "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "hoverNav": {
+    "transform": "matrix(1.12, 0, 0, 1.12, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)"
+   },
+   "hoverMoreBtn": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(18, 18, 18)",
+    "borderColor": "rgb(18, 18, 18)"
+   },
+   "sidebarClick03": {
+    "scrollY": 1571,
+    "homeSection": "video",
+    "active": "03",
+    "hash": "#/video",
+    "videoSectionTop": 1571,
+    "pagerTransform": "translateY(-4.23111rem)"
+   },
+   "scrollTo2500": {
+    "homeSection": "world",
+    "active": "05"
+   },
+   "worksNavClick4": {
+    "activeIndex": "TOKENS",
+    "enName": "TOKENS",
+    "thumbActive": "3"
+   },
+   "videoNavClick3": {
+    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "active": "2",
+    "track": "translateX(-324px)"
+   },
+   "errors": [
+    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+    "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+   ]
+  },
+  "1280x720": {
+   "fontSize": "56.25px",
+   "formula": "56.25px",
+   "htmlClass": "landscape pc desktop",
+   "htmlAttrs": {
+    "lang": "zh-cn",
+    "mi18n": "zh-cn",
+    "hyvDevice": "pc"
+   },
+   "horizontalOverflow": false,
+   "styleSheetsWithRules": 43,
+   "header": {
+    "x": 0,
+    "y": 0,
+    "w": 1280,
+    "h": 56.25
+   },
+   "headerWrapper": {
+    "x": 100,
+    "y": 0,
+    "w": 1080,
+    "h": 56.25
+   },
+   "logo": {
+    "x": 131.5,
+    "y": 12.94,
+    "w": 129.38,
+    "h": 30.38
+   },
+   "sidebar": {
+    "x": 1233.88,
+    "y": 180,
+    "w": 46.13,
+    "h": 201.38
+   },
+   "navLabel": {
+    "font-size": "11.25px",
+    "color": "rgb(120, 120, 120)",
+    "font-family": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "sidebarNum": {
+    "font-size": "27px",
+    "color": "rgb(216, 250, 0)",
+    "font-family": "\"en impact\", \"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\""
+   },
+   "kvBg": {
+    "x": 100,
+    "y": 27,
+    "w": 1080,
+    "h": 648.42
+   },
+   "downloadLayout": {
+    "x": 631.92,
+    "y": 540.86,
+    "w": 514.33,
+    "h": 97.58
+   },
+   "downloadItem": {
+    "x": 733.5,
+    "y": 518.86,
+    "w": 131.19,
+    "h": 40.8
+   },
+   "sections": [
+    {
+     "name": "section-index",
+     "top": 0,
+     "height": 865
+    },
+    {
+     "name": "section-character",
+     "top": 881,
+     "height": 690
+    },
+    {
+     "name": "section-video",
+     "top": 1571,
+     "height": 667
+    },
+    {
+     "name": "section-news",
+     "top": 2238,
+     "height": 687
+    },
+    {
+     "name": "section-world",
+     "top": 2925,
+     "height": 599
+    },
+    {
+     "name": "section-feature",
+     "top": 3524,
+     "height": 861
+    }
+   ],
+   "pageHeight": 4968,
+   "footerSocialbar": {
+    "x": 100,
+    "y": 4411.13,
+    "w": 1080,
+    "h": 64
+   },
+   "backTop": {
+    "x": 100,
+    "y": 4411.13,
+    "w": 90,
+    "h": 101.25
+   },
+   "crm": {
+    "x": 0,
+    "y": 4475.13,
+    "w": 1280,
+    "h": 203.75
+   },
+   "hyFooter": {
+    "x": 0,
+    "y": 4678.88,
+    "w": 1280,
+    "h": 289.16
+   },
+   "newsSwiper": {
+    "slides": 18,
+    "bullets": 6
+   },
+   "worldSlides": 9,
+   "featureSlides": 18,
+   "bgm": false,
+   "lang": "zh-cn",
+   "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+   "hoverNav": {
+    "transform": "matrix(1.12, 0, 0, 1.12, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)"
+   },
+   "hoverMoreBtn": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(18, 18, 18)",
+    "borderColor": "rgb(18, 18, 18)"
+   },
+   "sidebarClick03": {
+    "scrollY": 1571,
+    "homeSection": "video",
+    "active": "03",
+    "hash": "#/video",
+    "videoSectionTop": 1571,
+    "pagerTransform": "translateY(-4.23111rem)"
+   },
+   "scrollTo2500": {
+    "homeSection": "news",
+    "active": "04"
+   },
+   "worksNavClick4": {
+    "activeIndex": "TOKENS",
+    "enName": "TOKENS",
+    "thumbActive": "3"
+   },
+   "videoNavClick3": {
+    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "active": "2",
+    "track": "translateX(-324px)"
+   },
+   "errors": [
+    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+    "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+   ]
+  }
+ },
+ "phone": {
+  "390x844": {
+   "fontSize": "52px",
+   "formula": "52px",
+   "rootClass": "portrait mo mobile",
+   "hyvDevice": "mobile",
+   "horizontalOverflow": false,
+   "mHeader": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 57.19
+   },
+   "menuBtn": {
+    "x": 330.73,
+    "y": 83.19,
+    "w": 48.88,
+    "h": 49.39
+   },
+   "preregister": {
+    "x": 0,
+    "y": 807.61,
+    "w": 390,
+    "h": 36.39
+   },
+   "kv": {
+    "x": 0,
+    "y": 57.19,
+    "w": 390,
+    "h": 340.08
+   },
+   "sections": [
+    {
+     "name": "m-home-kv",
+     "top": 0,
+     "height": 340
+    },
+    {
+     "name": "m-home-character",
+     "top": 364,
+     "height": 297
+    },
+    {
+     "name": "m-home-video",
+     "top": 683,
+     "height": 229
+    },
+    {
+     "name": "m-home-news",
+     "top": 935,
+     "height": 229
+    },
+    {
+     "name": "m-home-world",
+     "top": 1173,
+     "height": 229
+    },
+    {
+     "name": "m-home-feature",
+     "top": 1401,
+     "height": 310
+    },
+    {
+     "name": "m-news",
+     "top": 1768,
+     "height": 1330
+    }
+   ],
+   "pageHeight": 4107,
+   "loadMoreItems": 3,
+   "menuOpen": {
+    "open": true,
+    "bodyOverflow": "hidden",
+    "links": [
+     "首页",
+     "作品",
+     "影像",
+     "动态",
+     "档案"
+    ]
+   },
+   "afterLoadMore": 6,
+   "errors": [
+    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+    "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+   ]
+  },
+  "375x667": {
+   "fontSize": "50px",
+   "formula": "50px",
+   "rootClass": "portrait mo mobile",
+   "hyvDevice": "mobile",
+   "horizontalOverflow": false,
+   "mHeader": {
+    "x": 0,
+    "y": 0,
+    "w": 375,
+    "h": 55
+   },
+   "menuBtn": {
+    "x": 318,
+    "y": 80,
+    "w": 47,
+    "h": 47.5
+   },
+   "preregister": {
+    "x": 0,
+    "y": 632,
+    "w": 375,
+    "h": 35
+   },
+   "kv": {
+    "x": 0,
+    "y": 55,
+    "w": 375,
+    "h": 327
+   },
+   "sections": [
+    {
+     "name": "m-home-kv",
+     "top": 0,
+     "height": 327
+    },
+    {
+     "name": "m-home-character",
+     "top": 350,
+     "height": 286
+    },
+    {
+     "name": "m-home-video",
+     "top": 657,
+     "height": 220
+    },
+    {
+     "name": "m-home-news",
+     "top": 900,
+     "height": 220
+    },
+    {
+     "name": "m-home-world",
+     "top": 1128,
+     "height": 220
+    },
+    {
+     "name": "m-home-feature",
+     "top": 1348,
+     "height": 298
+    },
+    {
+     "name": "m-news",
+     "top": 1701,
+     "height": 1280
+    }
+   ],
+   "pageHeight": 3985,
+   "loadMoreItems": 3,
+   "menuOpen": {
+    "open": true,
+    "bodyOverflow": "hidden",
+    "links": [
+     "首页",
+     "作品",
+     "影像",
+     "动态",
+     "档案"
+    ]
+   },
+   "afterLoadMore": 6,
+   "errors": [
+    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+    "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+   ]
+  }
+ },
+ "localeList": {
+  "visible": true,
+  "options": [
+   "English",
+   "中文(简体)"
+  ]
+ },
+ "localeSwitch": {
+  "lang": "en-us",
+  "title": "Calyndrae | Portfolio · a child site of the site DNA",
+  "nav": [
+   "Home",
+   "Works",
+   "Showcase",
+   "Updates",
+   "Archive",
+   "More",
+   "Handbook"
+  ],
+  "fontVar": "\"Helvetica neue\", Helvetica, Arial, \"PingFang SC\", \"Microsoft YaHei\", \"sans-serif\"",
+  "errors": [
+   "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+   "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+  ]
+ },
+ "dialog": {
+  "openByKeyboard": true,
+  "bodyOverflow": "hidden",
+  "closedByEscape": true,
+  "errors": [
+   "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
+   "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+  ]
+ }
+}

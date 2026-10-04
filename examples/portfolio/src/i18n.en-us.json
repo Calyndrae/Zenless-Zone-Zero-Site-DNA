@@ -1,0 +1,51 @@
+{
+  "lang": "en-us",
+  "langName": "English",
+  "fontCss": "\"Helvetica neue\", Helvetica, Arial, \"PingFang SC\", \"Microsoft YaHei\", \"sans-serif\"",
+  "siteName": "Calyndrae",
+  "seoTitlePrefix": "Portfolio · a child site of the site DNA",
+  "nav": { "main": "Home", "character": "Works", "video": "Showcase", "news": "Updates", "world": "Archive", "feature": "Feature", "more": "More", "download": "Handbook" },
+  "moreMenu": { "handbook": "Handbook PDF", "github": "GitHub", "site": "Site DNA handbook" },
+  "sections": {
+    "character": { "label": "Works", "en": "Works" },
+    "video": { "label": "Showcase", "en": "Showcase" },
+    "news": { "label": "Updates", "en": "Updates" },
+    "world": { "label": "Archive", "en": "Archive" },
+    "feature": { "label": "Feature", "en": "Feature" }
+  },
+  "kv": { "slogan": "portfolio · built from the site dna", "pcTip": "Handbook download (PC)", "qrTip": "Scan to open", "downloadTitle": "Download the handbook PDF" },
+  "platforms": [
+    { "key": "pdf", "label": "Handbook PDF", "tip": "Printed edition", "link": "https://sitedna.zenlesszonezero.calyndrae.com/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.pdf" },
+    { "key": "github", "label": "GitHub", "tip": "Repositories", "link": "https://github.com/Calyndrae" },
+    { "key": "site", "label": "Site DNA", "tip": "Handbook", "link": "https://sitedna.zenlesszonezero.calyndrae.com/en-us/news/7013/" },
+    { "key": "mail", "label": "E-mail", "tip": "Say hello", "link": "mailto:hello@example.com" },
+    { "key": "repo", "label": "Repository", "tip": "Read the source", "link": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA" },
+    { "key": "mirror", "label": "Mirror", "tip": "Original app", "link": "https://sitedna.zenlesszonezero.calyndrae.com/en-us/main" },
+    { "key": "log", "label": "Changelog", "tip": "Commit history", "link": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/commits/main" }
+  ],
+  "textMore": "More",
+  "textBack": "Back",
+  "backSubtext": "back",
+  "share": { "title": "Follow", "copy": "Copy link", "copied": "Copied" },
+  "login": { "name": "Calyndrae", "contact": "Contact", "hint": "Guest" },
+  "news": { "tags": { "295": "Log", "296": "Notice", "297": "Event" } },
+  "video": { "cates": { "1338": "Demo", "1339": "Talk", "1340": "Record", "1341": "Extra" } },
+  "concept": { "label": "Now", "sub": "2026 · 10", "video": "Status" },
+  "dialog": { "noVideo": "This record has no video URL configured (sExt.video is empty).", "close": "Close" },
+  "loadMore": "Load more",
+  "noMore": "No more",
+  "backTop": "Back to top",
+  "footer": {
+    "subscribeTitle": "Subscribe",
+    "subscribeDesc": "New works, posts and handbook revisions by e-mail (example form, nothing is sent)",
+    "placeholder": "Your e-mail address",
+    "subscribe": "Subscribe",
+    "agree": "By subscribing you accept the example privacy note (example form, nothing is sent).",
+    "links": { "privacy": "Privacy", "terms": "Terms", "about": "About", "contact": "Contact", "service": "Handbook" },
+    "notice": "This page is a child-site example built from the Zenless Zone Zero website DNA handbook: it reuses the site's own stylesheet modules and component structures (header, sidebar pager, the six home compositions, the three-part footer, the phone tree) and fills their content slots with original records and drawings. Zenless Zone Zero, its artwork, fonts, stylesheets and code belong to HoYoverse / COGNOSPHERE; this page is not affiliated with them.",
+    "brand": "CALYNDRAE",
+    "copyright": "Copyright © 2026 Calyndrae. Portfolio example page."
+  },
+  "preregister": { "cta": "Download the handbook PDF" },
+  "phone": { "menuContact": "Contact" }
+}

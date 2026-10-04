@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 530" width="940" height="530">
+  <defs><pattern id="update4" width="36" height="36" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)"><rect width="11" height="36" fill="#dcdcdc"/></pattern></defs>
+  <rect width="940" height="530" fill="#e8e8e8"/>
+  <polygon points="658.4,0 940,0 901.6,530 620,530" fill="url(#update4)"/>
+  <text x="60" y="96" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#222122" letter-spacing="4">UPDATE</text>
+  <text x="56" y="400" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="128" font-weight="700" fill="#222122" font-style="italic">OVERFLOW</text>
+  <rect x="60" y="430" width="320" height="14" fill="#d8fa00"/>
+  <rect x="800" y="60" width="80" height="80" fill="#d8fa00"/><text x="840" y="118" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="52" font-weight="700" fill="#000" text-anchor="middle">4</text>
+</svg>

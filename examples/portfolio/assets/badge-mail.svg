@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 102" width="328" height="102">
+    <rect x="3" y="3" width="322" height="96" rx="14" fill="#000" stroke="#3a3a3a" stroke-width="6"/>
+    <g transform="translate(22 11) scale(1)"><path d="M14 22h52v36H14zm4 4v2l22 15 22-15v-2zm0 6.8V54h44V32.8L40 48z" fill="#fff"/></g>
+    <text x="110" y="52" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#fff">E-mail</text>
+    <text x="110" y="82" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#fff" opacity=".75">合作联系</text>
+  </svg>

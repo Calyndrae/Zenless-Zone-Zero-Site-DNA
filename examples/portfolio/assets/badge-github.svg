@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 102" width="328" height="102">
+    <rect x="3" y="3" width="322" height="96" rx="14" fill="#000" stroke="#3a3a3a" stroke-width="6"/>
+    <g transform="translate(22 11) scale(1)"><path d="M31 22l-5-5L8 40l18 23 5-5L17 40zM49 22l5-5 18 23-18 23-5-5 14-18z" fill="#fff"/></g>
+    <text x="110" y="52" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#fff">GitHub</text>
+    <text x="110" y="82" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#fff" opacity=".75">calyndrae</text>
+  </svg>

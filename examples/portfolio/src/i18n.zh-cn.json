@@ -1,0 +1,51 @@
+{
+  "lang": "zh-cn",
+  "langName": "中文(简体)",
+  "fontCss": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
+  "siteName": "Calyndrae",
+  "seoTitlePrefix": "作品集 · 站点 DNA 子站示例",
+  "nav": { "main": "首页", "character": "作品", "video": "影像", "news": "动态", "world": "档案", "feature": "特辑", "more": "更多", "download": "下载手册" },
+  "moreMenu": { "handbook": "手册 PDF", "github": "GitHub", "site": "站点 DNA 手册" },
+  "sections": {
+    "character": { "label": "作品", "en": "Works" },
+    "video": { "label": "影像", "en": "Showcase" },
+    "news": { "label": "动态", "en": "Updates" },
+    "world": { "label": "档案", "en": "Archive" },
+    "feature": { "label": "特辑", "en": "Feature" }
+  },
+  "kv": { "slogan": "portfolio · built from the site dna", "pcTip": "手册下载（PC）", "qrTip": "扫码打开主页", "downloadTitle": "下载手册 PDF" },
+  "platforms": [
+    { "key": "pdf", "label": "手册 PDF", "tip": "印刷版 · 完整", "link": "https://sitedna.zenlesszonezero.calyndrae.com/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.pdf" },
+    { "key": "github", "label": "GitHub", "tip": "源码仓库", "link": "https://github.com/Calyndrae" },
+    { "key": "site", "label": "Site DNA", "tip": "技术手册", "link": "https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/news/7013/" },
+    { "key": "mail", "label": "邮件", "tip": "合作联系", "link": "mailto:hello@example.com" },
+    { "key": "repo", "label": "本仓库", "tip": "阅读源码", "link": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA" },
+    { "key": "mirror", "label": "镜像", "tip": "原站镜像", "link": "https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/main" },
+    { "key": "log", "label": "更新日志", "tip": "提交历史", "link": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/commits/main" }
+  ],
+  "textMore": "查看更多",
+  "textBack": "返回",
+  "backSubtext": "back",
+  "share": { "title": "关注我", "copy": "复制链接", "copied": "已复制" },
+  "login": { "name": "Calyndrae", "contact": "联系我", "hint": "访客" },
+  "news": { "tags": { "295": "日志", "296": "公告", "297": "活动" } },
+  "video": { "cates": { "1338": "演示", "1339": "讲解", "1340": "记录", "1341": "花絮" } },
+  "concept": { "label": "Now", "sub": "2026 · 10", "video": "近况" },
+  "dialog": { "noVideo": "该记录未配置视频地址（sExt.video 为空）。", "close": "关闭" },
+  "loadMore": "加载更多",
+  "noMore": "没有更多了",
+  "backTop": "回到顶部",
+  "footer": {
+    "subscribeTitle": "订阅更新",
+    "subscribeDesc": "新的作品、文章与手册修订会寄到你的邮箱（示例表单，不会发送任何内容）",
+    "placeholder": "输入邮箱地址",
+    "subscribe": "订阅",
+    "agree": "订阅即表示你同意示例隐私说明（示例表单，不会发送任何内容）。",
+    "links": { "privacy": "隐私政策", "terms": "使用条款", "about": "关于我", "contact": "联系我", "service": "手册" },
+    "notice": "本页是《绝区零》官网 DNA 技术手册的子站点示例：直接复用原站的样式表模块与组件结构（页眉、侧栏页码、六段首页组合、三段式页脚、手机树），内容槽内的记录与图形为原创。《绝区零》及其美术、字体、样式表与代码归 HoYoverse / COGNOSPHERE 所有，本页与其无关。",
+    "brand": "CALYNDRAE",
+    "copyright": "Copyright © 2026 Calyndrae. 作品集示例页。"
+  },
+  "preregister": { "cta": "下载手册 PDF" },
+  "phone": { "menuContact": "联系我" }
+}

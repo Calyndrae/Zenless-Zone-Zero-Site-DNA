@@ -1,0 +1,1153 @@
+{
+  "_comment": "Answers of the child site's content API, in the shapes the studied site's API returns (chapter 02): lists {retcode,message,data:{iTotal,list}} of records {iInfoId,sChanId[],sTitle,sIntro,sUrl,sAuthor,sContent,sExt,dtStartTime,dtEndTime,dtCreateTime,sTagName[],sCategoryName,sSign}. Keyed by sLangKey, then by channel id. Replace the records with your own; keep the shapes.",
+  "channels": [
+    {
+      "iChanId": 285,
+      "sChanName": "KV"
+    },
+    {
+      "iChanId": 286,
+      "sChanName": "camps"
+    },
+    {
+      "iChanId": 287,
+      "sChanName": "characters"
+    },
+    {
+      "iChanId": 288,
+      "sChanName": "news",
+      "children": [
+        {
+          "iChanId": 295,
+          "sChanName": "日志"
+        },
+        {
+          "iChanId": 296,
+          "sChanName": "公告"
+        },
+        {
+          "iChanId": 297,
+          "sChanName": "活动"
+        }
+      ]
+    },
+    {
+      "iChanId": 290,
+      "sChanName": "world"
+    },
+    {
+      "iChanId": 292,
+      "sChanName": "social"
+    },
+    {
+      "iChanId": 293,
+      "sChanName": "terms"
+    },
+    {
+      "iChanId": 294,
+      "sChanName": "privacy"
+    },
+    {
+      "iChanId": 1332,
+      "sChanName": "video",
+      "children": [
+        {
+          "iChanId": 1338,
+          "sChanName": "演示"
+        },
+        {
+          "iChanId": 1339,
+          "sChanName": "讲解"
+        },
+        {
+          "iChanId": 1340,
+          "sChanName": "记录"
+        },
+        {
+          "iChanId": 1341,
+          "sChanName": "花絮"
+        }
+      ]
+    },
+    {
+      "iChanId": 7001,
+      "sChanName": "feature"
+    }
+  ],
+  "zh-cn": {
+    "285": [
+      {
+        "iInfoId": 710100,
+        "sChanId": [
+          "285"
+        ],
+        "sTitle": "作品集首屏",
+        "sIntro": "站点 DNA 子站示例的首屏主视觉",
+        "sUrl": "",
+        "sAuthor": "Calyndrae",
+        "sContent": "",
+        "sExt": "{\"kv\":\"assets/kv.svg\",\"kv_m\":\"assets/kv-m.svg\",\"download\":\"assets/download-sign.svg\",\"pv\":\"\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      }
+    ],
+    "286": [
+      {
+        "iInfoId": 286001,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "归档",
+        "sIntro": "ARCHIVE",
+        "sExt": "{\"en\":\"ARCHIVE\"}"
+      },
+      {
+        "iInfoId": 286002,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "工具",
+        "sIntro": "TOOLS",
+        "sExt": "{\"en\":\"TOOLS\"}"
+      },
+      {
+        "iInfoId": 286003,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "文档",
+        "sIntro": "DOCS",
+        "sExt": "{\"en\":\"DOCS\"}"
+      },
+      {
+        "iInfoId": 286004,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "分析",
+        "sIntro": "ANALYSIS",
+        "sExt": "{\"en\":\"ANALYSIS\"}"
+      }
+    ],
+    "287": [
+      {
+        "iInfoId": 287001,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "原件归档",
+        "sIntro": "深度 1 内每一个文件、每一条内容 API 答复，带 SHA-256 摘要地留档。",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/tree/main/archive",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>850 条响应、81 条新闻记录、全部角色与阵营列表，按主机 + 路径 + 排序后的查询串建索引。</p>",
+        "sExt": "{\"camp\":\"286001\",\"en_name\":\"ARCHIVE\",\"cover\":\"assets/work-1.svg\",\"thumb\":\"assets/work-1-thumb.svg\",\"shade\":\"assets/work-1-shade.svg\",\"cover_m\":\"assets/work-1-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "Node",
+          "Playwright"
+        ],
+        "sCategoryName": "归档",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287002,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "镜像适配器",
+        "sIntro": "一段放在 head 里的脚本，让原站应用从静态归档里跑起来。",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/blob/main/mirror/adapter.js",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>拦截内容 API、i18n 词典与资源请求，命中归档就就地回答，否则放行到原始地址。</p>",
+        "sExt": "{\"camp\":\"286002\",\"en_name\":\"MIRROR\",\"cover\":\"assets/work-2.svg\",\"thumb\":\"assets/work-2-thumb.svg\",\"shade\":\"assets/work-2-shade.svg\",\"cover_m\":\"assets/work-2-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "JavaScript"
+        ],
+        "sCategoryName": "工具",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287003,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "可读源码",
+        "sIntro": "1,457 个 webpack 模块拆分、命名、作用域内重命名后的可读重建。",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/tree/main/source/readable",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>值、字符串与控制流保持不变，只给标识符起名；107 个第一方模块可以像源码一样阅读。</p>",
+        "sExt": "{\"camp\":\"286002\",\"en_name\":\"READABLE\",\"cover\":\"assets/work-3.svg\",\"thumb\":\"assets/work-3-thumb.svg\",\"shade\":\"assets/work-3-shade.svg\",\"cover_m\":\"assets/work-3-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "Babel"
+        ],
+        "sCategoryName": "工具",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287004,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "设计令牌分析",
+        "sIntro": "1,955 条 CSS 规则里读出的颜色、字号、间距、层级与动效表。",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/tree/main/analysis",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>每个值都能追溯到一份文件或一次测量；没有估算，没有四舍五入。</p>",
+        "sExt": "{\"camp\":\"286004\",\"en_name\":\"TOKENS\",\"cover\":\"assets/work-4.svg\",\"thumb\":\"assets/work-4-thumb.svg\",\"shade\":\"assets/work-4-shade.svg\",\"cover_m\":\"assets/work-4-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "PostCSS"
+        ],
+        "sCategoryName": "分析",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287005,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "印刷版手册",
+        "sIntro": "41 章、目录、索引与完整代码附录的 PDF 与 Markdown 双胞胎。",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.pdf",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>三遍排版以核对页码；章节源与网页版手册完全相同。</p>",
+        "sExt": "{\"camp\":\"286003\",\"en_name\":\"HANDBOOK\",\"cover\":\"assets/work-5.svg\",\"thumb\":\"assets/work-5-thumb.svg\",\"shade\":\"assets/work-5-shade.svg\",\"cover_m\":\"assets/work-5-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "ReportLab"
+        ],
+        "sCategoryName": "文档",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287006,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "交互测量",
+        "sIntro": "在无头 Chromium 里真实点击、悬停、滚动、按键、缩放后读回的状态。",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/blob/main/capture/interactions.json",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>六个视口的 rem 值、加载帧、侧栏与滚动、每个首页区块的 Swiper 索引，一行一个事件。</p>",
+        "sExt": "{\"camp\":\"286004\",\"en_name\":\"MEASURE\",\"cover\":\"assets/work-6.svg\",\"thumb\":\"assets/work-6-thumb.svg\",\"shade\":\"assets/work-6-shade.svg\",\"cover_m\":\"assets/work-6-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "Playwright"
+        ],
+        "sCategoryName": "分析",
+        "sSign": ""
+      }
+    ],
+    "288": [
+      {
+        "iInfoId": 288006,
+        "sChanId": [
+          "288",
+          "296"
+        ],
+        "sTitle": "手册 7013 上线：样式表不再泄漏到其他路由",
+        "sIntro": "合并 PR #4：手册页的样式只在自己的路由生效，释放 #footer 锚点。",
+        "sUrl": "",
+        "sContent": "<p>合并 PR #4。</p>",
+        "sExt": "{\"banner\":\"assets/update-1.svg\"}",
+        "dtStartTime": "2026-10-04 16:25:01",
+        "dtCreateTime": "2026-10-04 16:25:01",
+        "sTagName": [
+          "公告"
+        ],
+        "sCategoryName": "公告",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288005,
+        "sChanId": [
+          "288",
+          "295"
+        ],
+        "sTitle": "样本图片改从归档加载，懒加载的 logo 得到解析",
+        "sIntro": "手册中的样本不再依赖实时 CDN。",
+        "sUrl": "",
+        "sContent": "<p>提交 e52a632。</p>",
+        "sExt": "{\"banner\":\"assets/update-2.svg\"}",
+        "dtStartTime": "2026-10-04 14:58:09",
+        "dtCreateTime": "2026-10-04 14:58:09",
+        "sTagName": [
+          "日志"
+        ],
+        "sCategoryName": "日志",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288004,
+        "sChanId": [
+          "288",
+          "295"
+        ],
+        "sTitle": "修复折叠与溢出的样本，嵌入完整页脚",
+        "sIntro": "被 Swiper 与 GSAP 写入的行内样式在样本中归零。",
+        "sUrl": "",
+        "sContent": "<p>提交 2439ffc。</p>",
+        "sExt": "{\"banner\":\"assets/update-3.svg\"}",
+        "dtStartTime": "2026-10-04 14:31:48",
+        "dtCreateTime": "2026-10-04 14:31:48",
+        "sTagName": [
+          "日志"
+        ],
+        "sCategoryName": "日志",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288003,
+        "sChanId": [
+          "288",
+          "297"
+        ],
+        "sTitle": "首版发布：归档、可读源码、分析、手册、镜像与印刷版",
+        "sIntro": "合并 PR #1。",
+        "sUrl": "",
+        "sContent": "<p>提交 bd99f76。</p>",
+        "sExt": "{\"banner\":\"assets/update-4.svg\"}",
+        "dtStartTime": "2026-10-04 13:37:12",
+        "dtCreateTime": "2026-10-04 13:37:12",
+        "sTagName": [
+          "活动"
+        ],
+        "sCategoryName": "活动",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288002,
+        "sChanId": [
+          "288",
+          "295"
+        ],
+        "sTitle": "仓库初始化",
+        "sIntro": "Initial commit。",
+        "sUrl": "",
+        "sContent": "<p>提交 3a37443。</p>",
+        "sExt": "{\"banner\":\"assets/update-5.svg\"}",
+        "dtStartTime": "2026-10-04 12:12:26",
+        "dtCreateTime": "2026-10-04 12:12:26",
+        "sTagName": [
+          "日志"
+        ],
+        "sCategoryName": "日志",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288001,
+        "sChanId": [
+          "288",
+          "296"
+        ],
+        "sTitle": "路线图：子站点示例 · 作品集",
+        "sIntro": "用手册第 39 章的十一条规则，搭一个单页作品集。",
+        "sUrl": "",
+        "sContent": "<p>就是你正在看的这一页。</p>",
+        "sExt": "{\"banner\":\"assets/update-6.svg\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "dtCreateTime": "2026-10-04 00:00:00",
+        "sTagName": [
+          "公告"
+        ],
+        "sCategoryName": "公告",
+        "sSign": ""
+      }
+    ],
+    "290": [
+      {
+        "iInfoId": 290001,
+        "sChanId": [
+          "290"
+        ],
+        "sTitle": "原件归档",
+        "sIntro": "archive/ · 每个文件与每条 API 答复的原样留存",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/archive/index.json",
+        "sContent": "",
+        "sExt": "{\"banner\":\"assets/archive-1.svg\",\"en\":\"Archive\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 290002,
+        "sChanId": [
+          "290"
+        ],
+        "sTitle": "可读源码",
+        "sIntro": "source/readable · 107 个重命名后的第一方模块",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/source/",
+        "sContent": "",
+        "sExt": "{\"banner\":\"assets/archive-2.svg\",\"en\":\"Source\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 290003,
+        "sChanId": [
+          "290"
+        ],
+        "sTitle": "分析表",
+        "sIntro": "analysis/ · 颜色、字体、间距、层级、动效",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/analysis/",
+        "sContent": "",
+        "sExt": "{\"banner\":\"assets/archive-3.svg\",\"en\":\"Analysis\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      }
+    ],
+    "292": [
+      {
+        "iInfoId": 292001,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "GitHub",
+        "sUrl": "https://github.com/Calyndrae",
+        "sExt": "{\"icon\":\"code\"}"
+      },
+      {
+        "iInfoId": 292002,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "Site DNA",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/news/7013/",
+        "sExt": "{\"icon\":\"book\"}"
+      },
+      {
+        "iInfoId": 292003,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "镜像",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/main",
+        "sExt": "{\"icon\":\"mirror\"}"
+      },
+      {
+        "iInfoId": 292004,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "邮件",
+        "sUrl": "mailto:hello@example.com",
+        "sExt": "{\"icon\":\"mail\"}"
+      }
+    ],
+    "1332": [
+      {
+        "iInfoId": 133201,
+        "sChanId": [
+          "1332",
+          "1338"
+        ],
+        "sTitle": "rem 适配器：六个视口下的根字号",
+        "sIntro": "100 × clientWidth ÷ 2560，1440 以下钳制。",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-1.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-1-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "演示",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133202,
+        "sChanId": [
+          "1332",
+          "1340"
+        ],
+        "sTitle": "侧栏分页器跟随滚动的六个数字",
+        "sIntro": "点击与滚动写同一个 store 值。",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-2.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-2-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "记录",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133203,
+        "sChanId": [
+          "1332",
+          "1339"
+        ],
+        "sTitle": "Swiper 4.5.1：fade、auto、loop 三种用法",
+        "sIntro": "舞台用 fade，条带用 slidesPerView auto，横幅用 loop。",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-3.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-3-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "讲解",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133204,
+        "sChanId": [
+          "1332",
+          "1340"
+        ],
+        "sTitle": "加载屏的四帧：2118 / 2417 / 5096 / 7154 ms",
+        "sIntro": "壳子里的静态加载器先出现，Vue 加载器接手。",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-4.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-4-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "记录",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133205,
+        "sChanId": [
+          "1332",
+          "1339"
+        ],
+        "sTitle": "页脚三段：社交条、订阅、公司页脚",
+        "sIntro": "子站点只拥有第一段和容器。",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-5.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-5-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "讲解",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133206,
+        "sChanId": [
+          "1332",
+          "1341"
+        ],
+        "sTitle": "手机路由树：/m 下的另一套页面",
+        "sIntro": "按 UA 选择，不是响应式回流。",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-6.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-6-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "花絮",
+        "sSign": ""
+      }
+    ],
+    "7001": [
+      {
+        "iInfoId": 700101,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "缩放",
+        "sIntro": "html font-size = 100 × clientWidth ÷ 2560，钳制在 [1440, 2560]",
+        "sExt": "{\"banner\":\"assets/feature-1.svg\",\"en\":\"SCALE\"}"
+      },
+      {
+        "iInfoId": 700102,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "令牌",
+        "sIntro": "墨色 #222122，浅灰 #e8e8e8，强调色 #d8fa00，悬停 #c6e800",
+        "sExt": "{\"banner\":\"assets/feature-2.svg\",\"en\":\"TOKENS\"}"
+      },
+      {
+        "iInfoId": 700103,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "框架",
+        "sIntro": "1rem 固定头部，19.2rem 居中栏，侧栏分页器，三段页脚",
+        "sExt": "{\"banner\":\"assets/feature-3.svg\",\"en\":\"CHROME\"}"
+      },
+      {
+        "iInfoId": 700104,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "动效",
+        "sIntro": "0.3 s 入场，300 ms 轮播，20 s 跑马灯，悬停只放大 1.1–1.12 或反色",
+        "sExt": "{\"banner\":\"assets/feature-4.svg\",\"en\":\"MOTION\"}"
+      },
+      {
+        "iInfoId": 700105,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "数据",
+        "sIntro": "getContentList / getContent / getChildTree，sTitle · sIntro · sContent · sExt",
+        "sExt": "{\"banner\":\"assets/feature-5.svg\",\"en\":\"DATA\"}"
+      },
+      {
+        "iInfoId": 700106,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "双树",
+        "sIntro": "桌面与手机各一棵路由树，按 UA 选择，共用 store、API 与词典",
+        "sExt": "{\"banner\":\"assets/feature-6.svg\",\"en\":\"TREES\"}"
+      }
+    ]
+  },
+  "en-us": {
+    "285": [
+      {
+        "iInfoId": 710100,
+        "sChanId": [
+          "285"
+        ],
+        "sTitle": "Portfolio key visual",
+        "sIntro": "Hero of the site-DNA child example",
+        "sUrl": "",
+        "sAuthor": "Calyndrae",
+        "sContent": "",
+        "sExt": "{\"kv\":\"assets/kv.svg\",\"kv_m\":\"assets/kv-m.svg\",\"download\":\"assets/download-sign.svg\",\"pv\":\"\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      }
+    ],
+    "286": [
+      {
+        "iInfoId": 286001,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "Archive",
+        "sIntro": "ARCHIVE",
+        "sExt": "{\"en\":\"ARCHIVE\"}"
+      },
+      {
+        "iInfoId": 286002,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "Tools",
+        "sIntro": "TOOLS",
+        "sExt": "{\"en\":\"TOOLS\"}"
+      },
+      {
+        "iInfoId": 286003,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "Docs",
+        "sIntro": "DOCS",
+        "sExt": "{\"en\":\"DOCS\"}"
+      },
+      {
+        "iInfoId": 286004,
+        "sChanId": [
+          "286"
+        ],
+        "sTitle": "Analysis",
+        "sIntro": "ANALYSIS",
+        "sExt": "{\"en\":\"ANALYSIS\"}"
+      }
+    ],
+    "287": [
+      {
+        "iInfoId": 287001,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "Originals archive",
+        "sIntro": "Every file and every content-API answer within depth 1, kept verbatim with SHA-256 digests.",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/tree/main/archive",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>850 responses, 81 news records, the full character and camp lists, indexed by host + path + sorted query.</p>",
+        "sExt": "{\"camp\":\"286001\",\"en_name\":\"ARCHIVE\",\"cover\":\"assets/work-1.svg\",\"thumb\":\"assets/work-1-thumb.svg\",\"shade\":\"assets/work-1-shade.svg\",\"cover_m\":\"assets/work-1-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "Node",
+          "Playwright"
+        ],
+        "sCategoryName": "Archive",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287002,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "Mirror adapter",
+        "sIntro": "One script in the head that runs the original application from a static archive.",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/blob/main/mirror/adapter.js",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>Intercepts the content API, the i18n dictionaries and the assets; answers from the archive when it can, forwards otherwise.</p>",
+        "sExt": "{\"camp\":\"286002\",\"en_name\":\"MIRROR\",\"cover\":\"assets/work-2.svg\",\"thumb\":\"assets/work-2-thumb.svg\",\"shade\":\"assets/work-2-shade.svg\",\"cover_m\":\"assets/work-2-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "JavaScript"
+        ],
+        "sCategoryName": "Tools",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287003,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "Readable source",
+        "sIntro": "1,457 webpack modules split, named and renamed scope-aware into a readable reconstruction.",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/tree/main/source/readable",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>Values, strings and control flow unchanged; 107 first-party modules read like source.</p>",
+        "sExt": "{\"camp\":\"286002\",\"en_name\":\"READABLE\",\"cover\":\"assets/work-3.svg\",\"thumb\":\"assets/work-3-thumb.svg\",\"shade\":\"assets/work-3-shade.svg\",\"cover_m\":\"assets/work-3-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "Babel"
+        ],
+        "sCategoryName": "Tools",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287004,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "Design-token analysis",
+        "sIntro": "Colour, type, spacing, layer and motion tables read out of 1,955 CSS rules.",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/tree/main/analysis",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>Every value traces to a file or a measurement; nothing estimated, nothing rounded.</p>",
+        "sExt": "{\"camp\":\"286004\",\"en_name\":\"TOKENS\",\"cover\":\"assets/work-4.svg\",\"thumb\":\"assets/work-4-thumb.svg\",\"shade\":\"assets/work-4-shade.svg\",\"cover_m\":\"assets/work-4-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "PostCSS"
+        ],
+        "sCategoryName": "Analysis",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287005,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "Printed handbook",
+        "sIntro": "41 chapters, contents, index and the complete code appendix as PDF and Markdown twins.",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/handbook/Zenless-Zone-Zero-Site-DNA-Handbook.pdf",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>Three layout passes for verified page numbers; the same chapter sources as the web edition.</p>",
+        "sExt": "{\"camp\":\"286003\",\"en_name\":\"HANDBOOK\",\"cover\":\"assets/work-5.svg\",\"thumb\":\"assets/work-5-thumb.svg\",\"shade\":\"assets/work-5-shade.svg\",\"cover_m\":\"assets/work-5-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "ReportLab"
+        ],
+        "sCategoryName": "Docs",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 287006,
+        "sChanId": [
+          "287"
+        ],
+        "sTitle": "Interaction measurements",
+        "sIntro": "Real clicks, hovers, scrolls, keys and resizes driven in headless Chromium, state read back.",
+        "sUrl": "https://github.com/Calyndrae/Zenless-Zone-Zero-Site-DNA/blob/main/capture/interactions.json",
+        "sAuthor": "Calyndrae",
+        "sContent": "<p>Root font-size per viewport, loader frames, sidebar and scroll, every home section's Swiper indexes, one event per row.</p>",
+        "sExt": "{\"camp\":\"286004\",\"en_name\":\"MEASURE\",\"cover\":\"assets/work-6.svg\",\"thumb\":\"assets/work-6-thumb.svg\",\"shade\":\"assets/work-6-shade.svg\",\"cover_m\":\"assets/work-6-m.svg\"}",
+        "dtStartTime": "2026-10-04 00:30:34",
+        "dtEndTime": "",
+        "dtCreateTime": "2026-10-04 00:30:34",
+        "sTagName": [
+          "Playwright"
+        ],
+        "sCategoryName": "Analysis",
+        "sSign": ""
+      }
+    ],
+    "288": [
+      {
+        "iInfoId": 288006,
+        "sChanId": [
+          "288",
+          "296"
+        ],
+        "sTitle": "Handbook 7013 live: stylesheets no longer leak into other routes",
+        "sIntro": "PR #4 merged: the handbook's styles apply on its own route only and free the #footer target.",
+        "sUrl": "",
+        "sContent": "<p>PR #4 merged.</p>",
+        "sExt": "{\"banner\":\"assets/update-1.svg\"}",
+        "dtStartTime": "2026-10-04 16:25:01",
+        "dtCreateTime": "2026-10-04 16:25:01",
+        "sTagName": [
+          "Notice"
+        ],
+        "sCategoryName": "Notice",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288005,
+        "sChanId": [
+          "288",
+          "295"
+        ],
+        "sTitle": "Specimen images from the archive, lazy-loaded logos resolved",
+        "sIntro": "Specimens no longer depend on the live CDN.",
+        "sUrl": "",
+        "sContent": "<p>Commit e52a632.</p>",
+        "sExt": "{\"banner\":\"assets/update-2.svg\"}",
+        "dtStartTime": "2026-10-04 14:58:09",
+        "dtCreateTime": "2026-10-04 14:58:09",
+        "sTagName": [
+          "Log"
+        ],
+        "sCategoryName": "Log",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288004,
+        "sChanId": [
+          "288",
+          "295"
+        ],
+        "sTitle": "Collapsed and overflowing specimens fixed, full footer embedded",
+        "sIntro": "Inline styles written by Swiper and GSAP are reset in specimens.",
+        "sUrl": "",
+        "sContent": "<p>Commit 2439ffc.</p>",
+        "sExt": "{\"banner\":\"assets/update-3.svg\"}",
+        "dtStartTime": "2026-10-04 14:31:48",
+        "dtCreateTime": "2026-10-04 14:31:48",
+        "sTagName": [
+          "Log"
+        ],
+        "sCategoryName": "Log",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288003,
+        "sChanId": [
+          "288",
+          "297"
+        ],
+        "sTitle": "First release: archive, readable source, analysis, handbook, mirror and printed edition",
+        "sIntro": "PR #1 merged.",
+        "sUrl": "",
+        "sContent": "<p>Commit bd99f76.</p>",
+        "sExt": "{\"banner\":\"assets/update-4.svg\"}",
+        "dtStartTime": "2026-10-04 13:37:12",
+        "dtCreateTime": "2026-10-04 13:37:12",
+        "sTagName": [
+          "Event"
+        ],
+        "sCategoryName": "Event",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288002,
+        "sChanId": [
+          "288",
+          "295"
+        ],
+        "sTitle": "Repository initialised",
+        "sIntro": "Initial commit.",
+        "sUrl": "",
+        "sContent": "<p>Commit 3a37443.</p>",
+        "sExt": "{\"banner\":\"assets/update-5.svg\"}",
+        "dtStartTime": "2026-10-04 12:12:26",
+        "dtCreateTime": "2026-10-04 12:12:26",
+        "sTagName": [
+          "Log"
+        ],
+        "sCategoryName": "Log",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 288001,
+        "sChanId": [
+          "288",
+          "296"
+        ],
+        "sTitle": "Roadmap: a child-site example, the portfolio",
+        "sIntro": "A single-page portfolio built from the eleven rules of chapter 39.",
+        "sUrl": "",
+        "sContent": "<p>The page you are reading.</p>",
+        "sExt": "{\"banner\":\"assets/update-6.svg\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "dtCreateTime": "2026-10-04 00:00:00",
+        "sTagName": [
+          "Notice"
+        ],
+        "sCategoryName": "Notice",
+        "sSign": ""
+      }
+    ],
+    "290": [
+      {
+        "iInfoId": 290001,
+        "sChanId": [
+          "290"
+        ],
+        "sTitle": "Originals archive",
+        "sIntro": "archive/ · every file and every API answer, verbatim",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/archive/index.json",
+        "sContent": "",
+        "sExt": "{\"banner\":\"assets/archive-1.svg\",\"en\":\"Archive\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 290002,
+        "sChanId": [
+          "290"
+        ],
+        "sTitle": "Readable source",
+        "sIntro": "source/readable · 107 renamed first-party modules",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/source/",
+        "sContent": "",
+        "sExt": "{\"banner\":\"assets/archive-2.svg\",\"en\":\"Source\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 290003,
+        "sChanId": [
+          "290"
+        ],
+        "sTitle": "Analysis tables",
+        "sIntro": "analysis/ · colour, type, spacing, layers, motion",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/analysis/",
+        "sContent": "",
+        "sExt": "{\"banner\":\"assets/archive-3.svg\",\"en\":\"Analysis\"}",
+        "dtStartTime": "2026-10-04 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "",
+        "sSign": ""
+      }
+    ],
+    "292": [
+      {
+        "iInfoId": 292001,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "GitHub",
+        "sUrl": "https://github.com/Calyndrae",
+        "sExt": "{\"icon\":\"code\"}"
+      },
+      {
+        "iInfoId": 292002,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "Site DNA",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/en-us/news/7013/",
+        "sExt": "{\"icon\":\"book\"}"
+      },
+      {
+        "iInfoId": 292003,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "Mirror",
+        "sUrl": "https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/main",
+        "sExt": "{\"icon\":\"mirror\"}"
+      },
+      {
+        "iInfoId": 292004,
+        "sChanId": [
+          "292"
+        ],
+        "sTitle": "E-mail",
+        "sUrl": "mailto:hello@example.com",
+        "sExt": "{\"icon\":\"mail\"}"
+      }
+    ],
+    "1332": [
+      {
+        "iInfoId": 133201,
+        "sChanId": [
+          "1332",
+          "1338"
+        ],
+        "sTitle": "The rem adapter at six viewports",
+        "sIntro": "100 × clientWidth ÷ 2560, clamped below 1440.",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-1.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-1-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "Demo",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133202,
+        "sChanId": [
+          "1332",
+          "1340"
+        ],
+        "sTitle": "Six numbers that follow the scroll",
+        "sIntro": "Click and scroll write the same store value.",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-2.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-2-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "Record",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133203,
+        "sChanId": [
+          "1332",
+          "1339"
+        ],
+        "sTitle": "Swiper 4.5.1: fade, auto, loop",
+        "sIntro": "Fade for stages, slidesPerView auto for strips, loop for banners.",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-3.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-3-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "Talk",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133204,
+        "sChanId": [
+          "1332",
+          "1340"
+        ],
+        "sTitle": "Four loader frames: 2118 / 2417 / 5096 / 7154 ms",
+        "sIntro": "The shell's static loader first, then the Vue loader.",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-4.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-4-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "Record",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133205,
+        "sChanId": [
+          "1332",
+          "1339"
+        ],
+        "sTitle": "Three-part footer: social bar, subscription, corporate",
+        "sIntro": "A child site owns only the first part and the containers.",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-5.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-5-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "Talk",
+        "sSign": ""
+      },
+      {
+        "iInfoId": 133206,
+        "sChanId": [
+          "1332",
+          "1341"
+        ],
+        "sTitle": "The phone tree under /m",
+        "sIntro": "Chosen by user agent, not a responsive reflow.",
+        "sUrl": "",
+        "sContent": "",
+        "sExt": "{\"cover\": \"assets/showcase-6.svg\", \"video\": \"\", \"thumb\": \"assets/showcase-6-thumb.svg\"}",
+        "dtStartTime": "2026-10-03 00:00:00",
+        "sTagName": [],
+        "sCategoryName": "Extra",
+        "sSign": ""
+      }
+    ],
+    "7001": [
+      {
+        "iInfoId": 700101,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "Scale",
+        "sIntro": "html font-size = 100 × clientWidth ÷ 2560, clamped to [1440, 2560]",
+        "sExt": "{\"banner\":\"assets/feature-1.svg\",\"en\":\"SCALE\"}"
+      },
+      {
+        "iInfoId": 700102,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "Tokens",
+        "sIntro": "ink #222122, light grey #e8e8e8, accent #d8fa00, hover #c6e800",
+        "sExt": "{\"banner\":\"assets/feature-2.svg\",\"en\":\"TOKENS\"}"
+      },
+      {
+        "iInfoId": 700103,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "Chrome",
+        "sIntro": "fixed 1rem header, centred 19.2rem column, sidebar pager, three-part footer",
+        "sExt": "{\"banner\":\"assets/feature-3.svg\",\"en\":\"CHROME\"}"
+      },
+      {
+        "iInfoId": 700104,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "Motion",
+        "sIntro": "0.3 s entrances, 300 ms slides, 20 s marquee; hover scales 1.1–1.12 or inverts",
+        "sExt": "{\"banner\":\"assets/feature-4.svg\",\"en\":\"MOTION\"}"
+      },
+      {
+        "iInfoId": 700105,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "Data",
+        "sIntro": "getContentList / getContent / getChildTree, sTitle · sIntro · sContent · sExt",
+        "sExt": "{\"banner\":\"assets/feature-5.svg\",\"en\":\"DATA\"}"
+      },
+      {
+        "iInfoId": 700106,
+        "sChanId": [
+          "7001"
+        ],
+        "sTitle": "Two trees",
+        "sIntro": "a desktop tree and a phone tree chosen by user agent, sharing store, API and dictionaries",
+        "sExt": "{\"banner\":\"assets/feature-6.svg\",\"en\":\"TREES\"}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+/* Verbatim style text injected at run time by _nuxt/be1f69b.js (recorded as style tag 45 of zh-cn_main, 1664 characters). Belongs to HoYoverse / COGNOSPHERE; reproduced for the study of the site's construction. */
+.me-media-icon {
+  font-size: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.me-media-icon.mob {
+  font-size: 50px;
+}
+.me-media-icon-item {
+  cursor: pointer;
+}
+.me-media-icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.me-media-icon-box.bottom {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.me-media-icon-box.bottom .me-media-icon-label {
+  padding-left: 0;
+  padding-right: 0;
+}
+.me-media-icon-box.left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.me-media-icon-box.left .me-media-icon-label {
+  text-align: right;
+}
+.me-media-icon-box.top {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+.me-media-icon-box.top .me-media-icon-label {
+  padding-left: 0;
+  padding-right: 0;
+}
+.me-media-icon-box.right .me-media-icon-label {
+  text-align: left;
+}
+.me-media-icon-label {
+  text-align: center;
+  white-space: nowrap;
+  -webkit-user-select: "none";
+     -moz-user-select: "none";
+      -ms-user-select: "none";
+          user-select: "none";
+}
+.me-media-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

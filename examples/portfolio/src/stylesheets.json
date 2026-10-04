@@ -1,0 +1,348 @@
+{
+ "modules": [
+  {
+   "source": "capture/css/660.css",
+   "head": ".error{position:absolute;width:100%;height:100%;text-align:c"
+  },
+  {
+   "source": "capture/css/662.css",
+   "head": " .nuxt-progress { position: fixed; top: 0px; left: 0px"
+  },
+  {
+   "source": "capture/css/664.css",
+   "head": ".page-enter-active{transition:opacity .4s}.page-enter{opacit"
+  },
+  {
+   "source": "capture/css/668.css",
+   "head": ".loading[data-v-4ed1ddcf]{position:fixed;top:0;left:0;width:"
+  },
+  {
+   "source": "capture/css/670.css",
+   "head": ".share{height:100%}.share__info{position:relative;display:fl"
+  },
+  {
+   "source": "capture/css/673.css",
+   "head": ".header{position:fixed;top:0;left:0;z-index:99;width:100%;he"
+  },
+  {
+   "source": "capture/css/675.css",
+   "head": ".backTop{position:absolute;width:1.6rem;height:1.8rem;backgr"
+  },
+  {
+   "source": "capture/css/681.css",
+   "head": ".footer[data-v-2b67f5b0]{position:relative;z-index:99;backgr"
+  },
+  {
+   "source": "capture/css/683.css",
+   "head": ".footer-crm{background:#111;padding:1rem 0 .4rem;font-family"
+  },
+  {
+   "source": "capture/css/685.css",
+   "head": "@font-face{font-family:\"Impact\";src:url(/_nuxt/fonts/Impact."
+  },
+  {
+   "source": "capture/css/693.css",
+   "head": "body{margin:0;padding:0}"
+  },
+  {
+   "source": "capture/css/695.css",
+   "head": ".m-header{position:fixed;top:0;left:0;z-index:996;width:100%"
+  },
+  {
+   "source": "capture/css/899.css",
+   "head": "/** * Swiper 4.5.1 * Most modern mobile touch slider and f"
+  },
+  {
+   "source": "capture/css/527.css",
+   "head": ".mhy-bridge-message-box-mask { position: fixed; top: 0; "
+  },
+  {
+   "source": "capture/css/334.css",
+   "head": ".mihoyo-share-tips-wrap{position:fixed;left:0;top:0;height:1"
+  },
+  {
+   "source": "capture/css/154.css",
+   "head": "._2KIYvRS5{left:0;top:0;width:100%;height:100%;display:-webk"
+  },
+  {
+   "source": "capture/css/1024.css",
+   "head": "/* Copyright 2014 Mozilla Foundation * * Licensed under th"
+  },
+  {
+   "source": "capture/css/202.css",
+   "head": "html{-webkit-tap-highlight-color:rgba(0,0,0,0)}body{margin:0"
+  },
+  {
+   "source": "capture/css/1054.css",
+   "head": ".hyv-subscription-detail .hyv-subscription-survey-tip{margin"
+  },
+  {
+   "source": "capture/css/1056.css",
+   "head": ":root,:root[theme-mode=light]{--global-color-coolgrey-0:#e6e"
+  },
+  {
+   "source": "capture/css/1058.css",
+   "head": "@charset \"UTF-8\"; /* stylelint-disable */ [mi18n-lang=zh-cn]"
+  },
+  {
+   "source": "capture/css/1247.css",
+   "head": ".user-model-loading{display:none;font-size:14px}.user-model-"
+  },
+  {
+   "source": "capture/css/1346.css",
+   "head": ".sidebar{position:fixed;top:3.2rem;right:0;z-index:99;width:"
+  },
+  {
+   "source": "capture/css/1168.css",
+   "head": ".video-container[data-v-949ad85e]{overflow:hidden;display:fl"
+  },
+  {
+   "source": "capture/css/1354.css",
+   "head": ".cloud-download-dialog[data-v-138999ba]{width:7.49rem;height"
+  },
+  {
+   "source": "capture/css/1358.css",
+   "head": ".home-kv{margin-top:.48rem;min-height:15.37rem;margin-bottom"
+  },
+  {
+   "source": "capture/css/1135.css",
+   "head": ".section-nav{position:absolute;z-index:3;top:1.6rem;left:-6."
+  },
+  {
+   "source": "capture/css/1363.css",
+   "head": ".home-character[data-v-c6f7f9a8]{position:relative;height:10"
+  },
+  {
+   "source": "capture/css/1368.css",
+   "head": ".home-news[data-v-68b07d09]{position:relative;height:12.22re"
+  },
+  {
+   "source": "capture/css/1370.css",
+   "head": ".home-feature[data-v-26432ee0]{position:relative;height:15.3"
+  },
+  {
+   "source": "capture/css/1374.css",
+   "head": ".home-world[data-v-53daaf10]{position:relative;height:10.64r"
+  },
+  {
+   "source": "capture/css/1385.css",
+   "head": ".home-video[data-v-95fb0980]{position:relative;padding-top:3"
+  },
+  {
+   "source": "capture/css/1393.css",
+   "head": ".home{position:relative;overflow:hidden}.home .section-wrap{"
+  },
+  {
+   "source": "examples/portfolio/vendor/m-audio-player.css",
+   "head": ".m-audio-player { position: relative; } .m-audio-player__i",
+   "from": "_nuxt/be1f69b.js",
+   "chars": 241,
+   "recorded": 241
+  },
+  {
+   "source": "examples/portfolio/vendor/me-media-icon.css",
+   "head": ".me-media-icon { font-size: 100px; display: -webkit-box;",
+   "from": "_nuxt/be1f69b.js",
+   "chars": 1664,
+   "recorded": 1664
+  },
+  {
+   "source": "examples/portfolio/vendor/me-hover-btn.css",
+   "head": ".me-hover-btn { position: relative; cursor: pointer; -",
+   "from": "_nuxt/be1f69b.js",
+   "chars": 1651,
+   "recorded": 1651
+  },
+  {
+   "source": "examples/portfolio/vendor/sea-download-pointer.css",
+   "head": ".sea-download-pointer { cursor: pointer; } .sea-download-p",
+   "from": "archive/files/webstatic.hoyoverse.com/dora/biz/me-design/sea-download/index.global.nap.js",
+   "chars": 5679,
+   "recorded": 5679
+  },
+  {
+   "source": "examples/portfolio/vendor/hy-footer-1DmxLu.css",
+   "head": ".hy-footer-1DmxLu{font-family:sans-serif;line-height:1.2;tex",
+   "from": "archive/files/webstatic.hoyoverse.com/dora/biz/hoyoverse-footer/v1/footer.js",
+   "chars": 8239,
+   "recorded": 8239
+  },
+  {
+   "source": "examples/portfolio/vendor/anchor-img-2u0Ts4.css",
+   "head": ".anchor-img-2u0Ts4{width:fit-content}.img-2yo9WX{width:auto;",
+   "from": "archive/files/webstatic.hoyoverse.com/dora/biz/hoyoverse-footer/v1/footer.js",
+   "chars": 171,
+   "recorded": 171
+  },
+  {
+   "source": "examples/portfolio/vendor/a.css",
+   "head": "a.no-click-2EvVW7{cursor:default}@media(hover: hover){.decor",
+   "from": "archive/files/webstatic.hoyoverse.com/dora/biz/hoyoverse-footer/v1/footer.js",
+   "chars": 150,
+   "recorded": 150
+  },
+  {
+   "source": "examples/portfolio/vendor/btn-outline-17rjoU.css",
+   "head": ".btn-outline-17rjoU{--btn-width:auto;position:relative;displ",
+   "from": "archive/files/webstatic.hoyoverse.com/dora/biz/hoyoverse-footer/v1/footer.js",
+   "chars": 1761,
+   "recorded": 1761
+  },
+  {
+   "source": "examples/portfolio/vendor/scroll-wrapper-2Veynw.css",
+   "head": ".scroll-wrapper-2Veynw{position:relative;display:flex;flex-d",
+   "from": "archive/files/webstatic.hoyoverse.com/dora/biz/hoyoverse-footer/v1/footer.js",
+   "chars": 419,
+   "recorded": 419
+  },
+  {
+   "source": "capture/css/1280.css",
+   "head": ".m-home-kv img{width:100%}.m-home-kv-wrap{overflow:hidden;he"
+  },
+  {
+   "source": "capture/css/1235.css",
+   "head": ".m-section-nav{position:absolute;z-index:3;top:.48rem;left:0"
+  },
+  {
+   "source": "capture/css/1287.css",
+   "head": ".m-home-video[data-v-42ef7462]{position:relative;height:4.4r"
+  },
+  {
+   "source": "capture/css/1293.css",
+   "head": ".m-home-character[data-v-4cbeaaa9]{position:relative;height:"
+  },
+  {
+   "source": "capture/css/1297.css",
+   "head": ".m-home-news[data-v-4271f3ad]{position:relative;height:4.4re"
+  },
+  {
+   "source": "capture/css/1299.css",
+   "head": ".m-home-feature[data-v-5959da90]{position:relative;height:5."
+  },
+  {
+   "source": "capture/css/1304.css",
+   "head": ".m-home-world[data-v-c09ee0ae]{position:relative;height:4.4r"
+  },
+  {
+   "source": "capture/css/1307.css",
+   "head": ".m-preregister-container{position:fixed;width:7.5rem;left:0;"
+  },
+  {
+   "source": "capture/css/1310.css",
+   "head": ".home{position:relative;width:7.5rem;margin:1.1rem auto 0;ov"
+  },
+  {
+   "source": "capture/css/1170.css",
+   "head": ".mihoyo-pager-rich{text-align:center}.mihoyo-pager-rich__pag"
+  },
+  {
+   "source": "capture/css/1315.css",
+   "head": ".m-video{position:relative;margin-top:1.1rem;min-height:100%"
+  },
+  {
+   "source": "capture/css/1160.css",
+   "head": ".news-tag{position:relative;min-width:.4rem;padding-left:.1r"
+  },
+  {
+   "source": "capture/css/1312.css",
+   "head": ".m-news{position:relative;margin-top:1.1rem;min-height:100%;"
+  },
+  {
+   "source": "capture/css/1321.css",
+   "head": ".m-news-detail{margin:1.1rem auto 0;min-height:100%}.m-news-"
+  }
+ ],
+ "trees": {
+  "pc": [
+   "capture/css/660.css",
+   "capture/css/662.css",
+   "capture/css/664.css",
+   "capture/css/668.css",
+   "capture/css/670.css",
+   "capture/css/673.css",
+   "capture/css/675.css",
+   "capture/css/681.css",
+   "capture/css/683.css",
+   "capture/css/685.css",
+   "capture/css/693.css",
+   "capture/css/695.css",
+   "capture/css/899.css",
+   "capture/css/527.css",
+   "capture/css/334.css",
+   "capture/css/154.css",
+   "capture/css/1024.css",
+   "capture/css/202.css",
+   "capture/css/1054.css",
+   "capture/css/1056.css",
+   "capture/css/1058.css",
+   "capture/css/1247.css",
+   "capture/css/1346.css",
+   "capture/css/1168.css",
+   "capture/css/1354.css",
+   "capture/css/1358.css",
+   "capture/css/1135.css",
+   "capture/css/1363.css",
+   "capture/css/1368.css",
+   "capture/css/1370.css",
+   "capture/css/1374.css",
+   "capture/css/1385.css",
+   "capture/css/1393.css",
+   "examples/portfolio/vendor/m-audio-player.css",
+   "examples/portfolio/vendor/me-media-icon.css",
+   "examples/portfolio/vendor/me-hover-btn.css",
+   "examples/portfolio/vendor/sea-download-pointer.css",
+   "examples/portfolio/vendor/hy-footer-1DmxLu.css",
+   "examples/portfolio/vendor/anchor-img-2u0Ts4.css",
+   "examples/portfolio/vendor/a.css",
+   "examples/portfolio/vendor/btn-outline-17rjoU.css",
+   "examples/portfolio/vendor/scroll-wrapper-2Veynw.css"
+  ],
+  "m": [
+   "capture/css/660.css",
+   "capture/css/662.css",
+   "capture/css/664.css",
+   "capture/css/668.css",
+   "capture/css/670.css",
+   "capture/css/673.css",
+   "capture/css/675.css",
+   "capture/css/681.css",
+   "capture/css/683.css",
+   "capture/css/685.css",
+   "capture/css/693.css",
+   "capture/css/695.css",
+   "capture/css/899.css",
+   "capture/css/527.css",
+   "capture/css/334.css",
+   "capture/css/154.css",
+   "capture/css/1024.css",
+   "capture/css/202.css",
+   "capture/css/1054.css",
+   "capture/css/1056.css",
+   "capture/css/1058.css",
+   "capture/css/1247.css",
+   "capture/css/1168.css",
+   "capture/css/1280.css",
+   "capture/css/1235.css",
+   "capture/css/1287.css",
+   "capture/css/1293.css",
+   "capture/css/1297.css",
+   "capture/css/1299.css",
+   "capture/css/1304.css",
+   "capture/css/1307.css",
+   "capture/css/1310.css",
+   "examples/portfolio/vendor/m-audio-player.css",
+   "examples/portfolio/vendor/me-media-icon.css",
+   "examples/portfolio/vendor/me-hover-btn.css",
+   "examples/portfolio/vendor/hy-footer-1DmxLu.css",
+   "examples/portfolio/vendor/anchor-img-2u0Ts4.css",
+   "examples/portfolio/vendor/a.css",
+   "examples/portfolio/vendor/btn-outline-17rjoU.css",
+   "examples/portfolio/vendor/scroll-wrapper-2Veynw.css",
+   "capture/css/1170.css",
+   "capture/css/1315.css",
+   "capture/css/1160.css",
+   "capture/css/1312.css",
+   "capture/css/1321.css"
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+/* Verbatim style text injected at run time by _nuxt/be1f69b.js (recorded as style tag 46 of zh-cn_main, 1651 characters). Belongs to HoYoverse / COGNOSPHERE; reproduced for the study of the site's construction. */
+.me-hover-btn {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  outline: none;
+  z-index: 1;
+}
+.me-hover-btn-pc:hover .me-hover-btn__img-hover {
+  opacity: 1;
+}
+.me-hover-btn-pc:hover .me-hover-btn__img-normal {
+  opacity: 0;
+}
+.me-hover-btn-mob:active .me-hover-btn__img-hover {
+  opacity: 1;
+}
+.me-hover-btn-mob:active .me-hover-btn__img-normal {
+  opacity: 0;
+}
+.me-hover-btn-active .me-hover-btn__img-normal, .me-hover-btn-active .me-hover-btn__img-hover {
+  opacity: 0 !important;
+}
+.me-hover-btn-active .me-hover-btn__img-active {
+  opacity: 1 !important;
+}
+.me-hover-btn-disable {
+  cursor: not-allowed;
+}
+.me-hover-btn-disable .me-hover-btn__img-normal, .me-hover-btn-disable .me-hover-btn__img-hover {
+  opacity: 0 !important;
+}
+.me-hover-btn-disable .me-hover-btn__img-disable {
+  opacity: 1 !important;
+}
+.me-hover-btn__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: -1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  outline: none;
+  border: none;
+  pointer-events: none;
+}
+.me-hover-btn__img-normal {
+  opacity: 1;
+}
+.me-hover-btn__placeholder {
+  position: relative;
+  z-index: 2;
+  display: inline;
+}
+.me-hover-btn-bg {
+  -webkit-transition: background-image 0.3s;
+  -o-transition: background-image 0.3s;
+  transition: background-image 0.3s;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

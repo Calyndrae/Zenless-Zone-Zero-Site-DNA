@@ -1,0 +1,17 @@
+/* Verbatim style text injected at run time by _nuxt/be1f69b.js (recorded as style tag 43 of zh-cn_main, 241 characters). Belongs to HoYoverse / COGNOSPHERE; reproduced for the study of the site's construction. */
+.m-audio-player {
+  position: relative;
+}
+.m-audio-player__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.m-audio-player__icon--hover {
+  opacity: 0;
+}
+.m-audio-player__icon--hover:hover {
+  opacity: 1;
+}

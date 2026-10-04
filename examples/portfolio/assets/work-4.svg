@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800" width="1200" height="1800">
+    <rect x="40" y="40" width="1120" height="1720" rx="56" fill="#fff" stroke="#000" stroke-width="24"/>
+    <rect x="112" y="112" width="976" height="1040" rx="24" fill="#d8fa00"/>
+    <text x="600" y="820" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="560" font-weight="700" fill="#000" text-anchor="middle" font-style="italic">T</text>
+    <text x="600" y="1380" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="118" font-weight="700" fill="#000" text-anchor="middle" letter-spacing="6">TOKENS</text>
+    <text x="600" y="1520" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="68" font-weight="700" fill="#222122">设计令牌</text>
+    <rect x="112" y="1600" width="660" height="18" fill="#d8fa00"/>
+  </svg>
