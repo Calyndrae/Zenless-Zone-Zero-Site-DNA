@@ -1,5 +1,5 @@
 {
- "at": "2026-10-04T01:09:36.958Z",
+ "at": "2026-10-04T01:51:51.370Z",
  "results": [
   {
    "name": "shell untouched: the original scripts and the mirror adapter are the only head scripts in the served file",
@@ -16,7 +16,7 @@
    "name": "news template rendered the handbook record",
    "ok": true,
    "detail": {
-    "ms": 6380
+    "ms": 6637
    }
   },
   {
@@ -93,6 +93,15 @@
    }
   },
   {
+   "name": "every specimen image loads, and lazy-loaded images are visible",
+   "ok": true,
+   "detail": {
+    "images": 45,
+    "lazy": 2,
+    "bad": []
+   }
+  },
+  {
    "name": "extra original stylesheets are present in the head",
    "ok": true,
    "detail": {
@@ -137,6 +146,14 @@
    "name": "no missing files on this host",
    "ok": true,
    "detail": []
+  },
+  {
+   "name": "nothing fetched from the live CDN or the live site (specimen images come from the archive)",
+   "ok": true,
+   "detail": {
+    "live": 0,
+    "sample": []
+   }
   },
   {
    "name": "phone tree /m/zh-cn/news/7013 renders the handbook in the mobile news template",
