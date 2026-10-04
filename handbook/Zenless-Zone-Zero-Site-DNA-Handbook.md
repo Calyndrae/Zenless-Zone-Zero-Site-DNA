@@ -1913,7 +1913,7 @@ Injected by the CRM SDK, which also injects its stylesheet on every page. In eve
 
 **Specimen — HoYoverse footer (hy-footer, footer SDK)**
 
-Injected by the footer SDK: product logos, legal links, trademark notice and the language selector. The logos are lazy-loaded by the SDK (img data-src, no src in the markup), so they show in the live footer at the bottom of this page, not in this static specimen.
+Injected by the footer SDK: product logos, legal links, trademark notice and the language selector. The logos are lazy-loaded by the SDK (img data-src, no src in the captured markup); the rendered specimen resolves them from the archive and applies the loader class the SDK CSS pairs with opacity 1, as the SDK loader does at run time.
 
 ```html
 <footer class="hy-footer-1DmxLu">
@@ -52206,7 +52206,7 @@ The analysis and capture archives behind the chapters are large machine-readable
 | _nuxt/ | the build files at their original paths (chunks, fonts, images) | 12.1 MB | [https://sitedna.zenlesszonezero.calyndrae.com/_nuxt/](https://sitedna.zenlesszonezero.calyndrae.com/_nuxt/) |
 | zh-cn/ and m/ | the self-contained mirror: the shell at every route of both trees, served from the archive | 0 B | [https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/ and m/](https://sitedna.zenlesszonezero.calyndrae.com/zh-cn/ and m/) |
 | mirror/ | the mirror adapter and the rewritten copies it serves | 5.9 MB | [https://sitedna.zenlesszonezero.calyndrae.com/mirror/](https://sitedna.zenlesszonezero.calyndrae.com/mirror/) |
-| verification/report.json | the handbook verification report | 4 KB | [https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json](https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json) |
+| verification/report.json | the handbook verification report | 5 KB | [https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json](https://sitedna.zenlesszonezero.calyndrae.com/verification/report.json) |
 | verification/mirror-report.json | the mirror verification report | 2 KB | [https://sitedna.zenlesszonezero.calyndrae.com/verification/mirror-report.json](https://sitedna.zenlesszonezero.calyndrae.com/verification/mirror-report.json) |
 | handbook/handbook-content.json | the live handbook as the CMS record 7013 | 1.4 MB | [https://sitedna.zenlesszonezero.calyndrae.com/handbook/handbook-content.json](https://sitedna.zenlesszonezero.calyndrae.com/handbook/handbook-content.json) |
 
