@@ -1,5 +1,5 @@
 {
- "date": "2026-10-04T07:22:12.539Z",
+ "date": "2026-10-04T08:26:13.570Z",
  "base": "http://127.0.0.1:8799/examples/portfolio/?lang=zh-cn",
  "desktop": {
   "2560x1440": {
@@ -51,18 +51,18 @@
     "x": 320,
     "y": 48,
     "w": 1920,
-    "h": 1152.75
+    "h": 1536.19
    },
    "downloadLayout": {
-    "x": 1665.67,
+    "x": 1527.45,
     "y": 1037.42,
-    "w": 514.33,
+    "w": 652.55,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 1767.25,
-    "y": 1015.42,
-    "w": 131.19,
+    "x": 1629.03,
+    "y": 1040.61,
+    "w": 130.55,
     "h": 40.8
    },
    "sections": [
@@ -97,7 +97,7 @@
      "height": 1530
     }
    ],
-   "pageHeight": 8512,
+   "pageHeight": 8247,
    "footerSocialbar": {
     "x": 320,
     "y": 7842,
@@ -112,13 +112,13 @@
    },
    "crm": {
     "x": 0,
-    "y": 7906,
-    "w": 2560,
-    "h": 265
+    "y": 0,
+    "w": 0,
+    "h": 0
    },
    "hyFooter": {
     "x": 0,
-    "y": 8171,
+    "y": 7906,
     "w": 2560,
     "h": 341.16
    },
@@ -127,7 +127,7 @@
     "bullets": 6
    },
    "worldSlides": 9,
-   "featureSlides": 18,
+   "featureSlides": 12,
    "bgm": false,
    "lang": "zh-cn",
    "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
@@ -154,12 +154,12 @@
     "active": "03"
    },
    "worksNavClick4": {
-    "activeIndex": "TOKENS",
-    "enName": "TOKENS",
+    "activeIndex": "Claret Flint",
+    "enName": "Claret Flint",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "title": "《绝区零》克拉蕾EP | Link up",
     "active": "2",
     "track": "translateX(-576px)"
    },
@@ -217,18 +217,18 @@
     "x": 240,
     "y": 36,
     "w": 1440,
-    "h": 864.56
+    "h": 1152.14
    },
    "downloadLayout": {
-    "x": 1120.67,
+    "x": 982.45,
     "y": 753.67,
-    "w": 514.33,
+    "w": 652.55,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 1222.25,
-    "y": 731.67,
-    "w": 131.19,
+    "x": 1084.03,
+    "y": 756.86,
+    "w": 130.55,
     "h": 40.8
    },
    "sections": [
@@ -263,7 +263,7 @@
      "height": 1148
     }
    ],
-   "pageHeight": 6517,
+   "pageHeight": 6287,
    "footerSocialbar": {
     "x": 240,
     "y": 5881.5,
@@ -278,13 +278,13 @@
    },
    "crm": {
     "x": 0,
-    "y": 5945.5,
-    "w": 1920,
-    "h": 230
+    "y": 0,
+    "w": 0,
+    "h": 0
    },
    "hyFooter": {
     "x": 0,
-    "y": 6175.5,
+    "y": 5945.5,
     "w": 1920,
     "h": 341.16
    },
@@ -293,7 +293,7 @@
     "bullets": 6
    },
    "worldSlides": 9,
-   "featureSlides": 18,
+   "featureSlides": 12,
    "bgm": false,
    "lang": "zh-cn",
    "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
@@ -320,12 +320,12 @@
     "active": "04"
    },
    "worksNavClick4": {
-    "activeIndex": "TOKENS",
-    "enName": "TOKENS",
+    "activeIndex": "Claret Flint",
+    "enName": "Claret Flint",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "title": "《绝区零》克拉蕾EP | Link up",
     "active": "2",
     "track": "translateX(-432px)"
    },
@@ -383,18 +383,18 @@
     "x": 180,
     "y": 27,
     "w": 1080,
-    "h": 648.42
+    "h": 864.11
    },
    "downloadLayout": {
-    "x": 711.92,
+    "x": 573.7,
     "y": 540.86,
-    "w": 514.33,
+    "w": 652.55,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 813.5,
-    "y": 518.86,
-    "w": 131.19,
+    "x": 675.28,
+    "y": 544.05,
+    "w": 130.55,
     "h": 40.8
    },
    "sections": [
@@ -429,7 +429,7 @@
      "height": 861
     }
    ],
-   "pageHeight": 5020,
+   "pageHeight": 4835,
    "footerSocialbar": {
     "x": 180,
     "y": 4411.13,
@@ -444,22 +444,22 @@
    },
    "crm": {
     "x": 0,
-    "y": 4475.13,
-    "w": 1440,
-    "h": 203.75
+    "y": 0,
+    "w": 0,
+    "h": 0
    },
    "hyFooter": {
     "x": 0,
-    "y": 4678.88,
+    "y": 4475.13,
     "w": 1440,
-    "h": 341.16
+    "h": 360.34
    },
    "newsSwiper": {
     "slides": 18,
     "bullets": 6
    },
    "worldSlides": 9,
-   "featureSlides": 18,
+   "featureSlides": 12,
    "bgm": false,
    "lang": "zh-cn",
    "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
@@ -486,12 +486,12 @@
     "active": "05"
    },
    "worksNavClick4": {
-    "activeIndex": "TOKENS",
-    "enName": "TOKENS",
+    "activeIndex": "Claret Flint",
+    "enName": "Claret Flint",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "title": "《绝区零》克拉蕾EP | Link up",
     "active": "2",
     "track": "translateX(-324px)"
    },
@@ -549,18 +549,18 @@
     "x": 100,
     "y": 27,
     "w": 1080,
-    "h": 648.42
+    "h": 864.11
    },
    "downloadLayout": {
-    "x": 631.92,
+    "x": 493.7,
     "y": 540.86,
-    "w": 514.33,
+    "w": 652.55,
     "h": 97.58
    },
    "downloadItem": {
-    "x": 733.5,
-    "y": 518.86,
-    "w": 131.19,
+    "x": 595.28,
+    "y": 544.05,
+    "w": 130.55,
     "h": 40.8
    },
    "sections": [
@@ -595,7 +595,7 @@
      "height": 861
     }
    ],
-   "pageHeight": 4968,
+   "pageHeight": 4783,
    "footerSocialbar": {
     "x": 100,
     "y": 4411.13,
@@ -610,22 +610,22 @@
    },
    "crm": {
     "x": 0,
-    "y": 4475.13,
-    "w": 1280,
-    "h": 203.75
+    "y": 0,
+    "w": 0,
+    "h": 0
    },
    "hyFooter": {
     "x": 0,
-    "y": 4678.88,
+    "y": 4475.13,
     "w": 1280,
-    "h": 289.16
+    "h": 308.34
    },
    "newsSwiper": {
     "slides": 18,
     "bullets": 6
    },
    "worldSlides": 9,
-   "featureSlides": 18,
+   "featureSlides": 12,
    "bgm": false,
    "lang": "zh-cn",
    "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
@@ -652,12 +652,12 @@
     "active": "04"
    },
    "worksNavClick4": {
-    "activeIndex": "TOKENS",
-    "enName": "TOKENS",
+    "activeIndex": "Claret Flint",
+    "enName": "Claret Flint",
     "thumbActive": "3"
    },
    "videoNavClick3": {
-    "title": "Swiper 4.5.1：fade、auto、loop 三种用法",
+    "title": "《绝区零》克拉蕾EP | Link up",
     "active": "2",
     "track": "translateX(-324px)"
    },
@@ -688,9 +688,9 @@
    },
    "preregister": {
     "x": 0,
-    "y": 807.61,
+    "y": 722.84,
     "w": 390,
-    "h": 36.39
+    "h": 121.16
    },
    "kv": {
     "x": 0,
@@ -735,17 +735,18 @@
      "height": 1330
     }
    ],
-   "pageHeight": 4107,
+   "pageHeight": 3810,
    "loadMoreItems": 3,
    "menuOpen": {
     "open": true,
     "bodyOverflow": "hidden",
     "links": [
      "首页",
-     "作品",
-     "影像",
-     "动态",
-     "档案"
+     "角色介绍",
+     "影像资料",
+     "新闻资讯",
+     "设定档案",
+     "更多 兑换码充值攻略"
     ]
    },
    "afterLoadMore": 6,
@@ -774,9 +775,9 @@
    },
    "preregister": {
     "x": 0,
-    "y": 632,
+    "y": 550.5,
     "w": 375,
-    "h": 35
+    "h": 116.5
    },
    "kv": {
     "x": 0,
@@ -821,17 +822,18 @@
      "height": 1280
     }
    ],
-   "pageHeight": 3985,
+   "pageHeight": 3688,
    "loadMoreItems": 3,
    "menuOpen": {
     "open": true,
     "bodyOverflow": "hidden",
     "links": [
      "首页",
-     "作品",
-     "影像",
-     "动态",
-     "档案"
+     "角色介绍",
+     "影像资料",
+     "新闻资讯",
+     "设定档案",
+     "更多 兑换码充值攻略"
     ]
    },
    "afterLoadMore": 6,
@@ -843,24 +845,27 @@
  },
  "localeList": {
   "visible": true,
-  "options": [
-   "English",
-   "中文(简体)"
-  ]
+  "options": 13
  },
- "localeSwitch": {
-  "lang": "en-us",
-  "title": "Calyndrae | Portfolio · a child site of the site DNA",
+ "words": {
+  "title": "《绝区零》官方网站",
   "nav": [
-   "Home",
-   "Works",
-   "Showcase",
-   "Updates",
-   "Archive",
-   "More",
-   "Handbook"
+   "首页",
+   "角色介绍",
+   "影像资料",
+   "新闻资讯",
+   "设定档案",
+   "更多",
+   "立即下载"
   ],
-  "fontVar": "\"Helvetica neue\", Helvetica, Arial, \"PingFang SC\", \"Microsoft YaHei\", \"sans-serif\"",
+  "sections": [
+   "角色介绍",
+   "影像资料",
+   "新闻资讯",
+   "设定档案",
+   "游戏特色"
+  ],
+  "fontVar": "\"Helvetica neue\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei UI\", \"Microsoft YaHei\", Arial, \"sans-serif\"",
   "errors": [
    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
    "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
@@ -872,7 +877,8 @@
   "closedByEscape": true,
   "errors": [
    "request failed: https://fastcdn.hoyoverse.com/static-resource-v2/2024/05/17/ce1888e31d79d6d4b2f4ad9b25fbbd68_1850626400856033913.png",
-   "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+   "console: Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+   "request failed: https://www.youtube.com/embed/KGOynaQoofc"
   ]
  }
 }

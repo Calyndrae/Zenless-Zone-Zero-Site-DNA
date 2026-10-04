@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 650" width="750" height="650">
-    <rect x="30" y="30" width="690" height="590" rx="36" fill="#fff" stroke="#000" stroke-width="16"/>
-    <rect x="80" y="80" width="280" height="280" rx="18" fill="#222122"/>
-    <text x="220" y="310" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="210" font-weight="700" fill="#d8fa00" text-anchor="middle" font-style="italic">A</text>
-    <text x="400" y="200" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="52" font-weight="700" fill="#000" letter-spacing="3">ARCHIVE</text>
-    <text x="402" y="262" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="38" font-weight="700" fill="#222122">原件归档</text>
-    <rect x="400" y="300" width="150" height="10" fill="#d8fa00"/>
-  </svg>

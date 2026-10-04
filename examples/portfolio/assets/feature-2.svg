@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2062 786" width="2062" height="786">
-    <defs><pattern id="ft2" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)"><rect width="13" height="44" fill="#232323"/></pattern></defs>
-    <rect width="2062" height="786" fill="#111"/>
-    <polygon points="8,0 800,0 692,786 -100,786" fill="url(#ft2)"/>
-    <text x="1960" y="520" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="520" font-weight="700" fill="#2a2a2a" text-anchor="end" font-style="italic">02</text>
-    <polygon points="1458,120 1640,120 1562,210 1380,210" fill="#d8fa00"/>
-  </svg>

@@ -15,7 +15,7 @@ const here = dirname(fileURLToPath(import.meta.url));
 const repo = resolve(here, '..', '..');
 const src = join(here, 'src');
 const read = name => readFileSync(join(src, name), 'utf8');
-const safeJson = obj => JSON.stringify(obj).replace(/<\//g, '<\\/').replace(/<!--/g, '<\\!--');   // never close the script element from inside the data
+const safeJson = obj => JSON.stringify(obj).replace(/<\//g, '<\\/').replace(/<!--/g, '<\\u0021--');   // never close the script element or open a comment from inside the data (both are valid JSON escapes)
 
 const dictionaries = {};
 for (const file of readdirSync(src)) {
@@ -31,12 +31,15 @@ const hrefFor = source => {
   return relative(here, abs).split('\\').join('/');
 };
 const trees = Object.fromEntries(Object.entries(sheets.trees).map(([tree, list]) => [tree, list.map(hrefFor)]));
+const escHtml = s => String(s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
 const parts = {
+  'title': escHtml((dictionaries['zh-cn'] || Object.values(dictionaries)[0] || {}).seoTitle || ''),   // the site's own seoTitle
   'stylesheets': safeJson(trees),
   'app.js': read('app.js').trim().replace(/<\/script/gi, '<\\/script'),
   'i18n': safeJson(dictionaries),
   'content.json': safeJson(JSON.parse(read('content.json'))),
   'site-assets.json': safeJson(JSON.parse(read('site-assets.json'))),
+  'site-fragments.json': safeJson(JSON.parse(read('site-fragments.json'))),
 };
 let page = read('page.html');
 for (const [key, value] of Object.entries(parts)) {

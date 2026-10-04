@@ -140,21 +140,16 @@ for (const [w, h] of [[390, 844], [375, 667]]) {
   await context.close();
 }
 
-// the English dictionary, switched through the corporate footer's language picker (chapter 35)
+// the corporate footer's locale picker (lifted verbatim) opens and lists the site's languages; the title and nav words are the site's dictionary
 {
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
   const errors = collectErrors(page);
   await page.goto(base, { waitUntil: 'load' });
   await settle(page);
-  await page.$eval('[data-action="toggle-locale"]', el => el.scrollIntoView({ block: 'center' })); await page.waitForTimeout(300);
-  await page.click('[data-action="toggle-locale"]'); await page.waitForTimeout(200);
-  report.localeList = await page.evaluate(() => ({ visible: !document.querySelector('.option-wrapper-2bMXEX').classList.contains('invisible-FbKElL'), options: Array.from(document.querySelectorAll('[data-action="set-locale"]')).map(o => o.textContent.trim()) }));
-  await page.click('[data-action="set-locale"][data-lang="en-us"]');
-  await page.waitForFunction(() => document.documentElement.lang === 'en-us' && document.querySelector('.header__navbar-link[data-nav="character"] span').textContent === 'Works', null, { timeout: 5000 });
-  await page.waitForTimeout(600);
-  report.localeSwitch = { lang: await page.evaluate(() => document.documentElement.lang), title: await page.title(), nav: await page.evaluate(() => Array.from(document.querySelectorAll('.header__navbar-link span')).map(s => s.textContent.trim())), fontVar: await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--mi18n-font-css').trim()), errors };
-  await page.evaluate(() => scrollTo(0, 0)); await page.waitForTimeout(600);
-  await page.screenshot({ path: join(outDir, 'desktop-1440x900-en-us.png') });
+  await page.$eval('.locale-selector-3HQCGC', el => el.scrollIntoView({ block: 'center' })); await page.waitForTimeout(300);
+  await page.click('.locale-selector-3HQCGC'); await page.waitForTimeout(200);
+  report.localeList = await page.evaluate(() => ({ visible: !document.querySelector('.option-wrapper-2bMXEX').classList.contains('invisible-FbKElL'), options: Array.from(document.querySelectorAll('.option-12YHh_')).map(o => o.textContent.trim()).length }));
+  report.words = { title: await page.title(), nav: await page.evaluate(() => Array.from(document.querySelectorAll('.header__navbar-link span')).map(s => s.textContent.trim())), sections: await page.evaluate(() => Array.from(document.querySelectorAll('.section-nav-label')).map(s => s.textContent.trim())), fontVar: await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--mi18n-font-css').trim()), errors };
   await page.close();
 }
 // the overlay player and the keyboard path of the controls

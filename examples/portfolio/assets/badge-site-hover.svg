@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 102" width="328" height="102">
-    <rect x="3" y="3" width="322" height="96" rx="14" fill="#d8fa00" stroke="#000" stroke-width="6"/>
-    <g transform="translate(22 11) scale(1)"><path d="M18 18h20a6 6 0 0 1 4 2 6 6 0 0 1 4-2h20v42H46a4 4 0 0 0-4 4h-4a4 4 0 0 0-4-4H18zm4 4v34h16a8 8 0 0 1 2 .5V26a4 4 0 0 0-2-4zm40 0H46a4 4 0 0 0-2 4v30.5a8 8 0 0 1 2-.5h16z" fill="#000"/></g>
-    <text x="110" y="52" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#000">Site DNA</text>
-    <text x="110" y="82" font-family="'Helvetica Neue',Helvetica,Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#000" opacity=".75">技术手册</text>
-  </svg>

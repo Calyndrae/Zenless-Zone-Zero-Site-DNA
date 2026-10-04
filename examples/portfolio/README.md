@@ -1,92 +1,63 @@
-# Portfolio example — a child site built from the site DNA
+# Example page — a child site built from the site DNA
 
-A single-page portfolio that follows the handbook (`/zh-cn/news/7013/`) by reusing the studied site's **own
-components**: its stylesheet modules, its SDK styles and its captured component markup, with this portfolio's
-records in the content slots. The page carries no stylesheet of its own.
-
-Open it from the repository root, as the live site is served (the site's stylesheets reference `/_nuxt/img/…`
-and `/_nuxt/fonts/…` by absolute path, so the page needs the repository at the server root; a `file://` open
-does not work):
+A single page that follows the handbook (`/zh-cn/news/7013/`) by reusing the studied site's **own parts and nothing
+else**: its stylesheet modules, its SDK styles, its captured component markup, its dictionaries and the records and
+images in the repository's archive. Nothing on the page is drawn, styled or written for it.
 
 ```sh
 node tools/serve.mjs 8786
 # http://127.0.0.1:8786/examples/portfolio/            desktop or phone tree, chosen by the user agent
 # http://127.0.0.1:8786/examples/portfolio/?tree=m     force the phone tree (?tree=pc for the desktop tree)
-# http://127.0.0.1:8786/examples/portfolio/?lang=en-us the English dictionary (the footer picker switches too)
 ```
 
-On the published mirror the same page lives at `/examples/portfolio/`.
+The page is served with the repository at the server root, as the live site is (the site's stylesheets reference
+`/_nuxt/img/…` and `/_nuxt/fonts/…` by absolute path); `file://` does not work. On the published mirror it lives at
+`/examples/portfolio/`. `tools/bundle.mjs` packs it with every file it requests into a folder that runs on its own.
 
-## What is the site's, verbatim
+## Where everything comes from
 
-| Part | Where it comes from |
+| Part | Source |
 |---|---|
 | Stylesheets, desktop tree (42) and phone tree (45) | `capture/css/<module>.css`, the css-loader modules extracted from the bundle, in the order each home page injects them (`src/stylesheets.json`, built by `tools/collect-styles.mjs` from the recorded style tags of `capture/pages/zh-cn_main`, `m_zh-cn_main` and `m_zh-cn_news`) |
 | SDK styles (footer, media icons, copy button, download layout, audio player) | `vendor/*.css`, lifted from the archived SDK scripts; each file's length equals the style tag recorded on the page |
-| Component markup | the captured DOM (`capture/pages/*/dom.html`, handbook specimens): header, KV with the download layout, sidebar pager, the six home sections with their `data-v-*` scopes, the three-part footer (social strip, CRM form, corporate footer with its hashed classes), the phone header, menu, sections, pre-register bar and the news page's load-more list |
-| Decorative images the components position | `/_nuxt/img/*` (fill shapes, film strips, panel backgrounds) and the data-URI icons the markup carries (`src/site-assets.json`) |
-| Loader | the shell's inline `.zzz-loading` style and the `loading` component, both pointing at the site's sprite |
+| Component markup | the captured DOM (`capture/pages/*/dom.html`, handbook specimens): header, KV, sidebar pager, the six home sections with their `data-v-*` scopes, the three-part footer, the phone header, menu, sections, pre-register bar and the news page's load-more list, with the pre-entrance transforms the capture carries |
+| SDK-rendered blocks | `src/site-fragments.json`, lifted verbatim from the captured DOMs by `tools/collect-content.mjs`: download layout (QR + store badges), share list, footer strip with the copy button, corporate footer with the locale picker, CRM form, phone menu, pre-register bar |
+| Records | `src/content.json`: the content API's archived answers for channels 285 (key visual), 286 (camps), 287 (characters), 288 (news), 289 (features), 290 (world), 292 (social) and 1332 (videos) plus the child trees, with image URLs pointing at the archived copies |
+| Strings | `src/i18n.zh-cn.json`: the site's own mi18n dictionaries merged flat (`nav1`…`nav5`, `navVideo`, `learnMore`, `download_label`, `pc_download_tip`, `conceptTitle` …); the archive holds the zh-cn set, so that is the language shown |
+| Images | the records' own fields (`home-kv`, `chara-cover-home`, `chara-nav`, `camp-shade`, `video-cover`, `news-banner`, `world-home-banner`, `feature-banner` and their `-m` variants), the dictionary's images (`home_download_icon`, `m_download_btn`, `logoMob`, `conceptVideo`), `/_nuxt/img/*` and the data-URI icons the markup carries (`src/site-assets.json`) |
+| Application | `src/app.js`: rem adapter port, store, content API client over the inline answers, a Swiper-vocabulary carousel, both trees' behaviours, `$getI18nWord`, audio toggle, loader hand-over |
 
-Three places where the site paints its own brand through CSS take an inline `background-image` of an original
-drawing instead: the phone header mark (`.logo-icon`), the badge at the foot of the archive block
-(`.section__concept-icon`) and the phone archive plate (`.section__concept`), which draws the badge into the plate.
-
-## What is this portfolio's
-
-| Part | File |
-|---|---|
-| Records, in the content API's shapes (`sTitle`, `sIntro`, `sContent`, `sExt`, `iInfoId`, channel ids 285/286/287/288/290/292/1332) | `src/content.json` |
-| Dictionaries (zh-cn, en-us) | `src/i18n.*.json` |
-| Every image in the content slots (key visuals, work posters, showcase stages, banners, badges, QR tile, slogan, logo) | `assets/*.svg`, generated by `tools/gen-assets.mjs` |
-| The application: rem adapter, store, content API client, Swiper-vocabulary carousel, the two trees' behaviours, i18n, audio, loader hand-over | `src/app.js` |
-| The shell | `src/page.html` → `index.html` via `build.mjs` |
+The site asks the characters channel for 200 records; the example keeps the first 12 (`PAGE_SIZE.CHARACTERS`) so the
+standalone bundle stays small. Videos open the records' YouTube embeds in the site's overlay player.
 
 ## Rule by rule
 
 | Handbook rule | Here |
 |---|---|
-| rem adapter: `html font-size = 100 × clientWidth ÷ designWidth`, desktop 2560 clamped to [1440, 2560], phone 750 (1334 in landscape), root hidden until the first value | `initFlexible` in `src/app.js`; measured 100 / 75 / 56.25 / 56.25 px at 2560 / 1920 / 1440 / 1280, 52 px at 390 |
-| Two trees chosen by the user agent in the head | the head script picks the tree, writes that tree's `<link>` list and marks `data-tree`; `?tree=` forces it |
-| Root attributes the stylesheets key on | `pc desktop` / `mo mobile`, `landscape` / `portrait`, `lang`, `mi18n-lang`, `hyv-device`, `theme-mode`, `brand` |
-| 1 rem header, 19.2 rem wrapper, big logo swapping to the small one on scroll | the captured header markup; 56.25 × 1440, wrapper 1080, logo 129.4 × 30.4 at 1440 |
-| Sidebar pager: 0.82 × 3.58 rem at top 3.2 rem, numbers in the display face, prev/next arrows, bound to the store's home section | `aside.sidebar`; 46.1 × 201.4 at top 180; the active number follows the scroll probe at half the viewport |
-| Six home compositions with their scoped styles | `section-index`, `home-character`, `home-video`, `home-news`, `home-world`, `home-feature`, each with the captured `data-v` attribute |
-| Swiper 4 vocabulary: fade for stages, `slidesPerView: auto` for strips, loop triples the slides, 300 ms, 800 ms for the archive carousel | `MiniSwiper` writes Swiper's classes and inline styles; 6 news records → 18 slides and 6 bullets, 3 archive records → 9 slides |
-| Entrances: 0.3 s; the captured pre-entrance transforms | section labels at ±140 %, the works stage at 120–140 %, the news container and archive banner at 40 % down, released when the section enters |
-| Hover restraint: scale 1.1–1.12 or inversion | the site's own rules; measured scale 1.12 + white pill on nav entries, inversion on `more-btn` |
-| Three-part footer | social strip + copy link, CRM form, corporate footer with the locale picker |
-| Phone tree: fixed 1.1 rem bar, menu panel, section nav, load-more list, pre-register bar | the captured `m-*` markup, the news page's list module appended to the phone stylesheet list |
-| Content through the API shapes, language as the first path segment or `?lang` | `api.getContentList / getContent / getChildTree` over the inline records |
-| Audio: one loop behind a persisted mute toggle | `m-audio-player` markup; state under `portfolioBgAudio` |
+| rem adapter: `html font-size = 100 × clientWidth ÷ designWidth`, desktop 2560 clamped to [1440, 2560], phone 750 (1334 in landscape), root hidden until the first value | `initFlexible`; measured 100 / 75 / 56.25 / 56.25 px at 2560 / 1920 / 1440 / 1280, 52 px at 390 |
+| Two trees chosen by the user agent in the head | the head script picks the tree, writes that tree's `<link>` list and marks `data-tree` |
+| Root attributes the stylesheets key on | `pc desktop` / `mo mobile`, `landscape` / `portrait`, `lang`, `mi18n-lang`, `hyv-device`, `theme-mode`, `brand`, `--mi18n-font-css` |
+| 1 rem header, 19.2 rem wrapper, big logo swapping to the small one on scroll | the captured header; 56.25 × 1440, wrapper 1080, logo 129.4 × 30.4 at 1440 |
+| Sidebar pager bound to the store's home section | `aside.sidebar`; 46.1 × 201.4 at top 180; the active number follows the scroll probe at half the viewport |
+| Six home compositions with their scoped styles | each with the captured `data-v` attribute, labels from `nav2`/`nav2Label` … |
+| Swiper 4 vocabulary: fade for stages, `slidesPerView: auto` for strips, loop triples the slides, 300 ms, 800 ms for the world carousel | `MiniSwiper` writes Swiper's classes and inline styles |
+| Entrances at 0.3 s from the captured pre-entrance transforms | released when the section enters; `prefers-reduced-motion` skips them |
+| Hover restraint, three-part footer, phone tree, content API shapes, audio toggle | the site's own rules and markup; see the verification report |
 
-Additions on top of the site's behaviour: the controls answer Enter and Space, carry roles and labels,
-`prefers-reduced-motion` skips the entrances, and the overlay player closes on Escape.
-
-## Verify
+## Verify, rebuild, pack
 
 ```sh
-node examples/portfolio/tools/verify.mjs
+node examples/portfolio/tools/verify.mjs           # Playwright: measurements, behaviours, screenshots → verification/
+node examples/portfolio/tools/collect-styles.mjs   # src/stylesheets.json, vendor/*.css, src/site-assets.json
+node examples/portfolio/tools/collect-content.mjs  # src/content.json, src/i18n.zh-cn.json, src/site-fragments.json
+node examples/portfolio/build.mjs                  # index.html
+node examples/portfolio/tools/bundle.mjs           # dist/standalone/: the page with every file it requests, a server and a launcher
 ```
 
-Serves the repository, opens the page at 2560 × 1440, 1920 × 1080, 1440 × 900, 1280 × 720 and, with an iPhone user
-agent, 390 × 844 and 375 × 667; reads the root font-size, the chrome boxes, the hover states, the sidebar and
-carousel behaviours, the phone menu and load-more list, the locale switch and the overlay player back, and writes
-`verification/report.json` with screenshots. Every request that fails or answers 4xx is listed per viewport; the only
-one in a sandbox without CDN access is the site's loader sprite.
-
-## Rebuild
-
-```sh
-node examples/portfolio/tools/gen-assets.mjs      # assets/*.svg
-node examples/portfolio/tools/collect-styles.mjs  # src/stylesheets.json, vendor/*.css, src/site-assets.json
-node examples/portfolio/build.mjs                 # index.html
-```
-
-`tools/extract-skeleton.mjs` prints the structural skeleton of a captured page (the templates the markup functions
-follow): `node examples/portfolio/tools/extract-skeleton.mjs desktop '.header,.sidebar'`.
+`tools/extract-skeleton.mjs` prints the structural skeleton of a captured page: `node examples/portfolio/tools/extract-skeleton.mjs desktop '.header,.sidebar'`.
 
 ## Ownership
 
-Zenless Zone Zero, its artwork, fonts, stylesheets, decorative images and code belong to HoYoverse / COGNOSPHERE and
-are reproduced here, unchanged, for the study of the site's construction; this page is not affiliated with them. The
-records, dictionaries, drawings and application script of the example are original.
+Zenless Zone Zero, its artwork, fonts, stylesheets, images, texts and code belong to HoYoverse / COGNOSPHERE and are
+reproduced here, unchanged, for the study of the site's construction; this page is not affiliated with them. The
+collection and build scripts and the application script are the repository's.
